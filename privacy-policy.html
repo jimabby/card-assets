@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Pockyt Privacy Policy</title>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+      background: #f9f6f0;
+      color: #1a1a1a;
+      line-height: 1.7;
+    }
+    .lang-bar {
+      background: #2c5f8a;
+      color: #fff;
+      text-align: center;
+      padding: 10px;
+      font-size: 14px;
+    }
+    .lang-bar a { color: #cce4ff; text-decoration: none; margin: 0 8px; }
+    .lang-bar a:hover { text-decoration: underline; }
+    header {
+      background: #2c5f8a;
+      color: #fff;
+      padding: 40px 24px 32px;
+      text-align: center;
+    }
+    header h1 { font-size: 28px; font-weight: 800; letter-spacing: 0.5px; }
+    header p { margin-top: 8px; opacity: 0.85; font-size: 15px; }
+    .container { max-width: 720px; margin: 40px auto; padding: 0 24px 60px; }
+    .section { background: #fff; border-radius: 14px; padding: 28px 28px 24px; margin-bottom: 20px; box-shadow: 0 2px 8px rgba(0,0,0,0.06); }
+    .section h2 { font-size: 17px; font-weight: 700; color: #2c5f8a; margin-bottom: 12px; }
+    .section p { font-size: 15px; color: #333; }
+    .updated { text-align: center; color: #888; font-size: 13px; margin-top: 32px; }
+    .contact-link { color: #2c5f8a; }
+
+    /* Chinese section, hidden by default */
+    #zh { display: none; }
+
+    @media (prefers-color-scheme: dark) {
+      body { background: #1c1c1e; color: #f0f0f0; }
+      .section { background: #2c2c2e; box-shadow: none; }
+      .section p { color: #ccc; }
+    }
+  </style>
+</head>
+<body>
+
+<div class="lang-bar">
+  <a href="#" onclick="showLang('en'); return false;">English</a> |
+  <a href="#" onclick="showLang('zh'); return false;">中文</a>
+</div>
+
+<!-- ═══════════════════════════════════════════════════════════════════ English -->
+<div id="en">
+  <header>
+    <h1>Pockyt Privacy Policy</h1>
+    <p>Your financial data, your privacy.</p>
+  </header>
+
+  <div class="container">
+
+    <div class="section">
+      <h2>1. Information We Collect</h2>
+      <p>Pockyt stores your financial data locally on your device. Pro and Power subscribers also benefit from optional cloud sync, which stores your data securely in Firebase Firestore to enable cross-device access. We do not sell or share your personal financial data with third parties. A bank account integration feature is planned for a future release; when available, Pockyt will request read-only access to your transaction data via a regulated third-party open banking API. Your bank credentials will never be stored by Pockyt.</p>
+    </div>
+
+    <div class="section">
+      <h2>2. AI Features</h2>
+      <p>AI chat and receipt scanning features are powered by Google Gemini via Firebase AI Logic. Your conversation and receipt data is sent to Google's servers to generate responses. We do not permanently store your AI conversations on our servers. Please note that AI features may be subject to local laws and regulations in certain regions, including mainland China, and availability may vary accordingly.</p>
+    </div>
+
+    <div class="section">
+      <h2>3. Authentication</h2>
+      <p>Pockyt uses Firebase Authentication. When you use the app without signing in, you are automatically assigned an anonymous account. You may optionally sign in with Google, Apple, or email/password to link your data to a persistent account and enable cloud sync.</p>
+    </div>
+
+    <div class="section">
+      <h2>4. Camera &amp; Photos</h2>
+      <p>Receipt photos are processed locally and sent to AI services for scanning. Photos are not permanently stored by Pockyt.</p>
+    </div>
+
+    <div class="section">
+      <h2>5. Data Security</h2>
+      <p>Your cloud data is protected by Firebase security rules that ensure only you can access your account. You can clear all app data at any time from Settings. When the bank integration feature launches, all banking connections will use encrypted, read-only API access through a certified open banking provider.</p>
+    </div>
+
+    <div class="section">
+      <h2>6. Regional Availability</h2>
+      <p>Pockyt operates globally. However, certain features — including AI-powered chat, receipt scanning, and cloud sync — may be restricted or unavailable in mainland China due to local data protection and internet regulations. We are actively working to bring compliant versions of these features to users in China and will release updates as regulations permit.</p>
+    </div>
+
+    <div class="section">
+      <h2>7. Bank Integration (Coming Soon)</h2>
+      <p>A future update will allow you to securely link your bank accounts to Pockyt for automatic transaction import. This feature will use a regulated open banking API with read-only access. Pockyt will never store your banking credentials. Full details will be provided in an updated Privacy Policy prior to the feature's release.</p>
+    </div>
+
+    <div class="section">
+      <h2>8. Contact</h2>
+      <p>For questions, feedback, or data deletion requests, please contact us at <a class="contact-link" href="mailto:wksunshine@gmail.com">wksunshine@gmail.com</a>.</p>
+    </div>
+
+    <p class="updated">Last updated: April 2026</p>
+  </div>
+</div>
+
+<!-- ═══════════════════════════════════════════════════════════════════ Chinese -->
+<div id="zh">
+  <header>
+    <h1>Pockyt 隐私政策</h1>
+    <p>您的财务数据，由您掌控。</p>
+  </header>
+
+  <div class="container">
+
+    <div class="section">
+      <h2>1. 我们收集的信息</h2>
+      <p>Pockyt 将您的财务数据本地存储在您的设备上。Pro 和 Power 订阅用户还可选择使用云同步功能，将数据安全存储在 Firebase Firestore 中，以实现跨设备访问。我们不会向第三方出售或共享您的个人财务数据。未来版本计划推出银行账户集成功能；届时，Pockyt 将通过受监管的第三方开放银行 API 请求对您交易数据的只读访问权限。Pockyt 绝不会存储您的银行凭据。</p>
+    </div>
+
+    <div class="section">
+      <h2>2. AI 功能</h2>
+      <p>AI 对话和收据扫描功能由 Google Gemini（通过 Firebase AI Logic）提供支持。您的对话内容和收据数据将发送至 Google 服务器以生成响应。我们不会在服务器上永久存储您的 AI 对话记录。请注意，AI 功能可能受特定地区（包括中国大陆）的当地法律法规约束，功能可用性可能因此有所不同。</p>
+    </div>
+
+    <div class="section">
+      <h2>3. 身份验证</h2>
+      <p>Pockyt 使用 Firebase Authentication 进行身份验证。未登录时，系统会自动为您分配一个匿名账户。您可以选择通过 Google、Apple 或电子邮件/密码登录，以将数据关联至持久账户并启用云同步。</p>
+    </div>
+
+    <div class="section">
+      <h2>4. 相机与照片</h2>
+      <p>收据照片在本地处理后发送至 AI 服务进行扫描。Pockyt 不会永久存储您的照片。</p>
+    </div>
+
+    <div class="section">
+      <h2>5. 数据安全</h2>
+      <p>您的云端数据受 Firebase 安全规则保护，确保只有您本人才能访问自己的账户。您可随时在"设置"中清除所有应用数据。银行集成功能上线后，所有银行连接均将通过认证开放银行服务商的加密只读 API 接入。</p>
+    </div>
+
+    <div class="section">
+      <h2>6. 地区可用性</h2>
+      <p>Pockyt 面向全球用户提供服务。但由于当地数据保护和互联网法规，AI 对话、收据扫描及云同步等功能在中国大陆可能受到限制或无法使用。我们正积极推进合规版本的开发，以服务中国用户，并将在法规允许的情况下及时发布更新。</p>
+    </div>
+
+    <div class="section">
+      <h2>7. 银行集成（即将推出）</h2>
+      <p>未来版本将支持安全关联银行账户，实现自动导入交易记录。该功能将通过受监管的开放银行 API 以只读方式接入。Pockyt 绝不会存储您的银行凭据。功能上线前，我们将在更新后的隐私政策中提供完整说明。</p>
+    </div>
+
+    <div class="section">
+      <h2>8. 联系方式</h2>
+      <p>如有疑问、反馈或数据删除请求，请发送邮件至 <a class="contact-link" href="mailto:wksunshine@gmail.com">wksunshine@gmail.com</a>。</p>
+    </div>
+
+    <p class="updated">最后更新：2026 年 4 月</p>
+  </div>
+</div>
+
+<script>
+  function showLang(lang) {
+    document.getElementById('en').style.display = lang === 'en' ? 'block' : 'none';
+    document.getElementById('zh').style.display = lang === 'zh' ? 'block' : 'none';
+  }
+  // Auto-detect browser language
+  if (navigator.language && navigator.language.startsWith('zh')) showLang('zh');
+</script>
+</body>
+</html>
