@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Little Mirrors Support</title>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+      background: #fdf5f5;
+      color: #1a1a1a;
+      line-height: 1.7;
+    }
+    header {
+      background: #c87a6d;
+      color: #fff;
+      padding: 40px 24px 32px;
+      text-align: center;
+    }
+    header h1 { font-size: 28px; font-weight: 800; }
+    header p { margin-top: 8px; opacity: 0.9; font-size: 15px; }
+    .container { max-width: 720px; margin: 40px auto; padding: 0 24px 60px; }
+    .section { background: #fff; border-radius: 14px; padding: 28px; margin-bottom: 20px; box-shadow: 0 2px 8px rgba(0,0,0,0.06); }
+    .section h2 { font-size: 17px; font-weight: 700; color: #c87a6d; margin-bottom: 14px; }
+    .section p { font-size: 15px; color: #333; margin-bottom: 10px; }
+    .section p:last-child { margin-bottom: 0; }
+    .faq-item { margin-bottom: 20px; }
+    .faq-item h3 { font-size: 15px; font-weight: 700; color: #1a1a1a; margin-bottom: 6px; }
+    .faq-item p { font-size: 15px; color: #444; }
+    .contact-btn {
+      display: inline-block;
+      background: #c87a6d;
+      color: #fff;
+      text-decoration: none;
+      padding: 12px 28px;
+      border-radius: 10px;
+      font-weight: 700;
+      font-size: 15px;
+      margin-top: 8px;
+    }
+    .contact-link { color: #c87a6d; }
+    .updated { text-align: center; color: #888; font-size: 13px; margin-top: 32px; }
+    .note {
+      background: #fff8e6;
+      border-left: 4px solid #e09b2d;
+      border-radius: 8px;
+      padding: 14px 18px;
+      font-size: 14px;
+      color: #555;
+    }
+
+    @media (prefers-color-scheme: dark) {
+      body { background: #1c1c1e; color: #f0f0f0; }
+      .section { background: #2c2c2e; box-shadow: none; }
+      .section p, .faq-item p { color: #ccc; }
+      .faq-item h3 { color: #f0f0f0; }
+      .note { background: #2e2a1e; color: #ccc; }
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>Little Mirrors Support</h1>
+  <p>Your pregnancy companion — we're here to help.</p>
+</header>
+
+<div class="container">
+
+  <div class="section">
+    <h2>Contact Us</h2>
+    <p>Have a question, found a bug, or need assistance? Send us an email and we'll get back to you as soon as we can.</p>
+    <a class="contact-btn" href="mailto:wksunshine@gmail.com">Email Support</a>
+    <p style="margin-top:14px; font-size:14px; color:#888;">wksunshine@gmail.com</p>
+  </div>
+
+  <div class="section">
+    <h2>Frequently Asked Questions</h2>
+
+    <div class="faq-item">
+      <h3>How does Lumi work?</h3>
+      <p>Lumi is your AI companion powered by Google Gemini. She delivers a personalized daily tip based on your pregnancy week, answers symptom questions, checks food and medication safety, and generates a baby portrait preview. Lumi requires an internet connection to work.</p>
+    </div>
+
+    <div class="faq-item">
+      <h3>How do I invite my partner?</h3>
+      <p>Go to Profile → Partner Sync and enter your partner's email address. They will need to install Little Mirrors and sign in with that email to see your shared data (week, milestones, and baby preview).</p>
+    </div>
+
+    <div class="faq-item">
+      <h3>How does the Baby Previewer work?</h3>
+      <p>Go to the Previewer tab and upload your ultrasound image. Optionally add photos of both parents. Lumi uses Gemini's image generation to create a soft, artistic portrait of your baby as a newborn. This is a creative tool — the result is not a medical prediction.</p>
+    </div>
+
+    <div class="faq-item">
+      <h3>How do I use the Kick Counter?</h3>
+      <p>Open the Tools tab and select Kick Counter. Tap the button each time you feel movement. Little Mirrors records the session duration and kick count. Results are saved to your history automatically.</p>
+    </div>
+
+    <div class="faq-item">
+      <h3>How do I use the Contraction Timer?</h3>
+      <p>Open the Tools tab and select Contraction Timer. Tap Start when a contraction begins and Stop when it ends. The app tracks duration and interval between contractions.</p>
+    </div>
+
+    <div class="faq-item">
+      <h3>Can I check if a food is safe?</h3>
+      <p>Yes. Open the Food &amp; Label Checker in Tools and type any food, ingredient, or medicine. Lumi will tell you whether it is generally safe during pregnancy and any precautions to keep in mind.</p>
+    </div>
+
+    <div class="faq-item">
+      <h3>What is the Hospital Bag checklist?</h3>
+      <p>The Hospital Bag tab contains a curated list of essentials to pack before your due date. You can check off items and add your own. Your checklist is saved to your account.</p>
+    </div>
+
+    <div class="faq-item">
+      <h3>How do I delete my data?</h3>
+      <p>To request deletion of your account and all associated data, please email us at <a class="contact-link" href="mailto:wksunshine@gmail.com">wksunshine@gmail.com</a>. We will process your request promptly.</p>
+    </div>
+
+    <div class="faq-item">
+      <h3>Is my data private?</h3>
+      <p>Your pregnancy data is stored in Firebase Firestore and is only accessible to you (and any partner you explicitly invite). AI features use Google Gemini; data sent for AI requests is processed by Google under their privacy policy. See our full Privacy Policy for details.</p>
+    </div>
+  </div>
+
+  <div class="section">
+    <div class="note">Little Mirrors is a wellness companion app. It does not provide medical advice, diagnosis, or treatment. Always consult your doctor, midwife, or qualified healthcare provider with any concerns about your pregnancy.</div>
+  </div>
+
+  <div class="section">
+    <h2>Privacy Policy</h2>
+    <p>Read our full <a class="contact-link" href="privacy-policy.html">Privacy Policy</a>.</p>
+  </div>
+
+  <p class="updated">Little Mirrors · wksunshine@gmail.com</p>
+</div>
+
+</body>
+</html>

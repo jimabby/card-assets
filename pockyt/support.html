@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Pockyt Support</title>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+      background: #f9f6f0;
+      color: #1a1a1a;
+      line-height: 1.7;
+    }
+    .lang-bar {
+      background: #2c5f8a;
+      color: #fff;
+      text-align: center;
+      padding: 10px;
+      font-size: 14px;
+    }
+    .lang-bar a { color: #cce4ff; text-decoration: none; margin: 0 8px; }
+    .lang-bar a:hover { text-decoration: underline; }
+    header {
+      background: #2c5f8a;
+      color: #fff;
+      padding: 40px 24px 32px;
+      text-align: center;
+    }
+    header h1 { font-size: 28px; font-weight: 800; }
+    header p { margin-top: 8px; opacity: 0.85; font-size: 15px; }
+    .container { max-width: 720px; margin: 40px auto; padding: 0 24px 60px; }
+    .section { background: #fff; border-radius: 14px; padding: 28px; margin-bottom: 20px; box-shadow: 0 2px 8px rgba(0,0,0,0.06); }
+    .section h2 { font-size: 17px; font-weight: 700; color: #2c5f8a; margin-bottom: 14px; }
+    .section p { font-size: 15px; color: #333; margin-bottom: 10px; }
+    .section p:last-child { margin-bottom: 0; }
+    .faq-item { margin-bottom: 20px; }
+    .faq-item h3 { font-size: 15px; font-weight: 700; color: #1a1a1a; margin-bottom: 6px; }
+    .faq-item p { font-size: 15px; color: #444; }
+    .contact-btn {
+      display: inline-block;
+      background: #2c5f8a;
+      color: #fff;
+      text-decoration: none;
+      padding: 12px 28px;
+      border-radius: 10px;
+      font-weight: 700;
+      font-size: 15px;
+      margin-top: 8px;
+    }
+    .contact-link { color: #2c5f8a; }
+    .updated { text-align: center; color: #888; font-size: 13px; margin-top: 32px; }
+
+    #zh { display: none; }
+
+    @media (prefers-color-scheme: dark) {
+      body { background: #1c1c1e; color: #f0f0f0; }
+      .section { background: #2c2c2e; box-shadow: none; }
+      .section p, .faq-item p { color: #ccc; }
+      .faq-item h3 { color: #f0f0f0; }
+    }
+  </style>
+</head>
+<body>
+
+<div class="lang-bar">
+  <a href="#" onclick="showLang('en'); return false;">English</a> |
+  <a href="#" onclick="showLang('zh'); return false;">中文</a>
+</div>
+
+<!-- ═══════════════════════════════════════ English -->
+<div id="en">
+  <header>
+    <h1>Pockyt Support</h1>
+    <p>Personal Finance Tracker — we're here to help.</p>
+  </header>
+
+  <div class="container">
+
+    <div class="section">
+      <h2>Contact Us</h2>
+      <p>Have a question, found a bug, or need help? Send us an email and we'll get back to you as soon as we can.</p>
+      <a class="contact-btn" href="mailto:wksunshine@gmail.com">Email Support</a>
+      <p style="margin-top:14px; font-size:14px; color:#888;">wksunshine@gmail.com</p>
+    </div>
+
+    <div class="section">
+      <h2>Frequently Asked Questions</h2>
+
+      <div class="faq-item">
+        <h3>How do I set up the AI assistant?</h3>
+        <p>Go to Settings → AI Assistant and enter your API key from your preferred provider (OpenAI, Google Gemini, Anthropic Claude, or DeepSeek). The app never stores your key on any server — it stays on your device only.</p>
+      </div>
+
+      <div class="faq-item">
+        <h3>How do I enable cloud sync?</h3>
+        <p>Sign in with Google, Apple, or email from Settings. Once signed in, your data automatically syncs across your devices via Firebase. You can disable or delete your cloud data at any time from Settings.</p>
+      </div>
+
+      <div class="faq-item">
+        <h3>How do I import transactions from my bank?</h3>
+        <p>Go to Settings → Import CSV. Export a CSV from your bank (Date, Type, Category, Amount, Note columns) and paste it into the import screen. Pockyt will preview the entries before saving.</p>
+      </div>
+
+      <div class="faq-item">
+        <h3>How do I scan a receipt?</h3>
+        <p>Tap the camera icon when adding a transaction, or use the dedicated Scan tab. Make sure you have an AI provider API key configured in Settings first.</p>
+      </div>
+
+      <div class="faq-item">
+        <h3>How does the cashback optimizer work?</h3>
+        <p>When you add a transaction and select a category, Pockyt checks your saved cards and highlights if a different card earns higher cashback for that spending category. No external data is sent — this is computed entirely on your device.</p>
+      </div>
+
+      <div class="faq-item">
+        <h3>How do I split a bill?</h3>
+        <p>Go to the Bill Split tab, create a new split with the total and participants, then divide evenly or enter custom amounts per person. Mark participants as settled when they pay you back.</p>
+      </div>
+
+      <div class="faq-item">
+        <h3>Can I export my data?</h3>
+        <p>Yes. Go to Settings → Export to download your data as JSON (full backup) or CSV (spreadsheet-friendly). You can also generate a PDF report with optional date range filtering.</p>
+      </div>
+
+      <div class="faq-item">
+        <h3>How do I delete my account and data?</h3>
+        <p>To delete your cloud data and account, go to Settings → Account → Delete Account. Local data is removed when you uninstall the app. You can also email us at <a class="contact-link" href="mailto:wksunshine@gmail.com">wksunshine@gmail.com</a> and we'll handle deletion manually.</p>
+      </div>
+
+      <div class="faq-item">
+        <h3>Is my data safe?</h3>
+        <p>All data is stored locally on your device by default. Cloud sync is optional and protected by Firebase security rules — only you can access your data. We never sell or share your financial data with third parties.</p>
+      </div>
+    </div>
+
+    <div class="section">
+      <h2>Privacy Policy</h2>
+      <p>Read our full <a class="contact-link" href="privacy-policy.html">Privacy Policy</a>.</p>
+    </div>
+
+    <p class="updated">Pockyt · wksunshine@gmail.com</p>
+  </div>
+</div>
+
+<!-- ═══════════════════════════════════════ Chinese -->
+<div id="zh">
+  <header>
+    <h1>Pockyt 支持</h1>
+    <p>个人财务追踪 — 我们随时为您服务。</p>
+  </header>
+
+  <div class="container">
+
+    <div class="section">
+      <h2>联系我们</h2>
+      <p>有任何问题、发现 Bug 或需要帮助？发送邮件给我们，我们将尽快回复。</p>
+      <a class="contact-btn" href="mailto:wksunshine@gmail.com">发送邮件</a>
+      <p style="margin-top:14px; font-size:14px; color:#888;">wksunshine@gmail.com</p>
+    </div>
+
+    <div class="section">
+      <h2>常见问题</h2>
+
+      <div class="faq-item">
+        <h3>如何设置 AI 助手？</h3>
+        <p>前往"设置 → AI 助手"，输入您所选服务商（OpenAI、Google Gemini、Anthropic Claude 或 DeepSeek）的 API 密钥。您的密钥仅存储在本地设备上，不会上传至任何服务器。</p>
+      </div>
+
+      <div class="faq-item">
+        <h3>如何启用云同步？</h3>
+        <p>在"设置"中使用 Google、Apple 或电子邮件登录。登录后，数据将通过 Firebase 自动同步到您的所有设备。您可随时在"设置"中停用或删除云端数据。</p>
+      </div>
+
+      <div class="faq-item">
+        <h3>如何从银行导入交易记录？</h3>
+        <p>前往"设置 → 导入 CSV"。从您的银行导出 CSV 文件（包含日期、类型、分类、金额、备注列），粘贴到导入界面。Pockyt 将在保存前预览所有条目。</p>
+      </div>
+
+      <div class="faq-item">
+        <h3>如何扫描收据？</h3>
+        <p>添加交易时点击相机图标，或使用专属的"扫描"标签。请先在"设置"中配置 AI 服务商的 API 密钥。</p>
+      </div>
+
+      <div class="faq-item">
+        <h3>返现优化提示如何使用？</h3>
+        <p>添加交易并选择分类时，Pockyt 会检查您保存的信用卡，提示是否有其他卡片在该消费分类下提供更高返现。此功能完全在设备本地计算，不发送任何外部数据。</p>
+      </div>
+
+      <div class="faq-item">
+        <h3>如何分摊账单？</h3>
+        <p>前往"账单分摊"标签，创建新的分摊（填写总金额和参与者），然后平均分配或为每位参与者输入自定义金额。对方还款后将其标记为已结清。</p>
+      </div>
+
+      <div class="faq-item">
+        <h3>能导出数据吗？</h3>
+        <p>可以。前往"设置 → 导出"，将数据下载为 JSON（完整备份）或 CSV（表格格式）。您也可以生成支持日期范围筛选的 PDF 报告。</p>
+      </div>
+
+      <div class="faq-item">
+        <h3>如何删除账户和数据？</h3>
+        <p>前往"设置 → 账户 → 删除账户"可删除云端数据及账户。卸载应用可清除本地数据。您也可以发送邮件至 <a class="contact-link" href="mailto:wksunshine@gmail.com">wksunshine@gmail.com</a>，我们将手动处理删除请求。</p>
+      </div>
+
+      <div class="faq-item">
+        <h3>我的数据安全吗？</h3>
+        <p>默认情况下，所有数据存储在您的本地设备上。云同步为可选项，受 Firebase 安全规则保护 — 只有您本人可以访问自己的数据。我们不会向任何第三方出售或共享您的财务数据。</p>
+      </div>
+    </div>
+
+    <div class="section">
+      <h2>隐私政策</h2>
+      <p>阅读完整的 <a class="contact-link" href="privacy-policy.html">隐私政策</a>。</p>
+    </div>
+
+    <p class="updated">Pockyt · wksunshine@gmail.com</p>
+  </div>
+</div>
+
+<script>
+  function showLang(lang) {
+    document.getElementById('en').style.display = lang === 'en' ? 'block' : 'none';
+    document.getElementById('zh').style.display = lang === 'zh' ? 'block' : 'none';
+  }
+  if (navigator.language && navigator.language.startsWith('zh')) showLang('zh');
+</script>
+</body>
+</html>

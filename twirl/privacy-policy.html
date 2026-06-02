@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Twirl · 木鱼 Privacy Policy</title>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+      background: #fdf8f3;
+      color: #1a1a1a;
+      line-height: 1.7;
+    }
+    .lang-bar {
+      background: #e07b39;
+      color: #fff;
+      text-align: center;
+      padding: 10px;
+      font-size: 14px;
+    }
+    .lang-bar a { color: #ffe0c8; text-decoration: none; margin: 0 8px; }
+    .lang-bar a:hover { text-decoration: underline; }
+    header {
+      background: #e07b39;
+      color: #fff;
+      padding: 40px 24px 32px;
+      text-align: center;
+    }
+    header h1 { font-size: 28px; font-weight: 800; letter-spacing: 0.5px; }
+    header p { margin-top: 8px; opacity: 0.9; font-size: 15px; }
+    .container { max-width: 720px; margin: 40px auto; padding: 0 24px 60px; }
+    .section { background: #fff; border-radius: 14px; padding: 28px; margin-bottom: 20px; box-shadow: 0 2px 8px rgba(0,0,0,0.06); }
+    .section h2 { font-size: 17px; font-weight: 700; color: #e07b39; margin-bottom: 12px; }
+    .section p { font-size: 15px; color: #333; margin-bottom: 10px; }
+    .section p:last-child { margin-bottom: 0; }
+    .section ul { font-size: 15px; color: #333; padding-left: 20px; margin-top: 8px; }
+    .section ul li { margin-bottom: 6px; }
+    .contact-link { color: #e07b39; }
+    .updated { text-align: center; color: #888; font-size: 13px; margin-top: 32px; }
+
+    #zh { display: none; }
+
+    @media (prefers-color-scheme: dark) {
+      body { background: #1c1c1e; color: #f0f0f0; }
+      .section { background: #2c2c2e; box-shadow: none; }
+      .section p, .section ul { color: #ccc; }
+    }
+  </style>
+</head>
+<body>
+
+<div class="lang-bar">
+  <a href="#" onclick="showLang('en'); return false;">English</a> |
+  <a href="#" onclick="showLang('zh'); return false;">繁體中文</a>
+</div>
+
+<!-- ═══════════════════════════════════════ English -->
+<div id="en">
+  <header>
+    <h1>Twirl · 木鱼 Privacy Policy</h1>
+    <p>Spin, discover, earn merit.</p>
+  </header>
+
+  <div class="container">
+
+    <div class="section">
+      <h2>1. Information We Collect</h2>
+      <p>Twirl collects and stores the following data to provide its features:</p>
+      <ul>
+        <li><strong>Account information</strong> — if you sign in with Google or Apple, we receive your name and email address from that provider for account creation.</li>
+        <li><strong>Spin history</strong> — the modes you spin, results, saved favourites, and visited places (with optional notes).</li>
+        <li><strong>Wooden Fish (木鱼) data</strong> — merit count, daily streak, and fortune lot history.</li>
+        <li><strong>Achievement badges and stats</strong> — progress across categories.</li>
+        <li><strong>App preferences</strong> — default search radius, theme, language, and reminder settings.</li>
+      </ul>
+      <p>Data is stored locally on your device. If you sign in, data is optionally synced to Firebase Firestore.</p>
+    </div>
+
+    <div class="section">
+      <h2>2. Location</h2>
+      <p>The Spin feature uses your device location to find nearby places. Location is requested only when you use Spin and is used solely to query the Google Places API for results near you. Your location is not stored by Twirl's servers. You can use the Wooden Fish and other non-location features without granting location permission.</p>
+    </div>
+
+    <div class="section">
+      <h2>3. Google Places API</h2>
+      <p>When you spin, your location and selected category are sent to the Google Places API (New) to retrieve nearby place results. This data is processed by Google under Google's privacy policy. Place results (names, photos, ratings) are displayed in-app and cached temporarily on your device.</p>
+    </div>
+
+    <div class="section">
+      <h2>4. AI Features (Gemini)</h2>
+      <p>The optional AI Ranking feature uses Google Gemini to re-order place results based on your spin history and preferences. When used, your relevant history is sent to Gemini for processing. AI ranking is available via a daily free credit, rewarded ads, or a membership subscription. We do not permanently store your AI ranking requests.</p>
+    </div>
+
+    <div class="section">
+      <h2>5. Authentication</h2>
+      <p>Twirl supports Google Sign-In and Apple Sign-In. Signing in is optional — you can use the full app without an account and all data will be stored locally. Signing in enables optional Firestore cloud sync so your history and favourites are preserved across devices.</p>
+    </div>
+
+    <div class="section">
+      <h2>6. China Region (Aliyun)</h2>
+      <p>For users in mainland China, Twirl uses an Aliyun-backed sync path as an alternative to Firebase. If you are in mainland China and have cloud sync enabled, your data may be stored on Aliyun servers in China in compliance with local regulations.</p>
+    </div>
+
+    <div class="section">
+      <h2>7. Advertising (AdMob)</h2>
+      <p>Free users may see banner ads and rewarded ads served by Google AdMob. AdMob may use device identifiers (IDFA/GAID) to serve relevant ads in accordance with your device's ad-tracking preferences. You can disable personalised ads on your device via Settings → Privacy → Tracking. Subscribing to membership removes all ads.</p>
+    </div>
+
+    <div class="section">
+      <h2>8. In-App Purchases</h2>
+      <p>Membership subscriptions are processed by Apple (iOS) or Google Play (Android). We do not receive or store your payment card details. Purchase history is managed by the respective platform.</p>
+    </div>
+
+    <div class="section">
+      <h2>9. Notifications</h2>
+      <p>Twirl can send a daily local notification reminder. This is scheduled on-device and no notification data is sent to any server.</p>
+    </div>
+
+    <div class="section">
+      <h2>10. Data Security</h2>
+      <p>Cloud-synced data is protected by Firebase (or Aliyun) security rules that ensure only you can access your account. All data in transit is encrypted.</p>
+    </div>
+
+    <div class="section">
+      <h2>11. Data Deletion</h2>
+      <p>You can clear your local history at any time from Settings → Clear History. To delete your account and all cloud data, please contact us at <a class="contact-link" href="mailto:wksunshine@gmail.com">wksunshine@gmail.com</a>.</p>
+    </div>
+
+    <div class="section">
+      <h2>12. Contact</h2>
+      <p>For questions, feedback, or data deletion requests, please contact us at <a class="contact-link" href="mailto:wksunshine@gmail.com">wksunshine@gmail.com</a>.</p>
+    </div>
+
+    <p class="updated">Last updated: June 2026</p>
+  </div>
+</div>
+
+<!-- ═══════════════════════════════════════ Traditional Chinese -->
+<div id="zh">
+  <header>
+    <h1>Twirl · 木魚 隱私政策</h1>
+    <p>轉動、探索、積功德。</p>
+  </header>
+
+  <div class="container">
+
+    <div class="section">
+      <h2>1. 我們收集的資訊</h2>
+      <p>Twirl 為提供其功能，會收集並儲存以下資料：</p>
+      <ul>
+        <li><strong>帳號資訊</strong> — 若您使用 Google 或 Apple 登入，我們會從該服務商取得您的姓名和電子郵件地址以建立帳號。</li>
+        <li><strong>轉盤紀錄</strong> — 您選擇的模式、結果、已儲存的最愛及已造訪地點（含可選備注）。</li>
+        <li><strong>木魚資料</strong> — 功德數、每日連續天數及求籤紀錄。</li>
+        <li><strong>成就徽章與統計數據</strong> — 各類別的解鎖進度。</li>
+        <li><strong>應用程式偏好設定</strong> — 預設搜尋範圍、主題、語言及提醒設定。</li>
+      </ul>
+      <p>資料儲存於您的本機裝置。若您登入，資料可選擇性同步至 Firebase Firestore。</p>
+    </div>
+
+    <div class="section">
+      <h2>2. 定位</h2>
+      <p>「轉盤」功能使用您的裝置位置以尋找附近地點。位置資訊僅在您使用轉盤時請求，且僅用於向 Google Places API 查詢您附近的結果。Twirl 的伺服器不會儲存您的位置資訊。不授予定位權限亦可正常使用木魚及其他非定位功能。</p>
+    </div>
+
+    <div class="section">
+      <h2>3. Google Places API</h2>
+      <p>每次轉動時，您的位置和所選類別將傳送至 Google Places API（新版）以取得附近地點結果。此資料由 Google 依據其隱私政策進行處理。地點結果（名稱、照片、評分）將顯示於應用程式內，並暫時快取於您的裝置。</p>
+    </div>
+
+    <div class="section">
+      <h2>4. AI 功能（Gemini）</h2>
+      <p>選用的 AI 排名功能使用 Google Gemini，依據您的轉盤紀錄和偏好重新排列地點結果。使用時，您的相關紀錄將傳送至 Gemini 進行處理。AI 排名可透過每日免費積分、獎勵廣告或會員訂閱使用。我們不會永久儲存您的 AI 排名請求。</p>
+    </div>
+
+    <div class="section">
+      <h2>5. 身份驗證</h2>
+      <p>Twirl 支援 Google 登入和 Apple 登入。登入為可選項，您無需帳號即可使用完整應用程式，所有資料將儲存於本機。登入後可啟用 Firestore 雲端同步，讓您的紀錄和最愛在各裝置間保持同步。</p>
+    </div>
+
+    <div class="section">
+      <h2>6. 中國大陸地區（阿里雲）</h2>
+      <p>針對中國大陸用戶，Twirl 使用阿里雲作為 Firebase 的替代同步路徑。若您位於中國大陸且已啟用雲端同步，您的資料可能依據當地法規儲存於中國境內的阿里雲伺服器。</p>
+    </div>
+
+    <div class="section">
+      <h2>7. 廣告（AdMob）</h2>
+      <p>免費用戶可能會看到由 Google AdMob 投放的橫幅廣告和獎勵廣告。AdMob 可能依據您裝置的廣告追蹤偏好設定，使用裝置識別碼（IDFA/GAID）投放相關廣告。您可透過「設定 → 隱私 → 追蹤」停用個人化廣告。訂閱會員後將移除所有廣告。</p>
+    </div>
+
+    <div class="section">
+      <h2>8. 應用程式內購</h2>
+      <p>會員訂閱透過 Apple（iOS）或 Google Play（Android）處理。我們不會收到或儲存您的付款卡資訊。購買紀錄由各平台管理。</p>
+    </div>
+
+    <div class="section">
+      <h2>9. 通知</h2>
+      <p>Twirl 可傳送每日本機通知提醒。通知在裝置本機排程，不會向任何伺服器傳送通知資料。</p>
+    </div>
+
+    <div class="section">
+      <h2>10. 資料安全</h2>
+      <p>雲端同步資料受 Firebase（或阿里雲）安全規則保護，確保只有您本人可存取自己的帳號。所有傳輸中的資料均已加密。</p>
+    </div>
+
+    <div class="section">
+      <h2>11. 資料刪除</h2>
+      <p>您可隨時從「設定 → 清除紀錄」刪除本機紀錄。如需刪除帳號及所有雲端資料，請聯絡我們：<a class="contact-link" href="mailto:wksunshine@gmail.com">wksunshine@gmail.com</a>。</p>
+    </div>
+
+    <div class="section">
+      <h2>12. 聯絡方式</h2>
+      <p>如有疑問、意見或資料刪除請求，請聯絡我們：<a class="contact-link" href="mailto:wksunshine@gmail.com">wksunshine@gmail.com</a>。</p>
+    </div>
+
+    <p class="updated">最後更新：2026 年 6 月</p>
+  </div>
+</div>
+
+<script>
+  function showLang(lang) {
+    document.getElementById('en').style.display = lang === 'en' ? 'block' : 'none';
+    document.getElementById('zh').style.display = lang === 'zh' ? 'block' : 'none';
+  }
+  const lang = navigator.language || '';
+  if (lang.startsWith('zh')) showLang('zh');
+</script>
+</body>
+</html>

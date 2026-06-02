@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Twirl · 木鱼 Support</title>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+      background: #fdf8f3;
+      color: #1a1a1a;
+      line-height: 1.7;
+    }
+    .lang-bar {
+      background: #e07b39;
+      color: #fff;
+      text-align: center;
+      padding: 10px;
+      font-size: 14px;
+    }
+    .lang-bar a { color: #ffe0c8; text-decoration: none; margin: 0 8px; }
+    .lang-bar a:hover { text-decoration: underline; }
+    header {
+      background: #e07b39;
+      color: #fff;
+      padding: 40px 24px 32px;
+      text-align: center;
+    }
+    header h1 { font-size: 28px; font-weight: 800; }
+    header p { margin-top: 8px; opacity: 0.9; font-size: 15px; }
+    .container { max-width: 720px; margin: 40px auto; padding: 0 24px 60px; }
+    .section { background: #fff; border-radius: 14px; padding: 28px; margin-bottom: 20px; box-shadow: 0 2px 8px rgba(0,0,0,0.06); }
+    .section h2 { font-size: 17px; font-weight: 700; color: #e07b39; margin-bottom: 14px; }
+    .section p { font-size: 15px; color: #333; margin-bottom: 10px; }
+    .section p:last-child { margin-bottom: 0; }
+    .faq-item { margin-bottom: 20px; }
+    .faq-item h3 { font-size: 15px; font-weight: 700; color: #1a1a1a; margin-bottom: 6px; }
+    .faq-item p { font-size: 15px; color: #444; }
+    .contact-btn {
+      display: inline-block;
+      background: #e07b39;
+      color: #fff;
+      text-decoration: none;
+      padding: 12px 28px;
+      border-radius: 10px;
+      font-weight: 700;
+      font-size: 15px;
+      margin-top: 8px;
+    }
+    .contact-link { color: #e07b39; }
+    .updated { text-align: center; color: #888; font-size: 13px; margin-top: 32px; }
+
+    #zh { display: none; }
+
+    @media (prefers-color-scheme: dark) {
+      body { background: #1c1c1e; color: #f0f0f0; }
+      .section { background: #2c2c2e; box-shadow: none; }
+      .section p, .faq-item p { color: #ccc; }
+      .faq-item h3 { color: #f0f0f0; }
+    }
+  </style>
+</head>
+<body>
+
+<div class="lang-bar">
+  <a href="#" onclick="showLang('en'); return false;">English</a> |
+  <a href="#" onclick="showLang('zh'); return false;">繁體中文</a>
+</div>
+
+<!-- ═══════════════════════════════════════ English -->
+<div id="en">
+  <header>
+    <h1>Twirl · 木鱼 Support</h1>
+    <p>Spin, discover, earn merit — we're here to help.</p>
+  </header>
+
+  <div class="container">
+
+    <div class="section">
+      <h2>Contact Us</h2>
+      <p>Have a question, found a bug, or want to share feedback? Reach out and we'll get back to you.</p>
+      <a class="contact-btn" href="mailto:wksunshine@gmail.com">Email Support</a>
+      <p style="margin-top:14px; font-size:14px; color:#888;">wksunshine@gmail.com</p>
+    </div>
+
+    <div class="section">
+      <h2>Frequently Asked Questions</h2>
+
+      <div class="faq-item">
+        <h3>How does the Spin feature work?</h3>
+        <p>Choose a mode (Eat, Do, or Go), pick a category, and spin the wheel. Twirl uses your location and the Google Places API to find real nearby places matching your pick. You'll see place cards with names, ratings, hours, and photos.</p>
+      </div>
+
+      <div class="faq-item">
+        <h3>Why does the app need my location?</h3>
+        <p>Location is used only to find nearby places when you spin. It's never stored on our servers. You can use the Wooden Fish (木鱼) and all other non-location features without granting location permission.</p>
+      </div>
+
+      <div class="faq-item">
+        <h3>How do I earn merit (功德)?</h3>
+        <p>Tap the wooden fish on the center tab to earn merit with each strike. Keep a daily streak to build up your count. Merit milestones unlock bilingual blessings. You can also enable auto-strike mode for hands-free chanting.</p>
+      </div>
+
+      <div class="faq-item">
+        <h3>How do I draw a fortune lot (求籤)?</h3>
+        <p>On the Wooden Fish tab, tap the 求籤 button. You'll draw a fortune lot with a classical verse, guidance (宜/忌), and a plain-language reading. Your last 100 draws are saved in lot history.</p>
+      </div>
+
+      <div class="faq-item">
+        <h3>What is AI Ranking?</h3>
+        <p>AI Ranking uses Google Gemini to re-order spin results based on your past history and preferences, surfacing places you're more likely to enjoy. You get one free AI ranking per day. Earn more via rewarded ads, or get unlimited rankings with a membership.</p>
+      </div>
+
+      <div class="faq-item">
+        <h3>How do I save a place to favourites?</h3>
+        <p>On any place card result, tap the bookmark icon to save it to your favourites. View all saved places on the Map tab. You can also mark a place as visited and add a note.</p>
+      </div>
+
+      <div class="faq-item">
+        <h3>How do I enable cloud sync?</h3>
+        <p>Sign in with Google or Apple from Profile → Sign In. Once signed in, your history, favourites, and merit data sync across your devices via Firebase (or Aliyun for China).</p>
+      </div>
+
+      <div class="faq-item">
+        <h3>How do I manage my membership?</h3>
+        <p>Go to Profile → Membership to view your current plan, upgrade, or manage your subscription. Subscriptions are managed through Apple or Google Play — cancel any time from your platform's subscription settings.</p>
+      </div>
+
+      <div class="faq-item">
+        <h3>How do I delete my data?</h3>
+        <p>Go to Settings → Clear History to remove your local spin history. To delete your account and all cloud data, email us at <a class="contact-link" href="mailto:wksunshine@gmail.com">wksunshine@gmail.com</a>.</p>
+      </div>
+
+      <div class="faq-item">
+        <h3>How do I turn off ads?</h3>
+        <p>Upgrading to a membership removes all banner and rewarded ads. You can also disable personalised ads on your device via Settings → Privacy → Tracking.</p>
+      </div>
+    </div>
+
+    <div class="section">
+      <h2>Privacy Policy</h2>
+      <p>Read our full <a class="contact-link" href="privacy-policy.html">Privacy Policy</a>.</p>
+    </div>
+
+    <p class="updated">Twirl · 木鱼 · wksunshine@gmail.com</p>
+  </div>
+</div>
+
+<!-- ═══════════════════════════════════════ Traditional Chinese -->
+<div id="zh">
+  <header>
+    <h1>Twirl · 木魚 支援</h1>
+    <p>轉動、探索、積功德 — 我們隨時為您服務。</p>
+  </header>
+
+  <div class="container">
+
+    <div class="section">
+      <h2>聯絡我們</h2>
+      <p>有任何問題、發現 Bug 或想提供意見？歡迎寫信給我們，我們會盡快回覆。</p>
+      <a class="contact-btn" href="mailto:wksunshine@gmail.com">發送郵件</a>
+      <p style="margin-top:14px; font-size:14px; color:#888;">wksunshine@gmail.com</p>
+    </div>
+
+    <div class="section">
+      <h2>常見問題</h2>
+
+      <div class="faq-item">
+        <h3>轉盤功能如何使用？</h3>
+        <p>選擇模式（吃、玩或去），選取分類後轉動轉盤。Twirl 會使用您的位置和 Google Places API 尋找附近符合選擇的真實地點，並顯示含名稱、評分、營業時間和照片的地點卡片。</p>
+      </div>
+
+      <div class="faq-item">
+        <h3>為什麼應用程式需要我的位置？</h3>
+        <p>位置資訊僅用於轉盤時尋找附近地點，不會儲存於我們的伺服器。不授予定位權限亦可正常使用木魚及所有其他非定位功能。</p>
+      </div>
+
+      <div class="faq-item">
+        <h3>如何累積功德？</h3>
+        <p>在中間分頁點擊木魚，每次敲擊即可累積功德。維持每日連續天數可提升功德數，達到功德里程碑可解鎖雙語祝福。您也可以開啟自動敲擊模式，讓應用程式自動誦唱。</p>
+      </div>
+
+      <div class="faq-item">
+        <h3>如何求籤？</h3>
+        <p>在木魚分頁點擊「求籤」按鈕即可抽籤。每支籤含有古典詩句、宜忌指引及白話解讀。最近 100 次抽籤紀錄會保存於籤詩歷史中。</p>
+      </div>
+
+      <div class="faq-item">
+        <h3>什麼是 AI 排名？</h3>
+        <p>AI 排名使用 Google Gemini，依據您的過往紀錄和偏好重新排列轉盤結果，優先顯示您可能更喜歡的地點。每日提供一次免費 AI 排名，可透過觀看獎勵廣告獲得更多次數，或訂閱會員享無限次使用。</p>
+      </div>
+
+      <div class="faq-item">
+        <h3>如何將地點加入最愛？</h3>
+        <p>在任意地點卡片上點擊書籤圖示，即可儲存至最愛。您可在地圖分頁查看所有已儲存的地點，也可將地點標記為已造訪並新增備注。</p>
+      </div>
+
+      <div class="faq-item">
+        <h3>如何啟用雲端同步？</h3>
+        <p>前往「個人資料 → 登入」，使用 Google 或 Apple 帳號登入。登入後，您的紀錄、最愛及功德資料將透過 Firebase（中國地區使用阿里雲）同步至您的所有裝置。</p>
+      </div>
+
+      <div class="faq-item">
+        <h3>如何管理我的會員資格？</h3>
+        <p>前往「個人資料 → 會員資格」查看目前方案、升級或管理訂閱。訂閱由 Apple 或 Google Play 管理，可隨時在平台的訂閱設定中取消。</p>
+      </div>
+
+      <div class="faq-item">
+        <h3>如何刪除我的資料？</h3>
+        <p>前往「設定 → 清除紀錄」可刪除本機轉盤紀錄。如需刪除帳號及所有雲端資料，請發送郵件至 <a class="contact-link" href="mailto:wksunshine@gmail.com">wksunshine@gmail.com</a>。</p>
+      </div>
+
+      <div class="faq-item">
+        <h3>如何關閉廣告？</h3>
+        <p>升級為會員後可移除所有橫幅廣告和獎勵廣告。您也可透過「設定 → 隱私 → 追蹤」停用個人化廣告。</p>
+      </div>
+    </div>
+
+    <div class="section">
+      <h2>隱私政策</h2>
+      <p>閱讀完整的 <a class="contact-link" href="privacy-policy.html">隱私政策</a>。</p>
+    </div>
+
+    <p class="updated">Twirl · 木魚 · wksunshine@gmail.com</p>
+  </div>
+</div>
+
+<script>
+  function showLang(lang) {
+    document.getElementById('en').style.display = lang === 'en' ? 'block' : 'none';
+    document.getElementById('zh').style.display = lang === 'zh' ? 'block' : 'none';
+  }
+  const lang = navigator.language || '';
+  if (lang.startsWith('zh')) showLang('zh');
+</script>
+</body>
+</html>

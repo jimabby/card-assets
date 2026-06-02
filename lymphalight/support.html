@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>LymphaLight Support</title>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+      background: #f5f3f9;
+      color: #1a1a1a;
+      line-height: 1.7;
+    }
+    header {
+      background: #6b5b95;
+      color: #fff;
+      padding: 40px 24px 32px;
+      text-align: center;
+    }
+    header h1 { font-size: 28px; font-weight: 800; }
+    header p { margin-top: 8px; opacity: 0.85; font-size: 15px; }
+    .container { max-width: 720px; margin: 40px auto; padding: 0 24px 60px; }
+    .section { background: #fff; border-radius: 14px; padding: 28px; margin-bottom: 20px; box-shadow: 0 2px 8px rgba(0,0,0,0.06); }
+    .section h2 { font-size: 17px; font-weight: 700; color: #6b5b95; margin-bottom: 14px; }
+    .section p { font-size: 15px; color: #333; margin-bottom: 10px; }
+    .section p:last-child { margin-bottom: 0; }
+    .faq-item { margin-bottom: 20px; }
+    .faq-item h3 { font-size: 15px; font-weight: 700; color: #1a1a1a; margin-bottom: 6px; }
+    .faq-item p { font-size: 15px; color: #444; }
+    .contact-btn {
+      display: inline-block;
+      background: #6b5b95;
+      color: #fff;
+      text-decoration: none;
+      padding: 12px 28px;
+      border-radius: 10px;
+      font-weight: 700;
+      font-size: 15px;
+      margin-top: 8px;
+    }
+    .contact-link { color: #6b5b95; }
+    .updated { text-align: center; color: #888; font-size: 13px; margin-top: 32px; }
+    .disclaimer {
+      background: #fff8e6;
+      border-left: 4px solid #e09b2d;
+      border-radius: 8px;
+      padding: 14px 18px;
+      font-size: 14px;
+      color: #555;
+    }
+
+    @media (prefers-color-scheme: dark) {
+      body { background: #1c1c1e; color: #f0f0f0; }
+      .section { background: #2c2c2e; box-shadow: none; }
+      .section p, .faq-item p { color: #ccc; }
+      .faq-item h3 { color: #f0f0f0; }
+      .disclaimer { background: #2e2a1e; color: #ccc; }
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>LymphaLight Support</h1>
+  <p>A companion for lymphoma — we're here to help.</p>
+</header>
+
+<div class="container">
+
+  <div class="section">
+    <h2>Contact Us</h2>
+    <p>Have a question, found a bug, or want to share feedback? We'd love to hear from you.</p>
+    <a class="contact-btn" href="mailto:wksunshine@gmail.com">Email Support</a>
+    <p style="margin-top:14px; font-size:14px; color:#888;">wksunshine@gmail.com</p>
+  </div>
+
+  <div class="section">
+    <h2>Frequently Asked Questions</h2>
+
+    <div class="faq-item">
+      <h3>Is my data private?</h3>
+      <p>Yes. LymphaLight is completely local-first — all your data is stored only on your device. There is no account, no server, and no cloud. Nothing leaves your phone unless you explicitly export a backup.</p>
+    </div>
+
+    <div class="faq-item">
+      <h3>How do I back up my data?</h3>
+      <p>Go to Settings → Export Backup. This creates a JSON file containing all your check-ins and node logs. Save it somewhere safe — iCloud Drive, email, or another secure location. To restore on a new device, go to Settings → Restore and paste the backup content.</p>
+    </div>
+
+    <div class="faq-item">
+      <h3>How do I share a report with my doctor?</h3>
+      <p>Go to the Report tab and tap Generate Report. LymphaLight creates a PDF summary of your check-in history and node measurements. Use the system share sheet to AirDrop, email, or print the report.</p>
+    </div>
+
+    <div class="faq-item">
+      <h3>How do I log a lymph node?</h3>
+      <p>Go to the Nodes tab and tap on a region on the body diagram. Select the specific node location, enter the size measurement (in mm or cm), and describe how it feels. You can add multiple entries over time to track changes.</p>
+    </div>
+
+    <div class="faq-item">
+      <h3>How do I set a daily reminder?</h3>
+      <p>Go to Settings → Reminder and toggle on daily notifications. Choose your preferred time. The reminder is a local notification — no internet connection is needed.</p>
+    </div>
+
+    <div class="faq-item">
+      <h3>How do I delete my data?</h3>
+      <p>Go to Settings → Clear All Data to permanently remove all check-ins, node logs, and settings from your device. Uninstalling the app also removes all data. There is no cloud copy to delete.</p>
+    </div>
+
+    <div class="faq-item">
+      <h3>What is LymphaLight used for?</h3>
+      <p>LymphaLight helps people living with lymphoma track their lymph nodes and symptoms over time. You can log daily check-ins, monitor how individual nodes change, and generate reports to share with your care team.</p>
+    </div>
+  </div>
+
+  <div class="section">
+    <div class="disclaimer">LymphaLight is intended to support self-tracking and conversations with your healthcare providers. It is not a medical device and does not provide medical advice, diagnosis, or treatment. Always consult a qualified healthcare professional about your health.</div>
+  </div>
+
+  <div class="section">
+    <h2>Privacy Policy</h2>
+    <p>Read our full <a class="contact-link" href="privacy-policy.html">Privacy Policy</a>.</p>
+  </div>
+
+  <p class="updated">LymphaLight · wksunshine@gmail.com</p>
+</div>
+
+</body>
+</html>
