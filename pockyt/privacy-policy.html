@@ -12,12 +12,53 @@
       color: #1a1a1a;
       line-height: 1.7;
     }
-    .lang-bar {
-      background: #2c5f8a;
-      color: #fff;
-      text-align: center;
-      padding: 10px;
+    .top-nav {
+      background: #1a1a2e;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 12px 20px;
+      position: sticky;
+      top: 0;
+      z-index: 100;
+    }
+    .top-nav a.back {
+      color: #aaa;
+      text-decoration: none;
       font-size: 14px;
+      font-weight: 500;
+      display: flex;
+      align-items: center;
+      gap: 6px;
+      transition: color 0.15s;
+    }
+    .top-nav a.back:hover { color: #fff; }
+    .top-nav .app-label {
+      font-size: 14px;
+      font-weight: 700;
+      color: #fff;
+    }
+    .top-nav .lang-toggle { display: flex; gap: 6px; }
+    .top-nav .lang-toggle a {
+      color: #aaa;
+      text-decoration: none;
+      font-size: 13px;
+      padding: 4px 10px;
+      border-radius: 6px;
+      transition: background 0.15s, color 0.15s;
+    }
+    .top-nav .lang-toggle a:hover { background: #2c2c4e; color: #fff; }
+    site-footer {
+      display: block;
+      text-align: center;
+      padding: 24px;
+      font-size: 13px;
+      color: #aaa;
+      border-top: 1px solid #e8e8e8;
+      margin-top: 40px;
+    }
+    .lang-bar {
+      display: none;
     }
     .lang-bar a { color: #cce4ff; text-decoration: none; margin: 0 8px; }
     .lang-bar a:hover { text-decoration: underline; }
@@ -50,10 +91,14 @@
 </head>
 <body>
 
-<div class="lang-bar">
-  <a href="#" onclick="showLang('en'); return false;">English</a> |
-  <a href="#" onclick="showLang('zh'); return false;">中文</a>
-</div>
+<nav class="top-nav">
+  <a class="back" href="../index.html">&#8592; All Apps</a>
+  <span class="app-label">Pockyt</span>
+  <div class="lang-toggle">
+    <a href="#" onclick="showLang('en'); return false;">EN</a>
+    <a href="#" onclick="showLang('zh'); return false;">中文</a>
+  </div>
+</nav>
 
 <!-- ═══════════════════════════════════════ English -->
 <div id="en">
@@ -214,6 +259,8 @@
     <p class="updated">最后更新：2026 年 6 月</p>
   </div>
 </div>
+
+<site-footer>&copy; 2026 Pockyt. All rights reserved.</site-footer>
 
 <script>
   function showLang(lang) {
