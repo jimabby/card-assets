@@ -1,8 +1,8 @@
 {
   "schema": "pockyt-card-catalog-v1",
   "description": "Card catalog for the Pockyt / SpendingTracker app: details, benefits, AI reward valuations, and face image URLs.",
-  "generated": "2026-06-06",
-  "count": 369,
+  "generated": "2026-06-07",
+  "count": 375,
   "cards": [
     {
       "id": "chase_sapphire_preferred",
@@ -12,12 +12,14 @@
       "annualFee": 95,
       "color": "#1B6BB0",
       "image": "https://raw.githubusercontent.com/jimabby/card-assets/main/cards/chase_sapphire_preferred.png",
-      "benefits": "3x dining\n3x online groceries\n3x select streaming\n2x travel\n1x everything else\n$50 hotel credit per year\nTrip cancellation/interruption insurance\nPrimary rental car coverage\nNo foreign transaction fees",
-      "benefits_zh_CN": "餐饮3倍积分\n网购杂货3倍积分\n精选流媒体3倍积分\n旅行2倍积分\n其他消费1倍积分\n每年$50酒店消费返现\n行程取消/中断保险\n主要租车保障\n无境外交易手续费",
+      "benefits": "5x travel booked via Chase Travel\n3x dining\n3x online groceries\n3x select streaming\n2x other travel\n1x everything else\n$50 annual Chase Travel hotel credit\n10% anniversary points bonus\nTrip cancellation/interruption insurance\nPrimary rental car coverage\nNo foreign transaction fees\n$95 annual fee",
+      "benefits_zh_CN": "通过Chase旅行预订5倍积分\n餐饮3倍积分\n网购杂货3倍积分\n精选流媒体3倍积分\n其他旅行2倍积分\n其他消费1倍积分\n每年$50 Chase旅行酒店消费返现\n周年10%积分奖励\n行程取消/中断保险\n主要租车保障\n无境外交易手续费\n年费$95",
+      "benefits_zh_TW": "透過Chase Travel預訂旅遊5倍積分\n餐飲3倍積分\n網購雜貨3倍積分\n精選串流媒體3倍積分\n其他旅遊2倍積分\n其他消費1倍積分\n每年$50 Chase Travel飯店消費抵扣\n週年10%積分獎勵\n行程取消/中斷保險\n主要租車保障\n無國外交易手續費\n年費$95",
       "aiRewards": {
         "Food & Dining": 4.8,
         "Groceries": 4.8,
         "Entertainment": 4.8,
+        "Travel": 8,
         "Flights": 3.2,
         "Hotels": 3.2,
         "Car Rental": 3.2,
@@ -29,16 +31,17 @@
       "name": "Chase Sapphire Reserve",
       "region": "US",
       "bank": "chase.com",
-      "annualFee": 550,
+      "annualFee": 795,
       "color": "#2C2C2C",
       "image": "https://raw.githubusercontent.com/jimabby/card-assets/main/cards/chase_sapphire_reserve.png",
-      "benefits": "10x hotels & car rentals via Chase Travel\n10x Chase Dining\n3x other travel & dining\n1x everything else\n$300 travel credit per year\nPriority Pass lounge access\nGlobal Entry/TSA PreCheck credit\nTrip delay & cancellation insurance\nPrimary rental car coverage\nNo foreign transaction fees",
-      "benefits_zh_CN": "通过Chase旅行预订酒店和租车10倍积分\nChase Dining餐厅10倍积分\n其他旅行和餐饮3倍积分\n其他消费1倍积分\n每年$300旅行消费返现\n优先通行贵宾厅访问权限\nGlobal Entry/TSA PreCheck费用返还\n行程延误和取消保险\n主要租车保障\n无境外交易手续费",
+      "benefits": "8x on Chase Travel purchases\n4x on flights & hotels booked direct\n3x dining worldwide\n1x everything else\n$300 annual travel credit\nUp to $500/yr The Edit hotel credit (2+ night stays via Chase Travel)\nUp to $300/yr Sapphire dining credit (OpenTable Exclusive Tables)\nUp to $300/yr StubHub & viagogo credit\nPriority Pass + Chase Sapphire Lounge access\nGlobal Entry/TSA PreCheck/NEXUS credit\nApple TV+ and Apple Music membership\nPrimary rental car coverage; trip delay & cancellation insurance\nNo foreign transaction fees\n$795 annual fee",
+      "benefits_zh_CN": "通过Chase旅行消费8倍积分\n直接预订机票和酒店4倍积分\n全球餐饮3倍积分\n其他消费1倍积分\n每年$300旅行消费返现\n每年最高$500 The Edit酒店返现（通过Chase旅行预订2晚以上）\n每年最高$300 Sapphire餐饮返现（OpenTable Exclusive Tables）\n每年最高$300 StubHub和viagogo返现\nPriority Pass和Chase Sapphire贵宾厅使用权\nGlobal Entry/TSA PreCheck/NEXUS费用返还\nApple TV+和Apple Music会员\n主要租车保障；行程延误和取消保险\n无境外交易手续费\n年费$795",
+      "benefits_zh_TW": "透過Chase Travel消費8倍積分\n直接預訂機票與飯店4倍積分\n全球餐飲3倍積分\n其他消費1倍積分\n每年$300旅遊消費抵扣\n每年最高$500 The Edit飯店抵扣（透過Chase Travel預訂2晚以上）\n每年最高$300 Sapphire餐飲抵扣（OpenTable Exclusive Tables）\n每年最高$300 StubHub與viagogo抵扣\nPriority Pass與Chase Sapphire貴賓室使用權\nGlobal Entry/TSA PreCheck/NEXUS費用補貼\nApple TV+與Apple Music會員\n主要租車保障；行程延誤與取消保險\n無國外交易手續費\n年費$795",
       "aiRewards": {
-        "Hotels": 16,
-        "Car Rental": 16,
+        "Travel": 12.8,
+        "Flights": 6.4,
+        "Hotels": 6.4,
         "Food & Dining": 4.8,
-        "Flights": 4.8,
         "Everything": 1.6
       }
     },
@@ -52,6 +55,7 @@
       "image": "https://raw.githubusercontent.com/jimabby/card-assets/main/cards/chase_freedom_unlimited.png",
       "benefits": "5x travel via Chase Travel\n3x dining\n3x drugstores\n1.5x everything else\nNo annual fee\n0% intro APR 15 months",
       "benefits_zh_CN": "通过Chase旅行预订5倍积分\n餐饮3倍积分\n药店3倍积分\n其他消费1.5倍积分\n免年费\n前15个月0%优惠年利率",
+      "benefits_zh_TW": "透過Chase Travel預訂5倍積分\n餐飲3倍積分\n藥妝店3倍積分\n其他消費1.5倍積分\n免年費\n前15個月0%優惠年利率",
       "aiRewards": {
         "Flights": 8,
         "Hotels": 8,
@@ -70,6 +74,7 @@
       "image": "https://raw.githubusercontent.com/jimabby/card-assets/main/cards/chase_freedom_flex.png",
       "benefits": "5x rotating quarterly categories (up to $1,500)\n5x travel via Chase Travel\n3x dining\n3x drugstores\n1x everything else\nNo annual fee\nCell phone protection",
       "benefits_zh_CN": "每季度轮换消费类别5倍积分（最高$1,500）\n通过Chase旅行预订5倍积分\n餐饮3倍积分\n药店3倍积分\n其他消费1倍积分\n免年费\n手机保障",
+      "benefits_zh_TW": "每季輪換消費類別5倍積分（最高$1,500）\n透過Chase Travel預訂5倍積分\n餐飲3倍積分\n藥妝店3倍積分\n其他消費1倍積分\n免年費\n手機保障",
       "aiRewards": {
         "Flights": 8,
         "Hotels": 8,
@@ -88,6 +93,7 @@
       "image": "https://raw.githubusercontent.com/jimabby/card-assets/main/cards/chase_ink_preferred.png",
       "benefits": "3x travel\n3x shipping\n3x advertising\n3x internet/cable/phone\n1x everything else\nCell phone protection up to $1,000\nTrip cancellation insurance\nNo foreign transaction fees",
       "benefits_zh_CN": "旅行3倍积分\n快递运输3倍积分\n广告3倍积分\n网络/有线/电话3倍积分\n其他消费1倍积分\n手机保障最高$1,000\n行程取消保险\n无境外交易手续费",
+      "benefits_zh_TW": "旅遊3倍積分\n貨運運輸3倍積分\n廣告3倍積分\n網路/有線電視/電話3倍積分\n其他消費1倍積分\n手機保障最高$1,000\n行程取消保險\n無國外交易手續費",
       "aiRewards": {
         "Flights": 4.8,
         "Hotels": 4.8,
@@ -106,6 +112,7 @@
       "image": "https://raw.githubusercontent.com/jimabby/card-assets/main/cards/chase_hyatt.png",
       "benefits": "9x at Hyatt hotels\n2x dining\n2x airline tickets\n2x local transit\n2x fitness clubs\n1x everything else\nFree Category 1-4 night every anniversary\nDiscoverer status automatically",
       "benefits_zh_CN": "凯悦酒店9倍积分\n餐饮2倍积分\n机票2倍积分\n本地交通2倍积分\n健身俱乐部2倍积分\n其他消费1倍积分\n每年周年纪念赠送1-4类别免费住宿\n自动获得Discoverer会员资格",
+      "benefits_zh_TW": "凱悅飯店9倍積分\n餐飲2倍積分\n機票2倍積分\n本地交通2倍積分\n健身俱樂部2倍積分\n其他消費1倍積分\n每年週年贈送1-4類別免費住宿\n自動獲得Discoverer會員資格",
       "aiRewards": {
         "Hotels": 15.3,
         "Food & Dining": 3.4,
@@ -124,6 +131,7 @@
       "image": "https://raw.githubusercontent.com/jimabby/card-assets/main/cards/chase_marriott_boundless.png",
       "benefits": "6x Marriott Bonvoy hotels\n3x groceries, gas, dining\n2x everything else\nFree Night Award every anniversary\nAutomatic Silver Elite status",
       "benefits_zh_CN": "万豪Bonvoy酒店6倍积分\n杂货、加油、餐饮3倍积分\n其他消费2倍积分\n每年周年纪念免费住宿奖励\n自动获得银卡精英会员资格",
+      "benefits_zh_TW": "萬豪Bonvoy飯店6倍積分\n雜貨、加油、餐飲3倍積分\n其他消費2倍積分\n每年週年免費住宿獎勵\n自動獲得銀卡菁英會員資格",
       "aiRewards": {
         "Hotels": 4.2,
         "Groceries": 2.1,
@@ -137,11 +145,12 @@
       "name": "American Express Gold",
       "region": "US",
       "bank": "americanexpress.com",
-      "annualFee": 250,
+      "annualFee": 325,
       "color": "#C6962A",
       "image": "https://raw.githubusercontent.com/jimabby/card-assets/main/cards/amex_gold.jpg",
-      "benefits": "4x US supermarkets (up to $25k/year)\n4x worldwide dining\n3x flights\n1x everything else\n$120 dining credit/year\n$120 Uber Cash/year\nNo foreign transaction fees",
-      "benefits_zh_CN": "美国超市4倍积分（每年最高$25,000）\n全球餐饮4倍积分\n机票3倍积分\n其他消费1倍积分\n每年$120餐饮消费返现\n每年$120 Uber Cash\n无境外交易手续费",
+      "benefits": "4x restaurants worldwide incl. US takeout & delivery (up to $50k/year)\n4x US supermarkets (up to $25k/year)\n3x flights booked direct or via Amex Travel\n1x everything else\n$120 dining credit/year ($10/mo select)\n$120 Uber Cash/year ($10/mo)\n$100 Resy credit/year\n$84 Dunkin credit/year ($7/mo)\nNo foreign transaction fees\n$325 annual fee",
+      "benefits_zh_CN": "全球餐厅4倍积分，含美国外卖与外送（每年最高$50,000）\n美国超市4倍积分（每年最高$25,000）\n直接预订或通过Amex Travel预订机票3倍积分\n其他消费1倍积分\n每年$120餐饮返现（每月$10精选商户）\n每年$120 Uber Cash（每月$10）\n每年$100 Resy餐饮返现\n每年$84 Dunkin返现（每月$7）\n无境外交易手续费\n年费$325",
+      "benefits_zh_TW": "全球餐廳4倍積分，含美國外帶與外送（每年最高$50,000）\n美國超市4倍積分（每年最高$25,000）\n直接預訂或透過Amex Travel預訂機票3倍積分\n其他消費1倍積分\n每年$120餐飲抵扣（每月$10精選商家）\n每年$120 Uber Cash（每月$10）\n每年$100 Resy餐飲抵扣\n每年$84 Dunkin抵扣（每月$7）\n無國外交易手續費\n年費$325",
       "aiRewards": {
         "Groceries": 6,
         "Food & Dining": 6,
@@ -154,11 +163,12 @@
       "name": "American Express Platinum",
       "region": "US",
       "bank": "americanexpress.com",
-      "annualFee": 695,
+      "annualFee": 895,
       "color": "#8C9196",
       "image": "https://raw.githubusercontent.com/jimabby/card-assets/main/cards/amex_platinum.jpg",
-      "benefits": "5x flights booked directly or via Amex Travel\n5x prepaid hotels via Amex Travel\n1x everything else\n$200 hotel credit/year\n$200 airline fee credit/year\n$200 Uber Cash/year\n$155 Walmart+ credit/year\nGlobal Lounge Collection access\nGlobal Entry/TSA PreCheck credit\nNo foreign transaction fees",
-      "benefits_zh_CN": "直接购买或通过Amex Travel预订机票5倍积分\n通过Amex Travel预订预付酒店5倍积分\n其他消费1倍积分\n每年$200酒店消费返现\n每年$200航空费用返现\n每年$200 Uber Cash\n每年$155 Walmart+返现\n全球贵宾厅合集访问权限\nGlobal Entry/TSA PreCheck费用返还\n无境外交易手续费",
+      "benefits": "5x flights booked direct or via Amex Travel (up to $500k/year)\n5x prepaid hotels via Amex Travel\n1x everything else\n$600 hotel credit/year (FHR/The Hotel Collection, $300 semi-annual)\n$400 Resy dining credit/year ($100/quarter)\n$300 digital entertainment credit/year ($25/mo)\n$200 airline fee credit/year\n$200 Uber Cash/year + $120 Uber One credit/year\n$155 Walmart+ credit/year\nGlobal Lounge Collection (Centurion, Priority Pass, Delta Sky Club when flying Delta)\nGlobal Entry/TSA PreCheck credit\nNo foreign transaction fees\n$895 annual fee",
+      "benefits_zh_CN": "直接预订或通过Amex Travel预订机票5倍积分（每年最高$500,000）\n通过Amex Travel预订预付酒店5倍积分\n其他消费1倍积分\n每年$600酒店返现（FHR/The Hotel Collection，每半年$300）\n每年$400 Resy餐饮返现（每季$100）\n每年$300数字娱乐返现（每月$25）\n每年$200航空费用返现\n每年$200 Uber Cash + $120 Uber One返现\n每年$155 Walmart+返现\n全球贵宾厅合集（Centurion、Priority Pass、乘坐Delta时享Delta Sky Club）\nGlobal Entry/TSA PreCheck费用返还\n无境外交易手续费\n年费$895",
+      "benefits_zh_TW": "直接預訂或透過Amex Travel預訂機票5倍積分（每年最高$500,000）\n透過Amex Travel預訂預付飯店5倍積分\n其他消費1倍積分\n每年$600飯店抵扣（FHR/The Hotel Collection，每半年$300）\n每年$400 Resy餐飲抵扣（每季$100）\n每年$300數位娛樂抵扣（每月$25）\n每年$200航空費用抵扣\n每年$200 Uber Cash + $120 Uber One抵扣\n每年$155 Walmart+抵扣\n全球貴賓室聯盟（Centurion、Priority Pass、搭乘Delta時享Delta Sky Club）\nGlobal Entry/TSA PreCheck費用補貼\n無國外交易手續費\n年費$895",
       "aiRewards": {
         "Flights": 7.5,
         "Hotels": 7.5,
@@ -175,6 +185,7 @@
       "image": "https://raw.githubusercontent.com/jimabby/card-assets/main/cards/amex_blue_cash_preferred.jpg",
       "benefits": "6% US supermarkets (up to $6k/year)\n6% select US streaming\n3% US gas stations\n3% transit\n1% everything else\n$84 Disney Bundle credit/year",
       "benefits_zh_CN": "美国超市6%现金返还（每年最高$6,000）\n精选美国流媒体6%现金返还\n美国加油站3%现金返还\n交通3%现金返还\n其他消费1%现金返还\n每年$84 Disney Bundle返现",
+      "benefits_zh_TW": "美國超市6%現金回饋（每年最高$6,000）\n精選美國串流媒體6%現金回饋\n美國加油站3%現金回饋\n交通3%現金回饋\n其他消費1%現金回饋\n每年$84 Disney Bundle抵扣",
       "aiRewards": {
         "Groceries": 6,
         "Entertainment": 6,
@@ -192,6 +203,7 @@
       "image": "https://raw.githubusercontent.com/jimabby/card-assets/main/cards/amex_blue_cash_everyday.jpg",
       "benefits": "3% US supermarkets (up to $6k/year)\n3% US online retail\n3% US gas stations\n1% everything else\nNo annual fee",
       "benefits_zh_CN": "美国超市3%现金返还（每年最高$6,000）\n美国网购3%现金返还\n美国加油站3%现金返还\n其他消费1%现金返还\n免年费",
+      "benefits_zh_TW": "美國超市3%現金回饋（每年最高$6,000）\n美國網購3%現金回饋\n美國加油站3%現金回饋\n其他消費1%現金回饋\n免年費",
       "aiRewards": {
         "Groceries": 3,
         "Shopping": 3,
@@ -207,8 +219,9 @@
       "annualFee": 150,
       "color": "#003366",
       "image": "https://raw.githubusercontent.com/jimabby/card-assets/main/cards/amex_delta_gold.png",
-      "benefits": "2x Delta purchases\n2x dining\n2x groceries\n1x everything else\nFirst checked bag free\n$200 Delta flight credit/year\n20% in-flight savings\nNo foreign transaction fees",
-      "benefits_zh_CN": "Delta购买2倍里程\n餐饮2倍里程\n杂货2倍里程\n其他消费1倍里程\n第一件托运行李免费\n每年$200 Delta机票返现\n机上消费优惠20%\n无境外交易手续费",
+      "benefits": "2x Delta purchases\n2x dining\n2x US supermarkets\n1x everything else\nFirst checked bag free\n$200 Delta flight credit/year (after $10k spend)\n15% off Delta award flights\n20% in-flight savings as statement credit\nNo foreign transaction fees\n$150 annual fee",
+      "benefits_zh_CN": "Delta购买2倍里程\n餐饮2倍里程\n美国超市2倍里程\n其他消费1倍里程\n首件托运行李免费\n每年$200 Delta机票返现（年消费满$10,000）\nDelta奖励机票85折\n机上消费9折（以账单返现形式）\n无境外交易手续费\n年费$150",
+      "benefits_zh_TW": "Delta消費2倍里程\n餐飲2倍里程\n美國超市2倍里程\n其他消費1倍里程\n首件托運行李免費\n每年$200 Delta機票抵扣（年消費滿$10,000）\nDelta獎勵機票85折\n機上消費9折（以帳單抵扣形式）\n無國外交易手續費\n年費$150",
       "aiRewards": {
         "Flights": 2.4,
         "Food & Dining": 2.4,
@@ -224,8 +237,9 @@
       "annualFee": 350,
       "color": "#8C9196",
       "image": "https://raw.githubusercontent.com/jimabby/card-assets/main/cards/amex_delta_platinum.png",
-      "benefits": "3x Delta purchases\n3x hotels\n2x dining\n2x groceries\n1x everything else\nAnnual Companion Certificate\nFirst checked bag free\n$2,500 MQD boost\nDelta Sky Club access (when flying Delta)",
-      "benefits_zh_CN": "Delta购买3倍里程\n酒店3倍里程\n餐饮2倍里程\n杂货2倍里程\n其他消费1倍里程\n每年同伴机票证书\n第一件托运行李免费\n$2,500 MQD加速\n乘坐Delta航班时可享Delta Sky Club贵宾厅",
+      "benefits": "3x Delta purchases\n3x hotels\n2x dining\n2x US supermarkets\n1x everything else\nAnnual Companion Certificate (Main Cabin)\nFirst checked bag free\n$150 Delta Stays credit/year\n$120 Resy credit/year + $120 rideshare credit/year\n15% off Delta award flights\nGlobal Entry/TSA PreCheck credit\nNo foreign transaction fees\n$350 annual fee",
+      "benefits_zh_CN": "Delta购买3倍里程\n酒店3倍里程\n餐饮2倍里程\n美国超市2倍里程\n其他消费1倍里程\n每年同伴机票证书（主舱）\n首件托运行李免费\n每年$150 Delta Stays返现\n每年$120 Resy返现 + $120网约车返现\nDelta奖励机票85折\nGlobal Entry/TSA PreCheck费用返还\n无境外交易手续费\n年费$350",
+      "benefits_zh_TW": "Delta消費3倍里程\n飯店3倍里程\n餐飲2倍里程\n美國超市2倍里程\n其他消費1倍里程\n每年同伴機票證書（主艙）\n首件托運行李免費\n每年$150 Delta Stays抵扣\n每年$120 Resy抵扣 + $120網約車抵扣\nDelta獎勵機票85折\nGlobal Entry/TSA PreCheck費用補貼\n無國外交易手續費\n年費$350",
       "aiRewards": {
         "Flights": 3.6,
         "Hotels": 3.6,
@@ -242,8 +256,9 @@
       "annualFee": 150,
       "color": "#1A3A6B",
       "image": "https://raw.githubusercontent.com/jimabby/card-assets/main/cards/amex_hilton_surpass.png",
-      "benefits": "12x Hilton hotels\n6x US restaurants\n6x US supermarkets\n6x US gas stations\n3x everything else\nAutomatic Gold status\nFree Night Reward with $15k spend/year",
-      "benefits_zh_CN": "希尔顿酒店12倍积分\n美国餐厅6倍积分\n美国超市6倍积分\n美国加油站6倍积分\n其他消费3倍积分\n自动获得金卡会员资格\n每年消费$15,000赠免费住宿奖励",
+      "benefits": "12x Hilton hotels\n6x US restaurants\n6x US supermarkets\n6x US gas stations\n4x US online retail\n3x everything else\nAutomatic Gold status\nFree Night Reward with $15k spend/year\nNational Lounge access (10 Priority Pass visits/year)\n$150 annual fee",
+      "benefits_zh_CN": "希尔顿酒店12倍积分\n美国餐厅6倍积分\n美国超市6倍积分\n美国加油站6倍积分\n美国网购4倍积分\n其他消费3倍积分\n自动获得金卡会员资格\n每年消费$15,000赠免费住宿奖励\n机场贵宾厅使用权（每年10次Priority Pass）\n年费$150",
+      "benefits_zh_TW": "希爾頓飯店12倍積分\n美國餐廳6倍積分\n美國超市6倍積分\n美國加油站6倍積分\n美國網購4倍積分\n其他消費3倍積分\n自動獲得金卡會員資格\n每年消費$15,000贈免費住宿獎勵\n機場貴賓室使用權（每年10次Priority Pass）\n年費$150",
       "aiRewards": {
         "Hotels": 6,
         "Food & Dining": 3,
@@ -262,6 +277,7 @@
       "image": "https://raw.githubusercontent.com/jimabby/card-assets/main/cards/capital_one_venture_x.png",
       "benefits": "10x hotels & rental cars via Capital One Travel\n5x flights via Capital One Travel\n2x everything else\n$300 Capital One Travel credit/year\n10,000 bonus miles each anniversary\nPriority Pass + Capital One Lounge access\nGlobal Entry/TSA PreCheck credit\nNo foreign transaction fees",
       "benefits_zh_CN": "通过Capital One旅行预订酒店和租车10倍里程\n通过Capital One旅行预订机票5倍里程\n其他消费2倍里程\n每年$300 Capital One旅行消费返现\n每年周年纪念赠10,000奖励里程\n优先通行+Capital One贵宾厅访问权限\nGlobal Entry/TSA PreCheck费用返还\n无境外交易手续费",
+      "benefits_zh_TW": "透過Capital One Travel預訂飯店與租車10倍里程\n透過Capital One Travel預訂機票5倍里程\n其他消費2倍里程\n每年$300 Capital One Travel消費抵扣\n每年週年贈10,000獎勵里程\nPriority Pass + Capital One貴賓室使用權\nGlobal Entry/TSA PreCheck費用補貼\n無國外交易手續費",
       "aiRewards": {
         "Hotels": 15,
         "Car Rental": 15,
@@ -279,6 +295,7 @@
       "image": "https://raw.githubusercontent.com/jimabby/card-assets/main/cards/capital_one_venture.png",
       "benefits": "5x hotels & rental cars via Capital One Travel\n2x everything else\nGlobal Entry/TSA PreCheck credit\nNo foreign transaction fees",
       "benefits_zh_CN": "通过Capital One旅行预订酒店和租车5倍里程\n其他消费2倍里程\nGlobal Entry/TSA PreCheck费用返还\n无境外交易手续费",
+      "benefits_zh_TW": "透過Capital One Travel預訂飯店與租車5倍里程\n其他消費2倍里程\nGlobal Entry/TSA PreCheck費用補貼\n無國外交易手續費",
       "aiRewards": {
         "Hotels": 7.5,
         "Car Rental": 7.5,
@@ -295,6 +312,7 @@
       "image": "https://raw.githubusercontent.com/jimabby/card-assets/main/cards/capital_one_savor.png",
       "benefits": "4% dining & entertainment\n4% popular streaming\n3% grocery stores\n1% everything else\nNo foreign transaction fees",
       "benefits_zh_CN": "餐饮和娱乐4%现金返还\n热门流媒体4%现金返还\n杂货店3%现金返还\n其他消费1%现金返还\n无境外交易手续费",
+      "benefits_zh_TW": "餐飲與娛樂4%現金回饋\n熱門串流媒體4%現金回饋\n雜貨店3%現金回饋\n其他消費1%現金回饋\n無國外交易手續費",
       "aiRewards": {
         "Food & Dining": 4,
         "Entertainment": 4,
@@ -312,6 +330,7 @@
       "image": "https://raw.githubusercontent.com/jimabby/card-assets/main/cards/citi_double_cash.webp",
       "benefits": "2% on every purchase (1% when you buy + 1% when you pay)\nNo annual fee\nNo category restrictions",
       "benefits_zh_CN": "每笔消费2%现金返还（购买时1% + 还款时1%）\n免年费\n无消费类别限制",
+      "benefits_zh_TW": "每筆消費2%現金回饋（消費時1% + 還款時1%）\n免年費\n無消費類別限制",
       "aiRewards": {
         "Everything": 2
       }
@@ -326,6 +345,7 @@
       "image": "https://raw.githubusercontent.com/jimabby/card-assets/main/cards/citi_strata_premier.webp",
       "benefits": "3x hotels\n3x air travel\n3x supermarkets\n3x gas stations\n3x restaurants\n1x everything else\n$100 hotel credit/year\nNo foreign transaction fees",
       "benefits_zh_CN": "酒店3倍积分\n航空旅行3倍积分\n超市3倍积分\n加油站3倍积分\n餐厅3倍积分\n其他消费1倍积分\n每年$100酒店消费返现\n无境外交易手续费",
+      "benefits_zh_TW": "飯店3倍積分\n航空旅遊3倍積分\n超市3倍積分\n加油站3倍積分\n餐廳3倍積分\n其他消費1倍積分\n每年$100飯店消費抵扣\n無國外交易手續費",
       "aiRewards": {
         "Hotels": 4.5,
         "Flights": 4.5,
@@ -345,6 +365,7 @@
       "image": "https://raw.githubusercontent.com/jimabby/card-assets/main/cards/citi_custom_cash.png",
       "benefits": "5% on top eligible spend category each billing cycle (up to $500)\n1% everything else\nNo annual fee\nAutomatic highest-category rewards",
       "benefits_zh_CN": "每个账单周期最高消费类别5%现金返还（最高$500）\n其他消费1%现金返还\n免年费\n自动识别最高类别返现",
+      "benefits_zh_TW": "每個帳單週期消費最高類別5%現金回饋（最高$500）\n其他消費1%現金回饋\n免年費\n自動辨識最高類別回饋",
       "aiRewards": {
         "Food & Dining": 5,
         "Groceries": 5,
@@ -363,6 +384,7 @@
       "image": "https://raw.githubusercontent.com/jimabby/card-assets/main/cards/discover_it.png",
       "benefits": "5% rotating quarterly categories (up to $1,500)\n1% everything else\nCashback Match first year\nNo annual fee\nNo foreign transaction fees",
       "benefits_zh_CN": "每季度轮换消费类别5%现金返还（最高$1,500）\n其他消费1%现金返还\n第一年现金返还双倍匹配\n免年费\n无境外交易手续费",
+      "benefits_zh_TW": "每季輪換消費類別5%現金回饋（最高$1,500）\n其他消費1%現金回饋\n首年現金回饋雙倍匹配\n免年費\n無國外交易手續費",
       "aiRewards": {
         "Food & Dining": 5,
         "Groceries": 5,
@@ -380,6 +402,7 @@
       "image": "https://raw.githubusercontent.com/jimabby/card-assets/main/cards/wells_fargo_active_cash.png",
       "benefits": "2% cash rewards on every purchase\nNo annual fee\nCell phone protection up to $600",
       "benefits_zh_CN": "每笔消费2%现金返还\n免年费\n手机保障最高$600",
+      "benefits_zh_TW": "每筆消費2%現金回饋\n免年費\n手機保障最高$600",
       "aiRewards": {
         "Everything": 2
       }
@@ -394,6 +417,7 @@
       "image": "https://raw.githubusercontent.com/jimabby/card-assets/main/cards/wells_fargo_autograph.png",
       "benefits": "3x restaurants\n3x travel\n3x gas stations\n3x transit\n3x streaming\n3x phone plans\n1x everything else\nNo annual fee\nNo foreign transaction fees",
       "benefits_zh_CN": "餐厅3倍积分\n旅行3倍积分\n加油站3倍积分\n交通3倍积分\n流媒体3倍积分\n手机套餐3倍积分\n其他消费1倍积分\n免年费\n无境外交易手续费",
+      "benefits_zh_TW": "餐廳3倍積分\n旅遊3倍積分\n加油站3倍積分\n交通3倍積分\n串流媒體3倍積分\n手機方案3倍積分\n其他消費1倍積分\n免年費\n無國外交易手續費",
       "aiRewards": {
         "Food & Dining": 3,
         "Flights": 3,
@@ -413,6 +437,7 @@
       "image": "https://raw.githubusercontent.com/jimabby/card-assets/main/cards/bank_of_america_premium_rewards.png",
       "benefits": "2x travel & dining\n1.5x everything else\n$100 airline incidental credit/year\n$100 Global Entry/TSA PreCheck credit\nPreferred Rewards bonus up to 75%",
       "benefits_zh_CN": "旅行和餐饮2倍积分\n其他消费1.5倍积分\n每年$100航空附加费返现\n$100 Global Entry/TSA PreCheck费用返还\n优选奖励会员可享最高75%加成",
+      "benefits_zh_TW": "旅遊與餐飲2倍積分\n其他消費1.5倍積分\n每年$100航空雜費抵扣\n$100 Global Entry/TSA PreCheck費用補貼\n優選獎勵會員可享最高75%加成",
       "aiRewards": {
         "Flights": 2,
         "Hotels": 2,
@@ -430,6 +455,7 @@
       "image": "https://raw.githubusercontent.com/jimabby/card-assets/main/cards/apple_card.png",
       "benefits": "3% Apple purchases\n3% select merchants (Nike, Uber, Walgreens, etc.)\n2% Apple Pay purchases\n1% physical card purchases\nNo annual fee\nNo foreign transaction fees\nDaily Cash rewards",
       "benefits_zh_CN": "Apple产品3%现金返还\n精选商户3%（Nike、Uber、Walgreens等）\nApple Pay消费2%现金返还\n实体卡消费1%现金返还\n免年费\n无境外交易手续费\n每日现金奖励",
+      "benefits_zh_TW": "Apple產品3%現金回饋\n精選商家3%（Nike、Uber、Walgreens等）\nApple Pay消費2%現金回饋\n實體卡消費1%現金回饋\n免年費\n無國外交易手續費\n每日現金獎勵",
       "aiRewards": {
         "Shopping": 3,
         "Everything": 2
@@ -445,6 +471,7 @@
       "image": "https://raw.githubusercontent.com/jimabby/card-assets/main/cards/bilt_mastercard.png",
       "benefits": "3x dining\n2x travel\n1x rent (no transaction fee)\n1x everything else\nNo annual fee\nNo foreign transaction fees\nRent Day double points (1st of each month)",
       "benefits_zh_CN": "餐饮3倍积分\n旅行2倍积分\n房租1倍积分（无手续费）\n其他消费1倍积分\n免年费\n无境外交易手续费\n每月1日租金日双倍积分",
+      "benefits_zh_TW": "餐飲3倍積分\n旅遊2倍積分\n房租1倍積分（無手續費）\n其他消費1倍積分\n免年費\n無國外交易手續費\n每月1日租金日雙倍積分",
       "aiRewards": {
         "Food & Dining": 4.8,
         "Flights": 3.2,
@@ -462,6 +489,7 @@
       "image": "https://raw.githubusercontent.com/jimabby/card-assets/main/cards/us_bank_altitude_reserve.png",
       "benefits": "5x prepaid hotels & car rentals via Altitude Rewards\n3x travel & mobile wallet\n1x everything else\n$325 travel/dining credit/year\nPriority Pass lounge access\nGlobal Entry/TSA PreCheck credit\nNo foreign transaction fees",
       "benefits_zh_CN": "通过Altitude奖励预付酒店和租车5倍积分\n旅行和移动支付3倍积分\n其他消费1倍积分\n每年$325旅行/餐饮消费返现\n优先通行贵宾厅访问权限\nGlobal Entry/TSA PreCheck费用返还\n无境外交易手续费",
+      "benefits_zh_TW": "透過Altitude Rewards預付飯店與租車5倍積分\n旅遊與行動支付3倍積分\n其他消費1倍積分\n每年$325旅遊/餐飲消費抵扣\nPriority Pass貴賓室使用權\nGlobal Entry/TSA PreCheck費用補貼\n無國外交易手續費",
       "aiRewards": {
         "Hotels": 7.5,
         "Car Rental": 7.5,
@@ -480,6 +508,7 @@
       "image": "https://raw.githubusercontent.com/jimabby/card-assets/main/cards/navy_federal_flagship.png",
       "benefits": "3x travel\n2x everything else\nPriority Pass lounge access\nGlobal Entry/TSA PreCheck credit\nNo foreign transaction fees",
       "benefits_zh_CN": "旅行3倍积分\n其他消费2倍积分\n优先通行贵宾厅访问权限\nGlobal Entry/TSA PreCheck费用返还\n无境外交易手续费",
+      "benefits_zh_TW": "旅遊3倍積分\n其他消費2倍積分\nPriority Pass貴賓室使用權\nGlobal Entry/TSA PreCheck費用補貼\n無國外交易手續費",
       "aiRewards": {
         "Flights": 3,
         "Hotels": 3,
@@ -496,6 +525,7 @@
       "image": "https://raw.githubusercontent.com/jimabby/card-assets/main/cards/fidelity_rewards_visa.png",
       "benefits": "2% cash back on all purchases\nRewards deposited into Fidelity account\nNo annual fee\nNo foreign transaction fees",
       "benefits_zh_CN": "所有消费2%现金返还\n返现直接存入Fidelity账户\n免年费\n无境外交易手续费",
+      "benefits_zh_TW": "所有消費2%現金回饋\n回饋直接存入Fidelity帳戶\n免年費\n無國外交易手續費",
       "aiRewards": {
         "Everything": 2
       }
@@ -510,6 +540,7 @@
       "image": "https://raw.githubusercontent.com/jimabby/card-assets/main/cards/amazon_prime_rewards.png",
       "benefits": "5% Amazon & Whole Foods (Prime members)\n2% restaurants, gas stations, drugstores\n1% everything else\nNo annual fee\nNo foreign transaction fees",
       "benefits_zh_CN": "Amazon和Whole Foods 5%现金返还（Prime会员）\n餐厅、加油站、药店2%现金返还\n其他消费1%现金返还\n免年费\n无境外交易手续费",
+      "benefits_zh_TW": "Amazon與Whole Foods 5%現金回饋（Prime會員）\n餐廳、加油站、藥妝店2%現金回饋\n其他消費1%現金回饋\n免年費\n無國外交易手續費",
       "aiRewards": {
         "Shopping": 5,
         "Groceries": 5,
@@ -528,6 +559,7 @@
       "image": "https://raw.githubusercontent.com/jimabby/card-assets/main/cards/chase_united_explorer.png",
       "benefits": "2x United purchases\n2x dining\n2x hotel stays\n1x everything else\nFirst checked bag free\n2 United Club one-time passes/year\n25% back on United inflight purchases\nGlobal Entry/TSA PreCheck credit",
       "benefits_zh_CN": "United购买2倍里程\n餐饮2倍里程\n酒店住宿2倍里程\n其他消费1倍里程\n第一件托运行李免费\n每年2次United Club单次入场券\nUnited机上消费返现25%\nGlobal Entry/TSA PreCheck费用返还",
+      "benefits_zh_TW": "United消費2倍里程\n餐飲2倍里程\n飯店住宿2倍里程\n其他消費1倍里程\n首件托運行李免費\n每年2次United Club單次入場券\nUnited機上消費回饋25%\nGlobal Entry/TSA PreCheck費用補貼",
       "aiRewards": {
         "Flights": 2.6,
         "Food & Dining": 2.6,
@@ -545,6 +577,7 @@
       "image": "https://raw.githubusercontent.com/jimabby/card-assets/main/cards/chase_southwest_priority.png",
       "benefits": "3x Southwest purchases\n2x Rapid Rewards hotel & car partners\n2x local transit & commuting\n1x everything else\n7,500 anniversary bonus points\n$75 Southwest travel credit/year\n4 Upgraded Boardings/year",
       "benefits_zh_CN": "Southwest购买3倍积分\nRapid Rewards酒店和租车合作伙伴2倍积分\n本地交通和通勤2倍积分\n其他消费1倍积分\n每年周年纪念赠7,500奖励积分\n每年$75 Southwest旅行消费返现\n每年4次升级登机",
+      "benefits_zh_TW": "Southwest消費3倍積分\nRapid Rewards飯店與租車合作夥伴2倍積分\n本地交通與通勤2倍積分\n其他消費1倍積分\n每年週年贈7,500獎勵積分\n每年$75 Southwest旅遊消費抵扣\n每年4次升級登機",
       "aiRewards": {
         "Flights": 3.9,
         "Hotels": 2.6,
@@ -563,6 +596,7 @@
       "image": null,
       "benefits": "1.5% cash back on every purchase\n5% hotels & rental cars via Capital One Travel\nNo annual fee\nNo foreign transaction fees",
       "benefits_zh_CN": "每笔消费1.5%现金返还\n通过Capital One旅行预订酒店和租车5%现金返还\n免年费\n无境外交易手续费",
+      "benefits_zh_TW": "每筆消費1.5%現金回饋\n透過Capital One Travel預訂飯店與租車5%現金回饋\n免年費\n無國外交易手續費",
       "aiRewards": {
         "Hotels": 5,
         "Car Rental": 5,
@@ -579,6 +613,7 @@
       "image": null,
       "benefits": "3% in a category of your choice\n2% grocery stores & wholesale clubs\n1% everything else\nPreferred Rewards bonus up to 75%\nNo annual fee",
       "benefits_zh_CN": "自选消费类别3%现金返还\n杂货店和会员超市2%现金返还\n其他消费1%现金返还\n优选奖励会员可享最高75%加成\n免年费",
+      "benefits_zh_TW": "自選消費類別3%現金回饋\n雜貨店與量販店2%現金回饋\n其他消費1%現金回饋\n優選獎勵會員可享最高75%加成\n免年費",
       "aiRewards": {
         "Shopping": 3,
         "Gas & Transit": 3,
@@ -597,6 +632,7 @@
       "image": null,
       "benefits": "5% office supply stores, internet, cable & phone (up to $25k/year)\n2% gas stations & restaurants (up to $25k/year)\n1% everything else\nNo annual fee",
       "benefits_zh_CN": "办公用品店、网络、有线和电话5%现金返还（每年最高$25,000）\n加油站和餐厅2%现金返还（每年最高$25,000）\n其他消费1%现金返还\n免年费",
+      "benefits_zh_TW": "辦公用品店、網路、有線電視與電話5%現金回饋（每年最高$25,000）\n加油站與餐廳2%現金回饋（每年最高$25,000）\n其他消費1%現金回饋\n免年費",
       "aiRewards": {
         "Shopping": 8,
         "Entertainment": 8,
@@ -615,6 +651,7 @@
       "image": "https://raw.githubusercontent.com/jimabby/card-assets/main/cards/amex_green.png",
       "benefits": "3x travel & transit\n3x dining worldwide\n1x everything else\n$189 CLEAR Plus credit/year\n$100 LoungeBuddy credit/year\nNo foreign transaction fees",
       "benefits_zh_CN": "旅行和交通3倍积分\n全球餐饮3倍积分\n其他消费1倍积分\n每年$189 CLEAR Plus费用返还\n每年$100 LoungeBuddy返现\n无境外交易手续费",
+      "benefits_zh_TW": "旅遊與交通3倍積分\n全球餐飲3倍積分\n其他消費1倍積分\n每年$189 CLEAR Plus費用補貼\n每年$100 LoungeBuddy抵扣\n無國外交易手續費",
       "aiRewards": {
         "Flights": 4.5,
         "Hotels": 4.5,
@@ -633,6 +670,7 @@
       "image": "https://raw.githubusercontent.com/jimabby/card-assets/main/cards/capital_one_savorone.png",
       "benefits": "3% dining, entertainment & popular streaming\n3% grocery stores\n1% everything else\n8% back on Capital One Entertainment\nNo foreign transaction fees",
       "benefits_zh_CN": "餐饮、娱乐和热门流媒体3%现金返还\n杂货店3%现金返还\n其他消费1%现金返还\nCapital One娱乐8%返现\n无境外交易手续费",
+      "benefits_zh_TW": "餐飲、娛樂與熱門串流媒體3%現金回饋\n雜貨店3%現金回饋\n其他消費1%現金回饋\nCapital One Entertainment 8%回饋\n無國外交易手續費",
       "aiRewards": {
         "Food & Dining": 3,
         "Entertainment": 3,
@@ -650,6 +688,7 @@
       "image": "https://raw.githubusercontent.com/jimabby/card-assets/main/cards/chase_freedom_rise.png",
       "benefits": "1.5% cash back on all purchases\nDesigned for building credit\nIncrease your chances of approval with $250 in Chase checking\nNo annual fee",
       "benefits_zh_CN": "所有消费1.5%现金返还\n专为建立信用记录设计\nChase支票账户存入$250可提高申请通过率\n免年费",
+      "benefits_zh_TW": "所有消費1.5%現金回饋\n專為建立信用記錄設計\nChase支票帳戶存入$250可提高核卡機率\n免年費",
       "aiRewards": {
         "Everything": 1.5
       }
@@ -664,6 +703,7 @@
       "image": "https://raw.githubusercontent.com/jimabby/card-assets/main/cards/wells_fargo_attune.png",
       "benefits": "4% cash rewards on select categories (self-care, sports, entertainment)\n4% on planet-friendly purchases (transit, EVs)\n1% everything else\nNo annual fee",
       "benefits_zh_CN": "精选类别4%现金返还（个人护理、运动、娱乐）\n环保消费4%（交通、电动车）\n其他消费1%现金返还\n免年费",
+      "benefits_zh_TW": "精選類別4%現金回饋（個人護理、運動、娛樂）\n環保消費4%（交通、電動車）\n其他消費1%現金回饋\n免年費",
       "aiRewards": {
         "Entertainment": 4,
         "Gas & Transit": 4,
@@ -678,8 +718,9 @@
       "annualFee": 550,
       "color": "#1C1C1E",
       "image": "https://raw.githubusercontent.com/jimabby/card-assets/main/cards/amex_hilton_aspire.png",
-      "benefits": "14x Hilton hotels\n7x flights, car rentals & US restaurants\n3x everything else\nComplimentary Diamond status\nAnnual Free Night Reward\n$400 Hilton Resort credit/year\n$200 flight credit/year",
-      "benefits_zh_CN": "希尔顿酒店14倍积分\n机票、租车和美国餐厅7倍积分\n其他消费3倍积分\n免费获得钻石会员资格\n每年免费住宿奖励\n每年$400希尔顿度假村消费返现\n每年$200机票返现",
+      "benefits": "14x Hilton hotels\n7x flights, car rentals & US restaurants\n3x everything else\nComplimentary Diamond status\nAnnual Free Night Reward (+ second with $30k spend)\n$400 Hilton Resort credit/year ($200 semi-annual)\n$200 airline fee credit/year ($50/quarter)\n$189 CLEAR Plus credit/year\nNational Lounge / Priority Pass access\n$550 annual fee",
+      "benefits_zh_CN": "希尔顿酒店14倍积分\n机票、租车和美国餐厅7倍积分\n其他消费3倍积分\n免费获得钻石会员资格\n每年免费住宿奖励（年消费$30,000赠第二晚）\n每年$400希尔顿度假村返现（每半年$200）\n每年$200航空费用返现（每季$50）\n每年$189 CLEAR Plus费用返还\n机场贵宾厅/Priority Pass使用权\n年费$550",
+      "benefits_zh_TW": "希爾頓飯店14倍積分\n機票、租車與美國餐廳7倍積分\n其他消費3倍積分\n免費獲得鑽石會員資格\n每年免費住宿獎勵（年消費$30,000贈第二晚）\n每年$400希爾頓度假村抵扣（每半年$200）\n每年$200航空費用抵扣（每季$50）\n每年$189 CLEAR Plus費用補貼\n機場貴賓室/Priority Pass使用權\n年費$550",
       "aiRewards": {
         "Hotels": 7,
         "Flights": 3.5,
@@ -698,6 +739,7 @@
       "image": "https://raw.githubusercontent.com/jimabby/card-assets/main/cards/chase_ihg_premier.png",
       "benefits": "26x IHG hotels\n5x dining, gas, travel\n3x everything else\nAnniversary Free Night (up to 40k points)\nPlatinum Elite status\n4th Night Free on award stays",
       "benefits_zh_CN": "IHG酒店26倍积分\n餐饮、加油、旅行5倍积分\n其他消费3倍积分\n每年周年纪念免费住宿（最高40,000积分）\n白金精英会员资格\n奖励住宿第4晚免费",
+      "benefits_zh_TW": "IHG飯店26倍積分\n餐飲、加油、旅遊5倍積分\n其他消費3倍積分\n每年週年免費住宿（最高40,000積分）\n白金菁英會員資格\n獎勵住宿第4晚免費",
       "aiRewards": {
         "Hotels": 13,
         "Food & Dining": 2.5,
@@ -716,6 +758,7 @@
       "image": "https://raw.githubusercontent.com/jimabby/card-assets/main/cards/chase_ritz_carlton.png",
       "benefits": "6x Marriott Bonvoy hotels\n3x dining & car rentals\n2x everything else\n85k Free Night Award\n$300 annual travel credit\nPriority Pass Select (guest unlimited)\nAutomatic Gold Elite status\nNo foreign transaction fee",
       "benefits_zh_CN": "万豪Bonvoy酒店6倍积分\n餐饮和租车3倍积分\n其他消费2倍积分\n85,000积分免费住宿奖励\n每年$300旅行消费返现\n优先通行精选贵宾厅（宾客无限次）\n自动获得金卡精英会员资格\n无境外交易手续费",
+      "benefits_zh_TW": "萬豪Bonvoy飯店6倍積分\n餐飲與租車3倍積分\n其他消費2倍積分\n85,000積分免費住宿獎勵\n每年$300旅遊消費抵扣\nPriority Pass Select貴賓室（賓客無限次）\n自動獲得金卡菁英會員資格\n無國外交易手續費",
       "aiRewards": {
         "Hotels": 6,
         "Food & Dining": 3,
@@ -733,6 +776,7 @@
       "image": null,
       "benefits": "1.25x miles on all purchases\n5x miles on hotels & rental cars via Capital One Travel\nNo annual fee\nNo foreign transaction fees",
       "benefits_zh_CN": "所有消费1.25倍里程\n通过Capital One旅行预订酒店和租车5倍里程\n免年费\n无境外交易手续费",
+      "benefits_zh_TW": "所有消費1.25倍里程\n透過Capital One Travel預訂飯店與租車5倍里程\n免年費\n無國外交易手續費",
       "aiRewards": {
         "Hotels": 5,
         "Car Rental": 5,
@@ -749,6 +793,7 @@
       "image": null,
       "benefits": "5% cash back on two categories of your choice (up to $2k/quarter)\n2% everyday category (gas, groceries, or dining)\n1% everything else\nNo annual fee",
       "benefits_zh_CN": "自选两个类别5%现金返还（每季度最高$2,000）\n日常类别2%（加油、杂货或餐饮）\n其他消费1%现金返还\n免年费",
+      "benefits_zh_TW": "自選兩個類別5%現金回饋（每季最高$2,000）\n日常類別2%（加油、雜貨或餐飲）\n其他消費1%現金回饋\n免年費",
       "aiRewards": {
         "Shopping": 5,
         "Entertainment": 5,
@@ -766,6 +811,7 @@
       "image": null,
       "benefits": "4x points on travel & gas stations\n2x points on dining, streaming & grocery stores\n1x everything else\n$30 streaming credit\nNo foreign transaction fees",
       "benefits_zh_CN": "旅行和加油站4倍积分\n餐饮、流媒体和杂货店2倍积分\n其他消费1倍积分\n$30流媒体消费返现\n无境外交易手续费",
+      "benefits_zh_TW": "旅遊與加油站4倍積分\n餐飲、串流媒體與雜貨店2倍積分\n其他消費1倍積分\n$30串流媒體消費抵扣\n無國外交易手續費",
       "aiRewards": {
         "Flights": 4,
         "Hotels": 4,
@@ -785,6 +831,7 @@
       "image": null,
       "benefits": "1.5 points per $1 on all purchases\nNo annual fee\nNo foreign transaction fees\nPoints don't expire",
       "benefits_zh_CN": "每消费1美元获1.5积分\n免年费\n无境外交易手续费\n积分永不过期",
+      "benefits_zh_TW": "每消費1美元獲1.5積分\n免年費\n無國外交易手續費\n積分永不過期",
       "aiRewards": {
         "Everything": 1.5
       }
@@ -799,6 +846,7 @@
       "image": null,
       "benefits": "1.5% cash back on all purchases\nNo annual fee\nPreferred Rewards members can earn up to 2.62%",
       "benefits_zh_CN": "所有消费1.5%现金返还\n免年费\n优选奖励会员最高可获2.62%返现",
+      "benefits_zh_TW": "所有消費1.5%現金回饋\n免年費\n優選獎勵會員最高可獲2.62%回饋",
       "aiRewards": {
         "Everything": 1.5
       }
@@ -813,6 +861,7 @@
       "image": null,
       "benefits": "10x points at Choice Hotels\n5x gas stations, grocery stores, home improvement\n1x everything else\nElite Gold status",
       "benefits_zh_CN": "精选酒店10倍积分\n加油站、杂货店、家居改善5倍积分\n其他消费1倍积分\n精英金卡会员资格",
+      "benefits_zh_TW": "精選酒店10倍積分\n加油站、雜貨店、家居修繕5倍積分\n其他消費1倍積分\n菁英金卡會員資格",
       "aiRewards": {
         "Hotels": 10,
         "Gas & Transit": 5,
@@ -830,6 +879,7 @@
       "image": null,
       "benefits": "1.5x miles on all purchases\nNo annual fee\nMiles Match first year\nNo foreign transaction fees",
       "benefits_zh_CN": "所有消费1.5倍里程\n免年费\n第一年里程双倍匹配\n无境外交易手续费",
+      "benefits_zh_TW": "所有消費1.5倍里程\n免年費\n首年里程雙倍匹配\n無國外交易手續費",
       "aiRewards": {
         "Everything": 1.5
       }
@@ -844,6 +894,7 @@
       "image": null,
       "benefits": "5% cash back on rotating categories (up to $1,500/quarter)\n1% everything else\nCashback Match first year\nGood Grade rewards",
       "benefits_zh_CN": "每季度轮换消费类别5%现金返还（最高$1,500）\n其他消费1%现金返还\n第一年现金返还双倍匹配\n优秀成绩奖励",
+      "benefits_zh_TW": "每季輪換消費類別5%現金回饋（最高$1,500）\n其他消費1%現金回饋\n首年現金回饋雙倍匹配\n優異成績獎勵",
       "aiRewards": {
         "Food & Dining": 5,
         "Shopping": 5,
@@ -860,6 +911,7 @@
       "image": null,
       "benefits": "2x points at supermarkets & gas (up to $6k/year)\n1x everything else\nRound up to nearest 10 points on every purchase\n10% points back on first 100k redeemed per year",
       "benefits_zh_CN": "超市和加油站2倍积分（每年最高$6,000）\n其他消费1倍积分\n每笔消费积分自动向上取整至10的倍数\n每年前10万兑换积分返还10%",
+      "benefits_zh_TW": "超市與加油站2倍積分（每年最高$6,000）\n其他消費1倍積分\n每筆消費積分自動進位至10的倍數\n每年前10萬兌換積分返還10%",
       "aiRewards": {
         "Groceries": 2,
         "Gas & Transit": 2,
@@ -876,6 +928,7 @@
       "image": null,
       "benefits": "2% cash back on all eligible purchases (up to $50k/year)\n1% everything else\nNo annual fee\nExpanded buying power",
       "benefits_zh_CN": "所有符合条件消费2%现金返还（每年最高$50,000）\n其他消费1%现金返还\n免年费\n扩大消费额度",
+      "benefits_zh_TW": "所有符合條件消費2%現金回饋（每年最高$50,000）\n其他消費1%現金回饋\n免年費\n彈性消費額度",
       "aiRewards": {
         "Everything": 2
       }
@@ -890,6 +943,7 @@
       "image": null,
       "benefits": "2x points on all purchases (up to $50k/year)\n1x everything else\nNo annual fee\nAccess to Amex travel partners",
       "benefits_zh_CN": "所有消费2倍积分（每年最高$50,000）\n其他消费1倍积分\n免年费\n可转换至Amex旅行合作伙伴",
+      "benefits_zh_TW": "所有消費2倍積分（每年最高$50,000）\n其他消費1倍積分\n免年費\n可轉換至Amex旅遊合作夥伴",
       "aiRewards": {
         "Everything": 2.4
       }
@@ -904,6 +958,7 @@
       "image": null,
       "benefits": "1.5% cash back on all business purchases\nNo annual fee\nPrimary rental car coverage (business use)",
       "benefits_zh_CN": "所有商业消费1.5%现金返还\n免年费\n商业用途主要租车保障",
+      "benefits_zh_TW": "所有商業消費1.5%現金回饋\n免年費\n商業用途主要租車保障",
       "aiRewards": {
         "Everything": 1.5
       }
@@ -918,6 +973,7 @@
       "image": null,
       "benefits": "2.5% cash back on purchases of $5k or more\n2% cash back overall\nNo foreign transaction fees\nPrimary rental car coverage",
       "benefits_zh_CN": "$5,000及以上单笔消费2.5%现金返还\n总体2%现金返还\n无境外交易手续费\n主要租车保障",
+      "benefits_zh_TW": "$5,000及以上單筆消費2.5%現金回饋\n整體2%現金回饋\n無國外交易手續費\n主要租車保障",
       "aiRewards": {
         "Everything": 2.1
       }
@@ -932,6 +988,7 @@
       "image": null,
       "benefits": "6x Marriott Bonvoy hotels\n4x restaurants & US supermarkets (up to $15k/year)\n2x everything else\n1,000 bonus points per stay",
       "benefits_zh_CN": "万豪Bonvoy酒店6倍积分\n餐厅和美国超市4倍积分（每年最高$15,000）\n其他消费2倍积分\n每次住宿额外奖励1,000积分",
+      "benefits_zh_TW": "萬豪Bonvoy飯店6倍積分\n餐廳與美國超市4倍積分（每年最高$15,000）\n其他消費2倍積分\n每次住宿額外獎勵1,000積分",
       "aiRewards": {
         "Hotels": 4.2,
         "Food & Dining": 2.8,
@@ -947,8 +1004,9 @@
       "annualFee": 650,
       "color": "#2C2C2C",
       "image": null,
-      "benefits": "6x Marriott Bonvoy hotels\n3x restaurants & flights\n2x everything else\nPlatinum Elite status\n$300 dining credit ($25/mo)",
-      "benefits_zh_CN": "万豪Bonvoy酒店6倍积分\n餐厅和机票3倍积分\n其他消费2倍积分\n白金精英会员资格\n每年$300餐饮消费返现（每月$25）",
+      "benefits": "6x Marriott Bonvoy hotels\n3x restaurants & flights\n2x everything else\nPlatinum Elite status\n$300 dining credit/year ($25/mo)\n$100 property credit on 2+ night stays\nAnnual Free Night Award (up to 85k points)\nPriority Pass lounge access\n$650 annual fee",
+      "benefits_zh_CN": "万豪Bonvoy酒店6倍积分\n餐厅和机票3倍积分\n其他消费2倍积分\n白金精英会员资格\n每年$300餐饮返现（每月$25）\n2晚以上住宿$100消费返现\n每年免费住宿奖励（最高85,000积分）\nPriority Pass贵宾厅使用权\n年费$650",
+      "benefits_zh_TW": "萬豪Bonvoy飯店6倍積分\n餐廳與機票3倍積分\n其他消費2倍積分\n白金菁英會員資格\n每年$300餐飲抵扣（每月$25）\n2晚以上住宿$100消費抵扣\n每年免費住宿獎勵（最高85,000積分）\nPriority Pass貴賓室使用權\n年費$650",
       "aiRewards": {
         "Hotels": 4.2,
         "Food & Dining": 2.1,
@@ -966,6 +1024,7 @@
       "image": null,
       "benefits": "2x Delta purchases & restaurants\n1x everything else\nNo annual fee\nNo foreign transaction fees",
       "benefits_zh_CN": "Delta购买和餐厅2倍里程\n其他消费1倍里程\n免年费\n无境外交易手续费",
+      "benefits_zh_TW": "Delta消費與餐廳2倍里程\n其他消費1倍里程\n免年費\n無國外交易手續費",
       "aiRewards": {
         "Flights": 2.4,
         "Food & Dining": 2.4,
@@ -982,6 +1041,7 @@
       "image": null,
       "benefits": "2x United purchases, gas stations, & transit\n1x everything else\nNo annual fee\n25% back on United inflight purchases",
       "benefits_zh_CN": "United购买、加油站和交通2倍里程\n其他消费1倍里程\n免年费\nUnited机上消费返现25%",
+      "benefits_zh_TW": "United消費、加油站與交通2倍里程\n其他消費1倍里程\n免年費\nUnited機上消費回饋25%",
       "aiRewards": {
         "Flights": 2.6,
         "Gas & Transit": 2.6,
@@ -998,6 +1058,7 @@
       "image": null,
       "benefits": "3x United purchases\n2x travel, dining, & streaming\n1x everything else\n$125 annual United credit\n5,000 miles back after award flights\nFree first and second checked bags",
       "benefits_zh_CN": "United购买3倍里程\n旅行、餐饮和流媒体2倍里程\n其他消费1倍里程\n每年$125 United消费返现\n兑换奖励机票后返还5,000里程\n第一和第二件托运行李免费",
+      "benefits_zh_TW": "United消費3倍里程\n旅遊、餐飲與串流媒體2倍里程\n其他消費1倍里程\n每年$125 United消費抵扣\n兌換獎勵機票後返還5,000里程\n首件與第二件托運行李免費",
       "aiRewards": {
         "Flights": 3.9,
         "Food & Dining": 2.6,
@@ -1015,6 +1076,7 @@
       "image": null,
       "benefits": "4x United purchases\n2x travel & dining\n1x everything else\nUnited Club membership\nFree first and second checked bags\nGlobal Entry/TSA PreCheck credit",
       "benefits_zh_CN": "United购买4倍里程\n旅行和餐饮2倍里程\n其他消费1倍里程\nUnited Club会员资格\n第一和第二件托运行李免费\nGlobal Entry/TSA PreCheck费用返还",
+      "benefits_zh_TW": "United消費4倍里程\n旅遊與餐飲2倍里程\n其他消費1倍里程\nUnited Club會員資格\n首件與第二件托運行李免費\nGlobal Entry/TSA PreCheck費用補貼",
       "aiRewards": {
         "Flights": 5.2,
         "Food & Dining": 2.6,
@@ -1032,6 +1094,7 @@
       "image": null,
       "benefits": "4x Southwest purchases\n3x hotel & car partners\n2x social media/search advertising & internet/cable/phone\n1x everything else\n9,000 anniversary points",
       "benefits_zh_CN": "Southwest购买4倍积分\n酒店和租车合作伙伴3倍积分\n社交媒体/搜索广告和网络/有线/电话2倍积分\n其他消费1倍积分\n每年周年纪念赠9,000奖励积分",
+      "benefits_zh_TW": "Southwest消費4倍積分\n飯店與租車合作夥伴3倍積分\n社群媒體/搜尋廣告與網路/有線電視/電話2倍積分\n其他消費1倍積分\n每年週年贈9,000獎勵積分",
       "aiRewards": {
         "Flights": 5.2,
         "Hotels": 3.9,
@@ -1049,6 +1112,7 @@
       "image": null,
       "benefits": "3x Southwest purchases\n2x hotel & car partners\n1x everything else\n6,000 anniversary points\nNo foreign transaction fees",
       "benefits_zh_CN": "Southwest购买3倍积分\n酒店和租车合作伙伴2倍积分\n其他消费1倍积分\n每年周年纪念赠6,000奖励积分\n无境外交易手续费",
+      "benefits_zh_TW": "Southwest消費3倍積分\n飯店與租車合作夥伴2倍積分\n其他消費1倍積分\n每年週年贈6,000獎勵積分\n無國外交易手續費",
       "aiRewards": {
         "Flights": 3.9,
         "Hotels": 2.6,
@@ -1066,6 +1130,7 @@
       "image": null,
       "benefits": "6x Marriott Bonvoy hotels\n4x groceries & dining (up to $15k/year)\n2x everything else\n1,000 bonus points per stay\nGold Elite status",
       "benefits_zh_CN": "万豪Bonvoy酒店6倍积分\n杂货和餐饮4倍积分（每年最高$15,000）\n其他消费2倍积分\n每次住宿额外奖励1,000积分\n金卡精英会员资格",
+      "benefits_zh_TW": "萬豪Bonvoy飯店6倍積分\n雜貨與餐飲4倍積分（每年最高$15,000）\n其他消費2倍積分\n每次住宿額外獎勵1,000積分\n金卡菁英會員資格",
       "aiRewards": {
         "Hotels": 4.2,
         "Groceries": 2.8,
@@ -1083,6 +1148,7 @@
       "image": null,
       "benefits": "7x Hilton hotels\n5x US restaurants, US supermarkets, & US gas stations\n3x everything else\nNo annual fee\nSilver Elite status",
       "benefits_zh_CN": "希尔顿酒店7倍积分\n美国餐厅、美国超市和美国加油站5倍积分\n其他消费3倍积分\n免年费\n银卡精英会员资格",
+      "benefits_zh_TW": "希爾頓飯店7倍積分\n美國餐廳、美國超市與美國加油站5倍積分\n其他消費3倍積分\n免年費\n銀卡菁英會員資格",
       "aiRewards": {
         "Hotels": 3.5,
         "Food & Dining": 2.5,
@@ -1101,6 +1167,7 @@
       "image": null,
       "benefits": "6x Marriott Bonvoy hotels\n4x US restaurants, US gas stations, US shipping, US wireless phone services\n2x everything else\nAnnual Free Night Award",
       "benefits_zh_CN": "万豪Bonvoy酒店6倍积分\n美国餐厅、美国加油站、美国快递、美国无线电话服务4倍积分\n其他消费2倍积分\n每年免费住宿奖励",
+      "benefits_zh_TW": "萬豪Bonvoy飯店6倍積分\n美國餐廳、美國加油站、美國貨運、美國無線電話服務4倍積分\n其他消費2倍積分\n每年免費住宿獎勵",
       "aiRewards": {
         "Hotels": 4.2,
         "Food & Dining": 2.8,
@@ -1116,8 +1183,9 @@
       "annualFee": 650,
       "color": "#1A1A1A",
       "image": null,
-      "benefits": "3x Delta purchases\n1x everything else\nDelta Sky Club access\nCenturion Lounge access\nAnnual Companion Certificate\nFirst checked bag free",
-      "benefits_zh_CN": "Delta购买3倍里程\n其他消费1倍里程\nDelta Sky Club贵宾厅访问权限\nCenturion贵宾厅访问权限\n每年同伴机票证书\n第一件托运行李免费",
+      "benefits": "3x Delta purchases\n1x everything else\n15 Delta Sky Club visits/year\nAnnual Companion Certificate (First/Comfort+/Main Cabin)\nFirst checked bag free\n$240 Resy credit/year ($20/mo)\n$120 rideshare credit/year ($10/mo)\n$200 Delta Stays credit/year\nGlobal Entry/TSA PreCheck credit\n$650 annual fee",
+      "benefits_zh_CN": "Delta购买3倍里程\n其他消费1倍里程\n每年15次Delta Sky Club访问\n每年同伴机票证书（头等/经济舱舒适+/主舱）\n首件托运行李免费\n每年$240 Resy返现（每月$20）\n每年$120网约车返现（每月$10）\n每年$200 Delta Stays返现\nGlobal Entry/TSA PreCheck费用返还\n年费$650",
+      "benefits_zh_TW": "Delta消費3倍里程\n其他消費1倍里程\n每年15次Delta Sky Club進入\n每年同伴機票證書（頭等/經濟艙舒適+/主艙）\n首件托運行李免費\n每年$240 Resy抵扣（每月$20）\n每年$120網約車抵扣（每月$10）\n每年$200 Delta Stays抵扣\nGlobal Entry/TSA PreCheck費用補貼\n年費$650",
       "aiRewards": {
         "Flights": 3.6,
         "Everything": 1.2
@@ -1133,6 +1201,7 @@
       "image": null,
       "benefits": "2x Delta, US shipping, US advertising\n1x everything else\nFirst checked bag free\n$200 Delta flight credit/year",
       "benefits_zh_CN": "Delta、美国快递、美国广告2倍里程\n其他消费1倍里程\n第一件托运行李免费\n每年$200 Delta机票返现",
+      "benefits_zh_TW": "Delta、美國貨運、美國廣告2倍里程\n其他消費1倍里程\n首件托運行李免費\n每年$200 Delta機票抵扣",
       "aiRewards": {
         "Flights": 2.4,
         "Everything": 1.2
@@ -1148,6 +1217,7 @@
       "image": null,
       "benefits": "3x Delta & eligible shipping\n1x everything else\nAnnual Companion Certificate\nFirst checked bag free\nGlobal Entry/TSA PreCheck credit",
       "benefits_zh_CN": "Delta和符合条件的快递3倍里程\n其他消费1倍里程\n每年同伴机票证书\n第一件托运行李免费\nGlobal Entry/TSA PreCheck费用返还",
+      "benefits_zh_TW": "Delta與符合條件的貨運3倍里程\n其他消費1倍里程\n每年同伴機票證書\n首件托運行李免費\nGlobal Entry/TSA PreCheck費用補貼",
       "aiRewards": {
         "Flights": 3.6,
         "Everything": 1.2
@@ -1163,6 +1233,7 @@
       "image": null,
       "benefits": "3x Delta purchases\n1x everything else (1.5x after $150k spend)\nDelta Sky Club access\nAnnual Companion Certificate\nFirst checked bag free",
       "benefits_zh_CN": "Delta购买3倍里程\n其他消费1倍里程（年消费超$150,000后升至1.5倍）\nDelta Sky Club贵宾厅访问权限\n每年同伴机票证书\n第一件托运行李免费",
+      "benefits_zh_TW": "Delta消費3倍里程\n其他消費1倍里程（年消費超$150,000後升至1.5倍）\nDelta Sky Club貴賓室進入權\n每年同伴機票證書\n首件托運行李免費",
       "aiRewards": {
         "Flights": 3.6,
         "Everything": 1.2
@@ -1178,6 +1249,7 @@
       "image": null,
       "benefits": "4x points on top 2 categories (up to $150k/year)\n1x everything else\n$240 flexible business credit/year\n$155 Walmart+ credit/year",
       "benefits_zh_CN": "最高消费的2个类别4倍积分（每年最高$150,000）\n其他消费1倍积分\n每年$240灵活商业消费返现\n每年$155 Walmart+返现",
+      "benefits_zh_TW": "消費最高的2個類別4倍積分（每年最高$150,000）\n其他消費1倍積分\n每年$240彈性商業消費抵扣\n每年$155 Walmart+抵扣",
       "aiRewards": {
         "Flights": 5.2,
         "Gas & Transit": 5.2,
@@ -1190,11 +1262,12 @@
       "name": "American Express® Business Platinum Card",
       "region": "US",
       "bank": "americanexpress.com",
-      "annualFee": 695,
+      "annualFee": 895,
       "color": "#8C9196",
       "image": null,
-      "benefits": "5x flights & prepaid hotels via Amex Travel\n1.5x on key business categories\n$200 airline fee credit/year\n$400 Dell credit/year\nGlobal Lounge Collection access",
-      "benefits_zh_CN": "通过Amex Travel预订机票和预付酒店5倍积分\n主要商业类别1.5倍积分\n每年$200航空费用返现\n每年$400 Dell返现\n全球贵宾厅合集访问权限",
+      "benefits": "5x flights & prepaid hotels via Amex Travel\n2x on eligible business purchases (up to $2M/year)\n1x everything else\n$600 hotel credit/year (FHR/The Hotel Collection, $300 semi-annual)\n$200 airline fee credit/year\nUp to $1,150 Dell credit/year + $250 Adobe credit/year\n$189 CLEAR Plus credit/year\nGlobal Lounge Collection access\n$895 annual fee",
+      "benefits_zh_CN": "通过Amex Travel预订机票和预付酒店5倍积分\n符合条件的商业消费2倍积分（每年最高$200万）\n其他消费1倍积分\n每年$600酒店返现（FHR/The Hotel Collection，每半年$300）\n每年$200航空费用返现\n每年最高$1,150 Dell返现 + $250 Adobe返现\n每年$189 CLEAR Plus费用返还\n全球贵宾厅合集访问权限\n年费$895",
+      "benefits_zh_TW": "透過Amex Travel預訂機票與預付飯店5倍積分\n符合條件的商業消費2倍積分（每年最高$200萬）\n其他消費1倍積分\n每年$600飯店抵扣（FHR/The Hotel Collection，每半年$300）\n每年$200航空費用抵扣\n每年最高$1,150 Dell抵扣 + $250 Adobe抵扣\n每年$189 CLEAR Plus費用補貼\n全球貴賓室聯盟使用權\n年費$895",
       "aiRewards": {
         "Flights": 7.5,
         "Hotels": 7.5,
@@ -1211,6 +1284,7 @@
       "image": null,
       "benefits": "1.5% Early Pay Discount on eligible charges\nNo pre-set spending limit\nFlexible payment terms (up to 60 days)\nNo foreign transaction fees",
       "benefits_zh_CN": "符合条件的消费提前还款可享1.5%折扣\n无预设消费限额\n灵活还款期（最长60天）\n无境外交易手续费",
+      "benefits_zh_TW": "符合條件的消費提前還款可享1.5%折扣\n無預設消費限額\n彈性還款期（最長60天）\n無國外交易手續費",
       "aiRewards": {
         "Everything": 1.5
       }
@@ -1225,6 +1299,7 @@
       "image": null,
       "benefits": "5x air travel & restaurants\n3x hotels & cruise lines\n1x everything else\n$250 annual travel credit\nComplimentary 4th night stay (2x/year)\nPriority Pass Select",
       "benefits_zh_CN": "航空旅行和餐厅5倍积分\n酒店和邮轮3倍积分\n其他消费1倍积分\n每年$250旅行消费返现\n免费第4晚住宿（每年2次）\n优先通行精选贵宾厅",
+      "benefits_zh_TW": "航空旅遊與餐廳5倍積分\n飯店與郵輪3倍積分\n其他消費1倍積分\n每年$250旅遊消費抵扣\n免費第4晚住宿（每年2次）\nPriority Pass Select貴賓室",
       "aiRewards": {
         "Flights": 7.5,
         "Food & Dining": 7.5,
@@ -1242,6 +1317,7 @@
       "image": null,
       "benefits": "2x American Airlines, gas stations, & restaurants\n1x everything else\nFirst checked bag free on domestic AA flights\nPreferred boarding",
       "benefits_zh_CN": "American Airlines、加油站和餐厅2倍里程\n其他消费1倍里程\n美国国内AA航班第一件托运行李免费\n优先登机",
+      "benefits_zh_TW": "American Airlines、加油站與餐廳2倍里程\n其他消費1倍里程\n美國國內AA航班首件托運行李免費\n優先登機",
       "aiRewards": {
         "Flights": 3.2,
         "Gas & Transit": 3.2,
@@ -1259,6 +1335,7 @@
       "image": null,
       "benefits": "4x American Airlines (up to 10x via bonus)\n1x everything else\nAdmirals Club membership\nGlobal Entry/TSA PreCheck credit\nFirst checked bag free",
       "benefits_zh_CN": "American Airlines 4倍里程（奖励最高10倍）\n其他消费1倍里程\nAdmirals Club会员资格\nGlobal Entry/TSA PreCheck费用返还\n第一件托运行李免费",
+      "benefits_zh_TW": "American Airlines 4倍里程（獎勵最高10倍）\n其他消費1倍里程\nAdmirals Club會員資格\nGlobal Entry/TSA PreCheck費用補貼\n首件托運行李免費",
       "aiRewards": {
         "Flights": 6.4,
         "Everything": 1.6
@@ -1274,6 +1351,7 @@
       "image": null,
       "benefits": "2x grocery stores & American Airlines\n1x everything else\nNo annual fee\nEarn miles on every purchase",
       "benefits_zh_CN": "杂货店和American Airlines 2倍里程\n其他消费1倍里程\n免年费\n每笔消费均可累积里程",
+      "benefits_zh_TW": "雜貨店與American Airlines 2倍里程\n其他消費1倍里程\n免年費\n每筆消費均可累積里程",
       "aiRewards": {
         "Groceries": 3.2,
         "Flights": 3.2,
@@ -1290,6 +1368,7 @@
       "image": null,
       "benefits": "4% gas & EV charging (up to $7k/year)\n3% restaurants & eligible travel\n2% Costco & Costco.com\n1% everything else",
       "benefits_zh_CN": "加油和电动车充电4%现金返还（每年最高$7,000）\n餐厅和符合条件的旅行3%现金返还\nCostco和Costco.com 2%现金返还\n其他消费1%现金返还",
+      "benefits_zh_TW": "加油與電動車充電4%現金回饋（每年最高$7,000）\n餐廳與符合條件的旅遊3%現金回饋\nCostco與Costco.com 2%現金回饋\n其他消費1%現金回饋",
       "aiRewards": {
         "Gas & Transit": 4,
         "Food & Dining": 3,
@@ -1309,6 +1388,7 @@
       "image": null,
       "benefits": "4% gas & EV charging (up to $7k/year)\n3% restaurants & eligible travel\n2% Costco & Costco.com\n1% everything else",
       "benefits_zh_CN": "加油和电动车充电4%现金返还（每年最高$7,000）\n餐厅和符合条件的旅行3%现金返还\nCostco和Costco.com 2%现金返还\n其他消费1%现金返还",
+      "benefits_zh_TW": "加油與電動車充電4%現金回饋（每年最高$7,000）\n餐廳與符合條件的旅遊3%現金回饋\nCostco與Costco.com 2%現金回饋\n其他消費1%現金回饋",
       "aiRewards": {
         "Gas & Transit": 4,
         "Food & Dining": 3,
@@ -1328,6 +1408,7 @@
       "image": null,
       "benefits": "2% cash back on every purchase\n$200 annual cash bonus (with $200k spend)\nNo pre-set spending limit",
       "benefits_zh_CN": "每笔消费2%现金返还\n年消费$200,000可获$200现金奖励\n无预设消费限额",
+      "benefits_zh_TW": "每筆消費2%現金回饋\n年消費$200,000可獲$200現金獎勵\n無預設消費限額",
       "aiRewards": {
         "Everything": 2
       }
@@ -1342,6 +1423,7 @@
       "image": null,
       "benefits": "2x miles on every purchase\n5x miles on hotels & rental cars via Capital One Travel\nGlobal Entry/TSA PreCheck credit",
       "benefits_zh_CN": "每笔消费2倍里程\n通过Capital One旅行预订酒店和租车5倍里程\nGlobal Entry/TSA PreCheck费用返还",
+      "benefits_zh_TW": "每筆消費2倍里程\n透過Capital One Travel預訂飯店與租車5倍里程\nGlobal Entry/TSA PreCheck費用補貼",
       "aiRewards": {
         "Hotels": 7.5,
         "Car Rental": 7.5,
@@ -1358,6 +1440,7 @@
       "image": null,
       "benefits": "0% intro APR on purchases and balance transfers for 21 months\nNo annual fee\nCell phone protection up to $600",
       "benefits_zh_CN": "购买和余额转账前21个月0%优惠年利率\n免年费\n手机保障最高$600",
+      "benefits_zh_TW": "購物與餘額代償前21個月0%優惠年利率\n免年費\n手機保障最高$600",
       "aiRewards": {
         "Everything": 0
       }
@@ -1372,6 +1455,7 @@
       "image": null,
       "benefits": "5x hotels\n4x airlines\n3x other travel & restaurants\n1x everything else\n$50 annual airline credit",
       "benefits_zh_CN": "酒店5倍积分\n航空公司4倍积分\n其他旅行和餐厅3倍积分\n其他消费1倍积分\n每年$50航空消费返现",
+      "benefits_zh_TW": "飯店5倍積分\n航空公司4倍積分\n其他旅遊與餐廳3倍積分\n其他消費1倍積分\n每年$50航空消費抵扣",
       "aiRewards": {
         "Hotels": 5,
         "Flights": 4,
@@ -1389,6 +1473,7 @@
       "image": null,
       "benefits": "3x Alaska Airlines purchases\n2x gas, local transit, ride-sharing, & cable\n1x everything else\nCompanion Fare every year\nFirst checked bag free",
       "benefits_zh_CN": "Alaska Airlines购买3倍里程\n加油、本地交通、拼车和有线2倍里程\n其他消费1倍里程\n每年同伴机票优惠\n第一件托运行李免费",
+      "benefits_zh_TW": "Alaska Airlines消費3倍里程\n加油、本地交通、共乘與有線電視2倍里程\n其他消費1倍里程\n每年同伴機票優惠\n首件托運行李免費",
       "aiRewards": {
         "Flights": 3.9,
         "Gas & Transit": 2.6,
@@ -1405,6 +1490,7 @@
       "image": null,
       "benefits": "3% in a category of your choice\n2% on dining\n1% everything else\nNo annual fee",
       "benefits_zh_CN": "自选消费类别3%现金返还\n餐饮2%现金返还\n其他消费1%现金返还\n免年费",
+      "benefits_zh_TW": "自選消費類別3%現金回饋\n餐飲2%現金回饋\n其他消費1%現金回饋\n免年費",
       "aiRewards": {
         "Shopping": 3,
         "Gas & Transit": 3,
@@ -1422,6 +1508,7 @@
       "image": null,
       "benefits": "4x points on dining, takeout, & delivery\n2x grocery stores, gas stations, & streaming\n1x everything else\n$15 annual streaming credit",
       "benefits_zh_CN": "餐饮、外卖和配送4倍积分\n杂货店、加油站和流媒体2倍积分\n其他消费1倍积分\n每年$15流媒体消费返现",
+      "benefits_zh_TW": "餐飲、外帶與外送4倍積分\n雜貨店、加油站與串流媒體2倍積分\n其他消費1倍積分\n每年$15串流媒體消費抵扣",
       "aiRewards": {
         "Food & Dining": 4,
         "Groceries": 2,
@@ -1440,6 +1527,7 @@
       "image": null,
       "benefits": "6% cash back on two retailers of your choice (up to $1,500/quarter)\n3% on one everyday category\n1.5% everything else",
       "benefits_zh_CN": "自选两个零售商6%现金返还（每季度最高$1,500）\n一个日常类别3%现金返还\n其他消费1.5%现金返还",
+      "benefits_zh_TW": "自選兩個零售商6%現金回饋（每季最高$1,500）\n一個日常類別3%現金回饋\n其他消費1.5%現金回饋",
       "aiRewards": {
         "Shopping": 6,
         "Everything": 1.5
@@ -1455,6 +1543,7 @@
       "image": null,
       "benefits": "3% cash back on gas, office supplies, restaurants, & cell service\n1% everything else\n$100 annual software credit",
       "benefits_zh_CN": "加油、办公用品、餐厅和手机服务3%现金返还\n其他消费1%现金返还\n每年$100软件消费返现",
+      "benefits_zh_TW": "加油、辦公用品、餐廳與手機服務3%現金回饋\n其他消費1%現金回饋\n每年$100軟體消費抵扣",
       "aiRewards": {
         "Gas & Transit": 3,
         "Shopping": 1,
@@ -1472,6 +1561,7 @@
       "image": null,
       "benefits": "3x points on restaurants\n2x internet, cable, phone, & grocery stores\n1x everything else\nNo annual fee",
       "benefits_zh_CN": "餐厅3倍积分\n网络、有线、电话和杂货店2倍积分\n其他消费1倍积分\n免年费",
+      "benefits_zh_TW": "餐廳3倍積分\n網路、有線電視、電話與雜貨店2倍積分\n其他消費1倍積分\n免年費",
       "aiRewards": {
         "Food & Dining": 3,
         "Groceries": 2,
@@ -1488,6 +1578,7 @@
       "image": null,
       "benefits": "6x TrueBlue points on JetBlue\n2x restaurants & grocery stores\n1x everything else\nFirst checked bag free\n5,000 bonus points each anniversary",
       "benefits_zh_CN": "JetBlue购买6倍TrueBlue积分\n餐厅和杂货店2倍积分\n其他消费1倍积分\n第一件托运行李免费\n每年周年纪念赠5,000奖励积分",
+      "benefits_zh_TW": "JetBlue消費6倍TrueBlue積分\n餐廳與雜貨店2倍積分\n其他消費1倍積分\n首件托運行李免費\n每年週年贈5,000獎勵積分",
       "aiRewards": {
         "Flights": 7.8,
         "Food & Dining": 2.6,
@@ -1505,6 +1596,7 @@
       "image": null,
       "benefits": "2x American Airlines purchases\n1x everything else\nFirst checked bag free\nPreferred boarding\n$25 annual WiFi credit",
       "benefits_zh_CN": "American Airlines购买2倍里程\n其他消费1倍里程\n第一件托运行李免费\n优先登机\n每年$25 WiFi消费返现",
+      "benefits_zh_TW": "American Airlines消費2倍里程\n其他消費1倍里程\n首件托運行李免費\n優先登機\n每年$25 WiFi消費抵扣",
       "aiRewards": {
         "Flights": 3.2,
         "Everything": 1.6
@@ -1520,6 +1612,7 @@
       "image": null,
       "benefits": "6x Wyndham hotels & gas\n4x dining & grocery stores\n1x everything else\nPlatinum status\n7,500 bonus points each anniversary",
       "benefits_zh_CN": "温德姆酒店和加油站6倍积分\n餐饮和杂货店4倍积分\n其他消费1倍积分\n白金会员资格\n每年周年纪念赠7,500奖励积分",
+      "benefits_zh_TW": "溫德姆飯店與加油站6倍積分\n餐飲與雜貨店4倍積分\n其他消費1倍積分\n白金會員資格\n每年週年贈7,500獎勵積分",
       "aiRewards": {
         "Hotels": 6.6,
         "Gas & Transit": 6.6,
@@ -1538,6 +1631,7 @@
       "image": null,
       "benefits": "5% back on Amazon.com (for Prime members)\nNo annual fee\nSpecial financing options",
       "benefits_zh_CN": "Amazon.com 5%返现（Prime会员）\n免年费\n特殊分期付款选项",
+      "benefits_zh_TW": "Amazon.com 5%回饋（Prime會員）\n免年費\n特殊分期付款選項",
       "aiRewards": {
         "Shopping": 5,
         "Everything": 1
@@ -1553,6 +1647,7 @@
       "image": null,
       "benefits": "5% off every day at Lowe’s\nSpecial financing options\nNo annual fee",
       "benefits_zh_CN": "每天Lowe's购物享9.5折优惠\n特殊分期付款选项\n免年费",
+      "benefits_zh_TW": "每天Lowe's購物享9.5折優惠\n特殊分期付款選項\n免年費",
       "aiRewards": {
         "Shopping": 5,
         "Everything": 0
@@ -1568,6 +1663,7 @@
       "image": null,
       "benefits": "4% grocery stores & gas\n3% dining\n2% Verizon purchases\n1% everything else\nNo foreign transaction fees",
       "benefits_zh_CN": "杂货店和加油站4%现金返还\n餐饮3%现金返还\nVerizon购买2%现金返还\n其他消费1%现金返还\n无境外交易手续费",
+      "benefits_zh_TW": "雜貨店與加油站4%現金回饋\n餐飲3%現金回饋\nVerizon消費2%現金回饋\n其他消費1%現金回饋\n無國外交易手續費",
       "aiRewards": {
         "Groceries": 4,
         "Gas & Transit": 4,
@@ -1585,6 +1681,7 @@
       "image": null,
       "benefits": "5% grocery stores\n3% gas, wholesale clubs, & pharmacies\n1% everything else\nNo annual fee",
       "benefits_zh_CN": "杂货店5%现金返还\n加油站、会员超市和药店3%现金返还\n其他消费1%现金返还\n免年费",
+      "benefits_zh_TW": "雜貨店5%現金回饋\n加油站、量販店與藥妝店3%現金回饋\n其他消費1%現金回饋\n免年費",
       "aiRewards": {
         "Groceries": 5,
         "Gas & Transit": 3,
@@ -1602,6 +1699,7 @@
       "image": null,
       "benefits": "2% unlimited cash back on all purchases\nNo annual fee\nNo foreign transaction fees",
       "benefits_zh_CN": "所有消费2%无限现金返还\n免年费\n无境外交易手续费",
+      "benefits_zh_TW": "所有消費2%無上限現金回饋\n免年費\n無國外交易手續費",
       "aiRewards": {
         "Everything": 2
       }
@@ -1616,6 +1714,7 @@
       "image": null,
       "benefits": "2% unlimited cash back (when redeemed into SoFi accounts)\nNo annual fee\nNo foreign transaction fees",
       "benefits_zh_CN": "所有消费2%无限现金返还（兑换至SoFi账户时）\n免年费\n无境外交易手续费",
+      "benefits_zh_TW": "所有消費2%無上限現金回饋（兌換至SoFi帳戶時）\n免年費\n無國外交易手續費",
       "aiRewards": {
         "Everything": 2
       }
@@ -1630,6 +1729,7 @@
       "image": null,
       "benefits": "3% back on top spend category\n2% on second category\n1% everything else\nNo annual fee\nUnique QR code on card",
       "benefits_zh_CN": "最高消费类别3%返现\n第二消费类别2%返现\n其他消费1%返现\n免年费\n卡面专属二维码",
+      "benefits_zh_TW": "最高消費類別3%回饋\n第二消費類別2%回饋\n其他消費1%回饋\n免年費\n卡面專屬QR碼",
       "aiRewards": {
         "Food & Dining": 3,
         "Shopping": 2,
@@ -1646,11 +1746,132 @@
       "image": null,
       "benefits": "2x Southwest, local transit, & commuting\n2x internet, cable, phone, & streaming\n1x everything else\n3,000 anniversary bonus points",
       "benefits_zh_CN": "Southwest、本地交通和通勤2倍积分\n网络、有线、电话和流媒体2倍积分\n其他消费1倍积分\n每年周年纪念赠3,000奖励积分",
+      "benefits_zh_TW": "Southwest、本地交通與通勤2倍積分\n網路、有線電視、電話與串流媒體2倍積分\n其他消費1倍積分\n每年週年贈3,000獎勵積分",
       "aiRewards": {
         "Flights": 2.6,
         "Gas & Transit": 2.6,
         "Entertainment": 2.6,
         "Everything": 1.3
+      }
+    },
+    {
+      "id": "robinhood_gold",
+      "name": "Robinhood Gold Card",
+      "region": "US",
+      "bank": "robinhood.com",
+      "annualFee": 0,
+      "color": "#C9A227",
+      "image": null,
+      "benefits": "3% cash back on all purchases\n5% on travel booked via Robinhood Travel\nNo annual card fee (requires Robinhood Gold, $5/mo or $50/yr)\nNo foreign transaction fees\nFull value when redeemed into a Robinhood brokerage account (2.1% as statement credit)",
+      "benefits_zh_CN": "所有消费3%现金返还\n通过Robinhood Travel预订旅行5%现金返还\n免年卡费（需Robinhood Gold会员，每月$5或每年$50）\n无境外交易手续费\n返现存入Robinhood券商账户可享全额（以账单返现则为2.1%）",
+      "benefits_zh_TW": "所有消費3%現金回饋\n透過Robinhood Travel預訂旅遊5%現金回饋\n免年卡費（需Robinhood Gold會員，每月$5或每年$50）\n無國外交易手續費\n回饋存入Robinhood券商帳戶可享全額（以帳單抵扣則為2.1%）",
+      "aiRewards": {
+        "Everything": 3,
+        "Travel": 5,
+        "Flights": 5,
+        "Hotels": 5
+      }
+    },
+    {
+      "id": "us_bank_smartly_visa",
+      "name": "U.S. Bank Smartly™ Visa Signature®",
+      "region": "US",
+      "bank": "usbank.com",
+      "annualFee": 0,
+      "color": "#0C2074",
+      "image": null,
+      "benefits": "2% cash back on all purchases\nUp to 4% with a qualifying U.S. Bank relationship (2.5% at $10k, 3% at $50k, 4% at $100k+)\nElevated rate on up to $10k spend per billing cycle\nNo annual fee\nRequires a U.S. Bank Smartly Savings account for bonus tiers",
+      "benefits_zh_CN": "所有消费2%现金返还\n持有符合条件的美国合众银行关系账户最高可达4%（$10,000享2.5%、$50,000享3%、$100,000以上享4%）\n加成费率适用于每账单周期最高$10,000消费\n免年费\n需开立U.S. Bank Smartly储蓄账户以解锁加成等级",
+      "benefits_zh_TW": "所有消費2%現金回饋\n持有符合條件的美國合眾銀行關係帳戶最高可達4%（$10,000享2.5%、$50,000享3%、$100,000以上享4%）\n加成費率適用於每帳單週期最高$10,000消費\n免年費\n需開立U.S. Bank Smartly儲蓄帳戶以解鎖加成等級",
+      "aiRewards": {
+        "Everything": 2
+      }
+    },
+    {
+      "id": "citi_strata_elite",
+      "name": "Citi Strata Elite℠ Card",
+      "region": "US",
+      "bank": "citi.com",
+      "annualFee": 595,
+      "color": "#1A1A1A",
+      "image": null,
+      "benefits": "12x hotels, car rentals & attractions via cititravel.com\n6x air travel via cititravel.com\n6x restaurants Fri/Sat 6pm-6am (Citi Nights)\n3x other restaurants\n1.5x everything else\n$300 annual hotel credit (2+ night cititravel.com stays)\n$200 Splurge Credit/year\n$200 Blacklane chauffeur credit/year\nPriority Pass Select + 4 Admirals Club passes/year\nGlobal Entry/TSA PreCheck credit\n$595 annual fee",
+      "benefits_zh_CN": "通过cititravel.com预订酒店、租车和景点12倍积分\n通过cititravel.com预订机票6倍积分\n周五/周六晚6点至次日6点餐厅6倍积分（Citi Nights）\n其他时段餐厅3倍积分\n其他消费1.5倍积分\n每年$300酒店返现（cititravel.com 2晚以上）\n每年$200 Splurge消费返现\n每年$200 Blacklane专车返现\nPriority Pass Select + 每年4次Admirals Club通行证\nGlobal Entry/TSA PreCheck费用返还\n年费$595",
+      "benefits_zh_TW": "透過cititravel.com預訂飯店、租車與景點12倍積分\n透過cititravel.com預訂機票6倍積分\n週五/週六晚6點至隔日6點餐廳6倍積分（Citi Nights）\n其他時段餐廳3倍積分\n其他消費1.5倍積分\n每年$300飯店抵扣（cititravel.com 2晚以上）\n每年$200 Splurge消費抵扣\n每年$200 Blacklane專車抵扣\nPriority Pass Select + 每年4次Admirals Club通行證\nGlobal Entry/TSA PreCheck費用補貼\n年費$595",
+      "aiRewards": {
+        "Travel": 18,
+        "Flights": 9,
+        "Hotels": 9,
+        "Food & Dining": 4.5,
+        "Everything": 2.25
+      }
+    },
+    {
+      "id": "chase_sapphire_reserve_business",
+      "name": "Chase Sapphire Reserve for Business",
+      "region": "US",
+      "bank": "chase.com",
+      "annualFee": 795,
+      "color": "#2C2C2C",
+      "image": null,
+      "benefits": "8x on Chase Travel purchases\n4x on flights & hotels booked direct\n3x social media & search advertising\n1x everything else\n$300 annual travel credit\n$500/yr The Edit hotel credit (2+ nights via Chase Travel)\nPriority Pass + Chase Sapphire Lounge access (2 guests)\nGlobal Entry/TSA PreCheck/NEXUS credit\nNo foreign transaction fees\nFree employee cards\n$795 annual fee",
+      "benefits_zh_CN": "通过Chase旅行消费8倍积分\n直接预订机票和酒店4倍积分\n社交媒体和搜索广告3倍积分\n其他消费1倍积分\n每年$300旅行消费返现\n每年$500 The Edit酒店返现（通过Chase旅行预订2晚以上）\nPriority Pass和Chase Sapphire贵宾厅使用权（携2位宾客）\nGlobal Entry/TSA PreCheck/NEXUS费用返还\n无境外交易手续费\n员工卡免费\n年费$795",
+      "benefits_zh_TW": "透過Chase Travel消費8倍積分\n直接預訂機票與飯店4倍積分\n社群媒體與搜尋廣告3倍積分\n其他消費1倍積分\n每年$300旅遊消費抵扣\n每年$500 The Edit飯店抵扣（透過Chase Travel預訂2晚以上）\nPriority Pass與Chase Sapphire貴賓室使用權（攜2位賓客）\nGlobal Entry/TSA PreCheck/NEXUS費用補貼\n無國外交易手續費\n員工卡免費\n年費$795",
+      "aiRewards": {
+        "Travel": 12.8,
+        "Flights": 6.4,
+        "Hotels": 6.4,
+        "Shopping": 4.8,
+        "Everything": 1.6
+      }
+    },
+    {
+      "id": "penfed_power_cash_rewards",
+      "name": "PenFed Power Cash Rewards Visa Signature®",
+      "region": "US",
+      "bank": "penfed.org",
+      "annualFee": 0,
+      "color": "#003366",
+      "image": null,
+      "benefits": "2% cash back on all purchases (with Honors Advantage membership or PenFed checking)\n1.5% cash back otherwise\nNo annual fee\nNo foreign transaction fees",
+      "benefits_zh_CN": "所有消费2%现金返还（持Honors Advantage会员资格或PenFed支票账户）\n其他情况1.5%现金返还\n免年费\n无境外交易手续费",
+      "benefits_zh_TW": "所有消費2%現金回饋（持Honors Advantage會員資格或PenFed支票帳戶）\n其他情況1.5%現金回饋\n免年費\n無國外交易手續費",
+      "aiRewards": {
+        "Everything": 2
+      }
+    },
+    {
+      "id": "usaa_eagle_navigator",
+      "name": "USAA Eagle Navigator™ Credit Card",
+      "region": "US",
+      "bank": "usaa.com",
+      "annualFee": 95,
+      "color": "#002554",
+      "image": null,
+      "benefits": "3x travel booked via USAA Travel Center\n2x on all other purchases\n$120 annual travel credit (after $120 spend)\nGlobal Entry/TSA PreCheck credit\nNo foreign transaction fees\n$95 annual fee",
+      "benefits_zh_CN": "通过USAA Travel Center预订旅行3倍积分\n其他所有消费2倍积分\n每年$120旅行返现（消费满$120后）\nGlobal Entry/TSA PreCheck费用返还\n无境外交易手续费\n年费$95",
+      "benefits_zh_TW": "透過USAA Travel Center預訂旅遊3倍積分\n其他所有消費2倍積分\n每年$120旅遊抵扣（消費滿$120後）\nGlobal Entry/TSA PreCheck費用補貼\n無國外交易手續費\n年費$95",
+      "aiRewards": {
+        "Travel": 3,
+        "Flights": 3,
+        "Hotels": 3,
+        "Everything": 2
+      }
+    },
+    {
+      "id": "paypal_cashback_mastercard",
+      "name": "PayPal Cashback Mastercard®",
+      "region": "US",
+      "bank": "paypal.com",
+      "annualFee": 0,
+      "color": "#003087",
+      "image": null,
+      "benefits": "3% cash back when you check out with PayPal\n2% cash back on all other purchases\nNo annual fee\nNo category limits\nRewards paid to PayPal balance",
+      "benefits_zh_CN": "使用PayPal结账3%现金返还\n其他所有消费2%现金返还\n免年费\n无消费类别限制\n返现存入PayPal余额",
+      "benefits_zh_TW": "使用PayPal結帳3%現金回饋\n其他所有消費2%現金回饋\n免年費\n無消費類別限制\n回饋存入PayPal餘額",
+      "aiRewards": {
+        "Everything": 2,
+        "Shopping": 3
       }
     },
     {
@@ -1663,6 +1884,7 @@
       "image": null,
       "benefits": "1 Avion point per $1 spent\nTravel insurance package\nMobile device insurance\nFlexible airline transfer partners",
       "benefits_zh_CN": "每消费1加元获1个Avion积分\n旅行保险套餐\n移动设备保险\n灵活的航空积分转换合作伙伴",
+      "benefits_zh_TW": "每消費1加元獲1個Avion積分\n旅遊保險套餐\n行動裝置保險\n靈活的航空積分轉換合作夥伴",
       "aiRewards": {
         "Flights": 1.7,
         "Hotels": 1.7,
@@ -1679,6 +1901,7 @@
       "image": null,
       "benefits": "3x earn rate on groceries, dining, rideshare, gas, EV charging, streaming & subscriptions\n1x everywhere else\nNo fee authorized users",
       "benefits_zh_CN": "杂货、餐饮、拼车、加油、电动车充电、流媒体和订阅3倍积分\n其他消费1倍积分\n附属卡持有人免费",
+      "benefits_zh_TW": "雜貨、餐飲、共乘、加油、電動車充電、串流媒體與訂閱3倍積分\n其他消費1倍積分\n附屬卡持有人免費",
       "aiRewards": {
         "Food & Dining": 5.1,
         "Groceries": 5.1,
@@ -1697,6 +1920,7 @@
       "image": null,
       "benefits": "1.5 Aeroplan points per $1 on gas, groceries & Air Canada purchases\n1 point per $1 everywhere else\nFree first checked bag on Air Canada\nNEXUS credit",
       "benefits_zh_CN": "加油、杂货和Air Canada购买每消费1加元获1.5个Aeroplan积分\n其他消费每消费1加元获1积分\nAir Canada第一件托运行李免费\nNEXUS卡费用返还",
+      "benefits_zh_TW": "加油、雜貨與Air Canada消費每消費1加元獲1.5個Aeroplan積分\n其他消費每消費1加元獲1積分\nAir Canada首件托運行李免費\nNEXUS卡費用補貼",
       "aiRewards": {
         "Flights": 2.7,
         "Groceries": 2.7,
@@ -1714,6 +1938,7 @@
       "image": null,
       "benefits": "3% gas, groceries & recurring bill payments\n1% everything else\nTravel medical insurance\nRoadside assistance discount",
       "benefits_zh_CN": "加油、杂货和定期账单3%现金返还\n其他消费1%现金返还\n旅行医疗保险\n道路救援折扣",
+      "benefits_zh_TW": "加油、雜貨與定期帳單3%現金回饋\n其他消費1%現金回饋\n旅遊醫療保險\n道路救援折扣",
       "aiRewards": {
         "Groceries": 3,
         "Gas & Transit": 3,
@@ -1730,6 +1955,7 @@
       "image": null,
       "benefits": "6x Scene+ points at Sobeys family stores\n5x dining, food delivery, groceries & entertainment\n3x transit, gas & streaming\nNo foreign transaction fees",
       "benefits_zh_CN": "Sobeys系列超市6倍Scene+积分\n餐饮、外卖、杂货和娱乐5倍积分\n交通、加油和流媒体3倍积分\n无境外交易手续费",
+      "benefits_zh_TW": "Sobeys系列超市6倍Scene+積分\n餐飲、外送、雜貨與娛樂5倍積分\n交通、加油與串流媒體3倍積分\n無國外交易手續費",
       "aiRewards": {
         "Groceries": 5,
         "Food & Dining": 5,
@@ -1748,6 +1974,7 @@
       "image": null,
       "benefits": "2x Scene+ points on groceries, dining, entertainment & transit\n1x everywhere else\nNo foreign transaction fees\nAirport lounge passes",
       "benefits_zh_CN": "杂货、餐饮、娱乐和交通2倍Scene+积分\n其他消费1倍积分\n无境外交易手续费\n机场贵宾厅通行证",
+      "benefits_zh_TW": "雜貨、餐飲、娛樂與交通2倍Scene+積分\n其他消費1倍積分\n無國外交易手續費\n機場貴賓室通行證",
       "aiRewards": {
         "Groceries": 2,
         "Food & Dining": 2,
@@ -1766,6 +1993,7 @@
       "image": null,
       "benefits": "4% gas & groceries\n2% dining, transit & recurring bills\n1% everything else\nMobile device insurance",
       "benefits_zh_CN": "加油和杂货4%现金返还\n餐饮、交通和定期账单2%现金返还\n其他消费1%现金返还\n移动设备保险",
+      "benefits_zh_TW": "加油與雜貨4%現金回饋\n餐飲、交通與定期帳單2%現金回饋\n其他消費1%現金回饋\n行動裝置保險",
       "aiRewards": {
         "Groceries": 4,
         "Gas & Transit": 4,
@@ -1783,6 +2011,7 @@
       "image": null,
       "benefits": "1.5 Aeroplan points per $1 on gas, groceries & Air Canada purchases\n1 point per $1 everywhere else\nFree first checked bag on Air Canada\nNEXUS credit",
       "benefits_zh_CN": "加油、杂货和Air Canada购买每消费1加元获1.5个Aeroplan积分\n其他消费每消费1加元获1积分\nAir Canada第一件托运行李免费\nNEXUS卡费用返还",
+      "benefits_zh_TW": "加油、雜貨與Air Canada消費每消費1加元獲1.5個Aeroplan積分\n其他消費每消費1加元獲1積分\nAir Canada首件托運行李免費\nNEXUS卡費用補貼",
       "aiRewards": {
         "Flights": 2.7,
         "Groceries": 2.7,
@@ -1800,6 +2029,7 @@
       "image": null,
       "benefits": "5% groceries\n4% transit\n3% gas & EV charging\n2% recurring bills\n1% everything else",
       "benefits_zh_CN": "杂货5%现金返还\n交通4%现金返还\n加油和电动车充电3%现金返还\n定期账单2%现金返还\n其他消费1%现金返还",
+      "benefits_zh_TW": "雜貨5%現金回饋\n交通4%現金回饋\n加油與電動車充電3%現金回饋\n定期帳單2%現金回饋\n其他消費1%現金回饋",
       "aiRewards": {
         "Groceries": 5,
         "Gas & Transit": 4,
@@ -1816,6 +2046,7 @@
       "image": null,
       "benefits": "5 BMO Rewards points per $1 on travel\n3 points per $1 on dining & entertainment\n1 point per $1 everywhere else\nAirport lounge passes\nComprehensive travel insurance",
       "benefits_zh_CN": "旅行每消费1加元获5个BMO奖励积分\n餐饮和娱乐每消费1加元获3积分\n其他消费每消费1加元获1积分\n机场贵宾厅通行证\n综合旅行保险",
+      "benefits_zh_TW": "旅遊每消費1加元獲5個BMO獎勵積分\n餐飲與娛樂每消費1加元獲3積分\n其他消費每消費1加元獲1積分\n機場貴賓室通行證\n綜合旅遊保險",
       "aiRewards": {
         "Flights": 3.5,
         "Hotels": 3.5,
@@ -1834,6 +2065,7 @@
       "image": "https://raw.githubusercontent.com/jimabby/card-assets/main/cards/amex_cobalt.png",
       "benefits": "5x points on food & drinks\n3x points on streaming\n2x points on travel & transit\n1x everything else\nAmex Fixed Points Travel Program",
       "benefits_zh_CN": "餐饮5倍积分\n流媒体3倍积分\n旅行和交通2倍积分\n其他消费1倍积分\nAmex固定积分旅行计划",
+      "benefits_zh_TW": "餐飲5倍積分\n串流媒體3倍積分\n旅遊與交通2倍積分\n其他消費1倍積分\nAmex固定積分旅遊計劃",
       "aiRewards": {
         "Food & Dining": 7.5,
         "Groceries": 7.5,
@@ -1854,6 +2086,7 @@
       "image": "https://raw.githubusercontent.com/jimabby/card-assets/main/cards/tangerine_money_back.png",
       "benefits": "2% cash back in two categories of your choice\n0.5% everything else\nNo annual fee\nUnlimited cash back rewards",
       "benefits_zh_CN": "自选两个类别2%现金返还\n其他消费0.5%现金返还\n免年费\n无上限现金返还奖励",
+      "benefits_zh_TW": "自選兩個類別2%現金回饋\n其他消費0.5%現金回饋\n免年費\n無上限現金回饋獎勵",
       "aiRewards": {
         "Food & Dining": 2,
         "Groceries": 2,
@@ -1870,6 +2103,7 @@
       "image": "https://raw.githubusercontent.com/jimabby/card-assets/main/cards/rogers_red_world_elite.png",
       "benefits": "2% cash back on all purchases (with Rogers service)\n3% cash back on U.S. dollar purchases\nMastercard Travel Pass by DragonPass\nComprehensive travel insurance",
       "benefits_zh_CN": "所有消费2%现金返还（Rogers服务用户）\n美元消费3%现金返还\nDragonPass Mastercard旅行通行证\n综合旅行保险",
+      "benefits_zh_TW": "所有消費2%現金回饋（Rogers服務用戶）\n美元消費3%現金回饋\nDragonPass Mastercard旅遊通行證\n綜合旅遊保險",
       "aiRewards": {
         "Everything": 2
       }
@@ -1884,6 +2118,7 @@
       "image": "https://raw.githubusercontent.com/jimabby/card-assets/main/cards/simplii_cash_back.png",
       "benefits": "4% cash back on restaurants, bars & coffee shops\n1.5% on gas, groceries & drugstores\n0.5% everything else\nNo annual fee",
       "benefits_zh_CN": "餐厅、酒吧和咖啡馆4%现金返还\n加油、杂货和药店1.5%现金返还\n其他消费0.5%现金返还\n免年费",
+      "benefits_zh_TW": "餐廳、酒吧與咖啡館4%現金回饋\n加油、雜貨與藥妝店1.5%現金回饋\n其他消費0.5%現金回饋\n免年費",
       "aiRewards": {
         "Food & Dining": 4,
         "Groceries": 1.5,
@@ -1901,6 +2136,7 @@
       "image": "https://raw.githubusercontent.com/jimabby/card-assets/main/cards/amex_platinum.jpg",
       "benefits": "3x points on dining & food delivery\n2x points on travel\n1x points on everything else\n$200 Annual Travel Credit\n$200 Annual Dining Credit\n$100 NEXUS Card Credit\nGlobal Lounge Collection (1,400+ lounges)\nHotel Elite Status (Marriott & Hilton)",
       "benefits_zh_CN": "餐饮和外卖3倍积分\n旅行2倍积分\n其他消费1倍积分\n每年$200旅行消费返现\n每年$200餐饮消费返现\n每年$100 NEXUS卡费用返还\n全球贵宾厅合集（1,400+贵宾厅）\n酒店精英会员资格（万豪和希尔顿）",
+      "benefits_zh_TW": "餐飲與外送3倍積分\n旅遊2倍積分\n其他消費1倍積分\n每年$200旅遊消費抵扣\n每年$200餐飲消費抵扣\n每年$100 NEXUS卡費用補貼\n全球貴賓室聯盟（1,400+貴賓室）\n飯店菁英會員資格（萬豪與希爾頓）",
       "aiRewards": {
         "Food & Dining": 4.5,
         "Flights": 3,
@@ -1918,6 +2154,7 @@
       "image": null,
       "benefits": "2% cash back on gas & groceries (up to $300/year)\n1.25% elsewhere\nNo annual fee\nNo point caps",
       "benefits_zh_CN": "加油和杂货2%现金返还（每年最高$300）\n其他消费1.25%现金返还\n免年费\n无积分上限",
+      "benefits_zh_TW": "加油與雜貨2%現金回饋（每年最高$300）\n其他消費1.25%現金回饋\n免年費\n無積分上限",
       "aiRewards": {
         "Gas & Transit": 2,
         "Groceries": 2,
@@ -1934,6 +2171,7 @@
       "image": null,
       "benefits": "4% cash back on gas & groceries\n2% elsewhere\nMobile device insurance\nTravel insurance package",
       "benefits_zh_CN": "加油和杂货4%现金返还\n其他消费2%现金返还\n移动设备保险\n旅行保险套餐",
+      "benefits_zh_TW": "加油與雜貨4%現金回饋\n其他消費2%現金回饋\n行動裝置保險\n旅遊保險套餐",
       "aiRewards": {
         "Gas & Transit": 4,
         "Groceries": 4,
@@ -1950,6 +2188,7 @@
       "image": null,
       "benefits": "2x points on travel, gas, groceries & pharmacy\n1x elsewhere\n$100 annual travel credit\nPriority Pass lounge access",
       "benefits_zh_CN": "旅行、加油、杂货和药店2倍积分\n其他消费1倍积分\n每年$100旅行消费返现\n优先通行贵宾厅访问权限",
+      "benefits_zh_TW": "旅遊、加油、雜貨與藥妝店2倍積分\n其他消費1倍積分\n每年$100旅遊消費抵扣\nPriority Pass貴賓室使用權",
       "aiRewards": {
         "Flights": 3,
         "Hotels": 3,
@@ -1968,6 +2207,7 @@
       "image": null,
       "benefits": "1 point per $1 on all purchases\nNo annual fee\nAccess to Amex offers\nPurchase protection",
       "benefits_zh_CN": "每消费1加元获1积分\n免年费\n可享Amex特惠优惠\n购物保障",
+      "benefits_zh_TW": "每消費1加元獲1積分\n免年費\n可享Amex特惠優惠\n購物保障",
       "aiRewards": {
         "Everything": 1
       }
@@ -1982,6 +2222,7 @@
       "image": null,
       "benefits": "5x points at Marriott Bonvoy properties\n2x on everything else\nAnnual Free Night Award\nSilver Elite status",
       "benefits_zh_CN": "万豪Bonvoy酒店5倍积分\n其他消费2倍积分\n每年免费住宿奖励\n银卡精英会员资格",
+      "benefits_zh_TW": "萬豪Bonvoy飯店5倍積分\n其他消費2倍積分\n每年免費住宿獎勵\n銀卡菁英會員資格",
       "aiRewards": {
         "Hotels": 3.5,
         "Everything": 1.4
@@ -1997,6 +2238,7 @@
       "image": null,
       "benefits": "1 mile per $12 spent on all purchases\n3x miles at participating partners\nTravel insurance package\nLounge access passes",
       "benefits_zh_CN": "每消费12加元获1英里\n参与商户3倍英里\n旅行保险套餐\n贵宾厅通行证",
+      "benefits_zh_TW": "每消費12加元獲1英里\n參與商家3倍英里\n旅遊保險套餐\n貴賓室通行證",
       "aiRewards": {
         "Everything": 1.5
       }
@@ -2011,6 +2253,7 @@
       "image": null,
       "benefits": "5x points on dining, groceries, gas & transit\n1x elsewhere\n$50 annual lifestyle credit\nMobile device insurance",
       "benefits_zh_CN": "餐饮、杂货、加油和交通5倍积分\n其他消费1倍积分\n每年$50生活方式消费返现\n移动设备保险",
+      "benefits_zh_TW": "餐飲、雜貨、加油與交通5倍積分\n其他消費1倍積分\n每年$50生活風格消費抵扣\n行動裝置保險",
       "aiRewards": {
         "Food & Dining": 3.5,
         "Groceries": 3.5,
@@ -2028,6 +2271,7 @@
       "image": null,
       "benefits": "5x points on dining, groceries, gas, transit & travel portal\n$200 annual lifestyle credit\nAirport lounge access\nConcierge service",
       "benefits_zh_CN": "餐饮、杂货、加油、交通和旅行门户5倍积分\n每年$200生活方式消费返现\n机场贵宾厅访问权限\n礼宾服务",
+      "benefits_zh_TW": "餐飲、雜貨、加油、交通與旅遊門戶5倍積分\n每年$200生活風格消費抵扣\n機場貴賓室使用權\n禮賓服務",
       "aiRewards": {
         "Food & Dining": 3.5,
         "Groceries": 3.5,
@@ -2046,6 +2290,7 @@
       "image": null,
       "benefits": "2x points on travel via CIBC\n1.5x gas, groceries & pharmacy\n1x elsewhere\nNEXUS fee rebate",
       "benefits_zh_CN": "通过CIBC预订旅行2倍积分\n加油、杂货和药店1.5倍积分\n其他消费1倍积分\nNEXUS费用返还",
+      "benefits_zh_TW": "透過CIBC預訂旅遊2倍積分\n加油、雜貨與藥妝店1.5倍積分\n其他消費1倍積分\nNEXUS費用補貼",
       "aiRewards": {
         "Flights": 2,
         "Hotels": 2,
@@ -2064,6 +2309,7 @@
       "image": null,
       "benefits": "3% gas & dining\n2% at Costco.ca\n1% at Costco warehouses & elsewhere\nNo annual fee",
       "benefits_zh_CN": "加油和餐饮3%现金返还\nCostco.ca 2%现金返还\nCostco实体店和其他消费1%现金返还\n免年费",
+      "benefits_zh_TW": "加油與餐飲3%現金回饋\nCostco.ca 2%現金回饋\nCostco實體店與其他消費1%現金回饋\n免年費",
       "aiRewards": {
         "Gas & Transit": 3,
         "Food & Dining": 3,
@@ -2081,6 +2327,7 @@
       "image": null,
       "benefits": "8x points on Expedia for TD\n6x on groceries & dining\n2x everything else\n$100 annual travel credit",
       "benefits_zh_CN": "Expedia for TD 8倍积分\n杂货和餐饮6倍积分\n其他消费2倍积分\n每年$100旅行消费返现",
+      "benefits_zh_TW": "Expedia for TD 8倍積分\n雜貨與餐飲6倍積分\n其他消費2倍積分\n每年$100旅遊消費抵扣",
       "aiRewards": {
         "Flights": 4,
         "Hotels": 4,
@@ -2099,6 +2346,7 @@
       "image": null,
       "benefits": "2x points on groceries, dining & phone/utilities\n3x on Expedia for TD\n1x elsewhere\nNo annual fee",
       "benefits_zh_CN": "杂货、餐饮和电话/水电2倍积分\nExpedia for TD 3倍积分\n其他消费1倍积分\n免年费",
+      "benefits_zh_TW": "雜貨、餐飲與電話/水電2倍積分\nExpedia for TD 3倍積分\n其他消費1倍積分\n免年費",
       "aiRewards": {
         "Groceries": 1,
         "Food & Dining": 1,
@@ -2115,6 +2363,7 @@
       "image": null,
       "benefits": "4% cash back on groceries & recurring bills\n2% on gas & transit\n1% elsewhere\nMobile device insurance",
       "benefits_zh_CN": "杂货和定期账单4%现金返还\n加油和交通2%现金返还\n其他消费1%现金返还\n移动设备保险",
+      "benefits_zh_TW": "雜貨與定期帳單4%現金回饋\n加油與交通2%現金回饋\n其他消費1%現金回饋\n行動裝置保險",
       "aiRewards": {
         "Groceries": 4,
         "Gas & Transit": 2,
@@ -2131,6 +2380,7 @@
       "image": null,
       "benefits": "2x points at Cineplex & partners\n1x elsewhere\nNo annual fee\nEarn points on every purchase",
       "benefits_zh_CN": "Cineplex和合作伙伴2倍积分\n其他消费1倍积分\n免年费\n每笔消费均可累积积分",
+      "benefits_zh_TW": "Cineplex與合作夥伴2倍積分\n其他消費1倍積分\n免年費\n每筆消費均可累積積分",
       "aiRewards": {
         "Entertainment": 2,
         "Everything": 1
@@ -2146,6 +2396,7 @@
       "image": null,
       "benefits": "1.5x points on groceries, gas, transit, & streaming\n1x elsewhere\nNo annual fee\nSave 3c/L at Petro-Canada",
       "benefits_zh_CN": "杂货、加油、交通和流媒体1.5倍积分\n其他消费1倍积分\n免年费\nPetro-Canada加油每升节省3分",
+      "benefits_zh_TW": "雜貨、加油、交通與串流媒體1.5倍積分\n其他消費1倍積分\n免年費\nPetro-Canada加油每公升省3分",
       "aiRewards": {
         "Groceries": 1.5,
         "Gas & Transit": 1.5,
@@ -2162,6 +2413,7 @@
       "image": null,
       "benefits": "2% cash back on groceries (up to $6k/year)\n0.5% elsewhere\nNo annual fee\nSave 3c/L at Petro-Canada",
       "benefits_zh_CN": "杂货2%现金返还（每年最高$6,000）\n其他消费0.5%现金返还\n免年费\nPetro-Canada加油每升节省3分",
+      "benefits_zh_TW": "雜貨2%現金回饋（每年最高$6,000）\n其他消費0.5%現金回饋\n免年費\nPetro-Canada加油每公升省3分",
       "aiRewards": {
         "Groceries": 2,
         "Everything": 0.5
@@ -2177,6 +2429,7 @@
       "image": null,
       "benefits": "Up to 5 points per $1 on groceries & dining\n2 points on travel & gas\n1 point elsewhere\n$150 annual travel credit",
       "benefits_zh_CN": "杂货和餐饮每消费1加元最高获5积分\n旅行和加油2倍积分\n其他消费1倍积分\n每年$150旅行消费返现",
+      "benefits_zh_TW": "雜貨與餐飲每消費1加元最高獲5積分\n旅遊與加油2倍積分\n其他消費1倍積分\n每年$150旅遊消費抵扣",
       "aiRewards": {
         "Groceries": 2.5,
         "Food & Dining": 2.5,
@@ -2195,6 +2448,7 @@
       "image": null,
       "benefits": "30 points per $1 at Loblaws/Shoppers\n30 points per $1 at PC Travel\n10 points per $1 elsewhere\nTravel & car rental insurance",
       "benefits_zh_CN": "Loblaws/Shoppers每消费1加元获30积分\nPC Travel每消费1加元获30积分\n其他消费每消费1加元获10积分\n旅行和租车保险",
+      "benefits_zh_TW": "Loblaws/Shoppers每消費1加元獲30積分\nPC Travel每消費1加元獲30積分\n其他消費每消費1加元獲10積分\n旅遊與租車保險",
       "aiRewards": {
         "Groceries": 3,
         "Everything": 1
@@ -2210,6 +2464,7 @@
       "image": null,
       "benefits": "4% back at Canadian Tire & partners\n3% on groceries\n5-7c back per L at Gas+/Petro-Canada\nRoadside assistance Gold",
       "benefits_zh_CN": "Canadian Tire和合作伙伴4%返现\n杂货3%返现\nGas+/Petro-Canada每升返还5-7分\n金级道路救援",
+      "benefits_zh_TW": "Canadian Tire與合作夥伴4%回饋\n雜貨3%回饋\nGas+/Petro-Canada每公升回饋5-7分\n金級道路救援",
       "aiRewards": {
         "Shopping": 4,
         "Groceries": 3,
@@ -2227,6 +2482,7 @@
       "image": null,
       "benefits": "2% unlimited cash back (for Rogers/Shaw/Fido customers)\n1% for others\nNo foreign transaction fees (conditional)\nNo annual fee",
       "benefits_zh_CN": "所有消费2%无限现金返还（Rogers/Shaw/Fido客户）\n其他用户1%现金返还\n无境外交易手续费（有条件）\n免年费",
+      "benefits_zh_TW": "所有消費2%無上限現金回饋（Rogers/Shaw/Fido客戶）\n其他用戶1%現金回饋\n無國外交易手續費（有條件）\n免年費",
       "aiRewards": {
         "Everything": 2
       }
@@ -2241,6 +2497,7 @@
       "image": null,
       "benefits": "1% cash back on all purchases\n1.5% on recurring bills\nNo annual fee\nRogers/Fido payment bonuses",
       "benefits_zh_CN": "所有消费1%现金返还\n定期账单1.5%现金返还\n免年费\nRogers/Fido账单缴费奖励",
+      "benefits_zh_TW": "所有消費1%現金回饋\n定期帳單1.5%現金回饋\n免年費\nRogers/Fido帳單繳費獎勵",
       "aiRewards": {
         "Everything": 1
       }
@@ -2255,6 +2512,7 @@
       "image": null,
       "benefits": "1% back on all spending (invested in crypto/stocks)\nNo foreign transaction fees\nNo annual fee\nEarn interest on cash balance",
       "benefits_zh_CN": "所有消费1%返现（投资于加密货币/股票）\n无境外交易手续费\n免年费\n现金余额赚取利息",
+      "benefits_zh_TW": "所有消費1%回饋（投資於加密貨幣/股票）\n無國外交易手續費\n免年費\n現金餘額賺取利息",
       "aiRewards": {
         "Everything": 1
       }
@@ -2269,6 +2527,7 @@
       "image": null,
       "benefits": "Average 5% cash back at Neo partners\n0.5% guaranteed overall\nInstant cashback rewards\nCustomizable reward bundles",
       "benefits_zh_CN": "Neo合作伙伴平均5%现金返还\n整体保底0.5%现金返还\n即时现金返还奖励\n可定制奖励套餐",
+      "benefits_zh_TW": "Neo合作夥伴平均5%現金回饋\n整體保底0.5%現金回饋\n即時現金回饋獎勵\n可自訂獎勵套餐",
       "aiRewards": {
         "Everything": 0.8
       }
@@ -2283,6 +2542,7 @@
       "image": null,
       "benefits": "0.5% cash back on all spend\nFree ATM withdrawals in Canada\nEarn interest on card balance\nNo foreign transaction fees",
       "benefits_zh_CN": "所有消费0.5%现金返还\n加拿大境内ATM取现免费\n卡内余额赚取利息\n无境外交易手续费",
+      "benefits_zh_TW": "所有消費0.5%現金回饋\n加拿大境內ATM提款免費\n卡內餘額賺取利息\n無國外交易手續費",
       "aiRewards": {
         "Everything": 0.5
       }
@@ -2297,6 +2557,7 @@
       "image": null,
       "benefits": "1 point per $1 on all purchases\nNo foreign transaction fees\nFlexible point redemption\nInstallment payment options",
       "benefits_zh_CN": "每消费1加元获1积分\n无境外交易手续费\n灵活积分兑换\n分期付款选项",
+      "benefits_zh_TW": "每消費1加元獲1積分\n無國外交易手續費\n靈活積分兌換\n分期付款選項",
       "aiRewards": {
         "Everything": 1
       }
@@ -2311,6 +2572,7 @@
       "image": null,
       "benefits": "2% back in WestJet dollars on WestJet flights/packages\n1.5% back overall\nAnnual Round-trip Companion Voucher\nFirst checked bag free",
       "benefits_zh_CN": "WestJet机票/套餐2% WestJet美元返还\n总体1.5%返还\n每年往返同伴机票凭证\n第一件托运行李免费",
+      "benefits_zh_TW": "WestJet機票/套餐2% WestJet美元回饋\n整體1.5%回饋\n每年往返同伴機票券\n首件托運行李免費",
       "aiRewards": {
         "Flights": 2,
         "Everything": 1.5
@@ -2326,6 +2588,7 @@
       "image": null,
       "benefits": "2 Avios per $1 on British Airways\n1 Avios per $1 overall\n10% off British Airways flights from Canada\nCompanion Award Voucher",
       "benefits_zh_CN": "英国航空消费每消费1加元获2个Avios\n其他消费每消费1加元获1个Avios\n从加拿大出发的英国航空机票九折优惠\n同伴奖励凭证",
+      "benefits_zh_TW": "英國航空消費每消費1加元獲2個Avios\n其他消費每消費1加元獲1個Avios\n從加拿大出發的英國航空機票9折優惠\n同伴獎勵券",
       "aiRewards": {
         "Flights": 3,
         "Everything": 1.5
@@ -2341,6 +2604,7 @@
       "image": null,
       "benefits": "9 TD Rewards Points on Expedia for TD\n6 points on travel, gas, and travel-related spend\n2 points overall\nTravel insurance package",
       "benefits_zh_CN": "Expedia for TD 9倍TD奖励积分\n旅行、加油和旅行相关消费6倍积分\n总体2倍积分\n旅行保险套餐",
+      "benefits_zh_TW": "Expedia for TD 9倍TD獎勵積分\n旅遊、加油與旅遊相關消費6倍積分\n整體2倍積分\n旅遊保險套餐",
       "aiRewards": {
         "Flights": 4.5,
         "Hotels": 4.5,
@@ -2358,6 +2622,7 @@
       "image": null,
       "benefits": "2 Aeroplan points per $1 on Air Canada\n1.5 points on travel and dining\n1 point overall\nFree first checked bag",
       "benefits_zh_CN": "Air Canada消费每消费1加元获2个Aeroplan积分\n旅行和餐饮1.5倍积分\n总体1倍积分\n第一件托运行李免费",
+      "benefits_zh_TW": "Air Canada消費每消費1加元獲2個Aeroplan積分\n旅遊與餐飲1.5倍積分\n整體1倍積分\n首件托運行李免費",
       "aiRewards": {
         "Flights": 3.6,
         "Food & Dining": 2.7,
@@ -2374,6 +2639,7 @@
       "image": null,
       "benefits": "3x miles at Shell\n2x miles at grocery stores\n1 mile per $20 overall\nNo annual fee",
       "benefits_zh_CN": "Shell加油站3倍英里\n杂货店2倍英里\n其他消费每消费20加元获1英里\n免年费",
+      "benefits_zh_TW": "Shell加油站3倍英里\n雜貨店2倍英里\n其他消費每消費20加元獲1英里\n免年費",
       "aiRewards": {
         "Gas & Transit": 1.5,
         "Groceries": 1,
@@ -2390,6 +2656,7 @@
       "image": null,
       "benefits": "5x points at IHG hotels\n2x points on groceries, dining, and gas\n1 point per $1 overall\nNo annual fee",
       "benefits_zh_CN": "IHG酒店5倍积分\n杂货、餐饮和加油2倍积分\n总体每消费1加元获1积分\n免年费",
+      "benefits_zh_TW": "IHG飯店5倍積分\n雜貨、餐飲與加油2倍積分\n整體每消費1加元獲1積分\n免年費",
       "aiRewards": {
         "Hotels": 2.5,
         "Groceries": 1,
@@ -2408,6 +2675,7 @@
       "image": null,
       "benefits": "3% cash back on office supplies and gas\n2% on recurring bills\n1% overall\nNo annual fee",
       "benefits_zh_CN": "办公用品和加油3%现金返还\n定期账单2%现金返还\n总体1%现金返还\n免年费",
+      "benefits_zh_TW": "辦公用品與加油3%現金回饋\n定期帳單2%現金回饋\n整體1%現金回饋\n免年費",
       "aiRewards": {
         "Shopping": 3,
         "Gas & Transit": 3,
@@ -2424,6 +2692,7 @@
       "image": null,
       "benefits": "2x Scene+ points on all purchases\n10 complimentary airport lounge visits\nComprehensive travel insurance\nNo foreign transaction fees",
       "benefits_zh_CN": "所有消费2倍Scene+积分\n每年10次免费机场贵宾厅访问\n综合旅行保险\n无境外交易手续费",
+      "benefits_zh_TW": "所有消費2倍Scene+積分\n每年10次免費機場貴賓室進入\n綜合旅遊保險\n無國外交易手續費",
       "aiRewards": {
         "Everything": 2
       }
@@ -2438,6 +2707,7 @@
       "image": null,
       "benefits": "Low interest rate for 6 months\nNo annual fee\nSavings with Scotia Select payLater",
       "benefits_zh_CN": "前6个月低利率\n免年费\n使用Scotia Select payLater可节省费用",
+      "benefits_zh_TW": "前6個月低利率\n免年費\n使用Scotia Select payLater可節省費用",
       "aiRewards": {
         "Everything": 0
       }
@@ -2452,6 +2722,7 @@
       "image": null,
       "benefits": "Earn up to 2 points per $1 spent\nTravel insurance package\nPurchase protection\nNo annual fee for the first year possible",
       "benefits_zh_CN": "每消费1加元最高获2积分\n旅行保险套餐\n购物保障\n首年可能免年费",
+      "benefits_zh_TW": "每消費1加元最高獲2積分\n旅遊保險套餐\n購物保障\n首年可能免年費",
       "aiRewards": {
         "Everything": 1
       }
@@ -2466,6 +2737,7 @@
       "image": null,
       "benefits": "4% back on dining & entertainment\n3% back on grocery stores & gas\n2% back on all other purchases\nUnlimited access to Desjardins Odyssey Lounge",
       "benefits_zh_CN": "餐饮和娱乐4%返现\n杂货店和加油3%返现\n其他消费2%返现\n无限次访问Desjardins Odyssey贵宾厅",
+      "benefits_zh_TW": "餐飲與娛樂4%回饋\n雜貨店與加油3%回饋\n其他消費2%回饋\n無限次進入Desjardins Odyssey貴賓室",
       "aiRewards": {
         "Food & Dining": 4,
         "Entertainment": 4,
@@ -2484,6 +2756,7 @@
       "image": null,
       "benefits": "3% cash back on groceries and transportation\n2% on recurring bills\n1% overall\nTrip cancellation and interruption insurance",
       "benefits_zh_CN": "杂货和交通3%现金返还\n定期账单2%现金返还\n总体1%现金返还\n行程取消和中断保险",
+      "benefits_zh_TW": "雜貨與交通3%現金回饋\n定期帳單2%現金回饋\n整體1%現金回饋\n行程取消與中斷保險",
       "aiRewards": {
         "Groceries": 3,
         "Gas & Transit": 3,
@@ -2500,6 +2773,7 @@
       "image": null,
       "benefits": "4% back at Canadian Tire & partners\n1.5% back on groceries (up to $12k/year)\nNo annual fee",
       "benefits_zh_CN": "Canadian Tire和合作伙伴4%返现\n杂货1.5%返现（每年最高$12,000）\n免年费",
+      "benefits_zh_TW": "Canadian Tire與合作夥伴4%回饋\n雜貨1.5%回饋（每年最高$12,000）\n免年費",
       "aiRewards": {
         "Shopping": 4,
         "Groceries": 1.5,
@@ -2516,6 +2790,7 @@
       "image": null,
       "benefits": "10 points per $1 everywhere\n20 points at PC Travel\nNo annual fee\nPoints redeemable at Loblaws & Shoppers",
       "benefits_zh_CN": "所有消费每消费1加元获10积分\nPC Travel 20倍积分\n免年费\n积分可在Loblaws和Shoppers兑换",
+      "benefits_zh_TW": "所有消費每消費1加元獲10積分\nPC Travel 20倍積分\n免年費\n積分可在Loblaws與Shoppers兌換",
       "aiRewards": {
         "Everything": 1
       }
@@ -2530,6 +2805,7 @@
       "image": null,
       "benefits": "1.25% at Walmart.ca and Walmart stores\n1% elsewhere\nNo annual fee\nWalmart Rewards can be used at checkout",
       "benefits_zh_CN": "Walmart.ca和Walmart实体店1.25%返现\n其他消费1%返现\n免年费\nWalmart奖励可在结账时使用",
+      "benefits_zh_TW": "Walmart.ca與Walmart實體店1.25%回饋\n其他消費1%回饋\n免年費\nWalmart獎勵可在結帳時使用",
       "aiRewards": {
         "Shopping": 1.25,
         "Everything": 1
@@ -2545,6 +2821,7 @@
       "image": null,
       "benefits": "2.5% at Amazon.ca and Whole Foods (for Prime members)\n1% elsewhere\nNo annual fee\nNo foreign transaction fees (on foreign currency purchases)",
       "benefits_zh_CN": "Amazon.ca和Whole Foods 2.5%返现（Prime会员）\n其他消费1%返现\n免年费\n无境外交易手续费（外币消费）",
+      "benefits_zh_TW": "Amazon.ca與Whole Foods 2.5%回饋（Prime會員）\n其他消費1%回饋\n免年費\n無國外交易手續費（外幣消費）",
       "aiRewards": {
         "Shopping": 2.5,
         "Groceries": 2.5,
@@ -2561,6 +2838,7 @@
       "image": null,
       "benefits": "2 points per $1 on groceries, gas, and restaurants\n1 point overall\nNo annual fee\nPoints don't expire",
       "benefits_zh_CN": "杂货、加油和餐厅每消费1加元获2积分\n总体每消费1加元获1积分\n免年费\n积分永不过期",
+      "benefits_zh_TW": "雜貨、加油與餐廳每消費1加元獲2積分\n整體每消費1加元獲1積分\n免年費\n積分永不過期",
       "aiRewards": {
         "Groceries": 1,
         "Gas & Transit": 1,
@@ -2578,6 +2856,7 @@
       "image": null,
       "benefits": "5 points for every $1 spent at Best Western\n1 point overall\nNo annual fee\nGold status automatic",
       "benefits_zh_CN": "Best Western每消费1加元获5积分\n总体每消费1加元获1积分\n免年费\n自动获得金卡会员资格",
+      "benefits_zh_TW": "Best Western每消費1加元獲5積分\n整體每消費1加元獲1積分\n免年費\n自動獲得金卡會員資格",
       "aiRewards": {
         "Hotels": 2.5,
         "Everything": 0.5
@@ -2593,6 +2872,7 @@
       "image": null,
       "benefits": "10x points on office supplies, electronics, rides & gas (up to 10k points)\n1x overall\nAccess to Amex offers",
       "benefits_zh_CN": "办公用品、电子产品、乘车和加油10倍积分（最高10,000积分）\n总体1倍积分\n可享Amex特惠优惠",
+      "benefits_zh_TW": "辦公用品、電子產品、乘車與加油10倍積分（最高10,000積分）\n整體1倍積分\n可享Amex特惠優惠",
       "aiRewards": {
         "Shopping": 7.5,
         "Gas & Transit": 7.5,
@@ -2609,6 +2889,7 @@
       "image": null,
       "benefits": "1 point per $1 on all purchases\n$100 annual travel credit\nPriority Pass lounge access\nComprehensive business insurance",
       "benefits_zh_CN": "每消费1加元获1积分\n每年$100旅行消费返现\n优先通行贵宾厅访问权限\n综合商业保险",
+      "benefits_zh_TW": "每消費1加元獲1積分\n每年$100旅遊消費抵扣\nPriority Pass貴賓室使用權\n綜合商業保險",
       "aiRewards": {
         "Everything": 1.5
       }
@@ -2622,6 +2903,8 @@
       "color": "#007DBB",
       "image": "https://raw.githubusercontent.com/jimabby/card-assets/main/cards/anz_frequent_flyer_black.png",
       "benefits": "1 Qantas Point per $1 on eligible purchases (up to $7,500/statement period), then 0.5 per $1\n1 bonus Qantas Point per $1 on eligible Qantas products & services (uncapped)\nTwo complimentary Qantas Club lounge invitations each year\nComplimentary international and domestic travel insurance, plus rental vehicle excess cover in Australia\nUp to 44 days interest-free on purchases\n$425 annual fee ($370 annual fee + $55 Rewards Program Service Fee)\n3.5% overseas transaction fee applies",
+      "benefits_zh_CN": "符合条件消费每消费1澳元获1个澳航积分（每结算周期最高$7,500），之后每1澳元获0.5积分\n符合条件的澳航产品及服务每消费1澳元额外获1个澳航积分（无上限）\n每年2次免费澳航俱乐部贵宾室邀请\n免费国际及国内旅游保险，另含澳洲境内租车自负额保障\n消费最长44天免息期\n$425年费（$370年费 + $55奖励计划服务费）\n收取3.5%境外交易手续费",
+      "benefits_zh_TW": "符合條件消費每消費1澳元獲1個澳航積分（每結算週期最高$7,500），之後每1澳元獲0.5積分\n符合條件的澳航產品及服務每消費1澳元額外獲1個澳航積分（無上限）\n每年2次免費澳航俱樂部貴賓室邀請\n免費國際及國內旅遊保險，另含澳洲境內租車自負額保障\n消費最長44天免息期\n$425年費（$370年費 + $55獎勵計劃服務費）\n收取3.5%境外交易手續費",
       "aiRewards": {
         "Everything": 1,
         "Flights": 2
@@ -2636,6 +2919,8 @@
       "color": "#005A8E",
       "image": "https://raw.githubusercontent.com/jimabby/card-assets/main/cards/anz_rewards_black.png",
       "benefits": "2 ANZ Reward Points per $1 on eligible purchases (up to $5,000/statement period), then 1 per $1\nComplimentary international and domestic travel insurance, plus rental vehicle excess cover in Australia\nPurchase Protection and Extended Warranty insurance\n24/7 ANZ Personal Concierge service\nUp to 44 days interest-free on purchases\n$375 annual fee ($320 annual fee + $55 Rewards Program Service Fee)\n3.5% overseas transaction fee applies",
+      "benefits_zh_CN": "符合条件消费每消费1澳元获2个ANZ奖励积分（每结算周期最高$5,000），之后每1澳元获1积分\n免费国际及国内旅游保险，另含澳洲境内租车自负额保障\n购物保障及延长保固保险\n24小时ANZ专属礼宾服务\n消费最长44天免息期\n$375年费（$320年费 + $55奖励计划服务费）\n收取3.5%境外交易手续费",
+      "benefits_zh_TW": "符合條件消費每消費1澳元獲2個ANZ獎勵積分（每結算週期最高$5,000），之後每1澳元獲1積分\n免費國際及國內旅遊保險，另含澳洲境內租車自負額保障\n購物保障及延長保固保險\n24小時ANZ專屬禮賓服務\n消費最長44天免息期\n$375年費（$320年費 + $55獎勵計劃服務費）\n收取3.5%境外交易手續費",
       "aiRewards": {
         "Everything": 1
       }
@@ -2649,6 +2934,8 @@
       "color": "#0076C0",
       "image": "https://raw.githubusercontent.com/jimabby/card-assets/main/cards/anz_low_rate.png",
       "benefits": "Low ongoing variable purchase interest rate\nNo ANZ Reward or Qantas Point benefits\nUp to 55 days interest-free on purchases\n$58 annual fee\nANZ Falcon 24/7 fraud monitoring and fraud money-back guarantee\nUp to 3 additional cardholders at no cost",
+      "benefits_zh_CN": "持续较低的浮动购物利率\n无ANZ奖励或澳航积分权益\n消费最长55天免息期\n$58年费\nANZ Falcon 24小时诈骗监控及诈骗退款保证\n最多3名附属卡持卡人免费",
+      "benefits_zh_TW": "持續較低的浮動購物利率\n無ANZ獎勵或澳航積分權益\n消費最長55天免息期\n$58年費\nANZ Falcon 24小時詐騙監控及詐騙退款保證\n最多3名附屬卡持卡人免費",
       "aiRewards": {
         "Everything": 0
       }
@@ -2662,6 +2949,8 @@
       "color": "#C8A000",
       "image": "https://raw.githubusercontent.com/jimabby/card-assets/main/cards/commbank_smart_awards.png",
       "benefits": "$19 monthly fee ($228/yr), waived in any statement period you spend $2,000+\nEarn up to 1.5 Awards points per $1 at supermarkets, department stores, petrol, dining and utilities; 1 point per $1 on other spend, up to $5,000/statement (0.5 points after)\nNo international transaction fees\nComplimentary international travel insurance (spend $500+ on prepaid travel and activate)\nUp to 44 days interest-free on purchases\nOption to earn Qantas Points instead for $90/year (up to 0.6 Qantas pts per $1)",
+      "benefits_zh_CN": "每月$19费用（每年$228），任一结算周期消费满$2,000即可豁免\n超市、百货、加油、餐饮及水电费每消费1澳元最高获1.5个奖励积分；其他消费每1澳元获1积分，每结算周期最高$5,000（之后0.5积分）\n无国际交易手续费\n免费国际旅游保险（预付旅游消费满$500并启用）\n消费最长44天免息期\n可选择改赚澳航积分，每年$90（每1澳元最高0.6个澳航积分）",
+      "benefits_zh_TW": "每月$19費用（每年$228），任一結算週期消費滿$2,000即可豁免\n超市、百貨、加油、餐飲及水電費每消費1澳元最高獲1.5個獎勵積分；其他消費每1澳元獲1積分，每結算週期最高$5,000（之後0.5積分）\n無國際交易手續費\n免費國際旅遊保險（預付旅遊消費滿$500並啟用）\n消費最長44天免息期\n可選擇改賺澳航積分，每年$90（每1澳元最高0.6個澳航積分）",
       "aiRewards": {
         "Everything": 0.5,
         "Groceries": 0.8,
@@ -2678,6 +2967,8 @@
       "color": "#B89000",
       "image": "https://raw.githubusercontent.com/jimabby/card-assets/main/cards/commbank_ultimate_awards.png",
       "benefits": "$35 monthly fee ($420/yr), waived in any statement period you spend $4,000+\nDomestic: up to 2 Awards points per $1 at supermarkets, department stores, petrol, dining, utilities; 1 point per $1 on other spend\nInternational/overseas: up to 3 Awards points per $1, up to $10,000/statement (0.5 points after)\nNo international transaction fees\nTwo complimentary airport lounge passes per year (Mastercard Travel Pass by DragonPass)\nComplimentary international travel insurance (spend $500+ on prepaid travel and activate)\nUp to 44 days interest-free; Qantas Points opt-in available for $90/year",
+      "benefits_zh_CN": "每月$35费用（每年$420），任一结算周期消费满$4,000即可豁免\n国内：超市、百货、加油、餐饮、水电费每消费1澳元最高获2个奖励积分；其他消费每1澳元获1积分\n国际/海外：每消费1澳元最高获3个奖励积分，每结算周期最高$10,000（之后0.5积分）\n无国际交易手续费\n每年2次免费机场贵宾室通行证（DragonPass的Mastercard Travel Pass）\n免费国际旅游保险（预付旅游消费满$500并启用）\n最长44天免息期；可每年$90加入澳航积分计划",
+      "benefits_zh_TW": "每月$35費用（每年$420），任一結算週期消費滿$4,000即可豁免\n國內：超市、百貨、加油、餐飲、水電費每消費1澳元最高獲2個獎勵積分；其他消費每1澳元獲1積分\n國際/海外：每消費1澳元最高獲3個獎勵積分，每結算週期最高$10,000（之後0.5積分）\n無國際交易手續費\n每年2次免費機場貴賓室通行證（DragonPass的Mastercard Travel Pass）\n免費國際旅遊保險（預付旅遊消費滿$500並啟用）\n最長44天免息期；可每年$90加入澳航積分計劃",
       "aiRewards": {
         "Everything": 0.5,
         "Groceries": 1,
@@ -2695,6 +2986,8 @@
       "color": "#CC0000",
       "image": "https://raw.githubusercontent.com/jimabby/card-assets/main/cards/nab_qantas_rewards_signature.png",
       "benefits": "1 Qantas Point per $1 on everyday purchases up to $5,000, then 0.5 Qantas Points per $1 from $5,001 to $20,000 per statement period\n1 bonus Qantas Point per $1 on eligible Qantas products and services\nComplimentary international and domestic travel insurance plus rental vehicle excess cover in Australia\nFree Qantas Frequent Flyer membership (worth $99.50) and 24/7 NAB Concierge\nUp to 44 interest-free days; Visa premium benefits\n$420 annual fee (international transaction fees apply)",
+      "benefits_zh_CN": "日常消费每消费1澳元获1个澳航积分（最高$5,000），每结算周期$5,001至$20,000部分每1澳元获0.5个澳航积分\n符合条件的澳航产品及服务每消费1澳元额外获1个澳航积分\n免费国际及国内旅游保险，另含澳洲境内租车自负额保障\n免费澳航飞行常客会籍（价值$99.50）及24小时NAB礼宾服务\n最长44天免息期；Visa尊尚权益\n$420年费（收取国际交易手续费）",
+      "benefits_zh_TW": "日常消費每消費1澳元獲1個澳航積分（最高$5,000），每結算週期$5,001至$20,000部分每1澳元獲0.5個澳航積分\n符合條件的澳航產品及服務每消費1澳元額外獲1個澳航積分\n免費國際及國內旅遊保險，另含澳洲境內租車自負額保障\n免費澳航飛行常客會籍（價值$99.50）及24小時NAB禮賓服務\n最長44天免息期；Visa尊尚權益\n$420年費（收取國際交易手續費）",
       "aiRewards": {
         "Everything": 1,
         "Travel": 2
@@ -2709,6 +3002,8 @@
       "color": "#AA0000",
       "image": "https://raw.githubusercontent.com/jimabby/card-assets/main/cards/nab_rewards_platinum.png",
       "benefits": "1 NAB Rewards Point per $1 on everyday purchases\n1.5 NAB Rewards Points per $1 at eligible grocery stores; 2 points per $1 on Webjet\nUncapped points earning each month\nComplimentary purchase protection, extended warranty and mobile phone insurance\nUp to 44 interest-free days; Visa premium benefits and 24/7 concierge\n$195 annual fee",
+      "benefits_zh_CN": "日常消费每消费1澳元获1个NAB奖励积分\n符合条件的杂货店每消费1澳元获1.5个NAB奖励积分；Webjet每1澳元获2积分\n每月积分赚取无上限\n免费购物保障、延长保固及手机保险\n最长44天免息期；Visa尊尚权益及24小时礼宾服务\n$195年费",
+      "benefits_zh_TW": "日常消費每消費1澳元獲1個NAB獎勵積分\n符合條件的雜貨店每消費1澳元獲1.5個NAB獎勵積分；Webjet每1澳元獲2積分\n每月積分賺取無上限\n免費購物保障、延長保固及手機保險\n最長44天免息期；Visa尊尚權益及24小時禮賓服務\n$195年費",
       "aiRewards": {
         "Everything": 0.5,
         "Groceries": 0.8
@@ -2723,6 +3018,8 @@
       "color": "#D5002B",
       "image": "https://raw.githubusercontent.com/jimabby/card-assets/main/cards/westpac_altitude_black.jpg",
       "benefits": "Earn 1 Altitude Rewards point per $1 on general spend, 2 points per $1 on everyday spend (supermarkets, department stores, petrol, dining, utilities) and 3 points per $1 on international purchases\nEarn rate reduces to 0.5 points per $1 after $10,000 spend per statement cycle\n2 complimentary Priority Pass airport lounge passes each year\nComplimentary international travel insurance, purchase protection, extended warranty and rental vehicle excess cover\nPersonal concierge service\nUp to 45 days interest-free on purchases\n$295 annual card fee",
+      "benefits_zh_CN": "一般消费每消费1澳元获1个Altitude奖励积分，日常消费（超市、百货、加油、餐饮、水电费）每1澳元获2积分，国际消费每1澳元获3积分\n每结算周期消费满$10,000后赚取率降至每1澳元0.5积分\n每年2次免费Priority Pass机场贵宾室通行证\n免费国际旅游保险、购物保障、延长保固及租车自负额保障\n专属礼宾服务\n消费最长45天免息期\n$295年费",
+      "benefits_zh_TW": "一般消費每消費1澳元獲1個Altitude獎勵積分，日常消費（超市、百貨、加油、餐飲、水電費）每1澳元獲2積分，國際消費每1澳元獲3積分\n每結算週期消費滿$10,000後賺取率降至每1澳元0.5積分\n每年2次免費Priority Pass機場貴賓室通行證\n免費國際旅遊保險、購物保障、延長保固及租車自負額保障\n專屬禮賓服務\n消費最長45天免息期\n$295年費",
       "aiRewards": {
         "Everything": 0.5,
         "Groceries": 1,
@@ -2740,6 +3037,8 @@
       "color": "#B00020",
       "image": "https://raw.githubusercontent.com/jimabby/card-assets/main/cards/westpac_altitude_platinum.png",
       "benefits": "Earn 1 Altitude Rewards point per $1 on general spend, 1.25 points per $1 on everyday spend (supermarkets, department stores, petrol, dining, utilities) and 2 points per $1 on international purchases\nEarn rate reduces to 0.5 points per $1 after $5,000 spend per statement cycle\nComplimentary international travel insurance (up to 6 months), purchase protection and extended warranty\nRental vehicle excess and interstate flight inconvenience cover\nUp to 45 days interest-free on purchases\n$175 annual card fee (first year discounted)",
+      "benefits_zh_CN": "一般消费每消费1澳元获1个Altitude奖励积分，日常消费（超市、百货、加油、餐饮、水电费）每1澳元获1.25积分，国际消费每1澳元获2积分\n每结算周期消费满$5,000后赚取率降至每1澳元0.5积分\n免费国际旅游保险（最长6个月）、购物保障及延长保固\n租车自负额及州际航班延误保障\n消费最长45天免息期\n$175年费（首年享折扣）",
+      "benefits_zh_TW": "一般消費每消費1澳元獲1個Altitude獎勵積分，日常消費（超市、百貨、加油、餐飲、水電費）每1澳元獲1.25積分，國際消費每1澳元獲2積分\n每結算週期消費滿$5,000後賺取率降至每1澳元0.5積分\n免費國際旅遊保險（最長6個月）、購物保障及延長保固\n租車自負額及州際航班延誤保障\n消費最長45天免息期\n$175年費（首年享折扣）",
       "aiRewards": {
         "Everything": 0.5,
         "Groceries": 0.6,
@@ -2757,6 +3056,8 @@
       "color": "#8C9196",
       "image": "https://raw.githubusercontent.com/jimabby/card-assets/main/cards/amex_platinum_edge_au.jpg",
       "benefits": "3 Membership Rewards points per $1 at major supermarkets and petrol stations in Australia\n2 Membership Rewards points per $1 on overseas spend\n1 Membership Rewards point per $1 on everything else\n$200 annual Travel Credit\nComplimentary domestic & international travel insurance\nSmartphone screen cover\nUp to 55 interest-free days",
+      "benefits_zh_CN": "澳洲主要超市及加油站每消费1澳元获3个会员奖赏积分\n海外消费每消费1澳元获2个会员奖赏积分\n其他消费每消费1澳元获1个会员奖赏积分\n每年$200旅游回馈金\n免费国内及国际旅游保险\n智慧型手机萤幕保障\n最长55天免息期",
+      "benefits_zh_TW": "澳洲主要超市及加油站每消費1澳元獲3個會員獎賞積分\n海外消費每消費1澳元獲2個會員獎賞積分\n其他消費每消費1澳元獲1個會員獎賞積分\n每年$200旅遊回饋金\n免費國內及國際旅遊保險\n智慧型手機螢幕保障\n最長55天免息期",
       "aiRewards": {
         "Groceries": 3,
         "Gas & Transit": 3,
@@ -2772,6 +3073,8 @@
       "color": "#016FD0",
       "image": "https://raw.githubusercontent.com/jimabby/card-assets/main/cards/amex_explorer_au.jpg",
       "benefits": "2 Membership Rewards points per $1 on all purchases (1 pt per $1 on government spend)\n$400 annual Travel Credit (offsets the annual fee)\nTwo complimentary Centurion Lounge entries per year (Sydney/Melbourne intl)\nComplimentary domestic & international travel insurance\nUp to 55 interest-free days",
+      "benefits_zh_CN": "所有消费每消费1澳元获2个会员奖赏积分（政府消费每1澳元获1积分）\n每年$400旅游回馈金（可抵销年费）\n每年2次免费Centurion贵宾室入场（雪梨/墨尔本国际）\n免费国内及国际旅游保险\n最长55天免息期",
+      "benefits_zh_TW": "所有消費每消費1澳元獲2個會員獎賞積分（政府消費每1澳元獲1積分）\n每年$400旅遊回饋金（可抵銷年費）\n每年2次免費Centurion貴賓室入場（雪梨/墨爾本國際）\n免費國內及國際旅遊保險\n最長55天免息期",
       "aiRewards": {
         "Everything": 2
       }
@@ -2785,6 +3088,8 @@
       "color": "#FF6200",
       "image": "https://raw.githubusercontent.com/jimabby/card-assets/main/cards/ing_orange_one.png",
       "benefits": "Low 12.99% p.a. purchase interest rate (Orange One Low Rate)\nNo ING international transaction fees on overseas/online purchases\nNo ING international ATM withdrawal fees (operator fees may apply)\nUp to 45 interest-free days on purchases\nING Pocket Perks: cashback offers from 80+ participating brands (activated in app)\nRequires an Orange Everyday account; $48 annual fee",
+      "benefits_zh_CN": "12.99%年利率低购物利率（Orange One Low Rate）\n海外/网路消费无ING国际交易手续费\n无ING国际ATM提款费（业者费用可能适用）\n消费最长45天免息期\nING Pocket Perks：80多个合作品牌的现金回馈优惠（于App启用）\n需开立Orange Everyday帐户；$48年费",
+      "benefits_zh_TW": "12.99%年利率低購物利率（Orange One Low Rate）\n海外/網路消費無ING國際交易手續費\n無ING國際ATM提款費（業者費用可能適用）\n消費最長45天免息期\nING Pocket Perks：80多個合作品牌的現金回饋優惠（於App啟用）\n需開立Orange Everyday帳戶；$48年費",
       "aiRewards": {
         "Everything": 0
       }
@@ -2798,6 +3103,8 @@
       "color": "#1C1C1E",
       "image": "https://raw.githubusercontent.com/jimabby/card-assets/main/cards/macquarie_black.png",
       "benefits": "2 Macquarie Reward Points per $1 on the first $10,000/month, then 0.5 pts per $1 (uncapped)\nNo foreign transaction fees\nComplimentary overseas and domestic travel insurance (Chubb)\nUp to 55 interest-free days on purchases\nPoints redeemable for eGift cards or cashback\n$249 annual fee (available to Macquarie home loan/Business Bank clients)",
+      "benefits_zh_CN": "每月首$10,000消费每1澳元获2个Macquarie奖励积分，之后每1澳元获0.5积分（无上限）\n无境外交易手续费\n免费海外及国内旅游保险（Chubb）\n消费最长55天免息期\n积分可兑换电子礼品卡或现金回馈\n$249年费（提供予Macquarie房贷/商业银行客户）",
+      "benefits_zh_TW": "每月首$10,000消費每1澳元獲2個Macquarie獎勵積分，之後每1澳元獲0.5積分（無上限）\n無境外交易手續費\n免費海外及國內旅遊保險（Chubb）\n消費最長55天免息期\n積分可兌換電子禮品卡或現金回饋\n$249年費（提供予Macquarie房貸/商業銀行客戶）",
       "aiRewards": {
         "Everything": 1
       }
@@ -2811,6 +3118,8 @@
       "color": "#0067B1",
       "image": "https://raw.githubusercontent.com/jimabby/card-assets/main/cards/bankwest_zero_mastercard.png",
       "benefits": "No annual fee\nNo foreign transaction fees (Platinum tier)\nUp to 55 interest-free days on purchases\n0% p.a. for 6 months on balance transfers (3% BT fee, new customers)\nApple Pay, Google Pay and Samsung Pay supported\nNote: the Zero Classic tier charges a 2.95% foreign transaction fee and has no travel insurance",
+      "benefits_zh_CN": "免年费\n无境外交易手续费（Platinum等级）\n消费最长55天免息期\n余额转帐前6个月0%年利率（3%转帐手续费，新客户）\n支援Apple Pay、Google Pay及Samsung Pay\n注意：Zero Classic等级收取2.95%境外交易手续费且无旅游保险",
+      "benefits_zh_TW": "免年費\n無境外交易手續費（Platinum等級）\n消費最長55天免息期\n餘額轉帳前6個月0%年利率（3%轉帳手續費，新客戶）\n支援Apple Pay、Google Pay及Samsung Pay\n注意：Zero Classic等級收取2.95%境外交易手續費且無旅遊保險",
       "aiRewards": {
         "Everything": 0
       }
@@ -2824,6 +3133,8 @@
       "color": "#C8102E",
       "image": "https://raw.githubusercontent.com/jimabby/card-assets/main/cards/st_george_amplify_signature.png",
       "benefits": "Earn 1 Amplify point per $1 on general spend, 2 points per $1 on everyday spend (supermarkets, department stores, petrol, dining, utilities) and 3 points per $1 on international purchases\nEarn rate reduces to 0.5 points per $1 after $10,000 spend per statement cycle\n2 complimentary Priority Pass lounge visits each year\nComplimentary international travel insurance, purchase protection and extended warranty\nPersonal concierge service and Visa Luxury Hotel Collection\nUp to 55 days interest-free on purchases\n$295 annual card fee",
+      "benefits_zh_CN": "一般消费每消费1澳元获1个Amplify积分，日常消费（超市、百货、加油、餐饮、水电费）每1澳元获2积分，国际消费每1澳元获3积分\n每结算周期消费满$10,000后赚取率降至每1澳元0.5积分\n每年2次免费Priority Pass贵宾室造访\n免费国际旅游保险、购物保障及延长保固\n专属礼宾服务及Visa Luxury Hotel Collection\n消费最长55天免息期\n$295年费",
+      "benefits_zh_TW": "一般消費每消費1澳元獲1個Amplify積分，日常消費（超市、百貨、加油、餐飲、水電費）每1澳元獲2積分，國際消費每1澳元獲3積分\n每結算週期消費滿$10,000後賺取率降至每1澳元0.5積分\n每年2次免費Priority Pass貴賓室造訪\n免費國際旅遊保險、購物保障及延長保固\n專屬禮賓服務及Visa Luxury Hotel Collection\n消費最長55天免息期\n$295年費",
       "aiRewards": {
         "Everything": 0.5,
         "Groceries": 1,
@@ -2841,6 +3152,8 @@
       "color": "#C8102E",
       "image": "https://raw.githubusercontent.com/jimabby/card-assets/main/cards/virgin_money_rewards.png",
       "benefits": "1 Virgin Money Point per $1 spent on eligible transactions (uncapped)\n5 bonus points per $1 on hotel bookings via the Virgin Money app\nPoints redeemable for cashback, gift cards or transfer to Velocity Frequent Flyer\nUp to 55 interest-free days on purchases\n24/7 concierge service\nVisa Zero Liability fraud protection",
+      "benefits_zh_CN": "符合条件交易每消费1澳元获1个Virgin Money积分（无上限）\n透过Virgin Money App预订饭店每1澳元额外获5积分\n积分可兑换现金回馈、礼品卡或转入Velocity飞行常客计划\n消费最长55天免息期\n24小时礼宾服务\nVisa零责任诈骗保障",
+      "benefits_zh_TW": "符合條件交易每消費1澳元獲1個Virgin Money積分（無上限）\n透過Virgin Money App預訂飯店每1澳元額外獲5積分\n積分可兌換現金回饋、禮品卡或轉入Velocity飛行常客計劃\n消費最長55天免息期\n24小時禮賓服務\nVisa零責任詐騙保障",
       "aiRewards": {
         "Everything": 0.5
       }
@@ -2854,6 +3167,8 @@
       "color": "#1A1A2E",
       "image": "https://raw.githubusercontent.com/jimabby/card-assets/main/cards/latitude_28_degrees.png",
       "benefits": "No international transaction fees on purchases - the card's signature benefit\n$0 annual fee first year, then $8/month ($96/year), waived with $12,000+ annual eligible spend\nEarn $10 Latitude Rewards each month you spend $1,000+ on eligible purchases (up to $120/year)\nUp to 55 days interest-free on purchases\nFree Flight Delay Pass: LoungeKey lounge access for you + up to 4 guests on 2hr+ delays\n3GB free global data roaming each year (Flexiroam) plus 15% off extra data",
+      "benefits_zh_CN": "购物无国际交易手续费——本卡的招牌权益\n首年$0年费，之后每月$8（每年$96），年度符合条件消费满$12,000即可豁免\n每月符合条件消费满$1,000即获$10 Latitude奖励（每年最高$120）\n消费最长55天免息期\n免费航班延误通行证：航班延误2小时以上时，本人及最多4名同行宾客可使用LoungeKey贵宾室\n每年3GB免费全球漫游数据（Flexiroam）另加额外数据85折",
+      "benefits_zh_TW": "購物無國際交易手續費——本卡的招牌權益\n首年$0年費，之後每月$8（每年$96），年度符合條件消費滿$12,000即可豁免\n每月符合條件消費滿$1,000即獲$10 Latitude獎勵（每年最高$120）\n消費最長55天免息期\n免費航班延誤通行證：航班延誤2小時以上時，本人及最多4名同行賓客可使用LoungeKey貴賓室\n每年3GB免費全球漫遊數據（Flexiroam）另加額外數據85折",
       "aiRewards": {
         "Everything": 0
       }
@@ -2867,6 +3182,8 @@
       "color": "#DB0011",
       "image": "https://raw.githubusercontent.com/jimabby/card-assets/main/cards/hsbc_platinum_au.png",
       "benefits": "Earn 1.5 Rewards Plus points per $1 on eligible purchases (up to $120,000/year)\n$0 annual fee first year, then $199\nUp to 55 days interest-free on purchases\n2 complimentary airport lounge passes each year (LoungeKey)\nComplimentary domestic & international travel insurance, rental vehicle excess, transit accident, extended warranty & purchase protection\n3% overseas transaction fee applies",
+      "benefits_zh_CN": "符合条件消费每消费1澳元获1.5个Rewards Plus积分（每年最高$120,000）\n首年$0年费，之后$199\n消费最长55天免息期\n每年2次免费机场贵宾室通行证（LoungeKey）\n免费国内及国际旅游保险、租车自负额、交通意外、延长保固及购物保障\n收取3%境外交易手续费",
+      "benefits_zh_TW": "符合條件消費每消費1澳元獲1.5個Rewards Plus積分（每年最高$120,000）\n首年$0年費，之後$199\n消費最長55天免息期\n每年2次免費機場貴賓室通行證（LoungeKey）\n免費國內及國際旅遊保險、租車自負額、交通意外、延長保固及購物保障\n收取3%境外交易手續費",
       "aiRewards": {
         "Everything": 0.8
       }
@@ -2880,6 +3197,8 @@
       "color": "#C8A000",
       "image": null,
       "benefits": "Discontinued to new applicants (closed June 2023); existing cardholders retained\n$89 annual fee (first year $0; waived with $10,000+ annual spend)\nUp to 55 days interest-free on purchases\nNo international transaction fees\nComplimentary international travel insurance, purchase security and extended warranty\nNo Awards points earned",
+      "benefits_zh_CN": "已停止接受新申请（2023年6月停售）；现有持卡人保留\n$89年费（首年$0；年度消费满$10,000可豁免）\n消费最长55天免息期\n无国际交易手续费\n免费国际旅游保险、购物安全及延长保固\n不赚取奖励积分",
+      "benefits_zh_TW": "已停止接受新申請（2023年6月停售）；現有持卡人保留\n$89年費（首年$0；年度消費滿$10,000可豁免）\n消費最長55天免息期\n無國際交易手續費\n免費國際旅遊保險、購物安全及延長保固\n不賺取獎勵積分",
       "aiRewards": {
         "Everything": 0
       }
@@ -2893,6 +3212,8 @@
       "color": "#D5002B",
       "image": "https://raw.githubusercontent.com/jimabby/card-assets/main/cards/westpac_lite.png",
       "benefits": "Low variable purchase rate (9.90% p.a.)\nNo foreign transaction fees\nUp to 45 days interest-free on purchases\nNo rewards points earned\nFraud money-back guarantee and instant digital card\nCompatible with Apple Pay, Google Pay and Samsung Pay\n$9 monthly card fee ($108 per year)",
+      "benefits_zh_CN": "低浮动购物利率（9.90%年利率）\n无境外交易手续费\n消费最长45天免息期\n不赚取奖励积分\n诈骗退款保证及即时数位卡\n相容Apple Pay、Google Pay及Samsung Pay\n每月$9卡费（每年$108）",
+      "benefits_zh_TW": "低浮動購物利率（9.90%年利率）\n無境外交易手續費\n消費最長45天免息期\n不賺取獎勵積分\n詐騙退款保證及即時數位卡\n相容Apple Pay、Google Pay及Samsung Pay\n每月$9卡費（每年$108）",
       "aiRewards": {
         "Everything": 0
       }
@@ -2906,6 +3227,8 @@
       "color": "#CC0000",
       "image": "https://raw.githubusercontent.com/jimabby/card-assets/main/cards/nab_straightup.jpg",
       "benefits": "No interest, no rewards card (now off-sale to new customers)\nFlat monthly fee based on credit limit: $10 ($1,000), $20 ($2,000), $30 ($3,000)\nMonthly fee reversed if no purchases made and balance is $0 for the whole statement period\nNo late payment fees\nNo foreign currency conversion fees on international/online purchases\nNAB fraud protection and card controls",
+      "benefits_zh_CN": "无利息、无奖励卡（现已对新客户停售）\n依信用额度收取固定月费：$10（$1,000）、$20（$2,000）、$30（$3,000）\n若整个结算周期内无消费且余额为$0，月费将获退还\n无逾期还款费\n国际/网路消费无外币兑换手续费\nNAB诈骗保障及卡片控制",
+      "benefits_zh_TW": "無利息、無獎勵卡（現已對新客戶停售）\n依信用額度收取固定月費：$10（$1,000）、$20（$2,000）、$30（$3,000）\n若整個結算週期內無消費且餘額為$0，月費將獲退還\n無逾期還款費\n國際/網路消費無外幣兌換手續費\nNAB詐騙保障及卡片控制",
       "aiRewards": {
         "Everything": 0
       }
@@ -2919,6 +3242,8 @@
       "color": "#E10600",
       "image": "https://raw.githubusercontent.com/jimabby/card-assets/main/cards/coles_rewards_mastercard.jpg",
       "benefits": "Earn 2 flybuys points per $1 on eligible purchases up to $3,000 per statement period, then 1 point per $1 up to $8,000\nScan your flybuys card at Coles to collect an extra 1 point per $1 (effectively 3 points per $1 at Coles)\n$99 annual fee\nUp to 55 interest-free days on purchases\nComplimentary Purchase Protection and Extended Warranty insurance\n3% international transaction fee (no-FX-fee perk removed from 1 July 2025)\nIssued by NAB; Apple Pay, Google Pay and Samsung Pay supported",
+      "benefits_zh_CN": "符合条件消费每结算周期最高$3,000部分每1澳元获2个flybuys积分，之后最高$8,000部分每1澳元获1积分\n于Coles刷flybuys卡每1澳元额外获1积分（在Coles实际每1澳元获3积分）\n$99年费\n消费最长55天免息期\n免费购物保障及延长保固保险\n3%国际交易手续费（免外币手续费权益已于2025年7月1日取消）\n由NAB发行；支援Apple Pay、Google Pay及Samsung Pay",
+      "benefits_zh_TW": "符合條件消費每結算週期最高$3,000部分每1澳元獲2個flybuys積分，之後最高$8,000部分每1澳元獲1積分\n於Coles刷flybuys卡每1澳元額外獲1積分（在Coles實際每1澳元獲3積分）\n$99年費\n消費最長55天免息期\n免費購物保障及延長保固保險\n3%國際交易手續費（免外幣手續費權益已於2025年7月1日取消）\n由NAB發行；支援Apple Pay、Google Pay及Samsung Pay",
       "aiRewards": {
         "Everything": 1,
         "Groceries": 1.5
@@ -2933,6 +3258,8 @@
       "color": "#F5F5F5",
       "image": "https://raw.githubusercontent.com/jimabby/card-assets/main/cards/hsbc_star_alliance.png",
       "benefits": "Earn 1 Star Alliance Point per $1 (up to $3,000/statement period), then 0.5 points per $1\n$0 annual fee first year, then $499\nFast-track to Star Alliance Gold status (spend $4,000 in first 90 days)\nGold status unlocks 1,000+ airport lounges across Star Alliance airlines\nComplimentary domestic & international travel insurance, rental vehicle excess, transit accident, extended warranty & purchase protection\n3% overseas transaction fee applies",
+      "benefits_zh_CN": "每消费1澳元获1个星空联盟积分（每结算周期最高$3,000），之后每1澳元获0.5积分\n首年$0年费，之后$499\n快速取得星空联盟金卡会籍（首90天消费满$4,000）\n金卡会籍可使用星空联盟航空旗下1,000多个机场贵宾室\n免费国内及国际旅游保险、租车自负额、交通意外、延长保固及购物保障\n收取3%境外交易手续费",
+      "benefits_zh_TW": "每消費1澳元獲1個星空聯盟積分（每結算週期最高$3,000），之後每1澳元獲0.5積分\n首年$0年費，之後$499\n快速取得星空聯盟金卡會籍（首90天消費滿$4,000）\n金卡會籍可使用星空聯盟航空旗下1,000多個機場貴賓室\n免費國內及國際旅遊保險、租車自負額、交通意外、延長保固及購物保障\n收取3%境外交易手續費",
       "aiRewards": {
         "Everything": 1
       }
@@ -2946,6 +3273,8 @@
       "color": "#1A1A1A",
       "image": "https://raw.githubusercontent.com/jimabby/card-assets/main/cards/qantas_premier_platinum.png",
       "benefits": "1 Qantas Point per $1 spent (up to $10,000/statement period), 0.5 thereafter\n1.5 Qantas Points per $1 on international spend, plus 1 bonus point per $1 on Qantas spend\n2 complimentary Qantas Club / international Business lounge invitations per year\nComplimentary international and domestic travel insurance\nUp to 20% off selected domestic flights once per anniversary year\nUp to 44 interest-free days; 0% p.a. for 12 months on balance transfers (3% fee)",
+      "benefits_zh_CN": "每消费1澳元获1个澳航积分（每结算周期最高$10,000），之后0.5积分\n国际消费每1澳元获1.5个澳航积分，澳航消费另每1澳元额外获1积分\n每年2次免费澳航俱乐部/国际商务贵宾室邀请\n免费国际及国内旅游保险\n每个周年年度可享一次指定国内航班最高8折优惠\n最长44天免息期；余额转帐12个月0%年利率（3%手续费）",
+      "benefits_zh_TW": "每消費1澳元獲1個澳航積分（每結算週期最高$10,000），之後0.5積分\n國際消費每1澳元獲1.5個澳航積分，澳航消費另每1澳元額外獲1積分\n每年2次免費澳航俱樂部/國際商務貴賓室邀請\n免費國際及國內旅遊保險\n每個週年年度可享一次指定國內航班最高8折優惠\n最長44天免息期；餘額轉帳12個月0%年利率（3%手續費）",
       "aiRewards": {
         "Everything": 1,
         "Flights": 2,
@@ -2961,6 +3290,8 @@
       "color": "#005A8E",
       "image": "https://raw.githubusercontent.com/jimabby/card-assets/main/cards/anz_rewards_platinum.png",
       "benefits": "1.5 ANZ Reward Points per $1 on eligible purchases (up to $2,000/statement period), then 0.5 per $1\nComplimentary travel insurance plus rental vehicle excess cover in Australia\nPurchase Protection and Extended Warranty insurance\n24/7 ANZ Personal Concierge service\nUp to 44 days interest-free on purchases\n$149 annual fee ($94 annual fee + $55 Rewards Program Service Fee)\n3.5% overseas transaction fee applies",
+      "benefits_zh_CN": "符合条件消费每消费1澳元获1.5个ANZ奖励积分（每结算周期最高$2,000），之后每1澳元获0.5积分\n免费旅游保险，另含澳洲境内租车自负额保障\n购物保障及延长保固保险\n24小时ANZ专属礼宾服务\n消费最长44天免息期\n$149年费（$94年费 + $55奖励计划服务费）\n收取3.5%境外交易手续费",
+      "benefits_zh_TW": "符合條件消費每消費1澳元獲1.5個ANZ獎勵積分（每結算週期最高$2,000），之後每1澳元獲0.5積分\n免費旅遊保險，另含澳洲境內租車自負額保障\n購物保障及延長保固保險\n24小時ANZ專屬禮賓服務\n消費最長44天免息期\n$149年費（$94年費 + $55獎勵計劃服務費）\n收取3.5%境外交易手續費",
       "aiRewards": {
         "Everything": 0.8
       }
@@ -2974,6 +3305,8 @@
       "color": "#F06292",
       "image": "https://raw.githubusercontent.com/jimabby/card-assets/main/cards/nab_low_fee.png",
       "benefits": "No rewards points\nComplimentary purchase protection insurance\nUp to 44 interest-free days on purchases\nDigital wallet support (Apple Pay, Google Pay, Click to Pay)\nNAB Defence fraud protection and card controls\n$49 annual fee (increased from $30 on 27 April 2026)",
+      "benefits_zh_CN": "不赚取奖励积分\n免费购物保障保险\n消费最长44天免息期\n支援数位钱包（Apple Pay、Google Pay、Click to Pay）\nNAB Defence诈骗保障及卡片控制\n$49年费（2026年4月27日起由$30调涨）",
+      "benefits_zh_TW": "不賺取獎勵積分\n免費購物保障保險\n消費最長44天免息期\n支援數位錢包（Apple Pay、Google Pay、Click to Pay）\nNAB Defence詐騙保障及卡片控制\n$49年費（2026年4月27日起由$30調漲）",
       "aiRewards": {
         "Everything": 0
       }
@@ -2987,6 +3320,8 @@
       "color": "#8C9196",
       "image": "https://raw.githubusercontent.com/jimabby/card-assets/main/cards/amex_platinum.jpg",
       "benefits": "2.25 Membership Rewards points per $1 on eligible purchases (1 pt per $1 on government spend)\n$450 annual Travel Credit\nUp to $400 annual Global Dining Credit ($200 domestic + $200 international)\nGlobal Lounge Collection: 1,550+ airport lounges incl. Centurion Lounges and Priority Pass\nComplimentary ALL Accor Plus / Accor+ Explorer membership\nComplimentary annual Virgin Australia return domestic flight + Virgin Australia Lounge access\nComplimentary international travel insurance\nNo pre-set spending limit (charge card)",
+      "benefits_zh_CN": "符合条件消费每消费1澳元获2.25个会员奖赏积分（政府消费每1澳元获1积分）\n每年$450旅游回馈金\n每年最高$400全球餐饮回馈金（$200国内 + $200国际）\n全球贵宾室合集：1,550多个机场贵宾室，含Centurion贵宾室及Priority Pass\n免费ALL Accor Plus / Accor+ Explorer会籍\n每年免费维珍澳洲国内来回机票一次 + 维珍澳洲贵宾室使用权\n免费国际旅游保险\n无预设消费上限（签帐卡）",
+      "benefits_zh_TW": "符合條件消費每消費1澳元獲2.25個會員獎賞積分（政府消費每1澳元獲1積分）\n每年$450旅遊回饋金\n每年最高$400全球餐飲回饋金（$200國內 + $200國際）\n全球貴賓室合集：1,550多個機場貴賓室，含Centurion貴賓室及Priority Pass\n免費ALL Accor Plus / Accor+ Explorer會籍\n每年免費維珍澳洲國內來回機票一次 + 維珍澳洲貴賓室使用權\n免費國際旅遊保險\n無預設消費上限（簽帳卡）",
       "aiRewards": {
         "Everything": 2.3
       }
@@ -3000,6 +3335,8 @@
       "color": "#304CB2",
       "image": "https://raw.githubusercontent.com/jimabby/card-assets/main/cards/amex_velocity_platinum_au.jpg",
       "benefits": "1.25 Velocity Points per $1 on everyday spend; 2.25 per $1 with Virgin Australia; 0.5 per $1 government\nComplimentary annual Virgin Australia return domestic flight\nVirgin Australia Lounge access when flying domestically with Virgin + 2 guest lounge passes/year\nComplimentary domestic & international travel insurance\nUp to 55 interest-free days",
+      "benefits_zh_CN": "日常消费每消费1澳元获1.25个Velocity积分；维珍澳洲消费每1澳元获2.25积分；政府消费每1澳元获0.5积分\n每年免费维珍澳洲国内来回机票一次\n搭乘维珍澳洲国内航班时可使用维珍澳洲贵宾室 + 每年2张同行宾客贵宾室通行证\n免费国内及国际旅游保险\n最长55天免息期",
+      "benefits_zh_TW": "日常消費每消費1澳元獲1.25個Velocity積分；維珍澳洲消費每1澳元獲2.25積分；政府消費每1澳元獲0.5積分\n每年免費維珍澳洲國內來回機票一次\n搭乘維珍澳洲國內航班時可使用維珍澳洲貴賓室 + 每年2張同行賓客貴賓室通行證\n免費國內及國際旅遊保險\n最長55天免息期",
       "aiRewards": {
         "Everything": 1.3
       }
@@ -3013,6 +3350,8 @@
       "color": "#CC0000",
       "image": "https://raw.githubusercontent.com/jimabby/card-assets/main/cards/amex_qantas_ultimate_au.jpg",
       "benefits": "1.25 Qantas Points per $1 on everyday spend; 2.25 per $1 on selected Qantas products; 0.5 per $1 government (everyday rate drops to 1 after 100,000 pts/year)\n$450 annual Qantas Travel Credit (offsets the annual fee)\nTwo complimentary Qantas Club lounge invitations each year\nComplimentary international travel insurance\nUp to 55 interest-free days",
+      "benefits_zh_CN": "日常消费每消费1澳元获1.25个澳航积分；指定澳航产品每1澳元获2.25积分；政府消费每1澳元获0.5积分（每年累积满100,000积分后日常赚取率降至1）\n每年$450澳航旅游回馈金（可抵销年费）\n每年2次免费澳航俱乐部贵宾室邀请\n免费国际旅游保险\n最长55天免息期",
+      "benefits_zh_TW": "日常消費每消費1澳元獲1.25個澳航積分；指定澳航產品每1澳元獲2.25積分；政府消費每1澳元獲0.5積分（每年累積滿100,000積分後日常賺取率降至1）\n每年$450澳航旅遊回饋金（可抵銷年費）\n每年2次免費澳航俱樂部貴賓室邀請\n免費國際旅遊保險\n最長55天免息期",
       "aiRewards": {
         "Everything": 1.3
       }
@@ -3026,6 +3365,8 @@
       "color": "#016FD0",
       "image": "https://raw.githubusercontent.com/jimabby/card-assets/main/cards/amex_essential_au.jpg",
       "benefits": "5 Membership Rewards points per $1 on eligible eats & drinks in Australia\n3 Membership Rewards points per $1 on selected streaming subscriptions\n2 Membership Rewards points per $1 at selected major retailers\n1 Membership Rewards point per $1 on everything else (accelerated rates capped at 10,000 pts/month)\n$9 monthly card fee ($108/year)\nSmartphone screen cover / mobile coverage\nUp to 55 interest-free days",
+      "benefits_zh_CN": "澳洲符合条件的餐饮每消费1澳元获5个会员奖赏积分\n指定串流订阅每消费1澳元获3个会员奖赏积分\n指定大型零售商每消费1澳元获2个会员奖赏积分\n其他消费每消费1澳元获1个会员奖赏积分（加速赚取率每月上限10,000积分）\n每月$9卡费（每年$108）\n智慧型手机萤幕保障/手机保障\n最长55天免息期",
+      "benefits_zh_TW": "澳洲符合條件的餐飲每消費1澳元獲5個會員獎賞積分\n指定串流訂閱每消費1澳元獲3個會員獎賞積分\n指定大型零售商每消費1澳元獲2個會員獎賞積分\n其他消費每消費1澳元獲1個會員獎賞積分（加速賺取率每月上限10,000積分）\n每月$9卡費（每年$108）\n智慧型手機螢幕保障/手機保障\n最長55天免息期",
       "aiRewards": {
         "Food & Dining": 5,
         "Shopping": 2,
@@ -3041,6 +3382,8 @@
       "color": "#304CB2",
       "image": null,
       "benefits": "0.75 Velocity Points per $1 on everyday spend\n1.75 Velocity Points per $1 with Virgin Australia\nNo annual fee\nNo points cap\nAccess to Amex Offers\nUp to 55 interest-free days",
+      "benefits_zh_CN": "日常消费每消费1澳元获0.75个Velocity积分\n维珍澳洲消费每消费1澳元获1.75个Velocity积分\n免年费\n积分无上限\n可使用Amex Offers\n最长55天免息期",
+      "benefits_zh_TW": "日常消費每消費1澳元獲0.75個Velocity積分\n維珍澳洲消費每消費1澳元獲1.75個Velocity積分\n免年費\n積分無上限\n可使用Amex Offers\n最長55天免息期",
       "aiRewards": {
         "Everything": 0.8
       }
@@ -3054,6 +3397,8 @@
       "color": "#007DBB",
       "image": "https://raw.githubusercontent.com/jimabby/card-assets/main/cards/anz_rewards_travel_adventures.jpg",
       "benefits": "1.5 ANZ Reward Points per $1 on eligible purchases (up to $2,000/statement period), then 0.5 per $1\nNo overseas transaction fees on purchases\nComplimentary international and domestic travel insurance, plus rental vehicle excess cover in Australia\nPurchase Protection and Extended Warranty insurance\nUp to 44 days interest-free on purchases\n$175 annual fee ($120 annual fee + $55 Rewards Program Service Fee)\nNote: complimentary Virgin Australia return flight and lounge passes were removed (Dec 2020); card no longer sold to new customers",
+      "benefits_zh_CN": "符合条件消费每消费1澳元获1.5个ANZ奖励积分（每结算周期最高$2,000），之后每1澳元获0.5积分\n购物无境外交易手续费\n免费国际及国内旅游保险，另含澳洲境内租车自负额保障\n购物保障及延长保固保险\n消费最长44天免息期\n$175年费（$120年费 + $55奖励计划服务费）\n注意：免费维珍澳洲来回机票及贵宾室通行证已取消（2020年12月）；本卡已停止对新客户销售",
+      "benefits_zh_TW": "符合條件消費每消費1澳元獲1.5個ANZ獎勵積分（每結算週期最高$2,000），之後每1澳元獲0.5積分\n購物無境外交易手續費\n免費國際及國內旅遊保險，另含澳洲境內租車自負額保障\n購物保障及延長保固保險\n消費最長44天免息期\n$175年費（$120年費 + $55獎勵計劃服務費）\n注意：免費維珍澳洲來回機票及貴賓室通行證已取消（2020年12月）；本卡已停止對新客戶銷售",
       "aiRewards": {
         "Everything": 0.8
       }
@@ -3067,6 +3412,8 @@
       "color": "#FFCC00",
       "image": "https://raw.githubusercontent.com/jimabby/card-assets/main/cards/commbank_awards.jpg",
       "benefits": "$8 monthly fee ($96/yr)\nEarn 1 Awards point per $1 on eligible purchases up to $2,000/statement (0.5 points after); points uncapped per year\nUp to 44 days interest-free on purchases\nComplimentary Purchase Security and Extended Warranty insurance (Cover-More)\n3.50% international transaction fee applies\nCommBank Yello cashback offers and SurePay instalment plans",
+      "benefits_zh_CN": "每月$8费用（每年$96）\n符合条件消费每消费1澳元获1个奖励积分，每结算周期最高$2,000（之后0.5积分）；每年积分无上限\n消费最长44天免息期\n免费购物安全及延长保固保险（Cover-More）\n收取3.50%国际交易手续费\nCommBank Yello现金回馈优惠及SurePay分期计划",
+      "benefits_zh_TW": "每月$8費用（每年$96）\n符合條件消費每消費1澳元獲1個獎勵積分，每結算週期最高$2,000（之後0.5積分）；每年積分無上限\n消費最長44天免息期\n免費購物安全及延長保固保險（Cover-More）\n收取3.50%國際交易手續費\nCommBank Yello現金回饋優惠及SurePay分期計劃",
       "aiRewards": {
         "Everything": 0.5
       }
@@ -3080,6 +3427,8 @@
       "color": "#CC0000",
       "image": "https://raw.githubusercontent.com/jimabby/card-assets/main/cards/nab_qantas_rewards_premium.png",
       "benefits": "1 Qantas Point per $1.50 on everyday purchases up to $3,000, then 1 Qantas Point per $3 from $3,001 to $6,000 per statement period\n1 bonus Qantas Point per $1 on eligible Qantas products and services\nComplimentary international and domestic travel insurance plus rental vehicle excess cover in Australia\nFree Qantas Frequent Flyer membership (worth $99.50); 24/7 NAB Concierge\nUp to 44 interest-free days; purchase protection and extended warranty\n$295 annual fee",
+      "benefits_zh_CN": "日常消费每消费1.50澳元获1个澳航积分（最高$3,000），每结算周期$3,001至$6,000部分每3澳元获1个澳航积分\n符合条件的澳航产品及服务每消费1澳元额外获1个澳航积分\n免费国际及国内旅游保险，另含澳洲境内租车自负额保障\n免费澳航飞行常客会籍（价值$99.50）；24小时NAB礼宾服务\n最长44天免息期；购物保障及延长保固\n$295年费",
+      "benefits_zh_TW": "日常消費每消費1.50澳元獲1個澳航積分（最高$3,000），每結算週期$3,001至$6,000部分每3澳元獲1個澳航積分\n符合條件的澳航產品及服務每消費1澳元額外獲1個澳航積分\n免費國際及國內旅遊保險，另含澳洲境內租車自負額保障\n免費澳航飛行常客會籍（價值$99.50）；24小時NAB禮賓服務\n最長44天免息期；購物保障及延長保固\n$295年費",
       "aiRewards": {
         "Everything": 0.7
       }
@@ -3093,6 +3442,8 @@
       "color": "#C8102E",
       "image": "https://raw.githubusercontent.com/jimabby/card-assets/main/cards/st_george_amplify_platinum.png",
       "benefits": "Earn 1 Amplify point per $1 on general spend, 1.25 points per $1 on everyday spend (supermarkets, department stores, petrol, dining, utilities) and 2 points per $1 on international purchases\nEarn rate reduces to 0.5 points per $1 after $5,000 spend per statement cycle\nComplimentary international travel insurance, purchase protection and extended warranty\nRental vehicle excess and interstate flight inconvenience cover\nUp to 55 days interest-free on purchases\n$175 annual card fee (first year discounted)",
+      "benefits_zh_CN": "一般消费每消费1澳元获1个Amplify积分，日常消费（超市、百货、加油、餐饮、水电费）每1澳元获1.25积分，国际消费每1澳元获2积分\n每结算周期消费满$5,000后赚取率降至每1澳元0.5积分\n免费国际旅游保险、购物保障及延长保固\n租车自负额及州际航班延误保障\n消费最长55天免息期\n$175年费（首年享折扣）",
+      "benefits_zh_TW": "一般消費每消費1澳元獲1個Amplify積分，日常消費（超市、百貨、加油、餐飲、水電費）每1澳元獲1.25積分，國際消費每1澳元獲2積分\n每結算週期消費滿$5,000後賺取率降至每1澳元0.5積分\n免費國際旅遊保險、購物保障及延長保固\n租車自負額及州際航班延誤保障\n消費最長55天免息期\n$175年費（首年享折扣）",
       "aiRewards": {
         "Everything": 0.5,
         "Groceries": 0.6,
@@ -3110,6 +3461,8 @@
       "color": "#004A99",
       "image": "https://raw.githubusercontent.com/jimabby/card-assets/main/cards/bank_of_melbourne_amplify_signature.png",
       "benefits": "Earn 1 Amplify point per $1 on general spend, 2 points per $1 on everyday spend (supermarkets, department stores, petrol, dining, utilities) and 3 points per $1 on international purchases\nEarn rate reduces to 0.5 points per $1 after $10,000 spend per statement cycle\n2 complimentary Priority Pass lounge visits each year\nComplimentary international travel insurance, purchase protection and extended warranty\nUp to 55 days interest-free on purchases\n$295 annual card fee",
+      "benefits_zh_CN": "一般消费每消费1澳元获1个Amplify积分，日常消费（超市、百货、加油、餐饮、水电费）每1澳元获2积分，国际消费每1澳元获3积分\n每结算周期消费满$10,000后赚取率降至每1澳元0.5积分\n每年2次免费Priority Pass贵宾室造访\n免费国际旅游保险、购物保障及延长保固\n消费最长55天免息期\n$295年费",
+      "benefits_zh_TW": "一般消費每消費1澳元獲1個Amplify積分，日常消費（超市、百貨、加油、餐飲、水電費）每1澳元獲2積分，國際消費每1澳元獲3積分\n每結算週期消費滿$10,000後賺取率降至每1澳元0.5積分\n每年2次免費Priority Pass貴賓室造訪\n免費國際旅遊保險、購物保障及延長保固\n消費最長55天免息期\n$295年費",
       "aiRewards": {
         "Everything": 0.5,
         "Groceries": 1,
@@ -3127,6 +3480,8 @@
       "color": "#E30613",
       "image": "https://raw.githubusercontent.com/jimabby/card-assets/main/cards/bank_sa_amplify_signature.png",
       "benefits": "Earn 1 Amplify point per $1 on general spend, 2 points per $1 on everyday spend (supermarkets, department stores, petrol, dining, utilities) and 3 points per $1 on international purchases\nEarn rate reduces to 0.5 points per $1 after $10,000 spend per statement cycle\n2 complimentary Priority Pass lounge visits each year\nComplimentary international travel insurance, purchase protection and extended warranty\nUp to 55 days interest-free on purchases\n$295 annual card fee",
+      "benefits_zh_CN": "一般消费每消费1澳元获1个Amplify积分，日常消费（超市、百货、加油、餐饮、水电费）每1澳元获2积分，国际消费每1澳元获3积分\n每结算周期消费满$10,000后赚取率降至每1澳元0.5积分\n每年2次免费Priority Pass贵宾室造访\n免费国际旅游保险、购物保障及延长保固\n消费最长55天免息期\n$295年费",
+      "benefits_zh_TW": "一般消費每消費1澳元獲1個Amplify積分，日常消費（超市、百貨、加油、餐飲、水電費）每1澳元獲2積分，國際消費每1澳元獲3積分\n每結算週期消費滿$10,000後賺取率降至每1澳元0.5積分\n每年2次免費Priority Pass貴賓室造訪\n免費國際旅遊保險、購物保障及延長保固\n消費最長55天免息期\n$295年費",
       "aiRewards": {
         "Everything": 0.5,
         "Groceries": 1,
@@ -3144,6 +3499,8 @@
       "color": "#FFCC00",
       "image": "https://raw.githubusercontent.com/jimabby/card-assets/main/cards/bankwest_more_rewards_platinum.webp",
       "benefits": "2 More Rewards points per $1 on eligible purchases (400,000 pts/year cap)\nNo foreign transaction fees\nComplimentary overseas travel insurance (up to 31 days per trip)\nUp to 44 interest-free days on purchases\nPurchase security and extended warranty insurance\n$160 annual fee",
+      "benefits_zh_CN": "符合条件消费每消费1澳元获2个More Rewards积分（每年上限400,000积分）\n无境外交易手续费\n免费海外旅游保险（每趟最长31天）\n消费最长44天免息期\n购物安全及延长保固保险\n$160年费",
+      "benefits_zh_TW": "符合條件消費每消費1澳元獲2個More Rewards積分（每年上限400,000積分）\n無境外交易手續費\n免費海外旅遊保險（每趟最長31天）\n消費最長44天免息期\n購物安全及延長保固保險\n$160年費",
       "aiRewards": {
         "Everything": 1
       }
@@ -3157,21 +3514,10 @@
       "color": "#CC0000",
       "image": "https://raw.githubusercontent.com/jimabby/card-assets/main/cards/bankwest_qantas_world.png",
       "benefits": "1 Qantas Point per $1 on the first $5,000 of eligible spend each month, then 0.5 pts per $1 (uncapped)\nNo foreign transaction fees\nComplimentary overseas travel insurance and flight inconvenience insurance\nUp to 44 interest-free days on purchases\nPurchase security and extended warranty insurance\n$320 annual fee",
+      "benefits_zh_CN": "每月首$5,000符合条件消费每1澳元获1个澳航积分，之后每1澳元获0.5积分（无上限）\n无境外交易手续费\n免费海外旅游保险及航班延误保险\n消费最长44天免息期\n购物安全及延长保固保险\n$320年费",
+      "benefits_zh_TW": "每月首$5,000符合條件消費每1澳元獲1個澳航積分，之後每1澳元獲0.5積分（無上限）\n無境外交易手續費\n免費海外旅遊保險及航班延誤保險\n消費最長44天免息期\n購物安全及延長保固保險\n$320年費",
       "aiRewards": {
         "Everything": 1
-      }
-    },
-    {
-      "id": "hsbc_travel_cash_back_au",
-      "name": "HSBC Travel Cash Back",
-      "region": "AU",
-      "bank": "hsbc.com.au",
-      "annualFee": 0,
-      "color": "#DB0011",
-      "image": null,
-      "benefits": "No verifiable HSBC Australia product matches 'HSBC Travel Cash Back'. HSBC AU does not offer a travel cashback card by this name; current rewards cards are Platinum, Premier World and Star Alliance (points-based, not cashback). Listed benefits (3% travel cashback, no FTF) appear fabricated.",
-      "aiRewards": {
-        "Everything": 0
       }
     },
     {
@@ -3183,6 +3529,8 @@
       "color": "#C8102E",
       "image": "https://raw.githubusercontent.com/jimabby/card-assets/main/cards/virgin_money_velocity_high_flyer.webp",
       "benefits": "1 Velocity Point per $1 spent (up to $8,000/statement period), 0.5 thereafter\n$129 Virgin Australia gift voucher each year\n2 complimentary Virgin Australia lounge passes per year\nUp to 100 bonus Status Credits per year when flying eligible Virgin Australia flights\nComplimentary international travel and purchase cover insurance\n0% p.a. for 12 months on balance transfers",
+      "benefits_zh_CN": "每消费1澳元获1个Velocity积分（每结算周期最高$8,000），之后0.5积分\n每年$129维珍澳洲礼券\n每年2张免费维珍澳洲贵宾室通行证\n搭乘符合条件的维珍澳洲航班每年最高可获100个额外状态积分\n免费国际旅游及购物保障保险\n余额转帐12个月0%年利率",
+      "benefits_zh_TW": "每消費1澳元獲1個Velocity積分（每結算週期最高$8,000），之後0.5積分\n每年$129維珍澳洲禮券\n每年2張免費維珍澳洲貴賓室通行證\n搭乘符合條件的維珍澳洲航班每年最高可獲100個額外狀態積分\n免費國際旅遊及購物保障保險\n餘額轉帳12個月0%年利率",
       "aiRewards": {
         "Everything": 1
       }
@@ -3196,6 +3544,8 @@
       "color": "#C8102E",
       "image": "https://raw.githubusercontent.com/jimabby/card-assets/main/cards/virgin_money_velocity_flyer.webp",
       "benefits": "0.66 Velocity Points per $1 spent (up to $1,500/statement period), 0.5 thereafter\n1 extra Velocity Point per $1 spent directly with Virgin Australia\n$129 Virgin Australia gift voucher each year (after eligible retail purchase)\nComplimentary purchase cover insurance\n0% p.a. for 12 months on balance transfers\nApple Pay and Google Pay supported",
+      "benefits_zh_CN": "每消费1澳元获0.66个Velocity积分（每结算周期最高$1,500），之后0.5积分\n直接于维珍澳洲消费每1澳元额外获1个Velocity积分\n每年$129维珍澳洲礼券（于符合条件零售消费后）\n免费购物保障保险\n余额转帐12个月0%年利率\n支援Apple Pay及Google Pay",
+      "benefits_zh_TW": "每消費1澳元獲0.66個Velocity積分（每結算週期最高$1,500），之後0.5積分\n直接於維珍澳洲消費每1澳元額外獲1個Velocity積分\n每年$129維珍澳洲禮券（於符合條件零售消費後）\n免費購物保障保險\n餘額轉帳12個月0%年利率\n支援Apple Pay及Google Pay",
       "aiRewards": {
         "Everything": 0.7
       }
@@ -3209,6 +3559,8 @@
       "color": "#CC0000",
       "image": null,
       "benefits": "0.6 Qantas Points per $1 on eligible purchases (capped at 20,000 points per statement period)\nComplimentary Qantas Frequent Flyer membership\nUp to 90 days complimentary international travel insurance with transit accident and car hire excess cover\nUp to 55 days interest-free on purchases\n$149 annual fee",
+      "benefits_zh_CN": "符合条件消费每消费1澳元获0.6个澳航积分（每结算周期上限20,000积分）\n免费澳航飞行常客会籍\n最长90天免费国际旅游保险，含交通意外及租车自负额保障\n消费最长55天免息期\n$149年费",
+      "benefits_zh_TW": "符合條件消費每消費1澳元獲0.6個澳航積分（每結算週期上限20,000積分）\n免費澳航飛行常客會籍\n最長90天免費國際旅遊保險，含交通意外及租車自負額保障\n消費最長55天免息期\n$149年費",
       "aiRewards": {
         "Everything": 0.6
       }
@@ -3222,6 +3574,8 @@
       "color": "#0085AD",
       "image": null,
       "benefits": "Discontinued to new applicants (off sale 9 June 2025; existing cardholders retained)\n1.25 Suncorp Rewards points per $1 on domestic spend (capped at 96,000 points/year), or opt in to 0.5 Qantas Points per $1\nComplimentary international travel insurance\nUp to 55 days interest-free on purchases\n$129 annual fee",
+      "benefits_zh_CN": "已停止接受新申请（2025年6月9日停售；现有持卡人保留）\n国内消费每消费1澳元获1.25个Suncorp奖励积分（每年上限96,000积分），或可选择每1澳元获0.5个澳航积分\n免费国际旅游保险\n消费最长55天免息期\n$129年费",
+      "benefits_zh_TW": "已停止接受新申請（2025年6月9日停售；現有持卡人保留）\n國內消費每消費1澳元獲1.25個Suncorp獎勵積分（每年上限96,000積分），或可選擇每1澳元獲0.5個澳航積分\n免費國際旅遊保險\n消費最長55天免息期\n$129年費",
       "aiRewards": {
         "Everything": 0.6
       }
@@ -3235,6 +3589,8 @@
       "color": "#2C2F33",
       "image": "https://raw.githubusercontent.com/jimabby/card-assets/main/cards/kogan_money_credit_card.png",
       "benefits": "Earn 1 Kogan Reward point per $1 on eligible purchases everywhere\nEarn 2 points per $1 on eligible purchases at Kogan.com\n1,000 points = $10 Kogan.com credit; uncapped earning\n$0 annual fee (primary + up to 4 additional cardholders)\nComplimentary Kogan First membership (free/upgraded shipping, member deals)\nUp to 44 days interest-free; 3.4% foreign transaction fee applies",
+      "benefits_zh_CN": "各处符合条件消费每消费1澳元获1个Kogan奖励积分\nKogan.com符合条件消费每1澳元获2积分\n1,000积分=$10 Kogan.com购物金；赚取无上限\n$0年费（主卡 + 最多4名附属卡持卡人）\n免费Kogan First会籍（免运/升级运送、会员优惠）\n最长44天免息期；收取3.4%境外交易手续费",
+      "benefits_zh_TW": "各處符合條件消費每消費1澳元獲1個Kogan獎勵積分\nKogan.com符合條件消費每1澳元獲2積分\n1,000積分=$10 Kogan.com購物金；賺取無上限\n$0年費（主卡 + 最多4名附屬卡持卡人）\n免費Kogan First會籍（免運/升級運送、會員優惠）\n最長44天免息期；收取3.4%境外交易手續費",
       "aiRewards": {
         "Everything": 1,
         "Shopping": 2
@@ -3249,6 +3605,8 @@
       "color": "#E10600",
       "image": "https://raw.githubusercontent.com/jimabby/card-assets/main/cards/coles_no_fee_mastercard.png",
       "benefits": "Earn 1 flybuys point per $2 spent (0.5 points per $1) on eligible purchases\nScan your flybuys card at Coles to collect an extra 1 point per $1\n$0 annual fee, ongoing\nUp to 55 interest-free days on purchases\n2.5% international transaction fee\nIssued by NAB; Apple Pay, Google Pay and Samsung Pay supported\nflybuys points redeemable at Coles checkouts or transferable to Velocity",
+      "benefits_zh_CN": "符合条件消费每消费2澳元获1个flybuys积分（每1澳元0.5积分）\n于Coles刷flybuys卡每1澳元额外获1积分\n$0年费，持续适用\n消费最长55天免息期\n2.5%国际交易手续费\n由NAB发行；支援Apple Pay、Google Pay及Samsung Pay\nflybuys积分可于Coles结帐时折抵或转入Velocity",
+      "benefits_zh_TW": "符合條件消費每消費2澳元獲1個flybuys積分（每1澳元0.5積分）\n於Coles刷flybuys卡每1澳元額外獲1積分\n$0年費，持續適用\n消費最長55天免息期\n2.5%國際交易手續費\n由NAB發行；支援Apple Pay、Google Pay及Samsung Pay\nflybuys積分可於Coles結帳時折抵或轉入Velocity",
       "aiRewards": {
         "Everything": 0.25,
         "Groceries": 0.75
@@ -3263,6 +3621,8 @@
       "color": "#006747",
       "image": null,
       "benefits": "Discontinued card; accounts migrated to Macquarie (no longer open to new applicants)\nEarned 3 Everyday Rewards points per $1 on Woolworths-brand products, 2 points per $1 at Woolworths Supermarkets / BIG W / Everyday Market, and 1 point per $1 elsewhere\n10% off one shop at Woolworths each month (historical promotion)\n$49 annual fee after the first year ($9 per additional card)\nComplimentary insurance package\n4,000 points automatically converted to a $20 Woolworths/WISH eGift card",
+      "benefits_zh_CN": "已停售卡片；帐户已移转至Macquarie（不再接受新申请）\n过去Woolworths自有品牌商品每消费1澳元获3个Everyday Rewards积分，Woolworths超市/BIG W/Everyday Market每1澳元获2积分，其他每1澳元获1积分\n每月于Woolworths一次购物享9折（历史促销）\n首年后$49年费（每张附属卡$9）\n免费保险套组\n4,000积分自动兑换为$20 Woolworths/WISH电子礼品卡",
+      "benefits_zh_TW": "已停售卡片；帳戶已移轉至Macquarie（不再接受新申請）\n過去Woolworths自有品牌商品每消費1澳元獲3個Everyday Rewards積分，Woolworths超市/BIG W/Everyday Market每1澳元獲2積分，其他每1澳元獲1積分\n每月於Woolworths一次購物享9折（歷史促銷）\n首年後$49年費（每張附屬卡$9）\n免費保險套組\n4,000積分自動兌換為$20 Woolworths/WISH電子禮品卡",
       "aiRewards": {
         "Everything": 0.5,
         "Groceries": 1
@@ -3277,6 +3637,8 @@
       "color": "#1A1A1A",
       "image": "https://raw.githubusercontent.com/jimabby/card-assets/main/cards/david_jones_amex_platinum.png",
       "benefits": "Now the David Jones Prestige Mastercard (issued by Latitude; Amex program ended July 2024)\nEarn 4 points per $1 at David Jones, 3 points per $1 at participating supermarkets and petrol stations, and 1 point per $1 everywhere else (uncapped)\n$295 annual fee ($0 first year for approvals by 31 Jul 2026 meeting spend)\n2 complimentary Priority Pass lounge visits per year\nComplimentary comprehensive travel insurance and purchase protection insurance\nUp to 55 interest-free days; complimentary same-day/express delivery and gift wrapping at David Jones\n3% international transaction fee",
+      "benefits_zh_CN": "现为David Jones Prestige Mastercard（由Latitude发行；Amex计划已于2024年7月结束）\nDavid Jones消费每1澳元获4积分，参与的超市及加油站每1澳元获3积分，其他各处每1澳元获1积分（无上限）\n$295年费（于2026年7月31日前核准并达消费门槛者首年$0）\n每年2次免费Priority Pass贵宾室造访\n免费综合旅游保险及购物保障保险\n最长55天免息期；David Jones免费当日/快速送货及礼品包装\n3%国际交易手续费",
+      "benefits_zh_TW": "現為David Jones Prestige Mastercard（由Latitude發行；Amex計劃已於2024年7月結束）\nDavid Jones消費每1澳元獲4積分，參與的超市及加油站每1澳元獲3積分，其他各處每1澳元獲1積分（無上限）\n$295年費（於2026年7月31日前核准並達消費門檻者首年$0）\n每年2次免費Priority Pass貴賓室造訪\n免費綜合旅遊保險及購物保障保險\n最長55天免息期；David Jones免費當日/快速送貨及禮品包裝\n3%國際交易手續費",
       "aiRewards": {
         "Shopping": 2.7,
         "Groceries": 2,
@@ -3293,6 +3655,8 @@
       "color": "#1A1A1A",
       "image": "https://raw.githubusercontent.com/jimabby/card-assets/main/cards/qantas_premier_everyday.jpg",
       "benefits": "0.75 Qantas Points per $1 on domestic spend (up to $3,000/statement period), 0.4 thereafter\n1 Qantas Point per $1 on international spend, plus 1 bonus point per $1 on Qantas spend\nComplimentary overseas travel insurance (medical cover up to $1,000,000)\nUp to 8,000 bonus Qantas Points for new cardholders\n24/7 Qantas Money concierge service\nApple Pay and Google Pay supported; 0% p.a. for 12 months on balance transfers (3% fee)",
+      "benefits_zh_CN": "国内消费每消费1澳元获0.75个澳航积分（每结算周期最高$3,000），之后0.4积分\n国际消费每1澳元获1个澳航积分，澳航消费另每1澳元额外获1积分\n免费海外旅游保险（医疗保障最高$1,000,000）\n新持卡人最高可获8,000个澳航迎新积分\n24小时Qantas Money礼宾服务\n支援Apple Pay及Google Pay；余额转帐12个月0%年利率（3%手续费）",
+      "benefits_zh_TW": "國內消費每消費1澳元獲0.75個澳航積分（每結算週期最高$3,000），之後0.4積分\n國際消費每1澳元獲1個澳航積分，澳航消費另每1澳元額外獲1積分\n免費海外旅遊保險（醫療保障最高$1,000,000）\n新持卡人最高可獲8,000個澳航迎新積分\n24小時Qantas Money禮賓服務\n支援Apple Pay及Google Pay；餘額轉帳12個月0%年利率（3%手續費）",
       "aiRewards": {
         "Everything": 0.8,
         "Flights": 1.8,
@@ -3308,6 +3672,8 @@
       "color": "#1A1A1A",
       "image": "https://raw.githubusercontent.com/jimabby/card-assets/main/cards/macquarie_reward_visa_platinum.png",
       "benefits": "1 Macquarie Reward Point per $1 on the first $5,000/month, then 0.5 pts per $1\nNo foreign transaction fees\nComplimentary overseas and domestic travel insurance (Chubb)\nUp to 55 interest-free days on purchases\nPoints redeemable for eGift cards or cashback\n$149 annual fee (available to Macquarie home loan/Business Bank clients)",
+      "benefits_zh_CN": "每月首$5,000消费每1澳元获1个Macquarie奖励积分，之后每1澳元获0.5积分\n无境外交易手续费\n免费海外及国内旅游保险（Chubb）\n消费最长55天免息期\n积分可兑换电子礼品卡或现金回馈\n$149年费（提供予Macquarie房贷/商业银行客户）",
+      "benefits_zh_TW": "每月首$5,000消費每1澳元獲1個Macquarie獎勵積分，之後每1澳元獲0.5積分\n無境外交易手續費\n免費海外及國內旅遊保險（Chubb）\n消費最長55天免息期\n積分可兌換電子禮品卡或現金回饋\n$149年費（提供予Macquarie房貸/商業銀行客戶）",
       "aiRewards": {
         "Everything": 0.5
       }
@@ -3321,6 +3687,8 @@
       "color": "#007DBB",
       "image": "https://raw.githubusercontent.com/jimabby/card-assets/main/cards/anz_first.jpg",
       "benefits": "No ANZ Reward or Qantas Point benefits\nUp to 55 days interest-free on purchases\n$30 annual fee (lowest of all ANZ cards)\nANZ Falcon 24/7 fraud monitoring and fraud money-back guarantee\nComplimentary Purchase Protection and Extended Warranty insurance\nUp to 3 additional cardholders at no cost",
+      "benefits_zh_CN": "无ANZ奖励或澳航积分权益\n消费最长55天免息期\n$30年费（所有ANZ卡中最低）\nANZ Falcon 24小时诈骗监控及诈骗退款保证\n免费购物保障及延长保固保险\n最多3名附属卡持卡人免费",
+      "benefits_zh_TW": "無ANZ獎勵或澳航積分權益\n消費最長55天免息期\n$30年費（所有ANZ卡中最低）\nANZ Falcon 24小時詐騙監控及詐騙退款保證\n免費購物保障及延長保固保險\n最多3名附屬卡持卡人免費",
       "aiRewards": {
         "Everything": 0
       }
@@ -3334,6 +3702,8 @@
       "color": "#005A8E",
       "image": "https://raw.githubusercontent.com/jimabby/card-assets/main/cards/anz_platinum.jpg",
       "benefits": "No ANZ Reward or Qantas Point benefits\nComplimentary travel insurance plus rental vehicle excess cover in Australia\nPurchase Protection and Extended Warranty insurance\n24/7 ANZ Personal Concierge service\nUp to 55 days interest-free on purchases\n$87 annual fee, waived if you spend $20,000+ a year on eligible purchases (also waived in first year)\n3.5% overseas transaction fee applies",
+      "benefits_zh_CN": "无ANZ奖励或澳航积分权益\n免费旅游保险，另含澳洲境内租车自负额保障\n购物保障及延长保固保险\n24小时ANZ专属礼宾服务\n消费最长55天免息期\n$87年费，年度符合条件消费满$20,000即可豁免（首年亦豁免）\n收取3.5%境外交易手续费",
+      "benefits_zh_TW": "無ANZ獎勵或澳航積分權益\n免費旅遊保險，另含澳洲境內租車自負額保障\n購物保障及延長保固保險\n24小時ANZ專屬禮賓服務\n消費最長55天免息期\n$87年費，年度符合條件消費滿$20,000即可豁免（首年亦豁免）\n收取3.5%境外交易手續費",
       "aiRewards": {
         "Everything": 0
       }
@@ -3347,6 +3717,8 @@
       "color": "#0076C0",
       "image": "https://raw.githubusercontent.com/jimabby/card-assets/main/cards/anz_low_interest.jpg",
       "benefits": "Low ongoing variable purchase interest rate\nNo ANZ Reward or Qantas Point benefits\nUp to 55 days interest-free on purchases\n$58 annual fee\nANZ Falcon 24/7 fraud monitoring and fraud money-back guarantee\nUp to 3 additional cardholders at no cost",
+      "benefits_zh_CN": "持续较低的浮动购物利率\n无ANZ奖励或澳航积分权益\n消费最长55天免息期\n$58年费\nANZ Falcon 24小时诈骗监控及诈骗退款保证\n最多3名附属卡持卡人免费",
+      "benefits_zh_TW": "持續較低的浮動購物利率\n無ANZ獎勵或澳航積分權益\n消費最長55天免息期\n$58年費\nANZ Falcon 24小時詐騙監控及詐騙退款保證\n最多3名附屬卡持卡人免費",
       "aiRewards": {
         "Everything": 0
       }
@@ -3360,6 +3732,8 @@
       "color": "#FFCC00",
       "image": "https://raw.githubusercontent.com/jimabby/card-assets/main/cards/commbank_low_rate.jpg",
       "benefits": "$6 monthly fee ($72/yr)\nLow personalised purchase rate 10.99%-15.99% p.a.\nUp to 55 days interest-free on purchases\n3.50% international transaction fee applies\nNo Awards points; access to CommBank Yello cashback offers\nLock, block and limit card controls in the app",
+      "benefits_zh_CN": "每月$6费用（每年$72）\n个人化低购物利率10.99%-15.99%年利率\n消费最长55天免息期\n收取3.50%国际交易手续费\n不赚取奖励积分；可使用CommBank Yello现金回馈优惠\nApp内锁卡、封锁及限额卡片控制",
+      "benefits_zh_TW": "每月$6費用（每年$72）\n個人化低購物利率10.99%-15.99%年利率\n消費最長55天免息期\n收取3.50%國際交易手續費\n不賺取獎勵積分；可使用CommBank Yello現金回饋優惠\nApp內鎖卡、封鎖及限額卡片控制",
       "aiRewards": {
         "Everything": 0
       }
@@ -3373,6 +3747,8 @@
       "color": "#FFCC00",
       "image": "https://raw.githubusercontent.com/jimabby/card-assets/main/cards/commbank_low_fee.jpg",
       "benefits": "$3 monthly fee ($36/yr), waived in any statement period you spend $300+\nUp to 55 days interest-free on purchases\n3.50% international transaction fee applies\nComplimentary Purchase Security and Extended Warranty insurance (Cover-More)\nNo Awards points; access to CommBank Yello cashback offers\nApple Pay and Google Pay supported",
+      "benefits_zh_CN": "每月$3费用（每年$36），任一结算周期消费满$300即可豁免\n消费最长55天免息期\n收取3.50%国际交易手续费\n免费购物安全及延长保固保险（Cover-More）\n不赚取奖励积分；可使用CommBank Yello现金回馈优惠\n支援Apple Pay及Google Pay",
+      "benefits_zh_TW": "每月$3費用（每年$36），任一結算週期消費滿$300即可豁免\n消費最長55天免息期\n收取3.50%國際交易手續費\n免費購物安全及延長保固保險（Cover-More）\n不賺取獎勵積分；可使用CommBank Yello現金回饋優惠\n支援Apple Pay及Google Pay",
       "aiRewards": {
         "Everything": 0
       }
@@ -3386,6 +3762,8 @@
       "color": "#1A1A1A",
       "image": "https://raw.githubusercontent.com/jimabby/card-assets/main/cards/commbank_interest_free.jpg",
       "benefits": "CommBank Interest-Free Low Fee card: $10 monthly fee ($120/yr), waived in any month you don't spend and paid your previous statement in full\n0% p.a. purchase interest rate\nNo late payment fees\nNo international transaction fees\nFixed minimum repayment of $40 (or less if balance is lower); credit limit $400-$1,500\nDigital-only card; no Awards points, no cash advances",
+      "benefits_zh_CN": "CommBank Interest-Free Low Fee卡：每月$10费用（每年$120），任一月份无消费且上期帐单已全额付清即可豁免\n0%年利率购物利率\n无逾期还款费\n无国际交易手续费\n固定最低还款$40（余额较低时则更少）；信用额度$400-$1,500\n纯数位卡；不赚取奖励积分、无预借现金",
+      "benefits_zh_TW": "CommBank Interest-Free Low Fee卡：每月$10費用（每年$120），任一月份無消費且上期帳單已全額付清即可豁免\n0%年利率購物利率\n無逾期還款費\n無國際交易手續費\n固定最低還款$40（餘額較低時則更少）；信用額度$400-$1,500\n純數位卡；不賺取獎勵積分、無預借現金",
       "aiRewards": {
         "Everything": 0
       }
@@ -3399,6 +3777,8 @@
       "color": "#CC0000",
       "image": null,
       "benefits": "Low 13.49% p.a. purchase interest rate\nNo rewards points\nComplimentary mobile phone insurance (accidental damage and theft)\nUp to 55 interest-free days on purchases\n$0 annual fee for the first year for new customers, then $99 p.a.",
+      "benefits_zh_CN": "13.49%年利率低购物利率\n不赚取奖励积分\n免费手机保险（意外损坏及窃盗）\n消费最长55天免息期\n新客户首年$0年费，之后每年$99",
+      "benefits_zh_TW": "13.49%年利率低購物利率\n不賺取獎勵積分\n免費手機保險（意外損壞及竊盜）\n消費最長55天免息期\n新客戶首年$0年費，之後每年$99",
       "aiRewards": {
         "Everything": 0
       }
@@ -3412,6 +3792,8 @@
       "color": "#AA0000",
       "image": "https://raw.githubusercontent.com/jimabby/card-assets/main/cards/nab_rewards_classic.jpg",
       "benefits": "No longer for sale (existing cardholders only)\n0.75 NAB Rewards Points per $1 on everyday purchases\n1 NAB Rewards Point per $1 at eligible grocery stores; 1.5 points per $1 on Webjet\nComplimentary purchase protection insurance\nUp to 44 interest-free days\n$95 annual fee",
+      "benefits_zh_CN": "已停售（仅限现有持卡人）\n日常消费每消费1澳元获0.75个NAB奖励积分\n符合条件的杂货店每1澳元获1积分；Webjet每1澳元获1.5积分\n免费购物保障保险\n最长44天免息期\n$95年费",
+      "benefits_zh_TW": "已停售（僅限現有持卡人）\n日常消費每消費1澳元獲0.75個NAB獎勵積分\n符合條件的雜貨店每1澳元獲1積分；Webjet每1澳元獲1.5積分\n免費購物保障保險\n最長44天免息期\n$95年費",
       "aiRewards": {
         "Everything": 0.4,
         "Groceries": 0.5
@@ -3426,6 +3808,8 @@
       "color": "#CC0000",
       "image": null,
       "benefits": "No longer for sale (existing cardholders only)\n0.5 Qantas Points per $1 on everyday purchases up to $3,000 per statement period\nComplimentary purchase protection insurance\nUp to 44 interest-free days\n$95 annual fee",
+      "benefits_zh_CN": "已停售（仅限现有持卡人）\n日常消费每消费1澳元获0.5个澳航积分，每结算周期最高$3,000\n免费购物保障保险\n最长44天免息期\n$95年费",
+      "benefits_zh_TW": "已停售（僅限現有持卡人）\n日常消費每消費1澳元獲0.5個澳航積分，每結算週期最高$3,000\n免費購物保障保險\n最長44天免息期\n$95年費",
       "aiRewards": {
         "Everything": 0.5
       }
@@ -3439,6 +3823,8 @@
       "color": "#D5002B",
       "image": null,
       "benefits": "Earn 1 Altitude Rewards point per $1 on eligible purchases (5,000 point cap per statement cycle)\nOption to earn Altitude or Qantas points\nUp to 45 days interest-free on purchases\nCompatible with Apple Pay, Google Pay and Samsung Pay\n$100 annual card fee\nNote: no longer for sale to new customers (being rebranded Westpac Repay by June 2026)",
+      "benefits_zh_CN": "符合条件消费每消费1澳元获1个Altitude奖励积分（每结算周期上限5,000积分）\n可选择赚取Altitude或澳航积分\n消费最长45天免息期\n相容Apple Pay、Google Pay及Samsung Pay\n$100年费\n注意：已对新客户停售（2026年6月前将更名为Westpac Repay）",
+      "benefits_zh_TW": "符合條件消費每消費1澳元獲1個Altitude獎勵積分（每結算週期上限5,000積分）\n可選擇賺取Altitude或澳航積分\n消費最長45天免息期\n相容Apple Pay、Google Pay及Samsung Pay\n$100年費\n注意：已對新客戶停售（2026年6月前將更名為Westpac Repay）",
       "aiRewards": {
         "Everything": 0.5
       }
@@ -3452,6 +3838,8 @@
       "color": "#D5002B",
       "image": "https://raw.githubusercontent.com/jimabby/card-assets/main/cards/westpac_low_rate.png",
       "benefits": "Low variable purchase rate (13.74% p.a.)\nUp to 55 days interest-free on purchases\nNo rewards points earned\nFirst year annual fee waived for existing Westpac customers\nDynamic CVC and fraud money-back guarantee\nCompatible with Apple Pay, Google Pay and Samsung Pay\n$59 annual card fee",
+      "benefits_zh_CN": "低浮动购物利率（13.74%年利率）\n消费最长55天免息期\n不赚取奖励积分\n现有Westpac客户首年豁免年费\n动态CVC及诈骗退款保证\n相容Apple Pay、Google Pay及Samsung Pay\n$59年费",
+      "benefits_zh_TW": "低浮動購物利率（13.74%年利率）\n消費最長55天免息期\n不賺取獎勵積分\n現有Westpac客戶首年豁免年費\n動態CVC及詐騙退款保證\n相容Apple Pay、Google Pay及Samsung Pay\n$59年費",
       "aiRewards": {
         "Everything": 0
       }
@@ -3465,6 +3853,8 @@
       "color": "#1A1A1A",
       "image": "https://raw.githubusercontent.com/jimabby/card-assets/main/cards/macquarie_platinum.png",
       "benefits": "1 Macquarie Reward Point per $1 on the first $5,000/month, then 0.5 pts per $1\nNo foreign transaction fees\nComplimentary overseas and domestic travel insurance (Chubb)\nUp to 55 interest-free days on purchases\nPoints redeemable for eGift cards or cashback\n$149 annual fee (available to Macquarie home loan/Business Bank clients)",
+      "benefits_zh_CN": "每月首$5,000消费每1澳元获1个Macquarie奖励积分，之后每1澳元获0.5积分\n无境外交易手续费\n免费海外及国内旅游保险（Chubb）\n消费最长55天免息期\n积分可兑换电子礼品卡或现金回馈\n$149年费（提供予Macquarie房贷/商业银行客户）",
+      "benefits_zh_TW": "每月首$5,000消費每1澳元獲1個Macquarie獎勵積分，之後每1澳元獲0.5積分\n無境外交易手續費\n免費海外及國內旅遊保險（Chubb）\n消費最長55天免息期\n積分可兌換電子禮品卡或現金回饋\n$149年費（提供予Macquarie房貸/商業銀行客戶）",
       "aiRewards": {
         "Everything": 0.5
       }
@@ -3478,6 +3868,8 @@
       "color": "#0067B1",
       "image": "https://raw.githubusercontent.com/jimabby/card-assets/main/cards/bankwest_breeze.png",
       "benefits": "Low 12.99% p.a. purchase interest rate\nUp to 55 interest-free days on purchases\n0% p.a. for up to 24 months on balance transfers (3% BT fee)\nEasy Instalment Plans at 0% p.a. on eligible purchases\nNo rewards program\n$49 annual fee (Breeze Classic); 2.95% foreign transaction fee applies",
+      "benefits_zh_CN": "12.99%年利率低购物利率\n消费最长55天免息期\n余额转帐最长24个月0%年利率（3%转帐手续费）\n符合条件消费可享0%年利率轻松分期计划\n无奖励计划\n$49年费（Breeze Classic）；收取2.95%境外交易手续费",
+      "benefits_zh_TW": "12.99%年利率低購物利率\n消費最長55天免息期\n餘額轉帳最長24個月0%年利率（3%轉帳手續費）\n符合條件消費可享0%年利率輕鬆分期計劃\n無獎勵計劃\n$49年費（Breeze Classic）；收取2.95%境外交易手續費",
       "aiRewards": {
         "Everything": 0
       }
@@ -3491,6 +3883,8 @@
       "color": "#0067B1",
       "image": "https://raw.githubusercontent.com/jimabby/card-assets/main/cards/bankwest_platinum_basic.png",
       "benefits": "No annual fee\nNo foreign transaction fees\nComplimentary overseas travel insurance (up to 31 days per trip)\nUp to 55 interest-free days on purchases\n0% p.a. for 6 months on balance transfers (3% BT fee, new customers)\nNo rewards program",
+      "benefits_zh_CN": "免年费\n无境外交易手续费\n免费海外旅游保险（每趟最长31天）\n消费最长55天免息期\n余额转帐前6个月0%年利率（3%转帐手续费，新客户）\n无奖励计划",
+      "benefits_zh_TW": "免年費\n無境外交易手續費\n免費海外旅遊保險（每趟最長31天）\n消費最長55天免息期\n餘額轉帳前6個月0%年利率（3%轉帳手續費，新客戶）\n無獎勵計劃",
       "aiRewards": {
         "Everything": 0
       }
@@ -3504,6 +3898,8 @@
       "color": "#8B1A1A",
       "image": null,
       "benefits": "No annual fee, ever\nNo foreign transaction fees on overseas and online purchases\nComplimentary international travel insurance\nPurchase protection and extended warranty insurance\nUp to 55 days interest-free on purchases\nAdditional cardholders at no extra cost",
+      "benefits_zh_CN": "永久免年费\n海外及网路消费无境外交易手续费\n免费国际旅游保险\n购物保障及延长保固保险\n消费最长55天免息期\n附属卡持卡人免费",
+      "benefits_zh_TW": "永久免年費\n海外及網路消費無境外交易手續費\n免費國際旅遊保險\n購物保障及延長保固保險\n消費最長55天免息期\n附屬卡持卡人免費",
       "aiRewards": {
         "Everything": 0
       }
@@ -3517,6 +3913,8 @@
       "color": "#1A1A1A",
       "image": null,
       "benefits": "1.5 Bendigo Rewards points per $1 on eligible purchases (uncapped)\nUp to 3 months complimentary international travel insurance\nPurchase protection and extended warranty insurance\nUp to 55 days interest-free on purchases\n$89 annual fee",
+      "benefits_zh_CN": "符合条件消费每消费1澳元获1.5个Bendigo奖励积分（无上限）\n最长3个月免费国际旅游保险\n购物保障及延长保固保险\n消费最长55天免息期\n$89年费",
+      "benefits_zh_TW": "符合條件消費每消費1澳元獲1.5個Bendigo獎勵積分（無上限）\n最長3個月免費國際旅遊保險\n購物保障及延長保固保險\n消費最長55天免息期\n$89年費",
       "aiRewards": {
         "Everything": 0.8
       }
@@ -3530,6 +3928,8 @@
       "color": "#0085AD",
       "image": null,
       "benefits": "Discontinued to new applicants (existing cardholders retained)\nNo rewards program\nUp to 55 days interest-free on purchases\nComplimentary purchase protection\n$55 annual fee",
+      "benefits_zh_CN": "已停止接受新申请（现有持卡人保留）\n无奖励计划\n消费最长55天免息期\n免费购物保障\n$55年费",
+      "benefits_zh_TW": "已停止接受新申請（現有持卡人保留）\n無獎勵計劃\n消費最長55天免息期\n免費購物保障\n$55年費",
       "aiRewards": {
         "Everything": 0
       }
@@ -3543,6 +3943,8 @@
       "color": "#DB0011",
       "image": "https://raw.githubusercontent.com/jimabby/card-assets/main/cards/hsbc_premier.jpg",
       "benefits": "Earn 1.5 Rewards Plus points per $1 on eligible purchases (up to $120,000/year); Qantas option available\n$0 annual fee first year, then $199 (Rewards Plus) / $399 (Qantas)\nUp to 55 days interest-free on purchases\n2 airport lounge passes each year (Mastercard Travel Pass by DragonPass)\nComplimentary domestic & international travel insurance, rental vehicle excess, transit accident, extended warranty & purchase protection\n3% overseas transaction fee applies",
+      "benefits_zh_CN": "符合条件消费每消费1澳元获1.5个Rewards Plus积分（每年最高$120,000）；可选澳航选项\n首年$0年费，之后$199（Rewards Plus）/ $399（澳航）\n消费最长55天免息期\n每年2张机场贵宾室通行证（DragonPass的Mastercard Travel Pass）\n免费国内及国际旅游保险、租车自负额、交通意外、延长保固及购物保障\n收取3%境外交易手续费",
+      "benefits_zh_TW": "符合條件消費每消費1澳元獲1.5個Rewards Plus積分（每年最高$120,000）；可選澳航選項\n首年$0年費，之後$199（Rewards Plus）/ $399（澳航）\n消費最長55天免息期\n每年2張機場貴賓室通行證（DragonPass的Mastercard Travel Pass）\n免費國內及國際旅遊保險、租車自負額、交通意外、延長保固及購物保障\n收取3%境外交易手續費",
       "aiRewards": {
         "Everything": 0.8
       }
@@ -3556,6 +3958,8 @@
       "color": "#DB0011",
       "image": null,
       "benefits": "No longer available to new customers (discontinued; serviced for existing holders only)\nUp to 55 days interest-free on purchases\nWorldwide emergency assistance\nNo ongoing rewards earn on standard spend",
+      "benefits_zh_CN": "已不再对新客户提供（已停售；仅服务现有持卡人）\n消费最长55天免息期\n全球紧急协助\n一般消费无持续奖励赚取",
+      "benefits_zh_TW": "已不再對新客戶提供（已停售；僅服務現有持卡人）\n消費最長55天免息期\n全球緊急協助\n一般消費無持續獎勵賺取",
       "aiRewards": {
         "Everything": 0
       }
@@ -3569,6 +3973,8 @@
       "color": "#C8102E",
       "image": "https://raw.githubusercontent.com/jimabby/card-assets/main/cards/st_george_vertigo.png",
       "benefits": "Low variable purchase rate (13.99% p.a.)\nUp to 55 days interest-free on purchases\nNo rewards points earned\nFirst year annual fee waived for existing St.George customers\nAdditional cardholder at no extra cost\nCompatible with Apple Pay, Google Pay and Samsung Pay\n$55 annual card fee",
+      "benefits_zh_CN": "低浮动购物利率（13.99%年利率）\n消费最长55天免息期\n不赚取奖励积分\n现有St.George客户首年豁免年费\n附属卡持卡人免费\n相容Apple Pay、Google Pay及Samsung Pay\n$55年费",
+      "benefits_zh_TW": "低浮動購物利率（13.99%年利率）\n消費最長55天免息期\n不賺取獎勵積分\n現有St.George客戶首年豁免年費\n附屬卡持卡人免費\n相容Apple Pay、Google Pay及Samsung Pay\n$55年費",
       "aiRewards": {
         "Everything": 0
       }
@@ -3582,6 +3988,8 @@
       "color": "#004A99",
       "image": "https://raw.githubusercontent.com/jimabby/card-assets/main/cards/bank_of_melbourne_vertigo.png",
       "benefits": "Low variable purchase rate (13.99% p.a.)\nUp to 55 days interest-free on purchases\nNo rewards points earned\nFirst year annual fee waived for existing Bank of Melbourne customers\nAdditional cardholder at no extra cost\nCompatible with Apple Pay, Google Pay and Samsung Pay\n$55 annual card fee",
+      "benefits_zh_CN": "低浮动购物利率（13.99%年利率）\n消费最长55天免息期\n不赚取奖励积分\n现有Bank of Melbourne客户首年豁免年费\n附属卡持卡人免费\n相容Apple Pay、Google Pay及Samsung Pay\n$55年费",
+      "benefits_zh_TW": "低浮動購物利率（13.99%年利率）\n消費最長55天免息期\n不賺取獎勵積分\n現有Bank of Melbourne客戶首年豁免年費\n附屬卡持卡人免費\n相容Apple Pay、Google Pay及Samsung Pay\n$55年費",
       "aiRewards": {
         "Everything": 0
       }
@@ -3595,6 +4003,8 @@
       "color": "#E30613",
       "image": "https://raw.githubusercontent.com/jimabby/card-assets/main/cards/bank_sa_vertigo.png",
       "benefits": "Low variable purchase rate (13.99% p.a.)\nUp to 55 days interest-free on purchases\nNo rewards points earned\nFirst year annual fee waived for existing BankSA customers\nAdditional cardholder at no extra cost\nCompatible with Apple Pay, Google Pay and Samsung Pay\n$55 annual card fee",
+      "benefits_zh_CN": "低浮动购物利率（13.99%年利率）\n消费最长55天免息期\n不赚取奖励积分\n现有BankSA客户首年豁免年费\n附属卡持卡人免费\n相容Apple Pay、Google Pay及Samsung Pay\n$55年费",
+      "benefits_zh_TW": "低浮動購物利率（13.99%年利率）\n消費最長55天免息期\n不賺取獎勵積分\n現有BankSA客戶首年豁免年費\n附屬卡持卡人免費\n相容Apple Pay、Google Pay及Samsung Pay\n$55年費",
       "aiRewards": {
         "Everything": 0
       }
@@ -3608,6 +4018,8 @@
       "color": "#004A99",
       "image": null,
       "benefits": "1 reward point per $1 on eligible purchases\nComplimentary international travel insurance and interstate flight inconvenience insurance\nPurchase cover insurance and Guaranteed Pricing Scheme\n0% p.a. on balance transfers for 24 months\nUp to 55 days interest-free on purchases\n$129 annual fee (not available for new online applications)",
+      "benefits_zh_CN": "符合条件消费每消费1澳元获1个奖励积分\n免费国际旅游保险及州际航班延误保险\n购物保障保险及保证定价计划\n余额转帐24个月0%年利率\n消费最长55天免息期\n$129年费（不接受新的线上申请）",
+      "benefits_zh_TW": "符合條件消費每消費1澳元獲1個獎勵積分\n免費國際旅遊保險及州際航班延誤保險\n購物保障保險及保證定價計劃\n餘額轉帳24個月0%年利率\n消費最長55天免息期\n$129年費（不接受新的線上申請）",
       "aiRewards": {
         "Everything": 0.5
       }
@@ -3621,6 +4033,8 @@
       "color": "#0075BE",
       "image": "https://raw.githubusercontent.com/jimabby/card-assets/main/cards/great_southern_bank_platinum.png",
       "benefits": "Discontinued to new applicants (off sale 2 June 2025; existing cardholders retained)\n0.5% uncapped cashback on eligible purchases\nNo foreign transaction fees\nComplimentary travel insurance\nUp to 3 additional cardholders at no extra cost\n$149 annual fee",
+      "benefits_zh_CN": "已停止接受新申请（2025年6月2日停售；现有持卡人保留）\n符合条件消费0.5%无上限现金回馈\n无境外交易手续费\n免费旅游保险\n最多3名附属卡持卡人免费\n$149年费",
+      "benefits_zh_TW": "已停止接受新申請（2025年6月2日停售；現有持卡人保留）\n符合條件消費0.5%無上限現金回饋\n無境外交易手續費\n免費旅遊保險\n最多3名附屬卡持卡人免費\n$149年費",
       "aiRewards": {
         "Everything": 0.5
       }
@@ -3634,6 +4048,8 @@
       "color": "#D81E05",
       "image": null,
       "benefits": "$0 annual fee for life\nLow ongoing purchase interest rate\n0% p.a. on balance transfers for the first 12 months\nNo interest-free days on purchases\nIssued by People First Bank (Heritage Bank)",
+      "benefits_zh_CN": "终身$0年费\n持续低购物利率\n余额转帐前12个月0%年利率\n购物无免息期\n由People First Bank（Heritage Bank）发行",
+      "benefits_zh_TW": "終身$0年費\n持續低購物利率\n餘額轉帳前12個月0%年利率\n購物無免息期\n由People First Bank（Heritage Bank）發行",
       "aiRewards": {
         "Everything": 0
       }
@@ -3647,6 +4063,8 @@
       "color": "#004A99",
       "image": null,
       "benefits": "Low ongoing purchase interest rate\nNo rewards program\nUp to 4 additional cardholders at no extra cost\nUp to 55 days interest-free on purchases\n$59 annual fee",
+      "benefits_zh_CN": "持续低购物利率\n无奖励计划\n最多4名附属卡持卡人免费\n消费最长55天免息期\n$59年费",
+      "benefits_zh_TW": "持續低購物利率\n無獎勵計劃\n最多4名附屬卡持卡人免費\n消費最長55天免息期\n$59年費",
       "aiRewards": {
         "Everything": 0
       }
@@ -3660,6 +4078,8 @@
       "color": "#0075BE",
       "image": null,
       "benefits": "Newcastle Permanent Value+ Credit Card\nLow ongoing purchase interest rate\nNo rewards program\nUp to 55 days interest-free on purchases\n$49 annual fee",
+      "benefits_zh_CN": "Newcastle Permanent Value+信用卡\n持续低购物利率\n无奖励计划\n消费最长55天免息期\n$49年费",
+      "benefits_zh_TW": "Newcastle Permanent Value+信用卡\n持續低購物利率\n無獎勵計劃\n消費最長55天免息期\n$49年費",
       "aiRewards": {
         "Everything": 0
       }
@@ -3687,6 +4107,8 @@
       "color": "#004A99",
       "image": null,
       "benefits": "Low ongoing purchase interest rate\nNo rewards program\nUp to 55 days interest-free on purchases\n$59 annual fee (waived with a People's Choice home loan package, financial planning client, or under-25 Active Account holders)",
+      "benefits_zh_CN": "持续低购物利率\n无奖励计划\n消费最长55天免息期\n$59年费（持有People's Choice房贷套组、理财规划客户或25岁以下Active帐户持有人可豁免）",
+      "benefits_zh_TW": "持續低購物利率\n無獎勵計劃\n消費最長55天免息期\n$59年費（持有People's Choice房貸套組、理財規劃客戶或25歲以下Active帳戶持有人可豁免）",
       "aiRewards": {
         "Everything": 0
       }
@@ -3714,6 +4136,8 @@
       "color": "#DB0011",
       "image": null,
       "benefits": "RACQ Bank Platinum Rewards Credit Card\n1 reward point per $1 on eligible purchases; 3 points per $1 on RACQ products such as insurance\nPoints transfer to Velocity, KrisFlyer, Emirates Skywards and flybuys\nUp to 55 days interest-free on purchases\n$129 annual fee (discounts available with an RACQ Bank everyday account or home loan)",
+      "benefits_zh_CN": "RACQ Bank白金奖励信用卡\n符合条件消费每消费1澳元获1个奖励积分；RACQ产品（如保险）每1澳元获3积分\n积分可转入Velocity、KrisFlyer、Emirates Skywards及flybuys\n消费最长55天免息期\n$129年费（持有RACQ Bank日常帐户或房贷可享折扣）",
+      "benefits_zh_TW": "RACQ Bank白金獎勵信用卡\n符合條件消費每消費1澳元獲1個獎勵積分；RACQ產品（如保險）每1澳元獲3積分\n積分可轉入Velocity、KrisFlyer、Emirates Skywards及flybuys\n消費最長55天免息期\n$129年費（持有RACQ Bank日常帳戶或房貸可享折扣）",
       "aiRewards": {
         "Everything": 0.5
       }
@@ -3741,6 +4165,8 @@
       "color": "#004A99",
       "image": "https://raw.githubusercontent.com/jimabby/card-assets/main/cards/boq_platinum.jpg",
       "benefits": "2 Q Rewards points per $1 on eligible purchases (uncapped)\nComplimentary overseas travel insurance\nPurchase protection and extended warranty insurance\nUp to 44 days interest-free on purchases\n$75 annual fee first year, then $149",
+      "benefits_zh_CN": "符合条件消费每消费1澳元获2个Q Rewards积分（无上限）\n免费海外旅游保险\n购物保障及延长保固保险\n消费最长44天免息期\n首年$75年费，之后$149",
+      "benefits_zh_TW": "符合條件消費每消費1澳元獲2個Q Rewards積分（無上限）\n免費海外旅遊保險\n購物保障及延長保固保險\n消費最長44天免息期\n首年$75年費，之後$149",
       "aiRewards": {
         "Everything": 1
       }
@@ -3754,6 +4180,8 @@
       "color": "#0075BE",
       "image": "https://raw.githubusercontent.com/jimabby/card-assets/main/cards/boq_blue.jpg",
       "benefits": "1 Q Rewards point per $1 on eligible purchases\nComplimentary purchase protection insurance\nUp to 44 days interest-free on purchases\n$89 annual fee (waived while you hold a BOQ home loan)",
+      "benefits_zh_CN": "符合条件消费每消费1澳元获1个Q Rewards积分\n免费购物保障保险\n消费最长44天免息期\n$89年费（持有BOQ房贷期间豁免）",
+      "benefits_zh_TW": "符合條件消費每消費1澳元獲1個Q Rewards積分\n免費購物保障保險\n消費最長44天免息期\n$89年費（持有BOQ房貸期間豁免）",
       "aiRewards": {
         "Everything": 0.5
       }
@@ -3767,6 +4195,8 @@
       "color": "#1A1A1A",
       "image": "https://raw.githubusercontent.com/jimabby/card-assets/main/cards/myer_credit_card.jpg",
       "benefits": "Earn 3 MYER one Shopping Credits per $1 spent at Myer and Myer affiliates, and 1 credit per $1 spent everywhere else (uncapped)\nEvery 1,000 Shopping Credits convert automatically to a $10 MYER one Reward Card\n$69 annual fee ($0 in the first year; $9 per additional card)\nUp to 55 interest-free days on purchases\nComplimentary insurance underwritten by Chubb\nIssued by Macquarie Bank on the Visa network; exclusive Myer member offers",
+      "benefits_zh_CN": "于Myer及Myer联盟商家每消费1澳元获3个MYER one购物积分，其他各处每消费1澳元获1积分（无上限）\n每1,000购物积分自动兑换为$10 MYER one奖励卡\n$69年费（首年$0；每张附属卡$9）\n消费最长55天免息期\n由Chubb承保的免费保险\n由Macquarie Bank于Visa网路发行；专属Myer会员优惠",
+      "benefits_zh_TW": "於Myer及Myer聯盟商家每消費1澳元獲3個MYER one購物積分，其他各處每消費1澳元獲1積分（無上限）\n每1,000購物積分自動兌換為$10 MYER one獎勵卡\n$69年費（首年$0；每張附屬卡$9）\n消費最長55天免息期\n由Chubb承保的免費保險\n由Macquarie Bank於Visa網路發行；專屬Myer會員優惠",
       "aiRewards": {
         "Shopping": 3,
         "Everything": 1
@@ -3781,6 +4211,8 @@
       "color": "#CC0000",
       "image": "https://raw.githubusercontent.com/jimabby/card-assets/main/cards/amex_qantas_discovery_au.jpg",
       "benefits": "0.75 Qantas Points per $1 on everyday spend; up to 1.75 per $1 on selected Qantas products; 0.5 per $1 government\nNo annual fee\nNo points cap\nCard purchase cover & refund cover insurance\nAmex Offers\nUp to 55 interest-free days",
+      "benefits_zh_CN": "日常消费每消费1澳元获0.75个澳航积分；指定澳航产品每1澳元最高获1.75积分；政府消费每1澳元获0.5积分\n免年费\n积分无上限\n卡片购物保障及退款保障保险\nAmex Offers\n最长55天免息期",
+      "benefits_zh_TW": "日常消費每消費1澳元獲0.75個澳航積分；指定澳航產品每1澳元最高獲1.75積分；政府消費每1澳元獲0.5積分\n免年費\n積分無上限\n卡片購物保障及退款保障保險\nAmex Offers\n最長55天免息期",
       "aiRewards": {
         "Everything": 0.8
       }
@@ -3794,6 +4226,8 @@
       "color": "#016FD0",
       "image": null,
       "benefits": "1% unlimited cashback on all purchases\nNo annual fee\nSmartphone screen insurance\nAmex Offers\nNote: this card has been discontinued by American Express Australia and is closed to new applicants",
+      "benefits_zh_CN": "所有消费1%无上限现金回馈\n免年费\n智慧型手机萤幕保险\nAmex Offers\n注意：本卡已由American Express Australia停售，不再接受新申请",
+      "benefits_zh_TW": "所有消費1%無上限現金回饋\n免年費\n智慧型手機螢幕保險\nAmex Offers\n注意：本卡已由American Express Australia停售，不再接受新申請",
       "aiRewards": {
         "Everything": 1
       }
@@ -3807,6 +4241,8 @@
       "color": "#8C9196",
       "image": "https://raw.githubusercontent.com/jimabby/card-assets/main/cards/amex_platinum_business_au.jpg",
       "benefits": "2.25 Membership Rewards points per $1 on eligible purchases (1 pt per $1 on government spend), no cap\nGlobal Lounge Collection: 1,550+ airport lounges incl. Centurion Lounges, Priority Pass, Plaza Premium\nComplimentary hotel elite status (Marriott Bonvoy Gold, Hilton Honors Gold, Radisson Premium)\nComplimentary ALL Accor+ Explorer membership\nComplimentary travel insurance\nUp to 99 employee cards at no extra cost; no pre-set spending limit",
+      "benefits_zh_CN": "符合条件消费每消费1澳元获2.25个会员奖赏积分（政府消费每1澳元获1积分），无上限\n全球贵宾室合集：1,550多个机场贵宾室，含Centurion贵宾室、Priority Pass、Plaza Premium\n免费饭店尊荣会籍（Marriott Bonvoy金卡、Hilton Honors金卡、Radisson Premium）\n免费ALL Accor+ Explorer会籍\n免费旅游保险\n最多99张员工卡免费；无预设消费上限",
+      "benefits_zh_TW": "符合條件消費每消費1澳元獲2.25個會員獎賞積分（政府消費每1澳元獲1積分），無上限\n全球貴賓室合集：1,550多個機場貴賓室，含Centurion貴賓室、Priority Pass、Plaza Premium\n免費飯店尊榮會籍（Marriott Bonvoy金卡、Hilton Honors金卡、Radisson Premium）\n免費ALL Accor+ Explorer會籍\n免費旅遊保險\n最多99張員工卡免費；無預設消費上限",
       "aiRewards": {
         "Everything": 2.3
       }
@@ -3820,6 +4256,8 @@
       "color": "#1A1A1A",
       "image": null,
       "benefits": "No longer open to new applications (discontinued)\nEarn 1 Infinity/Latitude Rewards point per $1 on eligible purchases\nPoints redeemable for gift cards and merchandise\n$0 annual fee\nUp to 55 days interest-free on purchases",
+      "benefits_zh_CN": "不再接受新申请（已停售）\n符合条件消费每消费1澳元获1个Infinity/Latitude奖励积分\n积分可兑换礼品卡及商品\n$0年费\n消费最长55天免息期",
+      "benefits_zh_TW": "不再接受新申請（已停售）\n符合條件消費每消費1澳元獲1個Infinity/Latitude獎勵積分\n積分可兌換禮品卡及商品\n$0年費\n消費最長55天免息期",
       "aiRewards": {
         "Everything": 1
       }
@@ -3833,6 +4271,8 @@
       "color": "#007A3D",
       "image": null,
       "benefits": "No longer open to new applications (discontinued)\n$49 annual fee\nUp to 55 days interest-free on purchases\nApple Pay, Google Pay, Samsung Pay and Garmin Pay supported\nMade with a focus on sustainability",
+      "benefits_zh_CN": "不再接受新申请（已停售）\n$49年费\n消费最长55天免息期\n支援Apple Pay、Google Pay、Samsung Pay及Garmin Pay\n以永续为设计理念制作",
+      "benefits_zh_TW": "不再接受新申請（已停售）\n$49年費\n消費最長55天免息期\n支援Apple Pay、Google Pay、Samsung Pay及Garmin Pay\n以永續為設計理念製作",
       "aiRewards": {
         "Everything": 0
       }
@@ -3846,6 +4286,8 @@
       "color": "#1A1A1A",
       "image": "https://raw.githubusercontent.com/jimabby/card-assets/main/cards/qantas_premier_titanium.webp",
       "benefits": "1.25 Qantas Points per $1 on domestic spend (up to $12,500/statement period), 0.5 thereafter\n2 Qantas Points per $1 on international spend (uncapped), plus 2 bonus points per $1 on Qantas spend\n2 complimentary Qantas First lounge invitations and 2 Qantas Club lounge invitations per year\n20% bonus Qantas Status Credits on eligible Qantas flights paid with the card\nComplimentary international/domestic travel insurance, rental vehicle excess and trip cancellation cover\nUp to 55 interest-free days",
+      "benefits_zh_CN": "国内消费每消费1澳元获1.25个澳航积分（每结算周期最高$12,500），之后0.5积分\n国际消费每1澳元获2个澳航积分（无上限），澳航消费另每1澳元额外获2积分\n每年2次免费澳航First贵宾室邀请及2次澳航俱乐部贵宾室邀请\n以本卡支付的符合条件澳航航班可享20%额外澳航状态积分\n免费国际/国内旅游保险、租车自负额及行程取消保障\n最长55天免息期",
+      "benefits_zh_TW": "國內消費每消費1澳元獲1.25個澳航積分（每結算週期最高$12,500），之後0.5積分\n國際消費每1澳元獲2個澳航積分（無上限），澳航消費另每1澳元額外獲2積分\n每年2次免費澳航First貴賓室邀請及2次澳航俱樂部貴賓室邀請\n以本卡支付的符合條件澳航航班可享20%額外澳航狀態積分\n免費國際/國內旅遊保險、租車自負額及行程取消保障\n最長55天免息期",
       "aiRewards": {
         "Everything": 1.3,
         "Flights": 3.3,
@@ -3861,6 +4303,8 @@
       "color": "#C8102E",
       "image": null,
       "benefits": "No annual fee, ever\nUp to 4 additional cardholders at no extra cost\nUp to 55 days interest-free on purchases\n0% p.a. for 6 months on purchases (then reverts to standard rate)\nApple Pay, Samsung Pay and Google Pay supported\nFraudShield monitoring and Visa Zero Liability protection",
+      "benefits_zh_CN": "永久免年费\n最多4名附属卡持卡人免费\n消费最长55天免息期\n购物前6个月0%年利率（之后恢复标准利率）\n支援Apple Pay、Samsung Pay及Google Pay\nFraudShield监控及Visa零责任保障",
+      "benefits_zh_TW": "永久免年費\n最多4名附屬卡持卡人免費\n消費最長55天免息期\n購物前6個月0%年利率（之後恢復標準利率）\n支援Apple Pay、Samsung Pay及Google Pay\nFraudShield監控及Visa零責任保障",
       "aiRewards": {
         "Everything": 0
       }
@@ -3874,6 +4318,8 @@
       "color": "#E10600",
       "image": "https://raw.githubusercontent.com/jimabby/card-assets/main/cards/coles_platinum_mastercard.png",
       "benefits": "Legacy/discontinued card (no longer open to new applicants)\nEarned 2 flybuys points per $1 on eligible purchases (uncapped on older versions)\nScan your flybuys card at Coles for an extra 1 point per $1\n$29 annual fee\nUp to 55 interest-free days on purchases\nComplimentary Purchase Protection and Extended Warranty insurance\nIssued by NAB; replaced by the current Coles Rewards / No Annual Fee / Low Rate range",
+      "benefits_zh_CN": "传统/已停售卡片（不再接受新申请）\n过去符合条件消费每消费1澳元获2个flybuys积分（旧版本无上限）\n于Coles刷flybuys卡每1澳元额外获1积分\n$29年费\n消费最长55天免息期\n免费购物保障及延长保固保险\n由NAB发行；已由现行Coles Rewards / 免年费 / 低利率系列取代",
+      "benefits_zh_TW": "傳統/已停售卡片（不再接受新申請）\n過去符合條件消費每消費1澳元獲2個flybuys積分（舊版本無上限）\n於Coles刷flybuys卡每1澳元額外獲1積分\n$29年費\n消費最長55天免息期\n免費購物保障及延長保固保險\n由NAB發行；已由現行Coles Rewards / 免年費 / 低利率系列取代",
       "aiRewards": {
         "Everything": 1,
         "Groceries": 1.5
@@ -3888,6 +4334,8 @@
       "color": "#006747",
       "image": null,
       "benefits": "Discontinued for new applicants; existing accounts migrated to Macquarie\nEarned 1 Qantas Point per $1 at Woolworths Supermarkets and BIG W, and 0.5 Qantas Points per $1 on all other eligible purchases (earn rates were cut from the original higher rates)\n10% off one shop at Woolworths each month (historical)\n$169 annual fee\nComplimentary insurance package\nQantas Points credited directly to your Qantas Frequent Flyer account",
+      "benefits_zh_CN": "已停止接受新申请；现有帐户已移转至Macquarie\n过去Woolworths超市及BIG W每消费1澳元获1个澳航积分，其他所有符合条件消费每1澳元获0.5个澳航积分（赚取率已由原较高水准调降）\n每月于Woolworths一次购物享9折（历史）\n$169年费\n免费保险套组\n澳航积分直接记入您的澳航飞行常客帐户",
+      "benefits_zh_TW": "已停止接受新申請；現有帳戶已移轉至Macquarie\n過去Woolworths超市及BIG W每消費1澳元獲1個澳航積分，其他所有符合條件消費每1澳元獲0.5個澳航積分（賺取率已由原較高水準調降）\n每月於Woolworths一次購物享9折（歷史）\n$169年費\n免費保險套組\n澳航積分直接記入您的澳航飛行常客帳戶",
       "aiRewards": {
         "Everything": 0.5,
         "Groceries": 1
@@ -3902,6 +4350,8 @@
       "color": "#1A1A1A",
       "image": "https://raw.githubusercontent.com/jimabby/card-assets/main/cards/david_jones_amex_basic.png",
       "benefits": "Now the David Jones Premiere Mastercard (issued by Latitude; Amex program ended July 2024)\nEarn 2 points per $1 at David Jones, 3 points per $1 at participating supermarkets and petrol stations, and 1 point per $1 everywhere else (uncapped)\n$99 annual fee ($0 first year for approvals by 31 Jul 2026 meeting spend)\nUp to 55 interest-free days on purchases\nComplimentary express delivery and gift wrapping at David Jones\nExclusive event invitations and member offers\n3% international transaction fee",
+      "benefits_zh_CN": "现为David Jones Premiere Mastercard（由Latitude发行；Amex计划已于2024年7月结束）\nDavid Jones消费每1澳元获2积分，参与的超市及加油站每1澳元获3积分，其他各处每1澳元获1积分（无上限）\n$99年费（于2026年7月31日前核准并达消费门槛者首年$0）\n消费最长55天免息期\nDavid Jones免费快速送货及礼品包装\n专属活动邀请及会员优惠\n3%国际交易手续费",
+      "benefits_zh_TW": "現為David Jones Premiere Mastercard（由Latitude發行；Amex計劃已於2024年7月結束）\nDavid Jones消費每1澳元獲2積分，參與的超市及加油站每1澳元獲3積分，其他各處每1澳元獲1積分（無上限）\n$99年費（於2026年7月31日前核准並達消費門檻者首年$0）\n消費最長55天免息期\nDavid Jones免費快速送貨及禮品包裝\n專屬活動邀請及會員優惠\n3%國際交易手續費",
       "aiRewards": {
         "Shopping": 1.3,
         "Groceries": 2,
@@ -3918,6 +4368,8 @@
       "color": "#1A1A1A",
       "image": "https://raw.githubusercontent.com/jimabby/card-assets/main/cards/humm90_mastercard.png",
       "benefits": "Up to 110 days interest-free on everyday purchases (in-store & online)\nNo international transaction fees\n$0 fees first year, then $9.95/month (~$119/year)\nInterest-free instalment plans on larger purchases\nNo points-based rewards program on everyday spend\nApple Pay, Google Pay and digital wallet support",
+      "benefits_zh_CN": "日常消费（门市及网路）最长110天免息期\n无国际交易手续费\n首年$0费用，之后每月$9.95（约每年$119）\n大额消费可享免息分期计划\n日常消费无积分制奖励计划\n支援Apple Pay、Google Pay及数位钱包",
+      "benefits_zh_TW": "日常消費（門市及網路）最長110天免息期\n無國際交易手續費\n首年$0費用，之後每月$9.95（約每年$119）\n大額消費可享免息分期計劃\n日常消費無積分制獎勵計劃\n支援Apple Pay、Google Pay及數位錢包",
       "aiRewards": {
         "Everything": 0
       }
@@ -3931,6 +4383,8 @@
       "color": "#004A99",
       "image": "https://raw.githubusercontent.com/jimabby/card-assets/main/cards/bank_australia_visa.jpg",
       "benefits": "$0 annual fee\nLow 12.99% p.a. variable purchase rate\nNo late payment fees\n0% p.a. on balance transfers for 6 months with no balance transfer fee\n3% foreign currency transaction fee applies\nUp to 62 days interest-free on purchases",
+      "benefits_zh_CN": "$0年费\n12.99%年利率低浮动购物利率\n无逾期还款费\n余额转帐前6个月0%年利率且无转帐手续费\n收取3%外币交易手续费\n消费最长62天免息期",
+      "benefits_zh_TW": "$0年費\n12.99%年利率低浮動購物利率\n無逾期還款費\n餘額轉帳前6個月0%年利率且無轉帳手續費\n收取3%外幣交易手續費\n消費最長62天免息期",
       "aiRewards": {
         "Everything": 0
       }
@@ -3972,6 +4426,8 @@
       "color": "#002E5D",
       "image": null,
       "benefits": "Defence Bank Foundation Credit Card (half the annual fee is donated to the Defence Bank Foundation)\nVery low 8.99% p.a. ongoing purchase rate (3.99% p.a. for the first 6 months)\nNo rewards program\nUp to 55 days interest-free on purchases\nAvailable to all Australians\n$45 annual fee",
+      "benefits_zh_CN": "Defence Bank Foundation信用卡（年费的一半将捐赠予Defence Bank Foundation）\n极低8.99%年利率持续购物利率（首6个月3.99%年利率）\n无奖励计划\n消费最长55天免息期\n所有澳洲人皆可申请\n$45年费",
+      "benefits_zh_TW": "Defence Bank Foundation信用卡（年費的一半將捐贈予Defence Bank Foundation）\n極低8.99%年利率持續購物利率（首6個月3.99%年利率）\n無獎勵計劃\n消費最長55天免息期\n所有澳洲人皆可申請\n$45年費",
       "aiRewards": {
         "Everything": 0
       }
@@ -4392,7 +4848,7 @@
       "aiRewards": {
         "Flights": 2,
         "Hotels": 2,
-        "Everything": 1
+        "Everything": 0.5
       }
     },
     {
@@ -4407,7 +4863,7 @@
       "aiRewards": {
         "Food & Dining": 2,
         "Hotels": 2,
-        "Everything": 1
+        "Everything": 0.5
       }
     },
     {
@@ -4449,7 +4905,7 @@
       "aiRewards": {
         "Flights": 3,
         "Hotels": 3,
-        "Everything": 1
+        "Everything": 0.5
       }
     },
     {
@@ -4523,7 +4979,7 @@
       "aiRewards": {
         "Flights": 2,
         "Hotels": 2,
-        "Everything": 1
+        "Everything": 0.5
       }
     },
     {
