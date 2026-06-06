@@ -2,7 +2,7 @@
   "schema": "pockyt-card-catalog-v1",
   "description": "Card catalog for the Pockyt / SpendingTracker app: details, benefits, AI reward valuations, and face image URLs.",
   "generated": "2026-06-07",
-  "count": 375,
+  "count": 392,
   "cards": [
     {
       "id": "chase_sapphire_preferred",
@@ -4428,6 +4428,262 @@
       "benefits": "Defence Bank Foundation Credit Card (half the annual fee is donated to the Defence Bank Foundation)\nVery low 8.99% p.a. ongoing purchase rate (3.99% p.a. for the first 6 months)\nNo rewards program\nUp to 55 days interest-free on purchases\nAvailable to all Australians\n$45 annual fee",
       "benefits_zh_CN": "Defence Bank Foundation信用卡（年费的一半将捐赠予Defence Bank Foundation）\n极低8.99%年利率持续购物利率（首6个月3.99%年利率）\n无奖励计划\n消费最长55天免息期\n所有澳洲人皆可申请\n$45年费",
       "benefits_zh_TW": "Defence Bank Foundation信用卡（年費的一半將捐贈予Defence Bank Foundation）\n極低8.99%年利率持續購物利率（首6個月3.99%年利率）\n無獎勵計劃\n消費最長55天免息期\n所有澳洲人皆可申請\n$45年費",
+      "aiRewards": {
+        "Everything": 0
+      }
+    },
+    {
+      "id": "mycard_rewards",
+      "name": "MyCard Rewards",
+      "region": "AU",
+      "bank": "mycard.com.au",
+      "annualFee": 199,
+      "color": "#0476D0",
+      "image": null,
+      "benefits": "1 MyCard Reward Point per $1 on eligible purchases (formerly Citi Rewards)\nFlexible points transfer to airline and hotel partners\nComplimentary purchase protection and extended warranty insurance\nUp to 44 days interest-free on purchases\n$199 annual fee\nBrand changed from Citi to MyCard (NAB-backed) in November 2025",
+      "benefits_zh_CN": "符合条件消费每消费1澳元获1个MyCard奖励积分（前身为Citi Rewards）\n积分可灵活转移至航空及酒店合作伙伴\n免费购物保障及延长保固保险\n消费最长44天免息期\n$199年费\n品牌已于2025年11月由Citi转为MyCard（NAB支持）",
+      "benefits_zh_TW": "符合條件消費每消費1澳元獲1個MyCard獎勵積分（前身為Citi Rewards）\n積分可靈活轉移至航空及酒店合作夥伴\n免費購物保障及延長保固保險\n消費最長44天免息期\n$199年費\n品牌已於2025年11月由Citi轉為MyCard（NAB支持）",
+      "aiRewards": {
+        "Everything": 1
+      }
+    },
+    {
+      "id": "mycard_premier",
+      "name": "MyCard Premier",
+      "region": "AU",
+      "bank": "mycard.com.au",
+      "annualFee": 300,
+      "color": "#1A3C6E",
+      "image": null,
+      "benefits": "1 MyCard Reward Point per $1 on eligible purchases (formerly Citi Premier)\nFlexible points transfer to 15+ airline & hotel partners\n2 complimentary airport lounge passes per year\nComplimentary international travel insurance\nComplimentary mobile phone insurance\nUp to 44 days interest-free on purchases\n$300 annual fee",
+      "benefits_zh_CN": "符合条件消费每消费1澳元获1个MyCard奖励积分（前身为Citi Premier）\n积分可灵活转移至15+航空及酒店合作伙伴\n每年2次免费机场贵宾室通行\n免费国际旅游保险\n免费手机保险\n消费最长44天免息期\n$300年费",
+      "benefits_zh_TW": "符合條件消費每消費1澳元獲1個MyCard獎勵積分（前身為Citi Premier）\n積分可靈活轉移至15+航空及酒店合作夥伴\n每年2次免費機場貴賓室通行\n免費國際旅遊保險\n免費手機保險\n消費最長44天免息期\n$300年費",
+      "aiRewards": {
+        "Everything": 1
+      }
+    },
+    {
+      "id": "mycard_prestige",
+      "name": "MyCard Prestige",
+      "region": "AU",
+      "bank": "mycard.com.au",
+      "annualFee": 700,
+      "color": "#1A1A1A",
+      "image": null,
+      "benefits": "1 MyCard Reward Point per $1 on eligible purchases, uncapped (formerly Citi Prestige)\nComplimentary 4th night free on hotel stays (twice per year)\n15 complimentary airport lounge visits per year via Priority Pass\nComplimentary international travel insurance\nFlexible points transfer to airline & hotel partners\nUp to 44 days interest-free on purchases\n$700 annual fee",
+      "benefits_zh_CN": "符合条件消费每消费1澳元获1个MyCard奖励积分，无上限（前身为Citi Prestige）\n酒店住宿免费第4晚（每年2次）\n每年15次Priority Pass机场贵宾室通行\n免费国际旅游保险\n积分可灵活转移至航空及酒店合作伙伴\n消费最长44天免息期\n$700年费",
+      "benefits_zh_TW": "符合條件消費每消費1澳元獲1個MyCard獎勵積分，無上限（前身為Citi Prestige）\n酒店住宿免費第4晚（每年2次）\n每年15次Priority Pass機場貴賓室通行\n免費國際旅遊保險\n積分可靈活轉移至航空及酒店合作夥伴\n消費最長44天免息期\n$700年費",
+      "aiRewards": {
+        "Everything": 1
+      }
+    },
+    {
+      "id": "mycard_simplicity",
+      "name": "MyCard Simplicity",
+      "region": "AU",
+      "bank": "mycard.com.au",
+      "annualFee": 0,
+      "color": "#4A7729",
+      "image": null,
+      "benefits": "No annual fee\nNo points or rewards program\nNo late payment fees\nUp to 55 days interest-free on purchases\nBalance transfer offers available\nFormerly Citi Simplicity (now MyCard, NAB-backed)",
+      "benefits_zh_CN": "无年费\n无积分或奖励计划\n无逾期还款费用\n消费最长55天免息期\n提供余额转账优惠\n前身为Citi Simplicity（现为MyCard，NAB支持）",
+      "benefits_zh_TW": "無年費\n無積分或獎勵計劃\n無逾期還款費用\n消費最長55天免息期\n提供餘額轉賬優惠\n前身為Citi Simplicity（現為MyCard，NAB支持）",
+      "aiRewards": {
+        "Everything": 0
+      }
+    },
+    {
+      "id": "mycard_clear",
+      "name": "MyCard Clear",
+      "region": "AU",
+      "bank": "mycard.com.au",
+      "annualFee": 149,
+      "color": "#00A0DF",
+      "image": null,
+      "benefits": "Low ongoing purchase interest rate\nNo points or rewards program\nUp to 44 days interest-free on purchases\n$149 annual fee\nFormerly Citi Clear (now MyCard, NAB-backed)",
+      "benefits_zh_CN": "持续较低的购物利率\n无积分或奖励计划\n消费最长44天免息期\n$149年费\n前身为Citi Clear（现为MyCard，NAB支持）",
+      "benefits_zh_TW": "持續較低的購物利率\n無積分或獎勵計劃\n消費最長44天免息期\n$149年費\n前身為Citi Clear（現為MyCard，NAB支持）",
+      "aiRewards": {
+        "Everything": 0
+      }
+    },
+    {
+      "id": "mycard_premier_qantas",
+      "name": "MyCard Premier Qantas",
+      "region": "AU",
+      "bank": "mycard.com.au",
+      "annualFee": 350,
+      "color": "#E0001B",
+      "image": null,
+      "benefits": "0.5 Qantas Points per $1 on eligible purchases (formerly Citi Premier Qantas)\nComplimentary airport lounge passes\nComplimentary international travel insurance\nUp to 44 days interest-free on purchases\n$350 annual fee",
+      "benefits_zh_CN": "符合条件消费每消费1澳元获0.5个澳航积分（前身为Citi Premier Qantas）\n免费机场贵宾室通行\n免费国际旅游保险\n消费最长44天免息期\n$350年费",
+      "benefits_zh_TW": "符合條件消費每消費1澳元獲0.5個澳航積分（前身為Citi Premier Qantas）\n免費機場貴賓室通行\n免費國際旅遊保險\n消費最長44天免息期\n$350年費",
+      "aiRewards": {
+        "Everything": 0.5
+      }
+    },
+    {
+      "id": "mycard_prestige_qantas",
+      "name": "MyCard Prestige Qantas",
+      "region": "AU",
+      "bank": "mycard.com.au",
+      "annualFee": 749,
+      "color": "#1A1A1A",
+      "image": null,
+      "benefits": "0.5 Qantas Points per $1 on eligible purchases (formerly Citi Prestige Qantas)\nComplimentary 4th night free on hotel stays\nComplimentary airport lounge access\nComplimentary international travel insurance\nUp to 44 days interest-free on purchases\n$749 annual fee",
+      "benefits_zh_CN": "符合条件消费每消费1澳元获0.5个澳航积分（前身为Citi Prestige Qantas）\n酒店住宿免费第4晚\n免费机场贵宾室通行\n免费国际旅游保险\n消费最长44天免息期\n$749年费",
+      "benefits_zh_TW": "符合條件消費每消費1澳元獲0.5個澳航積分（前身為Citi Prestige Qantas）\n酒店住宿免費第4晚\n免費機場貴賓室通行\n免費國際旅遊保險\n消費最長44天免息期\n$749年費",
+      "aiRewards": {
+        "Everything": 0.5
+      }
+    },
+    {
+      "id": "latitude_go_mastercard",
+      "name": "Latitude GO Mastercard",
+      "region": "AU",
+      "bank": "latitudefinancial.com.au",
+      "annualFee": 131,
+      "color": "#C8007A",
+      "image": null,
+      "benefits": "Interest-free payment plans at partner retailers (Harvey Norman, JB Hi-Fi, Amart and more)\n6 months interest-free on everyday purchases of $250+ (activate in the Latitude App within 30 days)\nUp to 55 days interest-free on general purchases\n$10.95 monthly fee (~$131/year; rising to $11.95 from 15 July 2026)\n28.49% p.a. purchase rate\nNo ongoing rewards program",
+      "benefits_zh_CN": "在合作零售商（Harvey Norman、JB Hi-Fi、Amart等）享分期免息计划\n日常消费满$250可享6个月免息（30天内在Latitude App启用）\n一般消费最长55天免息期\n每月$10.95费用（约每年$131；2026年7月15日起涨至$11.95）\n28.49%年利率购物利率\n无持续奖励计划",
+      "benefits_zh_TW": "在合作零售商（Harvey Norman、JB Hi-Fi、Amart等）享分期免息計劃\n日常消費滿$250可享6個月免息（30天內在Latitude App啟用）\n一般消費最長55天免息期\n每月$10.95費用（約每年$131；2026年7月15日起漲至$11.95）\n28.49%年利率購物利率\n無持續獎勵計劃",
+      "aiRewards": {
+        "Everything": 0
+      }
+    },
+    {
+      "id": "latitude_gem_visa",
+      "name": "Latitude Gem Visa",
+      "region": "AU",
+      "bank": "latitudefinancial.com.au",
+      "annualFee": 69,
+      "color": "#00A99D",
+      "image": null,
+      "benefits": "6 months interest-free on purchases of $250+ (activate in the Latitude App within 30 days)\nLong-term interest-free payment plans at partner retailers\nUp to 55 days interest-free on other purchases\n$69 annual fee\nNo ongoing rewards program",
+      "benefits_zh_CN": "消费满$250可享6个月免息（30天内在Latitude App启用）\n在合作零售商享长期分期免息计划\n其他消费最长55天免息期\n$69年费\n无持续奖励计划",
+      "benefits_zh_TW": "消費滿$250可享6個月免息（30天內在Latitude App啟用）\n在合作零售商享長期分期免息計劃\n其他消費最長55天免息期\n$69年費\n無持續獎勵計劃",
+      "aiRewards": {
+        "Everything": 0
+      }
+    },
+    {
+      "id": "latitude_low_rate",
+      "name": "Latitude Low Rate Mastercard",
+      "region": "AU",
+      "bank": "latitudefinancial.com.au",
+      "annualFee": 69,
+      "color": "#0A2540",
+      "image": null,
+      "benefits": "Low 13.99% p.a. ongoing purchase rate\n0% p.a. for 24 months on balance transfers (fee applies)\nUp to 55 days interest-free on purchases\n$69 annual fee\nNo ongoing rewards program",
+      "benefits_zh_CN": "持续较低13.99%年利率购物利率\n余额转账24个月0%年利率（收取手续费）\n消费最长55天免息期\n$69年费\n无持续奖励计划",
+      "benefits_zh_TW": "持續較低13.99%年利率購物利率\n餘額轉賬24個月0%年利率（收取手續費）\n消費最長55天免息期\n$69年費\n無持續獎勵計劃",
+      "aiRewards": {
+        "Everything": 0
+      }
+    },
+    {
+      "id": "westpac_altitude_qantas_black",
+      "name": "Westpac Altitude Qantas Black",
+      "region": "AU",
+      "bank": "westpac.com.au",
+      "annualFee": 370,
+      "color": "#1A1A1A",
+      "image": null,
+      "benefits": "Up to 1.2 Qantas Points per $1 on eligible purchases (capped per statement, then reduced rate)\n2 complimentary Qantas Club lounge invitations per year\nComplimentary international travel insurance\nUp to 45 days interest-free on purchases\n$370 annual fee ($295 card fee + $75 Qantas Rewards program fee)\n3% foreign transaction fee applies",
+      "benefits_zh_CN": "符合条件消费每消费1澳元最高获1.2个澳航积分（每结算周期有上限，之后降低费率）\n每年2次免费澳航俱乐部贵宾室邀请\n免费国际旅游保险\n消费最长45天免息期\n$370年费（$295卡费 + $75澳航奖励计划费）\n收取3%境外交易手续费",
+      "benefits_zh_TW": "符合條件消費每消費1澳元最高獲1.2個澳航積分（每結算週期有上限，之後降低費率）\n每年2次免費澳航俱樂部貴賓室邀請\n免費國際旅遊保險\n消費最長45天免息期\n$370年費（$295卡費 + $75澳航獎勵計劃費）\n收取3%境外交易手續費",
+      "aiRewards": {
+        "Everything": 1,
+        "Flights": 2
+      }
+    },
+    {
+      "id": "westpac_altitude_qantas_platinum",
+      "name": "Westpac Altitude Qantas Platinum",
+      "region": "AU",
+      "bank": "westpac.com.au",
+      "annualFee": 250,
+      "color": "#555555",
+      "image": null,
+      "benefits": "0.5 Qantas Points per $1 on everyday purchases; 0.75 per $1 on international spend\nComplimentary international travel insurance\nUp to 45 days interest-free on purchases\n$250 annual fee ($175 card fee + $75 Qantas Rewards program fee)\n3% foreign transaction fee applies",
+      "benefits_zh_CN": "日常消费每消费1澳元获0.5个澳航积分；境外消费每1澳元获0.75个\n免费国际旅游保险\n消费最长45天免息期\n$250年费（$175卡费 + $75澳航奖励计划费）\n收取3%境外交易手续费",
+      "benefits_zh_TW": "日常消費每消費1澳元獲0.5個澳航積分；境外消費每1澳元獲0.75個\n免費國際旅遊保險\n消費最長45天免息期\n$250年費（$175卡費 + $75澳航獎勵計劃費）\n收取3%境外交易手續費",
+      "aiRewards": {
+        "Everything": 0.5
+      }
+    },
+    {
+      "id": "amex_qantas_business",
+      "name": "American Express Qantas Business Rewards",
+      "region": "AU",
+      "bank": "americanexpress.com.au",
+      "annualFee": 450,
+      "color": "#4B4F54",
+      "image": null,
+      "benefits": "1.25 Qantas Points per $1 of everyday business spend (0.75 after 500,000 points per calendar year)\n2 Qantas Points per $1 spent directly with Qantas\n0.5 Qantas Points per $1 on utilities, government and insurance\nComplimentary domestic & international travel insurance\nNo pre-set spending limit\n$450 annual fee\nFor ABN-holding businesses",
+      "benefits_zh_CN": "日常商务消费每消费1澳元获1.25个澳航积分（每日历年累计超过500,000积分后为0.75）\n直接向澳航消费每1澳元获2个澳航积分\n水电、政府及保险类消费每1澳元获0.5个澳航积分\n免费国内及国际旅游保险\n无预设消费限额\n$450年费\n适用于持有ABN的企业",
+      "benefits_zh_TW": "日常商務消費每消費1澳元獲1.25個澳航積分（每日曆年累計超過500,000積分後為0.75）\n直接向澳航消費每1澳元獲2個澳航積分\n水電、政府及保險類消費每1澳元獲0.5個澳航積分\n免費國內及國際旅遊保險\n無預設消費限額\n$450年費\n適用於持有ABN的企業",
+      "aiRewards": {
+        "Everything": 1.3
+      }
+    },
+    {
+      "id": "commbank_neo",
+      "name": "CommBank Neo",
+      "region": "AU",
+      "bank": "commbank.com.au",
+      "annualFee": 180,
+      "color": "#1A1A1A",
+      "image": null,
+      "benefits": "No interest charged, ever\nNo late payment fees\nNo international transaction fees\nFixed monthly fee by credit limit: $15 ($1,000), $20 ($2,000), $25 ($3,000)\nMonthly fee waived in any period with no transactions and the previous balance paid in full\nNo points or rewards program",
+      "benefits_zh_CN": "永不收取利息\n无逾期还款费用\n无国际交易手续费\n按信用额度收取固定月费：$15（$1,000）、$20（$2,000）、$25（$3,000）\n任一周期无交易且上期账单已全额还清则豁免月费\n无积分或奖励计划",
+      "benefits_zh_TW": "永不收取利息\n無逾期還款費用\n無國際交易手續費\n按信用額度收取固定月費：$15（$1,000）、$20（$2,000）、$25（$3,000）\n任一週期無交易且上期賬單已全額還清則豁免月費\n無積分或獎勵計劃",
+      "aiRewards": {
+        "Everything": 0
+      }
+    },
+    {
+      "id": "pn_bank_visa_platinum",
+      "name": "P&N Bank Visa Platinum",
+      "region": "AU",
+      "bank": "pnbank.com.au",
+      "annualFee": 99,
+      "color": "#008752",
+      "image": null,
+      "benefits": "Low 11.99% p.a. ongoing purchase rate\nComplimentary Visa Platinum Concierge service\nComplimentary overseas travel insurance and purchase protection (Visa Platinum benefits)\nUp to 45 days interest-free on purchases\n$99 annual fee\nNo ongoing points program",
+      "benefits_zh_CN": "持续较低11.99%年利率购物利率\n免费Visa白金礼宾服务\n免费海外旅游保险及购物保障（Visa白金权益）\n消费最长45天免息期\n$99年费\n无持续积分计划",
+      "benefits_zh_TW": "持續較低11.99%年利率購物利率\n免費Visa白金禮賓服務\n免費海外旅遊保險及購物保障（Visa白金權益）\n消費最長45天免息期\n$99年費\n無持續積分計劃",
+      "aiRewards": {
+        "Everything": 0
+      }
+    },
+    {
+      "id": "qudos_visa_platinum",
+      "name": "Qudos Bank Visa Platinum",
+      "region": "AU",
+      "bank": "qudosbank.com.au",
+      "annualFee": 189,
+      "color": "#2A2A2A",
+      "image": null,
+      "benefits": "1 Qantas Point per $1 on eligible purchases (up to $2,500 per calendar month)\nComplimentary international travel insurance and purchase protection (Visa Platinum benefits)\n18.99% p.a. purchase rate\nUp to 55 days interest-free on purchases\n$189 annual fee",
+      "benefits_zh_CN": "符合条件消费每消费1澳元获1个澳航积分（每日历月最高$2,500）\n免费国际旅游保险及购物保障（Visa白金权益）\n18.99%年利率购物利率\n消费最长55天免息期\n$189年费",
+      "benefits_zh_TW": "符合條件消費每消費1澳元獲1個澳航積分（每日曆月最高$2,500）\n免費國際旅遊保險及購物保障（Visa白金權益）\n18.99%年利率購物利率\n消費最長55天免息期\n$189年費",
+      "aiRewards": {
+        "Everything": 0.7
+      }
+    },
+    {
+      "id": "qudos_lifestyle",
+      "name": "Qudos Bank Lifestyle",
+      "region": "AU",
+      "bank": "qudosbank.com.au",
+      "annualFee": 0,
+      "color": "#E4002B",
+      "image": null,
+      "benefits": "No annual fee\nLow 12.34% p.a. ongoing purchase rate\nNo points or rewards program\nUp to 55 days interest-free on purchases",
+      "benefits_zh_CN": "无年费\n持续较低12.34%年利率购物利率\n无积分或奖励计划\n消费最长55天免息期",
+      "benefits_zh_TW": "無年費\n持續較低12.34%年利率購物利率\n無積分或獎勵計劃\n消費最長55天免息期",
       "aiRewards": {
         "Everything": 0
       }
