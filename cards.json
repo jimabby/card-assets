@@ -1981,11 +1981,11 @@
       "annualFee": 0,
       "color": "#00529B",
       "image": null,
-      "benefits": "Up to 2.5% cash back (qualifying accounts, up to $10,000/mo)\nNo foreign transaction fees\nNo annual fee",
-      "benefits_zh_CN": "最高2.5%现金返还（需符合账户条件，每月最高$10,000）\n无境外交易手续费\n免年费",
-      "benefits_zh_TW": "最高2.5%現金回饋（需符合帳戶條件，每月最高$10,000）\n無國外交易手續費\n免年費",
+      "benefits": "1.5% unlimited cash back (2.5% tier ended Nov 2025)\nNo foreign transaction fees\nNo annual fee",
+      "benefits_zh_CN": "1.5%无上限现金返还（2.5%档于2025年11月取消）\n无境外交易手续费\n免年费",
+      "benefits_zh_TW": "1.5%無上限現金回饋（2.5%等級於2025年11月取消）\n無國外交易手續費\n免年費",
       "aiRewards": {
-        "Everything": 2.5
+        "Everything": 1.5
       }
     },
     {
@@ -3702,12 +3702,12 @@
       "annualFee": 99,
       "color": "#E4002B",
       "image": null,
-      "benefits": "4% on groceries\n2% on gas, pharmacy & bills\n1% everything else\nTravel insurance package",
-      "benefits_zh_CN": "杂货4%返现\n加油、药房及账单2%返现\n其他消费1%返现\n旅行保险套餐",
-      "benefits_zh_TW": "雜貨4%回饋\n加油、藥房及帳單2%回饋\n其他消費1%回饋\n旅遊保險套餐",
+      "benefits": "4% on gas & groceries\n2% on pharmacy & utility bills\n1% everything else (elevated rates up to $25,000/yr)\nTravel insurance package",
+      "benefits_zh_CN": "加油及杂货4%返现\n药房及水电账单2%返现\n其他消费1%返现（加倍回馈每年最高$25,000）\n旅行保险套餐",
+      "benefits_zh_TW": "加油及雜貨4%回饋\n藥房及水電帳單2%回饋\n其他消費1%回饋（加倍回饋每年最高$25,000）\n旅遊保險套餐",
       "aiRewards": {
         "Groceries": 4,
-        "Gas & Transit": 2,
+        "Gas & Transit": 4,
         "Everything": 1
       }
     },
