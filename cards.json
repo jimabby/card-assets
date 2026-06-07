@@ -2,7 +2,7 @@
   "schema": "pockyt-card-catalog-v1",
   "description": "Card catalog for the Pockyt / SpendingTracker app: details, benefits, AI reward valuations, and face image URLs.",
   "generated": "2026-06-07",
-  "count": 392,
+  "count": 600,
   "cards": [
     {
       "id": "chase_sapphire_preferred",
@@ -1875,6 +1875,722 @@
       }
     },
     {
+      "id": "target_redcard",
+      "name": "Target RedCard Credit Card",
+      "region": "US",
+      "bank": "target.com",
+      "annualFee": 0,
+      "color": "#CC0000",
+      "image": null,
+      "benefits": "5% off at Target & Target.com\nFree 2-day shipping\nExtra 30 days for returns\nNo annual fee",
+      "benefits_zh_CN": "Target及Target.com消费95折\n免费两日送达\n额外30天退货期\n免年费",
+      "benefits_zh_TW": "Target及Target.com消費95折\n免費兩日送達\n額外30天退貨期\n免年費",
+      "aiRewards": {
+        "Shopping": 5,
+        "Everything": 0
+      }
+    },
+    {
+      "id": "navy_federal_cashrewards",
+      "name": "Navy Federal cashRewards Card",
+      "region": "US",
+      "bank": "navyfederal.org",
+      "annualFee": 0,
+      "color": "#003366",
+      "image": null,
+      "benefits": "1.75% cash back (with direct deposit) or 1.5%\nNo foreign transaction fees\nNo annual fee",
+      "benefits_zh_CN": "1.75%现金返还（需直存）或1.5%\n无境外交易手续费\n免年费",
+      "benefits_zh_TW": "1.75%現金回饋（需直存）或1.5%\n無國外交易手續費\n免年費",
+      "aiRewards": {
+        "Everything": 1.75
+      }
+    },
+    {
+      "id": "usaa_cashback_rewards_plus",
+      "name": "USAA Cashback Rewards Plus American Express",
+      "region": "US",
+      "bank": "usaa.com",
+      "annualFee": 0,
+      "color": "#003B5C",
+      "image": null,
+      "benefits": "5% on gas & military base purchases (up to $3,000/yr)\n2% on groceries\n1% everything else\nNo annual fee",
+      "benefits_zh_CN": "加油及军事基地消费5%返现（每年最高$3,000）\n杂货2%返现\n其他消费1%返现\n免年费",
+      "benefits_zh_TW": "加油及軍事基地消費5%回饋（每年最高$3,000）\n雜貨2%回饋\n其他消費1%回饋\n免年費",
+      "aiRewards": {
+        "Gas & Transit": 5,
+        "Groceries": 2,
+        "Everything": 1
+      }
+    },
+    {
+      "id": "samsclub_mastercard",
+      "name": "Sam's Club Mastercard",
+      "region": "US",
+      "bank": "samsclub.com",
+      "annualFee": 0,
+      "color": "#0067A0",
+      "image": null,
+      "benefits": "5% on gas (up to $6,000/yr, then 1%)\n3% on dining & travel\n1% everything else\nNo annual fee (Sam’s Club membership required)",
+      "benefits_zh_CN": "加油5%返现（每年最高$6,000，之后1%）\n餐饮及旅行3%返现\n其他消费1%返现\n免年费（需Sam’s Club会员）",
+      "benefits_zh_TW": "加油5%回饋（每年最高$6,000，之後1%）\n餐飲及旅遊3%回饋\n其他消費1%回饋\n免年費（需Sam’s Club會員）",
+      "aiRewards": {
+        "Gas & Transit": 5,
+        "Food & Dining": 3,
+        "Travel": 3,
+        "Everything": 1
+      }
+    },
+    {
+      "id": "pnc_cash_rewards",
+      "name": "PNC Cash Rewards Visa",
+      "region": "US",
+      "bank": "pnc.com",
+      "annualFee": 0,
+      "color": "#F58025",
+      "image": null,
+      "benefits": "4% on gas\n3% on dining\n2% on groceries\n1% everything else\nNo annual fee",
+      "benefits_zh_CN": "加油4%返现\n餐饮3%返现\n杂货2%返现\n其他消费1%返现\n免年费",
+      "benefits_zh_TW": "加油4%回饋\n餐飲3%回饋\n雜貨2%回饋\n其他消費1%回饋\n免年費",
+      "aiRewards": {
+        "Gas & Transit": 4,
+        "Food & Dining": 3,
+        "Groceries": 2,
+        "Everything": 1
+      }
+    },
+    {
+      "id": "td_double_up",
+      "name": "TD Double Up Credit Card",
+      "region": "US",
+      "bank": "tdbank.com",
+      "annualFee": 0,
+      "color": "#54B848",
+      "image": null,
+      "benefits": "2% cash back on all purchases\nNo category limits\nNo annual fee",
+      "benefits_zh_CN": "所有消费2%现金返还\n无消费类别限制\n免年费",
+      "benefits_zh_TW": "所有消費2%現金回饋\n無消費類別限制\n免年費",
+      "aiRewards": {
+        "Everything": 2
+      }
+    },
+    {
+      "id": "alliant_cashback_visa",
+      "name": "Alliant Cashback Visa Signature",
+      "region": "US",
+      "bank": "alliantcreditunion.org",
+      "annualFee": 0,
+      "color": "#00529B",
+      "image": null,
+      "benefits": "Up to 2.5% cash back (qualifying accounts, up to $10,000/mo)\nNo foreign transaction fees\nNo annual fee",
+      "benefits_zh_CN": "最高2.5%现金返还（需符合账户条件，每月最高$10,000）\n无境外交易手续费\n免年费",
+      "benefits_zh_TW": "最高2.5%現金回饋（需符合帳戶條件，每月最高$10,000）\n無國外交易手續費\n免年費",
+      "aiRewards": {
+        "Everything": 2.5
+      }
+    },
+    {
+      "id": "citizens_cash_back_plus",
+      "name": "Citizens Cash Back Plus World Mastercard",
+      "region": "US",
+      "bank": "citizensbank.com",
+      "annualFee": 0,
+      "color": "#008555",
+      "image": null,
+      "benefits": "1.8% unlimited cash back on all purchases\nNo annual fee",
+      "benefits_zh_CN": "所有消费1.8%无上限现金返还\n免年费",
+      "benefits_zh_TW": "所有消費1.8%無上限現金回饋\n免年費",
+      "aiRewards": {
+        "Everything": 1.8
+      }
+    },
+    {
+      "id": "chase_aeroplan_us",
+      "name": "Chase Aeroplan Card",
+      "region": "US",
+      "bank": "chase.com",
+      "annualFee": 95,
+      "color": "#E01933",
+      "image": null,
+      "benefits": "3x Aeroplan on dining, takeout & Air Canada\n1x everything else\nFree first checked bag\n25K elite status qualifying boost",
+      "benefits_zh_CN": "餐饮、外卖及Air Canada消费3倍Aeroplan积分\n其他消费1倍积分\n首件托运行李免费\n25K精英会员资格加成",
+      "benefits_zh_TW": "餐飲、外送及Air Canada消費3倍Aeroplan積分\n其他消費1倍積分\n首件託運行李免費\n25K菁英會員資格加成",
+      "aiRewards": {
+        "Food & Dining": 5.1,
+        "Flights": 5.1,
+        "Everything": 1.7
+      }
+    },
+    {
+      "id": "chase_united_business",
+      "name": "United Business Card",
+      "region": "US",
+      "bank": "chase.com",
+      "annualFee": 99,
+      "color": "#005DAA",
+      "image": null,
+      "benefits": "2x United\n2x dining, gas & office supplies\n1x everything else\nFree first checked bag\n5,000 anniversary miles",
+      "benefits_zh_CN": "United消费2倍积分\n餐饮、加油及办公用品2倍积分\n其他消费1倍积分\n首件托运行李免费\n5,000周年里程",
+      "benefits_zh_TW": "United消費2倍積分\n餐飲、加油及辦公用品2倍積分\n其他消費1倍積分\n首件託運行李免費\n5,000週年里程",
+      "aiRewards": {
+        "Flights": 3.4,
+        "Food & Dining": 3.4,
+        "Gas & Transit": 3.4,
+        "Everything": 1.7
+      }
+    },
+    {
+      "id": "chase_hyatt_business",
+      "name": "World of Hyatt Business Card",
+      "region": "US",
+      "bank": "chase.com",
+      "annualFee": 199,
+      "color": "#5C2D91",
+      "image": null,
+      "benefits": "4x Hyatt\n2x dining, airline, transit & fitness\n1x everything else\n5 tier-qualifying night credits",
+      "benefits_zh_CN": "Hyatt消费4倍积分\n餐饮、航空、交通及健身2倍积分\n其他消费1倍积分\n5晚资格夜数",
+      "benefits_zh_TW": "Hyatt消費4倍積分\n餐飲、航空、交通及健身2倍積分\n其他消費1倍積分\n5晚資格夜數",
+      "aiRewards": {
+        "Hotels": 6.8,
+        "Food & Dining": 3.4,
+        "Flights": 3.4,
+        "Everything": 1.7
+      }
+    },
+    {
+      "id": "chase_disney_premier",
+      "name": "Disney Premier Visa Card",
+      "region": "US",
+      "bank": "chase.com",
+      "annualFee": 49,
+      "color": "#1C2D6B",
+      "image": null,
+      "benefits": "5% on Disney+, Hulu & ESPN+\n2% on Disney, gas, groceries & dining\n1% everything else",
+      "benefits_zh_CN": "Disney+、Hulu及ESPN+ 5%返现\nDisney、加油、杂货及餐饮2%返现\n其他消费1%返现",
+      "benefits_zh_TW": "Disney+、Hulu及ESPN+ 5%回饋\nDisney、加油、雜貨及餐飲2%回饋\n其他消費1%回饋",
+      "aiRewards": {
+        "Entertainment": 5,
+        "Groceries": 2,
+        "Gas & Transit": 2,
+        "Food & Dining": 2,
+        "Everything": 1
+      }
+    },
+    {
+      "id": "chase_instacart",
+      "name": "Instacart Mastercard",
+      "region": "US",
+      "bank": "chase.com",
+      "annualFee": 0,
+      "color": "#43B02A",
+      "image": null,
+      "benefits": "5% on Instacart & Chase Travel\n2% on gas, dining & streaming\n1% everything else\nFree Instacart+ membership",
+      "benefits_zh_CN": "Instacart及Chase旅行5%返现\n加油、餐饮及流媒体2%返现\n其他消费1%返现\n免费Instacart+会员",
+      "benefits_zh_TW": "Instacart及Chase Travel 5%回饋\n加油、餐飲及串流媒體2%回饋\n其他消費1%回饋\n免費Instacart+會員",
+      "aiRewards": {
+        "Groceries": 5,
+        "Travel": 5,
+        "Gas & Transit": 2,
+        "Food & Dining": 2,
+        "Everything": 1
+      }
+    },
+    {
+      "id": "chase_doordash",
+      "name": "DoorDash Rewards Mastercard",
+      "region": "US",
+      "bank": "chase.com",
+      "annualFee": 0,
+      "color": "#EB1700",
+      "image": null,
+      "benefits": "4% on DoorDash & Caviar\n3% on dining\n2% on groceries\n1% everything else\nComplimentary DashPass",
+      "benefits_zh_CN": "DoorDash及Caviar 4%返现\n餐饮3%返现\n杂货2%返现\n其他消费1%返现\n免费DashPass",
+      "benefits_zh_TW": "DoorDash及Caviar 4%回饋\n餐飲3%回饋\n雜貨2%回饋\n其他消費1%回饋\n免費DashPass",
+      "aiRewards": {
+        "Food & Dining": 4,
+        "Groceries": 2,
+        "Everything": 1
+      }
+    },
+    {
+      "id": "amex_schwab_platinum",
+      "name": "American Express Platinum Card for Schwab",
+      "region": "US",
+      "bank": "americanexpress.com",
+      "annualFee": 695,
+      "color": "#E5E4E2",
+      "image": null,
+      "benefits": "5x flights & prepaid hotels (Amex Travel)\nGlobal Lounge Collection access\nRedeem points into Schwab brokerage account\n$695 annual fee",
+      "benefits_zh_CN": "机票及预付酒店5倍积分（Amex旅行）\n全球贵宾厅访问权\n积分可转入嘉信理财账户\n年费$695",
+      "benefits_zh_TW": "機票及預付飯店5倍積分（Amex Travel）\n全球貴賓室使用權\n積分可轉入嘉信理財帳戶\n年費$695",
+      "aiRewards": {
+        "Flights": 5.5,
+        "Hotels": 5.5,
+        "Everything": 1.1
+      }
+    },
+    {
+      "id": "amex_morgan_stanley_platinum",
+      "name": "Morgan Stanley American Express Platinum",
+      "region": "US",
+      "bank": "americanexpress.com",
+      "annualFee": 695,
+      "color": "#D0D0D0",
+      "image": null,
+      "benefits": "5x flights & prepaid hotels (Amex Travel)\nGlobal Lounge Collection access\n$695 annual fee (waived with eligible MS account)\nEngagement bonus",
+      "benefits_zh_CN": "机票及预付酒店5倍积分（Amex旅行）\n全球贵宾厅访问权\n年费$695（符合条件的摩根士丹利账户可豁免）\n参与奖励",
+      "benefits_zh_TW": "機票及預付飯店5倍積分（Amex Travel）\n全球貴賓室使用權\n年費$695（符合條件的摩根士丹利帳戶可豁免）\n參與獎勵",
+      "aiRewards": {
+        "Flights": 5.5,
+        "Hotels": 5.5,
+        "Everything": 1.1
+      }
+    },
+    {
+      "id": "capital_one_spark_cash_select",
+      "name": "Capital One Spark Cash Select",
+      "region": "US",
+      "bank": "capitalone.com",
+      "annualFee": 0,
+      "color": "#004977",
+      "image": null,
+      "benefits": "1.5% unlimited cash back on all business purchases\n5% on hotels & rental cars (Capital One Travel)\nNo annual fee",
+      "benefits_zh_CN": "所有商务消费1.5%无上限返现\n酒店及租车5%返现（Capital One旅行）\n免年费",
+      "benefits_zh_TW": "所有商務消費1.5%無上限回饋\n飯店及租車5%回饋（Capital One Travel）\n免年費",
+      "aiRewards": {
+        "Hotels": 5,
+        "Car Rental": 5,
+        "Everything": 1.5
+      }
+    },
+    {
+      "id": "capital_one_quicksilver_student",
+      "name": "Capital One Quicksilver Student",
+      "region": "US",
+      "bank": "capitalone.com",
+      "annualFee": 0,
+      "color": "#A8A9AD",
+      "image": null,
+      "benefits": "1.5% unlimited cash back\n5% on hotels & rental cars (Capital One Travel)\nNo foreign transaction fees\nNo annual fee",
+      "benefits_zh_CN": "1.5%无上限现金返还\n酒店及租车5%返现（Capital One旅行）\n无境外交易手续费\n免年费",
+      "benefits_zh_TW": "1.5%無上限現金回饋\n飯店及租車5%回饋（Capital One Travel）\n無國外交易手續費\n免年費",
+      "aiRewards": {
+        "Hotels": 5,
+        "Car Rental": 5,
+        "Everything": 1.5
+      }
+    },
+    {
+      "id": "barclays_jetblue",
+      "name": "JetBlue Card",
+      "region": "US",
+      "bank": "barclaysus.com",
+      "annualFee": 0,
+      "color": "#003876",
+      "image": null,
+      "benefits": "3x JetBlue\n2x dining & groceries\n1x everything else\n50% inflight savings\nNo annual fee",
+      "benefits_zh_CN": "JetBlue消费3倍积分\n餐饮及杂货2倍积分\n其他消费1倍积分\n机上消费5折\n免年费",
+      "benefits_zh_TW": "JetBlue消費3倍積分\n餐飲及雜貨2倍積分\n其他消費1倍積分\n機上消費5折\n免年費",
+      "aiRewards": {
+        "Flights": 5.1,
+        "Food & Dining": 3.4,
+        "Groceries": 3.4,
+        "Everything": 1.7
+      }
+    },
+    {
+      "id": "barclays_hawaiian",
+      "name": "Hawaiian Airlines World Elite Mastercard",
+      "region": "US",
+      "bank": "barclaysus.com",
+      "annualFee": 99,
+      "color": "#4F2D7F",
+      "image": null,
+      "benefits": "3x Hawaiian Airlines\n2x dining, gas & groceries\n1x everything else\nFree first checked bag",
+      "benefits_zh_CN": "Hawaiian Airlines消费3倍里程\n餐饮、加油及杂货2倍里程\n其他消费1倍里程\n首件托运行李免费",
+      "benefits_zh_TW": "Hawaiian Airlines消費3倍里程\n餐飲、加油及雜貨2倍里程\n其他消費1倍里程\n首件託運行李免費",
+      "aiRewards": {
+        "Flights": 3,
+        "Food & Dining": 2,
+        "Gas & Transit": 2,
+        "Groceries": 2,
+        "Everything": 1
+      }
+    },
+    {
+      "id": "barclays_frontier",
+      "name": "Frontier Airlines World Mastercard",
+      "region": "US",
+      "bank": "barclaysus.com",
+      "annualFee": 89,
+      "color": "#00843D",
+      "image": null,
+      "benefits": "5x Frontier (flyfrontier.com)\n3x restaurants\n1x everything else\nElite status & redemption perks",
+      "benefits_zh_CN": "Frontier官网消费5倍里程\n餐厅3倍里程\n其他消费1倍里程\n精英会员及兑换权益",
+      "benefits_zh_TW": "Frontier官網消費5倍里程\n餐廳3倍里程\n其他消費1倍里程\n菁英會員及兌換權益",
+      "aiRewards": {
+        "Flights": 5,
+        "Food & Dining": 3,
+        "Everything": 1
+      }
+    },
+    {
+      "id": "citi_aadvantage_business",
+      "name": "CitiBusiness AAdvantage Platinum Select",
+      "region": "US",
+      "bank": "citi.com",
+      "annualFee": 99,
+      "color": "#C8102E",
+      "image": null,
+      "benefits": "2x American Airlines\n2x telecom, gas & car rental\n1x everything else\nFree first checked bag",
+      "benefits_zh_CN": "American Airlines消费2倍里程\n电信、加油及租车2倍里程\n其他消费1倍里程\n首件托运行李免费",
+      "benefits_zh_TW": "American Airlines消費2倍里程\n電信、加油及租車2倍里程\n其他消費1倍里程\n首件託運行李免費",
+      "aiRewards": {
+        "Flights": 2.8,
+        "Gas & Transit": 2.8,
+        "Everything": 1.4
+      }
+    },
+    {
+      "id": "synchrony_carecredit",
+      "name": "CareCredit Card",
+      "region": "US",
+      "bank": "synchrony.com",
+      "annualFee": 0,
+      "color": "#00A94F",
+      "image": null,
+      "benefits": "Promotional financing for health & wellness\nAccepted at 260,000+ providers\nNo interest if paid within promo period\nNo annual fee",
+      "benefits_zh_CN": "健康及医疗消费分期优惠\n超过260,000家服务商受理\n促销期内付清免利息\n免年费",
+      "benefits_zh_TW": "健康及醫療消費分期優惠\n超過260,000家服務商受理\n促銷期內付清免利息\n免年費",
+      "aiRewards": {
+        "Everything": 0
+      }
+    },
+    {
+      "id": "amex_everyday_preferred",
+      "name": "American Express EveryDay Preferred",
+      "region": "US",
+      "bank": "americanexpress.com",
+      "annualFee": 95,
+      "color": "#6699CC",
+      "image": null,
+      "benefits": "3x at US supermarkets (up to $6,000/yr)\n2x at US gas stations\n1x everything else\n50% bonus points with 30+ transactions/month",
+      "benefits_zh_CN": "美国超市3倍积分（每年最高$6,000）\n美国加油站2倍积分\n其他消费1倍积分\n每月30笔以上消费额外50%积分",
+      "benefits_zh_TW": "美國超市3倍積分（每年最高$6,000）\n美國加油站2倍積分\n其他消費1倍積分\n每月30筆以上消費額外50%積分",
+      "aiRewards": {
+        "Groceries": 4.5,
+        "Gas & Transit": 3,
+        "Everything": 1.5
+      }
+    },
+    {
+      "id": "amex_cash_magnet",
+      "name": "American Express Cash Magnet Card",
+      "region": "US",
+      "bank": "americanexpress.com",
+      "annualFee": 0,
+      "color": "#4B6CB7",
+      "image": null,
+      "benefits": "1.5% unlimited cash back on all purchases\nNo annual fee\nIntro 0% APR offer",
+      "benefits_zh_CN": "所有消费1.5%无上限现金返还\n免年费\n首期0%优惠年利率",
+      "benefits_zh_TW": "所有消費1.5%無上限現金回饋\n免年費\n首期0%優惠年利率",
+      "aiRewards": {
+        "Everything": 1.5
+      }
+    },
+    {
+      "id": "amex_business_green",
+      "name": "American Express Business Green Rewards",
+      "region": "US",
+      "bank": "americanexpress.com",
+      "annualFee": 95,
+      "color": "#2E7D32",
+      "image": null,
+      "benefits": "2x on travel booked via Amex Travel\n1x everything else\nExpanded buying power\nBusiness expense tools",
+      "benefits_zh_CN": "通过Amex旅行预订2倍积分\n其他消费1倍积分\n弹性消费额度\n商务费用管理工具",
+      "benefits_zh_TW": "透過Amex Travel預訂2倍積分\n其他消費1倍積分\n彈性消費額度\n商務費用管理工具",
+      "aiRewards": {
+        "Travel": 2,
+        "Everything": 1
+      }
+    },
+    {
+      "id": "discover_it_chrome",
+      "name": "Discover it Chrome",
+      "region": "US",
+      "bank": "discover.com",
+      "annualFee": 0,
+      "color": "#E86100",
+      "image": null,
+      "benefits": "2% at gas stations & restaurants (up to $1,000/qtr)\n1% everything else\nCashback Match first year\nNo annual fee",
+      "benefits_zh_CN": "加油站及餐厅2%返现（每季最高$1,000）\n其他消费1%返现\n首年现金返还加倍\n免年费",
+      "benefits_zh_TW": "加油站及餐廳2%回饋（每季最高$1,000）\n其他消費1%回饋\n首年現金回饋加倍\n免年費",
+      "aiRewards": {
+        "Gas & Transit": 2,
+        "Food & Dining": 2,
+        "Everything": 1
+      }
+    },
+    {
+      "id": "discover_it_secured",
+      "name": "Discover it Secured",
+      "region": "US",
+      "bank": "discover.com",
+      "annualFee": 0,
+      "color": "#F47216",
+      "image": null,
+      "benefits": "2% at gas stations & restaurants (up to $1,000/qtr)\n1% everything else\nCredit-building with security deposit\nNo annual fee",
+      "benefits_zh_CN": "加油站及餐厅2%返现（每季最高$1,000）\n其他消费1%返现\n以押金建立信用\n免年费",
+      "benefits_zh_TW": "加油站及餐廳2%回饋（每季最高$1,000）\n其他消費1%回饋\n以押金建立信用\n免年費",
+      "aiRewards": {
+        "Gas & Transit": 2,
+        "Food & Dining": 2,
+        "Everything": 1
+      }
+    },
+    {
+      "id": "citi_simplicity",
+      "name": "Citi Simplicity Card",
+      "region": "US",
+      "bank": "citi.com",
+      "annualFee": 0,
+      "color": "#003B70",
+      "image": null,
+      "benefits": "Long 0% intro APR on balance transfers\nNo late fees\nNo penalty rate\nNo annual fee",
+      "benefits_zh_CN": "余额代偿超长0%优惠年利率\n无逾期费\n无罚息利率\n免年费",
+      "benefits_zh_TW": "餘額代償超長0%優惠年利率\n無逾期費\n無罰息利率\n免年費",
+      "aiRewards": {
+        "Everything": 0
+      }
+    },
+    {
+      "id": "citi_diamond_preferred",
+      "name": "Citi Diamond Preferred Card",
+      "region": "US",
+      "bank": "citi.com",
+      "annualFee": 0,
+      "color": "#1B2A4A",
+      "image": null,
+      "benefits": "Long 0% intro APR on balance transfers & purchases\nCiti Entertainment access\nNo annual fee",
+      "benefits_zh_CN": "余额代偿及购物超长0%优惠年利率\nCiti Entertainment权益\n免年费",
+      "benefits_zh_TW": "餘額代償及購物超長0%優惠年利率\nCiti Entertainment權益\n免年費",
+      "aiRewards": {
+        "Everything": 0
+      }
+    },
+    {
+      "id": "wells_fargo_one_key",
+      "name": "One Key+ Card",
+      "region": "US",
+      "bank": "wellsfargo.com",
+      "annualFee": 0,
+      "color": "#FFC72C",
+      "image": null,
+      "benefits": "5% on Expedia, Hotels.com & Vrbo\n3% on dining & groceries\n1% everything else\nOneKeyCash rewards",
+      "benefits_zh_CN": "Expedia、Hotels.com及Vrbo 5%返现\n餐饮及杂货3%返现\n其他消费1%返现\nOneKeyCash奖励",
+      "benefits_zh_TW": "Expedia、Hotels.com及Vrbo 5%回饋\n餐飲及雜貨3%回饋\n其他消費1%回饋\nOneKeyCash獎勵",
+      "aiRewards": {
+        "Travel": 5,
+        "Food & Dining": 3,
+        "Groceries": 3,
+        "Everything": 1
+      }
+    },
+    {
+      "id": "capital_one_venture_x_business",
+      "name": "Capital One Venture X Business",
+      "region": "US",
+      "bank": "capitalone.com",
+      "annualFee": 395,
+      "color": "#13294B",
+      "image": null,
+      "benefits": "2x miles on all purchases\n5x flights & 10x hotels (Capital One Travel)\n$300 annual travel credit\nLounge access",
+      "benefits_zh_CN": "所有消费2倍里程\n机票5倍、酒店10倍里程（Capital One旅行）\n每年$300旅行返现\n贵宾厅使用权",
+      "benefits_zh_TW": "所有消費2倍里程\n機票5倍、飯店10倍里程（Capital One Travel）\n每年$300旅遊抵扣\n貴賓室使用權",
+      "aiRewards": {
+        "Travel": 10,
+        "Flights": 5,
+        "Everything": 2
+      }
+    },
+    {
+      "id": "upgrade_cash_rewards",
+      "name": "Upgrade Cash Rewards Card",
+      "region": "US",
+      "bank": "upgrade.com",
+      "annualFee": 0,
+      "color": "#1F3A5F",
+      "image": null,
+      "benefits": "1.5% cash back on payments\nFixed-rate installment payments\nNo annual fee\nNo fees",
+      "benefits_zh_CN": "还款后1.5%现金返还\n固定利率分期还款\n免年费\n无手续费",
+      "benefits_zh_TW": "還款後1.5%現金回饋\n固定利率分期還款\n免年費\n無手續費",
+      "aiRewards": {
+        "Everything": 1.5
+      }
+    },
+    {
+      "id": "petal_2",
+      "name": "Petal 2 Visa Credit Card",
+      "region": "US",
+      "bank": "petalcard.com",
+      "annualFee": 0,
+      "color": "#6C5CE7",
+      "image": null,
+      "benefits": "1% cash back, up to 1.5% with on-time payments\nNo fees of any kind\nCredit-building with cash flow underwriting",
+      "benefits_zh_CN": "1%现金返还，准时还款最高1.5%\n零任何费用\n以现金流核卡建立信用",
+      "benefits_zh_TW": "1%現金回饋，準時還款最高1.5%\n零任何費用\n以現金流核卡建立信用",
+      "aiRewards": {
+        "Everything": 1.5
+      }
+    },
+    {
+      "id": "navy_federal_more_rewards_amex",
+      "name": "Navy Federal More Rewards American Express",
+      "region": "US",
+      "bank": "navyfederal.org",
+      "annualFee": 0,
+      "color": "#002B5C",
+      "image": null,
+      "benefits": "3x on groceries, gas, transit, dining & streaming\n1x everything else\nNo foreign transaction fees\nNo annual fee",
+      "benefits_zh_CN": "杂货、加油、交通、餐饮及流媒体3倍积分\n其他消费1倍积分\n无境外交易手续费\n免年费",
+      "benefits_zh_TW": "雜貨、加油、交通、餐飲及串流3倍積分\n其他消費1倍積分\n無國外交易手續費\n免年費",
+      "aiRewards": {
+        "Groceries": 3,
+        "Gas & Transit": 3,
+        "Food & Dining": 3,
+        "Everything": 1
+      }
+    },
+    {
+      "id": "navy_federal_go_rewards",
+      "name": "Navy Federal GO Rewards Card",
+      "region": "US",
+      "bank": "navyfederal.org",
+      "annualFee": 0,
+      "color": "#003B73",
+      "image": null,
+      "benefits": "3x on dining\n2x on gas\n1x everything else\nNo foreign transaction fees\nNo annual fee",
+      "benefits_zh_CN": "餐饮3倍积分\n加油2倍积分\n其他消费1倍积分\n无境外交易手续费\n免年费",
+      "benefits_zh_TW": "餐飲3倍積分\n加油2倍積分\n其他消費1倍積分\n無國外交易手續費\n免年費",
+      "aiRewards": {
+        "Food & Dining": 3,
+        "Gas & Transit": 2,
+        "Everything": 1
+      }
+    },
+    {
+      "id": "penfed_pathfinder",
+      "name": "PenFed Pathfinder Rewards American Express",
+      "region": "US",
+      "bank": "penfed.org",
+      "annualFee": 95,
+      "color": "#00467F",
+      "image": null,
+      "benefits": "4x travel (with checking) / 3x otherwise\n1.5x everything else\n$100 airline credit\nNo foreign transaction fees",
+      "benefits_zh_CN": "旅行4倍积分（需支票账户）/否则3倍\n其他消费1.5倍积分\n$100航空返现\n无境外交易手续费",
+      "benefits_zh_TW": "旅遊4倍積分（需支票帳戶）/否則3倍\n其他消費1.5倍積分\n$100航空抵扣\n無國外交易手續費",
+      "aiRewards": {
+        "Travel": 4,
+        "Everything": 1.5
+      }
+    },
+    {
+      "id": "penfed_platinum_rewards",
+      "name": "PenFed Platinum Rewards Visa Signature",
+      "region": "US",
+      "bank": "penfed.org",
+      "annualFee": 0,
+      "color": "#005DAA",
+      "image": null,
+      "benefits": "5x on gas at the pump\n3x on groceries\n1x everything else\nNo annual fee",
+      "benefits_zh_CN": "加油站5倍积分\n杂货3倍积分\n其他消费1倍积分\n免年费",
+      "benefits_zh_TW": "加油站5倍積分\n雜貨3倍積分\n其他消費1倍積分\n免年費",
+      "aiRewards": {
+        "Gas & Transit": 5,
+        "Groceries": 3,
+        "Everything": 1
+      }
+    },
+    {
+      "id": "usaa_preferred_cash_rewards",
+      "name": "USAA Preferred Cash Rewards Visa Signature",
+      "region": "US",
+      "bank": "usaa.com",
+      "annualFee": 0,
+      "color": "#13294B",
+      "image": null,
+      "benefits": "1.5% cash back on all purchases\nNo annual fee\nMilitary-focused service",
+      "benefits_zh_CN": "所有消费1.5%现金返还\n免年费\n服务军人及家属",
+      "benefits_zh_TW": "所有消費1.5%現金回饋\n免年費\n服務軍人及家屬",
+      "aiRewards": {
+        "Everything": 1.5
+      }
+    },
+    {
+      "id": "truist_enjoy_cash",
+      "name": "Truist Enjoy Cash Credit Card",
+      "region": "US",
+      "bank": "truist.com",
+      "annualFee": 0,
+      "color": "#5B2C86",
+      "image": null,
+      "benefits": "3% on gas (capped)\n2% on utilities & groceries\n1% everything else\nNo annual fee",
+      "benefits_zh_CN": "加油3%返现（有上限）\n水电及杂货2%返现\n其他消费1%返现\n免年费",
+      "benefits_zh_TW": "加油3%回饋（有上限）\n水電及雜貨2%回饋\n其他消費1%回饋\n免年費",
+      "aiRewards": {
+        "Gas & Transit": 3,
+        "Groceries": 2,
+        "Everything": 1
+      }
+    },
+    {
+      "id": "fifth_third_cash_back",
+      "name": "Fifth Third Cash/Back Card",
+      "region": "US",
+      "bank": "53.com",
+      "annualFee": 0,
+      "color": "#00833E",
+      "image": null,
+      "benefits": "1.67% unlimited cash back on all purchases\nNo annual fee\nIntro 0% APR offer",
+      "benefits_zh_CN": "所有消费1.67%无上限现金返还\n免年费\n首期0%优惠年利率",
+      "benefits_zh_TW": "所有消費1.67%無上限現金回饋\n免年費\n首期0%優惠年利率",
+      "aiRewards": {
+        "Everything": 1.67
+      }
+    },
+    {
+      "id": "huntington_voice",
+      "name": "Huntington Voice Rewards Card",
+      "region": "US",
+      "bank": "huntington.com",
+      "annualFee": 0,
+      "color": "#00833E",
+      "image": null,
+      "benefits": "3% on a category you choose (up to $2,000/qtr)\n1% everything else\nNo annual fee",
+      "benefits_zh_CN": "自选类别3%返现（每季最高$2,000）\n其他消费1%返现\n免年费",
+      "benefits_zh_TW": "自選類別3%回饋（每季最高$2,000）\n其他消費1%回饋\n免年費",
+      "aiRewards": {
+        "Shopping": 3,
+        "Everything": 1
+      }
+    },
+    {
+      "id": "td_cash_us",
+      "name": "TD Cash Credit Card",
+      "region": "US",
+      "bank": "tdbank.com",
+      "annualFee": 0,
+      "color": "#54B848",
+      "image": null,
+      "benefits": "3% on dining\n2% on groceries\n1% everything else\nNo annual fee",
+      "benefits_zh_CN": "餐饮3%返现\n杂货2%返现\n其他消费1%返现\n免年费",
+      "benefits_zh_TW": "餐飲3%回饋\n雜貨2%回饋\n其他消費1%回饋\n免年費",
+      "aiRewards": {
+        "Food & Dining": 3,
+        "Groceries": 2,
+        "Everything": 1
+      }
+    },
+    {
       "id": "rbc_avion_visa_infinite",
       "name": "RBC Avion Visa Infinite",
       "region": "CA",
@@ -2892,6 +3608,637 @@
       "benefits_zh_TW": "每消費1加元獲1積分\n每年$100旅遊消費抵扣\nPriority Pass貴賓室使用權\n綜合商業保險",
       "aiRewards": {
         "Everything": 1.5
+      }
+    },
+    {
+      "id": "amex_aeroplan_reserve_ca",
+      "name": "American Express Aeroplan Reserve Card",
+      "region": "CA",
+      "bank": "americanexpress.ca",
+      "annualFee": 599,
+      "color": "#2C2C2C",
+      "image": null,
+      "benefits": "3x Aeroplan on Air Canada\n2x dining & food delivery\n1.25x everything else\nMaple Leaf Lounge access\nAnnual companion pass\nNEXUS fee rebate\nFree first checked bag",
+      "benefits_zh_CN": "Air Canada消费3倍Aeroplan积分\n餐饮及外卖2倍积分\n其他消费1.25倍积分\n枫叶贵宾厅使用权\n每年同行优惠机票\nNEXUS费用返还\n首件托运行李免费",
+      "benefits_zh_TW": "Air Canada消費3倍Aeroplan積分\n餐飲及外送2倍積分\n其他消費1.25倍積分\n楓葉貴賓室使用權\n每年同行優惠機票\nNEXUS費用補貼\n首件託運行李免費",
+      "aiRewards": {
+        "Flights": 5.1,
+        "Food & Dining": 3.4,
+        "Everything": 2.1
+      }
+    },
+    {
+      "id": "amex_aeroplan_ca",
+      "name": "American Express Aeroplan Card",
+      "region": "CA",
+      "bank": "americanexpress.ca",
+      "annualFee": 120,
+      "color": "#1D6AC4",
+      "image": null,
+      "benefits": "1.5x Aeroplan on Air Canada & eligible groceries\n1x everything else\nFree first checked bag\nTravel insurance\n2.5% foreign transaction fee",
+      "benefits_zh_CN": "Air Canada及指定杂货1.5倍Aeroplan积分\n其他消费1倍积分\n首件托运行李免费\n旅行保险\n2.5%境外交易手续费",
+      "benefits_zh_TW": "Air Canada及指定雜貨1.5倍Aeroplan積分\n其他消費1倍積分\n首件託運行李免費\n旅遊保險\n2.5%國外交易手續費",
+      "aiRewards": {
+        "Flights": 2.55,
+        "Groceries": 2.55,
+        "Everything": 1.7
+      }
+    },
+    {
+      "id": "manulife_money_plus_visa_infinite",
+      "name": "ManulifeMONEY+ Visa Infinite",
+      "region": "CA",
+      "bank": "manulife.ca",
+      "annualFee": 139,
+      "color": "#00A758",
+      "image": null,
+      "benefits": "2% on gas, groceries, dining & recurring bills\n0.5% everything else\nMobile device insurance\nTravel insurance package\n2.5% foreign transaction fee",
+      "benefits_zh_CN": "加油、杂货、餐饮及定期账单2%返现\n其他消费0.5%返现\n移动设备保险\n旅行保险套餐\n2.5%境外交易手续费",
+      "benefits_zh_TW": "加油、雜貨、餐飲及定期帳單2%回饋\n其他消費0.5%回饋\n行動裝置保險\n旅遊保險套餐\n2.5%國外交易手續費",
+      "aiRewards": {
+        "Gas & Transit": 2,
+        "Groceries": 2,
+        "Food & Dining": 2,
+        "Everything": 0.5
+      }
+    },
+    {
+      "id": "home_trust_preferred_visa",
+      "name": "Home Trust Preferred Visa",
+      "region": "CA",
+      "bank": "hometrust.ca",
+      "annualFee": 0,
+      "color": "#003B5C",
+      "image": null,
+      "benefits": "1% cash back on eligible Canadian purchases\nNo foreign transaction fee (0%)\nNo annual fee\nRoadside assistance",
+      "benefits_zh_CN": "加拿大境内合资格消费1%返现\n无境外交易手续费（0%）\n免年费\n道路救援",
+      "benefits_zh_TW": "加拿大境內合資格消費1%回饋\n無國外交易手續費（0%）\n免年費\n道路救援",
+      "aiRewards": {
+        "Everything": 1
+      }
+    },
+    {
+      "id": "koho_card",
+      "name": "KOHO Card",
+      "region": "CA",
+      "bank": "koho.ca",
+      "annualFee": 0,
+      "color": "#5A3FFF",
+      "image": null,
+      "benefits": "1% cash back on groceries & transportation\nUp to 5% with paid plans\nLow 1.5% foreign exchange fee\nNo annual fee (free plan)",
+      "benefits_zh_CN": "杂货及交通1%返现\n付费计划最高5%\n低至1.5%外汇手续费\n免年费（免费计划）",
+      "benefits_zh_TW": "雜貨及交通1%回饋\n付費方案最高5%\n低至1.5%外匯手續費\n免年費（免費方案）",
+      "aiRewards": {
+        "Groceries": 1,
+        "Gas & Transit": 1,
+        "Everything": 0.5
+      }
+    },
+    {
+      "id": "meridian_visa_cash_back",
+      "name": "Meridian Visa Infinite Cash Back",
+      "region": "CA",
+      "bank": "meridiancu.ca",
+      "annualFee": 99,
+      "color": "#E4002B",
+      "image": null,
+      "benefits": "4% on groceries\n2% on gas, pharmacy & bills\n1% everything else\nTravel insurance package",
+      "benefits_zh_CN": "杂货4%返现\n加油、药房及账单2%返现\n其他消费1%返现\n旅行保险套餐",
+      "benefits_zh_TW": "雜貨4%回饋\n加油、藥房及帳單2%回饋\n其他消費1%回饋\n旅遊保險套餐",
+      "aiRewards": {
+        "Groceries": 4,
+        "Gas & Transit": 2,
+        "Everything": 1
+      }
+    },
+    {
+      "id": "vancity_enviro_visa",
+      "name": "Vancity enviro Visa Infinite",
+      "region": "CA",
+      "bank": "vancity.com",
+      "annualFee": 120,
+      "color": "#00853F",
+      "image": null,
+      "benefits": "Up to 1% in rewards on purchases\nDividends returned to members\nCarbon-conscious banking\nTravel insurance",
+      "benefits_zh_CN": "消费最高1%奖励\n会员分红回馈\n环保银行理念\n旅行保险",
+      "benefits_zh_TW": "消費最高1%獎勵\n會員分紅回饋\n環保銀行理念\n旅遊保險",
+      "aiRewards": {
+        "Everything": 1
+      }
+    },
+    {
+      "id": "coast_capital_visa",
+      "name": "Coast Capital Visa Infinite Cash Back",
+      "region": "CA",
+      "bank": "coastcapitalsavings.com",
+      "annualFee": 99,
+      "color": "#0072CE",
+      "image": null,
+      "benefits": "2% on groceries, gas & recurring bills\n1% everything else\nMember-owned\nTravel insurance",
+      "benefits_zh_CN": "杂货、加油及定期账单2%返现\n其他消费1%返现\n会员制\n旅行保险",
+      "benefits_zh_TW": "雜貨、加油及定期帳單2%回饋\n其他消費1%回饋\n會員制\n旅遊保險",
+      "aiRewards": {
+        "Groceries": 2,
+        "Gas & Transit": 2,
+        "Everything": 1
+      }
+    },
+    {
+      "id": "servus_credit_union_visa",
+      "name": "Servus Credit Union Visa Cash Back",
+      "region": "CA",
+      "bank": "servus.ca",
+      "annualFee": 0,
+      "color": "#E4002B",
+      "image": null,
+      "benefits": "1% cash back on purchases\nProfit share to members\nNo annual fee\nAlberta member-owned",
+      "benefits_zh_CN": "消费1%返现\n会员利润分享\n免年费\n阿尔伯塔会员制",
+      "benefits_zh_TW": "消費1%回饋\n會員利潤分享\n免年費\n亞伯達會員制",
+      "aiRewards": {
+        "Everything": 1
+      }
+    },
+    {
+      "id": "atb_cash_back_mastercard",
+      "name": "ATB Cash Back Mastercard",
+      "region": "CA",
+      "bank": "atb.com",
+      "annualFee": 0,
+      "color": "#0093D0",
+      "image": null,
+      "benefits": "2% on groceries & gas\n1% everything else\nNo annual fee\nAlberta-based",
+      "benefits_zh_CN": "杂货及加油2%返现\n其他消费1%返现\n免年费\n阿尔伯塔本地",
+      "benefits_zh_TW": "雜貨及加油2%回饋\n其他消費1%回饋\n免年費\n亞伯達本地",
+      "aiRewards": {
+        "Groceries": 2,
+        "Gas & Transit": 2,
+        "Everything": 1
+      }
+    },
+    {
+      "id": "desjardins_cash_back_visa",
+      "name": "Desjardins Cash Back Visa",
+      "region": "CA",
+      "bank": "desjardins.com",
+      "annualFee": 0,
+      "color": "#00874E",
+      "image": null,
+      "benefits": "1% on groceries & recurring bills\n0.5% everything else\nNo annual fee\nPurchase protection",
+      "benefits_zh_CN": "杂货及定期账单1%返现\n其他消费0.5%返现\n免年费\n购物保障",
+      "benefits_zh_TW": "雜貨及定期帳單1%回饋\n其他消費0.5%回饋\n免年費\n購物保障",
+      "aiRewards": {
+        "Groceries": 1,
+        "Everything": 0.5
+      }
+    },
+    {
+      "id": "laurentian_bank_visa_signature",
+      "name": "Laurentian Bank Visa Signature",
+      "region": "CA",
+      "bank": "laurentianbank.ca",
+      "annualFee": 130,
+      "color": "#003B5C",
+      "image": null,
+      "benefits": "2 points per $1 on all purchases\nTravel insurance package\nMobile device insurance\nConcierge service",
+      "benefits_zh_CN": "所有消费每加元2积分\n旅行保险套餐\n移动设备保险\n礼宾服务",
+      "benefits_zh_TW": "所有消費每加元2積分\n旅遊保險套餐\n行動裝置保險\n禮賓服務",
+      "aiRewards": {
+        "Everything": 1.4
+      }
+    },
+    {
+      "id": "canadian_western_bank_visa",
+      "name": "CWB Visa Infinite",
+      "region": "CA",
+      "bank": "cwbank.com",
+      "annualFee": 120,
+      "color": "#003DA5",
+      "image": null,
+      "benefits": "1 point per $1 on purchases\nTravel insurance package\nConcierge service\nWestern Canada bank",
+      "benefits_zh_CN": "消费每加元1积分\n旅行保险套餐\n礼宾服务\n加拿大西部银行",
+      "benefits_zh_TW": "消費每加元1積分\n旅遊保險套餐\n禮賓服務\n加拿大西部銀行",
+      "aiRewards": {
+        "Everything": 1
+      }
+    },
+    {
+      "id": "alterna_cash_back_visa",
+      "name": "Alterna Savings Cash Back Visa",
+      "region": "CA",
+      "bank": "alterna.ca",
+      "annualFee": 0,
+      "color": "#6CC04A",
+      "image": null,
+      "benefits": "1% cash back on purchases\nNo annual fee\nMember-owned credit union\nPurchase protection",
+      "benefits_zh_CN": "消费1%返现\n免年费\n会员制信用合作社\n购物保障",
+      "benefits_zh_TW": "消費1%回饋\n免年費\n會員制信用合作社\n購物保障",
+      "aiRewards": {
+        "Everything": 1
+      }
+    },
+    {
+      "id": "uni_visa_platinum",
+      "name": "UNI Visa Platinum",
+      "region": "CA",
+      "bank": "uni.ca",
+      "annualFee": 0,
+      "color": "#E4002B",
+      "image": null,
+      "benefits": "1% on groceries & gas\n0.5% everything else\nNo annual fee\nNew Brunswick cooperative",
+      "benefits_zh_CN": "杂货及加油1%返现\n其他消费0.5%返现\n免年费\n新不伦瑞克合作社",
+      "benefits_zh_TW": "雜貨及加油1%回饋\n其他消費0.5%回饋\n免年費\n新布藍茲維合作社",
+      "aiRewards": {
+        "Groceries": 1,
+        "Gas & Transit": 1,
+        "Everything": 0.5
+      }
+    },
+    {
+      "id": "duca_credit_union_visa",
+      "name": "DUCA Credit Union Visa",
+      "region": "CA",
+      "bank": "duca.com",
+      "annualFee": 0,
+      "color": "#00A0DF",
+      "image": null,
+      "benefits": "1% cash back on purchases\nNo annual fee\nMember-owned credit union\nProfit share to members",
+      "benefits_zh_CN": "消费1%返现\n免年费\n会员制信用合作社\n会员利润分享",
+      "benefits_zh_TW": "消費1%回饋\n免年費\n會員制信用合作社\n會員利潤分享",
+      "aiRewards": {
+        "Everything": 1
+      }
+    },
+    {
+      "id": "national_bank_echo_cashback",
+      "name": "National Bank Écho Cashback Mastercard",
+      "region": "CA",
+      "bank": "nbc.ca",
+      "annualFee": 0,
+      "color": "#E4002B",
+      "image": null,
+      "benefits": "1.5% on recurring & online purchases\n0.5% everything else\nNo annual fee\nPurchase protection",
+      "benefits_zh_CN": "定期及网购1.5%返现\n其他消费0.5%返现\n免年费\n购物保障",
+      "benefits_zh_TW": "定期及網購1.5%回饋\n其他消費0.5%回饋\n免年費\n購物保障",
+      "aiRewards": {
+        "Shopping": 1.5,
+        "Everything": 0.5
+      }
+    },
+    {
+      "id": "national_bank_syncro",
+      "name": "National Bank Syncro Mastercard",
+      "region": "CA",
+      "bank": "nbc.ca",
+      "annualFee": 35,
+      "color": "#C8102E",
+      "image": null,
+      "benefits": "Low ongoing purchase rate\nIdeal for carrying a balance\nPurchase protection",
+      "benefits_zh_CN": "较低持续购物利率\n适合分期还款\n购物保障",
+      "benefits_zh_TW": "較低持續購物利率\n適合分期還款\n購物保障",
+      "aiRewards": {
+        "Everything": 0
+      }
+    },
+    {
+      "id": "bmo_cashback_mastercard",
+      "name": "BMO CashBack Mastercard",
+      "region": "CA",
+      "bank": "bmo.com",
+      "annualFee": 0,
+      "color": "#0079C1",
+      "image": null,
+      "benefits": "3% on groceries (capped)\n1% on recurring bills\n0.5% everything else\nNo annual fee",
+      "benefits_zh_CN": "杂货3%返现（有上限）\n定期账单1%返现\n其他消费0.5%返现\n免年费",
+      "benefits_zh_TW": "雜貨3%回饋（有上限）\n定期帳單1%回饋\n其他消費0.5%回饋\n免年費",
+      "aiRewards": {
+        "Groceries": 3,
+        "Everything": 0.5
+      }
+    },
+    {
+      "id": "cibc_dividend_platinum",
+      "name": "CIBC Dividend Platinum Visa",
+      "region": "CA",
+      "bank": "cibc.com",
+      "annualFee": 99,
+      "color": "#B3122F",
+      "image": null,
+      "benefits": "2% on groceries & gas\n1% everything else\nMobile device insurance\nTravel insurance",
+      "benefits_zh_CN": "杂货及加油2%返现\n其他消费1%返现\n移动设备保险\n旅行保险",
+      "benefits_zh_TW": "雜貨及加油2%回饋\n其他消費1%回饋\n行動裝置保險\n旅遊保險",
+      "aiRewards": {
+        "Groceries": 2,
+        "Gas & Transit": 2,
+        "Everything": 1
+      }
+    },
+    {
+      "id": "rbc_cash_back_preferred_world_elite",
+      "name": "RBC Cash Back Preferred World Elite Mastercard",
+      "region": "CA",
+      "bank": "rbc.com",
+      "annualFee": 99,
+      "color": "#0054A4",
+      "image": null,
+      "benefits": "2% on groceries\n1.5% everything else\nTravel insurance package\nWorld Elite benefits",
+      "benefits_zh_CN": "杂货2%返现\n其他消费1.5%返现\n旅行保险套餐\nWorld Elite权益",
+      "benefits_zh_TW": "雜貨2%回饋\n其他消費1.5%回饋\n旅遊保險套餐\nWorld Elite權益",
+      "aiRewards": {
+        "Groceries": 2,
+        "Everything": 1.5
+      }
+    },
+    {
+      "id": "td_aeroplan_visa_platinum",
+      "name": "TD Aeroplan Visa Platinum",
+      "region": "CA",
+      "bank": "td.com",
+      "annualFee": 89,
+      "color": "#54B848",
+      "image": null,
+      "benefits": "1.5x Aeroplan on groceries, gas & Air Canada\n1x everything else\nFree first checked bag\nTravel insurance",
+      "benefits_zh_CN": "杂货、加油及Air Canada消费1.5倍Aeroplan积分\n其他消费1倍积分\n首件托运行李免费\n旅行保险",
+      "benefits_zh_TW": "雜貨、加油及Air Canada消費1.5倍Aeroplan積分\n其他消費1倍積分\n首件託運行李免費\n旅遊保險",
+      "aiRewards": {
+        "Groceries": 2.55,
+        "Gas & Transit": 2.55,
+        "Flights": 2.55,
+        "Everything": 1.7
+      }
+    },
+    {
+      "id": "td_cash_back_visa",
+      "name": "TD Cash Back Visa Card",
+      "region": "CA",
+      "bank": "td.com",
+      "annualFee": 0,
+      "color": "#008A00",
+      "image": null,
+      "benefits": "1% on groceries, gas & recurring bills\n0.5% everything else\nNo annual fee",
+      "benefits_zh_CN": "杂货、加油及定期账单1%返现\n其他消费0.5%返现\n免年费",
+      "benefits_zh_TW": "雜貨、加油及定期帳單1%回饋\n其他消費0.5%回饋\n免年費",
+      "aiRewards": {
+        "Groceries": 1,
+        "Gas & Transit": 1,
+        "Everything": 0.5
+      }
+    },
+    {
+      "id": "scotiabank_scene_amex",
+      "name": "Scotiabank Scene+ American Express",
+      "region": "CA",
+      "bank": "scotiabank.com",
+      "annualFee": 0,
+      "color": "#EC111A",
+      "image": null,
+      "benefits": "2x Scene+ on groceries, dining & entertainment\n1x everything else\nNo annual fee",
+      "benefits_zh_CN": "杂货、餐饮及娱乐2倍Scene+积分\n其他消费1倍积分\n免年费",
+      "benefits_zh_TW": "雜貨、餐飲及娛樂2倍Scene+積分\n其他消費1倍積分\n免年費",
+      "aiRewards": {
+        "Groceries": 2,
+        "Food & Dining": 2,
+        "Entertainment": 2,
+        "Everything": 1
+      }
+    },
+    {
+      "id": "first_west_envision_visa",
+      "name": "Envision Financial Visa",
+      "region": "CA",
+      "bank": "envisionfinancial.ca",
+      "annualFee": 0,
+      "color": "#005EB8",
+      "image": null,
+      "benefits": "1% cash back on purchases\nNo annual fee\nBC member-owned credit union\nProfit share to members",
+      "benefits_zh_CN": "消费1%返现\n免年费\n卑诗会员制信用合作社\n会员利润分享",
+      "benefits_zh_TW": "消費1%回饋\n免年費\n卑詩會員制信用合作社\n會員利潤分享",
+      "aiRewards": {
+        "Everything": 1
+      }
+    },
+    {
+      "id": "conexus_credit_union_visa",
+      "name": "Conexus Credit Union Visa",
+      "region": "CA",
+      "bank": "conexus.ca",
+      "annualFee": 0,
+      "color": "#00A94F",
+      "image": null,
+      "benefits": "1% cash back on purchases\nNo annual fee\nSaskatchewan member-owned\nProfit share to members",
+      "benefits_zh_CN": "消费1%返现\n免年费\n萨斯喀彻温会员制\n会员利润分享",
+      "benefits_zh_TW": "消費1%回饋\n免年費\n薩斯喀徹溫會員制\n會員利潤分享",
+      "aiRewards": {
+        "Everything": 1
+      }
+    },
+    {
+      "id": "affinity_credit_union_visa",
+      "name": "Affinity Credit Union Visa",
+      "region": "CA",
+      "bank": "affinitycu.ca",
+      "annualFee": 0,
+      "color": "#E4002B",
+      "image": null,
+      "benefits": "1% cash back on purchases\nNo annual fee\nMember-owned credit union\nProfit share to members",
+      "benefits_zh_CN": "消费1%返现\n免年费\n会员制信用合作社\n会员利润分享",
+      "benefits_zh_TW": "消費1%回饋\n免年費\n會員制信用合作社\n會員利潤分享",
+      "aiRewards": {
+        "Everything": 1
+      }
+    },
+    {
+      "id": "cambrian_credit_union_visa",
+      "name": "Cambrian Credit Union Visa",
+      "region": "CA",
+      "bank": "cambrian.mb.ca",
+      "annualFee": 0,
+      "color": "#0072CE",
+      "image": null,
+      "benefits": "1% cash back on purchases\nNo annual fee\nManitoba member-owned\nProfit share to members",
+      "benefits_zh_CN": "消费1%返现\n免年费\n曼尼托巴会员制\n会员利润分享",
+      "benefits_zh_TW": "消費1%回饋\n免年費\n曼尼托巴會員制\n會員利潤分享",
+      "aiRewards": {
+        "Everything": 1
+      }
+    },
+    {
+      "id": "assiniboine_credit_union_visa",
+      "name": "Assiniboine Credit Union Visa",
+      "region": "CA",
+      "bank": "assiniboine.mb.ca",
+      "annualFee": 0,
+      "color": "#005EB8",
+      "image": null,
+      "benefits": "1% cash back on purchases\nNo annual fee\nMember-owned credit union\nProfit share to members",
+      "benefits_zh_CN": "消费1%返现\n免年费\n会员制信用合作社\n会员利润分享",
+      "benefits_zh_TW": "消費1%回饋\n免年費\n會員制信用合作社\n會員利潤分享",
+      "aiRewards": {
+        "Everything": 1
+      }
+    },
+    {
+      "id": "innovation_credit_union_visa",
+      "name": "Innovation Federal Credit Union Visa",
+      "region": "CA",
+      "bank": "innovationcu.ca",
+      "annualFee": 0,
+      "color": "#00A651",
+      "image": null,
+      "benefits": "1% cash back on purchases\nNo annual fee\nMember-owned\nProfit share to members",
+      "benefits_zh_CN": "消费1%返现\n免年费\n会员制\n会员利润分享",
+      "benefits_zh_TW": "消費1%回饋\n免年費\n會員制\n會員利潤分享",
+      "aiRewards": {
+        "Everything": 1
+      }
+    },
+    {
+      "id": "prospera_credit_union_visa",
+      "name": "Prospera Credit Union Visa",
+      "region": "CA",
+      "bank": "prospera.ca",
+      "annualFee": 0,
+      "color": "#7AB800",
+      "image": null,
+      "benefits": "1% cash back on purchases\nNo annual fee\nBC member-owned\nProfit share to members",
+      "benefits_zh_CN": "消费1%返现\n免年费\n卑诗会员制\n会员利润分享",
+      "benefits_zh_TW": "消費1%回饋\n免年費\n卑詩會員制\n會員利潤分享",
+      "aiRewards": {
+        "Everything": 1
+      }
+    },
+    {
+      "id": "libro_credit_union_visa",
+      "name": "Libro Credit Union Visa",
+      "region": "CA",
+      "bank": "libro.ca",
+      "annualFee": 0,
+      "color": "#00A94F",
+      "image": null,
+      "benefits": "1% cash back on purchases\nNo annual fee\nOntario member-owned\nProfit share to members",
+      "benefits_zh_CN": "消费1%返现\n免年费\n安大略会员制\n会员利润分享",
+      "benefits_zh_TW": "消費1%回饋\n免年費\n安大略會員制\n會員利潤分享",
+      "aiRewards": {
+        "Everything": 1
+      }
+    },
+    {
+      "id": "firstontario_credit_union_visa",
+      "name": "FirstOntario Credit Union Visa",
+      "region": "CA",
+      "bank": "firstontario.com",
+      "annualFee": 0,
+      "color": "#E4002B",
+      "image": null,
+      "benefits": "1% cash back on purchases\nNo annual fee\nOntario member-owned\nProfit share to members",
+      "benefits_zh_CN": "消费1%返现\n免年费\n安大略会员制\n会员利润分享",
+      "benefits_zh_TW": "消費1%回饋\n免年費\n安大略會員制\n會員利潤分享",
+      "aiRewards": {
+        "Everything": 1
+      }
+    },
+    {
+      "id": "connect_first_credit_union_visa",
+      "name": "connectFirst Credit Union Visa",
+      "region": "CA",
+      "bank": "connectfirstcu.com",
+      "annualFee": 0,
+      "color": "#0093D0",
+      "image": null,
+      "benefits": "1% cash back on purchases\nNo annual fee\nAlberta member-owned\nProfit share to members",
+      "benefits_zh_CN": "消费1%返现\n免年费\n阿尔伯塔会员制\n会员利润分享",
+      "benefits_zh_TW": "消費1%回饋\n免年費\n亞伯達會員制\n會員利潤分享",
+      "aiRewards": {
+        "Everything": 1
+      }
+    },
+    {
+      "id": "steinbach_credit_union_visa",
+      "name": "Steinbach Credit Union Visa",
+      "region": "CA",
+      "bank": "scu.mb.ca",
+      "annualFee": 0,
+      "color": "#005BAC",
+      "image": null,
+      "benefits": "1% cash back on purchases\nNo annual fee\nManitoba member-owned\nProfit share to members",
+      "benefits_zh_CN": "消费1%返现\n免年费\n曼尼托巴会员制\n会员利润分享",
+      "benefits_zh_TW": "消費1%回饋\n免年費\n曼尼托巴會員制\n會員利潤分享",
+      "aiRewards": {
+        "Everything": 1
+      }
+    },
+    {
+      "id": "access_credit_union_visa",
+      "name": "Access Credit Union Visa",
+      "region": "CA",
+      "bank": "accesscu.ca",
+      "annualFee": 0,
+      "color": "#00A651",
+      "image": null,
+      "benefits": "1% cash back on purchases\nNo annual fee\nManitoba member-owned\nProfit share to members",
+      "benefits_zh_CN": "消费1%返现\n免年费\n曼尼托巴会员制\n会员利润分享",
+      "benefits_zh_TW": "消費1%回饋\n免年費\n曼尼托巴會員制\n會員利潤分享",
+      "aiRewards": {
+        "Everything": 1
+      }
+    },
+    {
+      "id": "kindred_credit_union_visa",
+      "name": "Kindred Credit Union Visa",
+      "region": "CA",
+      "bank": "kindredcu.com",
+      "annualFee": 0,
+      "color": "#6CC04A",
+      "image": null,
+      "benefits": "1% cash back on purchases\nNo annual fee\nValues-based member-owned\nProfit share to members",
+      "benefits_zh_CN": "消费1%返现\n免年费\n价值导向会员制\n会员利润分享",
+      "benefits_zh_TW": "消費1%回饋\n免年費\n價值導向會員制\n會員利潤分享",
+      "aiRewards": {
+        "Everything": 1
+      }
+    },
+    {
+      "id": "synergy_credit_union_visa",
+      "name": "Synergy Credit Union Visa",
+      "region": "CA",
+      "bank": "synergycu.ca",
+      "annualFee": 0,
+      "color": "#F58025",
+      "image": null,
+      "benefits": "1% cash back on purchases\nNo annual fee\nSaskatchewan member-owned\nProfit share to members",
+      "benefits_zh_CN": "消费1%返现\n免年费\n萨斯喀彻温会员制\n会员利润分享",
+      "benefits_zh_TW": "消費1%回饋\n免年費\n薩斯喀徹溫會員制\n會員利潤分享",
+      "aiRewards": {
+        "Everything": 1
+      }
+    },
+    {
+      "id": "coastal_community_credit_union_visa",
+      "name": "Coastal Community Credit Union Visa",
+      "region": "CA",
+      "bank": "cccu.ca",
+      "annualFee": 0,
+      "color": "#0072CE",
+      "image": null,
+      "benefits": "1% cash back on purchases\nNo annual fee\nVancouver Island member-owned\nProfit share to members",
+      "benefits_zh_CN": "消费1%返现\n免年费\n温哥华岛会员制\n会员利润分享",
+      "benefits_zh_TW": "消費1%回饋\n免年費\n溫哥華島會員制\n會員利潤分享",
+      "aiRewards": {
+        "Everything": 1
+      }
+    },
+    {
+      "id": "crosstown_credit_union_visa",
+      "name": "Crosstown Civic Credit Union Visa",
+      "region": "CA",
+      "bank": "crosstowncu.mb.ca",
+      "annualFee": 0,
+      "color": "#005EB8",
+      "image": null,
+      "benefits": "1% cash back on purchases\nNo annual fee\nManitoba member-owned\nProfit share to members",
+      "benefits_zh_CN": "消费1%返现\n免年费\n曼尼托巴会员制\n会员利润分享",
+      "benefits_zh_TW": "消費1%回饋\n免年費\n曼尼托巴會員制\n會員利潤分享",
+      "aiRewards": {
+        "Everything": 1
       }
     },
     {
@@ -4689,6 +6036,516 @@
       }
     },
     {
+      "id": "westpac_flex",
+      "name": "Westpac Flex Mastercard",
+      "region": "AU",
+      "bank": "westpac.com.au",
+      "annualFee": 0,
+      "color": "#D5002B",
+      "image": null,
+      "benefits": "No interest charges\nSimple flat monthly fee (waived if no balance owing)\nLow fixed credit limit\nNo rewards program",
+      "benefits_zh_CN": "无利息费用\n固定月费（无欠款时豁免）\n较低固定信用额度\n无奖励计划",
+      "benefits_zh_TW": "無利息費用\n固定月費（無欠款時豁免）\n較低固定信用額度\n無獎勵計劃",
+      "aiRewards": {
+        "Everything": 0
+      }
+    },
+    {
+      "id": "bank_first_visa_platinum",
+      "name": "Bank First Visa Platinum",
+      "region": "AU",
+      "bank": "bankfirst.com.au",
+      "annualFee": 99,
+      "color": "#003DA5",
+      "image": null,
+      "benefits": "Visa Platinum benefits\nComplimentary travel insurance\nLow ongoing purchase rate\nMember-owned bank",
+      "benefits_zh_CN": "Visa白金卡权益\n免费旅行保险\n较低持续购物利率\n会员制银行",
+      "benefits_zh_TW": "Visa白金卡權益\n免費旅遊保險\n較低持續購物利率\n會員制銀行",
+      "aiRewards": {
+        "Everything": 0
+      }
+    },
+    {
+      "id": "bankvic_visa",
+      "name": "BankVic Visa Credit Card",
+      "region": "AU",
+      "bank": "bankvic.com.au",
+      "annualFee": 0,
+      "color": "#0072CE",
+      "image": null,
+      "benefits": "Low ongoing purchase rate\nNo annual fee option\nUp to 55 days interest-free\nMember-owned bank",
+      "benefits_zh_CN": "较低持续购物利率\n免年费选项\n最长55天免息期\n会员制银行",
+      "benefits_zh_TW": "較低持續購物利率\n免年費選項\n最長55天免息期\n會員制銀行",
+      "aiRewards": {
+        "Everything": 0
+      }
+    },
+    {
+      "id": "hume_bank_visa",
+      "name": "Hume Bank Visa Credit Card",
+      "region": "AU",
+      "bank": "humebank.com.au",
+      "annualFee": 0,
+      "color": "#0072CE",
+      "image": null,
+      "benefits": "Low ongoing purchase rate\nNo annual fee\nUp to 55 days interest-free\nMember-owned bank",
+      "benefits_zh_CN": "较低持续购物利率\n免年费\n最长55天免息期\n会员制银行",
+      "benefits_zh_TW": "較低持續購物利率\n免年費\n最長55天免息期\n會員制銀行",
+      "aiRewards": {
+        "Everything": 0
+      }
+    },
+    {
+      "id": "unity_bank_visa",
+      "name": "Unity Bank Visa Credit Card",
+      "region": "AU",
+      "bank": "unitybank.com.au",
+      "annualFee": 0,
+      "color": "#E4002B",
+      "image": null,
+      "benefits": "Low ongoing purchase rate\nNo annual fee\nUp to 55 days interest-free\nMember-owned bank",
+      "benefits_zh_CN": "较低持续购物利率\n免年费\n最长55天免息期\n会员制银行",
+      "benefits_zh_TW": "較低持續購物利率\n免年費\n最長55天免息期\n會員制銀行",
+      "aiRewards": {
+        "Everything": 0
+      }
+    },
+    {
+      "id": "gateway_bank_visa",
+      "name": "Gateway Bank Visa Platinum",
+      "region": "AU",
+      "bank": "gatewaybank.com.au",
+      "annualFee": 49,
+      "color": "#005EB8",
+      "image": null,
+      "benefits": "Visa Platinum benefits\nComplimentary insurances\nLow ongoing purchase rate\nMember-owned bank",
+      "benefits_zh_CN": "Visa白金卡权益\n免费保险\n较低持续购物利率\n会员制银行",
+      "benefits_zh_TW": "Visa白金卡權益\n免費保險\n較低持續購物利率\n會員制銀行",
+      "aiRewards": {
+        "Everything": 0
+      }
+    },
+    {
+      "id": "regional_australia_bank_visa",
+      "name": "Regional Australia Bank Visa",
+      "region": "AU",
+      "bank": "regionalaustraliabank.com.au",
+      "annualFee": 0,
+      "color": "#00843D",
+      "image": null,
+      "benefits": "Low ongoing purchase rate\nNo annual fee\nUp to 55 days interest-free\nCustomer-owned bank",
+      "benefits_zh_CN": "较低持续购物利率\n免年费\n最长55天免息期\n客户所有制银行",
+      "benefits_zh_TW": "較低持續購物利率\n免年費\n最長55天免息期\n客戶所有制銀行",
+      "aiRewards": {
+        "Everything": 0
+      }
+    },
+    {
+      "id": "move_bank_visa",
+      "name": "MOVE Bank Visa Credit Card",
+      "region": "AU",
+      "bank": "movebank.com.au",
+      "annualFee": 0,
+      "color": "#E4002B",
+      "image": null,
+      "benefits": "Low ongoing purchase rate\nNo annual fee\nUp to 55 days interest-free\nMember-owned bank",
+      "benefits_zh_CN": "较低持续购物利率\n免年费\n最长55天免息期\n会员制银行",
+      "benefits_zh_TW": "較低持續購物利率\n免年費\n最長55天免息期\n會員制銀行",
+      "aiRewards": {
+        "Everything": 0
+      }
+    },
+    {
+      "id": "australian_military_bank_visa",
+      "name": "Australian Military Bank Visa",
+      "region": "AU",
+      "bank": "australianmilitarybank.com.au",
+      "annualFee": 0,
+      "color": "#1B3A6B",
+      "image": null,
+      "benefits": "Low ongoing purchase rate\nNo annual fee\nUp to 55 days interest-free\nMember-owned bank",
+      "benefits_zh_CN": "较低持续购物利率\n免年费\n最长55天免息期\n会员制银行",
+      "benefits_zh_TW": "較低持續購物利率\n免年費\n最長55天免息期\n會員制銀行",
+      "aiRewards": {
+        "Everything": 0
+      }
+    },
+    {
+      "id": "summerland_bank_visa",
+      "name": "Summerland Bank Visa Credit Card",
+      "region": "AU",
+      "bank": "summerland.com.au",
+      "annualFee": 0,
+      "color": "#00A651",
+      "image": null,
+      "benefits": "Low ongoing purchase rate\nNo annual fee\nUp to 55 days interest-free\nCustomer-owned bank",
+      "benefits_zh_CN": "较低持续购物利率\n免年费\n最长55天免息期\n客户所有制银行",
+      "benefits_zh_TW": "較低持續購物利率\n免年費\n最長55天免息期\n客戶所有制銀行",
+      "aiRewards": {
+        "Everything": 0
+      }
+    },
+    {
+      "id": "gc_mutual_visa",
+      "name": "G&C Mutual Bank Visa",
+      "region": "AU",
+      "bank": "gcmutual.bank",
+      "annualFee": 0,
+      "color": "#005EB8",
+      "image": null,
+      "benefits": "Low ongoing purchase rate\nNo annual fee\nUp to 55 days interest-free\nMember-owned bank",
+      "benefits_zh_CN": "较低持续购物利率\n免年费\n最长55天免息期\n会员制银行",
+      "benefits_zh_TW": "較低持續購物利率\n免年費\n最長55天免息期\n會員制銀行",
+      "aiRewards": {
+        "Everything": 0
+      }
+    },
+    {
+      "id": "bank_of_us_visa",
+      "name": "Bank of us Visa Credit Card",
+      "region": "AU",
+      "bank": "bankofus.com.au",
+      "annualFee": 0,
+      "color": "#005BAC",
+      "image": null,
+      "benefits": "Low ongoing purchase rate\nNo annual fee\nUp to 55 days interest-free\nTasmanian customer-owned bank",
+      "benefits_zh_CN": "较低持续购物利率\n免年费\n最长55天免息期\n塔斯马尼亚客户所有制银行",
+      "benefits_zh_TW": "較低持續購物利率\n免年費\n最長55天免息期\n塔斯馬尼亞客戶所有制銀行",
+      "aiRewards": {
+        "Everything": 0
+      }
+    },
+    {
+      "id": "credit_union_sa_visa",
+      "name": "Credit Union SA Visa",
+      "region": "AU",
+      "bank": "creditunionsa.com.au",
+      "annualFee": 0,
+      "color": "#E4002B",
+      "image": null,
+      "benefits": "Low ongoing purchase rate\nNo annual fee\nUp to 55 days interest-free\nMember-owned\nEducation community discounts",
+      "benefits_zh_CN": "较低持续购物利率\n免年费\n最长55天免息期\n会员制\n教育社群优惠",
+      "benefits_zh_TW": "較低持續購物利率\n免年費\n最長55天免息期\n會員制\n教育社群優惠",
+      "aiRewards": {
+        "Everything": 0
+      }
+    },
+    {
+      "id": "bcu_visa",
+      "name": "bcu Visa Credit Card",
+      "region": "AU",
+      "bank": "bcu.com.au",
+      "annualFee": 0,
+      "color": "#0072CE",
+      "image": null,
+      "benefits": "Low ongoing purchase rate\nNo annual fee\nUp to 55 days interest-free\nCustomer-owned bank",
+      "benefits_zh_CN": "较低持续购物利率\n免年费\n最长55天免息期\n客户所有制银行",
+      "benefits_zh_TW": "較低持續購物利率\n免年費\n最長55天免息期\n客戶所有制銀行",
+      "aiRewards": {
+        "Everything": 0
+      }
+    },
+    {
+      "id": "queensland_country_bank_visa",
+      "name": "Queensland Country Bank Visa",
+      "region": "AU",
+      "bank": "queenslandcountry.bank",
+      "annualFee": 0,
+      "color": "#00843D",
+      "image": null,
+      "benefits": "Low ongoing purchase rate\nNo annual fee\nUp to 55 days interest-free\nCustomer-owned bank",
+      "benefits_zh_CN": "较低持续购物利率\n免年费\n最长55天免息期\n客户所有制银行",
+      "benefits_zh_TW": "較低持續購物利率\n免年費\n最長55天免息期\n客戶所有制銀行",
+      "aiRewards": {
+        "Everything": 0
+      }
+    },
+    {
+      "id": "community_first_visa",
+      "name": "Community First Bank Visa",
+      "region": "AU",
+      "bank": "communityfirst.com.au",
+      "annualFee": 0,
+      "color": "#E4002B",
+      "image": null,
+      "benefits": "Low ongoing purchase rate\nNo annual fee\nUp to 55 days interest-free\nMember-owned bank",
+      "benefits_zh_CN": "较低持续购物利率\n免年费\n最长55天免息期\n会员制银行",
+      "benefits_zh_TW": "較低持續購物利率\n免年費\n最長55天免息期\n會員制銀行",
+      "aiRewards": {
+        "Everything": 0
+      }
+    },
+    {
+      "id": "qbank_visa",
+      "name": "QBANK Visa Credit Card",
+      "region": "AU",
+      "bank": "qbank.com.au",
+      "annualFee": 0,
+      "color": "#003DA5",
+      "image": null,
+      "benefits": "Low ongoing purchase rate\nNo annual fee\nUp to 55 days interest-free\nMember-owned bank",
+      "benefits_zh_CN": "较低持续购物利率\n免年费\n最长55天免息期\n会员制银行",
+      "benefits_zh_TW": "較低持續購物利率\n免年費\n最長55天免息期\n會員制銀行",
+      "aiRewards": {
+        "Everything": 0
+      }
+    },
+    {
+      "id": "police_credit_union_visa",
+      "name": "Police Credit Union Visa",
+      "region": "AU",
+      "bank": "policecu.com.au",
+      "annualFee": 0,
+      "color": "#1B3A6B",
+      "image": null,
+      "benefits": "Low ongoing purchase rate\nNo annual fee\nUp to 55 days interest-free\nMember-owned",
+      "benefits_zh_CN": "较低持续购物利率\n免年费\n最长55天免息期\n会员制",
+      "benefits_zh_TW": "較低持續購物利率\n免年費\n最長55天免息期\n會員制",
+      "aiRewards": {
+        "Everything": 0
+      }
+    },
+    {
+      "id": "illawarra_credit_union_visa",
+      "name": "Illawarra Credit Union Visa",
+      "region": "AU",
+      "bank": "illawarracu.com.au",
+      "annualFee": 0,
+      "color": "#0093D0",
+      "image": null,
+      "benefits": "Low ongoing purchase rate\nNo annual fee\nUp to 55 days interest-free\nMember-owned",
+      "benefits_zh_CN": "较低持续购物利率\n免年费\n最长55天免息期\n会员制",
+      "benefits_zh_TW": "較低持續購物利率\n免年費\n最長55天免息期\n會員制",
+      "aiRewards": {
+        "Everything": 0
+      }
+    },
+    {
+      "id": "southern_cross_credit_union_visa",
+      "name": "Southern Cross Credit Union Visa",
+      "region": "AU",
+      "bank": "sccu.com.au",
+      "annualFee": 0,
+      "color": "#005EB8",
+      "image": null,
+      "benefits": "Low ongoing purchase rate\nNo annual fee\nUp to 55 days interest-free\nMember-owned",
+      "benefits_zh_CN": "较低持续购物利率\n免年费\n最长55天免息期\n会员制",
+      "benefits_zh_TW": "較低持續購物利率\n免年費\n最長55天免息期\n會員制",
+      "aiRewards": {
+        "Everything": 0
+      }
+    },
+    {
+      "id": "the_capricornian_visa",
+      "name": "The Capricornian Visa",
+      "region": "AU",
+      "bank": "capricornian.com.au",
+      "annualFee": 0,
+      "color": "#00843D",
+      "image": null,
+      "benefits": "Low ongoing purchase rate\nNo annual fee\nUp to 55 days interest-free\nMember-owned",
+      "benefits_zh_CN": "较低持续购物利率\n免年费\n最长55天免息期\n会员制",
+      "benefits_zh_TW": "較低持續購物利率\n免年費\n最長55天免息期\n會員制",
+      "aiRewards": {
+        "Everything": 0
+      }
+    },
+    {
+      "id": "woolworths_team_bank_visa",
+      "name": "Woolworths Team Bank Visa",
+      "region": "AU",
+      "bank": "woolworthsteambank.com.au",
+      "annualFee": 0,
+      "color": "#178841",
+      "image": null,
+      "benefits": "Low ongoing purchase rate\nNo annual fee\nUp to 55 days interest-free\nMember-owned",
+      "benefits_zh_CN": "较低持续购物利率\n免年费\n最长55天免息期\n会员制",
+      "benefits_zh_TW": "較低持續購物利率\n免年費\n最長55天免息期\n會員制",
+      "aiRewards": {
+        "Everything": 0
+      }
+    },
+    {
+      "id": "reliance_bank_visa",
+      "name": "Reliance Bank Visa",
+      "region": "AU",
+      "bank": "reliancebank.com.au",
+      "annualFee": 0,
+      "color": "#E4002B",
+      "image": null,
+      "benefits": "Low ongoing purchase rate\nNo annual fee\nUp to 55 days interest-free\nCustomer-owned bank",
+      "benefits_zh_CN": "较低持续购物利率\n免年费\n最长55天免息期\n客户所有制银行",
+      "benefits_zh_TW": "較低持續購物利率\n免年費\n最長55天免息期\n客戶所有制銀行",
+      "aiRewards": {
+        "Everything": 0
+      }
+    },
+    {
+      "id": "horizon_bank_visa",
+      "name": "Horizon Bank Visa",
+      "region": "AU",
+      "bank": "horizonbank.com.au",
+      "annualFee": 0,
+      "color": "#0072CE",
+      "image": null,
+      "benefits": "Low ongoing purchase rate\nNo annual fee\nUp to 55 days interest-free\nCustomer-owned bank",
+      "benefits_zh_CN": "较低持续购物利率\n免年费\n最长55天免息期\n客户所有制银行",
+      "benefits_zh_TW": "較低持續購物利率\n免年費\n最長55天免息期\n客戶所有制銀行",
+      "aiRewards": {
+        "Everything": 0
+      }
+    },
+    {
+      "id": "orange_credit_union_visa",
+      "name": "Orange Credit Union Visa",
+      "region": "AU",
+      "bank": "orangecu.com.au",
+      "annualFee": 0,
+      "color": "#F58025",
+      "image": null,
+      "benefits": "Low ongoing purchase rate\nNo annual fee\nUp to 55 days interest-free\nMember-owned",
+      "benefits_zh_CN": "较低持续购物利率\n免年费\n最长55天免息期\n会员制",
+      "benefits_zh_TW": "較低持續購物利率\n免年費\n最長55天免息期\n會員制",
+      "aiRewards": {
+        "Everything": 0
+      }
+    },
+    {
+      "id": "warwick_credit_union_visa",
+      "name": "Warwick Credit Union Visa",
+      "region": "AU",
+      "bank": "wcu.com.au",
+      "annualFee": 0,
+      "color": "#00843D",
+      "image": null,
+      "benefits": "Low ongoing purchase rate\nNo annual fee\nUp to 55 days interest-free\nMember-owned",
+      "benefits_zh_CN": "较低持续购物利率\n免年费\n最长55天免息期\n会员制",
+      "benefits_zh_TW": "較低持續購物利率\n免年費\n最長55天免息期\n會員制",
+      "aiRewards": {
+        "Everything": 0
+      }
+    },
+    {
+      "id": "bankwaw_visa",
+      "name": "WAW Bank Visa",
+      "region": "AU",
+      "bank": "waw.com.au",
+      "annualFee": 0,
+      "color": "#005EB8",
+      "image": null,
+      "benefits": "Low ongoing purchase rate\nNo annual fee\nUp to 55 days interest-free\nCustomer-owned bank",
+      "benefits_zh_CN": "较低持续购物利率\n免年费\n最长55天免息期\n客户所有制银行",
+      "benefits_zh_TW": "較低持續購物利率\n免年費\n最長55天免息期\n客戶所有制銀行",
+      "aiRewards": {
+        "Everything": 0
+      }
+    },
+    {
+      "id": "border_bank_visa",
+      "name": "Border Bank Visa",
+      "region": "AU",
+      "bank": "borderbank.com.au",
+      "annualFee": 0,
+      "color": "#1B3A6B",
+      "image": null,
+      "benefits": "Low ongoing purchase rate\nNo annual fee\nUp to 55 days interest-free\nMember-owned",
+      "benefits_zh_CN": "较低持续购物利率\n免年费\n最长55天免息期\n会员制",
+      "benefits_zh_TW": "較低持續購物利率\n免年費\n最長55天免息期\n會員制",
+      "aiRewards": {
+        "Everything": 0
+      }
+    },
+    {
+      "id": "transport_mutual_visa",
+      "name": "Transport Mutual Credit Union Visa",
+      "region": "AU",
+      "bank": "transportmutual.com.au",
+      "annualFee": 0,
+      "color": "#0072CE",
+      "image": null,
+      "benefits": "Low ongoing purchase rate\nNo annual fee\nUp to 55 days interest-free\nMember-owned",
+      "benefits_zh_CN": "较低持续购物利率\n免年费\n最长55天免息期\n会员制",
+      "benefits_zh_TW": "較低持續購物利率\n免年費\n最長55天免息期\n會員制",
+      "aiRewards": {
+        "Everything": 0
+      }
+    },
+    {
+      "id": "first_option_bank_visa",
+      "name": "First Option Bank Visa",
+      "region": "AU",
+      "bank": "firstoption.com.au",
+      "annualFee": 0,
+      "color": "#E4002B",
+      "image": null,
+      "benefits": "Low ongoing purchase rate\nNo annual fee\nUp to 55 days interest-free\nMember-owned",
+      "benefits_zh_CN": "较低持续购物利率\n免年费\n最长55天免息期\n会员制",
+      "benefits_zh_TW": "較低持續購物利率\n免年費\n最長55天免息期\n會員制",
+      "aiRewards": {
+        "Everything": 0
+      }
+    },
+    {
+      "id": "the_mac_visa",
+      "name": "The Mac Credit Union Visa",
+      "region": "AU",
+      "bank": "themaccu.com.au",
+      "annualFee": 0,
+      "color": "#00843D",
+      "image": null,
+      "benefits": "Low ongoing purchase rate\nNo annual fee\nUp to 55 days interest-free\nMember-owned",
+      "benefits_zh_CN": "较低持续购物利率\n免年费\n最长55天免息期\n会员制",
+      "benefits_zh_TW": "較低持續購物利率\n免年費\n最長55天免息期\n會員制",
+      "aiRewards": {
+        "Everything": 0
+      }
+    },
+    {
+      "id": "family_first_credit_union_visa",
+      "name": "Family First Credit Union Visa",
+      "region": "AU",
+      "bank": "familyfirst.com.au",
+      "annualFee": 0,
+      "color": "#0093D0",
+      "image": null,
+      "benefits": "Low ongoing purchase rate\nNo annual fee\nUp to 55 days interest-free\nMember-owned",
+      "benefits_zh_CN": "较低持续购物利率\n免年费\n最长55天免息期\n会员制",
+      "benefits_zh_TW": "較低持續購物利率\n免年費\n最長55天免息期\n會員制",
+      "aiRewards": {
+        "Everything": 0
+      }
+    },
+    {
+      "id": "coastline_credit_union_visa",
+      "name": "Coastline Credit Union Visa",
+      "region": "AU",
+      "bank": "coastline.com.au",
+      "annualFee": 0,
+      "color": "#005EB8",
+      "image": null,
+      "benefits": "Low ongoing purchase rate\nNo annual fee\nUp to 55 days interest-free\nMember-owned",
+      "benefits_zh_CN": "较低持续购物利率\n免年费\n最长55天免息期\n会员制",
+      "benefits_zh_TW": "較低持續購物利率\n免年費\n最長55天免息期\n會員制",
+      "aiRewards": {
+        "Everything": 0
+      }
+    },
+    {
+      "id": "northern_inland_credit_union_visa",
+      "name": "Northern Inland Credit Union Visa",
+      "region": "AU",
+      "bank": "nicu.com.au",
+      "annualFee": 0,
+      "color": "#00A651",
+      "image": null,
+      "benefits": "Low ongoing purchase rate\nNo annual fee\nUp to 55 days interest-free\nMember-owned",
+      "benefits_zh_CN": "较低持续购物利率\n免年费\n最长55天免息期\n会员制",
+      "benefits_zh_TW": "較低持續購物利率\n免年費\n最長55天免息期\n會員制",
+      "aiRewards": {
+        "Everything": 0
+      }
+    },
+    {
       "id": "icbc_universal",
       "name": "ICBC 工银生肖信用卡",
       "region": "CN",
@@ -5514,6 +7371,576 @@
       }
     },
     {
+      "id": "psbc_dingsheng_platinum",
+      "name": "PSBC 邮储鼎盛白金信用卡",
+      "region": "CN",
+      "bank": "psbc.com",
+      "annualFee": 2600,
+      "color": "#1A1A1A",
+      "image": null,
+      "benefits": "美国运通蓝盒子顶级权益\n机场贵宾厅\n高尔夫/酒店礼遇\n消费满30万免次年年费",
+      "aiRewards": {
+        "Travel": 1,
+        "Everything": 0.5
+      }
+    },
+    {
+      "id": "psbc_dingzhi_platinum",
+      "name": "PSBC 邮储鼎致白金信用卡",
+      "region": "CN",
+      "bank": "psbc.com",
+      "annualFee": 2600,
+      "color": "#2C2C2C",
+      "image": null,
+      "benefits": "机场贵宾厅\n积分丰富\n20万积分兑换次年年费\n医疗健康礼遇",
+      "aiRewards": {
+        "Everything": 0.5
+      }
+    },
+    {
+      "id": "psbc_unionpay_standard",
+      "name": "PSBC 邮储银联标准信用卡",
+      "region": "CN",
+      "bank": "psbc.com",
+      "annualFee": 0,
+      "color": "#007A33",
+      "image": null,
+      "benefits": "银联标准卡\n免年费\n积分消费",
+      "aiRewards": {
+        "Everything": 0.3
+      }
+    },
+    {
+      "id": "jsb_standard",
+      "name": "JSB 江苏银行标准信用卡",
+      "region": "CN",
+      "bank": "jsbchina.cn",
+      "annualFee": 0,
+      "color": "#C8102E",
+      "image": null,
+      "benefits": "随e购消费返现\n免年费\n积分礼遇",
+      "aiRewards": {
+        "Everything": 0.5
+      }
+    },
+    {
+      "id": "srcb_xinyi",
+      "name": "SRCB 上海农商银行鑫意信用卡",
+      "region": "CN",
+      "bank": "srcb.com",
+      "annualFee": 0,
+      "color": "#C8102E",
+      "image": null,
+      "benefits": "本地生活消费优惠\n积分消费\n免年费",
+      "aiRewards": {
+        "Everything": 0.5
+      }
+    },
+    {
+      "id": "gzcb_card",
+      "name": "GZB 广州银行信用卡",
+      "region": "CN",
+      "bank": "gzcb.com.cn",
+      "annualFee": 0,
+      "color": "#005BAC",
+      "image": null,
+      "benefits": "本地消费优惠\n分期特惠\n免年费",
+      "aiRewards": {
+        "Everything": 0.5
+      }
+    },
+    {
+      "id": "cmb_classic_white",
+      "name": "CMB 招商银行经典白金卡",
+      "region": "CN",
+      "bank": "cmbchina.com",
+      "annualFee": 3600,
+      "color": "#C0C0C0",
+      "image": null,
+      "benefits": "机场贵宾厅\n高尔夫礼遇\n积分永久有效\n消费达标减免年费",
+      "aiRewards": {
+        "Travel": 1,
+        "Everything": 0.5
+      }
+    },
+    {
+      "id": "cmb_jd_plus",
+      "name": "CMB 招商银行京东PLUS联名卡",
+      "region": "CN",
+      "bank": "cmbchina.com",
+      "annualFee": 0,
+      "color": "#E1251B",
+      "image": null,
+      "benefits": "京东消费多倍积分\n赠送京东PLUS会员\n网购优惠\n免年费",
+      "aiRewards": {
+        "Shopping": 1,
+        "Everything": 0.5
+      }
+    },
+    {
+      "id": "citic_yan",
+      "name": "CITIC 中信银行颜卡",
+      "region": "CN",
+      "bank": "citicbank.com.cn",
+      "annualFee": 0,
+      "color": "#E60012",
+      "image": null,
+      "benefits": "个性化卡面\n网购及娱乐优惠\n分期特惠\n免年费",
+      "aiRewards": {
+        "Shopping": 1,
+        "Everything": 0.5
+      }
+    },
+    {
+      "id": "bocom_y_power",
+      "name": "BOCOM 交通银行Y-POWER卡",
+      "region": "CN",
+      "bank": "bankcomm.com",
+      "annualFee": 0,
+      "color": "#005BAC",
+      "image": null,
+      "benefits": "年轻客群专属\n网购、外卖、影音多倍积分\n分期优惠\n免年费",
+      "aiRewards": {
+        "Shopping": 1,
+        "Food & Dining": 1,
+        "Everything": 0.5
+      }
+    },
+    {
+      "id": "pingan_byou",
+      "name": "PAB 平安由你卡",
+      "region": "CN",
+      "bank": "pingan.com",
+      "annualFee": 0,
+      "color": "#FF6600",
+      "image": null,
+      "benefits": "DIY卡面与权益\n自选消费类别加倍积分\n分期特惠\n免年费",
+      "aiRewards": {
+        "Shopping": 1,
+        "Everything": 0.5
+      }
+    },
+    {
+      "id": "cgb_zhenqing",
+      "name": "CGB 广发真情卡",
+      "region": "CN",
+      "bank": "cgbchina.com.cn",
+      "annualFee": 0,
+      "color": "#E60012",
+      "image": null,
+      "benefits": "女性专属权益\n美容、购物优惠\n意外保障\n免年费",
+      "aiRewards": {
+        "Shopping": 1,
+        "Everything": 0.5
+      }
+    },
+    {
+      "id": "boc_great_wall",
+      "name": "BOC 中国银行长城环球通信用卡",
+      "region": "CN",
+      "bank": "boc.cn",
+      "annualFee": 0,
+      "color": "#C8102E",
+      "image": null,
+      "benefits": "全球多币种支付\n境外消费返现\n机场贵宾厅\n积分消费",
+      "aiRewards": {
+        "Travel": 1,
+        "Everything": 0.5
+      }
+    },
+    {
+      "id": "ccb_dragon_amex",
+      "name": "CCB 建设银行龙卡美国运通卡",
+      "region": "CN",
+      "bank": "ccb.com",
+      "annualFee": 580,
+      "color": "#003DA5",
+      "image": null,
+      "benefits": "美国运通权益\n境外消费多倍积分\n机场贵宾厅\n消费达标减免年费",
+      "aiRewards": {
+        "Travel": 1,
+        "Everything": 0.5
+      }
+    },
+    {
+      "id": "abc_jcb_gold",
+      "name": "ABC 农业银行金穗JCB金卡",
+      "region": "CN",
+      "bank": "abchina.com",
+      "annualFee": 0,
+      "color": "#00833E",
+      "image": null,
+      "benefits": "JCB境外优惠\n日本及亚洲消费礼遇\n积分消费\n免年费",
+      "aiRewards": {
+        "Travel": 1,
+        "Everything": 0.5
+      }
+    },
+    {
+      "id": "icbc_marvel",
+      "name": "ICBC 工商银行漫威信用卡",
+      "region": "CN",
+      "bank": "icbc.com.cn",
+      "annualFee": 0,
+      "color": "#ED1D24",
+      "image": null,
+      "benefits": "漫威主题卡面\n观影优惠\n网购加倍积分\n免年费",
+      "aiRewards": {
+        "Entertainment": 1,
+        "Everything": 0.5
+      }
+    },
+    {
+      "id": "bocom_disney",
+      "name": "BOCOM 交通银行迪士尼卡",
+      "region": "CN",
+      "bank": "bankcomm.com",
+      "annualFee": 0,
+      "color": "#1C2D6B",
+      "image": null,
+      "benefits": "迪士尼主题权益\n上海迪士尼乐园优惠\n积分消费\n免年费",
+      "aiRewards": {
+        "Entertainment": 1,
+        "Everything": 0.5
+      }
+    },
+    {
+      "id": "spdb_simple_white",
+      "name": "SPDB 浦发银行简约白金卡",
+      "region": "CN",
+      "bank": "spdb.com.cn",
+      "annualFee": 360,
+      "color": "#8C9196",
+      "image": null,
+      "benefits": "机场贵宾厅\n餐饮及网购优惠\n积分消费\n消费达标减免年费",
+      "aiRewards": {
+        "Food & Dining": 1,
+        "Everything": 0.5
+      }
+    },
+    {
+      "id": "ceb_sunshine",
+      "name": "CEB 光大银行阳光信用卡",
+      "region": "CN",
+      "bank": "cebbank.com",
+      "annualFee": 0,
+      "color": "#E60012",
+      "image": null,
+      "benefits": "生活缴费优惠\n网购及餐饮加倍积分\n分期特惠\n免年费",
+      "aiRewards": {
+        "Shopping": 1,
+        "Everything": 0.5
+      }
+    },
+    {
+      "id": "cib_xingdongli",
+      "name": "CIB 兴业银行兴动力卡",
+      "region": "CN",
+      "bank": "cib.com.cn",
+      "annualFee": 0,
+      "color": "#005BAC",
+      "image": null,
+      "benefits": "加油返现\n车主专属权益\n道路救援\n免年费",
+      "aiRewards": {
+        "Gas & Transit": 1,
+        "Everything": 0.5
+      }
+    },
+    {
+      "id": "hxb_youth",
+      "name": "HXB 华夏银行青春信用卡",
+      "region": "CN",
+      "bank": "hxb.com.cn",
+      "annualFee": 0,
+      "color": "#C8102E",
+      "image": null,
+      "benefits": "年轻客群专属\n网购、外卖优惠\n分期特惠\n免年费",
+      "aiRewards": {
+        "Shopping": 1,
+        "Everything": 0.5
+      }
+    },
+    {
+      "id": "cmbc_qq",
+      "name": "CMBC 民生银行QQ联名卡",
+      "region": "CN",
+      "bank": "cmbc.com.cn",
+      "annualFee": 0,
+      "color": "#1296DB",
+      "image": null,
+      "benefits": "QQ会员权益\n腾讯生态消费优惠\n积分消费\n免年费",
+      "aiRewards": {
+        "Entertainment": 1,
+        "Everything": 0.5
+      }
+    },
+    {
+      "id": "citic_i_platinum",
+      "name": "CITIC 中信银行i白金卡",
+      "region": "CN",
+      "bank": "citicbank.com.cn",
+      "annualFee": 200,
+      "color": "#8C9196",
+      "image": null,
+      "benefits": "网购及移动支付加倍积分\n餐饮优惠\n积分消费\n消费达标减免年费",
+      "aiRewards": {
+        "Shopping": 1,
+        "Everything": 0.5
+      }
+    },
+    {
+      "id": "spdb_dream",
+      "name": "SPDB 浦发银行梦卡",
+      "region": "CN",
+      "bank": "spdb.com.cn",
+      "annualFee": 0,
+      "color": "#E60012",
+      "image": null,
+      "benefits": "个性化卡面\n网购、餐饮多倍积分\n分期特惠\n免年费",
+      "aiRewards": {
+        "Shopping": 1,
+        "Everything": 0.5
+      }
+    },
+    {
+      "id": "cmb_hello_kitty",
+      "name": "CMB 招商银行Hello Kitty卡",
+      "region": "CN",
+      "bank": "cmbchina.com",
+      "annualFee": 0,
+      "color": "#FF6699",
+      "image": null,
+      "benefits": "Hello Kitty主题卡面\n网购及生活优惠\n积分消费\n免年费",
+      "aiRewards": {
+        "Shopping": 1,
+        "Everything": 0.5
+      }
+    },
+    {
+      "id": "guangfa_visa_gold",
+      "name": "CGB 广发Visa金卡",
+      "region": "CN",
+      "bank": "cgbchina.com.cn",
+      "annualFee": 0,
+      "color": "#1A1F71",
+      "image": null,
+      "benefits": "Visa境外消费优惠\n网购及餐饮积分\n分期特惠\n免年费",
+      "aiRewards": {
+        "Travel": 1,
+        "Everything": 0.5
+      }
+    },
+    {
+      "id": "cmb_taobao",
+      "name": "CMB 招商银行淘宝联名卡",
+      "region": "CN",
+      "bank": "cmbchina.com",
+      "annualFee": 0,
+      "color": "#FF6600",
+      "image": null,
+      "benefits": "淘宝及天猫消费优惠\n网购加倍积分\n分期特惠\n免年费",
+      "aiRewards": {
+        "Shopping": 1,
+        "Everything": 0.5
+      }
+    },
+    {
+      "id": "citic_starbucks",
+      "name": "CITIC 中信银行星巴克联名卡",
+      "region": "CN",
+      "bank": "citicbank.com.cn",
+      "annualFee": 0,
+      "color": "#00704A",
+      "image": null,
+      "benefits": "星巴克消费优惠\n赠送星享会员权益\n积分消费\n免年费",
+      "aiRewards": {
+        "Food & Dining": 1,
+        "Everything": 0.5
+      }
+    },
+    {
+      "id": "cmb_doraemon",
+      "name": "CMB 招商银行哆啦A梦JCB卡",
+      "region": "CN",
+      "bank": "cmbchina.com",
+      "annualFee": 0,
+      "color": "#2EA7E0",
+      "image": null,
+      "benefits": "哆啦A梦主题卡面\nJCB境外优惠\n网购积分\n免年费",
+      "aiRewards": {
+        "Travel": 1,
+        "Everything": 0.5
+      }
+    },
+    {
+      "id": "icbc_e_card",
+      "name": "ICBC 工商银行e卡",
+      "region": "CN",
+      "bank": "icbc.com.cn",
+      "annualFee": 0,
+      "color": "#C8102E",
+      "image": null,
+      "benefits": "虚拟信用卡\n网购及移动支付优惠\n积分消费\n免年费",
+      "aiRewards": {
+        "Shopping": 1,
+        "Everything": 0.5
+      }
+    },
+    {
+      "id": "spdb_jd",
+      "name": "SPDB 浦发银行京东联名卡",
+      "region": "CN",
+      "bank": "spdb.com.cn",
+      "annualFee": 0,
+      "color": "#E1251B",
+      "image": null,
+      "benefits": "京东消费多倍积分\n赠送京东PLUS权益\n网购优惠\n免年费",
+      "aiRewards": {
+        "Shopping": 1,
+        "Everything": 0.5
+      }
+    },
+    {
+      "id": "bocom_starbucks",
+      "name": "BOCOM 交通银行星巴克卡",
+      "region": "CN",
+      "bank": "bankcomm.com",
+      "annualFee": 0,
+      "color": "#00704A",
+      "image": null,
+      "benefits": "星巴克消费优惠\n会员权益\n积分消费\n免年费",
+      "aiRewards": {
+        "Food & Dining": 1,
+        "Everything": 0.5
+      }
+    },
+    {
+      "id": "pingan_aoyou",
+      "name": "PAB 平安傲游信用卡",
+      "region": "CN",
+      "bank": "pingan.com",
+      "annualFee": 0,
+      "color": "#FF6600",
+      "image": null,
+      "benefits": "境外消费返现\n旅行权益\n积分消费\n免年费",
+      "aiRewards": {
+        "Travel": 1,
+        "Everything": 0.5
+      }
+    },
+    {
+      "id": "cmbc_netease",
+      "name": "CMBC 民生银行网易联名卡",
+      "region": "CN",
+      "bank": "cmbc.com.cn",
+      "annualFee": 0,
+      "color": "#E60012",
+      "image": null,
+      "benefits": "网易生态消费优惠\n网购及娱乐积分\n分期特惠\n免年费",
+      "aiRewards": {
+        "Shopping": 1,
+        "Everything": 0.5
+      }
+    },
+    {
+      "id": "boc_ufan",
+      "name": "BOC 中国银行UFan卡",
+      "region": "CN",
+      "bank": "boc.cn",
+      "annualFee": 0,
+      "color": "#C8102E",
+      "image": null,
+      "benefits": "年轻客群专属\n网购、外卖、影音优惠\n积分消费\n免年费",
+      "aiRewards": {
+        "Shopping": 1,
+        "Everything": 0.5
+      }
+    },
+    {
+      "id": "cgb_diy",
+      "name": "CGB 广发DIY信用卡",
+      "region": "CN",
+      "bank": "cgbchina.com.cn",
+      "annualFee": 0,
+      "color": "#E60012",
+      "image": null,
+      "benefits": "自选卡面与权益\n自选消费类别加倍\n分期特惠\n免年费",
+      "aiRewards": {
+        "Shopping": 1,
+        "Everything": 0.5
+      }
+    },
+    {
+      "id": "abc_taobao",
+      "name": "ABC 农业银行淘宝联名卡",
+      "region": "CN",
+      "bank": "abchina.com",
+      "annualFee": 0,
+      "color": "#FF6600",
+      "image": null,
+      "benefits": "淘宝天猫消费优惠\n网购加倍积分\n分期特惠\n免年费",
+      "aiRewards": {
+        "Shopping": 1,
+        "Everything": 0.5
+      }
+    },
+    {
+      "id": "ceb_disney",
+      "name": "CEB 光大银行迪士尼联名卡",
+      "region": "CN",
+      "bank": "cebbank.com",
+      "annualFee": 0,
+      "color": "#1C2D6B",
+      "image": null,
+      "benefits": "迪士尼主题权益\n乐园消费优惠\n积分消费\n免年费",
+      "aiRewards": {
+        "Entertainment": 1,
+        "Everything": 0.5
+      }
+    },
+    {
+      "id": "icbc_alipay",
+      "name": "ICBC 工商银行支付宝联名卡",
+      "region": "CN",
+      "bank": "icbc.com.cn",
+      "annualFee": 0,
+      "color": "#1677FF",
+      "image": null,
+      "benefits": "支付宝消费优惠\n移动支付加倍积分\n分期特惠\n免年费",
+      "aiRewards": {
+        "Shopping": 1,
+        "Everything": 0.5
+      }
+    },
+    {
+      "id": "nb_youth",
+      "name": "NBCB 宁波银行汇通青春卡",
+      "region": "CN",
+      "bank": "nbcb.com.cn",
+      "annualFee": 0,
+      "color": "#005BAC",
+      "image": null,
+      "benefits": "年轻客群专属\n网购、餐饮优惠\n分期特惠\n免年费",
+      "aiRewards": {
+        "Shopping": 1,
+        "Everything": 0.5
+      }
+    },
+    {
+      "id": "cib_credit_easy",
+      "name": "CIB 兴业银行信用易卡",
+      "region": "CN",
+      "bank": "cib.com.cn",
+      "annualFee": 0,
+      "color": "#005BAC",
+      "image": null,
+      "benefits": "账单分期优惠\n网购及餐饮积分\n分期特惠\n免年费",
+      "aiRewards": {
+        "Shopping": 1,
+        "Everything": 0.5
+      }
+    },
+    {
       "id": "hsbc_live_plus",
       "name": "HSBC Live+ Cash Back",
       "name_zh_TW": "匯豐 Live+ 現金回饋卡",
@@ -6301,6 +8728,823 @@
       "aiRewards": {
         "Everything": 2.6,
         "Flights": 5.2
+      }
+    },
+    {
+      "id": "cathay_cube",
+      "name": "Cathay United CUBE Card",
+      "name_zh_TW": "國泰世華 CUBE 卡",
+      "region": "TW",
+      "bank": "cathaybk.com.tw",
+      "annualFee": 0,
+      "color": "#00875A",
+      "image": "https://raw.githubusercontent.com/jimabby/card-assets/main/cards/cathay_cube.png",
+      "benefits": "Up to 3.3% on chosen category (digital/dining/travel/select)\n0.3% general spending\n7 plans switchable daily\nNo annual fee",
+      "benefits_zh_TW": "指定方案最高3.3%小樹點回饋（玩數位/樂饗購/趣旅行/集精選）\n一般消費0.3%\n7種方案每日可切換\n免年費",
+      "aiRewards": {
+        "Shopping": 3.3,
+        "Travel": 3.3,
+        "Entertainment": 3.3,
+        "Food & Dining": 3.3,
+        "Everything": 0.3
+      }
+    },
+    {
+      "id": "fubon_momo",
+      "name": "Fubon momo Card",
+      "name_zh_TW": "富邦 momo 卡",
+      "region": "TW",
+      "bank": "fubon.com",
+      "annualFee": 0,
+      "color": "#E5007D",
+      "image": "https://raw.githubusercontent.com/jimabby/card-assets/main/cards/fubon_momo.png",
+      "benefits": "momo 3% unlimited (select brands up to 7%)\n1% general spending\nNo annual fee",
+      "benefits_zh_TW": "momo購物3%無上限（精選品牌最高7%）\n一般消費1%\n免年費",
+      "aiRewards": {
+        "Shopping": 3,
+        "Everything": 1
+      }
+    },
+    {
+      "id": "taishin_jkopay",
+      "name": "Taishin JKO Pay Card",
+      "name_zh_TW": "台新 街口豬富卡",
+      "region": "TW",
+      "bank": "taishinbank.com.tw",
+      "annualFee": 0,
+      "color": "#00B8C4",
+      "image": "https://raw.githubusercontent.com/jimabby/card-assets/main/cards/taishin_jkopay.png",
+      "benefits": "Up to 3.5% JKO Coin at select merchants\n1% general spending\nNo annual fee",
+      "benefits_zh_TW": "精選通路最高3.5%街口幣回饋\n一般消費1%\n免年費",
+      "aiRewards": {
+        "Shopping": 3.5,
+        "Food & Dining": 3.5,
+        "Everything": 1
+      }
+    },
+    {
+      "id": "taishin_flygo",
+      "name": "Taishin FlyGo Card",
+      "name_zh_TW": "台新 FlyGo 卡",
+      "region": "TW",
+      "bank": "taishinbank.com.tw",
+      "annualFee": 0,
+      "color": "#0091DA",
+      "image": "https://raw.githubusercontent.com/jimabby/card-assets/main/cards/taishin_flygo.png",
+      "benefits": "2.8% overseas spending\n2.8% on designated mobile payments\n1% general spending\nNo annual fee",
+      "benefits_zh_TW": "海外消費2.8%\n指定行動支付2.8%\n一般消費1%\n免年費",
+      "aiRewards": {
+        "Travel": 2.8,
+        "Flights": 2.8,
+        "Hotels": 2.8,
+        "Everything": 1
+      }
+    },
+    {
+      "id": "ctbc_foodpanda",
+      "name": "CTBC foodpanda Card",
+      "name_zh_TW": "中信 foodpanda 聯名卡",
+      "region": "TW",
+      "bank": "ctbcbank.com",
+      "annualFee": 0,
+      "color": "#D70F64",
+      "image": "https://raw.githubusercontent.com/jimabby/card-assets/main/cards/ctbc_foodpanda.png",
+      "benefits": "Up to 30% on foodpanda (with pandapro)\nDining & delivery boosts\n1% general spending\nNo annual fee",
+      "benefits_zh_TW": "foodpanda最高30%回饋（搭配pandapro）\n外送與餐飲加碼\n一般消費1%\n免年費",
+      "aiRewards": {
+        "Food & Dining": 5,
+        "Everything": 1
+      }
+    },
+    {
+      "id": "union_lai",
+      "name": "Union Bank Lai Points Card",
+      "name_zh_TW": "聯邦 賴點卡",
+      "region": "TW",
+      "bank": "unionbank.com.tw",
+      "annualFee": 0,
+      "color": "#06C755",
+      "image": "https://raw.githubusercontent.com/jimabby/card-assets/main/cards/union_lai.png",
+      "benefits": "Up to 11% with LINE Pay on even dates\n3% overseas\n1% general spending\nNo annual fee",
+      "benefits_zh_TW": "雙數日搭配LINE Pay最高11% LINE Points\n海外3%\n一般消費1%\n免年費",
+      "aiRewards": {
+        "Shopping": 3,
+        "Travel": 3,
+        "Everything": 1
+      }
+    },
+    {
+      "id": "nextbank_dajiang",
+      "name": "Next Bank Da Jiang Card",
+      "name_zh_TW": "將來銀行 大將卡",
+      "region": "TW",
+      "bank": "nextbank.com.tw",
+      "annualFee": 0,
+      "color": "#FF6B00",
+      "image": "https://raw.githubusercontent.com/jimabby/card-assets/main/cards/nextbank_dajiang.png",
+      "benefits": "Up to 5% on designated payment platforms\n1% general spending\nNo annual fee",
+      "benefits_zh_TW": "指定支付通路最高5%回饋\n一般消費1%\n免年費",
+      "aiRewards": {
+        "Shopping": 5,
+        "Everything": 1
+      }
+    },
+    {
+      "id": "obank_orange",
+      "name": "O-Bank O! Range Card",
+      "name_zh_TW": "王道銀行 O! Range 卡",
+      "region": "TW",
+      "bank": "o-bank.com",
+      "annualFee": 0,
+      "color": "#FF7A00",
+      "image": "https://raw.githubusercontent.com/jimabby/card-assets/main/cards/obank_orange.png",
+      "benefits": "Up to 10.8% for new customers on select mobile payments\n2-3% designated channels\n1% general spending\nNo annual fee",
+      "benefits_zh_TW": "新戶指定行動支付最高10.8%\n指定通路2-3%\n一般消費1%\n免年費",
+      "aiRewards": {
+        "Shopping": 3,
+        "Everything": 1
+      }
+    },
+    {
+      "id": "shanghai_minions",
+      "name": "SCSB Minions Card",
+      "name_zh_TW": "上海商銀 小小兵卡",
+      "region": "TW",
+      "bank": "scsb.com.tw",
+      "annualFee": 0,
+      "color": "#FFD500",
+      "image": "https://raw.githubusercontent.com/jimabby/card-assets/main/cards/shanghai_minions.png",
+      "benefits": "5% at convenience stores with mobile pay\nMobile payment boosts\n1% general spending\nNo annual fee",
+      "benefits_zh_TW": "搭配行動支付超商最高5%\n行動支付加碼\n一般消費1%\n免年費",
+      "aiRewards": {
+        "Groceries": 5,
+        "Everything": 1
+      }
+    },
+    {
+      "id": "mega_liduo",
+      "name": "Mega Lots Signature Card",
+      "name_zh_TW": "兆豐 利多御璽卡",
+      "region": "TW",
+      "bank": "megabank.com.tw",
+      "annualFee": 0,
+      "color": "#005BAC",
+      "image": "https://raw.githubusercontent.com/jimabby/card-assets/main/cards/mega_liduo.png",
+      "benefits": "3% online / 5% travel / 6.6% mobile pay (capped)\n0.6% general spending unlimited\nNo annual fee",
+      "benefits_zh_TW": "網購3%/旅遊5%/行動支付6.6%（有上限）\n一般消費0.6%無上限\n免年費",
+      "aiRewards": {
+        "Shopping": 3,
+        "Travel": 5,
+        "Flights": 5,
+        "Everything": 0.6
+      }
+    },
+    {
+      "id": "hncb_sny",
+      "name": "Hua Nan SnY Card",
+      "name_zh_TW": "華南 SnY 卡",
+      "region": "TW",
+      "bank": "hncb.com.tw",
+      "annualFee": 0,
+      "color": "#00A04A",
+      "image": "https://raw.githubusercontent.com/jimabby/card-assets/main/cards/hncb_sny.png",
+      "benefits": "Up to 10% at designated channels\n2.5% transit / 2% online\n1% general spending\nNo annual fee",
+      "benefits_zh_TW": "指定通路最高10%\n交通2.5%/網購2%\n一般消費1%\n免年費",
+      "aiRewards": {
+        "Shopping": 2,
+        "Travel": 2.5,
+        "Everything": 1
+      }
+    },
+    {
+      "id": "yuanta_diamond",
+      "name": "Yuanta Diamond Card",
+      "name_zh_TW": "元大 鑽金卡",
+      "region": "TW",
+      "bank": "yuantabank.com.tw",
+      "annualFee": 0,
+      "color": "#C8102E",
+      "image": "https://raw.githubusercontent.com/jimabby/card-assets/main/cards/yuanta_diamond.png",
+      "benefits": "1.2% unlimited cashback\nMobile payment boosts\nNo annual fee",
+      "benefits_zh_TW": "無腦1.2%現金回饋無上限\n行動支付加碼\n免年費",
+      "aiRewards": {
+        "Everything": 1.2
+      }
+    },
+    {
+      "id": "scb_cashback",
+      "name": "Standard Chartered Cashback Signature",
+      "name_zh_TW": "渣打 現金回饋御璽卡",
+      "region": "TW",
+      "bank": "sc.com.tw",
+      "annualFee": 0,
+      "color": "#0F8243",
+      "image": "https://raw.githubusercontent.com/jimabby/card-assets/main/cards/scb_cashback.png",
+      "benefits": "1.88% domestic & overseas cashback, no cap\nAnnual fee waived with 24 transactions/yr",
+      "benefits_zh_TW": "國內外1.88%現金回饋無上限\n年消費24次或NT$24,000次年免年費",
+      "aiRewards": {
+        "Everything": 1.88
+      }
+    },
+    {
+      "id": "esun_only",
+      "name": "E.SUN Only Card",
+      "name_zh_TW": "玉山 Only 卡",
+      "region": "TW",
+      "bank": "esunbank.com.tw",
+      "annualFee": 0,
+      "color": "#006A4E",
+      "image": "https://raw.githubusercontent.com/jimabby/card-assets/main/cards/esun_only.png",
+      "benefits": "High rewards on mobile pay & online (E.SUN e point)\n1% general spending\nNo annual fee",
+      "benefits_zh_TW": "行動支付與網購高回饋（玉山e point）\n一般消費1%\n免年費",
+      "aiRewards": {
+        "Shopping": 3,
+        "Everything": 1
+      }
+    },
+    {
+      "id": "kgi_cashback",
+      "name": "KGI Cashback Signature",
+      "name_zh_TW": "凱基 現金回饋御璽卡",
+      "region": "TW",
+      "bank": "kgibank.com.tw",
+      "annualFee": 0,
+      "color": "#003DA5",
+      "image": "https://raw.githubusercontent.com/jimabby/card-assets/main/cards/kgi_cashback.png",
+      "benefits": "2.88% overseas cashback\n1% domestic\nNo annual fee",
+      "benefits_zh_TW": "海外2.88%現金回饋\n國內1%\n免年費",
+      "aiRewards": {
+        "Travel": 2.88,
+        "Flights": 2.88,
+        "Everything": 1
+      }
+    },
+    {
+      "id": "taishin_gogo",
+      "name": "Taishin @GoGo Card",
+      "name_zh_TW": "台新 @GoGo 卡",
+      "region": "TW",
+      "bank": "taishinbank.com.tw",
+      "annualFee": 0,
+      "color": "#FF6F00",
+      "image": "https://raw.githubusercontent.com/jimabby/card-assets/main/cards/taishin_gogo.png",
+      "benefits": "Up to 3.8% on designated digital channels\n1% general spending\nNo annual fee",
+      "benefits_zh_TW": "指定數位通路最高3.8%\n一般消費1%\n免年費",
+      "aiRewards": {
+        "Shopping": 3.8,
+        "Everything": 1
+      }
+    },
+    {
+      "id": "chb_mylove",
+      "name": "Chang Hwa My Love Cashback Card",
+      "name_zh_TW": "彰化銀行 My樂現金回饋卡",
+      "region": "TW",
+      "bank": "bankchb.com",
+      "annualFee": 0,
+      "color": "#005CA9",
+      "image": "https://raw.githubusercontent.com/jimabby/card-assets/main/cards/chb_mylove.png",
+      "benefits": "Mobile pay up to 6.5% (new) / 3.5% (existing)\n1% general spending\nNo annual fee",
+      "benefits_zh_TW": "台灣Pay/Google Pay/LINE Pay最高6.5%（新戶）/3.5%（舊戶）\n一般消費1%\n免年費",
+      "aiRewards": {
+        "Shopping": 3.5,
+        "Everything": 1
+      }
+    },
+    {
+      "id": "skbank_global",
+      "name": "Shin Kong Global Cashback Card",
+      "name_zh_TW": "新光銀行 寰宇現金回饋卡",
+      "region": "TW",
+      "bank": "skbank.com.tw",
+      "annualFee": 0,
+      "color": "#E2231A",
+      "image": "https://raw.githubusercontent.com/jimabby/card-assets/main/cards/skbank_global.png",
+      "benefits": "3% overseas / 3% designated mobile pay\n1% domestic spending\nNo annual fee",
+      "benefits_zh_TW": "國外3%/指定行動支付3%\n國內1%\n免年費",
+      "aiRewards": {
+        "Travel": 3,
+        "Flights": 3,
+        "Shopping": 3,
+        "Everything": 1
+      }
+    },
+    {
+      "id": "tbb_sustainable_life",
+      "name": "TBB Sustainable Life Card",
+      "name_zh_TW": "台企銀 永續生活卡",
+      "region": "TW",
+      "bank": "tbb.com.tw",
+      "annualFee": 0,
+      "color": "#0A8A3F",
+      "image": "https://raw.githubusercontent.com/jimabby/card-assets/main/cards/tbb_sustainable_life.png",
+      "benefits": "2.5% domestic / 3.5% overseas (with digital account)\n10% at designated green restaurants\nNo annual fee",
+      "benefits_zh_TW": "搭配數位帳戶國內2.5%/國外3.5%\n指定綠色餐廳10%現金回饋\n免年費",
+      "aiRewards": {
+        "Food & Dining": 2.5,
+        "Travel": 3.5,
+        "Flights": 3.5,
+        "Everything": 2.5
+      }
+    },
+    {
+      "id": "bot_cashback",
+      "name": "Bank of Taiwan Cashback Card",
+      "name_zh_TW": "台灣銀行 現金回饋信用卡",
+      "region": "TW",
+      "bank": "bot.com.tw",
+      "annualFee": 0,
+      "color": "#005BAC",
+      "image": "https://raw.githubusercontent.com/jimabby/card-assets/main/cards/bot_cashback.png",
+      "benefits": "Taiwan Pay QR rewards\nMobile payment boosts\n1% general spending\nNo annual fee",
+      "benefits_zh_TW": "台灣Pay掃碼回饋\n行動支付加碼\n一般消費1%\n免年費",
+      "aiRewards": {
+        "Everything": 1
+      }
+    },
+    {
+      "id": "tcb_cashback",
+      "name": "TCB Cashback Card",
+      "name_zh_TW": "合作金庫 現金回饋卡",
+      "region": "TW",
+      "bank": "tcb-bank.com.tw",
+      "annualFee": 0,
+      "color": "#00833E",
+      "image": "https://raw.githubusercontent.com/jimabby/card-assets/main/cards/tcb_cashback.png",
+      "benefits": "Taiwan Pay bonus 1.5% reward points\nMobile payment boosts\n1% general spending\nNo annual fee",
+      "benefits_zh_TW": "台灣Pay綁卡額外1.5%紅利點數\n行動支付加碼\n一般消費1%\n免年費",
+      "aiRewards": {
+        "Everything": 1
+      }
+    },
+    {
+      "id": "landbank_jcb",
+      "name": "Land Bank JCB Card",
+      "name_zh_TW": "土地銀行 JCB信用卡",
+      "region": "TW",
+      "bank": "landbank.com.tw",
+      "annualFee": 0,
+      "color": "#8B5E3C",
+      "image": "https://raw.githubusercontent.com/jimabby/card-assets/main/cards/landbank_jcb.png",
+      "benefits": "Up to 0.5% cashback\nTaiwan Pay rewards\nJCB overseas offers\nNo annual fee",
+      "benefits_zh_TW": "最高0.5%現金回饋\n台灣Pay回饋\nJCB海外優惠\n免年費",
+      "aiRewards": {
+        "Everything": 0.5
+      }
+    },
+    {
+      "id": "ctbc_costco",
+      "name": "CTBC Costco Co-branded Card",
+      "name_zh_TW": "中國信託 Costco 聯名卡",
+      "region": "TW",
+      "bank": "ctbcbank.com",
+      "annualFee": 0,
+      "color": "#E31837",
+      "image": "https://raw.githubusercontent.com/jimabby/card-assets/main/cards/ctbc_costco.png",
+      "benefits": "Cashback at Costco\nHigher overseas cashback\n1% general spending\nNo annual fee",
+      "benefits_zh_TW": "Costco賣場消費回饋\n海外消費加碼回饋\n一般消費1%\n免年費",
+      "aiRewards": {
+        "Groceries": 1.5,
+        "Travel": 1.5,
+        "Everything": 1
+      }
+    },
+    {
+      "id": "cathay_koko",
+      "name": "Cathay United KOKO Combo",
+      "name_zh_TW": "國泰世華 KOKO Combo 卡",
+      "region": "TW",
+      "bank": "cathaybk.com.tw",
+      "annualFee": 0,
+      "color": "#00875A",
+      "image": "https://raw.githubusercontent.com/jimabby/card-assets/main/cards/cathay_koko.png",
+      "benefits": "Young-customer rewards\nMobile payment & streaming boosts\n1% general spending\nNo annual fee",
+      "benefits_zh_TW": "年輕客群回饋\n行動支付與串流加碼\n一般消費1%\n免年費",
+      "aiRewards": {
+        "Shopping": 2,
+        "Entertainment": 2,
+        "Everything": 1
+      }
+    },
+    {
+      "id": "ctbc_the_royal",
+      "name": "CTBC The Royal Signature",
+      "name_zh_TW": "中信 The Royal 御璽卡",
+      "region": "TW",
+      "bank": "ctbcbank.com",
+      "annualFee": 3600,
+      "color": "#1A1A1A",
+      "image": "https://raw.githubusercontent.com/jimabby/card-assets/main/cards/ctbc_the_royal.png",
+      "benefits": "Airport lounge access\nTravel & dining privileges\nReward point multipliers\nConcierge service",
+      "benefits_zh_TW": "機場貴賓室\n旅遊與餐飲禮遇\n紅利點數加倍\n禮賓服務",
+      "aiRewards": {
+        "Travel": 2,
+        "Food & Dining": 2,
+        "Everything": 1
+      }
+    },
+    {
+      "id": "esun_e_card",
+      "name": "E.SUN e Card",
+      "name_zh_TW": "玉山 e 卡",
+      "region": "TW",
+      "bank": "esunbank.com.tw",
+      "annualFee": 0,
+      "color": "#006A4E",
+      "image": "https://raw.githubusercontent.com/jimabby/card-assets/main/cards/esun_e_card.png",
+      "benefits": "Higher rewards on online shopping\nMobile payment boosts\n1% general spending\nNo annual fee",
+      "benefits_zh_TW": "網路購物加碼回饋\n行動支付加碼\n一般消費1%\n免年費",
+      "aiRewards": {
+        "Shopping": 3,
+        "Everything": 1
+      }
+    },
+    {
+      "id": "cathay_eva",
+      "name": "Cathay United EVA Air Co-branded Card",
+      "name_zh_TW": "國泰世華 長榮航空聯名卡",
+      "region": "TW",
+      "bank": "cathaybk.com.tw",
+      "annualFee": 1800,
+      "color": "#1C6B3C",
+      "image": "https://raw.githubusercontent.com/jimabby/card-assets/main/cards/cathay_eva.png",
+      "benefits": "EVA Air mileage earning\nMileage on overseas spending\nTravel insurance\nAirport perks",
+      "benefits_zh_TW": "長榮航空哩程累積\n海外消費哩程加碼\n旅遊保險\n機場禮遇",
+      "aiRewards": {
+        "Flights": 2,
+        "Travel": 2,
+        "Everything": 1
+      }
+    },
+    {
+      "id": "esun_world_card",
+      "name": "E.SUN World Card",
+      "name_zh_TW": "玉山 世界卡",
+      "region": "TW",
+      "bank": "esunbank.com.tw",
+      "annualFee": 3600,
+      "color": "#1A1A1A",
+      "image": "https://raw.githubusercontent.com/jimabby/card-assets/main/cards/esun_world_card.png",
+      "benefits": "Airport lounge access\nTravel & overseas spending rewards\nReward point multipliers\nConcierge service",
+      "benefits_zh_TW": "機場貴賓室\n旅遊與海外消費回饋\n紅利點數加倍\n禮賓服務",
+      "aiRewards": {
+        "Travel": 2,
+        "Flights": 2,
+        "Everything": 1
+      }
+    },
+    {
+      "id": "fubon_digital_life",
+      "name": "Fubon Digital Life Card",
+      "name_zh_TW": "富邦 數位生活卡",
+      "region": "TW",
+      "bank": "fubon.com",
+      "annualFee": 0,
+      "color": "#003DA5",
+      "image": "https://raw.githubusercontent.com/jimabby/card-assets/main/cards/fubon_digital_life.png",
+      "benefits": "Rewards on mobile pay & online\nStreaming & delivery boosts\n1% general spending\nNo annual fee",
+      "benefits_zh_TW": "行動支付與網購回饋\n串流與外送加碼\n一般消費1%\n免年費",
+      "aiRewards": {
+        "Shopping": 2,
+        "Entertainment": 2,
+        "Everything": 1
+      }
+    },
+    {
+      "id": "taishin_world",
+      "name": "Taishin World Card",
+      "name_zh_TW": "台新 世界卡",
+      "region": "TW",
+      "bank": "taishinbank.com.tw",
+      "annualFee": 3600,
+      "color": "#1A1A1A",
+      "image": "https://raw.githubusercontent.com/jimabby/card-assets/main/cards/taishin_world.png",
+      "benefits": "Airport lounge access\nTravel & overseas spending rewards\nReward point multipliers\nConcierge service",
+      "benefits_zh_TW": "機場貴賓室\n旅遊與海外消費回饋\n紅利點數加倍\n禮賓服務",
+      "aiRewards": {
+        "Travel": 2,
+        "Flights": 2,
+        "Everything": 1
+      }
+    },
+    {
+      "id": "ctbc_dream_infinite",
+      "name": "CTBC Dream Card Infinite",
+      "name_zh_TW": "中信 鼎極無限卡",
+      "region": "TW",
+      "bank": "ctbcbank.com",
+      "annualFee": 20000,
+      "color": "#1A1A1A",
+      "image": "https://raw.githubusercontent.com/jimabby/card-assets/main/cards/ctbc_dream_infinite.png",
+      "benefits": "Visa Infinite top-tier privileges\nAirport limo & lounge access\nLuxury hotel & dining benefits\nConcierge service",
+      "benefits_zh_TW": "Visa無限卡頂級權益\n機場接送與貴賓室\n奢華飯店與餐飲禮遇\n禮賓服務",
+      "aiRewards": {
+        "Travel": 2,
+        "Food & Dining": 2,
+        "Everything": 1
+      }
+    },
+    {
+      "id": "union_jihe",
+      "name": "Union Bank Jihe Card",
+      "name_zh_TW": "聯邦 吉鶴卡",
+      "region": "TW",
+      "bank": "unionbank.com.tw",
+      "annualFee": 0,
+      "color": "#E60012",
+      "image": "https://raw.githubusercontent.com/jimabby/card-assets/main/cards/union_jihe.png",
+      "benefits": "High cashback in Japan\nOverseas spending boost\n1% general spending\nNo annual fee",
+      "benefits_zh_TW": "日本消費高回饋\n海外消費加碼\n一般消費1%\n免年費",
+      "aiRewards": {
+        "Travel": 3,
+        "Flights": 3,
+        "Everything": 1
+      }
+    },
+    {
+      "id": "kgi_evolution",
+      "name": "KGI Evolution Cashback Card",
+      "name_zh_TW": "凱基 evolution 現金回饋卡",
+      "region": "TW",
+      "bank": "kgibank.com.tw",
+      "annualFee": 0,
+      "color": "#003DA5",
+      "image": "https://raw.githubusercontent.com/jimabby/card-assets/main/cards/kgi_evolution.png",
+      "benefits": "Mobile payment & online boosts\nOverseas cashback\n1% general spending\nNo annual fee",
+      "benefits_zh_TW": "行動支付與網購加碼\n海外現金回饋\n一般消費1%\n免年費",
+      "aiRewards": {
+        "Shopping": 2,
+        "Travel": 2,
+        "Everything": 1
+      }
+    },
+    {
+      "id": "mega_e",
+      "name": "Mega e-Swipe Signature Card",
+      "name_zh_TW": "兆豐 e秒刷御璽卡",
+      "region": "TW",
+      "bank": "megabank.com.tw",
+      "annualFee": 0,
+      "color": "#005BAC",
+      "image": "https://raw.githubusercontent.com/jimabby/card-assets/main/cards/mega_e.png",
+      "benefits": "Mobile payment rewards\nOnline shopping boosts\n1% general spending\nNo annual fee",
+      "benefits_zh_TW": "行動支付回饋\n網購加碼\n一般消費1%\n免年費",
+      "aiRewards": {
+        "Shopping": 2,
+        "Everything": 1
+      }
+    },
+    {
+      "id": "hncb_ishopping",
+      "name": "Hua Nan i-Shopping Life Card",
+      "name_zh_TW": "華南 i網購生活卡",
+      "region": "TW",
+      "bank": "hncb.com.tw",
+      "annualFee": 0,
+      "color": "#00A04A",
+      "image": "https://raw.githubusercontent.com/jimabby/card-assets/main/cards/hncb_ishopping.png",
+      "benefits": "Online shopping rewards\nFood delivery boosts\n1% general spending\nNo annual fee",
+      "benefits_zh_TW": "網購回饋\n外送加碼\n一般消費1%\n免年費",
+      "aiRewards": {
+        "Shopping": 2,
+        "Food & Dining": 2,
+        "Everything": 1
+      }
+    },
+    {
+      "id": "tbb_ipass",
+      "name": "TBB iPASS Co-branded Card",
+      "name_zh_TW": "台企銀 一卡通聯名卡",
+      "region": "TW",
+      "bank": "tbb.com.tw",
+      "annualFee": 0,
+      "color": "#0A8A3F",
+      "image": "https://raw.githubusercontent.com/jimabby/card-assets/main/cards/tbb_ipass.png",
+      "benefits": "iPASS auto top-up\nGreen transport rewards\n1% general spending\nNo annual fee",
+      "benefits_zh_TW": "一卡通自動加值\n綠能運輸回饋\n一般消費1%\n免年費",
+      "aiRewards": {
+        "Gas & Transit": 2,
+        "Everything": 1
+      }
+    },
+    {
+      "id": "scsb_cashback",
+      "name": "SCSB Cashback Card",
+      "name_zh_TW": "上海商銀 現金回饋卡",
+      "region": "TW",
+      "bank": "scsb.com.tw",
+      "annualFee": 0,
+      "color": "#003B5C",
+      "image": "https://raw.githubusercontent.com/jimabby/card-assets/main/cards/scsb_cashback.png",
+      "benefits": "Mobile payment cashback\nOnline & dining boosts\n1% general spending\nNo annual fee",
+      "benefits_zh_TW": "行動支付現金回饋\n網購與餐飲加碼\n一般消費1%\n免年費",
+      "aiRewards": {
+        "Shopping": 2,
+        "Everything": 1
+      }
+    },
+    {
+      "id": "skbank_emma",
+      "name": "Shin Kong emma Card",
+      "name_zh_TW": "新光 emma 數位卡",
+      "region": "TW",
+      "bank": "skbank.com.tw",
+      "annualFee": 0,
+      "color": "#E2231A",
+      "image": "https://raw.githubusercontent.com/jimabby/card-assets/main/cards/skbank_emma.png",
+      "benefits": "Digital-account rewards\nMobile payment boosts\n1% general spending\nNo annual fee",
+      "benefits_zh_TW": "數位帳戶回饋\n行動支付加碼\n一般消費1%\n免年費",
+      "aiRewards": {
+        "Shopping": 2,
+        "Everything": 1
+      }
+    },
+    {
+      "id": "entie_cashback",
+      "name": "Entie Bank Cashback Card",
+      "name_zh_TW": "安泰銀行 現金回饋卡",
+      "region": "TW",
+      "bank": "entiebank.com.tw",
+      "annualFee": 0,
+      "color": "#005BAC",
+      "image": "https://raw.githubusercontent.com/jimabby/card-assets/main/cards/entie_cashback.png",
+      "benefits": "Cashback on daily spending\nMobile payment boosts\n1% general spending\nNo annual fee",
+      "benefits_zh_TW": "日常消費現金回饋\n行動支付加碼\n一般消費1%\n免年費",
+      "aiRewards": {
+        "Everything": 1
+      }
+    },
+    {
+      "id": "ktb_card",
+      "name": "King’s Town Bank Credit Card",
+      "name_zh_TW": "京城銀行 信用卡",
+      "region": "TW",
+      "bank": "ktb.com.tw",
+      "annualFee": 0,
+      "color": "#0072CE",
+      "image": "https://raw.githubusercontent.com/jimabby/card-assets/main/cards/ktb_card.png",
+      "benefits": "Cashback on daily spending\nMobile payment rewards\n1% general spending\nNo annual fee",
+      "benefits_zh_TW": "日常消費回饋\n行動支付回饋\n一般消費1%\n免年費",
+      "aiRewards": {
+        "Everything": 1
+      }
+    },
+    {
+      "id": "sunny_bank_card",
+      "name": "Sunny Bank Credit Card",
+      "name_zh_TW": "陽信銀行 信用卡",
+      "region": "TW",
+      "bank": "sunnybank.com.tw",
+      "annualFee": 0,
+      "color": "#F58025",
+      "image": "https://raw.githubusercontent.com/jimabby/card-assets/main/cards/sunny_bank_card.png",
+      "benefits": "Cashback on daily spending\nTaiwan Pay rewards\n1% general spending\nNo annual fee",
+      "benefits_zh_TW": "日常消費回饋\n台灣Pay回饋\n一般消費1%\n免年費",
+      "aiRewards": {
+        "Everything": 1
+      }
+    },
+    {
+      "id": "bok_card",
+      "name": "Bank of Kaohsiung Credit Card",
+      "name_zh_TW": "高雄銀行 信用卡",
+      "region": "TW",
+      "bank": "bok.com.tw",
+      "annualFee": 0,
+      "color": "#E4002B",
+      "image": "https://raw.githubusercontent.com/jimabby/card-assets/main/cards/bok_card.png",
+      "benefits": "Cashback on daily spending\nTaiwan Pay rewards\n1% general spending\nNo annual fee",
+      "benefits_zh_TW": "日常消費回饋\n台灣Pay回饋\n一般消費1%\n免年費",
+      "aiRewards": {
+        "Everything": 1
+      }
+    },
+    {
+      "id": "panhsin_card",
+      "name": "Bank of Panhsin Credit Card",
+      "name_zh_TW": "板信銀行 信用卡",
+      "region": "TW",
+      "bank": "bop.com.tw",
+      "annualFee": 0,
+      "color": "#005BAC",
+      "image": "https://raw.githubusercontent.com/jimabby/card-assets/main/cards/panhsin_card.png",
+      "benefits": "Cashback on daily spending\nTaiwan Pay rewards\n1% general spending\nNo annual fee",
+      "benefits_zh_TW": "日常消費回饋\n台灣Pay回饋\n一般消費1%\n免年費",
+      "aiRewards": {
+        "Everything": 1
+      }
+    },
+    {
+      "id": "taichung_bank_card",
+      "name": "Taichung Commercial Bank Credit Card",
+      "name_zh_TW": "台中銀行 信用卡",
+      "region": "TW",
+      "bank": "tcbbank.com.tw",
+      "annualFee": 0,
+      "color": "#0072CE",
+      "image": "https://raw.githubusercontent.com/jimabby/card-assets/main/cards/taichung_bank_card.png",
+      "benefits": "Cashback on daily spending\nMobile payment rewards\n1% general spending\nNo annual fee",
+      "benefits_zh_TW": "日常消費回饋\n行動支付回饋\n一般消費1%\n免年費",
+      "aiRewards": {
+        "Everything": 1
+      }
+    },
+    {
+      "id": "cota_bank_card",
+      "name": "COTA Commercial Bank Credit Card",
+      "name_zh_TW": "三信商業銀行 信用卡",
+      "region": "TW",
+      "bank": "cotabank.com.tw",
+      "annualFee": 0,
+      "color": "#00833E",
+      "image": "https://raw.githubusercontent.com/jimabby/card-assets/main/cards/cota_bank_card.png",
+      "benefits": "Cashback on daily spending\nTaiwan Pay rewards\n1% general spending\nNo annual fee",
+      "benefits_zh_TW": "日常消費回饋\n台灣Pay回饋\n一般消費1%\n免年費",
+      "aiRewards": {
+        "Everything": 1
+      }
+    },
+    {
+      "id": "ctbc_ana",
+      "name": "CTBC ANA Co-branded Card",
+      "name_zh_TW": "中信 ANA 聯名卡",
+      "region": "TW",
+      "bank": "ctbcbank.com",
+      "annualFee": 1800,
+      "color": "#005BAC",
+      "image": "https://raw.githubusercontent.com/jimabby/card-assets/main/cards/ctbc_ana.png",
+      "benefits": "ANA mileage earning\nMileage on overseas spending\nTravel insurance\nAirport perks",
+      "benefits_zh_TW": "ANA哩程累積\n海外消費哩程加碼\n旅遊保險\n機場禮遇",
+      "aiRewards": {
+        "Flights": 2,
+        "Travel": 2,
+        "Everything": 1
+      }
+    },
+    {
+      "id": "first_ieco",
+      "name": "First Bank iECO Card",
+      "name_zh_TW": "第一銀行 iECO 環保卡",
+      "region": "TW",
+      "bank": "firstbank.com.tw",
+      "annualFee": 0,
+      "color": "#00A04A",
+      "image": "https://raw.githubusercontent.com/jimabby/card-assets/main/cards/first_ieco.png",
+      "benefits": "Eco-friendly spending rewards\nMobile payment boosts\n1% general spending\nNo annual fee",
+      "benefits_zh_TW": "環保消費回饋\n行動支付加碼\n一般消費1%\n免年費",
+      "aiRewards": {
+        "Shopping": 2,
+        "Everything": 1
+      }
+    },
+    {
+      "id": "esun_dual_currency",
+      "name": "E.SUN Dual Currency Card",
+      "name_zh_TW": "玉山 雙幣卡",
+      "region": "TW",
+      "bank": "esunbank.com.tw",
+      "annualFee": 0,
+      "color": "#006A4E",
+      "image": "https://raw.githubusercontent.com/jimabby/card-assets/main/cards/esun_dual_currency.png",
+      "benefits": "Direct foreign-currency settlement\nOverseas spending rewards\n1% general spending\nNo annual fee",
+      "benefits_zh_TW": "外幣直接結算\n海外消費回饋\n一般消費1%\n免年費",
+      "aiRewards": {
+        "Travel": 2,
+        "Flights": 2,
+        "Everything": 1
+      }
+    },
+    {
+      "id": "rakuten_world",
+      "name": "Rakuten Card World",
+      "name_zh_TW": "樂天 世界卡",
+      "region": "TW",
+      "bank": "rakuten.com.tw",
+      "annualFee": 0,
+      "color": "#BF0000",
+      "image": "https://raw.githubusercontent.com/jimabby/card-assets/main/cards/rakuten_world.png",
+      "benefits": "Rakuten ecosystem rewards\nJapan & overseas spending boost\n1% general spending\nNo annual fee",
+      "benefits_zh_TW": "樂天生態圈回饋\n日本及海外消費加碼\n一般消費1%\n免年費",
+      "aiRewards": {
+        "Shopping": 2,
+        "Travel": 2,
+        "Everything": 1
+      }
+    },
+    {
+      "id": "yuanta_digital",
+      "name": "Yuanta Digital Diamond Card",
+      "name_zh_TW": "元大 數位鑽金卡",
+      "region": "TW",
+      "bank": "yuantabank.com.tw",
+      "annualFee": 0,
+      "color": "#C8102E",
+      "image": "https://raw.githubusercontent.com/jimabby/card-assets/main/cards/yuanta_digital.png",
+      "benefits": "Digital-account cashback boost\nMobile payment rewards\n1% general spending\nNo annual fee",
+      "benefits_zh_TW": "數位帳戶加碼回饋\n行動支付回饋\n一般消費1%\n免年費",
+      "aiRewards": {
+        "Shopping": 2,
+        "Everything": 1
       }
     }
   ]
