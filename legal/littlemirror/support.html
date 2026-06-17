@@ -50,6 +50,7 @@
       color: #555;
     }
 
+    #zh { display: none; }
     .top-nav {
       background: #1a1a2e;
       display: flex;
@@ -72,6 +73,16 @@
     }
     .top-nav a.back:hover { color: #fff; }
     .top-nav .app-label { font-size: 14px; font-weight: 700; color: #fff; }
+    .top-nav .lang-toggle { display: flex; gap: 6px; }
+    .top-nav .lang-toggle a {
+      color: #aaa;
+      text-decoration: none;
+      font-size: 13px;
+      padding: 4px 10px;
+      border-radius: 6px;
+      transition: background 0.15s, color 0.15s;
+    }
+    .top-nav .lang-toggle a:hover { background: #2c2c4e; color: #fff; }
     @media (prefers-color-scheme: dark) {
       body { background: #1c1c1e; color: #f0f0f0; }
       .section { background: #2c2c2e; box-shadow: none; }
@@ -86,83 +97,174 @@
 <nav class="top-nav">
   <a class="back" href="../../index.html">&#8592; All Apps</a>
   <span class="app-label">Little Mirrors</span>
-  <div></div>
+  <div class="lang-toggle">
+    <a href="#" onclick="showLang('en'); return false;">EN</a>
+    <a href="#" onclick="showLang('zh'); return false;">繁中</a>
+  </div>
 </nav>
 
-<header>
-  <h1>Little Mirrors Support</h1>
-  <p>Your pregnancy companion — we're here to help.</p>
-</header>
+<!-- ═══════════════════════════════════════ English -->
+<div id="en">
+  <header>
+    <h1>Little Mirrors Support</h1>
+    <p>Your pregnancy companion — we're here to help.</p>
+  </header>
 
-<div class="container">
+  <div class="container">
 
-  <div class="section">
-    <h2>Contact Us</h2>
-    <p>Have a question, found a bug, or need assistance? Send us an email and we'll get back to you as soon as we can.</p>
-    <a class="contact-btn" href="mailto:wksunshine@gmail.com">Email Support</a>
-    <p style="margin-top:14px; font-size:14px; color:#888;">wksunshine@gmail.com</p>
+    <div class="section">
+      <h2>Contact Us</h2>
+      <p>Have a question, found a bug, or need assistance? Send us an email and we'll get back to you as soon as we can.</p>
+      <a class="contact-btn" href="mailto:wksunshine@gmail.com">Email Support</a>
+      <p style="margin-top:14px; font-size:14px; color:#888;">wksunshine@gmail.com</p>
+    </div>
+
+    <div class="section">
+      <h2>Frequently Asked Questions</h2>
+
+      <div class="faq-item">
+        <h3>How does Lumi work?</h3>
+        <p>Lumi is your AI companion powered by Google Gemini. She delivers a personalized daily tip based on your pregnancy week, answers symptom questions, checks food and medication safety, and generates a baby portrait preview. Lumi requires an internet connection to work.</p>
+      </div>
+
+      <div class="faq-item">
+        <h3>How do I invite my partner?</h3>
+        <p>Go to Profile → Partner Sync and enter your partner's email address. They will need to install Little Mirrors and sign in with that email to see your shared data (week, milestones, and baby preview).</p>
+      </div>
+
+      <div class="faq-item">
+        <h3>How does the Baby Previewer work?</h3>
+        <p>Go to the Previewer tab and upload your ultrasound image. Optionally add photos of both parents. Lumi uses Gemini's image generation to create a soft, artistic portrait of your baby as a newborn. This is a creative tool — the result is not a medical prediction.</p>
+      </div>
+
+      <div class="faq-item">
+        <h3>How do I use the Kick Counter?</h3>
+        <p>Open the Tools tab and select Kick Counter. Tap the button each time you feel movement. Little Mirrors records the session duration and kick count. Results are saved to your history automatically.</p>
+      </div>
+
+      <div class="faq-item">
+        <h3>How do I use the Contraction Timer?</h3>
+        <p>Open the Tools tab and select Contraction Timer. Tap Start when a contraction begins and Stop when it ends. The app tracks duration and interval between contractions.</p>
+      </div>
+
+      <div class="faq-item">
+        <h3>Can I check if a food is safe?</h3>
+        <p>Yes. Open the Food &amp; Label Checker in Tools and type any food, ingredient, or medicine. Lumi will tell you whether it is generally safe during pregnancy and any precautions to keep in mind.</p>
+      </div>
+
+      <div class="faq-item">
+        <h3>What is the Hospital Bag checklist?</h3>
+        <p>The Hospital Bag tab contains a curated list of essentials to pack before your due date. You can check off items and add your own. Your checklist is saved to your account.</p>
+      </div>
+
+      <div class="faq-item">
+        <h3>How do I delete my data?</h3>
+        <p>See our <a class="contact-link" href="account-deletion.html">Delete Account</a> page for full instructions, or email us at <a class="contact-link" href="mailto:wksunshine@gmail.com">wksunshine@gmail.com</a> to request deletion of your account and all associated data. We will process your request promptly.</p>
+      </div>
+
+      <div class="faq-item">
+        <h3>Is my data private?</h3>
+        <p>Your pregnancy data is stored in Firebase Firestore and is only accessible to you (and any partner you explicitly invite). AI features use Google Gemini; data sent for AI requests is processed by Google under their privacy policy. See our full Privacy Policy for details.</p>
+      </div>
+    </div>
+
+    <div class="section">
+      <div class="note">Little Mirrors is a wellness companion app. It does not provide medical advice, diagnosis, or treatment. Always consult your doctor, midwife, or qualified healthcare provider with any concerns about your pregnancy.</div>
+    </div>
+
+    <div class="section">
+      <h2>Privacy Policy</h2>
+      <p>Read our full <a class="contact-link" href="privacy-policy.html">Privacy Policy</a>.</p>
+    </div>
+
+    <p class="updated">Little Mirrors · wksunshine@gmail.com</p>
   </div>
-
-  <div class="section">
-    <h2>Frequently Asked Questions</h2>
-
-    <div class="faq-item">
-      <h3>How does Lumi work?</h3>
-      <p>Lumi is your AI companion powered by Google Gemini. She delivers a personalized daily tip based on your pregnancy week, answers symptom questions, checks food and medication safety, and generates a baby portrait preview. Lumi requires an internet connection to work.</p>
-    </div>
-
-    <div class="faq-item">
-      <h3>How do I invite my partner?</h3>
-      <p>Go to Profile → Partner Sync and enter your partner's email address. They will need to install Little Mirrors and sign in with that email to see your shared data (week, milestones, and baby preview).</p>
-    </div>
-
-    <div class="faq-item">
-      <h3>How does the Baby Previewer work?</h3>
-      <p>Go to the Previewer tab and upload your ultrasound image. Optionally add photos of both parents. Lumi uses Gemini's image generation to create a soft, artistic portrait of your baby as a newborn. This is a creative tool — the result is not a medical prediction.</p>
-    </div>
-
-    <div class="faq-item">
-      <h3>How do I use the Kick Counter?</h3>
-      <p>Open the Tools tab and select Kick Counter. Tap the button each time you feel movement. Little Mirrors records the session duration and kick count. Results are saved to your history automatically.</p>
-    </div>
-
-    <div class="faq-item">
-      <h3>How do I use the Contraction Timer?</h3>
-      <p>Open the Tools tab and select Contraction Timer. Tap Start when a contraction begins and Stop when it ends. The app tracks duration and interval between contractions.</p>
-    </div>
-
-    <div class="faq-item">
-      <h3>Can I check if a food is safe?</h3>
-      <p>Yes. Open the Food &amp; Label Checker in Tools and type any food, ingredient, or medicine. Lumi will tell you whether it is generally safe during pregnancy and any precautions to keep in mind.</p>
-    </div>
-
-    <div class="faq-item">
-      <h3>What is the Hospital Bag checklist?</h3>
-      <p>The Hospital Bag tab contains a curated list of essentials to pack before your due date. You can check off items and add your own. Your checklist is saved to your account.</p>
-    </div>
-
-    <div class="faq-item">
-      <h3>How do I delete my data?</h3>
-      <p>To request deletion of your account and all associated data, please email us at <a class="contact-link" href="mailto:wksunshine@gmail.com">wksunshine@gmail.com</a>. We will process your request promptly.</p>
-    </div>
-
-    <div class="faq-item">
-      <h3>Is my data private?</h3>
-      <p>Your pregnancy data is stored in Firebase Firestore and is only accessible to you (and any partner you explicitly invite). AI features use Google Gemini; data sent for AI requests is processed by Google under their privacy policy. See our full Privacy Policy for details.</p>
-    </div>
-  </div>
-
-  <div class="section">
-    <div class="note">Little Mirrors is a wellness companion app. It does not provide medical advice, diagnosis, or treatment. Always consult your doctor, midwife, or qualified healthcare provider with any concerns about your pregnancy.</div>
-  </div>
-
-  <div class="section">
-    <h2>Privacy Policy</h2>
-    <p>Read our full <a class="contact-link" href="privacy-policy.html">Privacy Policy</a>.</p>
-  </div>
-
-  <p class="updated">Little Mirrors · wksunshine@gmail.com</p>
 </div>
 
+<!-- ═══════════════════════════════════════ Traditional Chinese -->
+<div id="zh">
+  <header>
+    <h1>Little Mirrors 支援</h1>
+    <p>您的孕期夥伴 — 我們隨時為您服務。</p>
+  </header>
+
+  <div class="container">
+
+    <div class="section">
+      <h2>聯絡我們</h2>
+      <p>有任何問題、發現 Bug 或需要協助？歡迎寫信給我們，我們會盡快回覆。</p>
+      <a class="contact-btn" href="mailto:wksunshine@gmail.com">發送郵件</a>
+      <p style="margin-top:14px; font-size:14px; color:#888;">wksunshine@gmail.com</p>
+    </div>
+
+    <div class="section">
+      <h2>常見問題</h2>
+
+      <div class="faq-item">
+        <h3>Lumi 如何運作？</h3>
+        <p>Lumi 是由 Google Gemini 提供支援的 AI 夥伴。她會依據您的孕期週數提供個人化的每日提示、回答症狀問題、檢查食物與藥物的安全性，並產生寶寶肖像預覽。Lumi 需要網路連線才能運作。</p>
+      </div>
+
+      <div class="faq-item">
+        <h3>如何邀請我的伴侶？</h3>
+        <p>前往「個人資料 → 伴侶同步」，輸入伴侶的電子郵件地址。對方需安裝 Little Mirrors 並以該電子郵件登入，才能查看您共享的資料（週數、里程碑及寶寶預覽）。</p>
+      </div>
+
+      <div class="faq-item">
+        <h3>寶寶預覽如何運作？</h3>
+        <p>前往「預覽」分頁，上傳您的超音波影像。您也可以選擇加入父母雙方的照片。Lumi 會運用 Gemini 的影像生成技術，為您的寶寶創作一幅柔和、具藝術風格的新生兒肖像。這是一項創意工具——結果並非醫療預測。</p>
+      </div>
+
+      <div class="faq-item">
+        <h3>如何使用胎動計數器？</h3>
+        <p>開啟「工具」分頁並選擇「胎動計數器」。每當感覺到胎動時點擊按鈕。Little Mirrors 會記錄該次的持續時間和胎動次數，結果會自動儲存至您的歷史紀錄。</p>
+      </div>
+
+      <div class="faq-item">
+        <h3>如何使用宮縮計時器？</h3>
+        <p>開啟「工具」分頁並選擇「宮縮計時器」。宮縮開始時點選「開始」，結束時點選「停止」。應用程式會追蹤宮縮的持續時間與間隔。</p>
+      </div>
+
+      <div class="faq-item">
+        <h3>可以查詢食物是否安全嗎？</h3>
+        <p>可以。在「工具」中開啟「食物與標籤檢查器」，輸入任何食物、成分或藥物。Lumi 會告訴您它在孕期是否大致安全，以及需要注意的事項。</p>
+      </div>
+
+      <div class="faq-item">
+        <h3>待產包清單是什麼？</h3>
+        <p>「待產包」分頁包含一份精選的必備物品清單，供您在預產期前準備。您可以勾選項目並新增自己的項目。您的清單會儲存至您的帳號。</p>
+      </div>
+
+      <div class="faq-item">
+        <h3>如何刪除我的資料？</h3>
+        <p>完整說明請參閱我們的<a class="contact-link" href="account-deletion.html">刪除帳戶</a>頁面，或發送郵件至 <a class="contact-link" href="mailto:wksunshine@gmail.com">wksunshine@gmail.com</a> 請求刪除您的帳號及所有相關資料。我們將儘速處理您的請求。</p>
+      </div>
+
+      <div class="faq-item">
+        <h3>我的資料隱私嗎？</h3>
+        <p>您的孕期資料儲存於 Firebase Firestore，僅您本人（以及您明確邀請的伴侶）能夠存取。AI 功能使用 Google Gemini；為 AI 請求傳送的資料由 Google 依據其隱私政策處理。詳情請參閱我們的完整隱私政策。</p>
+      </div>
+    </div>
+
+    <div class="section">
+      <div class="note">Little Mirrors 是一款健康陪伴應用程式，不提供醫療建議、診斷或治療。如對孕期有任何疑慮，請務必諮詢您的醫生、助產士或合格的醫療提供者。</div>
+    </div>
+
+    <div class="section">
+      <h2>隱私政策</h2>
+      <p>閱讀完整的 <a class="contact-link" href="privacy-policy.html">隱私政策</a>。</p>
+    </div>
+
+    <p class="updated">Little Mirrors · wksunshine@gmail.com</p>
+  </div>
+</div>
+
+<script>
+  function showLang(lang) {
+    document.getElementById('en').style.display = lang === 'en' ? 'block' : 'none';
+    document.getElementById('zh').style.display = lang === 'zh' ? 'block' : 'none';
+  }
+  if (navigator.language && navigator.language.startsWith('zh')) showLang('zh');
+</script>
 </body>
 </html>

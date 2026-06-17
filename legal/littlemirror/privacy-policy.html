@@ -38,6 +38,16 @@
       font-weight: 700;
       color: #fff;
     }
+    .top-nav .lang-toggle { display: flex; gap: 6px; }
+    .top-nav .lang-toggle a {
+      color: #aaa;
+      text-decoration: none;
+      font-size: 13px;
+      padding: 4px 10px;
+      border-radius: 6px;
+      transition: background 0.15s, color 0.15s;
+    }
+    .top-nav .lang-toggle a:hover { background: #2c2c4e; color: #fff; }
     site-footer {
       display: block;
       text-align: center;
@@ -65,6 +75,8 @@
     .contact-link { color: #c87a6d; }
     .updated { text-align: center; color: #888; font-size: 13px; margin-top: 32px; }
 
+    #zh { display: none; }
+
     @media (prefers-color-scheme: dark) {
       body { background: #1c1c1e; color: #f0f0f0; }
       .section { background: #2c2c2e; box-shadow: none; }
@@ -75,88 +87,180 @@
 <body>
 
 <nav class="top-nav">
-  <a class="back" href="../index.html">&#8592; All Apps</a>
+  <a class="back" href="../../index.html">&#8592; All Apps</a>
   <span class="app-label">Little Mirrors</span>
-  <span></span>
+  <div class="lang-toggle">
+    <a href="#" onclick="showLang('en'); return false;">EN</a>
+    <a href="#" onclick="showLang('zh'); return false;">繁中</a>
+  </div>
 </nav>
 
-<header>
-  <h1>Little Mirrors Privacy Policy</h1>
-  <p>Your pregnancy journey, handled with care.</p>
-</header>
+<!-- ═══════════════════════════════════════ English -->
+<div id="en">
+  <header>
+    <h1>Little Mirrors Privacy Policy</h1>
+    <p>Your pregnancy journey, handled with care.</p>
+  </header>
 
-<div class="container">
+  <div class="container">
 
-  <div class="section">
-    <h2>1. Information We Collect</h2>
-    <p>Little Mirrors collects and stores the following information to provide its features:</p>
-    <ul>
-      <li><strong>Account information</strong> — anonymous Firebase Auth ID assigned on first launch. You are not required to provide an email address or name.</li>
-      <li><strong>Pregnancy profile</strong> — due date, current week, and partner email (if you use Partner Sync).</li>
-      <li><strong>Symptom logs</strong> — symptoms you record by week and severity.</li>
-      <li><strong>Kick Counter and Contraction Timer sessions</strong> — timing data stored in Firestore.</li>
-      <li><strong>Hospital Bag checklist</strong> — your personal checklist state.</li>
-      <li><strong>Food &amp; Label checks</strong> — queries you send to the AI for safety checks.</li>
-    </ul>
-    <p>This data is stored in Firebase Firestore associated with your anonymous account.</p>
+    <div class="section">
+      <h2>1. Information We Collect</h2>
+      <p>Little Mirrors collects and stores the following information to provide its features:</p>
+      <ul>
+        <li><strong>Account information</strong> — anonymous Firebase Auth ID assigned on first launch. You are not required to provide an email address or name.</li>
+        <li><strong>Pregnancy profile</strong> — due date, current week, and partner email (if you use Partner Sync).</li>
+        <li><strong>Symptom logs</strong> — symptoms you record by week and severity.</li>
+        <li><strong>Kick Counter and Contraction Timer sessions</strong> — timing data stored in Firestore.</li>
+        <li><strong>Hospital Bag checklist</strong> — your personal checklist state.</li>
+        <li><strong>Food &amp; Label checks</strong> — queries you send to the AI for safety checks.</li>
+      </ul>
+      <p>This data is stored in Firebase Firestore associated with your anonymous account.</p>
+    </div>
+
+    <div class="section">
+      <h2>2. AI Features (Lumi)</h2>
+      <p>Little Mirrors includes an AI companion named Lumi, powered by Google Gemini via Firebase AI Logic. The following features send data to Google's servers:</p>
+      <ul>
+        <li><strong>Daily tips</strong> — your current pregnancy week is sent to generate a personalized tip.</li>
+        <li><strong>Symptom advice</strong> — your symptom description and pregnancy week are sent to Gemini.</li>
+        <li><strong>Food &amp; label safety checks</strong> — the food or ingredient you enter is sent to Gemini.</li>
+        <li><strong>Baby Previewer</strong> — if you use this feature, your ultrasound image and optionally photos of both parents are sent to Gemini's image generation model to produce an artistic baby portrait. These images are processed by Google and are not permanently stored by Little Mirrors on its servers. Please only upload images you are comfortable sharing with Google's AI service.</li>
+      </ul>
+      <p>AI conversations and requests are processed by Google under Google's privacy policy. We do not permanently store your AI conversation history on our servers.</p>
+    </div>
+
+    <div class="section">
+      <h2>3. Authentication</h2>
+      <p>Little Mirrors uses Firebase Authentication. On first launch you are automatically signed in with an anonymous account — no email or personal information is required. Your data is linked to this anonymous account in Firestore. If you uninstall the app without backing up, your anonymous account data cannot be recovered.</p>
+    </div>
+
+    <div class="section">
+      <h2>4. Partner Sync</h2>
+      <p>You may invite a partner to follow along by entering their email address. This email is stored in Firestore and used only to link partner access to your shared pregnancy data. It is not used for marketing. Your partner can view the same milestones, due date, and baby preview.</p>
+    </div>
+
+    <div class="section">
+      <h2>5. Photos &amp; Camera</h2>
+      <p>The Baby Previewer feature requests access to your photo library so you can select an ultrasound image or parent photos. Photos are used only for the AI generation request and are not stored permanently by Little Mirrors.</p>
+    </div>
+
+    <div class="section">
+      <h2>6. Data Security</h2>
+      <p>Your data in Firestore is protected by Firebase security rules that ensure only you (and any partner you have explicitly invited) can access it. All data in transit is encrypted.</p>
+    </div>
+
+    <div class="section">
+      <h2>7. Data Retention &amp; Deletion</h2>
+      <p>Your data is retained in Firestore for as long as your anonymous account exists. To request deletion of your data, please contact us at <a class="contact-link" href="mailto:wksunshine@gmail.com">wksunshine@gmail.com</a> and we will delete your account and associated data promptly.</p>
+    </div>
+
+    <div class="section">
+      <h2>8. Third-Party Services</h2>
+      <p>Little Mirrors uses the following third-party services:</p>
+      <ul>
+        <li><strong>Firebase (Google)</strong> — Authentication and Firestore database</li>
+        <li><strong>Google Gemini</strong> — AI features (tips, advice, image generation)</li>
+      </ul>
+      <p>Please review Google's privacy policy for how these services handle your data.</p>
+    </div>
+
+    <div class="section">
+      <h2>9. Contact</h2>
+      <p>For questions, feedback, or data deletion requests, please contact us at <a class="contact-link" href="mailto:wksunshine@gmail.com">wksunshine@gmail.com</a>.</p>
+    </div>
+
+    <p class="updated">Last updated: June 2026</p>
   </div>
+</div>
 
-  <div class="section">
-    <h2>2. AI Features (Lumi)</h2>
-    <p>Little Mirrors includes an AI companion named Lumi, powered by Google Gemini via Firebase AI Logic. The following features send data to Google's servers:</p>
-    <ul>
-      <li><strong>Daily tips</strong> — your current pregnancy week is sent to generate a personalized tip.</li>
-      <li><strong>Symptom advice</strong> — your symptom description and pregnancy week are sent to Gemini.</li>
-      <li><strong>Food &amp; label safety checks</strong> — the food or ingredient you enter is sent to Gemini.</li>
-      <li><strong>Baby Previewer</strong> — if you use this feature, your ultrasound image and optionally photos of both parents are sent to Gemini's image generation model to produce an artistic baby portrait. These images are processed by Google and are not permanently stored by Little Mirrors on its servers. Please only upload images you are comfortable sharing with Google's AI service.</li>
-    </ul>
-    <p>AI conversations and requests are processed by Google under Google's privacy policy. We do not permanently store your AI conversation history on our servers.</p>
+<!-- ═══════════════════════════════════════ Traditional Chinese -->
+<div id="zh">
+  <header>
+    <h1>Little Mirrors 隱私政策</h1>
+    <p>用心呵護您的孕期旅程。</p>
+  </header>
+
+  <div class="container">
+
+    <div class="section">
+      <h2>1. 我們收集的資訊</h2>
+      <p>Little Mirrors 為提供其功能，會收集並儲存以下資訊：</p>
+      <ul>
+        <li><strong>帳號資訊</strong> — 首次啟動時指派的匿名 Firebase Auth ID。您無需提供電子郵件地址或姓名。</li>
+        <li><strong>孕期檔案</strong> — 預產期、目前週數及伴侶的電子郵件（若您使用伴侶同步）。</li>
+        <li><strong>症狀紀錄</strong> — 您依週數和嚴重程度記錄的症狀。</li>
+        <li><strong>胎動計數器與宮縮計時器紀錄</strong> — 儲存於 Firestore 的計時資料。</li>
+        <li><strong>待產包清單</strong> — 您的個人清單狀態。</li>
+        <li><strong>食物與標籤查詢</strong> — 您傳送給 AI 進行安全檢查的查詢內容。</li>
+      </ul>
+      <p>這些資料儲存於與您匿名帳號關聯的 Firebase Firestore 中。</p>
+    </div>
+
+    <div class="section">
+      <h2>2. AI 功能（Lumi）</h2>
+      <p>Little Mirrors 內建名為 Lumi 的 AI 夥伴，透過 Firebase AI Logic 由 Google Gemini 提供支援。以下功能會將資料傳送至 Google 的伺服器：</p>
+      <ul>
+        <li><strong>每日提示</strong> — 您目前的孕期週數會被傳送以產生個人化提示。</li>
+        <li><strong>症狀建議</strong> — 您的症狀描述和孕期週數會被傳送至 Gemini。</li>
+        <li><strong>食物與標籤安全檢查</strong> — 您輸入的食物或成分會被傳送至 Gemini。</li>
+        <li><strong>寶寶預覽</strong> — 若您使用此功能，您的超音波影像及（可選的）父母雙方照片會被傳送至 Gemini 的影像生成模型，以產生具藝術風格的寶寶肖像。這些影像由 Google 處理，Little Mirrors 不會在其伺服器上永久儲存。請僅上傳您願意分享給 Google AI 服務的影像。</li>
+      </ul>
+      <p>AI 對話與請求由 Google 依據其隱私政策處理。我們不會在伺服器上永久儲存您的 AI 對話歷史。</p>
+    </div>
+
+    <div class="section">
+      <h2>3. 身份驗證</h2>
+      <p>Little Mirrors 使用 Firebase Authentication。首次啟動時，系統會自動以匿名帳號為您登入——無需電子郵件或個人資訊。您的資料在 Firestore 中與此匿名帳號關聯。若您未備份即解除安裝應用程式，匿名帳號的資料將無法復原。</p>
+    </div>
+
+    <div class="section">
+      <h2>4. 伴侶同步</h2>
+      <p>您可以輸入伴侶的電子郵件地址，邀請對方一同關注。此電子郵件儲存於 Firestore，僅用於連結伴侶存取您共享的孕期資料，不會用於行銷。您的伴侶可以查看相同的里程碑、預產期及寶寶預覽。</p>
+    </div>
+
+    <div class="section">
+      <h2>5. 照片與相機</h2>
+      <p>寶寶預覽功能會請求存取您的相簿，以便您選擇超音波影像或父母照片。照片僅用於 AI 生成請求，Little Mirrors 不會永久儲存。</p>
+    </div>
+
+    <div class="section">
+      <h2>6. 資料安全</h2>
+      <p>您在 Firestore 中的資料受 Firebase 安全規則保護，確保只有您本人（以及您明確邀請的伴侶）能夠存取。所有傳輸中的資料均已加密。</p>
+    </div>
+
+    <div class="section">
+      <h2>7. 資料保留與刪除</h2>
+      <p>只要您的匿名帳號存在，您的資料就會保留在 Firestore 中。如需請求刪除您的資料，請聯絡我們：<a class="contact-link" href="mailto:wksunshine@gmail.com">wksunshine@gmail.com</a>，我們將儘速刪除您的帳號及相關資料。</p>
+    </div>
+
+    <div class="section">
+      <h2>8. 第三方服務</h2>
+      <p>Little Mirrors 使用以下第三方服務：</p>
+      <ul>
+        <li><strong>Firebase（Google）</strong> — 身份驗證與 Firestore 資料庫</li>
+        <li><strong>Google Gemini</strong> — AI 功能（提示、建議、影像生成）</li>
+      </ul>
+      <p>請參閱 Google 的隱私政策，瞭解這些服務如何處理您的資料。</p>
+    </div>
+
+    <div class="section">
+      <h2>9. 聯絡方式</h2>
+      <p>如有疑問、意見或資料刪除請求，請聯絡我們：<a class="contact-link" href="mailto:wksunshine@gmail.com">wksunshine@gmail.com</a>。</p>
+    </div>
+
+    <p class="updated">最後更新：2026 年 6 月</p>
   </div>
-
-  <div class="section">
-    <h2>3. Authentication</h2>
-    <p>Little Mirrors uses Firebase Authentication. On first launch you are automatically signed in with an anonymous account — no email or personal information is required. Your data is linked to this anonymous account in Firestore. If you uninstall the app without backing up, your anonymous account data cannot be recovered.</p>
-  </div>
-
-  <div class="section">
-    <h2>4. Partner Sync</h2>
-    <p>You may invite a partner to follow along by entering their email address. This email is stored in Firestore and used only to link partner access to your shared pregnancy data. It is not used for marketing. Your partner can view the same milestones, due date, and baby preview.</p>
-  </div>
-
-  <div class="section">
-    <h2>5. Photos &amp; Camera</h2>
-    <p>The Baby Previewer feature requests access to your photo library so you can select an ultrasound image or parent photos. Photos are used only for the AI generation request and are not stored permanently by Little Mirrors.</p>
-  </div>
-
-  <div class="section">
-    <h2>6. Data Security</h2>
-    <p>Your data in Firestore is protected by Firebase security rules that ensure only you (and any partner you have explicitly invited) can access it. All data in transit is encrypted.</p>
-  </div>
-
-  <div class="section">
-    <h2>7. Data Retention &amp; Deletion</h2>
-    <p>Your data is retained in Firestore for as long as your anonymous account exists. To request deletion of your data, please contact us at <a class="contact-link" href="mailto:wksunshine@gmail.com">wksunshine@gmail.com</a> and we will delete your account and associated data promptly.</p>
-  </div>
-
-  <div class="section">
-    <h2>8. Third-Party Services</h2>
-    <p>Little Mirrors uses the following third-party services:</p>
-    <ul>
-      <li><strong>Firebase (Google)</strong> — Authentication and Firestore database</li>
-      <li><strong>Google Gemini</strong> — AI features (tips, advice, image generation)</li>
-    </ul>
-    <p>Please review Google's privacy policy for how these services handle your data.</p>
-  </div>
-
-  <div class="section">
-    <h2>9. Contact</h2>
-    <p>For questions, feedback, or data deletion requests, please contact us at <a class="contact-link" href="mailto:wksunshine@gmail.com">wksunshine@gmail.com</a>.</p>
-  </div>
-
-  <p class="updated">Last updated: June 2026</p>
 </div>
 
 <site-footer>&copy; 2026 Little Mirrors. All rights reserved.</site-footer>
 
+<script>
+  function showLang(lang) {
+    document.getElementById('en').style.display = lang === 'en' ? 'block' : 'none';
+    document.getElementById('zh').style.display = lang === 'zh' ? 'block' : 'none';
+  }
+  if (navigator.language && navigator.language.startsWith('zh')) showLang('zh');
+</script>
 </body>
 </html>

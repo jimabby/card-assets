@@ -34,6 +34,16 @@
     }
     .top-nav a.back:hover { color: #fff; }
     .top-nav .app-label { font-size: 14px; font-weight: 700; color: #fff; }
+    .top-nav .lang-toggle { display: flex; gap: 6px; }
+    .top-nav .lang-toggle a {
+      color: #aaa;
+      text-decoration: none;
+      font-size: 13px;
+      padding: 4px 10px;
+      border-radius: 6px;
+      transition: background 0.15s, color 0.15s;
+    }
+    .top-nav .lang-toggle a:hover { background: #2c2c4e; color: #fff; }
     site-footer {
       display: block;
       text-align: center;
@@ -61,6 +71,8 @@
     .updated { text-align: center; color: #888; font-size: 13px; margin-top: 32px; }
     .contact-link { color: #c87a6d; }
 
+    #zh { display: none; }
+
     @media (prefers-color-scheme: dark) {
       body { background: #1c1c1e; color: #f0f0f0; }
       .section { background: #2c2c2e; box-shadow: none; }
@@ -73,46 +85,98 @@
 <nav class="top-nav">
   <a class="back" href="../../index.html">&#8592; All Apps</a>
   <span class="app-label">Little Mirrors</span>
-  <div></div>
+  <div class="lang-toggle">
+    <a href="#" onclick="showLang('en'); return false;">EN</a>
+    <a href="#" onclick="showLang('zh'); return false;">繁中</a>
+  </div>
 </nav>
 
-<header>
-  <h1>Delete Your Little Mirrors Account</h1>
-  <p>How to delete your Little Mirrors account and data.</p>
-</header>
+<!-- ═══════════════════════════════════════ English -->
+<div id="en">
+  <header>
+    <h1>Delete Your Little Mirrors Account</h1>
+    <p>How to delete your Little Mirrors account and data.</p>
+  </header>
 
-<div class="container">
+  <div class="container">
 
-  <div class="section">
-    <h2>1. Delete Your Account via Email</h2>
-    <p>To delete your Little Mirrors account and all associated data, send a deletion request to <a class="contact-link" href="mailto:wksunshine@gmail.com?subject=Little%20Mirrors%20Account%20Deletion%20Request">wksunshine@gmail.com</a> from the email address associated with your account (or include the sign-in method you used — Google or Apple). We will verify your identity and complete the deletion within <strong>30 days</strong>, and confirm by reply.</p>
+    <div class="section">
+      <h2>1. Delete Your Account via Email</h2>
+      <p>To delete your Little Mirrors account and all associated data, send a deletion request to <a class="contact-link" href="mailto:wksunshine@gmail.com?subject=Little%20Mirrors%20Account%20Deletion%20Request">wksunshine@gmail.com</a> from the email address associated with your account (or include the sign-in method you used — Google or Apple). We will verify your identity and complete the deletion within <strong>30 days</strong>, and confirm by reply.</p>
+    </div>
+
+    <div class="section">
+      <h2>2. What Is Deleted</h2>
+      <p>When your account is deleted, the following data is permanently removed:</p>
+      <ul>
+        <li>Your account and sign-in credentials (Firebase Authentication record).</li>
+        <li>All cloud-synced data: pregnancy week, milestones, baby preview images, kick counter history, contraction logs, hospital bag checklist, and AI chat history with Lumi.</li>
+        <li>Any partner sync link and shared data between you and your partner's account.</li>
+      </ul>
+      <p style="margin-top: 10px;">Data stored locally on your device is also removed when you uninstall the app.</p>
+    </div>
+
+    <div class="section">
+      <h2>3. Processing Time</h2>
+      <p>Deletion requests are processed within <strong>30 days</strong> of identity verification. Residual copies in encrypted backups of our cloud infrastructure are purged within the same window. We do not retain your personal or health data after this period, except where required by law.</p>
+    </div>
+
+    <div class="section">
+      <h2>4. Subscriptions</h2>
+      <p>Deleting your account does not automatically cancel any active App Store or Google Play subscription. Please cancel your subscription separately through your device's subscription settings before or after requesting account deletion.</p>
+    </div>
+
+    <p class="updated">Last updated: June 2026 · See also our <a class="contact-link" href="privacy-policy.html">Privacy Policy</a></p>
   </div>
+</div>
 
-  <div class="section">
-    <h2>2. What Is Deleted</h2>
-    <p>When your account is deleted, the following data is permanently removed:</p>
-    <ul>
-      <li>Your account and sign-in credentials (Firebase Authentication record).</li>
-      <li>All cloud-synced data: pregnancy week, milestones, baby preview images, kick counter history, contraction logs, hospital bag checklist, and AI chat history with Lumi.</li>
-      <li>Any partner sync link and shared data between you and your partner's account.</li>
-    </ul>
-    <p style="margin-top: 10px;">Data stored locally on your device is also removed when you uninstall the app.</p>
+<!-- ═══════════════════════════════════════ Traditional Chinese -->
+<div id="zh">
+  <header>
+    <h1>刪除您的 Little Mirrors 帳號</h1>
+    <p>如何刪除您的 Little Mirrors 帳號和資料。</p>
+  </header>
+
+  <div class="container">
+
+    <div class="section">
+      <h2>1. 透過電子郵件刪除帳號</h2>
+      <p>如需刪除您的 Little Mirrors 帳號及所有相關資料，請使用與帳號關聯的電子郵件地址（或註明您使用的登入方式——Google 或 Apple）發送刪除請求至 <a class="contact-link" href="mailto:wksunshine@gmail.com?subject=Little%20Mirrors%20Account%20Deletion%20Request">wksunshine@gmail.com</a>。我們將在核實身份後於 <strong>30 天</strong>內完成刪除，並回覆確認。</p>
+    </div>
+
+    <div class="section">
+      <h2>2. 刪除的資料範圍</h2>
+      <p>刪除帳號後，以下資料將被永久移除：</p>
+      <ul>
+        <li>您的帳號及登入憑證（Firebase Authentication 紀錄）。</li>
+        <li>所有雲端同步資料：孕期週數、里程碑、寶寶預覽影像、胎動計數歷史、宮縮紀錄、待產包清單，以及與 Lumi 的 AI 對話歷史。</li>
+        <li>您與伴侶帳號之間的任何伴侶同步連結及共享資料。</li>
+      </ul>
+      <p style="margin-top: 10px;">解除安裝應用程式時，儲存於您裝置本機的資料也會一併移除。</p>
+    </div>
+
+    <div class="section">
+      <h2>3. 處理時限</h2>
+      <p>刪除請求將於核實身份後 <strong>30 天</strong>內處理完成。雲端基礎設施加密備份中的殘留副本也將在同一期限內清除。除法律要求保留的情況外，超過此期限後我們不再保留您的個人或健康資料。</p>
+    </div>
+
+    <div class="section">
+      <h2>4. 訂閱</h2>
+      <p>刪除帳號不會自動取消任何使用中的 App Store 或 Google Play 訂閱。請在請求刪除帳號之前或之後，另行透過裝置的訂閱設定取消您的訂閱。</p>
+    </div>
+
+    <p class="updated">最後更新：2026 年 6 月 · 另見<a class="contact-link" href="privacy-policy.html">隱私政策</a></p>
   </div>
-
-  <div class="section">
-    <h2>3. Processing Time</h2>
-    <p>Deletion requests are processed within <strong>30 days</strong> of identity verification. Residual copies in encrypted backups of our cloud infrastructure are purged within the same window. We do not retain your personal or health data after this period, except where required by law.</p>
-  </div>
-
-  <div class="section">
-    <h2>4. Subscriptions</h2>
-    <p>Deleting your account does not automatically cancel any active App Store or Google Play subscription. Please cancel your subscription separately through your device's subscription settings before or after requesting account deletion.</p>
-  </div>
-
-  <p class="updated">Last updated: June 2026 · See also our <a class="contact-link" href="privacy-policy.html">Privacy Policy</a></p>
 </div>
 
 <site-footer>&copy; 2026 Little Mirrors. All rights reserved.</site-footer>
 
+<script>
+  function showLang(lang) {
+    document.getElementById('en').style.display = lang === 'en' ? 'block' : 'none';
+    document.getElementById('zh').style.display = lang === 'zh' ? 'block' : 'none';
+  }
+  if (navigator.language && navigator.language.startsWith('zh')) showLang('zh');
+</script>
 </body>
 </html>

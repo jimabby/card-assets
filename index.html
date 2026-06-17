@@ -15,6 +15,28 @@
       flex-direction: column;
     }
 
+    /* ── Language toggle ── */
+    .lang-toggle {
+      position: absolute;
+      top: 16px;
+      right: 20px;
+      display: flex;
+      gap: 6px;
+      z-index: 100;
+    }
+    .lang-toggle a {
+      color: #aaa;
+      text-decoration: none;
+      font-size: 13px;
+      padding: 4px 10px;
+      border-radius: 6px;
+      transition: background 0.15s, color 0.15s;
+    }
+    .lang-toggle a:hover { background: rgba(255,255,255,0.12); color: #fff; }
+
+    #en, #zh { display: flex; flex-direction: column; flex: 1; }
+    #zh { display: none; }
+
     /* ── Hero ── */
     .hero {
       background: #1a1a2e;
@@ -165,73 +187,156 @@
 </head>
 <body>
 
-  <div class="hero">
-    <h1>Our Apps</h1>
-    <p>A small collection of useful iOS apps for everyday life.</p>
+  <div class="lang-toggle">
+    <a href="#" onclick="showLang('en'); return false;">EN</a>
+    <a href="#" onclick="showLang('zh'); return false;">繁中</a>
   </div>
 
-  <main>
-    <p class="section-label">Apps</p>
-    <div class="apps">
-
-      <div class="app-card pockyt">
-        <div class="app-icon">💳</div>
-        <div class="app-meta">
-          <h2>Pockyt</h2>
-          <p>Personal finance tracker with smart budgeting, cashback hints, and optional AI receipt scanning.</p>
-        </div>
-        <div class="app-links">
-          <a class="link-primary" href="legal/pockyt/privacy-policy.html">Privacy Policy</a>
-          <a class="link-secondary" href="legal/pockyt/support.html">Support</a>
-          <a class="link-delete" href="legal/pockyt/account-deletion.html">Delete Account</a>
-        </div>
-      </div>
-
-      <div class="app-card lymphalight">
-        <div class="app-icon">💜</div>
-        <div class="app-meta">
-          <h2>LymphaLight</h2>
-          <p>Local-first symptom tracker for people living with lymphoma — no account, no server.</p>
-        </div>
-        <div class="app-links">
-          <a class="link-primary" href="legal/lymphalight/privacy-policy.html">Privacy Policy</a>
-          <a class="link-secondary" href="legal/lymphalight/support.html">Support</a>
-          <a class="link-delete" href="legal/lymphalight/account-deletion.html">Delete Data</a>
-        </div>
-      </div>
-
-      <div class="app-card littlemirror">
-        <div class="app-icon">🌸</div>
-        <div class="app-meta">
-          <h2>Little Mirrors</h2>
-          <p>Pregnancy companion with AI tips, kick counter, contraction timer, and partner sync.</p>
-        </div>
-        <div class="app-links">
-          <a class="link-primary" href="legal/littlemirror/privacy-policy.html">Privacy Policy</a>
-          <a class="link-secondary" href="legal/littlemirror/support.html">Support</a>
-          <a class="link-delete" href="legal/littlemirror/account-deletion.html">Delete Account</a>
-        </div>
-      </div>
-
-      <div class="app-card twirl">
-        <div class="app-icon">🪘</div>
-        <div class="app-meta">
-          <h2>Twirl · 木鱼</h2>
-          <p>Spin to discover nearby places, tap the wooden fish to earn merit, and collect fortune lots.</p>
-        </div>
-        <div class="app-links">
-          <a class="link-primary" href="legal/twirl/privacy-policy.html">Privacy Policy</a>
-          <a class="link-secondary" href="legal/twirl/support.html">Support</a>
-          <a class="link-delete" href="legal/twirl/account-deletion.html">Delete Account</a>
-        </div>
-      </div>
-
+  <!-- ═══════════════════════════════════════ English -->
+  <div id="en">
+    <div class="hero">
+      <h1>Our Apps</h1>
+      <p>A small collection of useful iOS apps for everyday life.</p>
     </div>
-  </main>
+
+    <main>
+      <p class="section-label">Apps</p>
+      <div class="apps">
+
+        <div class="app-card pockyt">
+          <div class="app-icon">💳</div>
+          <div class="app-meta">
+            <h2>Pockyt</h2>
+            <p>Personal finance tracker with smart budgeting, cashback hints, and optional AI receipt scanning.</p>
+          </div>
+          <div class="app-links">
+            <a class="link-primary" href="legal/pockyt/privacy-policy.html">Privacy Policy</a>
+            <a class="link-secondary" href="legal/pockyt/support.html">Support</a>
+            <a class="link-delete" href="legal/pockyt/account-deletion.html">Delete Account</a>
+          </div>
+        </div>
+
+        <div class="app-card lymphalight">
+          <div class="app-icon">💜</div>
+          <div class="app-meta">
+            <h2>LymphaLight</h2>
+            <p>Local-first symptom tracker for people living with lymphoma — no account, no server.</p>
+          </div>
+          <div class="app-links">
+            <a class="link-primary" href="legal/lymphalight/privacy-policy.html">Privacy Policy</a>
+            <a class="link-secondary" href="legal/lymphalight/support.html">Support</a>
+            <a class="link-delete" href="legal/lymphalight/account-deletion.html">Delete Data</a>
+          </div>
+        </div>
+
+        <div class="app-card littlemirror">
+          <div class="app-icon">🌸</div>
+          <div class="app-meta">
+            <h2>Little Mirrors</h2>
+            <p>Pregnancy companion with AI tips, kick counter, contraction timer, and partner sync.</p>
+          </div>
+          <div class="app-links">
+            <a class="link-primary" href="legal/littlemirror/privacy-policy.html">Privacy Policy</a>
+            <a class="link-secondary" href="legal/littlemirror/support.html">Support</a>
+            <a class="link-delete" href="legal/littlemirror/account-deletion.html">Delete Account</a>
+          </div>
+        </div>
+
+        <div class="app-card twirl">
+          <div class="app-icon">🪘</div>
+          <div class="app-meta">
+            <h2>Twirl · 木鱼</h2>
+            <p>Spin to discover nearby places, tap the wooden fish to earn merit, and collect fortune lots.</p>
+          </div>
+          <div class="app-links">
+            <a class="link-primary" href="legal/twirl/privacy-policy.html">Privacy Policy</a>
+            <a class="link-secondary" href="legal/twirl/support.html">Support</a>
+            <a class="link-delete" href="legal/twirl/account-deletion.html">Delete Account</a>
+          </div>
+        </div>
+
+      </div>
+    </main>
+  </div>
+
+  <!-- ═══════════════════════════════════════ Traditional Chinese -->
+  <div id="zh">
+    <div class="hero">
+      <h1>我們的應用程式</h1>
+      <p>一系列實用的 iOS 日常生活應用程式。</p>
+    </div>
+
+    <main>
+      <p class="section-label">應用程式</p>
+      <div class="apps">
+
+        <div class="app-card pockyt">
+          <div class="app-icon">💳</div>
+          <div class="app-meta">
+            <h2>Pockyt</h2>
+            <p>個人理財追蹤工具，具備智慧預算、現金回饋提示及可選的 AI 收據掃描功能。</p>
+          </div>
+          <div class="app-links">
+            <a class="link-primary" href="legal/pockyt/privacy-policy.html">隱私政策</a>
+            <a class="link-secondary" href="legal/pockyt/support.html">支援</a>
+            <a class="link-delete" href="legal/pockyt/account-deletion.html">刪除帳戶</a>
+          </div>
+        </div>
+
+        <div class="app-card lymphalight">
+          <div class="app-icon">💜</div>
+          <div class="app-meta">
+            <h2>LymphaLight</h2>
+            <p>為淋巴瘤患者打造的本機優先症狀追蹤工具——無需帳號，沒有伺服器。</p>
+          </div>
+          <div class="app-links">
+            <a class="link-primary" href="legal/lymphalight/privacy-policy.html">隱私政策</a>
+            <a class="link-secondary" href="legal/lymphalight/support.html">支援</a>
+            <a class="link-delete" href="legal/lymphalight/account-deletion.html">刪除資料</a>
+          </div>
+        </div>
+
+        <div class="app-card littlemirror">
+          <div class="app-icon">🌸</div>
+          <div class="app-meta">
+            <h2>Little Mirrors</h2>
+            <p>孕期陪伴應用程式，提供 AI 提示、胎動計數器、宮縮計時器及伴侶同步。</p>
+          </div>
+          <div class="app-links">
+            <a class="link-primary" href="legal/littlemirror/privacy-policy.html">隱私政策</a>
+            <a class="link-secondary" href="legal/littlemirror/support.html">支援</a>
+            <a class="link-delete" href="legal/littlemirror/account-deletion.html">刪除帳戶</a>
+          </div>
+        </div>
+
+        <div class="app-card twirl">
+          <div class="app-icon">🪘</div>
+          <div class="app-meta">
+            <h2>Twirl · 木魚</h2>
+            <p>轉動轉盤探索附近地點，敲擊木魚累積功德，並收集籤詩。</p>
+          </div>
+          <div class="app-links">
+            <a class="link-primary" href="legal/twirl/privacy-policy.html">隱私政策</a>
+            <a class="link-secondary" href="legal/twirl/support.html">支援</a>
+            <a class="link-delete" href="legal/twirl/account-deletion.html">刪除帳戶</a>
+          </div>
+        </div>
+
+      </div>
+    </main>
+  </div>
 
   <footer>
     &copy; 2026 Pockyt, LymphaLight, Little Mirrors &amp; Twirl.
   </footer>
+
+  <script>
+    function showLang(lang) {
+      document.getElementById('en').style.display = lang === 'en' ? 'flex' : 'none';
+      document.getElementById('zh').style.display = lang === 'zh' ? 'flex' : 'none';
+    }
+    if (navigator.language && navigator.language.startsWith('zh')) showLang('zh');
+  </script>
 
 </body>
 </html>

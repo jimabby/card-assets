@@ -38,6 +38,16 @@
       font-weight: 700;
       color: #fff;
     }
+    .top-nav .lang-toggle { display: flex; gap: 6px; }
+    .top-nav .lang-toggle a {
+      color: #aaa;
+      text-decoration: none;
+      font-size: 13px;
+      padding: 4px 10px;
+      border-radius: 6px;
+      transition: background 0.15s, color 0.15s;
+    }
+    .top-nav .lang-toggle a:hover { background: #2c2c4e; color: #fff; }
     site-footer {
       display: block;
       text-align: center;
@@ -82,6 +92,8 @@
       color: #555;
     }
 
+    #zh { display: none; }
+
     @media (prefers-color-scheme: dark) {
       body { background: #1c1c1e; color: #f0f0f0; }
       .section { background: #2c2c2e; box-shadow: none; }
@@ -94,80 +106,164 @@
 <body>
 
 <nav class="top-nav">
-  <a class="back" href="../index.html">&#8592; All Apps</a>
+  <a class="back" href="../../index.html">&#8592; All Apps</a>
   <span class="app-label">LymphaLight</span>
-  <span></span>
+  <div class="lang-toggle">
+    <a href="#" onclick="showLang('en'); return false;">EN</a>
+    <a href="#" onclick="showLang('zh'); return false;">繁中</a>
+  </div>
 </nav>
 
-<header>
-  <h1>LymphaLight Privacy Policy</h1>
-  <p>Your health data stays on your device.</p>
-</header>
+<!-- ═══════════════════════════════════════ English -->
+<div id="en">
+  <header>
+    <h1>LymphaLight Privacy Policy</h1>
+    <p>Your health data stays on your device.</p>
+  </header>
 
-<div class="container">
+  <div class="container">
 
-  <div class="section">
-    <div class="highlight">LymphaLight is local-first. All your health data is stored only on your device. There is no account, no login, and no server.</div>
+    <div class="section">
+      <div class="highlight">LymphaLight is local-first. All your health data is stored only on your device. There is no account, no login, and no server.</div>
 
-    <h2>1. Information We Collect</h2>
-    <p>LymphaLight stores the following data <strong>locally on your device only</strong>, using AsyncStorage:</p>
-    <ul>
-      <li>Onboarding information: age range, lymphoma diagnosis type, and treatment status</li>
-      <li>Daily symptom check-ins: night sweats, temperature, weight, itching, alcohol-induced pain, and optional notes</li>
-      <li>Lymph node logs: region, size measurements, and how each node feels (firmness, mobility, tenderness)</li>
-      <li>App settings: reminder time, text size, high-contrast mode, and reduce-motion preferences</li>
-    </ul>
-    <p>This data never leaves your device. LymphaLight has no backend server, no database, and no analytics.</p>
+      <h2>1. Information We Collect</h2>
+      <p>LymphaLight stores the following data <strong>locally on your device only</strong>, using AsyncStorage:</p>
+      <ul>
+        <li>Onboarding information: age range, lymphoma diagnosis type, and treatment status</li>
+        <li>Daily symptom check-ins: night sweats, temperature, weight, itching, alcohol-induced pain, and optional notes</li>
+        <li>Lymph node logs: region, size measurements, and how each node feels (firmness, mobility, tenderness)</li>
+        <li>App settings: reminder time, text size, high-contrast mode, and reduce-motion preferences</li>
+      </ul>
+      <p>This data never leaves your device. LymphaLight has no backend server, no database, and no analytics.</p>
+    </div>
+
+    <div class="section">
+      <h2>2. No Account or Login Required</h2>
+      <p>LymphaLight does not require you to create an account or sign in. No email address, phone number, or personal identifiers are collected.</p>
+    </div>
+
+    <div class="section">
+      <h2>3. Backup &amp; Restore</h2>
+      <p>You can export all your data as a JSON file and restore it on another device by pasting the backup. This export is initiated entirely by you and handled locally on your device. The exported file may contain your health information — please treat it with appropriate care.</p>
+    </div>
+
+    <div class="section">
+      <h2>4. PDF Reports</h2>
+      <p>You can generate a PDF summary of your check-ins and node history to share with your care team. PDF generation and sharing (via the system share sheet) is handled on-device by iOS/Android. No data is sent to any server.</p>
+    </div>
+
+    <div class="section">
+      <h2>5. Notifications</h2>
+      <p>LymphaLight can send a daily local notification to remind you to complete your check-in. Notifications are scheduled entirely on-device via expo-notifications. No notification data is sent to any server.</p>
+    </div>
+
+    <div class="section">
+      <h2>6. Third-Party Services</h2>
+      <p>LymphaLight does not integrate any analytics, advertising, crash-reporting, or third-party tracking SDKs. No data is shared with any third party.</p>
+    </div>
+
+    <div class="section">
+      <h2>7. Data Deletion</h2>
+      <p>You can delete all your data at any time from Settings → Clear All Data. Uninstalling the app removes all locally stored data. There is no cloud copy to delete.</p>
+    </div>
+
+    <div class="section">
+      <h2>8. Children's Privacy</h2>
+      <p>LymphaLight is not directed at children under 13. If you believe a child has entered personal health information, please use the Clear All Data option in Settings.</p>
+    </div>
+
+    <div class="section">
+      <h2>9. Contact</h2>
+      <p>For questions or feedback, please contact us at <a class="contact-link" href="mailto:wksunshine@gmail.com">wksunshine@gmail.com</a>.</p>
+    </div>
+
+    <div class="section">
+      <div class="disclaimer">LymphaLight is intended to support self-tracking and conversations with your healthcare providers. It is not a medical device and does not provide medical advice, diagnosis, or treatment. Always consult a qualified healthcare professional about your health.</div>
+    </div>
+
+    <p class="updated">Last updated: June 2026</p>
   </div>
+</div>
 
-  <div class="section">
-    <h2>2. No Account or Login Required</h2>
-    <p>LymphaLight does not require you to create an account or sign in. No email address, phone number, or personal identifiers are collected.</p>
+<!-- ═══════════════════════════════════════ Traditional Chinese -->
+<div id="zh">
+  <header>
+    <h1>LymphaLight 隱私政策</h1>
+    <p>您的健康資料只留在您的裝置上。</p>
+  </header>
+
+  <div class="container">
+
+    <div class="section">
+      <div class="highlight">LymphaLight 採用本機優先設計。您的所有健康資料僅儲存於您的裝置上。沒有帳號、無需登入，也沒有伺服器。</div>
+
+      <h2>1. 我們收集的資訊</h2>
+      <p>LymphaLight 僅使用 AsyncStorage 將以下資料<strong>儲存於您的裝置本機</strong>：</p>
+      <ul>
+        <li>初始設定資訊：年齡範圍、淋巴瘤診斷類型及治療狀態</li>
+        <li>每日症狀記錄：盜汗、體溫、體重、搔癢、飲酒引發的疼痛及選填備註</li>
+        <li>淋巴結紀錄：部位、尺寸測量值，以及各淋巴結的觸感（硬度、活動度、壓痛）</li>
+        <li>應用程式設定：提醒時間、文字大小、高對比模式及減少動態效果的偏好設定</li>
+      </ul>
+      <p>這些資料絕不會離開您的裝置。LymphaLight 沒有後端伺服器、沒有資料庫，也沒有分析追蹤。</p>
+    </div>
+
+    <div class="section">
+      <h2>2. 無需帳號或登入</h2>
+      <p>LymphaLight 不要求您建立帳號或登入。我們不會收集電子郵件地址、電話號碼或任何個人識別資訊。</p>
+    </div>
+
+    <div class="section">
+      <h2>3. 備份與還原</h2>
+      <p>您可以將所有資料匯出為 JSON 檔案，並透過貼上備份內容在另一台裝置上還原。此匯出完全由您自行啟動，並在您的裝置本機處理。匯出的檔案可能包含您的健康資訊——請妥善保管。</p>
+    </div>
+
+    <div class="section">
+      <h2>4. PDF 報告</h2>
+      <p>您可以產生包含每日記錄與淋巴結歷史的 PDF 摘要，與您的醫療團隊分享。PDF 的產生與分享（透過系統分享選單）由 iOS/Android 在裝置本機處理，不會向任何伺服器傳送資料。</p>
+    </div>
+
+    <div class="section">
+      <h2>5. 通知</h2>
+      <p>LymphaLight 可發送每日本機通知，提醒您完成記錄。通知完全透過 expo-notifications 在裝置本機排程，不會向任何伺服器傳送通知資料。</p>
+    </div>
+
+    <div class="section">
+      <h2>6. 第三方服務</h2>
+      <p>LymphaLight 未整合任何分析、廣告、當機回報或第三方追蹤 SDK。我們不會與任何第三方分享資料。</p>
+    </div>
+
+    <div class="section">
+      <h2>7. 資料刪除</h2>
+      <p>您可隨時透過「設定 → 清除所有資料」刪除您的所有資料。解除安裝應用程式即可移除所有本機儲存的資料。沒有任何雲端副本需要刪除。</p>
+    </div>
+
+    <div class="section">
+      <h2>8. 兒童隱私</h2>
+      <p>LymphaLight 並非針對 13 歲以下兒童設計。若您認為有兒童輸入了個人健康資訊，請使用「設定」中的「清除所有資料」選項。</p>
+    </div>
+
+    <div class="section">
+      <h2>9. 聯絡方式</h2>
+      <p>如有疑問或意見，請聯絡我們：<a class="contact-link" href="mailto:wksunshine@gmail.com">wksunshine@gmail.com</a>。</p>
+    </div>
+
+    <div class="section">
+      <div class="disclaimer">LymphaLight 旨在協助您進行自我追蹤，並與您的醫療提供者溝通。它並非醫療器材，亦不提供醫療建議、診斷或治療。有關健康問題，請務必諮詢合格的醫療專業人員。</div>
+    </div>
+
+    <p class="updated">最後更新：2026 年 6 月</p>
   </div>
-
-  <div class="section">
-    <h2>3. Backup &amp; Restore</h2>
-    <p>You can export all your data as a JSON file and restore it on another device by pasting the backup. This export is initiated entirely by you and handled locally on your device. The exported file may contain your health information — please treat it with appropriate care.</p>
-  </div>
-
-  <div class="section">
-    <h2>4. PDF Reports</h2>
-    <p>You can generate a PDF summary of your check-ins and node history to share with your care team. PDF generation and sharing (via the system share sheet) is handled on-device by iOS/Android. Pockyt's servers are not involved.</p>
-  </div>
-
-  <div class="section">
-    <h2>5. Notifications</h2>
-    <p>LymphaLight can send a daily local notification to remind you to complete your check-in. Notifications are scheduled entirely on-device via expo-notifications. No notification data is sent to any server.</p>
-  </div>
-
-  <div class="section">
-    <h2>6. Third-Party Services</h2>
-    <p>LymphaLight does not integrate any analytics, advertising, crash-reporting, or third-party tracking SDKs. No data is shared with any third party.</p>
-  </div>
-
-  <div class="section">
-    <h2>7. Data Deletion</h2>
-    <p>You can delete all your data at any time from Settings → Clear All Data. Uninstalling the app removes all locally stored data. There is no cloud copy to delete.</p>
-  </div>
-
-  <div class="section">
-    <h2>8. Children's Privacy</h2>
-    <p>LymphaLight is not directed at children under 13. If you believe a child has entered personal health information, please use the Clear All Data option in Settings.</p>
-  </div>
-
-  <div class="section">
-    <h2>9. Contact</h2>
-    <p>For questions or feedback, please contact us at <a class="contact-link" href="mailto:wksunshine@gmail.com">wksunshine@gmail.com</a>.</p>
-  </div>
-
-  <div class="section">
-    <div class="disclaimer">LymphaLight is intended to support self-tracking and conversations with your healthcare providers. It is not a medical device and does not provide medical advice, diagnosis, or treatment. Always consult a qualified healthcare professional about your health.</div>
-  </div>
-
-  <p class="updated">Last updated: June 2026</p>
 </div>
 
 <site-footer>&copy; 2026 LymphaLight. All rights reserved.</site-footer>
 
+<script>
+  function showLang(lang) {
+    document.getElementById('en').style.display = lang === 'en' ? 'block' : 'none';
+    document.getElementById('zh').style.display = lang === 'zh' ? 'block' : 'none';
+  }
+  if (navigator.language && navigator.language.startsWith('zh')) showLang('zh');
+</script>
 </body>
 </html>
