@@ -34,16 +34,21 @@
     }
     .top-nav a.back:hover { color: #fff; }
     .top-nav .app-label { font-size: 14px; font-weight: 700; color: #fff; }
-    .top-nav .lang-toggle { display: flex; gap: 6px; }
-    .top-nav .lang-toggle a {
+    .lang-bar {
+      background: #1a1a2e;
+      text-align: center;
+      padding: 8px;
+      border-top: 1px solid rgba(255,255,255,0.08);
+    }
+    .lang-bar a {
       color: #aaa;
       text-decoration: none;
       font-size: 13px;
-      padding: 4px 10px;
+      padding: 4px 12px;
       border-radius: 6px;
       transition: background 0.15s, color 0.15s;
     }
-    .top-nav .lang-toggle a:hover { background: #2c2c4e; color: #fff; }
+    .lang-bar a:hover { background: #2c2c4e; color: #fff; }
     site-footer {
       display: block;
       text-align: center;
@@ -85,11 +90,13 @@
 <nav class="top-nav">
   <a class="back" href="../../index.html">&#8592; All Apps</a>
   <span class="app-label">Twirl · 木鱼</span>
-  <div class="lang-toggle">
-    <a href="#" onclick="showLang('en'); return false;">EN</a>
-    <a href="#" onclick="showLang('zh'); return false;">繁中</a>
-  </div>
+  <span></span>
 </nav>
+
+<div class="lang-bar">
+  <a href="#" onclick="showLang('en'); return false;">English</a>
+  <a href="#" onclick="showLang('zh'); return false;">繁體中文</a>
+</div>
 
 <!-- ═══════════════════════════════════════ English -->
 <div id="en">
@@ -187,9 +194,14 @@
   function showLang(lang) {
     document.getElementById('en').style.display = lang === 'en' ? 'block' : 'none';
     document.getElementById('zh').style.display = lang === 'zh' ? 'block' : 'none';
+    try { localStorage.setItem('lang', lang); } catch (e) {}
   }
-  const lang = navigator.language || '';
-  if (lang.startsWith('zh')) showLang('zh');
+  (function () {
+    var saved = null;
+    try { saved = localStorage.getItem('lang'); } catch (e) {}
+    if (saved) showLang(saved);
+    else if ((navigator.language || '').startsWith('zh')) showLang('zh');
+  })();
 </script>
 </body>
 </html>
