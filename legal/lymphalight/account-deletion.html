@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>LymphaLight — Delete Your Data</title>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+      background: #f5f3f9;
+      color: #1a1a1a;
+      line-height: 1.7;
+    }
+    .top-nav {
+      background: #1a1a2e;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 12px 20px;
+      position: sticky;
+      top: 0;
+      z-index: 100;
+    }
+    .top-nav a.back {
+      color: #aaa;
+      text-decoration: none;
+      font-size: 14px;
+      font-weight: 500;
+      display: flex;
+      align-items: center;
+      gap: 6px;
+      transition: color 0.15s;
+    }
+    .top-nav a.back:hover { color: #fff; }
+    .top-nav .app-label { font-size: 14px; font-weight: 700; color: #fff; }
+    site-footer {
+      display: block;
+      text-align: center;
+      padding: 24px;
+      font-size: 13px;
+      color: #aaa;
+      border-top: 1px solid #e8e8e8;
+      margin-top: 40px;
+    }
+    header {
+      background: #6b5b95;
+      color: #fff;
+      padding: 40px 24px 32px;
+      text-align: center;
+    }
+    header h1 { font-size: 28px; font-weight: 800; letter-spacing: 0.5px; }
+    header p { margin-top: 8px; opacity: 0.85; font-size: 15px; }
+    .container { max-width: 720px; margin: 40px auto; padding: 0 24px 60px; }
+    .section { background: #fff; border-radius: 14px; padding: 28px 28px 24px; margin-bottom: 20px; box-shadow: 0 2px 8px rgba(0,0,0,0.06); }
+    .section h2 { font-size: 17px; font-weight: 700; color: #6b5b95; margin-bottom: 12px; }
+    .section p { font-size: 15px; color: #333; margin-bottom: 10px; }
+    .section p:last-child { margin-bottom: 0; }
+    .section ol, .section ul { margin: 10px 0 0 20px; font-size: 15px; color: #333; }
+    .section li { margin-bottom: 6px; }
+    .callout {
+      background: #f0ecf9;
+      border-left: 4px solid #6b5b95;
+      border-radius: 8px;
+      padding: 14px 18px;
+      font-size: 15px;
+      color: #333;
+    }
+    .updated { text-align: center; color: #888; font-size: 13px; margin-top: 32px; }
+    .contact-link { color: #6b5b95; }
+
+    @media (prefers-color-scheme: dark) {
+      body { background: #1c1c1e; color: #f0f0f0; }
+      .section { background: #2c2c2e; box-shadow: none; }
+      .section p, .section ol, .section ul { color: #ccc; }
+      .callout { background: #2a2040; color: #ccc; }
+    }
+  </style>
+</head>
+<body>
+
+<nav class="top-nav">
+  <a class="back" href="../index.html">&#8592; All Apps</a>
+  <span class="app-label">LymphaLight</span>
+  <div></div>
+</nav>
+
+<header>
+  <h1>Delete Your LymphaLight Data</h1>
+  <p>LymphaLight — by Cessleigh Pty Ltd. How your data is stored and how to delete it.</p>
+</header>
+
+<div class="container">
+
+  <div class="section">
+    <div class="callout">LymphaLight is a <strong>fully local app</strong> — there is no account, no server, and no cloud. All your data lives only on your device. Nothing is ever sent to our servers.</div>
+  </div>
+
+  <div class="section">
+    <h2>1. Delete Your Data in the App</h2>
+    <p>To permanently remove all data from your device:</p>
+    <ol>
+      <li>Open <strong>LymphaLight</strong> and go to <strong>Settings</strong>.</li>
+      <li>Tap <strong>Clear All Data</strong>.</li>
+      <li>Confirm the action. All check-ins, node logs, and settings will be erased immediately.</li>
+    </ol>
+  </div>
+
+  <div class="section">
+    <h2>2. Uninstalling the App</h2>
+    <p>Deleting LymphaLight from your device also removes all associated data. There is no cloud copy to delete — uninstalling is complete and final.</p>
+  </div>
+
+  <div class="section">
+    <h2>3. What Is Deleted</h2>
+    <p>Using Clear All Data or uninstalling removes:</p>
+    <ul>
+      <li>All daily check-in entries and symptom logs.</li>
+      <li>All lymph node measurements and tracking history.</li>
+      <li>Any generated PDF reports stored within the app.</li>
+      <li>All app settings and preferences.</li>
+    </ul>
+    <p style="margin-top: 10px;">Backup files you have exported manually (e.g. saved to iCloud Drive or email) are not affected — you may delete those separately.</p>
+  </div>
+
+  <div class="section">
+    <h2>4. Questions?</h2>
+    <p>If you have any questions about your data or privacy, email us at <a class="contact-link" href="mailto:wksunshine@gmail.com?subject=LymphaLight%20Data%20Deletion%20Question">wksunshine@gmail.com</a>.</p>
+  </div>
+
+  <p class="updated">Last updated: June 2026 · See also our <a class="contact-link" href="privacy-policy.html">Privacy Policy</a></p>
+</div>
+
+<site-footer>&copy; 2026 LymphaLight. All rights reserved.</site-footer>
+
+</body>
+</html>

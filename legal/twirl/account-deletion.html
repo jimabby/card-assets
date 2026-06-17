@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Twirl · 木鱼 — Delete Your Account</title>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+      background: #fdf8f3;
+      color: #1a1a1a;
+      line-height: 1.7;
+    }
+    .top-nav {
+      background: #1a1a2e;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 12px 20px;
+      position: sticky;
+      top: 0;
+      z-index: 100;
+    }
+    .top-nav a.back {
+      color: #aaa;
+      text-decoration: none;
+      font-size: 14px;
+      font-weight: 500;
+      display: flex;
+      align-items: center;
+      gap: 6px;
+      transition: color 0.15s;
+    }
+    .top-nav a.back:hover { color: #fff; }
+    .top-nav .app-label { font-size: 14px; font-weight: 700; color: #fff; }
+    .top-nav .lang-toggle { display: flex; gap: 6px; }
+    .top-nav .lang-toggle a {
+      color: #aaa;
+      text-decoration: none;
+      font-size: 13px;
+      padding: 4px 10px;
+      border-radius: 6px;
+      transition: background 0.15s, color 0.15s;
+    }
+    .top-nav .lang-toggle a:hover { background: #2c2c4e; color: #fff; }
+    site-footer {
+      display: block;
+      text-align: center;
+      padding: 24px;
+      font-size: 13px;
+      color: #aaa;
+      border-top: 1px solid #e8e8e8;
+      margin-top: 40px;
+    }
+    header {
+      background: #e07b39;
+      color: #fff;
+      padding: 40px 24px 32px;
+      text-align: center;
+    }
+    header h1 { font-size: 28px; font-weight: 800; letter-spacing: 0.5px; }
+    header p { margin-top: 8px; opacity: 0.85; font-size: 15px; }
+    .container { max-width: 720px; margin: 40px auto; padding: 0 24px 60px; }
+    .section { background: #fff; border-radius: 14px; padding: 28px 28px 24px; margin-bottom: 20px; box-shadow: 0 2px 8px rgba(0,0,0,0.06); }
+    .section h2 { font-size: 17px; font-weight: 700; color: #e07b39; margin-bottom: 12px; }
+    .section p { font-size: 15px; color: #333; margin-bottom: 10px; }
+    .section p:last-child { margin-bottom: 0; }
+    .section ol, .section ul { margin: 10px 0 0 20px; font-size: 15px; color: #333; }
+    .section li { margin-bottom: 6px; }
+    .updated { text-align: center; color: #888; font-size: 13px; margin-top: 32px; }
+    .contact-link { color: #e07b39; }
+
+    #zh { display: none; }
+
+    @media (prefers-color-scheme: dark) {
+      body { background: #1c1c1e; color: #f0f0f0; }
+      .section { background: #2c2c2e; box-shadow: none; }
+      .section p, .section ol, .section ul { color: #ccc; }
+    }
+  </style>
+</head>
+<body>
+
+<nav class="top-nav">
+  <a class="back" href="../index.html">&#8592; All Apps</a>
+  <span class="app-label">Twirl · 木鱼</span>
+  <div class="lang-toggle">
+    <a href="#" onclick="showLang('en'); return false;">EN</a>
+    <a href="#" onclick="showLang('zh'); return false;">中文</a>
+  </div>
+</nav>
+
+<!-- ═══════════════════════════════════════ English -->
+<div id="en">
+  <header>
+    <h1>Delete Your Twirl Account</h1>
+    <p>Twirl · 木鱼 — by Cessleigh Pty Ltd. How to delete your account and data.</p>
+  </header>
+
+  <div class="container">
+
+    <div class="section">
+      <h2>1. Delete Your Account in the App</h2>
+      <p>You can delete your Twirl account and all associated cloud data directly inside the app:</p>
+      <ol>
+        <li>Open <strong>Twirl</strong> and go to the <strong>Profile</strong> tab.</li>
+        <li>Scroll to the account section and tap <strong>Delete Account</strong>.</li>
+        <li>Confirm the deletion. You may be asked to sign in again to verify it's you.</li>
+      </ol>
+      <p style="margin-top: 10px;">This works for accounts created with Google or Apple sign-in.</p>
+    </div>
+
+    <div class="section">
+      <h2>2. What Is Deleted</h2>
+      <p>When you delete your account, the following data is permanently removed:</p>
+      <ul>
+        <li>Your account and sign-in credentials (Firebase / Aliyun Authentication record).</li>
+        <li>All cloud-synced data: spin history, saved favourites, visited places, merit (功德) count, fortune lot history, and AI ranking preferences.</li>
+        <li>Your membership and trial entitlement records on our servers (your App Store / Google Play subscription itself must be cancelled with the store — deleting your account does not cancel store billing).</li>
+      </ul>
+      <p style="margin-top: 10px;">Local spin history on your device can also be cleared via <strong>Settings → Clear History</strong> at any time, without deleting your account.</p>
+    </div>
+
+    <div class="section">
+      <h2>3. Processing Time</h2>
+      <p>In-app deletion takes effect immediately. Residual copies in encrypted backups of our cloud infrastructure are purged within <strong>30 days</strong>. We do not retain your data after this window, except where required by law.</p>
+    </div>
+
+    <div class="section">
+      <h2>4. Can't Access the App?</h2>
+      <p>If you no longer have the app installed or can't sign in, email us a deletion request at <a class="contact-link" href="mailto:wksunshine@gmail.com?subject=Twirl%20Account%20Deletion%20Request">wksunshine@gmail.com</a> from the email address associated with your account (or include your sign-in method). We will verify your identity and complete the deletion within <strong>30 days</strong>, and confirm by reply.</p>
+    </div>
+
+    <p class="updated">Last updated: June 2026 · See also our <a class="contact-link" href="privacy-policy.html">Privacy Policy</a></p>
+  </div>
+</div>
+
+<!-- ═══════════════════════════════════════ Traditional Chinese -->
+<div id="zh">
+  <header>
+    <h1>刪除您的 Twirl 帳號</h1>
+    <p>Twirl · 木魚 — Cessleigh Pty Ltd 出品。如何刪除您的帳號和數據。</p>
+  </header>
+
+  <div class="container">
+
+    <div class="section">
+      <h2>1. 在應用程式內刪除帳號</h2>
+      <p>您可以直接在應用程式內刪除 Twirl 帳號及所有關聯的雲端數據：</p>
+      <ol>
+        <li>開啟 <strong>Twirl</strong>，前往<strong>個人資料</strong>分頁。</li>
+        <li>捲動至帳號區域，點選<strong>刪除帳號</strong>。</li>
+        <li>確認刪除。為驗證身份，系統可能要求您重新登入。</li>
+      </ol>
+      <p style="margin-top: 10px;">此操作適用於透過 Google 或 Apple 登入建立的帳號。</p>
+    </div>
+
+    <div class="section">
+      <h2>2. 刪除的數據範圍</h2>
+      <p>刪除帳號後，以下數據將被永久移除：</p>
+      <ul>
+        <li>您的帳號及登入憑證（Firebase / 阿里雲 Authentication 紀錄）。</li>
+        <li>所有雲端同步數據：轉盤紀錄、已儲存的最愛、已造訪地點、功德計數、求籤紀錄及 AI 排名偏好。</li>
+        <li>我們伺服器上的會員資格及試用資格紀錄（App Store / Google Play 的訂閱本身需在相應平台取消——刪除帳號不會取消商店扣費）。</li>
+      </ul>
+      <p style="margin-top: 10px;">如需清除裝置上的本機轉盤紀錄，可隨時透過<strong>設定 → 清除紀錄</strong>操作，無需刪除帳號。</p>
+    </div>
+
+    <div class="section">
+      <h2>3. 處理時限</h2>
+      <p>應用程式內刪除立即生效。雲端基礎設施加密備份中的殘留副本將在 <strong>30 天</strong>內清除。除法律要求保留的情況外，超過此期限後我們不再保留您的數據。</p>
+    </div>
+
+    <div class="section">
+      <h2>4. 無法存取應用程式？</h2>
+      <p>如果您已解除安裝應用程式或無法登入，請使用與帳號關聯的電子郵件地址（或註明您的登入方式）發送刪除請求至 <a class="contact-link" href="mailto:wksunshine@gmail.com?subject=Twirl%20帳號刪除請求">wksunshine@gmail.com</a>。我們將在核實身份後於 <strong>30 天</strong>內完成刪除，並回覆確認。</p>
+    </div>
+
+    <p class="updated">最後更新：2026 年 6 月 · 另見<a class="contact-link" href="privacy-policy.html">隱私政策</a></p>
+  </div>
+</div>
+
+<site-footer>&copy; 2026 Twirl · 木鱼. All rights reserved.</site-footer>
+
+<script>
+  function showLang(lang) {
+    document.getElementById('en').style.display = lang === 'en' ? 'block' : 'none';
+    document.getElementById('zh').style.display = lang === 'zh' ? 'block' : 'none';
+  }
+  const lang = navigator.language || '';
+  if (lang.startsWith('zh')) showLang('zh');
+</script>
+</body>
+</html>
