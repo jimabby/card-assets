@@ -50,6 +50,28 @@
       color: #555;
     }
 
+    .top-nav {
+      background: #1a1a2e;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 12px 20px;
+      position: sticky;
+      top: 0;
+      z-index: 100;
+    }
+    .top-nav a.back {
+      color: #aaa;
+      text-decoration: none;
+      font-size: 14px;
+      font-weight: 500;
+      display: flex;
+      align-items: center;
+      gap: 6px;
+      transition: color 0.15s;
+    }
+    .top-nav a.back:hover { color: #fff; }
+    .top-nav .app-label { font-size: 14px; font-weight: 700; color: #fff; }
     @media (prefers-color-scheme: dark) {
       body { background: #1c1c1e; color: #f0f0f0; }
       .section { background: #2c2c2e; box-shadow: none; }
@@ -60,6 +82,12 @@
   </style>
 </head>
 <body>
+
+<nav class="top-nav">
+  <a class="back" href="../../index.html">&#8592; All Apps</a>
+  <span class="app-label">Little Mirrors</span>
+  <div></div>
+</nav>
 
 <header>
   <h1>Little Mirrors Support</h1>
