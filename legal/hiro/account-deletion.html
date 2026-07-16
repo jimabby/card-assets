@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Hiro — Delete Your Account</title>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+      background: #f4f5fb;
+      color: #1a1a1a;
+      line-height: 1.7;
+    }
+    .top-nav {
+      background: #1a1a2e;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 12px 20px;
+      position: sticky;
+      top: 0;
+      z-index: 100;
+    }
+    .top-nav a.back {
+      color: #aaa;
+      text-decoration: none;
+      font-size: 14px;
+      font-weight: 500;
+      display: flex;
+      align-items: center;
+      gap: 6px;
+      transition: color 0.15s;
+    }
+    .top-nav a.back:hover { color: #fff; }
+    .top-nav .app-label { font-size: 14px; font-weight: 700; color: #fff; position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); }
+    .lang-bar {
+      background: #1a1a2e;
+      text-align: center;
+      padding: 8px;
+      border-top: 1px solid rgba(255,255,255,0.08);
+    }
+    .lang-bar a {
+      color: #aaa;
+      text-decoration: none;
+      font-size: 13px;
+      padding: 4px 12px;
+      border-radius: 6px;
+      transition: background 0.15s, color 0.15s;
+    }
+    .lang-bar a:hover { background: #2c2c4e; color: #fff; }
+    site-footer {
+      display: block;
+      text-align: center;
+      padding: 24px;
+      font-size: 13px;
+      color: #aaa;
+      border-top: 1px solid #e8e8e8;
+      margin-top: 40px;
+    }
+    header {
+      background: #6366f1;
+      color: #fff;
+      padding: 40px 24px 32px;
+      text-align: center;
+    }
+    header h1 { font-size: 28px; font-weight: 800; letter-spacing: 0.5px; }
+    header p { margin-top: 8px; opacity: 0.85; font-size: 15px; }
+    .container { max-width: 720px; margin: 40px auto; padding: 0 24px 60px; }
+    .section { background: #fff; border-radius: 14px; padding: 28px 28px 24px; margin-bottom: 20px; box-shadow: 0 2px 8px rgba(0,0,0,0.06); }
+    .section h2 { font-size: 17px; font-weight: 700; color: #6366f1; margin-bottom: 12px; }
+    .section p { font-size: 15px; color: #333; margin-bottom: 10px; }
+    .section p:last-child { margin-bottom: 0; }
+    .section ol, .section ul { margin: 10px 0 0 20px; font-size: 15px; color: #333; }
+    .section li { margin-bottom: 6px; }
+    .updated { text-align: center; color: #888; font-size: 13px; margin-top: 32px; }
+    .contact-link { color: #6366f1; }
+
+    #zh { display: none; }
+
+    @media (prefers-color-scheme: dark) {
+      body { background: #1c1c1e; color: #f0f0f0; }
+      .section { background: #2c2c2e; box-shadow: none; }
+      .section p, .section ol, .section ul { color: #ccc; }
+    }
+  </style>
+</head>
+<body>
+
+<nav class="top-nav">
+  <a class="back" href="../../index.html">&#8592; All Apps</a>
+  <span class="app-label">Hiro</span>
+  <span></span>
+</nav>
+
+<div class="lang-bar">
+  <a href="#" onclick="showLang('en'); return false;">English</a>
+  <a href="#" onclick="showLang('zh'); return false;">繁體中文</a>
+</div>
+
+<!-- ═══════════════════════════════════════ English -->
+<div id="en">
+  <header>
+    <h1>Delete Your Hiro Account</h1>
+    <p>How to delete your Hiro cloud account and data.</p>
+  </header>
+
+  <div class="container">
+
+    <div class="section">
+      <h2>1. Delete Your Account in the App</h2>
+      <p>If you use cloud mode, you can delete your account and all synced data directly inside the app:</p>
+      <ol>
+        <li>Open <strong>Hiro Mobile</strong> and go to the <strong>Settings</strong> tab.</li>
+        <li>Tap <strong>Delete account</strong>.</li>
+        <li>Confirm the deletion.</li>
+      </ol>
+      <p style="margin-top: 10px;">Deletion takes effect immediately and cannot be undone.</p>
+    </div>
+
+    <div class="section">
+      <h2>2. What Gets Deleted</h2>
+      <ul>
+        <li>Your cloud account (the email/password sign-in for your Supabase project).</li>
+        <li>Every job application record synced to the cloud — statuses, notes, match scores, and related data.</li>
+      </ul>
+      <p style="margin-top: 10px;"><strong>Not affected:</strong> the data stored locally by the Hiro desktop app on your own computer. That data belongs to you and stays on your machine; remove it by deleting it in the desktop app or uninstalling it.</p>
+    </div>
+
+    <div class="section">
+      <h2>3. Wi-Fi Mode — No Account Exists</h2>
+      <p>If you only use Wi-Fi (LAN) mode, there is no account and no cloud data. The app stores only your connection settings on your device — disconnecting or uninstalling the app removes them.</p>
+    </div>
+
+    <div class="section">
+      <h2>4. Need Help?</h2>
+      <p>If you can't access the app or run into any issue deleting your account, email us at <a class="contact-link" href="mailto:wksunshine@gmail.com">wksunshine@gmail.com</a> and we'll help you complete the deletion.</p>
+      <p>Note: because your data lives in a Supabase project that you own, you can also delete the entire project yourself from the <a class="contact-link" href="https://supabase.com/dashboard" rel="noopener">Supabase dashboard</a>, which removes everything at once.</p>
+    </div>
+
+    <p class="updated">Last updated: July 2026</p>
+  </div>
+</div>
+
+<!-- ═══════════════════════════════════════ Traditional Chinese -->
+<div id="zh">
+  <header>
+    <h1>刪除您的 Hiro 帳號</h1>
+    <p>如何刪除您的 Hiro 雲端帳號及資料。</p>
+  </header>
+
+  <div class="container">
+
+    <div class="section">
+      <h2>1. 在應用程式內刪除帳號</h2>
+      <p>若您使用雲端模式，可直接在應用程式內刪除帳號及所有同步資料：</p>
+      <ol>
+        <li>開啟 <strong>Hiro Mobile</strong>，前往<strong>設定</strong>分頁。</li>
+        <li>點選<strong>刪除帳號</strong>。</li>
+        <li>確認刪除。</li>
+      </ol>
+      <p style="margin-top: 10px;">刪除會立即生效，且無法復原。</p>
+    </div>
+
+    <div class="section">
+      <h2>2. 哪些資料會被刪除</h2>
+      <ul>
+        <li>您的雲端帳號（用於登入您 Supabase 專案的電子郵件／密碼）。</li>
+        <li>所有同步至雲端的求職應徵記錄 — 狀態、備注、匹配分數及相關資料。</li>
+      </ul>
+      <p style="margin-top: 10px;"><strong>不受影響：</strong>Hiro 桌面應用程式儲存在您電腦上的本機資料。這些資料屬於您並保留在您的電腦上；如需移除，請在桌面應用程式中刪除或解除安裝該程式。</p>
+    </div>
+
+    <div class="section">
+      <h2>3. Wi-Fi 模式 — 沒有帳號</h2>
+      <p>若您僅使用 Wi-Fi（區域網路）模式，則不存在帳號或雲端資料。應用程式僅在您的裝置上儲存連線設定 — 中斷連線或解除安裝應用程式即可移除。</p>
+    </div>
+
+    <div class="section">
+      <h2>4. 需要協助？</h2>
+      <p>若您無法存取應用程式，或在刪除帳號時遇到任何問題，請發送郵件至 <a class="contact-link" href="mailto:wksunshine@gmail.com">wksunshine@gmail.com</a>，我們會協助您完成刪除。</p>
+      <p>提示：由於您的資料存放在由您自己擁有的 Supabase 專案中，您也可以直接在 <a class="contact-link" href="https://supabase.com/dashboard" rel="noopener">Supabase 控制台</a>刪除整個專案，一次移除所有資料。</p>
+    </div>
+
+    <p class="updated">最後更新：2026 年 7 月</p>
+  </div>
+</div>
+
+<site-footer>&copy; 2026 Hiro. All rights reserved.</site-footer>
+
+<script>
+  function showLang(lang) {
+    document.getElementById('en').style.display = lang === 'en' ? 'block' : 'none';
+    document.getElementById('zh').style.display = lang === 'zh' ? 'block' : 'none';
+    try { localStorage.setItem('lang', lang); } catch (e) {}
+  }
+  (function () {
+    var saved = null;
+    try { saved = localStorage.getItem('lang'); } catch (e) {}
+    if (saved) showLang(saved);
+    else if ((navigator.language || '').startsWith('zh')) showLang('zh');
+  })();
+</script>
+</body>
+</html>

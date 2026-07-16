@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Hiro Support</title>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+      background: #f4f5fb;
+      color: #1a1a1a;
+      line-height: 1.7;
+    }
+    .lang-bar {
+      background: #1a1a2e;
+      text-align: center;
+      padding: 8px;
+      border-top: 1px solid rgba(255,255,255,0.08);
+    }
+    .lang-bar a {
+      color: #aaa;
+      text-decoration: none;
+      font-size: 13px;
+      padding: 4px 12px;
+      border-radius: 6px;
+      transition: background 0.15s, color 0.15s;
+    }
+    .lang-bar a:hover { background: #2c2c4e; color: #fff; }
+    header {
+      background: #6366f1;
+      color: #fff;
+      padding: 40px 24px 32px;
+      text-align: center;
+    }
+    header h1 { font-size: 28px; font-weight: 800; }
+    header p { margin-top: 8px; opacity: 0.9; font-size: 15px; }
+    .container { max-width: 720px; margin: 40px auto; padding: 0 24px 60px; }
+    .section { background: #fff; border-radius: 14px; padding: 28px; margin-bottom: 20px; box-shadow: 0 2px 8px rgba(0,0,0,0.06); }
+    .section h2 { font-size: 17px; font-weight: 700; color: #6366f1; margin-bottom: 14px; }
+    .section p { font-size: 15px; color: #333; margin-bottom: 10px; }
+    .section p:last-child { margin-bottom: 0; }
+    .faq-item { margin-bottom: 20px; }
+    .faq-item h3 { font-size: 15px; font-weight: 700; color: #1a1a1a; margin-bottom: 6px; }
+    .faq-item p { font-size: 15px; color: #444; }
+    .contact-btn {
+      display: inline-block;
+      background: #6366f1;
+      color: #fff;
+      text-decoration: none;
+      padding: 12px 28px;
+      border-radius: 10px;
+      font-weight: 700;
+      font-size: 15px;
+      margin-top: 8px;
+    }
+    .contact-link { color: #6366f1; }
+    .updated { text-align: center; color: #888; font-size: 13px; margin-top: 32px; }
+
+    #zh { display: none; }
+    .top-nav {
+      background: #1a1a2e;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 12px 20px;
+      position: sticky;
+      top: 0;
+      z-index: 100;
+    }
+    .top-nav a.back {
+      color: #aaa;
+      text-decoration: none;
+      font-size: 14px;
+      font-weight: 500;
+      display: flex;
+      align-items: center;
+      gap: 6px;
+      transition: color 0.15s;
+    }
+    .top-nav a.back:hover { color: #fff; }
+    .top-nav .app-label { font-size: 14px; font-weight: 700; color: #fff; position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); }
+    @media (prefers-color-scheme: dark) {
+      body { background: #1c1c1e; color: #f0f0f0; }
+      .section { background: #2c2c2e; box-shadow: none; }
+      .section p, .faq-item p { color: #ccc; }
+      .faq-item h3 { color: #f0f0f0; }
+    }
+  </style>
+</head>
+<body>
+
+<nav class="top-nav">
+  <a class="back" href="../../index.html">&#8592; All Apps</a>
+  <span class="app-label">Hiro</span>
+  <span></span>
+</nav>
+
+<div class="lang-bar">
+  <a href="#" onclick="showLang('en'); return false;">English</a>
+  <a href="#" onclick="showLang('zh'); return false;">繁體中文</a>
+</div>
+
+<!-- ═══════════════════════════════════════ English -->
+<div id="en">
+  <header>
+    <h1>Hiro Support</h1>
+    <p>Your job-search companion — we're here to help.</p>
+  </header>
+
+  <div class="container">
+
+    <div class="section">
+      <h2>Contact Us</h2>
+      <p>Have a question, found a bug, or want to share feedback? Reach out and we'll get back to you.</p>
+      <a class="contact-btn" href="mailto:wksunshine@gmail.com">Email Support</a>
+      <p style="margin-top:14px; font-size:14px; color:#888;">wksunshine@gmail.com</p>
+    </div>
+
+    <div class="section">
+      <h2>Frequently Asked Questions</h2>
+
+      <div class="faq-item">
+        <h3>What is Hiro Mobile?</h3>
+        <p>Hiro Mobile is a companion app for the Hiro desktop application. The desktop app finds and tracks your job applications; the mobile app lets you view them, update statuses, add notes, and trigger scans from your phone.</p>
+      </div>
+
+      <div class="faq-item">
+        <h3>Do I need the desktop app?</h3>
+        <p>Yes. Hiro Mobile displays data produced by the Hiro desktop app — it has no standalone job-search features. Install and set up the desktop app first.</p>
+      </div>
+
+      <div class="faq-item">
+        <h3>How do I connect over Wi-Fi?</h3>
+        <p>Make sure your phone and computer are on the same Wi-Fi network. In the desktop app, open the mobile pairing screen to get the address, port, and pairing token, then enter them in Hiro Mobile. You can verify the link at any time with Settings → Test Connection.</p>
+      </div>
+
+      <div class="faq-item">
+        <h3>What is cloud mode?</h3>
+        <p>Cloud mode syncs your applications through a Supabase project that you create and own, so your phone works away from your home network. The desktop app's setup guide walks you through creating the project. The developer runs no servers and has no access to your data.</p>
+      </div>
+
+      <div class="faq-item">
+        <h3>Why can't the app find my desktop?</h3>
+        <p>Check that the Hiro desktop app is running, that both devices are on the same network, and that your firewall allows local connections to the desktop app's port. If the IP address of your computer changed, re-pair with the new address.</p>
+      </div>
+
+      <div class="faq-item">
+        <h3>Can I edit applications from my phone?</h3>
+        <p>Yes — you can change application statuses and add or edit notes. Resumes, cover letters, and scans are produced on the desktop.</p>
+      </div>
+
+      <div class="faq-item">
+        <h3>Where is my data stored?</h3>
+        <p>On your own computer, and — only if you enable cloud mode — in your own Supabase project. The developer collects nothing: no analytics, no ads, no tracking. See the <a class="contact-link" href="privacy-policy.html">Privacy Policy</a>.</p>
+      </div>
+
+      <div class="faq-item">
+        <h3>How do I delete my account?</h3>
+        <p>In cloud mode, go to <strong>Settings → Delete account</strong> to permanently remove your cloud account and all synced data. See the <a class="contact-link" href="account-deletion.html">Delete Account</a> page, or email us at <a class="contact-link" href="mailto:wksunshine@gmail.com">wksunshine@gmail.com</a> if you can't access the app.</p>
+      </div>
+    </div>
+
+    <div class="section">
+      <h2>Privacy Policy</h2>
+      <p>Read our full <a class="contact-link" href="privacy-policy.html">Privacy Policy</a>.</p>
+    </div>
+
+    <p class="updated">Hiro · wksunshine@gmail.com</p>
+  </div>
+</div>
+
+<!-- ═══════════════════════════════════════ Traditional Chinese -->
+<div id="zh">
+  <header>
+    <h1>Hiro 支援</h1>
+    <p>您的求職好夥伴 — 我們隨時為您服務。</p>
+  </header>
+
+  <div class="container">
+
+    <div class="section">
+      <h2>聯絡我們</h2>
+      <p>有任何問題、發現 Bug 或想提供意見？歡迎寫信給我們，我們會盡快回覆。</p>
+      <a class="contact-btn" href="mailto:wksunshine@gmail.com">發送郵件</a>
+      <p style="margin-top:14px; font-size:14px; color:#888;">wksunshine@gmail.com</p>
+    </div>
+
+    <div class="section">
+      <h2>常見問題</h2>
+
+      <div class="faq-item">
+        <h3>什麼是 Hiro Mobile？</h3>
+        <p>Hiro Mobile 是 Hiro 桌面應用程式的配套應用程式。桌面應用程式負責尋找並追蹤您的求職應徵；手機應用程式讓您隨時查看應徵、更新狀態、新增備注，並從手機觸發掃描。</p>
+      </div>
+
+      <div class="faq-item">
+        <h3>我需要桌面應用程式嗎？</h3>
+        <p>需要。Hiro Mobile 顯示的是 Hiro 桌面應用程式產生的資料，本身沒有獨立的求職功能。請先安裝並設定桌面應用程式。</p>
+      </div>
+
+      <div class="faq-item">
+        <h3>如何透過 Wi-Fi 連線？</h3>
+        <p>請確認手機和電腦在同一個 Wi-Fi 網路上。在桌面應用程式中開啟行動裝置配對畫面，取得位址、連接埠和配對憑證，然後在 Hiro Mobile 中輸入。您可隨時使用「設定 → 測試連線」驗證連線狀態。</p>
+      </div>
+
+      <div class="faq-item">
+        <h3>什麼是雲端模式？</h3>
+        <p>雲端模式透過您自行建立並擁有的 Supabase 專案同步您的應徵資料，讓手機在離開家中網路時也能使用。桌面應用程式的設定指南會引導您建立專案。開發者不營運任何伺服器，也無法存取您的資料。</p>
+      </div>
+
+      <div class="faq-item">
+        <h3>為什麼應用程式找不到我的電腦？</h3>
+        <p>請確認 Hiro 桌面應用程式正在執行、兩台裝置在同一個網路上，且防火牆允許本地連線至桌面應用程式的連接埠。若電腦的 IP 位址已變更，請使用新位址重新配對。</p>
+      </div>
+
+      <div class="faq-item">
+        <h3>可以在手機上編輯應徵嗎？</h3>
+        <p>可以 — 您可以變更應徵狀態、新增或編輯備注。履歷、求職信和掃描則在桌面端產生。</p>
+      </div>
+
+      <div class="faq-item">
+        <h3>我的資料儲存在哪裡？</h3>
+        <p>儲存在您自己的電腦上；若啟用雲端模式，則另存於您自己的 Supabase 專案。開發者不收集任何資料：沒有分析、沒有廣告、沒有追蹤。詳情請參閱<a class="contact-link" href="privacy-policy.html">隱私政策</a>。</p>
+      </div>
+
+      <div class="faq-item">
+        <h3>如何刪除我的帳號？</h3>
+        <p>在雲端模式下，前往「<strong>設定 → 刪除帳號</strong>」即可永久移除您的雲端帳號及所有同步資料。請參閱<a class="contact-link" href="account-deletion.html">刪除帳號</a>頁面；若無法存取應用程式，請發送郵件至 <a class="contact-link" href="mailto:wksunshine@gmail.com">wksunshine@gmail.com</a>。</p>
+      </div>
+    </div>
+
+    <div class="section">
+      <h2>隱私政策</h2>
+      <p>閱讀完整的<a class="contact-link" href="privacy-policy.html">隱私政策</a>。</p>
+    </div>
+
+    <p class="updated">Hiro · wksunshine@gmail.com</p>
+  </div>
+</div>
+
+<script>
+  function showLang(lang) {
+    document.getElementById('en').style.display = lang === 'en' ? 'block' : 'none';
+    document.getElementById('zh').style.display = lang === 'zh' ? 'block' : 'none';
+    try { localStorage.setItem('lang', lang); } catch (e) {}
+  }
+  (function () {
+    var saved = null;
+    try { saved = localStorage.getItem('lang'); } catch (e) {}
+    if (saved) showLang(saved);
+    else if ((navigator.language || '').startsWith('zh')) showLang('zh');
+  })();
+</script>
+</body>
+</html>

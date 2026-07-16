@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Hiro Privacy Policy</title>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+      background: #f4f5fb;
+      color: #1a1a1a;
+      line-height: 1.7;
+    }
+    .top-nav {
+      background: #1a1a2e;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 12px 20px;
+      position: sticky;
+      top: 0;
+      z-index: 100;
+    }
+    .top-nav a.back {
+      color: #aaa;
+      text-decoration: none;
+      font-size: 14px;
+      font-weight: 500;
+      display: flex;
+      align-items: center;
+      gap: 6px;
+      transition: color 0.15s;
+    }
+    .top-nav a.back:hover { color: #fff; }
+    .top-nav .app-label {
+      font-size: 14px;
+      font-weight: 700;
+      color: #fff;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+    }
+    .lang-bar {
+      background: #1a1a2e;
+      text-align: center;
+      padding: 8px;
+      border-top: 1px solid rgba(255,255,255,0.08);
+    }
+    .lang-bar a {
+      color: #aaa;
+      text-decoration: none;
+      font-size: 13px;
+      padding: 4px 12px;
+      border-radius: 6px;
+      transition: background 0.15s, color 0.15s;
+    }
+    .lang-bar a:hover { background: #2c2c4e; color: #fff; }
+    site-footer {
+      display: block;
+      text-align: center;
+      padding: 24px;
+      font-size: 13px;
+      color: #aaa;
+      border-top: 1px solid #e8e8e8;
+      margin-top: 40px;
+    }
+    header {
+      background: #6366f1;
+      color: #fff;
+      padding: 40px 24px 32px;
+      text-align: center;
+    }
+    header h1 { font-size: 28px; font-weight: 800; letter-spacing: 0.5px; }
+    header p { margin-top: 8px; opacity: 0.9; font-size: 15px; }
+    .container { max-width: 720px; margin: 40px auto; padding: 0 24px 60px; }
+    .section { background: #fff; border-radius: 14px; padding: 28px; margin-bottom: 20px; box-shadow: 0 2px 8px rgba(0,0,0,0.06); }
+    .section h2 { font-size: 17px; font-weight: 700; color: #6366f1; margin-bottom: 12px; }
+    .section p { font-size: 15px; color: #333; margin-bottom: 10px; }
+    .section p:last-child { margin-bottom: 0; }
+    .section ul { font-size: 15px; color: #333; padding-left: 20px; margin-top: 8px; }
+    .section ul li { margin-bottom: 6px; }
+    .contact-link { color: #6366f1; }
+    .updated { text-align: center; color: #888; font-size: 13px; margin-top: 32px; }
+
+    #zh { display: none; }
+
+    @media (prefers-color-scheme: dark) {
+      body { background: #1c1c1e; color: #f0f0f0; }
+      .section { background: #2c2c2e; box-shadow: none; }
+      .section p, .section ul { color: #ccc; }
+    }
+  </style>
+</head>
+<body>
+
+<nav class="top-nav">
+  <a class="back" href="../../index.html">&#8592; All Apps</a>
+  <span class="app-label">Hiro</span>
+  <span></span>
+</nav>
+
+<div class="lang-bar">
+  <a href="#" onclick="showLang('en'); return false;">English</a>
+  <a href="#" onclick="showLang('zh'); return false;">繁體中文</a>
+</div>
+
+<!-- ═══════════════════════════════════════ English -->
+<div id="en">
+  <header>
+    <h1>Hiro Privacy Policy</h1>
+    <p>Your job search, your data — on your devices only.</p>
+  </header>
+
+  <div class="container">
+
+    <div class="section">
+      <h2>1. The Short Version</h2>
+      <ul>
+        <li>We (the developer) run <strong>no servers</strong> and <strong>collect nothing</strong>. No analytics, no advertising, no tracking, no crash reporting.</li>
+        <li>Your data lives in exactly two places, both controlled by you: your own computer, and (optionally) your own Supabase cloud project.</li>
+        <li>You can delete your cloud account and all synced data at any time, directly in the app (<strong>Settings → Delete account</strong>).</li>
+      </ul>
+    </div>
+
+    <div class="section">
+      <h2>2. What Hiro Is</h2>
+      <p>Hiro Mobile is a companion app for the Hiro desktop application. It displays job-application data that the desktop app produces and lets you manage it from your phone. This policy explains what data the app handles and where it goes.</p>
+    </div>
+
+    <div class="section">
+      <h2>3. Data the App Handles</h2>
+      <ul>
+        <li><strong>Job application data</strong> — job titles, companies, match scores, resumes, cover letters, application statuses, and notes. This data is created by the Hiro desktop app on your computer. Hiro Mobile displays it and lets you edit statuses and notes.</li>
+        <li><strong>Account credentials (cloud mode only)</strong> — an email address and password used to sign in to your Supabase project. The session token is stored securely on your device.</li>
+        <li><strong>Connection settings (Wi-Fi mode only)</strong> — the IP address, port, and pairing token of your desktop, stored on your device.</li>
+      </ul>
+    </div>
+
+    <div class="section">
+      <h2>4. Wi-Fi (LAN) Mode</h2>
+      <p>In Wi-Fi mode, your phone communicates directly with the Hiro desktop app on your local network. No data leaves your network and no third party is involved.</p>
+    </div>
+
+    <div class="section">
+      <h2>5. Cloud Mode (Optional, Supabase)</h2>
+      <p>In cloud mode, your application data is synced to a <a class="contact-link" href="https://supabase.com" rel="noopener">Supabase</a> project that <strong>you create and own</strong>. The developer of Hiro has no access to it. Supabase's handling of that data is governed by your agreement with Supabase and their privacy policy. Row Level Security restricts every record to your own account.</p>
+      <p>The app sends no data to the developer or to any other third party.</p>
+    </div>
+
+    <div class="section">
+      <h2>6. Data Retention and Deletion</h2>
+      <ul>
+        <li><strong>Wi-Fi mode:</strong> the app stores only your connection settings, removed when you disconnect or uninstall the app. Your application data stays on your computer.</li>
+        <li><strong>Cloud mode:</strong> synced data is kept in your Supabase project until you delete it. <strong>Settings → Delete account</strong> in the app permanently deletes your cloud account and every synced record. See our <a class="contact-link" href="account-deletion.html">Delete Account</a> page for details.</li>
+        <li>Uninstalling the app removes all locally stored data from your device.</li>
+      </ul>
+    </div>
+
+    <div class="section">
+      <h2>7. Children</h2>
+      <p>Hiro Mobile is a productivity tool intended for adults seeking employment and is not directed at children under 13.</p>
+    </div>
+
+    <div class="section">
+      <h2>8. Changes</h2>
+      <p>If this policy changes, the updated version will be published at the same URL with a new effective date.</p>
+    </div>
+
+    <div class="section">
+      <h2>9. Contact</h2>
+      <p>Questions about this policy: <a class="contact-link" href="mailto:wksunshine@gmail.com">wksunshine@gmail.com</a></p>
+    </div>
+
+    <p class="updated">Effective date: 16 July 2026</p>
+  </div>
+</div>
+
+<!-- ═══════════════════════════════════════ Traditional Chinese -->
+<div id="zh">
+  <header>
+    <h1>Hiro 隱私政策</h1>
+    <p>您的求職資料，只存在您自己的裝置上。</p>
+  </header>
+
+  <div class="container">
+
+    <div class="section">
+      <h2>1. 簡要說明</h2>
+      <ul>
+        <li>我們（開發者）<strong>不營運任何伺服器</strong>，也<strong>不收集任何資料</strong>。沒有分析、沒有廣告、沒有追蹤、沒有當機回報。</li>
+        <li>您的資料只存在於兩個地方，且皆由您掌控：您自己的電腦，以及（可選的）您自己的 Supabase 雲端專案。</li>
+        <li>您可隨時直接在應用程式內（<strong>設定 → 刪除帳號</strong>）刪除您的雲端帳號及所有已同步的資料。</li>
+      </ul>
+    </div>
+
+    <div class="section">
+      <h2>2. 關於 Hiro</h2>
+      <p>Hiro Mobile 是 Hiro 桌面應用程式的配套應用程式。它顯示桌面應用程式產生的求職應徵資料，讓您在手機上進行管理。本政策說明應用程式處理哪些資料，以及資料的去向。</p>
+    </div>
+
+    <div class="section">
+      <h2>3. 應用程式處理的資料</h2>
+      <ul>
+        <li><strong>求職應徵資料</strong> — 職缺名稱、公司、匹配分數、履歷、求職信、應徵狀態及備注。這些資料由您電腦上的 Hiro 桌面應用程式建立，Hiro Mobile 負責顯示並讓您編輯狀態和備注。</li>
+        <li><strong>帳號憑證（僅限雲端模式）</strong> — 用於登入您的 Supabase 專案的電子郵件地址和密碼。工作階段憑證安全地儲存於您的裝置。</li>
+        <li><strong>連線設定（僅限 Wi-Fi 模式）</strong> — 您桌面電腦的 IP 位址、連接埠及配對憑證，儲存於您的裝置。</li>
+      </ul>
+    </div>
+
+    <div class="section">
+      <h2>4. Wi-Fi（區域網路）模式</h2>
+      <p>在 Wi-Fi 模式下，您的手機直接與本地網路上的 Hiro 桌面應用程式通訊。資料不會離開您的網路，也沒有任何第三方參與。</p>
+    </div>
+
+    <div class="section">
+      <h2>5. 雲端模式（可選，Supabase）</h2>
+      <p>在雲端模式下，您的應徵資料會同步至<strong>由您自行建立並擁有</strong>的 <a class="contact-link" href="https://supabase.com" rel="noopener">Supabase</a> 專案。Hiro 的開發者無法存取該專案。Supabase 對該資料的處理受您與 Supabase 的協議及其隱私政策約束。列級安全性（Row Level Security）確保每筆記錄僅限您本人的帳號存取。</p>
+      <p>應用程式不會向開發者或任何其他第三方傳送資料。</p>
+    </div>
+
+    <div class="section">
+      <h2>6. 資料保留與刪除</h2>
+      <ul>
+        <li><strong>Wi-Fi 模式：</strong>應用程式僅儲存您的連線設定，於中斷連線或解除安裝時移除。您的應徵資料保留在您的電腦上。</li>
+        <li><strong>雲端模式：</strong>同步的資料會保留在您的 Supabase 專案中，直到您刪除為止。在應用程式內使用<strong>設定 → 刪除帳號</strong>可永久刪除您的雲端帳號及每一筆同步記錄。詳情請參閱<a class="contact-link" href="account-deletion.html">刪除帳號</a>頁面。</li>
+        <li>解除安裝應用程式會移除裝置上所有本機儲存的資料。</li>
+      </ul>
+    </div>
+
+    <div class="section">
+      <h2>7. 兒童</h2>
+      <p>Hiro Mobile 是為求職成年人設計的生產力工具，並非以 13 歲以下兒童為對象。</p>
+    </div>
+
+    <div class="section">
+      <h2>8. 政策變更</h2>
+      <p>若本政策有所變更，更新版本將發布於相同網址，並附上新的生效日期。</p>
+    </div>
+
+    <div class="section">
+      <h2>9. 聯絡方式</h2>
+      <p>關於本政策的問題，請聯絡：<a class="contact-link" href="mailto:wksunshine@gmail.com">wksunshine@gmail.com</a></p>
+    </div>
+
+    <p class="updated">生效日期：2026 年 7 月 16 日</p>
+  </div>
+</div>
+
+<site-footer>&copy; 2026 Hiro. All rights reserved.</site-footer>
+
+<script>
+  function showLang(lang) {
+    document.getElementById('en').style.display = lang === 'en' ? 'block' : 'none';
+    document.getElementById('zh').style.display = lang === 'zh' ? 'block' : 'none';
+    try { localStorage.setItem('lang', lang); } catch (e) {}
+  }
+  (function () {
+    var saved = null;
+    try { saved = localStorage.getItem('lang'); } catch (e) {}
+    if (saved) showLang(saved);
+    else if ((navigator.language || '').startsWith('zh')) showLang('zh');
+  })();
+</script>
+</body>
+</html>
