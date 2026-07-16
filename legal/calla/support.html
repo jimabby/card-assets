@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Calla Support</title>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+      background: #faf6ef;
+      color: #1a1a1a;
+      line-height: 1.7;
+    }
+    .lang-bar {
+      background: #1a1a2e;
+      text-align: center;
+      padding: 8px;
+      border-top: 1px solid rgba(255,255,255,0.08);
+    }
+    .lang-bar a {
+      color: #aaa;
+      text-decoration: none;
+      font-size: 13px;
+      padding: 4px 12px;
+      border-radius: 6px;
+      transition: background 0.15s, color 0.15s;
+    }
+    .lang-bar a:hover { background: #2c2c4e; color: #fff; }
+    header {
+      background: #EC6A4E;
+      color: #fff;
+      padding: 40px 24px 32px;
+      text-align: center;
+    }
+    header h1 { font-size: 28px; font-weight: 800; }
+    header p { margin-top: 8px; opacity: 0.9; font-size: 15px; }
+    .container { max-width: 720px; margin: 40px auto; padding: 0 24px 60px; }
+    .section { background: #fff; border-radius: 14px; padding: 28px; margin-bottom: 20px; box-shadow: 0 2px 8px rgba(0,0,0,0.06); }
+    .section h2 { font-size: 17px; font-weight: 700; color: #EC6A4E; margin-bottom: 14px; }
+    .section p { font-size: 15px; color: #333; margin-bottom: 10px; }
+    .section p:last-child { margin-bottom: 0; }
+    .faq-item { margin-bottom: 20px; }
+    .faq-item h3 { font-size: 15px; font-weight: 700; color: #1a1a1a; margin-bottom: 6px; }
+    .faq-item p { font-size: 15px; color: #444; }
+    .contact-btn {
+      display: inline-block;
+      background: #EC6A4E;
+      color: #fff;
+      text-decoration: none;
+      padding: 12px 28px;
+      border-radius: 10px;
+      font-weight: 700;
+      font-size: 15px;
+      margin-top: 8px;
+    }
+    .contact-link { color: #EC6A4E; }
+    .updated { text-align: center; color: #888; font-size: 13px; margin-top: 32px; }
+
+    #zh { display: none; }
+    .top-nav {
+      background: #1a1a2e;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 12px 20px;
+      position: sticky;
+      top: 0;
+      z-index: 100;
+    }
+    .top-nav a.back {
+      color: #aaa;
+      text-decoration: none;
+      font-size: 14px;
+      font-weight: 500;
+      display: flex;
+      align-items: center;
+      gap: 6px;
+      transition: color 0.15s;
+    }
+    .top-nav a.back:hover { color: #fff; }
+    .top-nav .app-label { font-size: 14px; font-weight: 700; color: #fff; position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); }
+    @media (prefers-color-scheme: dark) {
+      body { background: #1c1c1e; color: #f0f0f0; }
+      .section { background: #2c2c2e; box-shadow: none; }
+      .section p, .faq-item p { color: #ccc; }
+      .faq-item h3 { color: #f0f0f0; }
+    }
+  </style>
+</head>
+<body>
+
+<nav class="top-nav">
+  <a class="back" href="../../index.html">&#8592; All Apps</a>
+  <span class="app-label">Calla</span>
+  <span></span>
+</nav>
+
+<div class="lang-bar">
+  <a href="#" onclick="showLang('en'); return false;">English</a>
+  <a href="#" onclick="showLang('zh'); return false;">繁體中文</a>
+</div>
+
+<!-- ═══════════════════════════════════════ English -->
+<div id="en">
+  <header>
+    <h1>Calla Support</h1>
+    <p>Your gentle health companion — we're here to help.</p>
+  </header>
+
+  <div class="container">
+
+    <div class="section">
+      <h2>Contact Us</h2>
+      <p>Have a question, found a bug, or want to share feedback? Reach out and we'll get back to you.</p>
+      <a class="contact-btn" href="mailto:wksunshine@gmail.com">Email Support</a>
+      <p style="margin-top:14px; font-size:14px; color:#888;">wksunshine@gmail.com</p>
+    </div>
+
+    <div class="section">
+      <h2>Frequently Asked Questions</h2>
+
+      <div class="faq-item">
+        <h3>What is Calla?</h3>
+        <p>Calla is a personal health companion. It brings your daily mood check-ins, symptoms, vitals, medications, appointments, and journal together in one calm place — with gentle progress rings, trends over time, a supportive AI chat, guided breathing, and a family care circle.</p>
+      </div>
+
+      <div class="faq-item">
+        <h3>Is Calla medical advice?</h3>
+        <p>No. Calla is a wellness tool for keeping track of how you're doing — it is not a medical device, and neither the app nor its AI companion gives medical advice. Always talk to a healthcare professional about your health, and contact local emergency services in an emergency.</p>
+      </div>
+
+      <div class="faq-item">
+        <h3>Do I need an account?</h3>
+        <p>You can try Calla in demo mode without one — nothing leaves your device. To keep your entries and sync them across devices, create an account with email and password, Sign in with Apple, or Google Sign-In.</p>
+      </div>
+
+      <div class="faq-item">
+        <h3>How does the AI companion work?</h3>
+        <p>The companion is powered by Google's Gemini model. When you chat, your message and a short summary of your recent entries are sent to Gemini so replies can be relevant to you. Your chats are never used for advertising. See the <a class="contact-link" href="privacy-policy.html">Privacy Policy</a> for details.</p>
+      </div>
+
+      <div class="faq-item">
+        <h3>Can Calla read my Apple Health or Health Connect data?</h3>
+        <p>Only if you turn on health sync in Settings, and only read-only: steps, sleep, heart rate, and weight. Imported readings fill in your vitals automatically. You can turn it off any time in Settings, or revoke access in your device's health settings.</p>
+      </div>
+
+      <div class="faq-item">
+        <h3>How do reminders work?</h3>
+        <p>Turn on daily reminders in Settings and pick your times — Calla nudges you for medications and check-ins, and alerts you before appointments. Reminders are scheduled locally on your device. If they don't appear, check that notifications are allowed for Calla in your device settings.</p>
+      </div>
+
+      <div class="faq-item">
+        <h3>What is the care circle?</h3>
+        <p>A place to keep the family members and carers who support you — their names, roles, and contact details — so the people who matter are one tap away.</p>
+      </div>
+
+      <div class="faq-item">
+        <h3>Can I get my data out?</h3>
+        <p>Yes — <strong>Settings → Export</strong> builds a plain-text summary of your check-ins, vitals, symptoms, meds, and appointments that you can share or print, handy for a doctor's visit.</p>
+      </div>
+
+      <div class="faq-item">
+        <h3>Where is my data stored?</h3>
+        <p>In your own private account on Google Firebase, restricted to you by security rules. There are no analytics, no ads, and no tracking, and health data is never sold or used for marketing. See the <a class="contact-link" href="privacy-policy.html">Privacy Policy</a>.</p>
+      </div>
+
+      <div class="faq-item">
+        <h3>How do I delete my account?</h3>
+        <p>Go to <strong>Settings → Delete account &amp; data</strong> to permanently erase your account and every record. See the <a class="contact-link" href="account-deletion.html">Delete Account</a> page, or email us at <a class="contact-link" href="mailto:wksunshine@gmail.com">wksunshine@gmail.com</a> if you can't access the app.</p>
+      </div>
+    </div>
+
+    <div class="section">
+      <h2>Privacy Policy</h2>
+      <p>Read our full <a class="contact-link" href="privacy-policy.html">Privacy Policy</a>.</p>
+    </div>
+
+    <p class="updated">Calla · wksunshine@gmail.com</p>
+  </div>
+</div>
+
+<!-- ═══════════════════════════════════════ Traditional Chinese -->
+<div id="zh">
+  <header>
+    <h1>Calla 支援</h1>
+    <p>您溫柔的健康夥伴 — 我們隨時為您服務。</p>
+  </header>
+
+  <div class="container">
+
+    <div class="section">
+      <h2>聯絡我們</h2>
+      <p>有任何問題、發現 Bug 或想提供意見？歡迎寫信給我們，我們會盡快回覆。</p>
+      <a class="contact-btn" href="mailto:wksunshine@gmail.com">發送郵件</a>
+      <p style="margin-top:14px; font-size:14px; color:#888;">wksunshine@gmail.com</p>
+    </div>
+
+    <div class="section">
+      <h2>常見問題</h2>
+
+      <div class="faq-item">
+        <h3>什麼是 Calla？</h3>
+        <p>Calla 是您的個人健康夥伴。它將每日心情打卡、症狀、生命體徵、藥物、預約和日記匯集在一個寧靜的空間 — 還有溫柔的進度環、趨勢圖表、暖心的 AI 聊天、引導式呼吸，以及家庭關懷圈。</p>
+      </div>
+
+      <div class="faq-item">
+        <h3>Calla 提供醫療建議嗎？</h3>
+        <p>不。Calla 是幫助您記錄身心狀態的健康輔助工具 — 它不是醫療器材，應用程式及其 AI 夥伴皆不提供醫療建議。健康問題請務必諮詢醫療專業人員；如遇緊急情況，請聯絡當地緊急服務。</p>
+      </div>
+
+      <div class="faq-item">
+        <h3>我需要帳號嗎？</h3>
+        <p>您可以先以示範模式試用，無需帳號 — 資料不會離開您的裝置。若要保存記錄並在裝置間同步，可使用電子郵件密碼、Apple 登入或 Google 登入建立帳號。</p>
+      </div>
+
+      <div class="faq-item">
+        <h3>AI 夥伴如何運作？</h3>
+        <p>AI 夥伴由 Google 的 Gemini 模型驅動。當您聊天時，您的訊息及近期記錄的簡短摘要會傳送給 Gemini，讓回覆更貼近您的狀況。您的聊天絕不用於廣告。詳情請參閱<a class="contact-link" href="privacy-policy.html">隱私政策</a>。</p>
+      </div>
+
+      <div class="faq-item">
+        <h3>Calla 會讀取我的 Apple 健康或 Health Connect 資料嗎？</h3>
+        <p>只有在您於「設定」開啟健康同步後才會，而且僅為唯讀：步數、睡眠、心率及體重。匯入的讀數會自動補齊您的生命體徵。您可隨時在「設定」關閉，或在裝置的健康設定中撤銷存取權。</p>
+      </div>
+
+      <div class="faq-item">
+        <h3>提醒如何運作？</h3>
+        <p>在「設定」開啟每日提醒並選擇時間 — Calla 會提醒您服藥和打卡，並在預約前通知您。提醒都在您的裝置本機排程。若未收到提醒，請確認裝置設定中已允許 Calla 的通知。</p>
+      </div>
+
+      <div class="faq-item">
+        <h3>什麼是關懷圈？</h3>
+        <p>一個保存支持您的家人和照顧者的地方 — 他們的姓名、角色和聯絡方式 — 讓重要的人一鍵可及。</p>
+      </div>
+
+      <div class="faq-item">
+        <h3>我可以匯出資料嗎？</h3>
+        <p>可以 — 「<strong>設定 → 匯出</strong>」會產生一份純文字摘要，包含您的打卡、生命體徵、症狀、藥物及預約，方便分享或列印，看診時特別實用。</p>
+      </div>
+
+      <div class="faq-item">
+        <h3>我的資料儲存在哪裡？</h3>
+        <p>儲存在您於 Google Firebase 上的私人帳號中，安全規則確保僅您本人可存取。沒有分析、沒有廣告、沒有追蹤，健康資料絕不出售或用於行銷。詳情請參閱<a class="contact-link" href="privacy-policy.html">隱私政策</a>。</p>
+      </div>
+
+      <div class="faq-item">
+        <h3>如何刪除我的帳號？</h3>
+        <p>前往「<strong>設定 → 刪除帳號與資料</strong>」即可永久清除您的帳號及所有記錄。請參閱<a class="contact-link" href="account-deletion.html">刪除帳號</a>頁面；若無法存取應用程式，請發送郵件至 <a class="contact-link" href="mailto:wksunshine@gmail.com">wksunshine@gmail.com</a>。</p>
+      </div>
+    </div>
+
+    <div class="section">
+      <h2>隱私政策</h2>
+      <p>閱讀完整的<a class="contact-link" href="privacy-policy.html">隱私政策</a>。</p>
+    </div>
+
+    <p class="updated">Calla · wksunshine@gmail.com</p>
+  </div>
+</div>
+
+<script>
+  function showLang(lang) {
+    document.getElementById('en').style.display = lang === 'en' ? 'block' : 'none';
+    document.getElementById('zh').style.display = lang === 'zh' ? 'block' : 'none';
+    try { localStorage.setItem('lang', lang); } catch (e) {}
+  }
+  (function () {
+    var saved = null;
+    try { saved = localStorage.getItem('lang'); } catch (e) {}
+    if (saved) showLang(saved);
+    else if ((navigator.language || '').startsWith('zh')) showLang('zh');
+  })();
+</script>
+</body>
+</html>
