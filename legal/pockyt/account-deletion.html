@@ -4,107 +4,241 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Pockyt — Delete Your Account</title>
+  <link rel="icon" href="../../assets/icons/pockyt.png" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600&family=Outfit:wght@400;500;600&display=swap" rel="stylesheet" />
   <style>
-    * { box-sizing: border-box; margin: 0; padding: 0; }
-    body {
-      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
-      background: #f9f6f0;
-      color: #1a1a1a;
-      line-height: 1.7;
+    :root {
+      --bg: #faf8f5;
+      --surface: #ffffff;
+      --ink: #21201c;
+      --ink-soft: #57534e;
+      --ink-faint: #8a857d;
+      --line: #e9e4dc;
+      --hover: #f4f0ea;
+      --accent: #3d6b93;
+      --tint: #e8eff5;
+      --shadow: 0 1px 2px rgba(87, 74, 51, 0.05), 0 8px 28px rgba(87, 74, 51, 0.07);
     }
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --bg: #16150f;
+        --surface: #1e1d17;
+        --ink: #ece9e2;
+        --ink-soft: #b0aba1;
+        --ink-faint: #78736a;
+        --line: #2c2a22;
+        --hover: #262419;
+        --accent: #8db4d6;
+        --tint: #232c33;
+        --shadow: none;
+      }
+    }
+
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+
+    html { scroll-behavior: smooth; }
+
+    body {
+      font-family: 'Outfit', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'PingFang TC', 'Noto Sans TC', sans-serif;
+      background: var(--bg);
+      color: var(--ink);
+      line-height: 1.7;
+      -webkit-font-smoothing: antialiased;
+    }
+
+    a:focus-visible, button:focus-visible {
+      outline: 2px solid var(--ink);
+      outline-offset: 3px;
+      border-radius: 4px;
+    }
+
+    /* ── Top nav ── */
     .top-nav {
-      background: #1a1a2e;
       display: flex;
       align-items: center;
       justify-content: space-between;
-      padding: 12px 20px;
+      gap: 16px;
+      padding: 14px 24px;
       position: sticky;
       top: 0;
-      z-index: 100;
+      z-index: 10;
+      background: color-mix(in srgb, var(--bg) 82%, transparent);
+      -webkit-backdrop-filter: blur(12px);
+      backdrop-filter: blur(12px);
+      border-bottom: 1px solid var(--line);
     }
     .top-nav a.back {
-      color: #aaa;
+      color: var(--ink-soft);
       text-decoration: none;
-      font-size: 14px;
+      font-size: 13.5px;
       font-weight: 500;
       display: flex;
       align-items: center;
       gap: 6px;
-      transition: color 0.15s;
+      transition: color 0.2s;
+      flex: 1;
     }
-    .top-nav a.back:hover { color: #fff; }
+    .top-nav a.back:hover { color: var(--ink); }
     .top-nav .app-label {
-      font-size: 14px;
-      font-weight: 700;
-      color: #fff;
-      position: absolute;
-      top: 50%;
-      left: 50%;
-      transform: translate(-50%, -50%);
+      font-family: 'Fraunces', Georgia, serif;
+      font-size: 15.5px;
+      font-weight: 600;
+      color: var(--ink);
+      display: flex;
+      align-items: center;
+      gap: 9px;
     }
-    .lang-bar {
-      background: #1a1a2e;
-      text-align: center;
-      padding: 8px;
-      border-top: 1px solid rgba(255,255,255,0.08);
-    }
-    .lang-bar a {
-      color: #aaa;
-      text-decoration: none;
-      font-size: 13px;
-      padding: 4px 12px;
-      border-radius: 6px;
-      transition: background 0.15s, color 0.15s;
-    }
-    .lang-bar a:hover { background: #2c2c4e; color: #fff; }
-    site-footer {
+    .top-nav .app-label img {
+      width: 24px;
+      height: 24px;
+      border-radius: 7px;
       display: block;
-      text-align: center;
-      padding: 24px;
-      font-size: 13px;
-      color: #aaa;
-      border-top: 1px solid #e8e8e8;
-      margin-top: 40px;
     }
-    header {
-      background: #2c5f8a;
-      color: #fff;
-      padding: 40px 24px 32px;
-      text-align: center;
+    .lang-switch {
+      flex: 1;
+      display: flex;
+      justify-content: flex-end;
     }
-    header h1 { font-size: 28px; font-weight: 800; letter-spacing: 0.5px; }
-    header p { margin-top: 8px; opacity: 0.85; font-size: 15px; }
-    .container { max-width: 720px; margin: 40px auto; padding: 0 24px 60px; }
-    .section { background: #fff; border-radius: 14px; padding: 28px 28px 24px; margin-bottom: 20px; box-shadow: 0 2px 8px rgba(0,0,0,0.06); }
-    .section h2 { font-size: 17px; font-weight: 700; color: #2c5f8a; margin-bottom: 12px; }
-    .section p { font-size: 15px; color: #333; margin-bottom: 10px; }
-    .section p:last-child { margin-bottom: 0; }
-    .section ol, .section ul { margin: 10px 0 0 20px; font-size: 15px; color: #333; }
-    .section li { margin-bottom: 6px; }
-    .updated { text-align: center; color: #888; font-size: 13px; margin-top: 32px; }
-    .contact-link { color: #2c5f8a; }
+    .lang-switch > div {
+      display: flex;
+      gap: 3px;
+      border: 1px solid var(--line);
+      border-radius: 999px;
+      padding: 2px;
+      background: var(--surface);
+    }
+    .lang-switch button {
+      font-family: inherit;
+      font-size: 12px;
+      font-weight: 500;
+      color: var(--ink-faint);
+      background: none;
+      border: none;
+      border-radius: 999px;
+      padding: 3px 11px;
+      cursor: pointer;
+      transition: background 0.2s, color 0.2s;
+    }
+    .lang-switch button:hover { color: var(--ink); }
+    .lang-switch button.active { background: var(--ink); color: var(--bg); }
 
     #zh { display: none; }
 
-    @media (prefers-color-scheme: dark) {
-      body { background: #1c1c1e; color: #f0f0f0; }
-      .section { background: #2c2c2e; box-shadow: none; }
-      .section p, .section ol, .section ul { color: #ccc; }
+    /* ── Hero ── */
+    header {
+      max-width: 760px;
+      margin: 0 auto;
+      padding: 64px 24px 8px;
+    }
+    header h1 {
+      font-family: 'Fraunces', Georgia, 'PingFang TC', serif;
+      font-size: clamp(30px, 5vw, 42px);
+      font-weight: 500;
+      letter-spacing: -0.02em;
+      line-height: 1.15;
+      text-wrap: balance;
+    }
+    header p {
+      margin-top: 14px;
+      font-size: 16.5px;
+      color: var(--ink-soft);
+      max-width: 38em;
+      text-wrap: pretty;
+    }
+
+    /* ── Content ── */
+    .container { max-width: 760px; margin: 40px auto 0; padding: 0 24px 72px; }
+
+    .section {
+      background: var(--surface);
+      border: 1px solid var(--line);
+      border-radius: 16px;
+      padding: 28px 30px;
+      margin-bottom: 16px;
+      box-shadow: var(--shadow);
+    }
+    .section h2 {
+      font-family: 'Fraunces', Georgia, 'PingFang TC', serif;
+      font-size: 19px;
+      font-weight: 600;
+      letter-spacing: -0.01em;
+      color: var(--accent);
+      margin-bottom: 12px;
+    }
+    .section p { font-size: 15px; color: var(--ink-soft); margin-bottom: 10px; }
+    .section p:last-child { margin-bottom: 0; }
+    .section ul, .section ol { font-size: 15px; color: var(--ink-soft); padding-left: 20px; margin-top: 8px; }
+    .section ul li, .section ol li { margin-bottom: 7px; }
+    .section strong { color: var(--ink); font-weight: 600; }
+
+    .faq-item { margin-bottom: 22px; }
+    .faq-item:last-child { margin-bottom: 0; }
+    .faq-item h3 { font-size: 15.5px; font-weight: 600; color: var(--ink); margin-bottom: 5px; }
+    .faq-item p { font-size: 15px; color: var(--ink-soft); }
+
+    .contact-link { color: var(--accent); font-weight: 500; text-decoration-color: color-mix(in srgb, var(--accent) 40%, transparent); }
+    .contact-link:hover { text-decoration-color: var(--accent); }
+
+    .contact-btn {
+      display: inline-block;
+      background: var(--accent);
+      color: #fff;
+      font-size: 14.5px;
+      font-weight: 600;
+      text-decoration: none;
+      padding: 11px 22px;
+      border-radius: 999px;
+      margin-top: 6px;
+      transition: opacity 0.2s, transform 0.2s;
+    }
+    .contact-btn:hover { opacity: 0.88; transform: translateY(-1px); }
+    .contact-btn:active { transform: translateY(0) scale(0.98); }
+
+    .callout, .highlight {
+      background: var(--tint);
+      border: 1px solid color-mix(in srgb, var(--accent) 22%, transparent);
+      border-radius: 12px;
+      padding: 16px 18px;
+      font-size: 14.5px;
+      color: var(--ink-soft);
+      margin: 14px 0;
+    }
+    .note, .disclaimer {
+      background: var(--hover);
+      border: 1px solid var(--line);
+      border-radius: 12px;
+      padding: 16px 18px;
+      font-size: 14px;
+      color: var(--ink-soft);
+      margin: 14px 0;
+    }
+
+    .updated { text-align: center; color: var(--ink-faint); font-size: 13px; margin-top: 36px; }
+
+    site-footer {
+      display: block;
+      text-align: center;
+      padding: 28px 24px;
+      font-size: 13px;
+      color: var(--ink-faint);
+      border-top: 1px solid var(--line);
     }
   </style>
 </head>
 <body>
 
 <nav class="top-nav">
-  <a class="back" href="../../index.html">&#8592; All Apps</a>
-  <span class="app-label">Pockyt</span>
-  <span></span>
+  <a class="back" href="../../index.html">&#8592; All apps</a>
+  <span class="app-label"><img src="../../assets/icons/pockyt.png" alt="" />Pockyt</span>
+  <div class="lang-switch" role="group" aria-label="Language">
+    <div>
+      <button id="btn-en" onclick="showLang('en')">EN</button>
+      <button id="btn-zh" onclick="showLang('zh')">中文</button>
+    </div>
+  </div>
 </nav>
-
-<div class="lang-bar">
-  <a href="#" onclick="showLang('en'); return false;">English</a>
-  <a href="#" onclick="showLang('zh'); return false;">繁體中文</a>
-</div>
 
 <!-- ═══════════════════════════════════════ English -->
 <div id="en">
@@ -204,13 +338,17 @@
   function showLang(lang) {
     document.getElementById('en').style.display = lang === 'en' ? 'block' : 'none';
     document.getElementById('zh').style.display = lang === 'zh' ? 'block' : 'none';
+    document.getElementById('btn-en').classList.toggle('active', lang === 'en');
+    document.getElementById('btn-zh').classList.toggle('active', lang === 'zh');
+    document.documentElement.lang = lang === 'zh' ? 'zh-Hant' : 'en';
     try { localStorage.setItem('lang', lang); } catch (e) {}
   }
   (function () {
     var saved = null;
     try { saved = localStorage.getItem('lang'); } catch (e) {}
     if (saved) showLang(saved);
-    else if (navigator.language && navigator.language.startsWith('zh')) showLang('zh');
+    else if ((navigator.language || '').startsWith('zh')) showLang('zh');
+    else showLang('en');
   })();
 </script>
 </body>

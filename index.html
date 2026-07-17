@@ -3,288 +3,406 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Our Apps</title>
+  <title>Our Apps — Legal &amp; Support</title>
+  <meta name="description" content="Privacy policies, support, and account deletion for Pockyt, Oncora, Little Mirrors, Twirl, Hiro, and Calla." />
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🪷</text></svg>" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600&family=Outfit:wght@400;500;600&display=swap" rel="stylesheet" />
   <style>
-    * { box-sizing: border-box; margin: 0; padding: 0; }
-    body {
-      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
-      background: #f5f5f7;
-      color: #1a1a1a;
-      min-height: 100vh;
-      display: flex;
-      flex-direction: column;
+    :root {
+      --bg: #faf8f5;
+      --surface: #ffffff;
+      --ink: #21201c;
+      --ink-soft: #57534e;
+      --ink-faint: #8a857d;
+      --line: #e9e4dc;
+      --hover: #f4f0ea;
+      --shadow: 0 1px 2px rgba(87, 74, 51, 0.05), 0 8px 28px rgba(87, 74, 51, 0.07);
+      --radius: 20px;
+    }
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --bg: #16150f;
+        --surface: #1e1d17;
+        --ink: #ece9e2;
+        --ink-soft: #b0aba1;
+        --ink-faint: #78736a;
+        --line: #2c2a22;
+        --hover: #262419;
+        --shadow: none;
+      }
     }
 
-    /* ── Language bar ── */
-    .lang-bar {
-      background: #1a1a2e;
-      text-align: center;
-      padding: 8px;
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+
+    html { scroll-behavior: smooth; }
+
+    body {
+      font-family: 'Outfit', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'PingFang TC', 'Noto Sans TC', sans-serif;
+      background: var(--bg);
+      color: var(--ink);
+      min-height: 100dvh;
+      display: flex;
+      flex-direction: column;
+      line-height: 1.6;
+      -webkit-font-smoothing: antialiased;
     }
-    .lang-bar a {
-      color: #aaa;
+
+    a { color: inherit; }
+    a:focus-visible, button:focus-visible {
+      outline: 2px solid var(--ink);
+      outline-offset: 3px;
+      border-radius: 4px;
+    }
+
+    .wrap {
+      width: 100%;
+      max-width: 880px;
+      margin: 0 auto;
+      padding: 0 28px;
+    }
+
+    /* ── Header ── */
+    header {
+      border-bottom: 1px solid var(--line);
+    }
+    .header-inner {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding-top: 22px;
+      padding-bottom: 22px;
+    }
+    .wordmark {
+      font-family: 'Fraunces', Georgia, serif;
+      font-size: 17px;
+      font-weight: 600;
+      letter-spacing: -0.01em;
       text-decoration: none;
-      font-size: 13px;
-      padding: 4px 12px;
-      border-radius: 6px;
-      transition: background 0.15s, color 0.15s;
     }
-    .lang-bar a:hover { background: #2c2c4e; color: #fff; }
+    .lang-switch {
+      display: flex;
+      gap: 4px;
+      border: 1px solid var(--line);
+      border-radius: 999px;
+      padding: 3px;
+      background: var(--surface);
+    }
+    .lang-switch button {
+      font-family: inherit;
+      font-size: 12.5px;
+      font-weight: 500;
+      color: var(--ink-faint);
+      background: none;
+      border: none;
+      border-radius: 999px;
+      padding: 4px 12px;
+      cursor: pointer;
+      transition: background 0.2s, color 0.2s;
+    }
+    .lang-switch button:hover { color: var(--ink); }
+    .lang-switch button.active {
+      background: var(--ink);
+      color: var(--bg);
+    }
 
     #en, #zh { display: flex; flex-direction: column; flex: 1; }
     #zh { display: none; }
 
     /* ── Hero ── */
     .hero {
-      background: #1a1a2e;
-      color: #fff;
-      padding: 64px 24px 56px;
-      text-align: center;
+      padding: 88px 0 64px;
     }
     .hero-eyebrow {
       font-size: 12px;
       font-weight: 600;
-      letter-spacing: 2px;
+      letter-spacing: 0.14em;
       text-transform: uppercase;
-      color: #888aaa;
-      margin-bottom: 14px;
+      color: var(--ink-faint);
+      margin-bottom: 18px;
     }
     .hero h1 {
-      font-size: 36px;
-      font-weight: 800;
-      letter-spacing: -0.5px;
-      margin-bottom: 14px;
+      font-family: 'Fraunces', Georgia, 'PingFang TC', serif;
+      font-size: clamp(38px, 6vw, 56px);
+      font-weight: 500;
+      letter-spacing: -0.02em;
+      line-height: 1.1;
+      max-width: 16em;
+      text-wrap: balance;
+      margin-bottom: 22px;
     }
     .hero p {
-      font-size: 16px;
-      color: #aaa;
-      max-width: 420px;
-      margin: 0 auto;
-      line-height: 1.6;
+      font-size: 17px;
+      color: var(--ink-soft);
+      max-width: 34em;
+      text-wrap: pretty;
     }
 
-    /* ── Grid ── */
-    main {
-      flex: 1;
-      max-width: 960px;
-      margin: 0 auto;
-      padding: 48px 24px 64px;
-      width: 100%;
+    /* ── App directory ── */
+    main { flex: 1; padding-bottom: 96px; }
+
+    .directory {
+      background: var(--surface);
+      border: 1px solid var(--line);
+      border-radius: var(--radius);
+      box-shadow: var(--shadow);
+      overflow: hidden;
     }
-    .section-label {
-      font-size: 12px;
-      font-weight: 600;
-      letter-spacing: 1.5px;
-      text-transform: uppercase;
-      color: #888;
-      margin-bottom: 20px;
-    }
-    .apps {
+
+    .app-row {
       display: grid;
-      grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
-      gap: 20px;
-    }
-    .app-card {
-      background: #fff;
-      border-radius: 18px;
-      padding: 28px;
-      box-shadow: 0 1px 4px rgba(0,0,0,0.06), 0 4px 16px rgba(0,0,0,0.05);
-      display: flex;
-      flex-direction: column;
-      gap: 16px;
-      transition: transform 0.15s, box-shadow 0.15s;
-    }
-    .app-card:hover {
-      transform: translateY(-2px);
-      box-shadow: 0 4px 20px rgba(0,0,0,0.1);
-    }
-    .app-icon {
-      width: 52px;
-      height: 52px;
-      border-radius: 14px;
-      display: flex;
+      grid-template-columns: 64px 1fr auto;
+      gap: 24px;
       align-items: center;
-      justify-content: center;
-      font-size: 26px;
+      padding: 28px 32px;
+      transition: background 0.2s;
     }
+    .app-row + .app-row { border-top: 1px solid var(--line); }
+    .app-row:hover { background: var(--hover); }
+
+    .app-icon {
+      width: 56px;
+      height: 56px;
+      border-radius: 14px;
+      display: block;
+      object-fit: cover;
+      border: 1px solid var(--line);
+      background: var(--tint, var(--hover));
+    }
+
     .app-meta h2 {
-      font-size: 18px;
-      font-weight: 700;
-      margin-bottom: 5px;
+      font-family: 'Fraunces', Georgia, 'PingFang TC', serif;
+      font-size: 21px;
+      font-weight: 600;
+      letter-spacing: -0.01em;
+      line-height: 1.25;
+      margin-bottom: 4px;
+    }
+    .app-meta h2 span {
+      font-family: 'Outfit', sans-serif;
+      font-size: 12.5px;
+      font-weight: 500;
+      color: var(--ink-faint);
+      letter-spacing: 0.02em;
+      margin-left: 8px;
     }
     .app-meta p {
-      font-size: 13px;
-      color: #666;
-      line-height: 1.5;
+      font-size: 14.5px;
+      color: var(--ink-soft);
+      max-width: 44em;
+      text-wrap: pretty;
     }
+
     .app-links {
       display: flex;
-      gap: 10px;
-      flex-wrap: wrap;
-      margin-top: auto;
+      flex-direction: column;
+      align-items: flex-end;
+      gap: 8px;
+      white-space: nowrap;
     }
     .app-links a {
-      font-size: 13px;
-      font-weight: 600;
+      font-size: 13.5px;
+      font-weight: 500;
       text-decoration: none;
-      padding: 7px 14px;
-      border-radius: 8px;
-      transition: opacity 0.15s;
+      color: var(--ink-soft);
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      transition: color 0.2s, transform 0.2s;
     }
-    .app-links a:hover { opacity: 0.8; }
-    .link-primary {
-      color: #fff;
+    .app-links a::after {
+      content: '→';
+      font-size: 12px;
+      opacity: 0;
+      transform: translateX(-4px);
+      transition: opacity 0.2s, transform 0.2s;
     }
-    .link-secondary {
-      background: #f0f0f3;
-      color: #444;
-    }
-    .link-delete {
-      background: #fde8e8;
-      color: #b91c1c;
+    .app-links a:hover { color: var(--accent, var(--ink)); }
+    .app-links a:hover::after { opacity: 1; transform: translateX(0); }
+    .app-links .link-primary {
+      color: var(--accent, var(--ink));
+      font-weight: 600;
     }
 
-    /* Per-app colours */
-    .pockyt .app-icon { background: #ddeeff; }
-    .pockyt .app-meta h2 { color: #2c5f8a; }
-    .pockyt .link-primary { background: #2c5f8a; }
-
-    .oncora .app-icon { background: #e4eff0; }
-    .oncora .app-meta h2 { color: #1f5a66; }
-    .oncora .link-primary { background: #1f5a66; }
-
-    .littlemirror .app-icon { background: #fdecea; }
-    .littlemirror .app-meta h2 { color: #c87a6d; }
-    .littlemirror .link-primary { background: #c87a6d; }
-
-    .twirl .app-icon { background: #feeee0; }
-    .twirl .app-meta h2 { color: #e07b39; }
-    .twirl .link-primary { background: #e07b39; }
-
-    .hiro .app-icon { background: #e7e8fd; }
-    .hiro .app-meta h2 { color: #6366f1; }
-    .hiro .link-primary { background: #6366f1; }
-
-    .calla .app-icon { background: #fdeae4; }
-    .calla .app-meta h2 { color: #EC6A4E; }
-    .calla .link-primary { background: #EC6A4E; }
+    /* Per-app tints — desaturated, single family of warmth */
+    .pockyt       { --tint: #e8eff5; --accent: #3d6b93; }
+    .oncora       { --tint: #e6efef; --accent: #2e6b74; }
+    .littlemirror { --tint: #f7ebe8; --accent: #b3766c; }
+    .twirl        { --tint: #f8eee1; --accent: #bd7440; }
+    .hiro         { --tint: #ebecf8; --accent: #6469c4; }
+    .calla        { --tint: #f8eae5; --accent: #cc6a52; }
+    @media (prefers-color-scheme: dark) {
+      .pockyt       { --tint: #232c33; --accent: #8db4d6; }
+      .oncora       { --tint: #212e2f; --accent: #85b8bf; }
+      .littlemirror { --tint: #322724; --accent: #d6a297; }
+      .twirl        { --tint: #33291d; --accent: #d9a26e; }
+      .hiro         { --tint: #262838; --accent: #a3a7e8; }
+      .calla        { --tint: #342620; --accent: #e0937d; }
+    }
 
     /* ── Footer ── */
     footer {
-      text-align: center;
-      padding: 24px;
+      border-top: 1px solid var(--line);
+      padding: 32px 0;
+    }
+    .footer-inner {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 16px;
+      flex-wrap: wrap;
       font-size: 13px;
-      color: #aaa;
-      border-top: 1px solid #e8e8e8;
-      background: #fff;
+      color: var(--ink-faint);
+    }
+    footer a {
+      color: var(--ink-soft);
+      text-decoration: none;
+      transition: color 0.2s;
+    }
+    footer a:hover { color: var(--ink); }
+
+    /* ── Entry animation ── */
+    @media (prefers-reduced-motion: no-preference) {
+      .hero, .app-row {
+        opacity: 0;
+        transform: translateY(14px);
+        animation: rise 0.6s cubic-bezier(0.22, 1, 0.36, 1) forwards;
+      }
+      .app-row:nth-child(1) { animation-delay: 0.08s; }
+      .app-row:nth-child(2) { animation-delay: 0.14s; }
+      .app-row:nth-child(3) { animation-delay: 0.20s; }
+      .app-row:nth-child(4) { animation-delay: 0.26s; }
+      .app-row:nth-child(5) { animation-delay: 0.32s; }
+      .app-row:nth-child(6) { animation-delay: 0.38s; }
+      @keyframes rise {
+        to { opacity: 1; transform: none; }
+      }
     }
 
-    @media (prefers-color-scheme: dark) {
-      body { background: #111; }
-      .app-card { background: #1e1e1e; box-shadow: none; border: 1px solid #2a2a2a; }
-      .app-meta p { color: #999; }
-      .link-secondary { background: #2a2a2a; color: #ccc; }
-      .link-delete { background: #2a1515; color: #f87171; }
-      .section-label { color: #666; }
-      footer { background: #1a1a1a; border-color: #2a2a2a; color: #555; }
+    /* ── Mobile ── */
+    @media (max-width: 640px) {
+      .hero { padding: 56px 0 44px; }
+      .app-row {
+        grid-template-columns: 48px 1fr;
+        gap: 16px;
+        padding: 24px 22px;
+      }
+      .app-icon { width: 48px; height: 48px; font-size: 23px; border-radius: 14px; }
+      .app-links {
+        grid-column: 2;
+        flex-direction: row;
+        align-items: center;
+        justify-content: flex-start;
+        flex-wrap: wrap;
+        gap: 6px 18px;
+        margin-top: 2px;
+      }
     }
   </style>
 </head>
 <body>
 
-  <div class="lang-bar">
-    <a href="#" onclick="showLang('en'); return false;">English</a>
-    <a href="#" onclick="showLang('zh'); return false;">繁體中文</a>
-  </div>
+  <header>
+    <div class="wrap header-inner">
+      <a class="wordmark" href="index.html">Our Apps</a>
+      <div class="lang-switch" role="group" aria-label="Language">
+        <button id="btn-en" onclick="showLang('en')">English</button>
+        <button id="btn-zh" onclick="showLang('zh')">繁體中文</button>
+      </div>
+    </div>
+  </header>
 
   <!-- ═══════════════════════════════════════ English -->
   <div id="en">
-    <div class="hero">
-      <h1>Our Apps</h1>
-      <p>A small collection of useful iOS apps for everyday life.</p>
+    <div class="wrap">
+      <section class="hero">
+        <p class="hero-eyebrow">Legal &amp; support</p>
+        <h1>Small iOS apps, built with care.</h1>
+        <p>Privacy policies, support, and account deletion for every app we make. Each one is written in plain language — no legalese maze.</p>
+      </section>
     </div>
 
-    <main>
-      <p class="section-label">Apps</p>
-      <div class="apps">
+    <main class="wrap">
+      <div class="directory">
 
-        <div class="app-card pockyt">
-          <div class="app-icon">💳</div>
+        <article class="app-row pockyt">
+          <img class="app-icon" src="assets/icons/pockyt.png" alt="Pockyt app icon" width="56" height="56" loading="lazy" />
           <div class="app-meta">
-            <h2>Pockyt</h2>
+            <h2>Pockyt <span>Finance</span></h2>
             <p>Personal finance tracker with smart budgeting, cashback hints, and optional AI receipt scanning.</p>
           </div>
-          <div class="app-links">
-            <a class="link-primary" href="legal/pockyt/privacy-policy.html">Privacy Policy</a>
-            <a class="link-secondary" href="legal/pockyt/support.html">Support</a>
-            <a class="link-delete" href="legal/pockyt/account-deletion.html">Delete Account</a>
-          </div>
-        </div>
+          <nav class="app-links" aria-label="Pockyt links">
+            <a class="link-primary" href="legal/pockyt/privacy-policy.html">Privacy policy</a>
+            <a href="legal/pockyt/support.html">Support</a>
+            <a href="legal/pockyt/account-deletion.html">Delete account</a>
+          </nav>
+        </article>
 
-        <div class="app-card oncora">
-          <div class="app-icon">🩺</div>
+        <article class="app-row oncora">
+          <img class="app-icon" src="assets/icons/oncora.png" alt="Oncora app icon" width="56" height="56" loading="lazy" />
           <div class="app-meta">
-            <h2>Oncora</h2>
+            <h2>Oncora <span>Health</span></h2>
             <p>Local-first symptom &amp; treatment companion for people living with cancer — no account required.</p>
           </div>
-          <div class="app-links">
-            <a class="link-primary" href="legal/oncora/privacy-policy.html">Privacy Policy</a>
-            <a class="link-secondary" href="legal/oncora/support.html">Support</a>
-            <a class="link-delete" href="legal/oncora/account-deletion.html">Delete Data</a>
-          </div>
-        </div>
+          <nav class="app-links" aria-label="Oncora links">
+            <a class="link-primary" href="legal/oncora/privacy-policy.html">Privacy policy</a>
+            <a href="legal/oncora/support.html">Support</a>
+            <a href="legal/oncora/account-deletion.html">Delete data</a>
+          </nav>
+        </article>
 
-        <div class="app-card littlemirror">
-          <div class="app-icon">🌸</div>
+        <article class="app-row littlemirror">
+          <img class="app-icon" src="assets/icons/littlemirror.png" alt="Little Mirrors app icon" width="56" height="56" loading="lazy" />
           <div class="app-meta">
-            <h2>Little Mirrors</h2>
+            <h2>Little Mirrors <span>Pregnancy</span></h2>
             <p>Pregnancy companion with AI tips, kick counter, contraction timer, and partner sync.</p>
           </div>
-          <div class="app-links">
-            <a class="link-primary" href="legal/littlemirror/privacy-policy.html">Privacy Policy</a>
-            <a class="link-secondary" href="legal/littlemirror/support.html">Support</a>
-            <a class="link-delete" href="legal/littlemirror/account-deletion.html">Delete Account</a>
-          </div>
-        </div>
+          <nav class="app-links" aria-label="Little Mirrors links">
+            <a class="link-primary" href="legal/littlemirror/privacy-policy.html">Privacy policy</a>
+            <a href="legal/littlemirror/support.html">Support</a>
+            <a href="legal/littlemirror/account-deletion.html">Delete account</a>
+          </nav>
+        </article>
 
-        <div class="app-card twirl">
-          <div class="app-icon">🪘</div>
+        <article class="app-row twirl">
+          <img class="app-icon" src="assets/icons/twirl.png" alt="Twirl app icon" width="56" height="56" loading="lazy" />
           <div class="app-meta">
-            <h2>Twirl · 木鱼</h2>
+            <h2>Twirl · 木鱼 <span>Lifestyle</span></h2>
             <p>Spin to discover nearby places, tap the wooden fish to earn merit, and collect fortune lots.</p>
           </div>
-          <div class="app-links">
-            <a class="link-primary" href="legal/twirl/privacy-policy.html">Privacy Policy</a>
-            <a class="link-secondary" href="legal/twirl/support.html">Support</a>
-            <a class="link-delete" href="legal/twirl/account-deletion.html">Delete Account</a>
-          </div>
-        </div>
+          <nav class="app-links" aria-label="Twirl links">
+            <a class="link-primary" href="legal/twirl/privacy-policy.html">Privacy policy</a>
+            <a href="legal/twirl/support.html">Support</a>
+            <a href="legal/twirl/account-deletion.html">Delete account</a>
+          </nav>
+        </article>
 
-        <div class="app-card hiro">
-          <div class="app-icon">💼</div>
+        <article class="app-row hiro">
+          <img class="app-icon" src="assets/icons/hiro.png" alt="Hiro app icon" width="56" height="56" loading="lazy" />
           <div class="app-meta">
-            <h2>Hiro</h2>
-            <p>Job-search companion app — view and manage the applications tracked by the Hiro desktop app, over Wi-Fi or your own private cloud.</p>
+            <h2>Hiro <span>Career</span></h2>
+            <p>Job-search companion — view and manage the applications tracked by the Hiro desktop app, over Wi-Fi or your own private cloud.</p>
           </div>
-          <div class="app-links">
-            <a class="link-primary" href="legal/hiro/privacy-policy.html">Privacy Policy</a>
-            <a class="link-secondary" href="legal/hiro/support.html">Support</a>
-            <a class="link-delete" href="legal/hiro/account-deletion.html">Delete Account</a>
-          </div>
-        </div>
+          <nav class="app-links" aria-label="Hiro links">
+            <a class="link-primary" href="legal/hiro/privacy-policy.html">Privacy policy</a>
+            <a href="legal/hiro/support.html">Support</a>
+            <a href="legal/hiro/account-deletion.html">Delete account</a>
+          </nav>
+        </article>
 
-        <div class="app-card calla">
-          <div class="app-icon">🪷</div>
+        <article class="app-row calla">
+          <img class="app-icon" src="assets/icons/calla.png" alt="Calla app icon" width="56" height="56" loading="lazy" />
           <div class="app-meta">
-            <h2>Calla</h2>
+            <h2>Calla <span>Wellbeing</span></h2>
             <p>A gentle health companion — daily mood check-ins, meds, vitals, journaling, a supportive AI chat, and a family care circle.</p>
           </div>
-          <div class="app-links">
-            <a class="link-primary" href="legal/calla/privacy-policy.html">Privacy Policy</a>
-            <a class="link-secondary" href="legal/calla/support.html">Support</a>
-            <a class="link-delete" href="legal/calla/account-deletion.html">Delete Account</a>
-          </div>
-        </div>
+          <nav class="app-links" aria-label="Calla links">
+            <a class="link-primary" href="legal/calla/privacy-policy.html">Privacy policy</a>
+            <a href="legal/calla/support.html">Support</a>
+            <a href="legal/calla/account-deletion.html">Delete account</a>
+          </nav>
+        </article>
 
       </div>
     </main>
@@ -292,105 +410,113 @@
 
   <!-- ═══════════════════════════════════════ Traditional Chinese -->
   <div id="zh">
-    <div class="hero">
-      <h1>我們的應用程式</h1>
-      <p>一系列實用的 iOS 日常生活應用程式。</p>
+    <div class="wrap">
+      <section class="hero">
+        <p class="hero-eyebrow">法律與支援</p>
+        <h1>用心打造的 iOS 小應用程式。</h1>
+        <p>我們每一款應用程式的隱私政策、支援與帳號刪除說明，都以淺白的語言撰寫 — 沒有難懂的法律術語。</p>
+      </section>
     </div>
 
-    <main>
-      <p class="section-label">應用程式</p>
-      <div class="apps">
+    <main class="wrap">
+      <div class="directory">
 
-        <div class="app-card pockyt">
-          <div class="app-icon">💳</div>
+        <article class="app-row pockyt">
+          <img class="app-icon" src="assets/icons/pockyt.png" alt="Pockyt 應用程式圖示" width="56" height="56" loading="lazy" />
           <div class="app-meta">
-            <h2>Pockyt</h2>
+            <h2>Pockyt <span>理財</span></h2>
             <p>個人理財追蹤工具，具備智慧預算、現金回饋提示及可選的 AI 收據掃描功能。</p>
           </div>
-          <div class="app-links">
+          <nav class="app-links" aria-label="Pockyt 連結">
             <a class="link-primary" href="legal/pockyt/privacy-policy.html">隱私政策</a>
-            <a class="link-secondary" href="legal/pockyt/support.html">支援</a>
-            <a class="link-delete" href="legal/pockyt/account-deletion.html">刪除帳戶</a>
-          </div>
-        </div>
+            <a href="legal/pockyt/support.html">支援</a>
+            <a href="legal/pockyt/account-deletion.html">刪除帳戶</a>
+          </nav>
+        </article>
 
-        <div class="app-card oncora">
-          <div class="app-icon">🩺</div>
+        <article class="app-row oncora">
+          <img class="app-icon" src="assets/icons/oncora.png" alt="Oncora 應用程式圖示" width="56" height="56" loading="lazy" />
           <div class="app-meta">
-            <h2>Oncora</h2>
-            <p>為癌症患者打造的本機優先症狀與治療陪伴工具——無需帳號。</p>
+            <h2>Oncora <span>健康</span></h2>
+            <p>為癌症患者打造的本機優先症狀與治療陪伴工具 — 無需帳號。</p>
           </div>
-          <div class="app-links">
+          <nav class="app-links" aria-label="Oncora 連結">
             <a class="link-primary" href="legal/oncora/privacy-policy.html">隱私政策</a>
-            <a class="link-secondary" href="legal/oncora/support.html">支援</a>
-            <a class="link-delete" href="legal/oncora/account-deletion.html">刪除資料</a>
-          </div>
-        </div>
+            <a href="legal/oncora/support.html">支援</a>
+            <a href="legal/oncora/account-deletion.html">刪除資料</a>
+          </nav>
+        </article>
 
-        <div class="app-card littlemirror">
-          <div class="app-icon">🌸</div>
+        <article class="app-row littlemirror">
+          <img class="app-icon" src="assets/icons/littlemirror.png" alt="Little Mirrors 應用程式圖示" width="56" height="56" loading="lazy" />
           <div class="app-meta">
-            <h2>Little Mirrors</h2>
+            <h2>Little Mirrors <span>孕期</span></h2>
             <p>孕期陪伴應用程式，提供 AI 提示、胎動計數器、宮縮計時器及伴侶同步。</p>
           </div>
-          <div class="app-links">
+          <nav class="app-links" aria-label="Little Mirrors 連結">
             <a class="link-primary" href="legal/littlemirror/privacy-policy.html">隱私政策</a>
-            <a class="link-secondary" href="legal/littlemirror/support.html">支援</a>
-            <a class="link-delete" href="legal/littlemirror/account-deletion.html">刪除帳戶</a>
-          </div>
-        </div>
+            <a href="legal/littlemirror/support.html">支援</a>
+            <a href="legal/littlemirror/account-deletion.html">刪除帳戶</a>
+          </nav>
+        </article>
 
-        <div class="app-card twirl">
-          <div class="app-icon">🪘</div>
+        <article class="app-row twirl">
+          <img class="app-icon" src="assets/icons/twirl.png" alt="Twirl 應用程式圖示" width="56" height="56" loading="lazy" />
           <div class="app-meta">
-            <h2>Twirl · 木魚</h2>
+            <h2>Twirl · 木魚 <span>生活</span></h2>
             <p>轉動轉盤探索附近地點，敲擊木魚累積功德，並收集籤詩。</p>
           </div>
-          <div class="app-links">
+          <nav class="app-links" aria-label="Twirl 連結">
             <a class="link-primary" href="legal/twirl/privacy-policy.html">隱私政策</a>
-            <a class="link-secondary" href="legal/twirl/support.html">支援</a>
-            <a class="link-delete" href="legal/twirl/account-deletion.html">刪除帳戶</a>
-          </div>
-        </div>
+            <a href="legal/twirl/support.html">支援</a>
+            <a href="legal/twirl/account-deletion.html">刪除帳戶</a>
+          </nav>
+        </article>
 
-        <div class="app-card hiro">
-          <div class="app-icon">💼</div>
+        <article class="app-row hiro">
+          <img class="app-icon" src="assets/icons/hiro.png" alt="Hiro 應用程式圖示" width="56" height="56" loading="lazy" />
           <div class="app-meta">
-            <h2>Hiro</h2>
+            <h2>Hiro <span>求職</span></h2>
             <p>求職配套應用程式 — 透過 Wi-Fi 或您私有的雲端，查看並管理 Hiro 桌面應用程式追蹤的應徵。</p>
           </div>
-          <div class="app-links">
+          <nav class="app-links" aria-label="Hiro 連結">
             <a class="link-primary" href="legal/hiro/privacy-policy.html">隱私政策</a>
-            <a class="link-secondary" href="legal/hiro/support.html">支援</a>
-            <a class="link-delete" href="legal/hiro/account-deletion.html">刪除帳戶</a>
-          </div>
-        </div>
+            <a href="legal/hiro/support.html">支援</a>
+            <a href="legal/hiro/account-deletion.html">刪除帳戶</a>
+          </nav>
+        </article>
 
-        <div class="app-card calla">
-          <div class="app-icon">🪷</div>
+        <article class="app-row calla">
+          <img class="app-icon" src="assets/icons/calla.png" alt="Calla 應用程式圖示" width="56" height="56" loading="lazy" />
           <div class="app-meta">
-            <h2>Calla</h2>
+            <h2>Calla <span>身心健康</span></h2>
             <p>溫柔的健康夥伴 — 每日心情打卡、藥物、生命體徵、日記、暖心 AI 聊天，以及家庭關懷圈。</p>
           </div>
-          <div class="app-links">
+          <nav class="app-links" aria-label="Calla 連結">
             <a class="link-primary" href="legal/calla/privacy-policy.html">隱私政策</a>
-            <a class="link-secondary" href="legal/calla/support.html">支援</a>
-            <a class="link-delete" href="legal/calla/account-deletion.html">刪除帳戶</a>
-          </div>
-        </div>
+            <a href="legal/calla/support.html">支援</a>
+            <a href="legal/calla/account-deletion.html">刪除帳戶</a>
+          </nav>
+        </article>
 
       </div>
     </main>
   </div>
 
   <footer>
-    &copy; 2026 Pockyt, Oncora, Little Mirrors, Twirl, Hiro &amp; Calla.
+    <div class="wrap footer-inner">
+      <span>&copy; 2026 Pockyt · Oncora · Little Mirrors · Twirl · Hiro · Calla</span>
+      <a href="mailto:wksunshine@gmail.com">wksunshine@gmail.com</a>
+    </div>
   </footer>
 
   <script>
     function showLang(lang) {
       document.getElementById('en').style.display = lang === 'en' ? 'flex' : 'none';
       document.getElementById('zh').style.display = lang === 'zh' ? 'flex' : 'none';
+      document.getElementById('btn-en').classList.toggle('active', lang === 'en');
+      document.getElementById('btn-zh').classList.toggle('active', lang === 'zh');
+      document.documentElement.lang = lang === 'zh' ? 'zh-Hant' : 'en';
       try { localStorage.setItem('lang', lang); } catch (e) {}
     }
     (function () {
@@ -398,6 +524,7 @@
       try { saved = localStorage.getItem('lang'); } catch (e) {}
       if (saved) showLang(saved);
       else if (navigator.language && navigator.language.startsWith('zh')) showLang('zh');
+      else showLang('en');
     })();
   </script>
 
