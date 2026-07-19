@@ -1,7 +1,7 @@
 {
   "schema": "pockyt-card-catalog-v1",
   "description": "Card catalog for the Pockyt / SpendingTracker app: details, benefits, AI reward valuations, and face image URLs.",
-  "generated": "2026-06-07",
+  "generated": "2026-07-19",
   "count": 600,
   "cards": [
     {
@@ -12,9 +12,9 @@
       "annualFee": 95,
       "color": "#1B6BB0",
       "image": "https://raw.githubusercontent.com/jimabby/card-assets/main/cards/chase_sapphire_preferred.png",
-      "benefits": "5x travel booked via Chase Travel\n3x dining\n3x online groceries\n3x select streaming\n2x other travel\n1x everything else\n$50 annual Chase Travel hotel credit\n10% anniversary points bonus\nTrip cancellation/interruption insurance\nPrimary rental car coverage\nNo foreign transaction fees\n$95 annual fee",
-      "benefits_zh_CN": "通过Chase旅行预订5倍积分\n餐饮3倍积分\n网购杂货3倍积分\n精选流媒体3倍积分\n其他旅行2倍积分\n其他消费1倍积分\n每年$50 Chase旅行酒店消费返现\n周年10%积分奖励\n行程取消/中断保险\n主要租车保障\n无境外交易手续费\n年费$95",
-      "benefits_zh_TW": "透過Chase Travel預訂旅遊5倍積分\n餐飲3倍積分\n網購雜貨3倍積分\n精選串流媒體3倍積分\n其他旅遊2倍積分\n其他消費1倍積分\n每年$50 Chase Travel飯店消費抵扣\n週年10%積分獎勵\n行程取消/中斷保險\n主要租車保障\n無國外交易手續費\n年費$95",
+      "benefits": "5x travel booked via Chase Travel\n3x dining\n3x online groceries\n3x select streaming\n2x other travel\n1x everything else\n$50 annual Chase Travel hotel credit\n10% anniversary points bonus\nTrip cancellation/interruption insurance\nTrip delay reimbursement (12+ hr)\nPrimary rental car coverage\nNo foreign transaction fees\n$95 annual fee",
+      "benefits_zh_CN": "通过Chase旅行预订5倍积分\n餐饮3倍积分\n网购杂货3倍积分\n精选流媒体3倍积分\n其他旅行2倍积分\n其他消费1倍积分\n每年$50 Chase旅行酒店消费返现\n周年10%积分奖励\n行程取消/中断保险\n行程延误赔偿（12小时以上）\n主要租车保障\n无境外交易手续费\n年费$95",
+      "benefits_zh_TW": "透過Chase Travel預訂旅遊5倍積分\n餐飲3倍積分\n網購雜貨3倍積分\n精選串流媒體3倍積分\n其他旅遊2倍積分\n其他消費1倍積分\n每年$50 Chase Travel飯店消費抵扣\n週年10%積分獎勵\n行程取消/中斷保險\n行程延誤賠償（12小時以上）\n主要租車保障\n無國外交易手續費\n年費$95",
       "aiRewards": {
         "Food & Dining": 4.8,
         "Groceries": 4.8,
@@ -24,7 +24,8 @@
         "Hotels": 3.2,
         "Car Rental": 3.2,
         "Everything": 1.6
-      }
+      },
+      "cardUrl": "https://creditcards.chase.com/rewards-credit-cards/sapphire/preferred"
     },
     {
       "id": "chase_sapphire_reserve",
@@ -34,16 +35,17 @@
       "annualFee": 795,
       "color": "#2C2C2C",
       "image": "https://raw.githubusercontent.com/jimabby/card-assets/main/cards/chase_sapphire_reserve.png",
-      "benefits": "8x on Chase Travel purchases\n4x on flights & hotels booked direct\n3x dining worldwide\n1x everything else\n$300 annual travel credit\nUp to $500/yr The Edit hotel credit (2+ night stays via Chase Travel)\nUp to $300/yr Sapphire dining credit (OpenTable Exclusive Tables)\nUp to $300/yr StubHub & viagogo credit\nPriority Pass + Chase Sapphire Lounge access\nGlobal Entry/TSA PreCheck/NEXUS credit\nApple TV+ and Apple Music membership\nPrimary rental car coverage; trip delay & cancellation insurance\nNo foreign transaction fees\n$795 annual fee",
-      "benefits_zh_CN": "通过Chase旅行消费8倍积分\n直接预订机票和酒店4倍积分\n全球餐饮3倍积分\n其他消费1倍积分\n每年$300旅行消费返现\n每年最高$500 The Edit酒店返现（通过Chase旅行预订2晚以上）\n每年最高$300 Sapphire餐饮返现（OpenTable Exclusive Tables）\n每年最高$300 StubHub和viagogo返现\nPriority Pass和Chase Sapphire贵宾厅使用权\nGlobal Entry/TSA PreCheck/NEXUS费用返还\nApple TV+和Apple Music会员\n主要租车保障；行程延误和取消保险\n无境外交易手续费\n年费$795",
-      "benefits_zh_TW": "透過Chase Travel消費8倍積分\n直接預訂機票與飯店4倍積分\n全球餐飲3倍積分\n其他消費1倍積分\n每年$300旅遊消費抵扣\n每年最高$500 The Edit飯店抵扣（透過Chase Travel預訂2晚以上）\n每年最高$300 Sapphire餐飲抵扣（OpenTable Exclusive Tables）\n每年最高$300 StubHub與viagogo抵扣\nPriority Pass與Chase Sapphire貴賓室使用權\nGlobal Entry/TSA PreCheck/NEXUS費用補貼\nApple TV+與Apple Music會員\n主要租車保障；行程延誤與取消保險\n無國外交易手續費\n年費$795",
+      "benefits": "8x on Chase Travel purchases\n4x on flights & hotels booked direct\n3x dining worldwide\n1x everything else\n$300 annual travel credit\nUp to $500/yr The Edit hotel credit (2+ night stays via Chase Travel)\nUp to $300/yr Sapphire dining credit (OpenTable Exclusive Tables)\nUp to $300/yr StubHub & viagogo credit\nPriority Pass + Chase Sapphire Lounge access\nGlobal Entry/TSA PreCheck/NEXUS credit\nApple TV+ and Apple Music membership\nPrimary rental car coverage; trip delay (6+ hr) & cancellation insurance\nNo foreign transaction fees\n$795 annual fee",
+      "benefits_zh_CN": "通过Chase旅行消费8倍积分\n直接预订机票和酒店4倍积分\n全球餐饮3倍积分\n其他消费1倍积分\n每年$300旅行消费返现\n每年最高$500 The Edit酒店返现（通过Chase旅行预订2晚以上）\n每年最高$300 Sapphire餐饮返现（OpenTable Exclusive Tables）\n每年最高$300 StubHub和viagogo返现\nPriority Pass和Chase Sapphire贵宾厅使用权\nGlobal Entry/TSA PreCheck/NEXUS费用返还\nApple TV+和Apple Music会员\n主要租车保障；行程延误（6小时以上）和取消保险\n无境外交易手续费\n年费$795",
+      "benefits_zh_TW": "透過Chase Travel消費8倍積分\n直接預訂機票與飯店4倍積分\n全球餐飲3倍積分\n其他消費1倍積分\n每年$300旅遊消費抵扣\n每年最高$500 The Edit飯店抵扣（透過Chase Travel預訂2晚以上）\n每年最高$300 Sapphire餐飲抵扣（OpenTable Exclusive Tables）\n每年最高$300 StubHub與viagogo抵扣\nPriority Pass與Chase Sapphire貴賓室使用權\nGlobal Entry/TSA PreCheck/NEXUS費用補貼\nApple TV+與Apple Music會員\n主要租車保障；行程延誤（6小時以上）與取消保險\n無國外交易手續費\n年費$795",
       "aiRewards": {
         "Travel": 12.8,
         "Flights": 6.4,
         "Hotels": 6.4,
         "Food & Dining": 4.8,
         "Everything": 1.6
-      }
+      },
+      "cardUrl": "https://creditcards.chase.com/rewards-credit-cards/sapphire/reserve"
     },
     {
       "id": "chase_freedom_unlimited",
@@ -53,16 +55,17 @@
       "annualFee": 0,
       "color": "#1B6BB0",
       "image": "https://raw.githubusercontent.com/jimabby/card-assets/main/cards/chase_freedom_unlimited.png",
-      "benefits": "5x travel via Chase Travel\n3x dining\n3x drugstores\n1.5x everything else\nNo annual fee\n0% intro APR 15 months",
-      "benefits_zh_CN": "通过Chase旅行预订5倍积分\n餐饮3倍积分\n药店3倍积分\n其他消费1.5倍积分\n免年费\n前15个月0%优惠年利率",
-      "benefits_zh_TW": "透過Chase Travel預訂5倍積分\n餐飲3倍積分\n藥妝店3倍積分\n其他消費1.5倍積分\n免年費\n前15個月0%優惠年利率",
+      "benefits": "5x travel via Chase Travel\n3x dining\n3x drugstores\n1.5x everything else\nNo annual fee\n0% intro APR 15 months\nPurchase protection & extended warranty\nTrip cancellation/interruption insurance",
+      "benefits_zh_CN": "通过Chase旅行预订5倍积分\n餐饮3倍积分\n药店3倍积分\n其他消费1.5倍积分\n免年费\n前15个月0%优惠年利率\n购物保障与延长保修\n行程取消/中断保险",
+      "benefits_zh_TW": "透過Chase Travel預訂5倍積分\n餐飲3倍積分\n藥妝店3倍積分\n其他消費1.5倍積分\n免年費\n前15個月0%優惠年利率\n購物保障與延長保固\n行程取消/中斷保險",
       "aiRewards": {
         "Flights": 8,
         "Hotels": 8,
         "Food & Dining": 4.8,
         "Shopping": 4.8,
         "Everything": 2.4
-      }
+      },
+      "cardUrl": "https://creditcards.chase.com/cash-back-credit-cards/freedom/unlimited"
     },
     {
       "id": "chase_freedom_flex",
@@ -72,16 +75,17 @@
       "annualFee": 0,
       "color": "#1B6BB0",
       "image": "https://raw.githubusercontent.com/jimabby/card-assets/main/cards/chase_freedom_flex.png",
-      "benefits": "5x rotating quarterly categories (up to $1,500)\n5x travel via Chase Travel\n3x dining\n3x drugstores\n1x everything else\nNo annual fee\nCell phone protection",
-      "benefits_zh_CN": "每季度轮换消费类别5倍积分（最高$1,500）\n通过Chase旅行预订5倍积分\n餐饮3倍积分\n药店3倍积分\n其他消费1倍积分\n免年费\n手机保障",
-      "benefits_zh_TW": "每季輪換消費類別5倍積分（最高$1,500）\n透過Chase Travel預訂5倍積分\n餐飲3倍積分\n藥妝店3倍積分\n其他消費1倍積分\n免年費\n手機保障",
+      "benefits": "5x rotating quarterly categories (up to $1,500)\n5x travel via Chase Travel\n3x dining\n3x drugstores\n1x everything else\nNo annual fee\nCell phone protection\nPurchase protection & extended warranty\nTrip cancellation/interruption insurance",
+      "benefits_zh_CN": "每季度轮换消费类别5倍积分（最高$1,500）\n通过Chase旅行预订5倍积分\n餐饮3倍积分\n药店3倍积分\n其他消费1倍积分\n免年费\n手机保障\n购物保障与延长保修\n行程取消/中断保险",
+      "benefits_zh_TW": "每季輪換消費類別5倍積分（最高$1,500）\n透過Chase Travel預訂5倍積分\n餐飲3倍積分\n藥妝店3倍積分\n其他消費1倍積分\n免年費\n手機保障\n購物保障與延長保固\n行程取消/中斷保險",
       "aiRewards": {
         "Flights": 8,
         "Hotels": 8,
         "Food & Dining": 4.8,
         "Shopping": 4.8,
         "Everything": 1.6
-      }
+      },
+      "cardUrl": "https://creditcards.chase.com/cash-back-credit-cards/freedom/flex"
     },
     {
       "id": "chase_ink_preferred",
@@ -148,15 +152,16 @@
       "annualFee": 325,
       "color": "#C6962A",
       "image": "https://raw.githubusercontent.com/jimabby/card-assets/main/cards/amex_gold.jpg",
-      "benefits": "4x restaurants worldwide incl. US takeout & delivery (up to $50k/year)\n4x US supermarkets (up to $25k/year)\n3x flights booked direct or via Amex Travel\n1x everything else\n$120 dining credit/year ($10/mo select)\n$120 Uber Cash/year ($10/mo)\n$100 Resy credit/year\n$84 Dunkin credit/year ($7/mo)\nNo foreign transaction fees\n$325 annual fee",
-      "benefits_zh_CN": "全球餐厅4倍积分，含美国外卖与外送（每年最高$50,000）\n美国超市4倍积分（每年最高$25,000）\n直接预订或通过Amex Travel预订机票3倍积分\n其他消费1倍积分\n每年$120餐饮返现（每月$10精选商户）\n每年$120 Uber Cash（每月$10）\n每年$100 Resy餐饮返现\n每年$84 Dunkin返现（每月$7）\n无境外交易手续费\n年费$325",
-      "benefits_zh_TW": "全球餐廳4倍積分，含美國外帶與外送（每年最高$50,000）\n美國超市4倍積分（每年最高$25,000）\n直接預訂或透過Amex Travel預訂機票3倍積分\n其他消費1倍積分\n每年$120餐飲抵扣（每月$10精選商家）\n每年$120 Uber Cash（每月$10）\n每年$100 Resy餐飲抵扣\n每年$84 Dunkin抵扣（每月$7）\n無國外交易手續費\n年費$325",
+      "benefits": "4x restaurants worldwide incl. US takeout & delivery (up to $50k/year)\n4x US supermarkets (up to $25k/year)\n3x flights booked direct or via Amex Travel\n1x everything else\n$120 dining credit/year ($10/mo select)\n$120 Uber Cash/year ($10/mo)\n$100 Resy credit/year\n$84 Dunkin credit/year ($7/mo)\nNo foreign transaction fees\n$325 annual fee\nPurchase protection & extended warranty\nBaggage insurance & car rental loss/damage coverage",
+      "benefits_zh_CN": "全球餐厅4倍积分，含美国外卖与外送（每年最高$50,000）\n美国超市4倍积分（每年最高$25,000）\n直接预订或通过Amex Travel预订机票3倍积分\n其他消费1倍积分\n每年$120餐饮返现（每月$10精选商户）\n每年$120 Uber Cash（每月$10）\n每年$100 Resy餐饮返现\n每年$84 Dunkin返现（每月$7）\n无境外交易手续费\n年费$325\n购物保障与延长保修\n行李保险与租车损失保障",
+      "benefits_zh_TW": "全球餐廳4倍積分，含美國外帶與外送（每年最高$50,000）\n美國超市4倍積分（每年最高$25,000）\n直接預訂或透過Amex Travel預訂機票3倍積分\n其他消費1倍積分\n每年$120餐飲抵扣（每月$10精選商家）\n每年$120 Uber Cash（每月$10）\n每年$100 Resy餐飲抵扣\n每年$84 Dunkin抵扣（每月$7）\n無國外交易手續費\n年費$325\n購物保障與延長保固\n行李保險與租車損失保障",
       "aiRewards": {
         "Groceries": 6,
         "Food & Dining": 6,
         "Flights": 4.5,
         "Everything": 1.5
-      }
+      },
+      "cardUrl": "https://www.americanexpress.com/us/credit-cards/card/gold-card/"
     },
     {
       "id": "amex_platinum",
@@ -166,14 +171,15 @@
       "annualFee": 895,
       "color": "#8C9196",
       "image": "https://raw.githubusercontent.com/jimabby/card-assets/main/cards/amex_platinum.jpg",
-      "benefits": "5x flights booked direct or via Amex Travel (up to $500k/year)\n5x prepaid hotels via Amex Travel\n1x everything else\n$600 hotel credit/year (FHR/The Hotel Collection, $300 semi-annual)\n$400 Resy dining credit/year ($100/quarter)\n$300 digital entertainment credit/year ($25/mo)\n$200 airline fee credit/year\n$200 Uber Cash/year + $120 Uber One credit/year\n$155 Walmart+ credit/year\nGlobal Lounge Collection (Centurion, Priority Pass, Delta Sky Club when flying Delta)\nGlobal Entry/TSA PreCheck credit\nNo foreign transaction fees\n$895 annual fee",
-      "benefits_zh_CN": "直接预订或通过Amex Travel预订机票5倍积分（每年最高$500,000）\n通过Amex Travel预订预付酒店5倍积分\n其他消费1倍积分\n每年$600酒店返现（FHR/The Hotel Collection，每半年$300）\n每年$400 Resy餐饮返现（每季$100）\n每年$300数字娱乐返现（每月$25）\n每年$200航空费用返现\n每年$200 Uber Cash + $120 Uber One返现\n每年$155 Walmart+返现\n全球贵宾厅合集（Centurion、Priority Pass、乘坐Delta时享Delta Sky Club）\nGlobal Entry/TSA PreCheck费用返还\n无境外交易手续费\n年费$895",
-      "benefits_zh_TW": "直接預訂或透過Amex Travel預訂機票5倍積分（每年最高$500,000）\n透過Amex Travel預訂預付飯店5倍積分\n其他消費1倍積分\n每年$600飯店抵扣（FHR/The Hotel Collection，每半年$300）\n每年$400 Resy餐飲抵扣（每季$100）\n每年$300數位娛樂抵扣（每月$25）\n每年$200航空費用抵扣\n每年$200 Uber Cash + $120 Uber One抵扣\n每年$155 Walmart+抵扣\n全球貴賓室聯盟（Centurion、Priority Pass、搭乘Delta時享Delta Sky Club）\nGlobal Entry/TSA PreCheck費用補貼\n無國外交易手續費\n年費$895",
+      "benefits": "5x flights booked direct or via Amex Travel (up to $500k/year)\n5x prepaid hotels via Amex Travel\n1x everything else\n$600 hotel credit/year (FHR/The Hotel Collection, $300 semi-annual)\n$400 Resy dining credit/year ($100/quarter)\n$300 digital entertainment credit/year ($25/mo)\n$200 airline fee credit/year\n$200 Uber Cash/year + $120 Uber One credit/year\n$155 Walmart+ credit/year\nGlobal Lounge Collection (Centurion, Priority Pass, Delta Sky Club when flying Delta)\nGlobal Entry/TSA PreCheck credit\nNo foreign transaction fees\n$895 annual fee\nPurchase protection & extended warranty\nTrip delay (6+ hr) & trip cancellation/interruption insurance\nBaggage insurance & car rental loss/damage coverage",
+      "benefits_zh_CN": "直接预订或通过Amex Travel预订机票5倍积分（每年最高$500,000）\n通过Amex Travel预订预付酒店5倍积分\n其他消费1倍积分\n每年$600酒店返现（FHR/The Hotel Collection，每半年$300）\n每年$400 Resy餐饮返现（每季$100）\n每年$300数字娱乐返现（每月$25）\n每年$200航空费用返现\n每年$200 Uber Cash + $120 Uber One返现\n每年$155 Walmart+返现\n全球贵宾厅合集（Centurion、Priority Pass、乘坐Delta时享Delta Sky Club）\nGlobal Entry/TSA PreCheck费用返还\n无境外交易手续费\n年费$895\n购物保障与延长保修\n行程延误（6小时以上）与取消/中断保险\n行李保险与租车损失保障",
+      "benefits_zh_TW": "直接預訂或透過Amex Travel預訂機票5倍積分（每年最高$500,000）\n透過Amex Travel預訂預付飯店5倍積分\n其他消費1倍積分\n每年$600飯店抵扣（FHR/The Hotel Collection，每半年$300）\n每年$400 Resy餐飲抵扣（每季$100）\n每年$300數位娛樂抵扣（每月$25）\n每年$200航空費用抵扣\n每年$200 Uber Cash + $120 Uber One抵扣\n每年$155 Walmart+抵扣\n全球貴賓室聯盟（Centurion、Priority Pass、搭乘Delta時享Delta Sky Club）\nGlobal Entry/TSA PreCheck費用補貼\n無國外交易手續費\n年費$895\n購物保障與延長保固\n行程延誤（6小時以上）與取消/中斷保險\n行李保險與租車損失保障",
       "aiRewards": {
         "Flights": 7.5,
         "Hotels": 7.5,
         "Everything": 1.5
-      }
+      },
+      "cardUrl": "https://www.americanexpress.com/us/credit-cards/card/platinum/"
     },
     {
       "id": "amex_blue_cash_preferred",
@@ -756,15 +762,16 @@
       "annualFee": 450,
       "color": "#1A1A1A",
       "image": "https://raw.githubusercontent.com/jimabby/card-assets/main/cards/chase_ritz_carlton.png",
-      "benefits": "6x Marriott Bonvoy hotels\n3x dining & car rentals\n2x everything else\n85k Free Night Award\n$300 annual travel credit\nPriority Pass Select (guest unlimited)\nAutomatic Gold Elite status\nNo foreign transaction fee",
-      "benefits_zh_CN": "万豪Bonvoy酒店6倍积分\n餐饮和租车3倍积分\n其他消费2倍积分\n85,000积分免费住宿奖励\n每年$300旅行消费返现\n优先通行精选贵宾厅（宾客无限次）\n自动获得金卡精英会员资格\n无境外交易手续费",
-      "benefits_zh_TW": "萬豪Bonvoy飯店6倍積分\n餐飲與租車3倍積分\n其他消費2倍積分\n85,000積分免費住宿獎勵\n每年$300旅遊消費抵扣\nPriority Pass Select貴賓室（賓客無限次）\n自動獲得金卡菁英會員資格\n無國外交易手續費",
+      "benefits": "6x Marriott Bonvoy hotels\n3x dining & car rentals\n2x everything else\n85k Free Night Award\n$300 annual travel credit\nPriority Pass Select (guest unlimited)\nAutomatic Gold Elite status\nNo foreign transaction fee\nPurchase protection & extended warranty\nTrip delay (3+ hr) & trip cancellation/interruption insurance\nPrimary rental car coverage\nLost luggage reimbursement",
+      "benefits_zh_CN": "万豪Bonvoy酒店6倍积分\n餐饮和租车3倍积分\n其他消费2倍积分\n85,000积分免费住宿奖励\n每年$300旅行消费返现\n优先通行精选贵宾厅（宾客无限次）\n自动获得金卡精英会员资格\n无境外交易手续费\n购物保障与延长保修\n行程延误（3小时以上）与取消/中断保险\n主要租车保障\n行李遗失赔偿",
+      "benefits_zh_TW": "萬豪Bonvoy飯店6倍積分\n餐飲與租車3倍積分\n其他消費2倍積分\n85,000積分免費住宿獎勵\n每年$300旅遊消費抵扣\nPriority Pass Select貴賓室（賓客無限次）\n自動獲得金卡菁英會員資格\n無國外交易手續費\n購物保障與延長保固\n行程延誤（3小時以上）與取消/中斷保險\n主要租車保障\n行李遺失賠償",
       "aiRewards": {
         "Hotels": 6,
         "Food & Dining": 3,
         "Car Rental": 3,
         "Everything": 2
-      }
+      },
+      "cardUrl": "https://creditcards.chase.com/a1/ritzcarlton"
     },
     {
       "id": "capital_one_ventureone",

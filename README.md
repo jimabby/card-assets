@@ -40,7 +40,7 @@ Images are served from `https://raw.githubusercontent.com/jimabby/card-assets/ma
 | 🇹🇼 Taiwan (TW) | 100 |
 | **Total** | **600** |
 
-_Generated 2026-06-07. Source of truth: `src/data/commonCards.ts` in the SpendingTracker app._
+_Generated 2026-07-19. Source of truth: `src/data/commonCards.ts` in the SpendingTracker app._
 
 ## Card list
 
