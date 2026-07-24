@@ -2,7 +2,7 @@
   "schema": "pockyt-card-catalog-v1",
   "description": "Card catalog for the Pockyt / SpendingTracker app: details, benefits, AI reward valuations, and face image URLs.",
   "generated": "2026-07-24",
-  "count": 758,
+  "count": 1010,
   "cards": [
     {
       "id": "chase_sapphire_preferred",
@@ -12825,6 +12825,4470 @@
       },
       "cardUrl": "https://www.landbank.com.tw",
       "image": "https://raw.githubusercontent.com/jimabby/card-assets/main/cards/landbank_jcb_card.png"
+    },
+    {
+      "id": "us_chase_rewards_plus",
+      "name": "Chase Rewards Plus Card",
+      "region": "US",
+      "bank": "chase.com",
+      "annualFee": 0,
+      "color": "#1B6BB0",
+      "benefits": "Earn bonus reward points on everyday dining & groceries\nNo annual fee\nPurchase security insurance",
+      "benefits_zh_CN": "日常餐饮及超市买菜刷卡享加码积分\n免年费\n购物安全保险",
+      "benefits_zh_TW": "日常餐饮及超市买菜刷卡享加码积分\n免年费\n购物安全保险",
+      "aiRewards": {
+        "Food & Dining": 2.0,
+        "Groceries": 2.0,
+        "Everything": 1.0
+      },
+      "cardUrl": "https://www.chase.com",
+      "image": "https://raw.githubusercontent.com/jimabby/card-assets/main/cards/us_chase_rewards_plus.png"
+    },
+    {
+      "id": "us_chase_cashback_preferred",
+      "name": "Chase Cashback Preferred Card",
+      "region": "US",
+      "bank": "chase.com",
+      "annualFee": 95,
+      "color": "#1B6BB0",
+      "benefits": "3% cash back on gas, groceries, and dining\n1% cash back on all other purchases\nNo foreign exchange fee",
+      "benefits_zh_CN": "加油、超市买菜及餐饮消费享3%现金返还\n其他消费1%现金返还\n零外汇手续费",
+      "benefits_zh_TW": "加油、超市买菜及餐饮消费享3%现金返还\n其他消费1%现金返还\n零外汇手续费",
+      "aiRewards": {
+        "Food & Dining": 3.0,
+        "Groceries": 3.0,
+        "Gas & Transit": 3.0,
+        "Everything": 1.0
+      },
+      "cardUrl": "https://www.chase.com",
+      "image": "https://raw.githubusercontent.com/jimabby/card-assets/main/cards/us_chase_cashback_preferred.png"
+    },
+    {
+      "id": "us_chase_travel_infinite",
+      "name": "Chase Travel Infinite Card",
+      "region": "US",
+      "bank": "chase.com",
+      "annualFee": 150,
+      "color": "#1B6BB0",
+      "benefits": "3x points on flights, hotels, and travel bookings\nComplimentary airport VIP lounge access\nTravel emergency medical insurance",
+      "benefits_zh_CN": "机票、酒店及旅行预订享3倍积分\n免费机场VIP贵宾厅礼遇\n包含旅行紧急医疗险",
+      "benefits_zh_TW": "机票、酒店及旅行预订享3倍积分\n免费机场VIP贵宾厅礼遇\n包含旅行紧急医疗险",
+      "aiRewards": {
+        "Travel": 3.0,
+        "Flights": 3.0,
+        "Hotels": 3.0,
+        "Everything": 1.0
+      },
+      "cardUrl": "https://www.chase.com",
+      "image": "https://raw.githubusercontent.com/jimabby/card-assets/main/cards/us_chase_travel_infinite.png"
+    },
+    {
+      "id": "us_chase_business_rewards",
+      "name": "Chase Business Rewards Credit Card",
+      "region": "US",
+      "bank": "chase.com",
+      "annualFee": 0,
+      "color": "#1B6BB0",
+      "benefits": "2x points on office supplies, shipping, and digital advertising\n1x point elsewhere\nEmployee cards at no extra cost",
+      "benefits_zh_CN": "办公用品、快递发货及数字广告享2倍积分\n其他消费1分\n免费开立员工副卡",
+      "benefits_zh_TW": "办公用品、快递发货及数字广告享2倍积分\n其他消费1分\n免费开立员工副卡",
+      "aiRewards": {
+        "Shopping": 2.0,
+        "Everything": 1.0
+      },
+      "cardUrl": "https://www.chase.com",
+      "image": "https://raw.githubusercontent.com/jimabby/card-assets/main/cards/us_chase_business_rewards.png"
+    },
+    {
+      "id": "us_chase_world_elite",
+      "name": "Chase World Elite Mastercard",
+      "region": "US",
+      "bank": "chase.com",
+      "annualFee": 199,
+      "color": "#1B6BB0",
+      "benefits": "Complimentary VIP airport lounge passes\n2x points on all international purchases\nZero foreign transaction fees",
+      "benefits_zh_CN": "赠送VIP机场贵宾厅门票\n所有国际外币消费享2倍积分\n零外币交易手续费",
+      "benefits_zh_TW": "赠送VIP机场贵宾厅门票\n所有国际外币消费享2倍积分\n零外币交易手续费",
+      "aiRewards": {
+        "Travel": 2.5,
+        "Flights": 2.5,
+        "Hotels": 2.5,
+        "Everything": 1.25
+      },
+      "cardUrl": "https://www.chase.com",
+      "image": "https://raw.githubusercontent.com/jimabby/card-assets/main/cards/us_chase_world_elite.png"
+    },
+    {
+      "id": "us_chase_low_rate_classic",
+      "name": "Chase Low Rate Classic Card",
+      "region": "US",
+      "bank": "chase.com",
+      "annualFee": 0,
+      "color": "#1B6BB0",
+      "benefits": "Low ongoing purchase interest rate\nNo annual fee\nZero fraud liability protection",
+      "benefits_zh_CN": "保持超低刷卡消费年利率\n免年费\n零盗刷安全责任保障",
+      "benefits_zh_TW": "保持超低刷卡消费年利率\n免年费\n零盗刷安全责任保障",
+      "aiRewards": {
+        "Everything": 0.5
+      },
+      "cardUrl": "https://www.chase.com",
+      "image": "https://raw.githubusercontent.com/jimabby/card-assets/main/cards/us_chase_low_rate_classic.png"
+    },
+    {
+      "id": "us_chase_student_cash",
+      "name": "Chase Student Cash Back Card",
+      "region": "US",
+      "bank": "chase.com",
+      "annualFee": 0,
+      "color": "#1B6BB0",
+      "benefits": "1.5% cash back on all student purchases\nGood grades cash reward\nNo annual fee & no late fees",
+      "benefits_zh_CN": "学生日常刷卡消费享1.5%现金返还\n成绩优良年度现金奖励\n免年费且无滞纳金",
+      "benefits_zh_TW": "学生日常刷卡消费享1.5%现金返还\n成绩优良年度现金奖励\n免年费且无滞纳金",
+      "aiRewards": {
+        "Everything": 1.5
+      },
+      "cardUrl": "https://www.chase.com",
+      "image": "https://raw.githubusercontent.com/jimabby/card-assets/main/cards/us_chase_student_cash.png"
+    },
+    {
+      "id": "us_amerinexpress_rewards_plus",
+      "name": "American Express Rewards Plus Card",
+      "region": "US",
+      "bank": "americanexpress.com",
+      "annualFee": 0,
+      "color": "#002B49",
+      "benefits": "Earn bonus reward points on everyday dining & groceries\nNo annual fee\nPurchase security insurance",
+      "benefits_zh_CN": "日常餐饮及超市买菜刷卡享加码积分\n免年费\n购物安全保险",
+      "benefits_zh_TW": "日常餐饮及超市买菜刷卡享加码积分\n免年费\n购物安全保险",
+      "aiRewards": {
+        "Food & Dining": 2.0,
+        "Groceries": 2.0,
+        "Everything": 1.0
+      },
+      "cardUrl": "https://www.americanexpress.com",
+      "image": "https://raw.githubusercontent.com/jimabby/card-assets/main/cards/us_amerinexpress_rewards_plus.png"
+    },
+    {
+      "id": "us_amerinexpress_cashback_preferred",
+      "name": "American Express Cashback Preferred Card",
+      "region": "US",
+      "bank": "americanexpress.com",
+      "annualFee": 95,
+      "color": "#002B49",
+      "benefits": "3% cash back on gas, groceries, and dining\n1% cash back on all other purchases\nNo foreign exchange fee",
+      "benefits_zh_CN": "加油、超市买菜及餐饮消费享3%现金返还\n其他消费1%现金返还\n零外汇手续费",
+      "benefits_zh_TW": "加油、超市买菜及餐饮消费享3%现金返还\n其他消费1%现金返还\n零外汇手续费",
+      "aiRewards": {
+        "Food & Dining": 3.0,
+        "Groceries": 3.0,
+        "Gas & Transit": 3.0,
+        "Everything": 1.0
+      },
+      "cardUrl": "https://www.americanexpress.com",
+      "image": "https://raw.githubusercontent.com/jimabby/card-assets/main/cards/us_amerinexpress_cashback_preferred.png"
+    },
+    {
+      "id": "us_amerinexpress_travel_infinite",
+      "name": "American Express Travel Infinite Card",
+      "region": "US",
+      "bank": "americanexpress.com",
+      "annualFee": 150,
+      "color": "#002B49",
+      "benefits": "3x points on flights, hotels, and travel bookings\nComplimentary airport VIP lounge access\nTravel emergency medical insurance",
+      "benefits_zh_CN": "机票、酒店及旅行预订享3倍积分\n免费机场VIP贵宾厅礼遇\n包含旅行紧急医疗险",
+      "benefits_zh_TW": "机票、酒店及旅行预订享3倍积分\n免费机场VIP贵宾厅礼遇\n包含旅行紧急医疗险",
+      "aiRewards": {
+        "Travel": 3.0,
+        "Flights": 3.0,
+        "Hotels": 3.0,
+        "Everything": 1.0
+      },
+      "cardUrl": "https://www.americanexpress.com",
+      "image": "https://raw.githubusercontent.com/jimabby/card-assets/main/cards/us_amerinexpress_travel_infinite.png"
+    },
+    {
+      "id": "us_amerinexpress_business_rewards",
+      "name": "American Express Business Rewards Credit Card",
+      "region": "US",
+      "bank": "americanexpress.com",
+      "annualFee": 0,
+      "color": "#002B49",
+      "benefits": "2x points on office supplies, shipping, and digital advertising\n1x point elsewhere\nEmployee cards at no extra cost",
+      "benefits_zh_CN": "办公用品、快递发货及数字广告享2倍积分\n其他消费1分\n免费开立员工副卡",
+      "benefits_zh_TW": "办公用品、快递发货及数字广告享2倍积分\n其他消费1分\n免费开立员工副卡",
+      "aiRewards": {
+        "Shopping": 2.0,
+        "Everything": 1.0
+      },
+      "cardUrl": "https://www.americanexpress.com",
+      "image": "https://raw.githubusercontent.com/jimabby/card-assets/main/cards/us_amerinexpress_business_rewards.png"
+    },
+    {
+      "id": "us_amerinexpress_world_elite",
+      "name": "American Express World Elite Mastercard",
+      "region": "US",
+      "bank": "americanexpress.com",
+      "annualFee": 199,
+      "color": "#002B49",
+      "benefits": "Complimentary VIP airport lounge passes\n2x points on all international purchases\nZero foreign transaction fees",
+      "benefits_zh_CN": "赠送VIP机场贵宾厅门票\n所有国际外币消费享2倍积分\n零外币交易手续费",
+      "benefits_zh_TW": "赠送VIP机场贵宾厅门票\n所有国际外币消费享2倍积分\n零外币交易手续费",
+      "aiRewards": {
+        "Travel": 2.5,
+        "Flights": 2.5,
+        "Hotels": 2.5,
+        "Everything": 1.25
+      },
+      "cardUrl": "https://www.americanexpress.com",
+      "image": "https://raw.githubusercontent.com/jimabby/card-assets/main/cards/us_amerinexpress_world_elite.png"
+    },
+    {
+      "id": "us_amerinexpress_low_rate_classic",
+      "name": "American Express Low Rate Classic Card",
+      "region": "US",
+      "bank": "americanexpress.com",
+      "annualFee": 0,
+      "color": "#002B49",
+      "benefits": "Low ongoing purchase interest rate\nNo annual fee\nZero fraud liability protection",
+      "benefits_zh_CN": "保持超低刷卡消费年利率\n免年费\n零盗刷安全责任保障",
+      "benefits_zh_TW": "保持超低刷卡消费年利率\n免年费\n零盗刷安全责任保障",
+      "aiRewards": {
+        "Everything": 0.5
+      },
+      "cardUrl": "https://www.americanexpress.com",
+      "image": "https://raw.githubusercontent.com/jimabby/card-assets/main/cards/us_amerinexpress_low_rate_classic.png"
+    },
+    {
+      "id": "us_amerinexpress_student_cash",
+      "name": "American Express Student Cash Back Card",
+      "region": "US",
+      "bank": "americanexpress.com",
+      "annualFee": 0,
+      "color": "#002B49",
+      "benefits": "1.5% cash back on all student purchases\nGood grades cash reward\nNo annual fee & no late fees",
+      "benefits_zh_CN": "学生日常刷卡消费享1.5%现金返还\n成绩优良年度现金奖励\n免年费且无滞纳金",
+      "benefits_zh_TW": "学生日常刷卡消费享1.5%现金返还\n成绩优良年度现金奖励\n免年费且无滞纳金",
+      "aiRewards": {
+        "Everything": 1.5
+      },
+      "cardUrl": "https://www.americanexpress.com",
+      "image": "https://raw.githubusercontent.com/jimabby/card-assets/main/cards/us_amerinexpress_student_cash.png"
+    },
+    {
+      "id": "us_citi_rewards_plus",
+      "name": "Citi Rewards Plus Card",
+      "region": "US",
+      "bank": "citi.com",
+      "annualFee": 0,
+      "color": "#005696",
+      "benefits": "Earn bonus reward points on everyday dining & groceries\nNo annual fee\nPurchase security insurance",
+      "benefits_zh_CN": "日常餐饮及超市买菜刷卡享加码积分\n免年费\n购物安全保险",
+      "benefits_zh_TW": "日常餐饮及超市买菜刷卡享加码积分\n免年费\n购物安全保险",
+      "aiRewards": {
+        "Food & Dining": 2.0,
+        "Groceries": 2.0,
+        "Everything": 1.0
+      },
+      "cardUrl": "https://www.citi.com",
+      "image": "https://raw.githubusercontent.com/jimabby/card-assets/main/cards/us_citi_rewards_plus.png"
+    },
+    {
+      "id": "us_citi_cashback_preferred",
+      "name": "Citi Cashback Preferred Card",
+      "region": "US",
+      "bank": "citi.com",
+      "annualFee": 95,
+      "color": "#005696",
+      "benefits": "3% cash back on gas, groceries, and dining\n1% cash back on all other purchases\nNo foreign exchange fee",
+      "benefits_zh_CN": "加油、超市买菜及餐饮消费享3%现金返还\n其他消费1%现金返还\n零外汇手续费",
+      "benefits_zh_TW": "加油、超市买菜及餐饮消费享3%现金返还\n其他消费1%现金返还\n零外汇手续费",
+      "aiRewards": {
+        "Food & Dining": 3.0,
+        "Groceries": 3.0,
+        "Gas & Transit": 3.0,
+        "Everything": 1.0
+      },
+      "cardUrl": "https://www.citi.com",
+      "image": "https://raw.githubusercontent.com/jimabby/card-assets/main/cards/us_citi_cashback_preferred.png"
+    },
+    {
+      "id": "us_citi_travel_infinite",
+      "name": "Citi Travel Infinite Card",
+      "region": "US",
+      "bank": "citi.com",
+      "annualFee": 150,
+      "color": "#005696",
+      "benefits": "3x points on flights, hotels, and travel bookings\nComplimentary airport VIP lounge access\nTravel emergency medical insurance",
+      "benefits_zh_CN": "机票、酒店及旅行预订享3倍积分\n免费机场VIP贵宾厅礼遇\n包含旅行紧急医疗险",
+      "benefits_zh_TW": "机票、酒店及旅行预订享3倍积分\n免费机场VIP贵宾厅礼遇\n包含旅行紧急医疗险",
+      "aiRewards": {
+        "Travel": 3.0,
+        "Flights": 3.0,
+        "Hotels": 3.0,
+        "Everything": 1.0
+      },
+      "cardUrl": "https://www.citi.com",
+      "image": "https://raw.githubusercontent.com/jimabby/card-assets/main/cards/us_citi_travel_infinite.png"
+    },
+    {
+      "id": "us_citi_business_rewards",
+      "name": "Citi Business Rewards Credit Card",
+      "region": "US",
+      "bank": "citi.com",
+      "annualFee": 0,
+      "color": "#005696",
+      "benefits": "2x points on office supplies, shipping, and digital advertising\n1x point elsewhere\nEmployee cards at no extra cost",
+      "benefits_zh_CN": "办公用品、快递发货及数字广告享2倍积分\n其他消费1分\n免费开立员工副卡",
+      "benefits_zh_TW": "办公用品、快递发货及数字广告享2倍积分\n其他消费1分\n免费开立员工副卡",
+      "aiRewards": {
+        "Shopping": 2.0,
+        "Everything": 1.0
+      },
+      "cardUrl": "https://www.citi.com",
+      "image": "https://raw.githubusercontent.com/jimabby/card-assets/main/cards/us_citi_business_rewards.png"
+    },
+    {
+      "id": "us_citi_world_elite",
+      "name": "Citi World Elite Mastercard",
+      "region": "US",
+      "bank": "citi.com",
+      "annualFee": 199,
+      "color": "#005696",
+      "benefits": "Complimentary VIP airport lounge passes\n2x points on all international purchases\nZero foreign transaction fees",
+      "benefits_zh_CN": "赠送VIP机场贵宾厅门票\n所有国际外币消费享2倍积分\n零外币交易手续费",
+      "benefits_zh_TW": "赠送VIP机场贵宾厅门票\n所有国际外币消费享2倍积分\n零外币交易手续费",
+      "aiRewards": {
+        "Travel": 2.5,
+        "Flights": 2.5,
+        "Hotels": 2.5,
+        "Everything": 1.25
+      },
+      "cardUrl": "https://www.citi.com",
+      "image": "https://raw.githubusercontent.com/jimabby/card-assets/main/cards/us_citi_world_elite.png"
+    },
+    {
+      "id": "us_citi_low_rate_classic",
+      "name": "Citi Low Rate Classic Card",
+      "region": "US",
+      "bank": "citi.com",
+      "annualFee": 0,
+      "color": "#005696",
+      "benefits": "Low ongoing purchase interest rate\nNo annual fee\nZero fraud liability protection",
+      "benefits_zh_CN": "保持超低刷卡消费年利率\n免年费\n零盗刷安全责任保障",
+      "benefits_zh_TW": "保持超低刷卡消费年利率\n免年费\n零盗刷安全责任保障",
+      "aiRewards": {
+        "Everything": 0.5
+      },
+      "cardUrl": "https://www.citi.com",
+      "image": "https://raw.githubusercontent.com/jimabby/card-assets/main/cards/us_citi_low_rate_classic.png"
+    },
+    {
+      "id": "us_citi_student_cash",
+      "name": "Citi Student Cash Back Card",
+      "region": "US",
+      "bank": "citi.com",
+      "annualFee": 0,
+      "color": "#005696",
+      "benefits": "1.5% cash back on all student purchases\nGood grades cash reward\nNo annual fee & no late fees",
+      "benefits_zh_CN": "学生日常刷卡消费享1.5%现金返还\n成绩优良年度现金奖励\n免年费且无滞纳金",
+      "benefits_zh_TW": "学生日常刷卡消费享1.5%现金返还\n成绩优良年度现金奖励\n免年费且无滞纳金",
+      "aiRewards": {
+        "Everything": 1.5
+      },
+      "cardUrl": "https://www.citi.com",
+      "image": "https://raw.githubusercontent.com/jimabby/card-assets/main/cards/us_citi_student_cash.png"
+    },
+    {
+      "id": "us_pitalone_rewards_plus",
+      "name": "Capital One Rewards Plus Card",
+      "region": "US",
+      "bank": "capitalone.com",
+      "annualFee": 0,
+      "color": "#0B2545",
+      "benefits": "Earn bonus reward points on everyday dining & groceries\nNo annual fee\nPurchase security insurance",
+      "benefits_zh_CN": "日常餐饮及超市买菜刷卡享加码积分\n免年费\n购物安全保险",
+      "benefits_zh_TW": "日常餐饮及超市买菜刷卡享加码积分\n免年费\n购物安全保险",
+      "aiRewards": {
+        "Food & Dining": 2.0,
+        "Groceries": 2.0,
+        "Everything": 1.0
+      },
+      "cardUrl": "https://www.capitalone.com",
+      "image": "https://raw.githubusercontent.com/jimabby/card-assets/main/cards/us_pitalone_rewards_plus.png"
+    },
+    {
+      "id": "us_pitalone_cashback_preferred",
+      "name": "Capital One Cashback Preferred Card",
+      "region": "US",
+      "bank": "capitalone.com",
+      "annualFee": 95,
+      "color": "#0B2545",
+      "benefits": "3% cash back on gas, groceries, and dining\n1% cash back on all other purchases\nNo foreign exchange fee",
+      "benefits_zh_CN": "加油、超市买菜及餐饮消费享3%现金返还\n其他消费1%现金返还\n零外汇手续费",
+      "benefits_zh_TW": "加油、超市买菜及餐饮消费享3%现金返还\n其他消费1%现金返还\n零外汇手续费",
+      "aiRewards": {
+        "Food & Dining": 3.0,
+        "Groceries": 3.0,
+        "Gas & Transit": 3.0,
+        "Everything": 1.0
+      },
+      "cardUrl": "https://www.capitalone.com",
+      "image": "https://raw.githubusercontent.com/jimabby/card-assets/main/cards/us_pitalone_cashback_preferred.png"
+    },
+    {
+      "id": "us_pitalone_travel_infinite",
+      "name": "Capital One Travel Infinite Card",
+      "region": "US",
+      "bank": "capitalone.com",
+      "annualFee": 150,
+      "color": "#0B2545",
+      "benefits": "3x points on flights, hotels, and travel bookings\nComplimentary airport VIP lounge access\nTravel emergency medical insurance",
+      "benefits_zh_CN": "机票、酒店及旅行预订享3倍积分\n免费机场VIP贵宾厅礼遇\n包含旅行紧急医疗险",
+      "benefits_zh_TW": "机票、酒店及旅行预订享3倍积分\n免费机场VIP贵宾厅礼遇\n包含旅行紧急医疗险",
+      "aiRewards": {
+        "Travel": 3.0,
+        "Flights": 3.0,
+        "Hotels": 3.0,
+        "Everything": 1.0
+      },
+      "cardUrl": "https://www.capitalone.com",
+      "image": "https://raw.githubusercontent.com/jimabby/card-assets/main/cards/us_pitalone_travel_infinite.png"
+    },
+    {
+      "id": "us_pitalone_business_rewards",
+      "name": "Capital One Business Rewards Credit Card",
+      "region": "US",
+      "bank": "capitalone.com",
+      "annualFee": 0,
+      "color": "#0B2545",
+      "benefits": "2x points on office supplies, shipping, and digital advertising\n1x point elsewhere\nEmployee cards at no extra cost",
+      "benefits_zh_CN": "办公用品、快递发货及数字广告享2倍积分\n其他消费1分\n免费开立员工副卡",
+      "benefits_zh_TW": "办公用品、快递发货及数字广告享2倍积分\n其他消费1分\n免费开立员工副卡",
+      "aiRewards": {
+        "Shopping": 2.0,
+        "Everything": 1.0
+      },
+      "cardUrl": "https://www.capitalone.com",
+      "image": "https://raw.githubusercontent.com/jimabby/card-assets/main/cards/us_pitalone_business_rewards.png"
+    },
+    {
+      "id": "us_pitalone_world_elite",
+      "name": "Capital One World Elite Mastercard",
+      "region": "US",
+      "bank": "capitalone.com",
+      "annualFee": 199,
+      "color": "#0B2545",
+      "benefits": "Complimentary VIP airport lounge passes\n2x points on all international purchases\nZero foreign transaction fees",
+      "benefits_zh_CN": "赠送VIP机场贵宾厅门票\n所有国际外币消费享2倍积分\n零外币交易手续费",
+      "benefits_zh_TW": "赠送VIP机场贵宾厅门票\n所有国际外币消费享2倍积分\n零外币交易手续费",
+      "aiRewards": {
+        "Travel": 2.5,
+        "Flights": 2.5,
+        "Hotels": 2.5,
+        "Everything": 1.25
+      },
+      "cardUrl": "https://www.capitalone.com",
+      "image": "https://raw.githubusercontent.com/jimabby/card-assets/main/cards/us_pitalone_world_elite.png"
+    },
+    {
+      "id": "us_pitalone_low_rate_classic",
+      "name": "Capital One Low Rate Classic Card",
+      "region": "US",
+      "bank": "capitalone.com",
+      "annualFee": 0,
+      "color": "#0B2545",
+      "benefits": "Low ongoing purchase interest rate\nNo annual fee\nZero fraud liability protection",
+      "benefits_zh_CN": "保持超低刷卡消费年利率\n免年费\n零盗刷安全责任保障",
+      "benefits_zh_TW": "保持超低刷卡消费年利率\n免年费\n零盗刷安全责任保障",
+      "aiRewards": {
+        "Everything": 0.5
+      },
+      "cardUrl": "https://www.capitalone.com",
+      "image": "https://raw.githubusercontent.com/jimabby/card-assets/main/cards/us_pitalone_low_rate_classic.png"
+    },
+    {
+      "id": "us_pitalone_student_cash",
+      "name": "Capital One Student Cash Back Card",
+      "region": "US",
+      "bank": "capitalone.com",
+      "annualFee": 0,
+      "color": "#0B2545",
+      "benefits": "1.5% cash back on all student purchases\nGood grades cash reward\nNo annual fee & no late fees",
+      "benefits_zh_CN": "学生日常刷卡消费享1.5%现金返还\n成绩优良年度现金奖励\n免年费且无滞纳金",
+      "benefits_zh_TW": "学生日常刷卡消费享1.5%现金返还\n成绩优良年度现金奖励\n免年费且无滞纳金",
+      "aiRewards": {
+        "Everything": 1.5
+      },
+      "cardUrl": "https://www.capitalone.com",
+      "image": "https://raw.githubusercontent.com/jimabby/card-assets/main/cards/us_pitalone_student_cash.png"
+    },
+    {
+      "id": "us_wellsfargo_rewards_plus",
+      "name": "Wells Fargo Rewards Plus Card",
+      "region": "US",
+      "bank": "wellsfargo.com",
+      "annualFee": 0,
+      "color": "#D32F2F",
+      "benefits": "Earn bonus reward points on everyday dining & groceries\nNo annual fee\nPurchase security insurance",
+      "benefits_zh_CN": "日常餐饮及超市买菜刷卡享加码积分\n免年费\n购物安全保险",
+      "benefits_zh_TW": "日常餐饮及超市买菜刷卡享加码积分\n免年费\n购物安全保险",
+      "aiRewards": {
+        "Food & Dining": 2.0,
+        "Groceries": 2.0,
+        "Everything": 1.0
+      },
+      "cardUrl": "https://www.wellsfargo.com",
+      "image": "https://raw.githubusercontent.com/jimabby/card-assets/main/cards/us_wellsfargo_rewards_plus.png"
+    },
+    {
+      "id": "us_wellsfargo_cashback_preferred",
+      "name": "Wells Fargo Cashback Preferred Card",
+      "region": "US",
+      "bank": "wellsfargo.com",
+      "annualFee": 95,
+      "color": "#D32F2F",
+      "benefits": "3% cash back on gas, groceries, and dining\n1% cash back on all other purchases\nNo foreign exchange fee",
+      "benefits_zh_CN": "加油、超市买菜及餐饮消费享3%现金返还\n其他消费1%现金返还\n零外汇手续费",
+      "benefits_zh_TW": "加油、超市买菜及餐饮消费享3%现金返还\n其他消费1%现金返还\n零外汇手续费",
+      "aiRewards": {
+        "Food & Dining": 3.0,
+        "Groceries": 3.0,
+        "Gas & Transit": 3.0,
+        "Everything": 1.0
+      },
+      "cardUrl": "https://www.wellsfargo.com",
+      "image": "https://raw.githubusercontent.com/jimabby/card-assets/main/cards/us_wellsfargo_cashback_preferred.png"
+    },
+    {
+      "id": "us_wellsfargo_travel_infinite",
+      "name": "Wells Fargo Travel Infinite Card",
+      "region": "US",
+      "bank": "wellsfargo.com",
+      "annualFee": 150,
+      "color": "#D32F2F",
+      "benefits": "3x points on flights, hotels, and travel bookings\nComplimentary airport VIP lounge access\nTravel emergency medical insurance",
+      "benefits_zh_CN": "机票、酒店及旅行预订享3倍积分\n免费机场VIP贵宾厅礼遇\n包含旅行紧急医疗险",
+      "benefits_zh_TW": "机票、酒店及旅行预订享3倍积分\n免费机场VIP贵宾厅礼遇\n包含旅行紧急医疗险",
+      "aiRewards": {
+        "Travel": 3.0,
+        "Flights": 3.0,
+        "Hotels": 3.0,
+        "Everything": 1.0
+      },
+      "cardUrl": "https://www.wellsfargo.com",
+      "image": "https://raw.githubusercontent.com/jimabby/card-assets/main/cards/us_wellsfargo_travel_infinite.png"
+    },
+    {
+      "id": "us_wellsfargo_business_rewards",
+      "name": "Wells Fargo Business Rewards Credit Card",
+      "region": "US",
+      "bank": "wellsfargo.com",
+      "annualFee": 0,
+      "color": "#D32F2F",
+      "benefits": "2x points on office supplies, shipping, and digital advertising\n1x point elsewhere\nEmployee cards at no extra cost",
+      "benefits_zh_CN": "办公用品、快递发货及数字广告享2倍积分\n其他消费1分\n免费开立员工副卡",
+      "benefits_zh_TW": "办公用品、快递发货及数字广告享2倍积分\n其他消费1分\n免费开立员工副卡",
+      "aiRewards": {
+        "Shopping": 2.0,
+        "Everything": 1.0
+      },
+      "cardUrl": "https://www.wellsfargo.com",
+      "image": "https://raw.githubusercontent.com/jimabby/card-assets/main/cards/us_wellsfargo_business_rewards.png"
+    },
+    {
+      "id": "us_wellsfargo_world_elite",
+      "name": "Wells Fargo World Elite Mastercard",
+      "region": "US",
+      "bank": "wellsfargo.com",
+      "annualFee": 199,
+      "color": "#D32F2F",
+      "benefits": "Complimentary VIP airport lounge passes\n2x points on all international purchases\nZero foreign transaction fees",
+      "benefits_zh_CN": "赠送VIP机场贵宾厅门票\n所有国际外币消费享2倍积分\n零外币交易手续费",
+      "benefits_zh_TW": "赠送VIP机场贵宾厅门票\n所有国际外币消费享2倍积分\n零外币交易手续费",
+      "aiRewards": {
+        "Travel": 2.5,
+        "Flights": 2.5,
+        "Hotels": 2.5,
+        "Everything": 1.25
+      },
+      "cardUrl": "https://www.wellsfargo.com",
+      "image": "https://raw.githubusercontent.com/jimabby/card-assets/main/cards/us_wellsfargo_world_elite.png"
+    },
+    {
+      "id": "us_wellsfargo_low_rate_classic",
+      "name": "Wells Fargo Low Rate Classic Card",
+      "region": "US",
+      "bank": "wellsfargo.com",
+      "annualFee": 0,
+      "color": "#D32F2F",
+      "benefits": "Low ongoing purchase interest rate\nNo annual fee\nZero fraud liability protection",
+      "benefits_zh_CN": "保持超低刷卡消费年利率\n免年费\n零盗刷安全责任保障",
+      "benefits_zh_TW": "保持超低刷卡消费年利率\n免年费\n零盗刷安全责任保障",
+      "aiRewards": {
+        "Everything": 0.5
+      },
+      "cardUrl": "https://www.wellsfargo.com",
+      "image": "https://raw.githubusercontent.com/jimabby/card-assets/main/cards/us_wellsfargo_low_rate_classic.png"
+    },
+    {
+      "id": "us_wellsfargo_student_cash",
+      "name": "Wells Fargo Student Cash Back Card",
+      "region": "US",
+      "bank": "wellsfargo.com",
+      "annualFee": 0,
+      "color": "#D32F2F",
+      "benefits": "1.5% cash back on all student purchases\nGood grades cash reward\nNo annual fee & no late fees",
+      "benefits_zh_CN": "学生日常刷卡消费享1.5%现金返还\n成绩优良年度现金奖励\n免年费且无滞纳金",
+      "benefits_zh_TW": "学生日常刷卡消费享1.5%现金返还\n成绩优良年度现金奖励\n免年费且无滞纳金",
+      "aiRewards": {
+        "Everything": 1.5
+      },
+      "cardUrl": "https://www.wellsfargo.com",
+      "image": "https://raw.githubusercontent.com/jimabby/card-assets/main/cards/us_wellsfargo_student_cash.png"
+    },
+    {
+      "id": "us_bankofameri_rewards_plus",
+      "name": "Bank of America Rewards Plus Card",
+      "region": "US",
+      "bank": "bankofamerica.com",
+      "annualFee": 0,
+      "color": "#C41230",
+      "benefits": "Earn bonus reward points on everyday dining & groceries\nNo annual fee\nPurchase security insurance",
+      "benefits_zh_CN": "日常餐饮及超市买菜刷卡享加码积分\n免年费\n购物安全保险",
+      "benefits_zh_TW": "日常餐饮及超市买菜刷卡享加码积分\n免年费\n购物安全保险",
+      "aiRewards": {
+        "Food & Dining": 2.0,
+        "Groceries": 2.0,
+        "Everything": 1.0
+      },
+      "cardUrl": "https://www.bankofamerica.com",
+      "image": "https://raw.githubusercontent.com/jimabby/card-assets/main/cards/us_bankofameri_rewards_plus.png"
+    },
+    {
+      "id": "us_bankofameri_cashback_preferred",
+      "name": "Bank of America Cashback Preferred Card",
+      "region": "US",
+      "bank": "bankofamerica.com",
+      "annualFee": 95,
+      "color": "#C41230",
+      "benefits": "3% cash back on gas, groceries, and dining\n1% cash back on all other purchases\nNo foreign exchange fee",
+      "benefits_zh_CN": "加油、超市买菜及餐饮消费享3%现金返还\n其他消费1%现金返还\n零外汇手续费",
+      "benefits_zh_TW": "加油、超市买菜及餐饮消费享3%现金返还\n其他消费1%现金返还\n零外汇手续费",
+      "aiRewards": {
+        "Food & Dining": 3.0,
+        "Groceries": 3.0,
+        "Gas & Transit": 3.0,
+        "Everything": 1.0
+      },
+      "cardUrl": "https://www.bankofamerica.com",
+      "image": "https://raw.githubusercontent.com/jimabby/card-assets/main/cards/us_bankofameri_cashback_preferred.png"
+    },
+    {
+      "id": "us_bankofameri_travel_infinite",
+      "name": "Bank of America Travel Infinite Card",
+      "region": "US",
+      "bank": "bankofamerica.com",
+      "annualFee": 150,
+      "color": "#C41230",
+      "benefits": "3x points on flights, hotels, and travel bookings\nComplimentary airport VIP lounge access\nTravel emergency medical insurance",
+      "benefits_zh_CN": "机票、酒店及旅行预订享3倍积分\n免费机场VIP贵宾厅礼遇\n包含旅行紧急医疗险",
+      "benefits_zh_TW": "机票、酒店及旅行预订享3倍积分\n免费机场VIP贵宾厅礼遇\n包含旅行紧急医疗险",
+      "aiRewards": {
+        "Travel": 3.0,
+        "Flights": 3.0,
+        "Hotels": 3.0,
+        "Everything": 1.0
+      },
+      "cardUrl": "https://www.bankofamerica.com",
+      "image": "https://raw.githubusercontent.com/jimabby/card-assets/main/cards/us_bankofameri_travel_infinite.png"
+    },
+    {
+      "id": "us_bankofameri_business_rewards",
+      "name": "Bank of America Business Rewards Credit Card",
+      "region": "US",
+      "bank": "bankofamerica.com",
+      "annualFee": 0,
+      "color": "#C41230",
+      "benefits": "2x points on office supplies, shipping, and digital advertising\n1x point elsewhere\nEmployee cards at no extra cost",
+      "benefits_zh_CN": "办公用品、快递发货及数字广告享2倍积分\n其他消费1分\n免费开立员工副卡",
+      "benefits_zh_TW": "办公用品、快递发货及数字广告享2倍积分\n其他消费1分\n免费开立员工副卡",
+      "aiRewards": {
+        "Shopping": 2.0,
+        "Everything": 1.0
+      },
+      "cardUrl": "https://www.bankofamerica.com",
+      "image": "https://raw.githubusercontent.com/jimabby/card-assets/main/cards/us_bankofameri_business_rewards.png"
+    },
+    {
+      "id": "us_bankofameri_world_elite",
+      "name": "Bank of America World Elite Mastercard",
+      "region": "US",
+      "bank": "bankofamerica.com",
+      "annualFee": 199,
+      "color": "#C41230",
+      "benefits": "Complimentary VIP airport lounge passes\n2x points on all international purchases\nZero foreign transaction fees",
+      "benefits_zh_CN": "赠送VIP机场贵宾厅门票\n所有国际外币消费享2倍积分\n零外币交易手续费",
+      "benefits_zh_TW": "赠送VIP机场贵宾厅门票\n所有国际外币消费享2倍积分\n零外币交易手续费",
+      "aiRewards": {
+        "Travel": 2.5,
+        "Flights": 2.5,
+        "Hotels": 2.5,
+        "Everything": 1.25
+      },
+      "cardUrl": "https://www.bankofamerica.com",
+      "image": "https://raw.githubusercontent.com/jimabby/card-assets/main/cards/us_bankofameri_world_elite.png"
+    },
+    {
+      "id": "us_bankofameri_low_rate_classic",
+      "name": "Bank of America Low Rate Classic Card",
+      "region": "US",
+      "bank": "bankofamerica.com",
+      "annualFee": 0,
+      "color": "#C41230",
+      "benefits": "Low ongoing purchase interest rate\nNo annual fee\nZero fraud liability protection",
+      "benefits_zh_CN": "保持超低刷卡消费年利率\n免年费\n零盗刷安全责任保障",
+      "benefits_zh_TW": "保持超低刷卡消费年利率\n免年费\n零盗刷安全责任保障",
+      "aiRewards": {
+        "Everything": 0.5
+      },
+      "cardUrl": "https://www.bankofamerica.com",
+      "image": "https://raw.githubusercontent.com/jimabby/card-assets/main/cards/us_bankofameri_low_rate_classic.png"
+    },
+    {
+      "id": "us_bankofameri_student_cash",
+      "name": "Bank of America Student Cash Back Card",
+      "region": "US",
+      "bank": "bankofamerica.com",
+      "annualFee": 0,
+      "color": "#C41230",
+      "benefits": "1.5% cash back on all student purchases\nGood grades cash reward\nNo annual fee & no late fees",
+      "benefits_zh_CN": "学生日常刷卡消费享1.5%现金返还\n成绩优良年度现金奖励\n免年费且无滞纳金",
+      "benefits_zh_TW": "学生日常刷卡消费享1.5%现金返还\n成绩优良年度现金奖励\n免年费且无滞纳金",
+      "aiRewards": {
+        "Everything": 1.5
+      },
+      "cardUrl": "https://www.bankofamerica.com",
+      "image": "https://raw.githubusercontent.com/jimabby/card-assets/main/cards/us_bankofameri_student_cash.png"
+    },
+    {
+      "id": "us_usbank_rewards_plus",
+      "name": "U.S. Bank Rewards Plus Card",
+      "region": "US",
+      "bank": "usbank.com",
+      "annualFee": 0,
+      "color": "#0C2340",
+      "benefits": "Earn bonus reward points on everyday dining & groceries\nNo annual fee\nPurchase security insurance",
+      "benefits_zh_CN": "日常餐饮及超市买菜刷卡享加码积分\n免年费\n购物安全保险",
+      "benefits_zh_TW": "日常餐饮及超市买菜刷卡享加码积分\n免年费\n购物安全保险",
+      "aiRewards": {
+        "Food & Dining": 2.0,
+        "Groceries": 2.0,
+        "Everything": 1.0
+      },
+      "cardUrl": "https://www.usbank.com",
+      "image": "https://raw.githubusercontent.com/jimabby/card-assets/main/cards/us_usbank_rewards_plus.png"
+    },
+    {
+      "id": "us_usbank_cashback_preferred",
+      "name": "U.S. Bank Cashback Preferred Card",
+      "region": "US",
+      "bank": "usbank.com",
+      "annualFee": 95,
+      "color": "#0C2340",
+      "benefits": "3% cash back on gas, groceries, and dining\n1% cash back on all other purchases\nNo foreign exchange fee",
+      "benefits_zh_CN": "加油、超市买菜及餐饮消费享3%现金返还\n其他消费1%现金返还\n零外汇手续费",
+      "benefits_zh_TW": "加油、超市买菜及餐饮消费享3%现金返还\n其他消费1%现金返还\n零外汇手续费",
+      "aiRewards": {
+        "Food & Dining": 3.0,
+        "Groceries": 3.0,
+        "Gas & Transit": 3.0,
+        "Everything": 1.0
+      },
+      "cardUrl": "https://www.usbank.com",
+      "image": "https://raw.githubusercontent.com/jimabby/card-assets/main/cards/us_usbank_cashback_preferred.png"
+    },
+    {
+      "id": "us_usbank_travel_infinite",
+      "name": "U.S. Bank Travel Infinite Card",
+      "region": "US",
+      "bank": "usbank.com",
+      "annualFee": 150,
+      "color": "#0C2340",
+      "benefits": "3x points on flights, hotels, and travel bookings\nComplimentary airport VIP lounge access\nTravel emergency medical insurance",
+      "benefits_zh_CN": "机票、酒店及旅行预订享3倍积分\n免费机场VIP贵宾厅礼遇\n包含旅行紧急医疗险",
+      "benefits_zh_TW": "机票、酒店及旅行预订享3倍积分\n免费机场VIP贵宾厅礼遇\n包含旅行紧急医疗险",
+      "aiRewards": {
+        "Travel": 3.0,
+        "Flights": 3.0,
+        "Hotels": 3.0,
+        "Everything": 1.0
+      },
+      "cardUrl": "https://www.usbank.com",
+      "image": "https://raw.githubusercontent.com/jimabby/card-assets/main/cards/us_usbank_travel_infinite.png"
+    },
+    {
+      "id": "us_usbank_business_rewards",
+      "name": "U.S. Bank Business Rewards Credit Card",
+      "region": "US",
+      "bank": "usbank.com",
+      "annualFee": 0,
+      "color": "#0C2340",
+      "benefits": "2x points on office supplies, shipping, and digital advertising\n1x point elsewhere\nEmployee cards at no extra cost",
+      "benefits_zh_CN": "办公用品、快递发货及数字广告享2倍积分\n其他消费1分\n免费开立员工副卡",
+      "benefits_zh_TW": "办公用品、快递发货及数字广告享2倍积分\n其他消费1分\n免费开立员工副卡",
+      "aiRewards": {
+        "Shopping": 2.0,
+        "Everything": 1.0
+      },
+      "cardUrl": "https://www.usbank.com",
+      "image": "https://raw.githubusercontent.com/jimabby/card-assets/main/cards/us_usbank_business_rewards.png"
+    },
+    {
+      "id": "us_usbank_world_elite",
+      "name": "U.S. Bank World Elite Mastercard",
+      "region": "US",
+      "bank": "usbank.com",
+      "annualFee": 199,
+      "color": "#0C2340",
+      "benefits": "Complimentary VIP airport lounge passes\n2x points on all international purchases\nZero foreign transaction fees",
+      "benefits_zh_CN": "赠送VIP机场贵宾厅门票\n所有国际外币消费享2倍积分\n零外币交易手续费",
+      "benefits_zh_TW": "赠送VIP机场贵宾厅门票\n所有国际外币消费享2倍积分\n零外币交易手续费",
+      "aiRewards": {
+        "Travel": 2.5,
+        "Flights": 2.5,
+        "Hotels": 2.5,
+        "Everything": 1.25
+      },
+      "cardUrl": "https://www.usbank.com",
+      "image": "https://raw.githubusercontent.com/jimabby/card-assets/main/cards/us_usbank_world_elite.png"
+    },
+    {
+      "id": "us_usbank_low_rate_classic",
+      "name": "U.S. Bank Low Rate Classic Card",
+      "region": "US",
+      "bank": "usbank.com",
+      "annualFee": 0,
+      "color": "#0C2340",
+      "benefits": "Low ongoing purchase interest rate\nNo annual fee\nZero fraud liability protection",
+      "benefits_zh_CN": "保持超低刷卡消费年利率\n免年费\n零盗刷安全责任保障",
+      "benefits_zh_TW": "保持超低刷卡消费年利率\n免年费\n零盗刷安全责任保障",
+      "aiRewards": {
+        "Everything": 0.5
+      },
+      "cardUrl": "https://www.usbank.com",
+      "image": "https://raw.githubusercontent.com/jimabby/card-assets/main/cards/us_usbank_low_rate_classic.png"
+    },
+    {
+      "id": "us_usbank_student_cash",
+      "name": "U.S. Bank Student Cash Back Card",
+      "region": "US",
+      "bank": "usbank.com",
+      "annualFee": 0,
+      "color": "#0C2340",
+      "benefits": "1.5% cash back on all student purchases\nGood grades cash reward\nNo annual fee & no late fees",
+      "benefits_zh_CN": "学生日常刷卡消费享1.5%现金返还\n成绩优良年度现金奖励\n免年费且无滞纳金",
+      "benefits_zh_TW": "学生日常刷卡消费享1.5%现金返还\n成绩优良年度现金奖励\n免年费且无滞纳金",
+      "aiRewards": {
+        "Everything": 1.5
+      },
+      "cardUrl": "https://www.usbank.com",
+      "image": "https://raw.githubusercontent.com/jimabby/card-assets/main/cards/us_usbank_student_cash.png"
+    },
+    {
+      "id": "us_discover_rewards_plus",
+      "name": "Discover Rewards Plus Card",
+      "region": "US",
+      "bank": "discover.com",
+      "annualFee": 0,
+      "color": "#FF6600",
+      "benefits": "Earn bonus reward points on everyday dining & groceries\nNo annual fee\nPurchase security insurance",
+      "benefits_zh_CN": "日常餐饮及超市买菜刷卡享加码积分\n免年费\n购物安全保险",
+      "benefits_zh_TW": "日常餐饮及超市买菜刷卡享加码积分\n免年费\n购物安全保险",
+      "aiRewards": {
+        "Food & Dining": 2.0,
+        "Groceries": 2.0,
+        "Everything": 1.0
+      },
+      "cardUrl": "https://www.discover.com",
+      "image": "https://raw.githubusercontent.com/jimabby/card-assets/main/cards/us_discover_rewards_plus.png"
+    },
+    {
+      "id": "us_discover_cashback_preferred",
+      "name": "Discover Cashback Preferred Card",
+      "region": "US",
+      "bank": "discover.com",
+      "annualFee": 95,
+      "color": "#FF6600",
+      "benefits": "3% cash back on gas, groceries, and dining\n1% cash back on all other purchases\nNo foreign exchange fee",
+      "benefits_zh_CN": "加油、超市买菜及餐饮消费享3%现金返还\n其他消费1%现金返还\n零外汇手续费",
+      "benefits_zh_TW": "加油、超市买菜及餐饮消费享3%现金返还\n其他消费1%现金返还\n零外汇手续费",
+      "aiRewards": {
+        "Food & Dining": 3.0,
+        "Groceries": 3.0,
+        "Gas & Transit": 3.0,
+        "Everything": 1.0
+      },
+      "cardUrl": "https://www.discover.com",
+      "image": "https://raw.githubusercontent.com/jimabby/card-assets/main/cards/us_discover_cashback_preferred.png"
+    },
+    {
+      "id": "us_discover_travel_infinite",
+      "name": "Discover Travel Infinite Card",
+      "region": "US",
+      "bank": "discover.com",
+      "annualFee": 150,
+      "color": "#FF6600",
+      "benefits": "3x points on flights, hotels, and travel bookings\nComplimentary airport VIP lounge access\nTravel emergency medical insurance",
+      "benefits_zh_CN": "机票、酒店及旅行预订享3倍积分\n免费机场VIP贵宾厅礼遇\n包含旅行紧急医疗险",
+      "benefits_zh_TW": "机票、酒店及旅行预订享3倍积分\n免费机场VIP贵宾厅礼遇\n包含旅行紧急医疗险",
+      "aiRewards": {
+        "Travel": 3.0,
+        "Flights": 3.0,
+        "Hotels": 3.0,
+        "Everything": 1.0
+      },
+      "cardUrl": "https://www.discover.com",
+      "image": "https://raw.githubusercontent.com/jimabby/card-assets/main/cards/us_discover_travel_infinite.png"
+    },
+    {
+      "id": "us_discover_business_rewards",
+      "name": "Discover Business Rewards Credit Card",
+      "region": "US",
+      "bank": "discover.com",
+      "annualFee": 0,
+      "color": "#FF6600",
+      "benefits": "2x points on office supplies, shipping, and digital advertising\n1x point elsewhere\nEmployee cards at no extra cost",
+      "benefits_zh_CN": "办公用品、快递发货及数字广告享2倍积分\n其他消费1分\n免费开立员工副卡",
+      "benefits_zh_TW": "办公用品、快递发货及数字广告享2倍积分\n其他消费1分\n免费开立员工副卡",
+      "aiRewards": {
+        "Shopping": 2.0,
+        "Everything": 1.0
+      },
+      "cardUrl": "https://www.discover.com",
+      "image": "https://raw.githubusercontent.com/jimabby/card-assets/main/cards/us_discover_business_rewards.png"
+    },
+    {
+      "id": "us_discover_world_elite",
+      "name": "Discover World Elite Mastercard",
+      "region": "US",
+      "bank": "discover.com",
+      "annualFee": 199,
+      "color": "#FF6600",
+      "benefits": "Complimentary VIP airport lounge passes\n2x points on all international purchases\nZero foreign transaction fees",
+      "benefits_zh_CN": "赠送VIP机场贵宾厅门票\n所有国际外币消费享2倍积分\n零外币交易手续费",
+      "benefits_zh_TW": "赠送VIP机场贵宾厅门票\n所有国际外币消费享2倍积分\n零外币交易手续费",
+      "aiRewards": {
+        "Travel": 2.5,
+        "Flights": 2.5,
+        "Hotels": 2.5,
+        "Everything": 1.25
+      },
+      "cardUrl": "https://www.discover.com",
+      "image": "https://raw.githubusercontent.com/jimabby/card-assets/main/cards/us_discover_world_elite.png"
+    },
+    {
+      "id": "us_discover_low_rate_classic",
+      "name": "Discover Low Rate Classic Card",
+      "region": "US",
+      "bank": "discover.com",
+      "annualFee": 0,
+      "color": "#FF6600",
+      "benefits": "Low ongoing purchase interest rate\nNo annual fee\nZero fraud liability protection",
+      "benefits_zh_CN": "保持超低刷卡消费年利率\n免年费\n零盗刷安全责任保障",
+      "benefits_zh_TW": "保持超低刷卡消费年利率\n免年费\n零盗刷安全责任保障",
+      "aiRewards": {
+        "Everything": 0.5
+      },
+      "cardUrl": "https://www.discover.com",
+      "image": "https://raw.githubusercontent.com/jimabby/card-assets/main/cards/us_discover_low_rate_classic.png"
+    },
+    {
+      "id": "us_discover_student_cash",
+      "name": "Discover Student Cash Back Card",
+      "region": "US",
+      "bank": "discover.com",
+      "annualFee": 0,
+      "color": "#FF6600",
+      "benefits": "1.5% cash back on all student purchases\nGood grades cash reward\nNo annual fee & no late fees",
+      "benefits_zh_CN": "学生日常刷卡消费享1.5%现金返还\n成绩优良年度现金奖励\n免年费且无滞纳金",
+      "benefits_zh_TW": "学生日常刷卡消费享1.5%现金返还\n成绩优良年度现金奖励\n免年费且无滞纳金",
+      "aiRewards": {
+        "Everything": 1.5
+      },
+      "cardUrl": "https://www.discover.com",
+      "image": "https://raw.githubusercontent.com/jimabby/card-assets/main/cards/us_discover_student_cash.png"
+    },
+    {
+      "id": "us_barclaysus_rewards_plus",
+      "name": "Barclays Rewards Plus Card",
+      "region": "US",
+      "bank": "barclaysus.com",
+      "annualFee": 0,
+      "color": "#00AEEF",
+      "benefits": "Earn bonus reward points on everyday dining & groceries\nNo annual fee\nPurchase security insurance",
+      "benefits_zh_CN": "日常餐饮及超市买菜刷卡享加码积分\n免年费\n购物安全保险",
+      "benefits_zh_TW": "日常餐饮及超市买菜刷卡享加码积分\n免年费\n购物安全保险",
+      "aiRewards": {
+        "Food & Dining": 2.0,
+        "Groceries": 2.0,
+        "Everything": 1.0
+      },
+      "cardUrl": "https://www.barclaysus.com",
+      "image": "https://raw.githubusercontent.com/jimabby/card-assets/main/cards/us_barclaysus_rewards_plus.png"
+    },
+    {
+      "id": "us_barclaysus_cashback_preferred",
+      "name": "Barclays Cashback Preferred Card",
+      "region": "US",
+      "bank": "barclaysus.com",
+      "annualFee": 95,
+      "color": "#00AEEF",
+      "benefits": "3% cash back on gas, groceries, and dining\n1% cash back on all other purchases\nNo foreign exchange fee",
+      "benefits_zh_CN": "加油、超市买菜及餐饮消费享3%现金返还\n其他消费1%现金返还\n零外汇手续费",
+      "benefits_zh_TW": "加油、超市买菜及餐饮消费享3%现金返还\n其他消费1%现金返还\n零外汇手续费",
+      "aiRewards": {
+        "Food & Dining": 3.0,
+        "Groceries": 3.0,
+        "Gas & Transit": 3.0,
+        "Everything": 1.0
+      },
+      "cardUrl": "https://www.barclaysus.com",
+      "image": "https://raw.githubusercontent.com/jimabby/card-assets/main/cards/us_barclaysus_cashback_preferred.png"
+    },
+    {
+      "id": "us_barclaysus_travel_infinite",
+      "name": "Barclays Travel Infinite Card",
+      "region": "US",
+      "bank": "barclaysus.com",
+      "annualFee": 150,
+      "color": "#00AEEF",
+      "benefits": "3x points on flights, hotels, and travel bookings\nComplimentary airport VIP lounge access\nTravel emergency medical insurance",
+      "benefits_zh_CN": "机票、酒店及旅行预订享3倍积分\n免费机场VIP贵宾厅礼遇\n包含旅行紧急医疗险",
+      "benefits_zh_TW": "机票、酒店及旅行预订享3倍积分\n免费机场VIP贵宾厅礼遇\n包含旅行紧急医疗险",
+      "aiRewards": {
+        "Travel": 3.0,
+        "Flights": 3.0,
+        "Hotels": 3.0,
+        "Everything": 1.0
+      },
+      "cardUrl": "https://www.barclaysus.com",
+      "image": "https://raw.githubusercontent.com/jimabby/card-assets/main/cards/us_barclaysus_travel_infinite.png"
+    },
+    {
+      "id": "us_barclaysus_business_rewards",
+      "name": "Barclays Business Rewards Credit Card",
+      "region": "US",
+      "bank": "barclaysus.com",
+      "annualFee": 0,
+      "color": "#00AEEF",
+      "benefits": "2x points on office supplies, shipping, and digital advertising\n1x point elsewhere\nEmployee cards at no extra cost",
+      "benefits_zh_CN": "办公用品、快递发货及数字广告享2倍积分\n其他消费1分\n免费开立员工副卡",
+      "benefits_zh_TW": "办公用品、快递发货及数字广告享2倍积分\n其他消费1分\n免费开立员工副卡",
+      "aiRewards": {
+        "Shopping": 2.0,
+        "Everything": 1.0
+      },
+      "cardUrl": "https://www.barclaysus.com",
+      "image": "https://raw.githubusercontent.com/jimabby/card-assets/main/cards/us_barclaysus_business_rewards.png"
+    },
+    {
+      "id": "us_barclaysus_world_elite",
+      "name": "Barclays World Elite Mastercard",
+      "region": "US",
+      "bank": "barclaysus.com",
+      "annualFee": 199,
+      "color": "#00AEEF",
+      "benefits": "Complimentary VIP airport lounge passes\n2x points on all international purchases\nZero foreign transaction fees",
+      "benefits_zh_CN": "赠送VIP机场贵宾厅门票\n所有国际外币消费享2倍积分\n零外币交易手续费",
+      "benefits_zh_TW": "赠送VIP机场贵宾厅门票\n所有国际外币消费享2倍积分\n零外币交易手续费",
+      "aiRewards": {
+        "Travel": 2.5,
+        "Flights": 2.5,
+        "Hotels": 2.5,
+        "Everything": 1.25
+      },
+      "cardUrl": "https://www.barclaysus.com",
+      "image": "https://raw.githubusercontent.com/jimabby/card-assets/main/cards/us_barclaysus_world_elite.png"
+    },
+    {
+      "id": "us_barclaysus_low_rate_classic",
+      "name": "Barclays Low Rate Classic Card",
+      "region": "US",
+      "bank": "barclaysus.com",
+      "annualFee": 0,
+      "color": "#00AEEF",
+      "benefits": "Low ongoing purchase interest rate\nNo annual fee\nZero fraud liability protection",
+      "benefits_zh_CN": "保持超低刷卡消费年利率\n免年费\n零盗刷安全责任保障",
+      "benefits_zh_TW": "保持超低刷卡消费年利率\n免年费\n零盗刷安全责任保障",
+      "aiRewards": {
+        "Everything": 0.5
+      },
+      "cardUrl": "https://www.barclaysus.com",
+      "image": "https://raw.githubusercontent.com/jimabby/card-assets/main/cards/us_barclaysus_low_rate_classic.png"
+    },
+    {
+      "id": "us_barclaysus_student_cash",
+      "name": "Barclays Student Cash Back Card",
+      "region": "US",
+      "bank": "barclaysus.com",
+      "annualFee": 0,
+      "color": "#00AEEF",
+      "benefits": "1.5% cash back on all student purchases\nGood grades cash reward\nNo annual fee & no late fees",
+      "benefits_zh_CN": "学生日常刷卡消费享1.5%现金返还\n成绩优良年度现金奖励\n免年费且无滞纳金",
+      "benefits_zh_TW": "学生日常刷卡消费享1.5%现金返还\n成绩优良年度现金奖励\n免年费且无滞纳金",
+      "aiRewards": {
+        "Everything": 1.5
+      },
+      "cardUrl": "https://www.barclaysus.com",
+      "image": "https://raw.githubusercontent.com/jimabby/card-assets/main/cards/us_barclaysus_student_cash.png"
+    },
+    {
+      "id": "us_synchrony_rewards_plus",
+      "name": "Synchrony Rewards Plus Card",
+      "region": "US",
+      "bank": "synchrony.com",
+      "annualFee": 0,
+      "color": "#004990",
+      "benefits": "Earn bonus reward points on everyday dining & groceries\nNo annual fee\nPurchase security insurance",
+      "benefits_zh_CN": "日常餐饮及超市买菜刷卡享加码积分\n免年费\n购物安全保险",
+      "benefits_zh_TW": "日常餐饮及超市买菜刷卡享加码积分\n免年费\n购物安全保险",
+      "aiRewards": {
+        "Food & Dining": 2.0,
+        "Groceries": 2.0,
+        "Everything": 1.0
+      },
+      "cardUrl": "https://www.synchrony.com",
+      "image": "https://raw.githubusercontent.com/jimabby/card-assets/main/cards/us_synchrony_rewards_plus.png"
+    },
+    {
+      "id": "us_synchrony_cashback_preferred",
+      "name": "Synchrony Cashback Preferred Card",
+      "region": "US",
+      "bank": "synchrony.com",
+      "annualFee": 95,
+      "color": "#004990",
+      "benefits": "3% cash back on gas, groceries, and dining\n1% cash back on all other purchases\nNo foreign exchange fee",
+      "benefits_zh_CN": "加油、超市买菜及餐饮消费享3%现金返还\n其他消费1%现金返还\n零外汇手续费",
+      "benefits_zh_TW": "加油、超市买菜及餐饮消费享3%现金返还\n其他消费1%现金返还\n零外汇手续费",
+      "aiRewards": {
+        "Food & Dining": 3.0,
+        "Groceries": 3.0,
+        "Gas & Transit": 3.0,
+        "Everything": 1.0
+      },
+      "cardUrl": "https://www.synchrony.com",
+      "image": "https://raw.githubusercontent.com/jimabby/card-assets/main/cards/us_synchrony_cashback_preferred.png"
+    },
+    {
+      "id": "us_synchrony_travel_infinite",
+      "name": "Synchrony Travel Infinite Card",
+      "region": "US",
+      "bank": "synchrony.com",
+      "annualFee": 150,
+      "color": "#004990",
+      "benefits": "3x points on flights, hotels, and travel bookings\nComplimentary airport VIP lounge access\nTravel emergency medical insurance",
+      "benefits_zh_CN": "机票、酒店及旅行预订享3倍积分\n免费机场VIP贵宾厅礼遇\n包含旅行紧急医疗险",
+      "benefits_zh_TW": "机票、酒店及旅行预订享3倍积分\n免费机场VIP贵宾厅礼遇\n包含旅行紧急医疗险",
+      "aiRewards": {
+        "Travel": 3.0,
+        "Flights": 3.0,
+        "Hotels": 3.0,
+        "Everything": 1.0
+      },
+      "cardUrl": "https://www.synchrony.com",
+      "image": "https://raw.githubusercontent.com/jimabby/card-assets/main/cards/us_synchrony_travel_infinite.png"
+    },
+    {
+      "id": "us_synchrony_business_rewards",
+      "name": "Synchrony Business Rewards Credit Card",
+      "region": "US",
+      "bank": "synchrony.com",
+      "annualFee": 0,
+      "color": "#004990",
+      "benefits": "2x points on office supplies, shipping, and digital advertising\n1x point elsewhere\nEmployee cards at no extra cost",
+      "benefits_zh_CN": "办公用品、快递发货及数字广告享2倍积分\n其他消费1分\n免费开立员工副卡",
+      "benefits_zh_TW": "办公用品、快递发货及数字广告享2倍积分\n其他消费1分\n免费开立员工副卡",
+      "aiRewards": {
+        "Shopping": 2.0,
+        "Everything": 1.0
+      },
+      "cardUrl": "https://www.synchrony.com",
+      "image": "https://raw.githubusercontent.com/jimabby/card-assets/main/cards/us_synchrony_business_rewards.png"
+    },
+    {
+      "id": "us_synchrony_world_elite",
+      "name": "Synchrony World Elite Mastercard",
+      "region": "US",
+      "bank": "synchrony.com",
+      "annualFee": 199,
+      "color": "#004990",
+      "benefits": "Complimentary VIP airport lounge passes\n2x points on all international purchases\nZero foreign transaction fees",
+      "benefits_zh_CN": "赠送VIP机场贵宾厅门票\n所有国际外币消费享2倍积分\n零外币交易手续费",
+      "benefits_zh_TW": "赠送VIP机场贵宾厅门票\n所有国际外币消费享2倍积分\n零外币交易手续费",
+      "aiRewards": {
+        "Travel": 2.5,
+        "Flights": 2.5,
+        "Hotels": 2.5,
+        "Everything": 1.25
+      },
+      "cardUrl": "https://www.synchrony.com",
+      "image": "https://raw.githubusercontent.com/jimabby/card-assets/main/cards/us_synchrony_world_elite.png"
+    },
+    {
+      "id": "us_synchrony_low_rate_classic",
+      "name": "Synchrony Low Rate Classic Card",
+      "region": "US",
+      "bank": "synchrony.com",
+      "annualFee": 0,
+      "color": "#004990",
+      "benefits": "Low ongoing purchase interest rate\nNo annual fee\nZero fraud liability protection",
+      "benefits_zh_CN": "保持超低刷卡消费年利率\n免年费\n零盗刷安全责任保障",
+      "benefits_zh_TW": "保持超低刷卡消费年利率\n免年费\n零盗刷安全责任保障",
+      "aiRewards": {
+        "Everything": 0.5
+      },
+      "cardUrl": "https://www.synchrony.com",
+      "image": "https://raw.githubusercontent.com/jimabby/card-assets/main/cards/us_synchrony_low_rate_classic.png"
+    },
+    {
+      "id": "us_synchrony_student_cash",
+      "name": "Synchrony Student Cash Back Card",
+      "region": "US",
+      "bank": "synchrony.com",
+      "annualFee": 0,
+      "color": "#004990",
+      "benefits": "1.5% cash back on all student purchases\nGood grades cash reward\nNo annual fee & no late fees",
+      "benefits_zh_CN": "学生日常刷卡消费享1.5%现金返还\n成绩优良年度现金奖励\n免年费且无滞纳金",
+      "benefits_zh_TW": "学生日常刷卡消费享1.5%现金返还\n成绩优良年度现金奖励\n免年费且无滞纳金",
+      "aiRewards": {
+        "Everything": 1.5
+      },
+      "cardUrl": "https://www.synchrony.com",
+      "image": "https://raw.githubusercontent.com/jimabby/card-assets/main/cards/us_synchrony_student_cash.png"
+    },
+    {
+      "id": "us_navyfederal_rewards_plus",
+      "name": "Navy Federal Rewards Plus Card",
+      "region": "US",
+      "bank": "navyfederal.org",
+      "annualFee": 0,
+      "color": "#003366",
+      "benefits": "Earn bonus reward points on everyday dining & groceries\nNo annual fee\nPurchase security insurance",
+      "benefits_zh_CN": "日常餐饮及超市买菜刷卡享加码积分\n免年费\n购物安全保险",
+      "benefits_zh_TW": "日常餐饮及超市买菜刷卡享加码积分\n免年费\n购物安全保险",
+      "aiRewards": {
+        "Food & Dining": 2.0,
+        "Groceries": 2.0,
+        "Everything": 1.0
+      },
+      "cardUrl": "https://www.navyfederal.org",
+      "image": "https://raw.githubusercontent.com/jimabby/card-assets/main/cards/us_navyfederal_rewards_plus.png"
+    },
+    {
+      "id": "us_navyfederal_cashback_preferred",
+      "name": "Navy Federal Cashback Preferred Card",
+      "region": "US",
+      "bank": "navyfederal.org",
+      "annualFee": 95,
+      "color": "#003366",
+      "benefits": "3% cash back on gas, groceries, and dining\n1% cash back on all other purchases\nNo foreign exchange fee",
+      "benefits_zh_CN": "加油、超市买菜及餐饮消费享3%现金返还\n其他消费1%现金返还\n零外汇手续费",
+      "benefits_zh_TW": "加油、超市买菜及餐饮消费享3%现金返还\n其他消费1%现金返还\n零外汇手续费",
+      "aiRewards": {
+        "Food & Dining": 3.0,
+        "Groceries": 3.0,
+        "Gas & Transit": 3.0,
+        "Everything": 1.0
+      },
+      "cardUrl": "https://www.navyfederal.org",
+      "image": "https://raw.githubusercontent.com/jimabby/card-assets/main/cards/us_navyfederal_cashback_preferred.png"
+    },
+    {
+      "id": "us_navyfederal_travel_infinite",
+      "name": "Navy Federal Travel Infinite Card",
+      "region": "US",
+      "bank": "navyfederal.org",
+      "annualFee": 150,
+      "color": "#003366",
+      "benefits": "3x points on flights, hotels, and travel bookings\nComplimentary airport VIP lounge access\nTravel emergency medical insurance",
+      "benefits_zh_CN": "机票、酒店及旅行预订享3倍积分\n免费机场VIP贵宾厅礼遇\n包含旅行紧急医疗险",
+      "benefits_zh_TW": "机票、酒店及旅行预订享3倍积分\n免费机场VIP贵宾厅礼遇\n包含旅行紧急医疗险",
+      "aiRewards": {
+        "Travel": 3.0,
+        "Flights": 3.0,
+        "Hotels": 3.0,
+        "Everything": 1.0
+      },
+      "cardUrl": "https://www.navyfederal.org",
+      "image": "https://raw.githubusercontent.com/jimabby/card-assets/main/cards/us_navyfederal_travel_infinite.png"
+    },
+    {
+      "id": "us_navyfederal_business_rewards",
+      "name": "Navy Federal Business Rewards Credit Card",
+      "region": "US",
+      "bank": "navyfederal.org",
+      "annualFee": 0,
+      "color": "#003366",
+      "benefits": "2x points on office supplies, shipping, and digital advertising\n1x point elsewhere\nEmployee cards at no extra cost",
+      "benefits_zh_CN": "办公用品、快递发货及数字广告享2倍积分\n其他消费1分\n免费开立员工副卡",
+      "benefits_zh_TW": "办公用品、快递发货及数字广告享2倍积分\n其他消费1分\n免费开立员工副卡",
+      "aiRewards": {
+        "Shopping": 2.0,
+        "Everything": 1.0
+      },
+      "cardUrl": "https://www.navyfederal.org",
+      "image": "https://raw.githubusercontent.com/jimabby/card-assets/main/cards/us_navyfederal_business_rewards.png"
+    },
+    {
+      "id": "us_navyfederal_world_elite",
+      "name": "Navy Federal World Elite Mastercard",
+      "region": "US",
+      "bank": "navyfederal.org",
+      "annualFee": 199,
+      "color": "#003366",
+      "benefits": "Complimentary VIP airport lounge passes\n2x points on all international purchases\nZero foreign transaction fees",
+      "benefits_zh_CN": "赠送VIP机场贵宾厅门票\n所有国际外币消费享2倍积分\n零外币交易手续费",
+      "benefits_zh_TW": "赠送VIP机场贵宾厅门票\n所有国际外币消费享2倍积分\n零外币交易手续费",
+      "aiRewards": {
+        "Travel": 2.5,
+        "Flights": 2.5,
+        "Hotels": 2.5,
+        "Everything": 1.25
+      },
+      "cardUrl": "https://www.navyfederal.org",
+      "image": "https://raw.githubusercontent.com/jimabby/card-assets/main/cards/us_navyfederal_world_elite.png"
+    },
+    {
+      "id": "us_navyfederal_low_rate_classic",
+      "name": "Navy Federal Low Rate Classic Card",
+      "region": "US",
+      "bank": "navyfederal.org",
+      "annualFee": 0,
+      "color": "#003366",
+      "benefits": "Low ongoing purchase interest rate\nNo annual fee\nZero fraud liability protection",
+      "benefits_zh_CN": "保持超低刷卡消费年利率\n免年费\n零盗刷安全责任保障",
+      "benefits_zh_TW": "保持超低刷卡消费年利率\n免年费\n零盗刷安全责任保障",
+      "aiRewards": {
+        "Everything": 0.5
+      },
+      "cardUrl": "https://www.navyfederal.org",
+      "image": "https://raw.githubusercontent.com/jimabby/card-assets/main/cards/us_navyfederal_low_rate_classic.png"
+    },
+    {
+      "id": "us_navyfederal_student_cash",
+      "name": "Navy Federal Student Cash Back Card",
+      "region": "US",
+      "bank": "navyfederal.org",
+      "annualFee": 0,
+      "color": "#003366",
+      "benefits": "1.5% cash back on all student purchases\nGood grades cash reward\nNo annual fee & no late fees",
+      "benefits_zh_CN": "学生日常刷卡消费享1.5%现金返还\n成绩优良年度现金奖励\n免年费且无滞纳金",
+      "benefits_zh_TW": "学生日常刷卡消费享1.5%现金返还\n成绩优良年度现金奖励\n免年费且无滞纳金",
+      "aiRewards": {
+        "Everything": 1.5
+      },
+      "cardUrl": "https://www.navyfederal.org",
+      "image": "https://raw.githubusercontent.com/jimabby/card-assets/main/cards/us_navyfederal_student_cash.png"
+    },
+    {
+      "id": "us_penfed_rewards_plus",
+      "name": "PenFed Rewards Plus Card",
+      "region": "US",
+      "bank": "penfed.org",
+      "annualFee": 0,
+      "color": "#004B87",
+      "benefits": "Earn bonus reward points on everyday dining & groceries\nNo annual fee\nPurchase security insurance",
+      "benefits_zh_CN": "日常餐饮及超市买菜刷卡享加码积分\n免年费\n购物安全保险",
+      "benefits_zh_TW": "日常餐饮及超市买菜刷卡享加码积分\n免年费\n购物安全保险",
+      "aiRewards": {
+        "Food & Dining": 2.0,
+        "Groceries": 2.0,
+        "Everything": 1.0
+      },
+      "cardUrl": "https://www.penfed.org",
+      "image": "https://raw.githubusercontent.com/jimabby/card-assets/main/cards/us_penfed_rewards_plus.png"
+    },
+    {
+      "id": "us_penfed_cashback_preferred",
+      "name": "PenFed Cashback Preferred Card",
+      "region": "US",
+      "bank": "penfed.org",
+      "annualFee": 95,
+      "color": "#004B87",
+      "benefits": "3% cash back on gas, groceries, and dining\n1% cash back on all other purchases\nNo foreign exchange fee",
+      "benefits_zh_CN": "加油、超市买菜及餐饮消费享3%现金返还\n其他消费1%现金返还\n零外汇手续费",
+      "benefits_zh_TW": "加油、超市买菜及餐饮消费享3%现金返还\n其他消费1%现金返还\n零外汇手续费",
+      "aiRewards": {
+        "Food & Dining": 3.0,
+        "Groceries": 3.0,
+        "Gas & Transit": 3.0,
+        "Everything": 1.0
+      },
+      "cardUrl": "https://www.penfed.org",
+      "image": "https://raw.githubusercontent.com/jimabby/card-assets/main/cards/us_penfed_cashback_preferred.png"
+    },
+    {
+      "id": "us_penfed_travel_infinite",
+      "name": "PenFed Travel Infinite Card",
+      "region": "US",
+      "bank": "penfed.org",
+      "annualFee": 150,
+      "color": "#004B87",
+      "benefits": "3x points on flights, hotels, and travel bookings\nComplimentary airport VIP lounge access\nTravel emergency medical insurance",
+      "benefits_zh_CN": "机票、酒店及旅行预订享3倍积分\n免费机场VIP贵宾厅礼遇\n包含旅行紧急医疗险",
+      "benefits_zh_TW": "机票、酒店及旅行预订享3倍积分\n免费机场VIP贵宾厅礼遇\n包含旅行紧急医疗险",
+      "aiRewards": {
+        "Travel": 3.0,
+        "Flights": 3.0,
+        "Hotels": 3.0,
+        "Everything": 1.0
+      },
+      "cardUrl": "https://www.penfed.org",
+      "image": "https://raw.githubusercontent.com/jimabby/card-assets/main/cards/us_penfed_travel_infinite.png"
+    },
+    {
+      "id": "us_penfed_business_rewards",
+      "name": "PenFed Business Rewards Credit Card",
+      "region": "US",
+      "bank": "penfed.org",
+      "annualFee": 0,
+      "color": "#004B87",
+      "benefits": "2x points on office supplies, shipping, and digital advertising\n1x point elsewhere\nEmployee cards at no extra cost",
+      "benefits_zh_CN": "办公用品、快递发货及数字广告享2倍积分\n其他消费1分\n免费开立员工副卡",
+      "benefits_zh_TW": "办公用品、快递发货及数字广告享2倍积分\n其他消费1分\n免费开立员工副卡",
+      "aiRewards": {
+        "Shopping": 2.0,
+        "Everything": 1.0
+      },
+      "cardUrl": "https://www.penfed.org",
+      "image": "https://raw.githubusercontent.com/jimabby/card-assets/main/cards/us_penfed_business_rewards.png"
+    },
+    {
+      "id": "us_penfed_world_elite",
+      "name": "PenFed World Elite Mastercard",
+      "region": "US",
+      "bank": "penfed.org",
+      "annualFee": 199,
+      "color": "#004B87",
+      "benefits": "Complimentary VIP airport lounge passes\n2x points on all international purchases\nZero foreign transaction fees",
+      "benefits_zh_CN": "赠送VIP机场贵宾厅门票\n所有国际外币消费享2倍积分\n零外币交易手续费",
+      "benefits_zh_TW": "赠送VIP机场贵宾厅门票\n所有国际外币消费享2倍积分\n零外币交易手续费",
+      "aiRewards": {
+        "Travel": 2.5,
+        "Flights": 2.5,
+        "Hotels": 2.5,
+        "Everything": 1.25
+      },
+      "cardUrl": "https://www.penfed.org",
+      "image": "https://raw.githubusercontent.com/jimabby/card-assets/main/cards/us_penfed_world_elite.png"
+    },
+    {
+      "id": "us_penfed_low_rate_classic",
+      "name": "PenFed Low Rate Classic Card",
+      "region": "US",
+      "bank": "penfed.org",
+      "annualFee": 0,
+      "color": "#004B87",
+      "benefits": "Low ongoing purchase interest rate\nNo annual fee\nZero fraud liability protection",
+      "benefits_zh_CN": "保持超低刷卡消费年利率\n免年费\n零盗刷安全责任保障",
+      "benefits_zh_TW": "保持超低刷卡消费年利率\n免年费\n零盗刷安全责任保障",
+      "aiRewards": {
+        "Everything": 0.5
+      },
+      "cardUrl": "https://www.penfed.org",
+      "image": "https://raw.githubusercontent.com/jimabby/card-assets/main/cards/us_penfed_low_rate_classic.png"
+    },
+    {
+      "id": "us_penfed_student_cash",
+      "name": "PenFed Student Cash Back Card",
+      "region": "US",
+      "bank": "penfed.org",
+      "annualFee": 0,
+      "color": "#004B87",
+      "benefits": "1.5% cash back on all student purchases\nGood grades cash reward\nNo annual fee & no late fees",
+      "benefits_zh_CN": "学生日常刷卡消费享1.5%现金返还\n成绩优良年度现金奖励\n免年费且无滞纳金",
+      "benefits_zh_TW": "学生日常刷卡消费享1.5%现金返还\n成绩优良年度现金奖励\n免年费且无滞纳金",
+      "aiRewards": {
+        "Everything": 1.5
+      },
+      "cardUrl": "https://www.penfed.org",
+      "image": "https://raw.githubusercontent.com/jimabby/card-assets/main/cards/us_penfed_student_cash.png"
+    },
+    {
+      "id": "us_usaa_rewards_plus",
+      "name": "USAA Rewards Plus Card",
+      "region": "US",
+      "bank": "usaa.com",
+      "annualFee": 0,
+      "color": "#0B2341",
+      "benefits": "Earn bonus reward points on everyday dining & groceries\nNo annual fee\nPurchase security insurance",
+      "benefits_zh_CN": "日常餐饮及超市买菜刷卡享加码积分\n免年费\n购物安全保险",
+      "benefits_zh_TW": "日常餐饮及超市买菜刷卡享加码积分\n免年费\n购物安全保险",
+      "aiRewards": {
+        "Food & Dining": 2.0,
+        "Groceries": 2.0,
+        "Everything": 1.0
+      },
+      "cardUrl": "https://www.usaa.com",
+      "image": "https://raw.githubusercontent.com/jimabby/card-assets/main/cards/us_usaa_rewards_plus.png"
+    },
+    {
+      "id": "us_usaa_cashback_preferred",
+      "name": "USAA Cashback Preferred Card",
+      "region": "US",
+      "bank": "usaa.com",
+      "annualFee": 95,
+      "color": "#0B2341",
+      "benefits": "3% cash back on gas, groceries, and dining\n1% cash back on all other purchases\nNo foreign exchange fee",
+      "benefits_zh_CN": "加油、超市买菜及餐饮消费享3%现金返还\n其他消费1%现金返还\n零外汇手续费",
+      "benefits_zh_TW": "加油、超市买菜及餐饮消费享3%现金返还\n其他消费1%现金返还\n零外汇手续费",
+      "aiRewards": {
+        "Food & Dining": 3.0,
+        "Groceries": 3.0,
+        "Gas & Transit": 3.0,
+        "Everything": 1.0
+      },
+      "cardUrl": "https://www.usaa.com",
+      "image": "https://raw.githubusercontent.com/jimabby/card-assets/main/cards/us_usaa_cashback_preferred.png"
+    },
+    {
+      "id": "us_usaa_travel_infinite",
+      "name": "USAA Travel Infinite Card",
+      "region": "US",
+      "bank": "usaa.com",
+      "annualFee": 150,
+      "color": "#0B2341",
+      "benefits": "3x points on flights, hotels, and travel bookings\nComplimentary airport VIP lounge access\nTravel emergency medical insurance",
+      "benefits_zh_CN": "机票、酒店及旅行预订享3倍积分\n免费机场VIP贵宾厅礼遇\n包含旅行紧急医疗险",
+      "benefits_zh_TW": "机票、酒店及旅行预订享3倍积分\n免费机场VIP贵宾厅礼遇\n包含旅行紧急医疗险",
+      "aiRewards": {
+        "Travel": 3.0,
+        "Flights": 3.0,
+        "Hotels": 3.0,
+        "Everything": 1.0
+      },
+      "cardUrl": "https://www.usaa.com",
+      "image": "https://raw.githubusercontent.com/jimabby/card-assets/main/cards/us_usaa_travel_infinite.png"
+    },
+    {
+      "id": "us_usaa_business_rewards",
+      "name": "USAA Business Rewards Credit Card",
+      "region": "US",
+      "bank": "usaa.com",
+      "annualFee": 0,
+      "color": "#0B2341",
+      "benefits": "2x points on office supplies, shipping, and digital advertising\n1x point elsewhere\nEmployee cards at no extra cost",
+      "benefits_zh_CN": "办公用品、快递发货及数字广告享2倍积分\n其他消费1分\n免费开立员工副卡",
+      "benefits_zh_TW": "办公用品、快递发货及数字广告享2倍积分\n其他消费1分\n免费开立员工副卡",
+      "aiRewards": {
+        "Shopping": 2.0,
+        "Everything": 1.0
+      },
+      "cardUrl": "https://www.usaa.com",
+      "image": "https://raw.githubusercontent.com/jimabby/card-assets/main/cards/us_usaa_business_rewards.png"
+    },
+    {
+      "id": "us_usaa_world_elite",
+      "name": "USAA World Elite Mastercard",
+      "region": "US",
+      "bank": "usaa.com",
+      "annualFee": 199,
+      "color": "#0B2341",
+      "benefits": "Complimentary VIP airport lounge passes\n2x points on all international purchases\nZero foreign transaction fees",
+      "benefits_zh_CN": "赠送VIP机场贵宾厅门票\n所有国际外币消费享2倍积分\n零外币交易手续费",
+      "benefits_zh_TW": "赠送VIP机场贵宾厅门票\n所有国际外币消费享2倍积分\n零外币交易手续费",
+      "aiRewards": {
+        "Travel": 2.5,
+        "Flights": 2.5,
+        "Hotels": 2.5,
+        "Everything": 1.25
+      },
+      "cardUrl": "https://www.usaa.com",
+      "image": "https://raw.githubusercontent.com/jimabby/card-assets/main/cards/us_usaa_world_elite.png"
+    },
+    {
+      "id": "us_usaa_low_rate_classic",
+      "name": "USAA Low Rate Classic Card",
+      "region": "US",
+      "bank": "usaa.com",
+      "annualFee": 0,
+      "color": "#0B2341",
+      "benefits": "Low ongoing purchase interest rate\nNo annual fee\nZero fraud liability protection",
+      "benefits_zh_CN": "保持超低刷卡消费年利率\n免年费\n零盗刷安全责任保障",
+      "benefits_zh_TW": "保持超低刷卡消费年利率\n免年费\n零盗刷安全责任保障",
+      "aiRewards": {
+        "Everything": 0.5
+      },
+      "cardUrl": "https://www.usaa.com",
+      "image": "https://raw.githubusercontent.com/jimabby/card-assets/main/cards/us_usaa_low_rate_classic.png"
+    },
+    {
+      "id": "us_usaa_student_cash",
+      "name": "USAA Student Cash Back Card",
+      "region": "US",
+      "bank": "usaa.com",
+      "annualFee": 0,
+      "color": "#0B2341",
+      "benefits": "1.5% cash back on all student purchases\nGood grades cash reward\nNo annual fee & no late fees",
+      "benefits_zh_CN": "学生日常刷卡消费享1.5%现金返还\n成绩优良年度现金奖励\n免年费且无滞纳金",
+      "benefits_zh_TW": "学生日常刷卡消费享1.5%现金返还\n成绩优良年度现金奖励\n免年费且无滞纳金",
+      "aiRewards": {
+        "Everything": 1.5
+      },
+      "cardUrl": "https://www.usaa.com",
+      "image": "https://raw.githubusercontent.com/jimabby/card-assets/main/cards/us_usaa_student_cash.png"
+    },
+    {
+      "id": "us_pnc_rewards_plus",
+      "name": "PNC Bank Rewards Plus Card",
+      "region": "US",
+      "bank": "pnc.com",
+      "annualFee": 0,
+      "color": "#F47920",
+      "benefits": "Earn bonus reward points on everyday dining & groceries\nNo annual fee\nPurchase security insurance",
+      "benefits_zh_CN": "日常餐饮及超市买菜刷卡享加码积分\n免年费\n购物安全保险",
+      "benefits_zh_TW": "日常餐饮及超市买菜刷卡享加码积分\n免年费\n购物安全保险",
+      "aiRewards": {
+        "Food & Dining": 2.0,
+        "Groceries": 2.0,
+        "Everything": 1.0
+      },
+      "cardUrl": "https://www.pnc.com",
+      "image": "https://raw.githubusercontent.com/jimabby/card-assets/main/cards/us_pnc_rewards_plus.png"
+    },
+    {
+      "id": "us_pnc_cashback_preferred",
+      "name": "PNC Bank Cashback Preferred Card",
+      "region": "US",
+      "bank": "pnc.com",
+      "annualFee": 95,
+      "color": "#F47920",
+      "benefits": "3% cash back on gas, groceries, and dining\n1% cash back on all other purchases\nNo foreign exchange fee",
+      "benefits_zh_CN": "加油、超市买菜及餐饮消费享3%现金返还\n其他消费1%现金返还\n零外汇手续费",
+      "benefits_zh_TW": "加油、超市买菜及餐饮消费享3%现金返还\n其他消费1%现金返还\n零外汇手续费",
+      "aiRewards": {
+        "Food & Dining": 3.0,
+        "Groceries": 3.0,
+        "Gas & Transit": 3.0,
+        "Everything": 1.0
+      },
+      "cardUrl": "https://www.pnc.com",
+      "image": "https://raw.githubusercontent.com/jimabby/card-assets/main/cards/us_pnc_cashback_preferred.png"
+    },
+    {
+      "id": "us_pnc_travel_infinite",
+      "name": "PNC Bank Travel Infinite Card",
+      "region": "US",
+      "bank": "pnc.com",
+      "annualFee": 150,
+      "color": "#F47920",
+      "benefits": "3x points on flights, hotels, and travel bookings\nComplimentary airport VIP lounge access\nTravel emergency medical insurance",
+      "benefits_zh_CN": "机票、酒店及旅行预订享3倍积分\n免费机场VIP贵宾厅礼遇\n包含旅行紧急医疗险",
+      "benefits_zh_TW": "机票、酒店及旅行预订享3倍积分\n免费机场VIP贵宾厅礼遇\n包含旅行紧急医疗险",
+      "aiRewards": {
+        "Travel": 3.0,
+        "Flights": 3.0,
+        "Hotels": 3.0,
+        "Everything": 1.0
+      },
+      "cardUrl": "https://www.pnc.com",
+      "image": "https://raw.githubusercontent.com/jimabby/card-assets/main/cards/us_pnc_travel_infinite.png"
+    },
+    {
+      "id": "us_pnc_business_rewards",
+      "name": "PNC Bank Business Rewards Credit Card",
+      "region": "US",
+      "bank": "pnc.com",
+      "annualFee": 0,
+      "color": "#F47920",
+      "benefits": "2x points on office supplies, shipping, and digital advertising\n1x point elsewhere\nEmployee cards at no extra cost",
+      "benefits_zh_CN": "办公用品、快递发货及数字广告享2倍积分\n其他消费1分\n免费开立员工副卡",
+      "benefits_zh_TW": "办公用品、快递发货及数字广告享2倍积分\n其他消费1分\n免费开立员工副卡",
+      "aiRewards": {
+        "Shopping": 2.0,
+        "Everything": 1.0
+      },
+      "cardUrl": "https://www.pnc.com",
+      "image": "https://raw.githubusercontent.com/jimabby/card-assets/main/cards/us_pnc_business_rewards.png"
+    },
+    {
+      "id": "us_pnc_world_elite",
+      "name": "PNC Bank World Elite Mastercard",
+      "region": "US",
+      "bank": "pnc.com",
+      "annualFee": 199,
+      "color": "#F47920",
+      "benefits": "Complimentary VIP airport lounge passes\n2x points on all international purchases\nZero foreign transaction fees",
+      "benefits_zh_CN": "赠送VIP机场贵宾厅门票\n所有国际外币消费享2倍积分\n零外币交易手续费",
+      "benefits_zh_TW": "赠送VIP机场贵宾厅门票\n所有国际外币消费享2倍积分\n零外币交易手续费",
+      "aiRewards": {
+        "Travel": 2.5,
+        "Flights": 2.5,
+        "Hotels": 2.5,
+        "Everything": 1.25
+      },
+      "cardUrl": "https://www.pnc.com",
+      "image": "https://raw.githubusercontent.com/jimabby/card-assets/main/cards/us_pnc_world_elite.png"
+    },
+    {
+      "id": "us_pnc_low_rate_classic",
+      "name": "PNC Bank Low Rate Classic Card",
+      "region": "US",
+      "bank": "pnc.com",
+      "annualFee": 0,
+      "color": "#F47920",
+      "benefits": "Low ongoing purchase interest rate\nNo annual fee\nZero fraud liability protection",
+      "benefits_zh_CN": "保持超低刷卡消费年利率\n免年费\n零盗刷安全责任保障",
+      "benefits_zh_TW": "保持超低刷卡消费年利率\n免年费\n零盗刷安全责任保障",
+      "aiRewards": {
+        "Everything": 0.5
+      },
+      "cardUrl": "https://www.pnc.com",
+      "image": "https://raw.githubusercontent.com/jimabby/card-assets/main/cards/us_pnc_low_rate_classic.png"
+    },
+    {
+      "id": "us_pnc_student_cash",
+      "name": "PNC Bank Student Cash Back Card",
+      "region": "US",
+      "bank": "pnc.com",
+      "annualFee": 0,
+      "color": "#F47920",
+      "benefits": "1.5% cash back on all student purchases\nGood grades cash reward\nNo annual fee & no late fees",
+      "benefits_zh_CN": "学生日常刷卡消费享1.5%现金返还\n成绩优良年度现金奖励\n免年费且无滞纳金",
+      "benefits_zh_TW": "学生日常刷卡消费享1.5%现金返还\n成绩优良年度现金奖励\n免年费且无滞纳金",
+      "aiRewards": {
+        "Everything": 1.5
+      },
+      "cardUrl": "https://www.pnc.com",
+      "image": "https://raw.githubusercontent.com/jimabby/card-assets/main/cards/us_pnc_student_cash.png"
+    },
+    {
+      "id": "us_truist_rewards_plus",
+      "name": "Truist Rewards Plus Card",
+      "region": "US",
+      "bank": "truist.com",
+      "annualFee": 0,
+      "color": "#482683",
+      "benefits": "Earn bonus reward points on everyday dining & groceries\nNo annual fee\nPurchase security insurance",
+      "benefits_zh_CN": "日常餐饮及超市买菜刷卡享加码积分\n免年费\n购物安全保险",
+      "benefits_zh_TW": "日常餐饮及超市买菜刷卡享加码积分\n免年费\n购物安全保险",
+      "aiRewards": {
+        "Food & Dining": 2.0,
+        "Groceries": 2.0,
+        "Everything": 1.0
+      },
+      "cardUrl": "https://www.truist.com",
+      "image": "https://raw.githubusercontent.com/jimabby/card-assets/main/cards/us_truist_rewards_plus.png"
+    },
+    {
+      "id": "us_truist_cashback_preferred",
+      "name": "Truist Cashback Preferred Card",
+      "region": "US",
+      "bank": "truist.com",
+      "annualFee": 95,
+      "color": "#482683",
+      "benefits": "3% cash back on gas, groceries, and dining\n1% cash back on all other purchases\nNo foreign exchange fee",
+      "benefits_zh_CN": "加油、超市买菜及餐饮消费享3%现金返还\n其他消费1%现金返还\n零外汇手续费",
+      "benefits_zh_TW": "加油、超市买菜及餐饮消费享3%现金返还\n其他消费1%现金返还\n零外汇手续费",
+      "aiRewards": {
+        "Food & Dining": 3.0,
+        "Groceries": 3.0,
+        "Gas & Transit": 3.0,
+        "Everything": 1.0
+      },
+      "cardUrl": "https://www.truist.com",
+      "image": "https://raw.githubusercontent.com/jimabby/card-assets/main/cards/us_truist_cashback_preferred.png"
+    },
+    {
+      "id": "us_truist_travel_infinite",
+      "name": "Truist Travel Infinite Card",
+      "region": "US",
+      "bank": "truist.com",
+      "annualFee": 150,
+      "color": "#482683",
+      "benefits": "3x points on flights, hotels, and travel bookings\nComplimentary airport VIP lounge access\nTravel emergency medical insurance",
+      "benefits_zh_CN": "机票、酒店及旅行预订享3倍积分\n免费机场VIP贵宾厅礼遇\n包含旅行紧急医疗险",
+      "benefits_zh_TW": "机票、酒店及旅行预订享3倍积分\n免费机场VIP贵宾厅礼遇\n包含旅行紧急医疗险",
+      "aiRewards": {
+        "Travel": 3.0,
+        "Flights": 3.0,
+        "Hotels": 3.0,
+        "Everything": 1.0
+      },
+      "cardUrl": "https://www.truist.com",
+      "image": "https://raw.githubusercontent.com/jimabby/card-assets/main/cards/us_truist_travel_infinite.png"
+    },
+    {
+      "id": "us_truist_business_rewards",
+      "name": "Truist Business Rewards Credit Card",
+      "region": "US",
+      "bank": "truist.com",
+      "annualFee": 0,
+      "color": "#482683",
+      "benefits": "2x points on office supplies, shipping, and digital advertising\n1x point elsewhere\nEmployee cards at no extra cost",
+      "benefits_zh_CN": "办公用品、快递发货及数字广告享2倍积分\n其他消费1分\n免费开立员工副卡",
+      "benefits_zh_TW": "办公用品、快递发货及数字广告享2倍积分\n其他消费1分\n免费开立员工副卡",
+      "aiRewards": {
+        "Shopping": 2.0,
+        "Everything": 1.0
+      },
+      "cardUrl": "https://www.truist.com",
+      "image": "https://raw.githubusercontent.com/jimabby/card-assets/main/cards/us_truist_business_rewards.png"
+    },
+    {
+      "id": "us_truist_world_elite",
+      "name": "Truist World Elite Mastercard",
+      "region": "US",
+      "bank": "truist.com",
+      "annualFee": 199,
+      "color": "#482683",
+      "benefits": "Complimentary VIP airport lounge passes\n2x points on all international purchases\nZero foreign transaction fees",
+      "benefits_zh_CN": "赠送VIP机场贵宾厅门票\n所有国际外币消费享2倍积分\n零外币交易手续费",
+      "benefits_zh_TW": "赠送VIP机场贵宾厅门票\n所有国际外币消费享2倍积分\n零外币交易手续费",
+      "aiRewards": {
+        "Travel": 2.5,
+        "Flights": 2.5,
+        "Hotels": 2.5,
+        "Everything": 1.25
+      },
+      "cardUrl": "https://www.truist.com",
+      "image": "https://raw.githubusercontent.com/jimabby/card-assets/main/cards/us_truist_world_elite.png"
+    },
+    {
+      "id": "us_truist_low_rate_classic",
+      "name": "Truist Low Rate Classic Card",
+      "region": "US",
+      "bank": "truist.com",
+      "annualFee": 0,
+      "color": "#482683",
+      "benefits": "Low ongoing purchase interest rate\nNo annual fee\nZero fraud liability protection",
+      "benefits_zh_CN": "保持超低刷卡消费年利率\n免年费\n零盗刷安全责任保障",
+      "benefits_zh_TW": "保持超低刷卡消费年利率\n免年费\n零盗刷安全责任保障",
+      "aiRewards": {
+        "Everything": 0.5
+      },
+      "cardUrl": "https://www.truist.com",
+      "image": "https://raw.githubusercontent.com/jimabby/card-assets/main/cards/us_truist_low_rate_classic.png"
+    },
+    {
+      "id": "us_truist_student_cash",
+      "name": "Truist Student Cash Back Card",
+      "region": "US",
+      "bank": "truist.com",
+      "annualFee": 0,
+      "color": "#482683",
+      "benefits": "1.5% cash back on all student purchases\nGood grades cash reward\nNo annual fee & no late fees",
+      "benefits_zh_CN": "学生日常刷卡消费享1.5%现金返还\n成绩优良年度现金奖励\n免年费且无滞纳金",
+      "benefits_zh_TW": "学生日常刷卡消费享1.5%现金返还\n成绩优良年度现金奖励\n免年费且无滞纳金",
+      "aiRewards": {
+        "Everything": 1.5
+      },
+      "cardUrl": "https://www.truist.com",
+      "image": "https://raw.githubusercontent.com/jimabby/card-assets/main/cards/us_truist_student_cash.png"
+    },
+    {
+      "id": "us_53_rewards_plus",
+      "name": "Fifth Third Bank Rewards Plus Card",
+      "region": "US",
+      "bank": "53.com",
+      "annualFee": 0,
+      "color": "#003B70",
+      "benefits": "Earn bonus reward points on everyday dining & groceries\nNo annual fee\nPurchase security insurance",
+      "benefits_zh_CN": "日常餐饮及超市买菜刷卡享加码积分\n免年费\n购物安全保险",
+      "benefits_zh_TW": "日常餐饮及超市买菜刷卡享加码积分\n免年费\n购物安全保险",
+      "aiRewards": {
+        "Food & Dining": 2.0,
+        "Groceries": 2.0,
+        "Everything": 1.0
+      },
+      "cardUrl": "https://www.53.com",
+      "image": "https://raw.githubusercontent.com/jimabby/card-assets/main/cards/us_53_rewards_plus.png"
+    },
+    {
+      "id": "us_53_cashback_preferred",
+      "name": "Fifth Third Bank Cashback Preferred Card",
+      "region": "US",
+      "bank": "53.com",
+      "annualFee": 95,
+      "color": "#003B70",
+      "benefits": "3% cash back on gas, groceries, and dining\n1% cash back on all other purchases\nNo foreign exchange fee",
+      "benefits_zh_CN": "加油、超市买菜及餐饮消费享3%现金返还\n其他消费1%现金返还\n零外汇手续费",
+      "benefits_zh_TW": "加油、超市买菜及餐饮消费享3%现金返还\n其他消费1%现金返还\n零外汇手续费",
+      "aiRewards": {
+        "Food & Dining": 3.0,
+        "Groceries": 3.0,
+        "Gas & Transit": 3.0,
+        "Everything": 1.0
+      },
+      "cardUrl": "https://www.53.com",
+      "image": "https://raw.githubusercontent.com/jimabby/card-assets/main/cards/us_53_cashback_preferred.png"
+    },
+    {
+      "id": "us_53_travel_infinite",
+      "name": "Fifth Third Bank Travel Infinite Card",
+      "region": "US",
+      "bank": "53.com",
+      "annualFee": 150,
+      "color": "#003B70",
+      "benefits": "3x points on flights, hotels, and travel bookings\nComplimentary airport VIP lounge access\nTravel emergency medical insurance",
+      "benefits_zh_CN": "机票、酒店及旅行预订享3倍积分\n免费机场VIP贵宾厅礼遇\n包含旅行紧急医疗险",
+      "benefits_zh_TW": "机票、酒店及旅行预订享3倍积分\n免费机场VIP贵宾厅礼遇\n包含旅行紧急医疗险",
+      "aiRewards": {
+        "Travel": 3.0,
+        "Flights": 3.0,
+        "Hotels": 3.0,
+        "Everything": 1.0
+      },
+      "cardUrl": "https://www.53.com",
+      "image": "https://raw.githubusercontent.com/jimabby/card-assets/main/cards/us_53_travel_infinite.png"
+    },
+    {
+      "id": "us_53_business_rewards",
+      "name": "Fifth Third Bank Business Rewards Credit Card",
+      "region": "US",
+      "bank": "53.com",
+      "annualFee": 0,
+      "color": "#003B70",
+      "benefits": "2x points on office supplies, shipping, and digital advertising\n1x point elsewhere\nEmployee cards at no extra cost",
+      "benefits_zh_CN": "办公用品、快递发货及数字广告享2倍积分\n其他消费1分\n免费开立员工副卡",
+      "benefits_zh_TW": "办公用品、快递发货及数字广告享2倍积分\n其他消费1分\n免费开立员工副卡",
+      "aiRewards": {
+        "Shopping": 2.0,
+        "Everything": 1.0
+      },
+      "cardUrl": "https://www.53.com",
+      "image": "https://raw.githubusercontent.com/jimabby/card-assets/main/cards/us_53_business_rewards.png"
+    },
+    {
+      "id": "us_53_world_elite",
+      "name": "Fifth Third Bank World Elite Mastercard",
+      "region": "US",
+      "bank": "53.com",
+      "annualFee": 199,
+      "color": "#003B70",
+      "benefits": "Complimentary VIP airport lounge passes\n2x points on all international purchases\nZero foreign transaction fees",
+      "benefits_zh_CN": "赠送VIP机场贵宾厅门票\n所有国际外币消费享2倍积分\n零外币交易手续费",
+      "benefits_zh_TW": "赠送VIP机场贵宾厅门票\n所有国际外币消费享2倍积分\n零外币交易手续费",
+      "aiRewards": {
+        "Travel": 2.5,
+        "Flights": 2.5,
+        "Hotels": 2.5,
+        "Everything": 1.25
+      },
+      "cardUrl": "https://www.53.com",
+      "image": "https://raw.githubusercontent.com/jimabby/card-assets/main/cards/us_53_world_elite.png"
+    },
+    {
+      "id": "us_53_low_rate_classic",
+      "name": "Fifth Third Bank Low Rate Classic Card",
+      "region": "US",
+      "bank": "53.com",
+      "annualFee": 0,
+      "color": "#003B70",
+      "benefits": "Low ongoing purchase interest rate\nNo annual fee\nZero fraud liability protection",
+      "benefits_zh_CN": "保持超低刷卡消费年利率\n免年费\n零盗刷安全责任保障",
+      "benefits_zh_TW": "保持超低刷卡消费年利率\n免年费\n零盗刷安全责任保障",
+      "aiRewards": {
+        "Everything": 0.5
+      },
+      "cardUrl": "https://www.53.com",
+      "image": "https://raw.githubusercontent.com/jimabby/card-assets/main/cards/us_53_low_rate_classic.png"
+    },
+    {
+      "id": "us_53_student_cash",
+      "name": "Fifth Third Bank Student Cash Back Card",
+      "region": "US",
+      "bank": "53.com",
+      "annualFee": 0,
+      "color": "#003B70",
+      "benefits": "1.5% cash back on all student purchases\nGood grades cash reward\nNo annual fee & no late fees",
+      "benefits_zh_CN": "学生日常刷卡消费享1.5%现金返还\n成绩优良年度现金奖励\n免年费且无滞纳金",
+      "benefits_zh_TW": "学生日常刷卡消费享1.5%现金返还\n成绩优良年度现金奖励\n免年费且无滞纳金",
+      "aiRewards": {
+        "Everything": 1.5
+      },
+      "cardUrl": "https://www.53.com",
+      "image": "https://raw.githubusercontent.com/jimabby/card-assets/main/cards/us_53_student_cash.png"
+    },
+    {
+      "id": "us_huntington_rewards_plus",
+      "name": "Huntington Bank Rewards Plus Card",
+      "region": "US",
+      "bank": "huntington.com",
+      "annualFee": 0,
+      "color": "#00693E",
+      "benefits": "Earn bonus reward points on everyday dining & groceries\nNo annual fee\nPurchase security insurance",
+      "benefits_zh_CN": "日常餐饮及超市买菜刷卡享加码积分\n免年费\n购物安全保险",
+      "benefits_zh_TW": "日常餐饮及超市买菜刷卡享加码积分\n免年费\n购物安全保险",
+      "aiRewards": {
+        "Food & Dining": 2.0,
+        "Groceries": 2.0,
+        "Everything": 1.0
+      },
+      "cardUrl": "https://www.huntington.com",
+      "image": "https://raw.githubusercontent.com/jimabby/card-assets/main/cards/us_huntington_rewards_plus.png"
+    },
+    {
+      "id": "us_huntington_cashback_preferred",
+      "name": "Huntington Bank Cashback Preferred Card",
+      "region": "US",
+      "bank": "huntington.com",
+      "annualFee": 95,
+      "color": "#00693E",
+      "benefits": "3% cash back on gas, groceries, and dining\n1% cash back on all other purchases\nNo foreign exchange fee",
+      "benefits_zh_CN": "加油、超市买菜及餐饮消费享3%现金返还\n其他消费1%现金返还\n零外汇手续费",
+      "benefits_zh_TW": "加油、超市买菜及餐饮消费享3%现金返还\n其他消费1%现金返还\n零外汇手续费",
+      "aiRewards": {
+        "Food & Dining": 3.0,
+        "Groceries": 3.0,
+        "Gas & Transit": 3.0,
+        "Everything": 1.0
+      },
+      "cardUrl": "https://www.huntington.com",
+      "image": "https://raw.githubusercontent.com/jimabby/card-assets/main/cards/us_huntington_cashback_preferred.png"
+    },
+    {
+      "id": "us_huntington_travel_infinite",
+      "name": "Huntington Bank Travel Infinite Card",
+      "region": "US",
+      "bank": "huntington.com",
+      "annualFee": 150,
+      "color": "#00693E",
+      "benefits": "3x points on flights, hotels, and travel bookings\nComplimentary airport VIP lounge access\nTravel emergency medical insurance",
+      "benefits_zh_CN": "机票、酒店及旅行预订享3倍积分\n免费机场VIP贵宾厅礼遇\n包含旅行紧急医疗险",
+      "benefits_zh_TW": "机票、酒店及旅行预订享3倍积分\n免费机场VIP贵宾厅礼遇\n包含旅行紧急医疗险",
+      "aiRewards": {
+        "Travel": 3.0,
+        "Flights": 3.0,
+        "Hotels": 3.0,
+        "Everything": 1.0
+      },
+      "cardUrl": "https://www.huntington.com",
+      "image": "https://raw.githubusercontent.com/jimabby/card-assets/main/cards/us_huntington_travel_infinite.png"
+    },
+    {
+      "id": "us_huntington_business_rewards",
+      "name": "Huntington Bank Business Rewards Credit Card",
+      "region": "US",
+      "bank": "huntington.com",
+      "annualFee": 0,
+      "color": "#00693E",
+      "benefits": "2x points on office supplies, shipping, and digital advertising\n1x point elsewhere\nEmployee cards at no extra cost",
+      "benefits_zh_CN": "办公用品、快递发货及数字广告享2倍积分\n其他消费1分\n免费开立员工副卡",
+      "benefits_zh_TW": "办公用品、快递发货及数字广告享2倍积分\n其他消费1分\n免费开立员工副卡",
+      "aiRewards": {
+        "Shopping": 2.0,
+        "Everything": 1.0
+      },
+      "cardUrl": "https://www.huntington.com",
+      "image": "https://raw.githubusercontent.com/jimabby/card-assets/main/cards/us_huntington_business_rewards.png"
+    },
+    {
+      "id": "us_huntington_world_elite",
+      "name": "Huntington Bank World Elite Mastercard",
+      "region": "US",
+      "bank": "huntington.com",
+      "annualFee": 199,
+      "color": "#00693E",
+      "benefits": "Complimentary VIP airport lounge passes\n2x points on all international purchases\nZero foreign transaction fees",
+      "benefits_zh_CN": "赠送VIP机场贵宾厅门票\n所有国际外币消费享2倍积分\n零外币交易手续费",
+      "benefits_zh_TW": "赠送VIP机场贵宾厅门票\n所有国际外币消费享2倍积分\n零外币交易手续费",
+      "aiRewards": {
+        "Travel": 2.5,
+        "Flights": 2.5,
+        "Hotels": 2.5,
+        "Everything": 1.25
+      },
+      "cardUrl": "https://www.huntington.com",
+      "image": "https://raw.githubusercontent.com/jimabby/card-assets/main/cards/us_huntington_world_elite.png"
+    },
+    {
+      "id": "us_huntington_low_rate_classic",
+      "name": "Huntington Bank Low Rate Classic Card",
+      "region": "US",
+      "bank": "huntington.com",
+      "annualFee": 0,
+      "color": "#00693E",
+      "benefits": "Low ongoing purchase interest rate\nNo annual fee\nZero fraud liability protection",
+      "benefits_zh_CN": "保持超低刷卡消费年利率\n免年费\n零盗刷安全责任保障",
+      "benefits_zh_TW": "保持超低刷卡消费年利率\n免年费\n零盗刷安全责任保障",
+      "aiRewards": {
+        "Everything": 0.5
+      },
+      "cardUrl": "https://www.huntington.com",
+      "image": "https://raw.githubusercontent.com/jimabby/card-assets/main/cards/us_huntington_low_rate_classic.png"
+    },
+    {
+      "id": "us_huntington_student_cash",
+      "name": "Huntington Bank Student Cash Back Card",
+      "region": "US",
+      "bank": "huntington.com",
+      "annualFee": 0,
+      "color": "#00693E",
+      "benefits": "1.5% cash back on all student purchases\nGood grades cash reward\nNo annual fee & no late fees",
+      "benefits_zh_CN": "学生日常刷卡消费享1.5%现金返还\n成绩优良年度现金奖励\n免年费且无滞纳金",
+      "benefits_zh_TW": "学生日常刷卡消费享1.5%现金返还\n成绩优良年度现金奖励\n免年费且无滞纳金",
+      "aiRewards": {
+        "Everything": 1.5
+      },
+      "cardUrl": "https://www.huntington.com",
+      "image": "https://raw.githubusercontent.com/jimabby/card-assets/main/cards/us_huntington_student_cash.png"
+    },
+    {
+      "id": "us_key_rewards_plus",
+      "name": "KeyBank Rewards Plus Card",
+      "region": "US",
+      "bank": "key.com",
+      "annualFee": 0,
+      "color": "#D32F2F",
+      "benefits": "Earn bonus reward points on everyday dining & groceries\nNo annual fee\nPurchase security insurance",
+      "benefits_zh_CN": "日常餐饮及超市买菜刷卡享加码积分\n免年费\n购物安全保险",
+      "benefits_zh_TW": "日常餐饮及超市买菜刷卡享加码积分\n免年费\n购物安全保险",
+      "aiRewards": {
+        "Food & Dining": 2.0,
+        "Groceries": 2.0,
+        "Everything": 1.0
+      },
+      "cardUrl": "https://www.key.com",
+      "image": "https://raw.githubusercontent.com/jimabby/card-assets/main/cards/us_key_rewards_plus.png"
+    },
+    {
+      "id": "us_key_cashback_preferred",
+      "name": "KeyBank Cashback Preferred Card",
+      "region": "US",
+      "bank": "key.com",
+      "annualFee": 95,
+      "color": "#D32F2F",
+      "benefits": "3% cash back on gas, groceries, and dining\n1% cash back on all other purchases\nNo foreign exchange fee",
+      "benefits_zh_CN": "加油、超市买菜及餐饮消费享3%现金返还\n其他消费1%现金返还\n零外汇手续费",
+      "benefits_zh_TW": "加油、超市买菜及餐饮消费享3%现金返还\n其他消费1%现金返还\n零外汇手续费",
+      "aiRewards": {
+        "Food & Dining": 3.0,
+        "Groceries": 3.0,
+        "Gas & Transit": 3.0,
+        "Everything": 1.0
+      },
+      "cardUrl": "https://www.key.com",
+      "image": "https://raw.githubusercontent.com/jimabby/card-assets/main/cards/us_key_cashback_preferred.png"
+    },
+    {
+      "id": "us_key_travel_infinite",
+      "name": "KeyBank Travel Infinite Card",
+      "region": "US",
+      "bank": "key.com",
+      "annualFee": 150,
+      "color": "#D32F2F",
+      "benefits": "3x points on flights, hotels, and travel bookings\nComplimentary airport VIP lounge access\nTravel emergency medical insurance",
+      "benefits_zh_CN": "机票、酒店及旅行预订享3倍积分\n免费机场VIP贵宾厅礼遇\n包含旅行紧急医疗险",
+      "benefits_zh_TW": "机票、酒店及旅行预订享3倍积分\n免费机场VIP贵宾厅礼遇\n包含旅行紧急医疗险",
+      "aiRewards": {
+        "Travel": 3.0,
+        "Flights": 3.0,
+        "Hotels": 3.0,
+        "Everything": 1.0
+      },
+      "cardUrl": "https://www.key.com",
+      "image": "https://raw.githubusercontent.com/jimabby/card-assets/main/cards/us_key_travel_infinite.png"
+    },
+    {
+      "id": "us_key_business_rewards",
+      "name": "KeyBank Business Rewards Credit Card",
+      "region": "US",
+      "bank": "key.com",
+      "annualFee": 0,
+      "color": "#D32F2F",
+      "benefits": "2x points on office supplies, shipping, and digital advertising\n1x point elsewhere\nEmployee cards at no extra cost",
+      "benefits_zh_CN": "办公用品、快递发货及数字广告享2倍积分\n其他消费1分\n免费开立员工副卡",
+      "benefits_zh_TW": "办公用品、快递发货及数字广告享2倍积分\n其他消费1分\n免费开立员工副卡",
+      "aiRewards": {
+        "Shopping": 2.0,
+        "Everything": 1.0
+      },
+      "cardUrl": "https://www.key.com",
+      "image": "https://raw.githubusercontent.com/jimabby/card-assets/main/cards/us_key_business_rewards.png"
+    },
+    {
+      "id": "us_key_world_elite",
+      "name": "KeyBank World Elite Mastercard",
+      "region": "US",
+      "bank": "key.com",
+      "annualFee": 199,
+      "color": "#D32F2F",
+      "benefits": "Complimentary VIP airport lounge passes\n2x points on all international purchases\nZero foreign transaction fees",
+      "benefits_zh_CN": "赠送VIP机场贵宾厅门票\n所有国际外币消费享2倍积分\n零外币交易手续费",
+      "benefits_zh_TW": "赠送VIP机场贵宾厅门票\n所有国际外币消费享2倍积分\n零外币交易手续费",
+      "aiRewards": {
+        "Travel": 2.5,
+        "Flights": 2.5,
+        "Hotels": 2.5,
+        "Everything": 1.25
+      },
+      "cardUrl": "https://www.key.com",
+      "image": "https://raw.githubusercontent.com/jimabby/card-assets/main/cards/us_key_world_elite.png"
+    },
+    {
+      "id": "us_key_low_rate_classic",
+      "name": "KeyBank Low Rate Classic Card",
+      "region": "US",
+      "bank": "key.com",
+      "annualFee": 0,
+      "color": "#D32F2F",
+      "benefits": "Low ongoing purchase interest rate\nNo annual fee\nZero fraud liability protection",
+      "benefits_zh_CN": "保持超低刷卡消费年利率\n免年费\n零盗刷安全责任保障",
+      "benefits_zh_TW": "保持超低刷卡消费年利率\n免年费\n零盗刷安全责任保障",
+      "aiRewards": {
+        "Everything": 0.5
+      },
+      "cardUrl": "https://www.key.com",
+      "image": "https://raw.githubusercontent.com/jimabby/card-assets/main/cards/us_key_low_rate_classic.png"
+    },
+    {
+      "id": "us_key_student_cash",
+      "name": "KeyBank Student Cash Back Card",
+      "region": "US",
+      "bank": "key.com",
+      "annualFee": 0,
+      "color": "#D32F2F",
+      "benefits": "1.5% cash back on all student purchases\nGood grades cash reward\nNo annual fee & no late fees",
+      "benefits_zh_CN": "学生日常刷卡消费享1.5%现金返还\n成绩优良年度现金奖励\n免年费且无滞纳金",
+      "benefits_zh_TW": "学生日常刷卡消费享1.5%现金返还\n成绩优良年度现金奖励\n免年费且无滞纳金",
+      "aiRewards": {
+        "Everything": 1.5
+      },
+      "cardUrl": "https://www.key.com",
+      "image": "https://raw.githubusercontent.com/jimabby/card-assets/main/cards/us_key_student_cash.png"
+    },
+    {
+      "id": "us_citizensbank_rewards_plus",
+      "name": "Citizens Bank Rewards Plus Card",
+      "region": "US",
+      "bank": "citizensbank.com",
+      "annualFee": 0,
+      "color": "#008559",
+      "benefits": "Earn bonus reward points on everyday dining & groceries\nNo annual fee\nPurchase security insurance",
+      "benefits_zh_CN": "日常餐饮及超市买菜刷卡享加码积分\n免年费\n购物安全保险",
+      "benefits_zh_TW": "日常餐饮及超市买菜刷卡享加码积分\n免年费\n购物安全保险",
+      "aiRewards": {
+        "Food & Dining": 2.0,
+        "Groceries": 2.0,
+        "Everything": 1.0
+      },
+      "cardUrl": "https://www.citizensbank.com",
+      "image": "https://raw.githubusercontent.com/jimabby/card-assets/main/cards/us_citizensbank_rewards_plus.png"
+    },
+    {
+      "id": "us_citizensbank_cashback_preferred",
+      "name": "Citizens Bank Cashback Preferred Card",
+      "region": "US",
+      "bank": "citizensbank.com",
+      "annualFee": 95,
+      "color": "#008559",
+      "benefits": "3% cash back on gas, groceries, and dining\n1% cash back on all other purchases\nNo foreign exchange fee",
+      "benefits_zh_CN": "加油、超市买菜及餐饮消费享3%现金返还\n其他消费1%现金返还\n零外汇手续费",
+      "benefits_zh_TW": "加油、超市买菜及餐饮消费享3%现金返还\n其他消费1%现金返还\n零外汇手续费",
+      "aiRewards": {
+        "Food & Dining": 3.0,
+        "Groceries": 3.0,
+        "Gas & Transit": 3.0,
+        "Everything": 1.0
+      },
+      "cardUrl": "https://www.citizensbank.com",
+      "image": "https://raw.githubusercontent.com/jimabby/card-assets/main/cards/us_citizensbank_cashback_preferred.png"
+    },
+    {
+      "id": "us_citizensbank_travel_infinite",
+      "name": "Citizens Bank Travel Infinite Card",
+      "region": "US",
+      "bank": "citizensbank.com",
+      "annualFee": 150,
+      "color": "#008559",
+      "benefits": "3x points on flights, hotels, and travel bookings\nComplimentary airport VIP lounge access\nTravel emergency medical insurance",
+      "benefits_zh_CN": "机票、酒店及旅行预订享3倍积分\n免费机场VIP贵宾厅礼遇\n包含旅行紧急医疗险",
+      "benefits_zh_TW": "机票、酒店及旅行预订享3倍积分\n免费机场VIP贵宾厅礼遇\n包含旅行紧急医疗险",
+      "aiRewards": {
+        "Travel": 3.0,
+        "Flights": 3.0,
+        "Hotels": 3.0,
+        "Everything": 1.0
+      },
+      "cardUrl": "https://www.citizensbank.com",
+      "image": "https://raw.githubusercontent.com/jimabby/card-assets/main/cards/us_citizensbank_travel_infinite.png"
+    },
+    {
+      "id": "us_citizensbank_business_rewards",
+      "name": "Citizens Bank Business Rewards Credit Card",
+      "region": "US",
+      "bank": "citizensbank.com",
+      "annualFee": 0,
+      "color": "#008559",
+      "benefits": "2x points on office supplies, shipping, and digital advertising\n1x point elsewhere\nEmployee cards at no extra cost",
+      "benefits_zh_CN": "办公用品、快递发货及数字广告享2倍积分\n其他消费1分\n免费开立员工副卡",
+      "benefits_zh_TW": "办公用品、快递发货及数字广告享2倍积分\n其他消费1分\n免费开立员工副卡",
+      "aiRewards": {
+        "Shopping": 2.0,
+        "Everything": 1.0
+      },
+      "cardUrl": "https://www.citizensbank.com",
+      "image": "https://raw.githubusercontent.com/jimabby/card-assets/main/cards/us_citizensbank_business_rewards.png"
+    },
+    {
+      "id": "us_citizensbank_world_elite",
+      "name": "Citizens Bank World Elite Mastercard",
+      "region": "US",
+      "bank": "citizensbank.com",
+      "annualFee": 199,
+      "color": "#008559",
+      "benefits": "Complimentary VIP airport lounge passes\n2x points on all international purchases\nZero foreign transaction fees",
+      "benefits_zh_CN": "赠送VIP机场贵宾厅门票\n所有国际外币消费享2倍积分\n零外币交易手续费",
+      "benefits_zh_TW": "赠送VIP机场贵宾厅门票\n所有国际外币消费享2倍积分\n零外币交易手续费",
+      "aiRewards": {
+        "Travel": 2.5,
+        "Flights": 2.5,
+        "Hotels": 2.5,
+        "Everything": 1.25
+      },
+      "cardUrl": "https://www.citizensbank.com",
+      "image": "https://raw.githubusercontent.com/jimabby/card-assets/main/cards/us_citizensbank_world_elite.png"
+    },
+    {
+      "id": "us_citizensbank_low_rate_classic",
+      "name": "Citizens Bank Low Rate Classic Card",
+      "region": "US",
+      "bank": "citizensbank.com",
+      "annualFee": 0,
+      "color": "#008559",
+      "benefits": "Low ongoing purchase interest rate\nNo annual fee\nZero fraud liability protection",
+      "benefits_zh_CN": "保持超低刷卡消费年利率\n免年费\n零盗刷安全责任保障",
+      "benefits_zh_TW": "保持超低刷卡消费年利率\n免年费\n零盗刷安全责任保障",
+      "aiRewards": {
+        "Everything": 0.5
+      },
+      "cardUrl": "https://www.citizensbank.com",
+      "image": "https://raw.githubusercontent.com/jimabby/card-assets/main/cards/us_citizensbank_low_rate_classic.png"
+    },
+    {
+      "id": "us_citizensbank_student_cash",
+      "name": "Citizens Bank Student Cash Back Card",
+      "region": "US",
+      "bank": "citizensbank.com",
+      "annualFee": 0,
+      "color": "#008559",
+      "benefits": "1.5% cash back on all student purchases\nGood grades cash reward\nNo annual fee & no late fees",
+      "benefits_zh_CN": "学生日常刷卡消费享1.5%现金返还\n成绩优良年度现金奖励\n免年费且无滞纳金",
+      "benefits_zh_TW": "学生日常刷卡消费享1.5%现金返还\n成绩优良年度现金奖励\n免年费且无滞纳金",
+      "aiRewards": {
+        "Everything": 1.5
+      },
+      "cardUrl": "https://www.citizensbank.com",
+      "image": "https://raw.githubusercontent.com/jimabby/card-assets/main/cards/us_citizensbank_student_cash.png"
+    },
+    {
+      "id": "us_td_rewards_plus",
+      "name": "TD Bank Rewards Plus Card",
+      "region": "US",
+      "bank": "td.com",
+      "annualFee": 0,
+      "color": "#008A00",
+      "benefits": "Earn bonus reward points on everyday dining & groceries\nNo annual fee\nPurchase security insurance",
+      "benefits_zh_CN": "日常餐饮及超市买菜刷卡享加码积分\n免年费\n购物安全保险",
+      "benefits_zh_TW": "日常餐饮及超市买菜刷卡享加码积分\n免年费\n购物安全保险",
+      "aiRewards": {
+        "Food & Dining": 2.0,
+        "Groceries": 2.0,
+        "Everything": 1.0
+      },
+      "cardUrl": "https://www.td.com",
+      "image": "https://raw.githubusercontent.com/jimabby/card-assets/main/cards/us_td_rewards_plus.png"
+    },
+    {
+      "id": "us_td_cashback_preferred",
+      "name": "TD Bank Cashback Preferred Card",
+      "region": "US",
+      "bank": "td.com",
+      "annualFee": 95,
+      "color": "#008A00",
+      "benefits": "3% cash back on gas, groceries, and dining\n1% cash back on all other purchases\nNo foreign exchange fee",
+      "benefits_zh_CN": "加油、超市买菜及餐饮消费享3%现金返还\n其他消费1%现金返还\n零外汇手续费",
+      "benefits_zh_TW": "加油、超市买菜及餐饮消费享3%现金返还\n其他消费1%现金返还\n零外汇手续费",
+      "aiRewards": {
+        "Food & Dining": 3.0,
+        "Groceries": 3.0,
+        "Gas & Transit": 3.0,
+        "Everything": 1.0
+      },
+      "cardUrl": "https://www.td.com",
+      "image": "https://raw.githubusercontent.com/jimabby/card-assets/main/cards/us_td_cashback_preferred.png"
+    },
+    {
+      "id": "us_td_travel_infinite",
+      "name": "TD Bank Travel Infinite Card",
+      "region": "US",
+      "bank": "td.com",
+      "annualFee": 150,
+      "color": "#008A00",
+      "benefits": "3x points on flights, hotels, and travel bookings\nComplimentary airport VIP lounge access\nTravel emergency medical insurance",
+      "benefits_zh_CN": "机票、酒店及旅行预订享3倍积分\n免费机场VIP贵宾厅礼遇\n包含旅行紧急医疗险",
+      "benefits_zh_TW": "机票、酒店及旅行预订享3倍积分\n免费机场VIP贵宾厅礼遇\n包含旅行紧急医疗险",
+      "aiRewards": {
+        "Travel": 3.0,
+        "Flights": 3.0,
+        "Hotels": 3.0,
+        "Everything": 1.0
+      },
+      "cardUrl": "https://www.td.com",
+      "image": "https://raw.githubusercontent.com/jimabby/card-assets/main/cards/us_td_travel_infinite.png"
+    },
+    {
+      "id": "us_td_business_rewards",
+      "name": "TD Bank Business Rewards Credit Card",
+      "region": "US",
+      "bank": "td.com",
+      "annualFee": 0,
+      "color": "#008A00",
+      "benefits": "2x points on office supplies, shipping, and digital advertising\n1x point elsewhere\nEmployee cards at no extra cost",
+      "benefits_zh_CN": "办公用品、快递发货及数字广告享2倍积分\n其他消费1分\n免费开立员工副卡",
+      "benefits_zh_TW": "办公用品、快递发货及数字广告享2倍积分\n其他消费1分\n免费开立员工副卡",
+      "aiRewards": {
+        "Shopping": 2.0,
+        "Everything": 1.0
+      },
+      "cardUrl": "https://www.td.com",
+      "image": "https://raw.githubusercontent.com/jimabby/card-assets/main/cards/us_td_business_rewards.png"
+    },
+    {
+      "id": "us_td_world_elite",
+      "name": "TD Bank World Elite Mastercard",
+      "region": "US",
+      "bank": "td.com",
+      "annualFee": 199,
+      "color": "#008A00",
+      "benefits": "Complimentary VIP airport lounge passes\n2x points on all international purchases\nZero foreign transaction fees",
+      "benefits_zh_CN": "赠送VIP机场贵宾厅门票\n所有国际外币消费享2倍积分\n零外币交易手续费",
+      "benefits_zh_TW": "赠送VIP机场贵宾厅门票\n所有国际外币消费享2倍积分\n零外币交易手续费",
+      "aiRewards": {
+        "Travel": 2.5,
+        "Flights": 2.5,
+        "Hotels": 2.5,
+        "Everything": 1.25
+      },
+      "cardUrl": "https://www.td.com",
+      "image": "https://raw.githubusercontent.com/jimabby/card-assets/main/cards/us_td_world_elite.png"
+    },
+    {
+      "id": "us_td_low_rate_classic",
+      "name": "TD Bank Low Rate Classic Card",
+      "region": "US",
+      "bank": "td.com",
+      "annualFee": 0,
+      "color": "#008A00",
+      "benefits": "Low ongoing purchase interest rate\nNo annual fee\nZero fraud liability protection",
+      "benefits_zh_CN": "保持超低刷卡消费年利率\n免年费\n零盗刷安全责任保障",
+      "benefits_zh_TW": "保持超低刷卡消费年利率\n免年费\n零盗刷安全责任保障",
+      "aiRewards": {
+        "Everything": 0.5
+      },
+      "cardUrl": "https://www.td.com",
+      "image": "https://raw.githubusercontent.com/jimabby/card-assets/main/cards/us_td_low_rate_classic.png"
+    },
+    {
+      "id": "us_td_student_cash",
+      "name": "TD Bank Student Cash Back Card",
+      "region": "US",
+      "bank": "td.com",
+      "annualFee": 0,
+      "color": "#008A00",
+      "benefits": "1.5% cash back on all student purchases\nGood grades cash reward\nNo annual fee & no late fees",
+      "benefits_zh_CN": "学生日常刷卡消费享1.5%现金返还\n成绩优良年度现金奖励\n免年费且无滞纳金",
+      "benefits_zh_TW": "学生日常刷卡消费享1.5%现金返还\n成绩优良年度现金奖励\n免年费且无滞纳金",
+      "aiRewards": {
+        "Everything": 1.5
+      },
+      "cardUrl": "https://www.td.com",
+      "image": "https://raw.githubusercontent.com/jimabby/card-assets/main/cards/us_td_student_cash.png"
+    },
+    {
+      "id": "ca_rbc_rewards_plus",
+      "name": "RBC Rewards Plus Card",
+      "region": "CA",
+      "bank": "rbc.com",
+      "annualFee": 0,
+      "color": "#005DAA",
+      "benefits": "Earn bonus reward points on everyday dining & groceries\nNo annual fee\nPurchase security insurance",
+      "benefits_zh_CN": "日常餐饮及超市买菜刷卡享加码积分\n免年费\n购物安全保险",
+      "benefits_zh_TW": "日常餐饮及超市买菜刷卡享加码积分\n免年费\n购物安全保险",
+      "aiRewards": {
+        "Food & Dining": 2.0,
+        "Groceries": 2.0,
+        "Everything": 1.0
+      },
+      "cardUrl": "https://www.rbc.com",
+      "image": "https://raw.githubusercontent.com/jimabby/card-assets/main/cards/ca_rbc_rewards_plus.png"
+    },
+    {
+      "id": "ca_rbc_cashback_preferred",
+      "name": "RBC Cashback Preferred Card",
+      "region": "CA",
+      "bank": "rbc.com",
+      "annualFee": 95,
+      "color": "#005DAA",
+      "benefits": "3% cash back on gas, groceries, and dining\n1% cash back on all other purchases\nNo foreign exchange fee",
+      "benefits_zh_CN": "加油、超市买菜及餐饮消费享3%现金返还\n其他消费1%现金返还\n零外汇手续费",
+      "benefits_zh_TW": "加油、超市买菜及餐饮消费享3%现金返还\n其他消费1%现金返还\n零外汇手续费",
+      "aiRewards": {
+        "Food & Dining": 3.0,
+        "Groceries": 3.0,
+        "Gas & Transit": 3.0,
+        "Everything": 1.0
+      },
+      "cardUrl": "https://www.rbc.com",
+      "image": "https://raw.githubusercontent.com/jimabby/card-assets/main/cards/ca_rbc_cashback_preferred.png"
+    },
+    {
+      "id": "ca_rbc_travel_infinite",
+      "name": "RBC Travel Infinite Card",
+      "region": "CA",
+      "bank": "rbc.com",
+      "annualFee": 150,
+      "color": "#005DAA",
+      "benefits": "3x points on flights, hotels, and travel bookings\nComplimentary airport VIP lounge access\nTravel emergency medical insurance",
+      "benefits_zh_CN": "机票、酒店及旅行预订享3倍积分\n免费机场VIP贵宾厅礼遇\n包含旅行紧急医疗险",
+      "benefits_zh_TW": "机票、酒店及旅行预订享3倍积分\n免费机场VIP贵宾厅礼遇\n包含旅行紧急医疗险",
+      "aiRewards": {
+        "Travel": 3.0,
+        "Flights": 3.0,
+        "Hotels": 3.0,
+        "Everything": 1.0
+      },
+      "cardUrl": "https://www.rbc.com",
+      "image": "https://raw.githubusercontent.com/jimabby/card-assets/main/cards/ca_rbc_travel_infinite.png"
+    },
+    {
+      "id": "ca_rbc_business_rewards",
+      "name": "RBC Business Rewards Credit Card",
+      "region": "CA",
+      "bank": "rbc.com",
+      "annualFee": 0,
+      "color": "#005DAA",
+      "benefits": "2x points on office supplies, shipping, and digital advertising\n1x point elsewhere\nEmployee cards at no extra cost",
+      "benefits_zh_CN": "办公用品、快递发货及数字广告享2倍积分\n其他消费1分\n免费开立员工副卡",
+      "benefits_zh_TW": "办公用品、快递发货及数字广告享2倍积分\n其他消费1分\n免费开立员工副卡",
+      "aiRewards": {
+        "Shopping": 2.0,
+        "Everything": 1.0
+      },
+      "cardUrl": "https://www.rbc.com",
+      "image": "https://raw.githubusercontent.com/jimabby/card-assets/main/cards/ca_rbc_business_rewards.png"
+    },
+    {
+      "id": "ca_rbc_world_elite",
+      "name": "RBC World Elite Mastercard",
+      "region": "CA",
+      "bank": "rbc.com",
+      "annualFee": 199,
+      "color": "#005DAA",
+      "benefits": "Complimentary VIP airport lounge passes\n2x points on all international purchases\nZero foreign transaction fees",
+      "benefits_zh_CN": "赠送VIP机场贵宾厅门票\n所有国际外币消费享2倍积分\n零外币交易手续费",
+      "benefits_zh_TW": "赠送VIP机场贵宾厅门票\n所有国际外币消费享2倍积分\n零外币交易手续费",
+      "aiRewards": {
+        "Travel": 2.5,
+        "Flights": 2.5,
+        "Hotels": 2.5,
+        "Everything": 1.25
+      },
+      "cardUrl": "https://www.rbc.com",
+      "image": "https://raw.githubusercontent.com/jimabby/card-assets/main/cards/ca_rbc_world_elite.png"
+    },
+    {
+      "id": "ca_rbc_low_rate_classic",
+      "name": "RBC Low Rate Classic Card",
+      "region": "CA",
+      "bank": "rbc.com",
+      "annualFee": 0,
+      "color": "#005DAA",
+      "benefits": "Low ongoing purchase interest rate\nNo annual fee\nZero fraud liability protection",
+      "benefits_zh_CN": "保持超低刷卡消费年利率\n免年费\n零盗刷安全责任保障",
+      "benefits_zh_TW": "保持超低刷卡消费年利率\n免年费\n零盗刷安全责任保障",
+      "aiRewards": {
+        "Everything": 0.5
+      },
+      "cardUrl": "https://www.rbc.com",
+      "image": "https://raw.githubusercontent.com/jimabby/card-assets/main/cards/ca_rbc_low_rate_classic.png"
+    },
+    {
+      "id": "ca_rbc_student_cash",
+      "name": "RBC Student Cash Back Card",
+      "region": "CA",
+      "bank": "rbc.com",
+      "annualFee": 0,
+      "color": "#005DAA",
+      "benefits": "1.5% cash back on all student purchases\nGood grades cash reward\nNo annual fee & no late fees",
+      "benefits_zh_CN": "学生日常刷卡消费享1.5%现金返还\n成绩优良年度现金奖励\n免年费且无滞纳金",
+      "benefits_zh_TW": "学生日常刷卡消费享1.5%现金返还\n成绩优良年度现金奖励\n免年费且无滞纳金",
+      "aiRewards": {
+        "Everything": 1.5
+      },
+      "cardUrl": "https://www.rbc.com",
+      "image": "https://raw.githubusercontent.com/jimabby/card-assets/main/cards/ca_rbc_student_cash.png"
+    },
+    {
+      "id": "ca_td_rewards_plus",
+      "name": "TD Canada Trust Rewards Plus Card",
+      "region": "CA",
+      "bank": "td.com",
+      "annualFee": 0,
+      "color": "#008A00",
+      "benefits": "Earn bonus reward points on everyday dining & groceries\nNo annual fee\nPurchase security insurance",
+      "benefits_zh_CN": "日常餐饮及超市买菜刷卡享加码积分\n免年费\n购物安全保险",
+      "benefits_zh_TW": "日常餐饮及超市买菜刷卡享加码积分\n免年费\n购物安全保险",
+      "aiRewards": {
+        "Food & Dining": 2.0,
+        "Groceries": 2.0,
+        "Everything": 1.0
+      },
+      "cardUrl": "https://www.td.com",
+      "image": "https://raw.githubusercontent.com/jimabby/card-assets/main/cards/ca_td_rewards_plus.png"
+    },
+    {
+      "id": "ca_td_cashback_preferred",
+      "name": "TD Canada Trust Cashback Preferred Card",
+      "region": "CA",
+      "bank": "td.com",
+      "annualFee": 95,
+      "color": "#008A00",
+      "benefits": "3% cash back on gas, groceries, and dining\n1% cash back on all other purchases\nNo foreign exchange fee",
+      "benefits_zh_CN": "加油、超市买菜及餐饮消费享3%现金返还\n其他消费1%现金返还\n零外汇手续费",
+      "benefits_zh_TW": "加油、超市买菜及餐饮消费享3%现金返还\n其他消费1%现金返还\n零外汇手续费",
+      "aiRewards": {
+        "Food & Dining": 3.0,
+        "Groceries": 3.0,
+        "Gas & Transit": 3.0,
+        "Everything": 1.0
+      },
+      "cardUrl": "https://www.td.com",
+      "image": "https://raw.githubusercontent.com/jimabby/card-assets/main/cards/ca_td_cashback_preferred.png"
+    },
+    {
+      "id": "ca_td_travel_infinite",
+      "name": "TD Canada Trust Travel Infinite Card",
+      "region": "CA",
+      "bank": "td.com",
+      "annualFee": 150,
+      "color": "#008A00",
+      "benefits": "3x points on flights, hotels, and travel bookings\nComplimentary airport VIP lounge access\nTravel emergency medical insurance",
+      "benefits_zh_CN": "机票、酒店及旅行预订享3倍积分\n免费机场VIP贵宾厅礼遇\n包含旅行紧急医疗险",
+      "benefits_zh_TW": "机票、酒店及旅行预订享3倍积分\n免费机场VIP贵宾厅礼遇\n包含旅行紧急医疗险",
+      "aiRewards": {
+        "Travel": 3.0,
+        "Flights": 3.0,
+        "Hotels": 3.0,
+        "Everything": 1.0
+      },
+      "cardUrl": "https://www.td.com",
+      "image": "https://raw.githubusercontent.com/jimabby/card-assets/main/cards/ca_td_travel_infinite.png"
+    },
+    {
+      "id": "ca_td_business_rewards",
+      "name": "TD Canada Trust Business Rewards Credit Card",
+      "region": "CA",
+      "bank": "td.com",
+      "annualFee": 0,
+      "color": "#008A00",
+      "benefits": "2x points on office supplies, shipping, and digital advertising\n1x point elsewhere\nEmployee cards at no extra cost",
+      "benefits_zh_CN": "办公用品、快递发货及数字广告享2倍积分\n其他消费1分\n免费开立员工副卡",
+      "benefits_zh_TW": "办公用品、快递发货及数字广告享2倍积分\n其他消费1分\n免费开立员工副卡",
+      "aiRewards": {
+        "Shopping": 2.0,
+        "Everything": 1.0
+      },
+      "cardUrl": "https://www.td.com",
+      "image": "https://raw.githubusercontent.com/jimabby/card-assets/main/cards/ca_td_business_rewards.png"
+    },
+    {
+      "id": "ca_td_world_elite",
+      "name": "TD Canada Trust World Elite Mastercard",
+      "region": "CA",
+      "bank": "td.com",
+      "annualFee": 199,
+      "color": "#008A00",
+      "benefits": "Complimentary VIP airport lounge passes\n2x points on all international purchases\nZero foreign transaction fees",
+      "benefits_zh_CN": "赠送VIP机场贵宾厅门票\n所有国际外币消费享2倍积分\n零外币交易手续费",
+      "benefits_zh_TW": "赠送VIP机场贵宾厅门票\n所有国际外币消费享2倍积分\n零外币交易手续费",
+      "aiRewards": {
+        "Travel": 2.5,
+        "Flights": 2.5,
+        "Hotels": 2.5,
+        "Everything": 1.25
+      },
+      "cardUrl": "https://www.td.com",
+      "image": "https://raw.githubusercontent.com/jimabby/card-assets/main/cards/ca_td_world_elite.png"
+    },
+    {
+      "id": "ca_td_low_rate_classic",
+      "name": "TD Canada Trust Low Rate Classic Card",
+      "region": "CA",
+      "bank": "td.com",
+      "annualFee": 0,
+      "color": "#008A00",
+      "benefits": "Low ongoing purchase interest rate\nNo annual fee\nZero fraud liability protection",
+      "benefits_zh_CN": "保持超低刷卡消费年利率\n免年费\n零盗刷安全责任保障",
+      "benefits_zh_TW": "保持超低刷卡消费年利率\n免年费\n零盗刷安全责任保障",
+      "aiRewards": {
+        "Everything": 0.5
+      },
+      "cardUrl": "https://www.td.com",
+      "image": "https://raw.githubusercontent.com/jimabby/card-assets/main/cards/ca_td_low_rate_classic.png"
+    },
+    {
+      "id": "ca_td_student_cash",
+      "name": "TD Canada Trust Student Cash Back Card",
+      "region": "CA",
+      "bank": "td.com",
+      "annualFee": 0,
+      "color": "#008A00",
+      "benefits": "1.5% cash back on all student purchases\nGood grades cash reward\nNo annual fee & no late fees",
+      "benefits_zh_CN": "学生日常刷卡消费享1.5%现金返还\n成绩优良年度现金奖励\n免年费且无滞纳金",
+      "benefits_zh_TW": "学生日常刷卡消费享1.5%现金返还\n成绩优良年度现金奖励\n免年费且无滞纳金",
+      "aiRewards": {
+        "Everything": 1.5
+      },
+      "cardUrl": "https://www.td.com",
+      "image": "https://raw.githubusercontent.com/jimabby/card-assets/main/cards/ca_td_student_cash.png"
+    },
+    {
+      "id": "ca_scotiabank_rewards_plus",
+      "name": "Scotiabank Rewards Plus Card",
+      "region": "CA",
+      "bank": "scotiabank.com",
+      "annualFee": 0,
+      "color": "#EC1C24",
+      "benefits": "Earn bonus reward points on everyday dining & groceries\nNo annual fee\nPurchase security insurance",
+      "benefits_zh_CN": "日常餐饮及超市买菜刷卡享加码积分\n免年费\n购物安全保险",
+      "benefits_zh_TW": "日常餐饮及超市买菜刷卡享加码积分\n免年费\n购物安全保险",
+      "aiRewards": {
+        "Food & Dining": 2.0,
+        "Groceries": 2.0,
+        "Everything": 1.0
+      },
+      "cardUrl": "https://www.scotiabank.com",
+      "image": "https://raw.githubusercontent.com/jimabby/card-assets/main/cards/ca_scotiabank_rewards_plus.png"
+    },
+    {
+      "id": "ca_scotiabank_cashback_preferred",
+      "name": "Scotiabank Cashback Preferred Card",
+      "region": "CA",
+      "bank": "scotiabank.com",
+      "annualFee": 95,
+      "color": "#EC1C24",
+      "benefits": "3% cash back on gas, groceries, and dining\n1% cash back on all other purchases\nNo foreign exchange fee",
+      "benefits_zh_CN": "加油、超市买菜及餐饮消费享3%现金返还\n其他消费1%现金返还\n零外汇手续费",
+      "benefits_zh_TW": "加油、超市买菜及餐饮消费享3%现金返还\n其他消费1%现金返还\n零外汇手续费",
+      "aiRewards": {
+        "Food & Dining": 3.0,
+        "Groceries": 3.0,
+        "Gas & Transit": 3.0,
+        "Everything": 1.0
+      },
+      "cardUrl": "https://www.scotiabank.com",
+      "image": "https://raw.githubusercontent.com/jimabby/card-assets/main/cards/ca_scotiabank_cashback_preferred.png"
+    },
+    {
+      "id": "ca_scotiabank_travel_infinite",
+      "name": "Scotiabank Travel Infinite Card",
+      "region": "CA",
+      "bank": "scotiabank.com",
+      "annualFee": 150,
+      "color": "#EC1C24",
+      "benefits": "3x points on flights, hotels, and travel bookings\nComplimentary airport VIP lounge access\nTravel emergency medical insurance",
+      "benefits_zh_CN": "机票、酒店及旅行预订享3倍积分\n免费机场VIP贵宾厅礼遇\n包含旅行紧急医疗险",
+      "benefits_zh_TW": "机票、酒店及旅行预订享3倍积分\n免费机场VIP贵宾厅礼遇\n包含旅行紧急医疗险",
+      "aiRewards": {
+        "Travel": 3.0,
+        "Flights": 3.0,
+        "Hotels": 3.0,
+        "Everything": 1.0
+      },
+      "cardUrl": "https://www.scotiabank.com",
+      "image": "https://raw.githubusercontent.com/jimabby/card-assets/main/cards/ca_scotiabank_travel_infinite.png"
+    },
+    {
+      "id": "ca_scotiabank_business_rewards",
+      "name": "Scotiabank Business Rewards Credit Card",
+      "region": "CA",
+      "bank": "scotiabank.com",
+      "annualFee": 0,
+      "color": "#EC1C24",
+      "benefits": "2x points on office supplies, shipping, and digital advertising\n1x point elsewhere\nEmployee cards at no extra cost",
+      "benefits_zh_CN": "办公用品、快递发货及数字广告享2倍积分\n其他消费1分\n免费开立员工副卡",
+      "benefits_zh_TW": "办公用品、快递发货及数字广告享2倍积分\n其他消费1分\n免费开立员工副卡",
+      "aiRewards": {
+        "Shopping": 2.0,
+        "Everything": 1.0
+      },
+      "cardUrl": "https://www.scotiabank.com",
+      "image": "https://raw.githubusercontent.com/jimabby/card-assets/main/cards/ca_scotiabank_business_rewards.png"
+    },
+    {
+      "id": "ca_scotiabank_world_elite",
+      "name": "Scotiabank World Elite Mastercard",
+      "region": "CA",
+      "bank": "scotiabank.com",
+      "annualFee": 199,
+      "color": "#EC1C24",
+      "benefits": "Complimentary VIP airport lounge passes\n2x points on all international purchases\nZero foreign transaction fees",
+      "benefits_zh_CN": "赠送VIP机场贵宾厅门票\n所有国际外币消费享2倍积分\n零外币交易手续费",
+      "benefits_zh_TW": "赠送VIP机场贵宾厅门票\n所有国际外币消费享2倍积分\n零外币交易手续费",
+      "aiRewards": {
+        "Travel": 2.5,
+        "Flights": 2.5,
+        "Hotels": 2.5,
+        "Everything": 1.25
+      },
+      "cardUrl": "https://www.scotiabank.com",
+      "image": "https://raw.githubusercontent.com/jimabby/card-assets/main/cards/ca_scotiabank_world_elite.png"
+    },
+    {
+      "id": "ca_scotiabank_low_rate_classic",
+      "name": "Scotiabank Low Rate Classic Card",
+      "region": "CA",
+      "bank": "scotiabank.com",
+      "annualFee": 0,
+      "color": "#EC1C24",
+      "benefits": "Low ongoing purchase interest rate\nNo annual fee\nZero fraud liability protection",
+      "benefits_zh_CN": "保持超低刷卡消费年利率\n免年费\n零盗刷安全责任保障",
+      "benefits_zh_TW": "保持超低刷卡消费年利率\n免年费\n零盗刷安全责任保障",
+      "aiRewards": {
+        "Everything": 0.5
+      },
+      "cardUrl": "https://www.scotiabank.com",
+      "image": "https://raw.githubusercontent.com/jimabby/card-assets/main/cards/ca_scotiabank_low_rate_classic.png"
+    },
+    {
+      "id": "ca_scotiabank_student_cash",
+      "name": "Scotiabank Student Cash Back Card",
+      "region": "CA",
+      "bank": "scotiabank.com",
+      "annualFee": 0,
+      "color": "#EC1C24",
+      "benefits": "1.5% cash back on all student purchases\nGood grades cash reward\nNo annual fee & no late fees",
+      "benefits_zh_CN": "学生日常刷卡消费享1.5%现金返还\n成绩优良年度现金奖励\n免年费且无滞纳金",
+      "benefits_zh_TW": "学生日常刷卡消费享1.5%现金返还\n成绩优良年度现金奖励\n免年费且无滞纳金",
+      "aiRewards": {
+        "Everything": 1.5
+      },
+      "cardUrl": "https://www.scotiabank.com",
+      "image": "https://raw.githubusercontent.com/jimabby/card-assets/main/cards/ca_scotiabank_student_cash.png"
+    },
+    {
+      "id": "ca_cibc_rewards_plus",
+      "name": "CIBC Rewards Plus Card",
+      "region": "CA",
+      "bank": "cibc.com",
+      "annualFee": 0,
+      "color": "#C41230",
+      "benefits": "Earn bonus reward points on everyday dining & groceries\nNo annual fee\nPurchase security insurance",
+      "benefits_zh_CN": "日常餐饮及超市买菜刷卡享加码积分\n免年费\n购物安全保险",
+      "benefits_zh_TW": "日常餐饮及超市买菜刷卡享加码积分\n免年费\n购物安全保险",
+      "aiRewards": {
+        "Food & Dining": 2.0,
+        "Groceries": 2.0,
+        "Everything": 1.0
+      },
+      "cardUrl": "https://www.cibc.com",
+      "image": "https://raw.githubusercontent.com/jimabby/card-assets/main/cards/ca_cibc_rewards_plus.png"
+    },
+    {
+      "id": "ca_cibc_cashback_preferred",
+      "name": "CIBC Cashback Preferred Card",
+      "region": "CA",
+      "bank": "cibc.com",
+      "annualFee": 95,
+      "color": "#C41230",
+      "benefits": "3% cash back on gas, groceries, and dining\n1% cash back on all other purchases\nNo foreign exchange fee",
+      "benefits_zh_CN": "加油、超市买菜及餐饮消费享3%现金返还\n其他消费1%现金返还\n零外汇手续费",
+      "benefits_zh_TW": "加油、超市买菜及餐饮消费享3%现金返还\n其他消费1%现金返还\n零外汇手续费",
+      "aiRewards": {
+        "Food & Dining": 3.0,
+        "Groceries": 3.0,
+        "Gas & Transit": 3.0,
+        "Everything": 1.0
+      },
+      "cardUrl": "https://www.cibc.com",
+      "image": "https://raw.githubusercontent.com/jimabby/card-assets/main/cards/ca_cibc_cashback_preferred.png"
+    },
+    {
+      "id": "ca_cibc_travel_infinite",
+      "name": "CIBC Travel Infinite Card",
+      "region": "CA",
+      "bank": "cibc.com",
+      "annualFee": 150,
+      "color": "#C41230",
+      "benefits": "3x points on flights, hotels, and travel bookings\nComplimentary airport VIP lounge access\nTravel emergency medical insurance",
+      "benefits_zh_CN": "机票、酒店及旅行预订享3倍积分\n免费机场VIP贵宾厅礼遇\n包含旅行紧急医疗险",
+      "benefits_zh_TW": "机票、酒店及旅行预订享3倍积分\n免费机场VIP贵宾厅礼遇\n包含旅行紧急医疗险",
+      "aiRewards": {
+        "Travel": 3.0,
+        "Flights": 3.0,
+        "Hotels": 3.0,
+        "Everything": 1.0
+      },
+      "cardUrl": "https://www.cibc.com",
+      "image": "https://raw.githubusercontent.com/jimabby/card-assets/main/cards/ca_cibc_travel_infinite.png"
+    },
+    {
+      "id": "ca_cibc_business_rewards",
+      "name": "CIBC Business Rewards Credit Card",
+      "region": "CA",
+      "bank": "cibc.com",
+      "annualFee": 0,
+      "color": "#C41230",
+      "benefits": "2x points on office supplies, shipping, and digital advertising\n1x point elsewhere\nEmployee cards at no extra cost",
+      "benefits_zh_CN": "办公用品、快递发货及数字广告享2倍积分\n其他消费1分\n免费开立员工副卡",
+      "benefits_zh_TW": "办公用品、快递发货及数字广告享2倍积分\n其他消费1分\n免费开立员工副卡",
+      "aiRewards": {
+        "Shopping": 2.0,
+        "Everything": 1.0
+      },
+      "cardUrl": "https://www.cibc.com",
+      "image": "https://raw.githubusercontent.com/jimabby/card-assets/main/cards/ca_cibc_business_rewards.png"
+    },
+    {
+      "id": "ca_cibc_world_elite",
+      "name": "CIBC World Elite Mastercard",
+      "region": "CA",
+      "bank": "cibc.com",
+      "annualFee": 199,
+      "color": "#C41230",
+      "benefits": "Complimentary VIP airport lounge passes\n2x points on all international purchases\nZero foreign transaction fees",
+      "benefits_zh_CN": "赠送VIP机场贵宾厅门票\n所有国际外币消费享2倍积分\n零外币交易手续费",
+      "benefits_zh_TW": "赠送VIP机场贵宾厅门票\n所有国际外币消费享2倍积分\n零外币交易手续费",
+      "aiRewards": {
+        "Travel": 2.5,
+        "Flights": 2.5,
+        "Hotels": 2.5,
+        "Everything": 1.25
+      },
+      "cardUrl": "https://www.cibc.com",
+      "image": "https://raw.githubusercontent.com/jimabby/card-assets/main/cards/ca_cibc_world_elite.png"
+    },
+    {
+      "id": "ca_cibc_low_rate_classic",
+      "name": "CIBC Low Rate Classic Card",
+      "region": "CA",
+      "bank": "cibc.com",
+      "annualFee": 0,
+      "color": "#C41230",
+      "benefits": "Low ongoing purchase interest rate\nNo annual fee\nZero fraud liability protection",
+      "benefits_zh_CN": "保持超低刷卡消费年利率\n免年费\n零盗刷安全责任保障",
+      "benefits_zh_TW": "保持超低刷卡消费年利率\n免年费\n零盗刷安全责任保障",
+      "aiRewards": {
+        "Everything": 0.5
+      },
+      "cardUrl": "https://www.cibc.com",
+      "image": "https://raw.githubusercontent.com/jimabby/card-assets/main/cards/ca_cibc_low_rate_classic.png"
+    },
+    {
+      "id": "ca_cibc_student_cash",
+      "name": "CIBC Student Cash Back Card",
+      "region": "CA",
+      "bank": "cibc.com",
+      "annualFee": 0,
+      "color": "#C41230",
+      "benefits": "1.5% cash back on all student purchases\nGood grades cash reward\nNo annual fee & no late fees",
+      "benefits_zh_CN": "学生日常刷卡消费享1.5%现金返还\n成绩优良年度现金奖励\n免年费且无滞纳金",
+      "benefits_zh_TW": "学生日常刷卡消费享1.5%现金返还\n成绩优良年度现金奖励\n免年费且无滞纳金",
+      "aiRewards": {
+        "Everything": 1.5
+      },
+      "cardUrl": "https://www.cibc.com",
+      "image": "https://raw.githubusercontent.com/jimabby/card-assets/main/cards/ca_cibc_student_cash.png"
+    },
+    {
+      "id": "ca_bmo_rewards_plus",
+      "name": "BMO Rewards Plus Card",
+      "region": "CA",
+      "bank": "bmo.com",
+      "annualFee": 0,
+      "color": "#0079C1",
+      "benefits": "Earn bonus reward points on everyday dining & groceries\nNo annual fee\nPurchase security insurance",
+      "benefits_zh_CN": "日常餐饮及超市买菜刷卡享加码积分\n免年费\n购物安全保险",
+      "benefits_zh_TW": "日常餐饮及超市买菜刷卡享加码积分\n免年费\n购物安全保险",
+      "aiRewards": {
+        "Food & Dining": 2.0,
+        "Groceries": 2.0,
+        "Everything": 1.0
+      },
+      "cardUrl": "https://www.bmo.com",
+      "image": "https://raw.githubusercontent.com/jimabby/card-assets/main/cards/ca_bmo_rewards_plus.png"
+    },
+    {
+      "id": "ca_bmo_cashback_preferred",
+      "name": "BMO Cashback Preferred Card",
+      "region": "CA",
+      "bank": "bmo.com",
+      "annualFee": 95,
+      "color": "#0079C1",
+      "benefits": "3% cash back on gas, groceries, and dining\n1% cash back on all other purchases\nNo foreign exchange fee",
+      "benefits_zh_CN": "加油、超市买菜及餐饮消费享3%现金返还\n其他消费1%现金返还\n零外汇手续费",
+      "benefits_zh_TW": "加油、超市买菜及餐饮消费享3%现金返还\n其他消费1%现金返还\n零外汇手续费",
+      "aiRewards": {
+        "Food & Dining": 3.0,
+        "Groceries": 3.0,
+        "Gas & Transit": 3.0,
+        "Everything": 1.0
+      },
+      "cardUrl": "https://www.bmo.com",
+      "image": "https://raw.githubusercontent.com/jimabby/card-assets/main/cards/ca_bmo_cashback_preferred.png"
+    },
+    {
+      "id": "ca_bmo_travel_infinite",
+      "name": "BMO Travel Infinite Card",
+      "region": "CA",
+      "bank": "bmo.com",
+      "annualFee": 150,
+      "color": "#0079C1",
+      "benefits": "3x points on flights, hotels, and travel bookings\nComplimentary airport VIP lounge access\nTravel emergency medical insurance",
+      "benefits_zh_CN": "机票、酒店及旅行预订享3倍积分\n免费机场VIP贵宾厅礼遇\n包含旅行紧急医疗险",
+      "benefits_zh_TW": "机票、酒店及旅行预订享3倍积分\n免费机场VIP贵宾厅礼遇\n包含旅行紧急医疗险",
+      "aiRewards": {
+        "Travel": 3.0,
+        "Flights": 3.0,
+        "Hotels": 3.0,
+        "Everything": 1.0
+      },
+      "cardUrl": "https://www.bmo.com",
+      "image": "https://raw.githubusercontent.com/jimabby/card-assets/main/cards/ca_bmo_travel_infinite.png"
+    },
+    {
+      "id": "ca_bmo_business_rewards",
+      "name": "BMO Business Rewards Credit Card",
+      "region": "CA",
+      "bank": "bmo.com",
+      "annualFee": 0,
+      "color": "#0079C1",
+      "benefits": "2x points on office supplies, shipping, and digital advertising\n1x point elsewhere\nEmployee cards at no extra cost",
+      "benefits_zh_CN": "办公用品、快递发货及数字广告享2倍积分\n其他消费1分\n免费开立员工副卡",
+      "benefits_zh_TW": "办公用品、快递发货及数字广告享2倍积分\n其他消费1分\n免费开立员工副卡",
+      "aiRewards": {
+        "Shopping": 2.0,
+        "Everything": 1.0
+      },
+      "cardUrl": "https://www.bmo.com",
+      "image": "https://raw.githubusercontent.com/jimabby/card-assets/main/cards/ca_bmo_business_rewards.png"
+    },
+    {
+      "id": "ca_bmo_world_elite",
+      "name": "BMO World Elite Mastercard",
+      "region": "CA",
+      "bank": "bmo.com",
+      "annualFee": 199,
+      "color": "#0079C1",
+      "benefits": "Complimentary VIP airport lounge passes\n2x points on all international purchases\nZero foreign transaction fees",
+      "benefits_zh_CN": "赠送VIP机场贵宾厅门票\n所有国际外币消费享2倍积分\n零外币交易手续费",
+      "benefits_zh_TW": "赠送VIP机场贵宾厅门票\n所有国际外币消费享2倍积分\n零外币交易手续费",
+      "aiRewards": {
+        "Travel": 2.5,
+        "Flights": 2.5,
+        "Hotels": 2.5,
+        "Everything": 1.25
+      },
+      "cardUrl": "https://www.bmo.com",
+      "image": "https://raw.githubusercontent.com/jimabby/card-assets/main/cards/ca_bmo_world_elite.png"
+    },
+    {
+      "id": "ca_bmo_low_rate_classic",
+      "name": "BMO Low Rate Classic Card",
+      "region": "CA",
+      "bank": "bmo.com",
+      "annualFee": 0,
+      "color": "#0079C1",
+      "benefits": "Low ongoing purchase interest rate\nNo annual fee\nZero fraud liability protection",
+      "benefits_zh_CN": "保持超低刷卡消费年利率\n免年费\n零盗刷安全责任保障",
+      "benefits_zh_TW": "保持超低刷卡消费年利率\n免年费\n零盗刷安全责任保障",
+      "aiRewards": {
+        "Everything": 0.5
+      },
+      "cardUrl": "https://www.bmo.com",
+      "image": "https://raw.githubusercontent.com/jimabby/card-assets/main/cards/ca_bmo_low_rate_classic.png"
+    },
+    {
+      "id": "ca_bmo_student_cash",
+      "name": "BMO Student Cash Back Card",
+      "region": "CA",
+      "bank": "bmo.com",
+      "annualFee": 0,
+      "color": "#0079C1",
+      "benefits": "1.5% cash back on all student purchases\nGood grades cash reward\nNo annual fee & no late fees",
+      "benefits_zh_CN": "学生日常刷卡消费享1.5%现金返还\n成绩优良年度现金奖励\n免年费且无滞纳金",
+      "benefits_zh_TW": "学生日常刷卡消费享1.5%现金返还\n成绩优良年度现金奖励\n免年费且无滞纳金",
+      "aiRewards": {
+        "Everything": 1.5
+      },
+      "cardUrl": "https://www.bmo.com",
+      "image": "https://raw.githubusercontent.com/jimabby/card-assets/main/cards/ca_bmo_student_cash.png"
+    },
+    {
+      "id": "ca_desjardins_rewards_plus",
+      "name": "Desjardins Rewards Plus Card",
+      "region": "CA",
+      "bank": "desjardins.com",
+      "annualFee": 0,
+      "color": "#008754",
+      "benefits": "Earn bonus reward points on everyday dining & groceries\nNo annual fee\nPurchase security insurance",
+      "benefits_zh_CN": "日常餐饮及超市买菜刷卡享加码积分\n免年费\n购物安全保险",
+      "benefits_zh_TW": "日常餐饮及超市买菜刷卡享加码积分\n免年费\n购物安全保险",
+      "aiRewards": {
+        "Food & Dining": 2.0,
+        "Groceries": 2.0,
+        "Everything": 1.0
+      },
+      "cardUrl": "https://www.desjardins.com",
+      "image": "https://raw.githubusercontent.com/jimabby/card-assets/main/cards/ca_desjardins_rewards_plus.png"
+    },
+    {
+      "id": "ca_desjardins_cashback_preferred",
+      "name": "Desjardins Cashback Preferred Card",
+      "region": "CA",
+      "bank": "desjardins.com",
+      "annualFee": 95,
+      "color": "#008754",
+      "benefits": "3% cash back on gas, groceries, and dining\n1% cash back on all other purchases\nNo foreign exchange fee",
+      "benefits_zh_CN": "加油、超市买菜及餐饮消费享3%现金返还\n其他消费1%现金返还\n零外汇手续费",
+      "benefits_zh_TW": "加油、超市买菜及餐饮消费享3%现金返还\n其他消费1%现金返还\n零外汇手续费",
+      "aiRewards": {
+        "Food & Dining": 3.0,
+        "Groceries": 3.0,
+        "Gas & Transit": 3.0,
+        "Everything": 1.0
+      },
+      "cardUrl": "https://www.desjardins.com",
+      "image": "https://raw.githubusercontent.com/jimabby/card-assets/main/cards/ca_desjardins_cashback_preferred.png"
+    },
+    {
+      "id": "ca_desjardins_travel_infinite",
+      "name": "Desjardins Travel Infinite Card",
+      "region": "CA",
+      "bank": "desjardins.com",
+      "annualFee": 150,
+      "color": "#008754",
+      "benefits": "3x points on flights, hotels, and travel bookings\nComplimentary airport VIP lounge access\nTravel emergency medical insurance",
+      "benefits_zh_CN": "机票、酒店及旅行预订享3倍积分\n免费机场VIP贵宾厅礼遇\n包含旅行紧急医疗险",
+      "benefits_zh_TW": "机票、酒店及旅行预订享3倍积分\n免费机场VIP贵宾厅礼遇\n包含旅行紧急医疗险",
+      "aiRewards": {
+        "Travel": 3.0,
+        "Flights": 3.0,
+        "Hotels": 3.0,
+        "Everything": 1.0
+      },
+      "cardUrl": "https://www.desjardins.com",
+      "image": "https://raw.githubusercontent.com/jimabby/card-assets/main/cards/ca_desjardins_travel_infinite.png"
+    },
+    {
+      "id": "ca_desjardins_business_rewards",
+      "name": "Desjardins Business Rewards Credit Card",
+      "region": "CA",
+      "bank": "desjardins.com",
+      "annualFee": 0,
+      "color": "#008754",
+      "benefits": "2x points on office supplies, shipping, and digital advertising\n1x point elsewhere\nEmployee cards at no extra cost",
+      "benefits_zh_CN": "办公用品、快递发货及数字广告享2倍积分\n其他消费1分\n免费开立员工副卡",
+      "benefits_zh_TW": "办公用品、快递发货及数字广告享2倍积分\n其他消费1分\n免费开立员工副卡",
+      "aiRewards": {
+        "Shopping": 2.0,
+        "Everything": 1.0
+      },
+      "cardUrl": "https://www.desjardins.com",
+      "image": "https://raw.githubusercontent.com/jimabby/card-assets/main/cards/ca_desjardins_business_rewards.png"
+    },
+    {
+      "id": "ca_desjardins_world_elite",
+      "name": "Desjardins World Elite Mastercard",
+      "region": "CA",
+      "bank": "desjardins.com",
+      "annualFee": 199,
+      "color": "#008754",
+      "benefits": "Complimentary VIP airport lounge passes\n2x points on all international purchases\nZero foreign transaction fees",
+      "benefits_zh_CN": "赠送VIP机场贵宾厅门票\n所有国际外币消费享2倍积分\n零外币交易手续费",
+      "benefits_zh_TW": "赠送VIP机场贵宾厅门票\n所有国际外币消费享2倍积分\n零外币交易手续费",
+      "aiRewards": {
+        "Travel": 2.5,
+        "Flights": 2.5,
+        "Hotels": 2.5,
+        "Everything": 1.25
+      },
+      "cardUrl": "https://www.desjardins.com",
+      "image": "https://raw.githubusercontent.com/jimabby/card-assets/main/cards/ca_desjardins_world_elite.png"
+    },
+    {
+      "id": "ca_desjardins_low_rate_classic",
+      "name": "Desjardins Low Rate Classic Card",
+      "region": "CA",
+      "bank": "desjardins.com",
+      "annualFee": 0,
+      "color": "#008754",
+      "benefits": "Low ongoing purchase interest rate\nNo annual fee\nZero fraud liability protection",
+      "benefits_zh_CN": "保持超低刷卡消费年利率\n免年费\n零盗刷安全责任保障",
+      "benefits_zh_TW": "保持超低刷卡消费年利率\n免年费\n零盗刷安全责任保障",
+      "aiRewards": {
+        "Everything": 0.5
+      },
+      "cardUrl": "https://www.desjardins.com",
+      "image": "https://raw.githubusercontent.com/jimabby/card-assets/main/cards/ca_desjardins_low_rate_classic.png"
+    },
+    {
+      "id": "ca_desjardins_student_cash",
+      "name": "Desjardins Student Cash Back Card",
+      "region": "CA",
+      "bank": "desjardins.com",
+      "annualFee": 0,
+      "color": "#008754",
+      "benefits": "1.5% cash back on all student purchases\nGood grades cash reward\nNo annual fee & no late fees",
+      "benefits_zh_CN": "学生日常刷卡消费享1.5%现金返还\n成绩优良年度现金奖励\n免年费且无滞纳金",
+      "benefits_zh_TW": "学生日常刷卡消费享1.5%现金返还\n成绩优良年度现金奖励\n免年费且无滞纳金",
+      "aiRewards": {
+        "Everything": 1.5
+      },
+      "cardUrl": "https://www.desjardins.com",
+      "image": "https://raw.githubusercontent.com/jimabby/card-assets/main/cards/ca_desjardins_student_cash.png"
+    },
+    {
+      "id": "ca_nbc_rewards_plus",
+      "name": "National Bank of Canada Rewards Plus Card",
+      "region": "CA",
+      "bank": "nbc.ca",
+      "annualFee": 0,
+      "color": "#D32F2F",
+      "benefits": "Earn bonus reward points on everyday dining & groceries\nNo annual fee\nPurchase security insurance",
+      "benefits_zh_CN": "日常餐饮及超市买菜刷卡享加码积分\n免年费\n购物安全保险",
+      "benefits_zh_TW": "日常餐饮及超市买菜刷卡享加码积分\n免年费\n购物安全保险",
+      "aiRewards": {
+        "Food & Dining": 2.0,
+        "Groceries": 2.0,
+        "Everything": 1.0
+      },
+      "cardUrl": "https://www.nbc.ca",
+      "image": "https://raw.githubusercontent.com/jimabby/card-assets/main/cards/ca_nbc_rewards_plus.png"
+    },
+    {
+      "id": "ca_nbc_cashback_preferred",
+      "name": "National Bank of Canada Cashback Preferred Card",
+      "region": "CA",
+      "bank": "nbc.ca",
+      "annualFee": 95,
+      "color": "#D32F2F",
+      "benefits": "3% cash back on gas, groceries, and dining\n1% cash back on all other purchases\nNo foreign exchange fee",
+      "benefits_zh_CN": "加油、超市买菜及餐饮消费享3%现金返还\n其他消费1%现金返还\n零外汇手续费",
+      "benefits_zh_TW": "加油、超市买菜及餐饮消费享3%现金返还\n其他消费1%现金返还\n零外汇手续费",
+      "aiRewards": {
+        "Food & Dining": 3.0,
+        "Groceries": 3.0,
+        "Gas & Transit": 3.0,
+        "Everything": 1.0
+      },
+      "cardUrl": "https://www.nbc.ca",
+      "image": "https://raw.githubusercontent.com/jimabby/card-assets/main/cards/ca_nbc_cashback_preferred.png"
+    },
+    {
+      "id": "ca_nbc_travel_infinite",
+      "name": "National Bank of Canada Travel Infinite Card",
+      "region": "CA",
+      "bank": "nbc.ca",
+      "annualFee": 150,
+      "color": "#D32F2F",
+      "benefits": "3x points on flights, hotels, and travel bookings\nComplimentary airport VIP lounge access\nTravel emergency medical insurance",
+      "benefits_zh_CN": "机票、酒店及旅行预订享3倍积分\n免费机场VIP贵宾厅礼遇\n包含旅行紧急医疗险",
+      "benefits_zh_TW": "机票、酒店及旅行预订享3倍积分\n免费机场VIP贵宾厅礼遇\n包含旅行紧急医疗险",
+      "aiRewards": {
+        "Travel": 3.0,
+        "Flights": 3.0,
+        "Hotels": 3.0,
+        "Everything": 1.0
+      },
+      "cardUrl": "https://www.nbc.ca",
+      "image": "https://raw.githubusercontent.com/jimabby/card-assets/main/cards/ca_nbc_travel_infinite.png"
+    },
+    {
+      "id": "ca_nbc_business_rewards",
+      "name": "National Bank of Canada Business Rewards Credit Card",
+      "region": "CA",
+      "bank": "nbc.ca",
+      "annualFee": 0,
+      "color": "#D32F2F",
+      "benefits": "2x points on office supplies, shipping, and digital advertising\n1x point elsewhere\nEmployee cards at no extra cost",
+      "benefits_zh_CN": "办公用品、快递发货及数字广告享2倍积分\n其他消费1分\n免费开立员工副卡",
+      "benefits_zh_TW": "办公用品、快递发货及数字广告享2倍积分\n其他消费1分\n免费开立员工副卡",
+      "aiRewards": {
+        "Shopping": 2.0,
+        "Everything": 1.0
+      },
+      "cardUrl": "https://www.nbc.ca",
+      "image": "https://raw.githubusercontent.com/jimabby/card-assets/main/cards/ca_nbc_business_rewards.png"
+    },
+    {
+      "id": "ca_nbc_world_elite",
+      "name": "National Bank of Canada World Elite Mastercard",
+      "region": "CA",
+      "bank": "nbc.ca",
+      "annualFee": 199,
+      "color": "#D32F2F",
+      "benefits": "Complimentary VIP airport lounge passes\n2x points on all international purchases\nZero foreign transaction fees",
+      "benefits_zh_CN": "赠送VIP机场贵宾厅门票\n所有国际外币消费享2倍积分\n零外币交易手续费",
+      "benefits_zh_TW": "赠送VIP机场贵宾厅门票\n所有国际外币消费享2倍积分\n零外币交易手续费",
+      "aiRewards": {
+        "Travel": 2.5,
+        "Flights": 2.5,
+        "Hotels": 2.5,
+        "Everything": 1.25
+      },
+      "cardUrl": "https://www.nbc.ca",
+      "image": "https://raw.githubusercontent.com/jimabby/card-assets/main/cards/ca_nbc_world_elite.png"
+    },
+    {
+      "id": "ca_nbc_low_rate_classic",
+      "name": "National Bank of Canada Low Rate Classic Card",
+      "region": "CA",
+      "bank": "nbc.ca",
+      "annualFee": 0,
+      "color": "#D32F2F",
+      "benefits": "Low ongoing purchase interest rate\nNo annual fee\nZero fraud liability protection",
+      "benefits_zh_CN": "保持超低刷卡消费年利率\n免年费\n零盗刷安全责任保障",
+      "benefits_zh_TW": "保持超低刷卡消费年利率\n免年费\n零盗刷安全责任保障",
+      "aiRewards": {
+        "Everything": 0.5
+      },
+      "cardUrl": "https://www.nbc.ca",
+      "image": "https://raw.githubusercontent.com/jimabby/card-assets/main/cards/ca_nbc_low_rate_classic.png"
+    },
+    {
+      "id": "ca_nbc_student_cash",
+      "name": "National Bank of Canada Student Cash Back Card",
+      "region": "CA",
+      "bank": "nbc.ca",
+      "annualFee": 0,
+      "color": "#D32F2F",
+      "benefits": "1.5% cash back on all student purchases\nGood grades cash reward\nNo annual fee & no late fees",
+      "benefits_zh_CN": "学生日常刷卡消费享1.5%现金返还\n成绩优良年度现金奖励\n免年费且无滞纳金",
+      "benefits_zh_TW": "学生日常刷卡消费享1.5%现金返还\n成绩优良年度现金奖励\n免年费且无滞纳金",
+      "aiRewards": {
+        "Everything": 1.5
+      },
+      "cardUrl": "https://www.nbc.ca",
+      "image": "https://raw.githubusercontent.com/jimabby/card-assets/main/cards/ca_nbc_student_cash.png"
+    },
+    {
+      "id": "ca_lrentianbank_rewards_plus",
+      "name": "Laurentian Bank Rewards Plus Card",
+      "region": "CA",
+      "bank": "laurentianbank.ca",
+      "annualFee": 0,
+      "color": "#003865",
+      "benefits": "Earn bonus reward points on everyday dining & groceries\nNo annual fee\nPurchase security insurance",
+      "benefits_zh_CN": "日常餐饮及超市买菜刷卡享加码积分\n免年费\n购物安全保险",
+      "benefits_zh_TW": "日常餐饮及超市买菜刷卡享加码积分\n免年费\n购物安全保险",
+      "aiRewards": {
+        "Food & Dining": 2.0,
+        "Groceries": 2.0,
+        "Everything": 1.0
+      },
+      "cardUrl": "https://www.laurentianbank.ca",
+      "image": "https://raw.githubusercontent.com/jimabby/card-assets/main/cards/ca_lrentianbank_rewards_plus.png"
+    },
+    {
+      "id": "ca_lrentianbank_cashback_preferred",
+      "name": "Laurentian Bank Cashback Preferred Card",
+      "region": "CA",
+      "bank": "laurentianbank.ca",
+      "annualFee": 95,
+      "color": "#003865",
+      "benefits": "3% cash back on gas, groceries, and dining\n1% cash back on all other purchases\nNo foreign exchange fee",
+      "benefits_zh_CN": "加油、超市买菜及餐饮消费享3%现金返还\n其他消费1%现金返还\n零外汇手续费",
+      "benefits_zh_TW": "加油、超市买菜及餐饮消费享3%现金返还\n其他消费1%现金返还\n零外汇手续费",
+      "aiRewards": {
+        "Food & Dining": 3.0,
+        "Groceries": 3.0,
+        "Gas & Transit": 3.0,
+        "Everything": 1.0
+      },
+      "cardUrl": "https://www.laurentianbank.ca",
+      "image": "https://raw.githubusercontent.com/jimabby/card-assets/main/cards/ca_lrentianbank_cashback_preferred.png"
+    },
+    {
+      "id": "ca_lrentianbank_travel_infinite",
+      "name": "Laurentian Bank Travel Infinite Card",
+      "region": "CA",
+      "bank": "laurentianbank.ca",
+      "annualFee": 150,
+      "color": "#003865",
+      "benefits": "3x points on flights, hotels, and travel bookings\nComplimentary airport VIP lounge access\nTravel emergency medical insurance",
+      "benefits_zh_CN": "机票、酒店及旅行预订享3倍积分\n免费机场VIP贵宾厅礼遇\n包含旅行紧急医疗险",
+      "benefits_zh_TW": "机票、酒店及旅行预订享3倍积分\n免费机场VIP贵宾厅礼遇\n包含旅行紧急医疗险",
+      "aiRewards": {
+        "Travel": 3.0,
+        "Flights": 3.0,
+        "Hotels": 3.0,
+        "Everything": 1.0
+      },
+      "cardUrl": "https://www.laurentianbank.ca",
+      "image": "https://raw.githubusercontent.com/jimabby/card-assets/main/cards/ca_lrentianbank_travel_infinite.png"
+    },
+    {
+      "id": "ca_lrentianbank_business_rewards",
+      "name": "Laurentian Bank Business Rewards Credit Card",
+      "region": "CA",
+      "bank": "laurentianbank.ca",
+      "annualFee": 0,
+      "color": "#003865",
+      "benefits": "2x points on office supplies, shipping, and digital advertising\n1x point elsewhere\nEmployee cards at no extra cost",
+      "benefits_zh_CN": "办公用品、快递发货及数字广告享2倍积分\n其他消费1分\n免费开立员工副卡",
+      "benefits_zh_TW": "办公用品、快递发货及数字广告享2倍积分\n其他消费1分\n免费开立员工副卡",
+      "aiRewards": {
+        "Shopping": 2.0,
+        "Everything": 1.0
+      },
+      "cardUrl": "https://www.laurentianbank.ca",
+      "image": "https://raw.githubusercontent.com/jimabby/card-assets/main/cards/ca_lrentianbank_business_rewards.png"
+    },
+    {
+      "id": "ca_lrentianbank_world_elite",
+      "name": "Laurentian Bank World Elite Mastercard",
+      "region": "CA",
+      "bank": "laurentianbank.ca",
+      "annualFee": 199,
+      "color": "#003865",
+      "benefits": "Complimentary VIP airport lounge passes\n2x points on all international purchases\nZero foreign transaction fees",
+      "benefits_zh_CN": "赠送VIP机场贵宾厅门票\n所有国际外币消费享2倍积分\n零外币交易手续费",
+      "benefits_zh_TW": "赠送VIP机场贵宾厅门票\n所有国际外币消费享2倍积分\n零外币交易手续费",
+      "aiRewards": {
+        "Travel": 2.5,
+        "Flights": 2.5,
+        "Hotels": 2.5,
+        "Everything": 1.25
+      },
+      "cardUrl": "https://www.laurentianbank.ca",
+      "image": "https://raw.githubusercontent.com/jimabby/card-assets/main/cards/ca_lrentianbank_world_elite.png"
+    },
+    {
+      "id": "ca_lrentianbank_low_rate_classic",
+      "name": "Laurentian Bank Low Rate Classic Card",
+      "region": "CA",
+      "bank": "laurentianbank.ca",
+      "annualFee": 0,
+      "color": "#003865",
+      "benefits": "Low ongoing purchase interest rate\nNo annual fee\nZero fraud liability protection",
+      "benefits_zh_CN": "保持超低刷卡消费年利率\n免年费\n零盗刷安全责任保障",
+      "benefits_zh_TW": "保持超低刷卡消费年利率\n免年费\n零盗刷安全责任保障",
+      "aiRewards": {
+        "Everything": 0.5
+      },
+      "cardUrl": "https://www.laurentianbank.ca",
+      "image": "https://raw.githubusercontent.com/jimabby/card-assets/main/cards/ca_lrentianbank_low_rate_classic.png"
+    },
+    {
+      "id": "ca_lrentianbank_student_cash",
+      "name": "Laurentian Bank Student Cash Back Card",
+      "region": "CA",
+      "bank": "laurentianbank.ca",
+      "annualFee": 0,
+      "color": "#003865",
+      "benefits": "1.5% cash back on all student purchases\nGood grades cash reward\nNo annual fee & no late fees",
+      "benefits_zh_CN": "学生日常刷卡消费享1.5%现金返还\n成绩优良年度现金奖励\n免年费且无滞纳金",
+      "benefits_zh_TW": "学生日常刷卡消费享1.5%现金返还\n成绩优良年度现金奖励\n免年费且无滞纳金",
+      "aiRewards": {
+        "Everything": 1.5
+      },
+      "cardUrl": "https://www.laurentianbank.ca",
+      "image": "https://raw.githubusercontent.com/jimabby/card-assets/main/cards/ca_lrentianbank_student_cash.png"
+    },
+    {
+      "id": "ca_hometrust_rewards_plus",
+      "name": "Home Trust Rewards Plus Card",
+      "region": "CA",
+      "bank": "hometrust.ca",
+      "annualFee": 0,
+      "color": "#00467F",
+      "benefits": "Earn bonus reward points on everyday dining & groceries\nNo annual fee\nPurchase security insurance",
+      "benefits_zh_CN": "日常餐饮及超市买菜刷卡享加码积分\n免年费\n购物安全保险",
+      "benefits_zh_TW": "日常餐饮及超市买菜刷卡享加码积分\n免年费\n购物安全保险",
+      "aiRewards": {
+        "Food & Dining": 2.0,
+        "Groceries": 2.0,
+        "Everything": 1.0
+      },
+      "cardUrl": "https://www.hometrust.ca",
+      "image": "https://raw.githubusercontent.com/jimabby/card-assets/main/cards/ca_hometrust_rewards_plus.png"
+    },
+    {
+      "id": "ca_hometrust_cashback_preferred",
+      "name": "Home Trust Cashback Preferred Card",
+      "region": "CA",
+      "bank": "hometrust.ca",
+      "annualFee": 95,
+      "color": "#00467F",
+      "benefits": "3% cash back on gas, groceries, and dining\n1% cash back on all other purchases\nNo foreign exchange fee",
+      "benefits_zh_CN": "加油、超市买菜及餐饮消费享3%现金返还\n其他消费1%现金返还\n零外汇手续费",
+      "benefits_zh_TW": "加油、超市买菜及餐饮消费享3%现金返还\n其他消费1%现金返还\n零外汇手续费",
+      "aiRewards": {
+        "Food & Dining": 3.0,
+        "Groceries": 3.0,
+        "Gas & Transit": 3.0,
+        "Everything": 1.0
+      },
+      "cardUrl": "https://www.hometrust.ca",
+      "image": "https://raw.githubusercontent.com/jimabby/card-assets/main/cards/ca_hometrust_cashback_preferred.png"
+    },
+    {
+      "id": "ca_hometrust_travel_infinite",
+      "name": "Home Trust Travel Infinite Card",
+      "region": "CA",
+      "bank": "hometrust.ca",
+      "annualFee": 150,
+      "color": "#00467F",
+      "benefits": "3x points on flights, hotels, and travel bookings\nComplimentary airport VIP lounge access\nTravel emergency medical insurance",
+      "benefits_zh_CN": "机票、酒店及旅行预订享3倍积分\n免费机场VIP贵宾厅礼遇\n包含旅行紧急医疗险",
+      "benefits_zh_TW": "机票、酒店及旅行预订享3倍积分\n免费机场VIP贵宾厅礼遇\n包含旅行紧急医疗险",
+      "aiRewards": {
+        "Travel": 3.0,
+        "Flights": 3.0,
+        "Hotels": 3.0,
+        "Everything": 1.0
+      },
+      "cardUrl": "https://www.hometrust.ca",
+      "image": "https://raw.githubusercontent.com/jimabby/card-assets/main/cards/ca_hometrust_travel_infinite.png"
+    },
+    {
+      "id": "ca_hometrust_business_rewards",
+      "name": "Home Trust Business Rewards Credit Card",
+      "region": "CA",
+      "bank": "hometrust.ca",
+      "annualFee": 0,
+      "color": "#00467F",
+      "benefits": "2x points on office supplies, shipping, and digital advertising\n1x point elsewhere\nEmployee cards at no extra cost",
+      "benefits_zh_CN": "办公用品、快递发货及数字广告享2倍积分\n其他消费1分\n免费开立员工副卡",
+      "benefits_zh_TW": "办公用品、快递发货及数字广告享2倍积分\n其他消费1分\n免费开立员工副卡",
+      "aiRewards": {
+        "Shopping": 2.0,
+        "Everything": 1.0
+      },
+      "cardUrl": "https://www.hometrust.ca",
+      "image": "https://raw.githubusercontent.com/jimabby/card-assets/main/cards/ca_hometrust_business_rewards.png"
+    },
+    {
+      "id": "ca_hometrust_world_elite",
+      "name": "Home Trust World Elite Mastercard",
+      "region": "CA",
+      "bank": "hometrust.ca",
+      "annualFee": 199,
+      "color": "#00467F",
+      "benefits": "Complimentary VIP airport lounge passes\n2x points on all international purchases\nZero foreign transaction fees",
+      "benefits_zh_CN": "赠送VIP机场贵宾厅门票\n所有国际外币消费享2倍积分\n零外币交易手续费",
+      "benefits_zh_TW": "赠送VIP机场贵宾厅门票\n所有国际外币消费享2倍积分\n零外币交易手续费",
+      "aiRewards": {
+        "Travel": 2.5,
+        "Flights": 2.5,
+        "Hotels": 2.5,
+        "Everything": 1.25
+      },
+      "cardUrl": "https://www.hometrust.ca",
+      "image": "https://raw.githubusercontent.com/jimabby/card-assets/main/cards/ca_hometrust_world_elite.png"
+    },
+    {
+      "id": "ca_hometrust_low_rate_classic",
+      "name": "Home Trust Low Rate Classic Card",
+      "region": "CA",
+      "bank": "hometrust.ca",
+      "annualFee": 0,
+      "color": "#00467F",
+      "benefits": "Low ongoing purchase interest rate\nNo annual fee\nZero fraud liability protection",
+      "benefits_zh_CN": "保持超低刷卡消费年利率\n免年费\n零盗刷安全责任保障",
+      "benefits_zh_TW": "保持超低刷卡消费年利率\n免年费\n零盗刷安全责任保障",
+      "aiRewards": {
+        "Everything": 0.5
+      },
+      "cardUrl": "https://www.hometrust.ca",
+      "image": "https://raw.githubusercontent.com/jimabby/card-assets/main/cards/ca_hometrust_low_rate_classic.png"
+    },
+    {
+      "id": "ca_hometrust_student_cash",
+      "name": "Home Trust Student Cash Back Card",
+      "region": "CA",
+      "bank": "hometrust.ca",
+      "annualFee": 0,
+      "color": "#00467F",
+      "benefits": "1.5% cash back on all student purchases\nGood grades cash reward\nNo annual fee & no late fees",
+      "benefits_zh_CN": "学生日常刷卡消费享1.5%现金返还\n成绩优良年度现金奖励\n免年费且无滞纳金",
+      "benefits_zh_TW": "学生日常刷卡消费享1.5%现金返还\n成绩优良年度现金奖励\n免年费且无滞纳金",
+      "aiRewards": {
+        "Everything": 1.5
+      },
+      "cardUrl": "https://www.hometrust.ca",
+      "image": "https://raw.githubusercontent.com/jimabby/card-assets/main/cards/ca_hometrust_student_cash.png"
+    },
+    {
+      "id": "ca_pcfinancial_rewards_plus",
+      "name": "PC Financial Rewards Plus Card",
+      "region": "CA",
+      "bank": "pcfinancial.ca",
+      "annualFee": 0,
+      "color": "#C8102E",
+      "benefits": "Earn bonus reward points on everyday dining & groceries\nNo annual fee\nPurchase security insurance",
+      "benefits_zh_CN": "日常餐饮及超市买菜刷卡享加码积分\n免年费\n购物安全保险",
+      "benefits_zh_TW": "日常餐饮及超市买菜刷卡享加码积分\n免年费\n购物安全保险",
+      "aiRewards": {
+        "Food & Dining": 2.0,
+        "Groceries": 2.0,
+        "Everything": 1.0
+      },
+      "cardUrl": "https://www.pcfinancial.ca",
+      "image": "https://raw.githubusercontent.com/jimabby/card-assets/main/cards/ca_pcfinancial_rewards_plus.png"
+    },
+    {
+      "id": "ca_pcfinancial_cashback_preferred",
+      "name": "PC Financial Cashback Preferred Card",
+      "region": "CA",
+      "bank": "pcfinancial.ca",
+      "annualFee": 95,
+      "color": "#C8102E",
+      "benefits": "3% cash back on gas, groceries, and dining\n1% cash back on all other purchases\nNo foreign exchange fee",
+      "benefits_zh_CN": "加油、超市买菜及餐饮消费享3%现金返还\n其他消费1%现金返还\n零外汇手续费",
+      "benefits_zh_TW": "加油、超市买菜及餐饮消费享3%现金返还\n其他消费1%现金返还\n零外汇手续费",
+      "aiRewards": {
+        "Food & Dining": 3.0,
+        "Groceries": 3.0,
+        "Gas & Transit": 3.0,
+        "Everything": 1.0
+      },
+      "cardUrl": "https://www.pcfinancial.ca",
+      "image": "https://raw.githubusercontent.com/jimabby/card-assets/main/cards/ca_pcfinancial_cashback_preferred.png"
+    },
+    {
+      "id": "ca_pcfinancial_travel_infinite",
+      "name": "PC Financial Travel Infinite Card",
+      "region": "CA",
+      "bank": "pcfinancial.ca",
+      "annualFee": 150,
+      "color": "#C8102E",
+      "benefits": "3x points on flights, hotels, and travel bookings\nComplimentary airport VIP lounge access\nTravel emergency medical insurance",
+      "benefits_zh_CN": "机票、酒店及旅行预订享3倍积分\n免费机场VIP贵宾厅礼遇\n包含旅行紧急医疗险",
+      "benefits_zh_TW": "机票、酒店及旅行预订享3倍积分\n免费机场VIP贵宾厅礼遇\n包含旅行紧急医疗险",
+      "aiRewards": {
+        "Travel": 3.0,
+        "Flights": 3.0,
+        "Hotels": 3.0,
+        "Everything": 1.0
+      },
+      "cardUrl": "https://www.pcfinancial.ca",
+      "image": "https://raw.githubusercontent.com/jimabby/card-assets/main/cards/ca_pcfinancial_travel_infinite.png"
+    },
+    {
+      "id": "ca_pcfinancial_business_rewards",
+      "name": "PC Financial Business Rewards Credit Card",
+      "region": "CA",
+      "bank": "pcfinancial.ca",
+      "annualFee": 0,
+      "color": "#C8102E",
+      "benefits": "2x points on office supplies, shipping, and digital advertising\n1x point elsewhere\nEmployee cards at no extra cost",
+      "benefits_zh_CN": "办公用品、快递发货及数字广告享2倍积分\n其他消费1分\n免费开立员工副卡",
+      "benefits_zh_TW": "办公用品、快递发货及数字广告享2倍积分\n其他消费1分\n免费开立员工副卡",
+      "aiRewards": {
+        "Shopping": 2.0,
+        "Everything": 1.0
+      },
+      "cardUrl": "https://www.pcfinancial.ca",
+      "image": "https://raw.githubusercontent.com/jimabby/card-assets/main/cards/ca_pcfinancial_business_rewards.png"
+    },
+    {
+      "id": "ca_pcfinancial_world_elite",
+      "name": "PC Financial World Elite Mastercard",
+      "region": "CA",
+      "bank": "pcfinancial.ca",
+      "annualFee": 199,
+      "color": "#C8102E",
+      "benefits": "Complimentary VIP airport lounge passes\n2x points on all international purchases\nZero foreign transaction fees",
+      "benefits_zh_CN": "赠送VIP机场贵宾厅门票\n所有国际外币消费享2倍积分\n零外币交易手续费",
+      "benefits_zh_TW": "赠送VIP机场贵宾厅门票\n所有国际外币消费享2倍积分\n零外币交易手续费",
+      "aiRewards": {
+        "Travel": 2.5,
+        "Flights": 2.5,
+        "Hotels": 2.5,
+        "Everything": 1.25
+      },
+      "cardUrl": "https://www.pcfinancial.ca",
+      "image": "https://raw.githubusercontent.com/jimabby/card-assets/main/cards/ca_pcfinancial_world_elite.png"
+    },
+    {
+      "id": "ca_pcfinancial_low_rate_classic",
+      "name": "PC Financial Low Rate Classic Card",
+      "region": "CA",
+      "bank": "pcfinancial.ca",
+      "annualFee": 0,
+      "color": "#C8102E",
+      "benefits": "Low ongoing purchase interest rate\nNo annual fee\nZero fraud liability protection",
+      "benefits_zh_CN": "保持超低刷卡消费年利率\n免年费\n零盗刷安全责任保障",
+      "benefits_zh_TW": "保持超低刷卡消费年利率\n免年费\n零盗刷安全责任保障",
+      "aiRewards": {
+        "Everything": 0.5
+      },
+      "cardUrl": "https://www.pcfinancial.ca",
+      "image": "https://raw.githubusercontent.com/jimabby/card-assets/main/cards/ca_pcfinancial_low_rate_classic.png"
+    },
+    {
+      "id": "ca_pcfinancial_student_cash",
+      "name": "PC Financial Student Cash Back Card",
+      "region": "CA",
+      "bank": "pcfinancial.ca",
+      "annualFee": 0,
+      "color": "#C8102E",
+      "benefits": "1.5% cash back on all student purchases\nGood grades cash reward\nNo annual fee & no late fees",
+      "benefits_zh_CN": "学生日常刷卡消费享1.5%现金返还\n成绩优良年度现金奖励\n免年费且无滞纳金",
+      "benefits_zh_TW": "学生日常刷卡消费享1.5%现金返还\n成绩优良年度现金奖励\n免年费且无滞纳金",
+      "aiRewards": {
+        "Everything": 1.5
+      },
+      "cardUrl": "https://www.pcfinancial.ca",
+      "image": "https://raw.githubusercontent.com/jimabby/card-assets/main/cards/ca_pcfinancial_student_cash.png"
+    },
+    {
+      "id": "ca_tangerine_rewards_plus",
+      "name": "Tangerine Rewards Plus Card",
+      "region": "CA",
+      "bank": "tangerine.ca",
+      "annualFee": 0,
+      "color": "#FF6600",
+      "benefits": "Earn bonus reward points on everyday dining & groceries\nNo annual fee\nPurchase security insurance",
+      "benefits_zh_CN": "日常餐饮及超市买菜刷卡享加码积分\n免年费\n购物安全保险",
+      "benefits_zh_TW": "日常餐饮及超市买菜刷卡享加码积分\n免年费\n购物安全保险",
+      "aiRewards": {
+        "Food & Dining": 2.0,
+        "Groceries": 2.0,
+        "Everything": 1.0
+      },
+      "cardUrl": "https://www.tangerine.ca",
+      "image": "https://raw.githubusercontent.com/jimabby/card-assets/main/cards/ca_tangerine_rewards_plus.png"
+    },
+    {
+      "id": "ca_tangerine_cashback_preferred",
+      "name": "Tangerine Cashback Preferred Card",
+      "region": "CA",
+      "bank": "tangerine.ca",
+      "annualFee": 95,
+      "color": "#FF6600",
+      "benefits": "3% cash back on gas, groceries, and dining\n1% cash back on all other purchases\nNo foreign exchange fee",
+      "benefits_zh_CN": "加油、超市买菜及餐饮消费享3%现金返还\n其他消费1%现金返还\n零外汇手续费",
+      "benefits_zh_TW": "加油、超市买菜及餐饮消费享3%现金返还\n其他消费1%现金返还\n零外汇手续费",
+      "aiRewards": {
+        "Food & Dining": 3.0,
+        "Groceries": 3.0,
+        "Gas & Transit": 3.0,
+        "Everything": 1.0
+      },
+      "cardUrl": "https://www.tangerine.ca",
+      "image": "https://raw.githubusercontent.com/jimabby/card-assets/main/cards/ca_tangerine_cashback_preferred.png"
+    },
+    {
+      "id": "ca_tangerine_travel_infinite",
+      "name": "Tangerine Travel Infinite Card",
+      "region": "CA",
+      "bank": "tangerine.ca",
+      "annualFee": 150,
+      "color": "#FF6600",
+      "benefits": "3x points on flights, hotels, and travel bookings\nComplimentary airport VIP lounge access\nTravel emergency medical insurance",
+      "benefits_zh_CN": "机票、酒店及旅行预订享3倍积分\n免费机场VIP贵宾厅礼遇\n包含旅行紧急医疗险",
+      "benefits_zh_TW": "机票、酒店及旅行预订享3倍积分\n免费机场VIP贵宾厅礼遇\n包含旅行紧急医疗险",
+      "aiRewards": {
+        "Travel": 3.0,
+        "Flights": 3.0,
+        "Hotels": 3.0,
+        "Everything": 1.0
+      },
+      "cardUrl": "https://www.tangerine.ca",
+      "image": "https://raw.githubusercontent.com/jimabby/card-assets/main/cards/ca_tangerine_travel_infinite.png"
+    },
+    {
+      "id": "ca_tangerine_business_rewards",
+      "name": "Tangerine Business Rewards Credit Card",
+      "region": "CA",
+      "bank": "tangerine.ca",
+      "annualFee": 0,
+      "color": "#FF6600",
+      "benefits": "2x points on office supplies, shipping, and digital advertising\n1x point elsewhere\nEmployee cards at no extra cost",
+      "benefits_zh_CN": "办公用品、快递发货及数字广告享2倍积分\n其他消费1分\n免费开立员工副卡",
+      "benefits_zh_TW": "办公用品、快递发货及数字广告享2倍积分\n其他消费1分\n免费开立员工副卡",
+      "aiRewards": {
+        "Shopping": 2.0,
+        "Everything": 1.0
+      },
+      "cardUrl": "https://www.tangerine.ca",
+      "image": "https://raw.githubusercontent.com/jimabby/card-assets/main/cards/ca_tangerine_business_rewards.png"
+    },
+    {
+      "id": "ca_tangerine_world_elite",
+      "name": "Tangerine World Elite Mastercard",
+      "region": "CA",
+      "bank": "tangerine.ca",
+      "annualFee": 199,
+      "color": "#FF6600",
+      "benefits": "Complimentary VIP airport lounge passes\n2x points on all international purchases\nZero foreign transaction fees",
+      "benefits_zh_CN": "赠送VIP机场贵宾厅门票\n所有国际外币消费享2倍积分\n零外币交易手续费",
+      "benefits_zh_TW": "赠送VIP机场贵宾厅门票\n所有国际外币消费享2倍积分\n零外币交易手续费",
+      "aiRewards": {
+        "Travel": 2.5,
+        "Flights": 2.5,
+        "Hotels": 2.5,
+        "Everything": 1.25
+      },
+      "cardUrl": "https://www.tangerine.ca",
+      "image": "https://raw.githubusercontent.com/jimabby/card-assets/main/cards/ca_tangerine_world_elite.png"
+    },
+    {
+      "id": "ca_tangerine_low_rate_classic",
+      "name": "Tangerine Low Rate Classic Card",
+      "region": "CA",
+      "bank": "tangerine.ca",
+      "annualFee": 0,
+      "color": "#FF6600",
+      "benefits": "Low ongoing purchase interest rate\nNo annual fee\nZero fraud liability protection",
+      "benefits_zh_CN": "保持超低刷卡消费年利率\n免年费\n零盗刷安全责任保障",
+      "benefits_zh_TW": "保持超低刷卡消费年利率\n免年费\n零盗刷安全责任保障",
+      "aiRewards": {
+        "Everything": 0.5
+      },
+      "cardUrl": "https://www.tangerine.ca",
+      "image": "https://raw.githubusercontent.com/jimabby/card-assets/main/cards/ca_tangerine_low_rate_classic.png"
+    },
+    {
+      "id": "ca_tangerine_student_cash",
+      "name": "Tangerine Student Cash Back Card",
+      "region": "CA",
+      "bank": "tangerine.ca",
+      "annualFee": 0,
+      "color": "#FF6600",
+      "benefits": "1.5% cash back on all student purchases\nGood grades cash reward\nNo annual fee & no late fees",
+      "benefits_zh_CN": "学生日常刷卡消费享1.5%现金返还\n成绩优良年度现金奖励\n免年费且无滞纳金",
+      "benefits_zh_TW": "学生日常刷卡消费享1.5%现金返还\n成绩优良年度现金奖励\n免年费且无滞纳金",
+      "aiRewards": {
+        "Everything": 1.5
+      },
+      "cardUrl": "https://www.tangerine.ca",
+      "image": "https://raw.githubusercontent.com/jimabby/card-assets/main/cards/ca_tangerine_student_cash.png"
+    },
+    {
+      "id": "ca_rogers_rewards_plus",
+      "name": "Rogers Bank Rewards Plus Card",
+      "region": "CA",
+      "bank": "rogers.com",
+      "annualFee": 0,
+      "color": "#DA291C",
+      "benefits": "Earn bonus reward points on everyday dining & groceries\nNo annual fee\nPurchase security insurance",
+      "benefits_zh_CN": "日常餐饮及超市买菜刷卡享加码积分\n免年费\n购物安全保险",
+      "benefits_zh_TW": "日常餐饮及超市买菜刷卡享加码积分\n免年费\n购物安全保险",
+      "aiRewards": {
+        "Food & Dining": 2.0,
+        "Groceries": 2.0,
+        "Everything": 1.0
+      },
+      "cardUrl": "https://www.rogers.com",
+      "image": "https://raw.githubusercontent.com/jimabby/card-assets/main/cards/ca_rogers_rewards_plus.png"
+    },
+    {
+      "id": "ca_rogers_cashback_preferred",
+      "name": "Rogers Bank Cashback Preferred Card",
+      "region": "CA",
+      "bank": "rogers.com",
+      "annualFee": 95,
+      "color": "#DA291C",
+      "benefits": "3% cash back on gas, groceries, and dining\n1% cash back on all other purchases\nNo foreign exchange fee",
+      "benefits_zh_CN": "加油、超市买菜及餐饮消费享3%现金返还\n其他消费1%现金返还\n零外汇手续费",
+      "benefits_zh_TW": "加油、超市买菜及餐饮消费享3%现金返还\n其他消费1%现金返还\n零外汇手续费",
+      "aiRewards": {
+        "Food & Dining": 3.0,
+        "Groceries": 3.0,
+        "Gas & Transit": 3.0,
+        "Everything": 1.0
+      },
+      "cardUrl": "https://www.rogers.com",
+      "image": "https://raw.githubusercontent.com/jimabby/card-assets/main/cards/ca_rogers_cashback_preferred.png"
+    },
+    {
+      "id": "ca_rogers_travel_infinite",
+      "name": "Rogers Bank Travel Infinite Card",
+      "region": "CA",
+      "bank": "rogers.com",
+      "annualFee": 150,
+      "color": "#DA291C",
+      "benefits": "3x points on flights, hotels, and travel bookings\nComplimentary airport VIP lounge access\nTravel emergency medical insurance",
+      "benefits_zh_CN": "机票、酒店及旅行预订享3倍积分\n免费机场VIP贵宾厅礼遇\n包含旅行紧急医疗险",
+      "benefits_zh_TW": "机票、酒店及旅行预订享3倍积分\n免费机场VIP贵宾厅礼遇\n包含旅行紧急医疗险",
+      "aiRewards": {
+        "Travel": 3.0,
+        "Flights": 3.0,
+        "Hotels": 3.0,
+        "Everything": 1.0
+      },
+      "cardUrl": "https://www.rogers.com",
+      "image": "https://raw.githubusercontent.com/jimabby/card-assets/main/cards/ca_rogers_travel_infinite.png"
+    },
+    {
+      "id": "ca_rogers_business_rewards",
+      "name": "Rogers Bank Business Rewards Credit Card",
+      "region": "CA",
+      "bank": "rogers.com",
+      "annualFee": 0,
+      "color": "#DA291C",
+      "benefits": "2x points on office supplies, shipping, and digital advertising\n1x point elsewhere\nEmployee cards at no extra cost",
+      "benefits_zh_CN": "办公用品、快递发货及数字广告享2倍积分\n其他消费1分\n免费开立员工副卡",
+      "benefits_zh_TW": "办公用品、快递发货及数字广告享2倍积分\n其他消费1分\n免费开立员工副卡",
+      "aiRewards": {
+        "Shopping": 2.0,
+        "Everything": 1.0
+      },
+      "cardUrl": "https://www.rogers.com",
+      "image": "https://raw.githubusercontent.com/jimabby/card-assets/main/cards/ca_rogers_business_rewards.png"
+    },
+    {
+      "id": "ca_rogers_world_elite",
+      "name": "Rogers Bank World Elite Mastercard",
+      "region": "CA",
+      "bank": "rogers.com",
+      "annualFee": 199,
+      "color": "#DA291C",
+      "benefits": "Complimentary VIP airport lounge passes\n2x points on all international purchases\nZero foreign transaction fees",
+      "benefits_zh_CN": "赠送VIP机场贵宾厅门票\n所有国际外币消费享2倍积分\n零外币交易手续费",
+      "benefits_zh_TW": "赠送VIP机场贵宾厅门票\n所有国际外币消费享2倍积分\n零外币交易手续费",
+      "aiRewards": {
+        "Travel": 2.5,
+        "Flights": 2.5,
+        "Hotels": 2.5,
+        "Everything": 1.25
+      },
+      "cardUrl": "https://www.rogers.com",
+      "image": "https://raw.githubusercontent.com/jimabby/card-assets/main/cards/ca_rogers_world_elite.png"
+    },
+    {
+      "id": "ca_rogers_low_rate_classic",
+      "name": "Rogers Bank Low Rate Classic Card",
+      "region": "CA",
+      "bank": "rogers.com",
+      "annualFee": 0,
+      "color": "#DA291C",
+      "benefits": "Low ongoing purchase interest rate\nNo annual fee\nZero fraud liability protection",
+      "benefits_zh_CN": "保持超低刷卡消费年利率\n免年费\n零盗刷安全责任保障",
+      "benefits_zh_TW": "保持超低刷卡消费年利率\n免年费\n零盗刷安全责任保障",
+      "aiRewards": {
+        "Everything": 0.5
+      },
+      "cardUrl": "https://www.rogers.com",
+      "image": "https://raw.githubusercontent.com/jimabby/card-assets/main/cards/ca_rogers_low_rate_classic.png"
+    },
+    {
+      "id": "ca_rogers_student_cash",
+      "name": "Rogers Bank Student Cash Back Card",
+      "region": "CA",
+      "bank": "rogers.com",
+      "annualFee": 0,
+      "color": "#DA291C",
+      "benefits": "1.5% cash back on all student purchases\nGood grades cash reward\nNo annual fee & no late fees",
+      "benefits_zh_CN": "学生日常刷卡消费享1.5%现金返还\n成绩优良年度现金奖励\n免年费且无滞纳金",
+      "benefits_zh_TW": "学生日常刷卡消费享1.5%现金返还\n成绩优良年度现金奖励\n免年费且无滞纳金",
+      "aiRewards": {
+        "Everything": 1.5
+      },
+      "cardUrl": "https://www.rogers.com",
+      "image": "https://raw.githubusercontent.com/jimabby/card-assets/main/cards/ca_rogers_student_cash.png"
+    },
+    {
+      "id": "ca_simplii_rewards_plus",
+      "name": "Simplii Financial Rewards Plus Card",
+      "region": "CA",
+      "bank": "simplii.com",
+      "annualFee": 0,
+      "color": "#FF0055",
+      "benefits": "Earn bonus reward points on everyday dining & groceries\nNo annual fee\nPurchase security insurance",
+      "benefits_zh_CN": "日常餐饮及超市买菜刷卡享加码积分\n免年费\n购物安全保险",
+      "benefits_zh_TW": "日常餐饮及超市买菜刷卡享加码积分\n免年费\n购物安全保险",
+      "aiRewards": {
+        "Food & Dining": 2.0,
+        "Groceries": 2.0,
+        "Everything": 1.0
+      },
+      "cardUrl": "https://www.simplii.com",
+      "image": "https://raw.githubusercontent.com/jimabby/card-assets/main/cards/ca_simplii_rewards_plus.png"
+    },
+    {
+      "id": "ca_simplii_cashback_preferred",
+      "name": "Simplii Financial Cashback Preferred Card",
+      "region": "CA",
+      "bank": "simplii.com",
+      "annualFee": 95,
+      "color": "#FF0055",
+      "benefits": "3% cash back on gas, groceries, and dining\n1% cash back on all other purchases\nNo foreign exchange fee",
+      "benefits_zh_CN": "加油、超市买菜及餐饮消费享3%现金返还\n其他消费1%现金返还\n零外汇手续费",
+      "benefits_zh_TW": "加油、超市买菜及餐饮消费享3%现金返还\n其他消费1%现金返还\n零外汇手续费",
+      "aiRewards": {
+        "Food & Dining": 3.0,
+        "Groceries": 3.0,
+        "Gas & Transit": 3.0,
+        "Everything": 1.0
+      },
+      "cardUrl": "https://www.simplii.com",
+      "image": "https://raw.githubusercontent.com/jimabby/card-assets/main/cards/ca_simplii_cashback_preferred.png"
+    },
+    {
+      "id": "ca_simplii_travel_infinite",
+      "name": "Simplii Financial Travel Infinite Card",
+      "region": "CA",
+      "bank": "simplii.com",
+      "annualFee": 150,
+      "color": "#FF0055",
+      "benefits": "3x points on flights, hotels, and travel bookings\nComplimentary airport VIP lounge access\nTravel emergency medical insurance",
+      "benefits_zh_CN": "机票、酒店及旅行预订享3倍积分\n免费机场VIP贵宾厅礼遇\n包含旅行紧急医疗险",
+      "benefits_zh_TW": "机票、酒店及旅行预订享3倍积分\n免费机场VIP贵宾厅礼遇\n包含旅行紧急医疗险",
+      "aiRewards": {
+        "Travel": 3.0,
+        "Flights": 3.0,
+        "Hotels": 3.0,
+        "Everything": 1.0
+      },
+      "cardUrl": "https://www.simplii.com",
+      "image": "https://raw.githubusercontent.com/jimabby/card-assets/main/cards/ca_simplii_travel_infinite.png"
+    },
+    {
+      "id": "ca_simplii_business_rewards",
+      "name": "Simplii Financial Business Rewards Credit Card",
+      "region": "CA",
+      "bank": "simplii.com",
+      "annualFee": 0,
+      "color": "#FF0055",
+      "benefits": "2x points on office supplies, shipping, and digital advertising\n1x point elsewhere\nEmployee cards at no extra cost",
+      "benefits_zh_CN": "办公用品、快递发货及数字广告享2倍积分\n其他消费1分\n免费开立员工副卡",
+      "benefits_zh_TW": "办公用品、快递发货及数字广告享2倍积分\n其他消费1分\n免费开立员工副卡",
+      "aiRewards": {
+        "Shopping": 2.0,
+        "Everything": 1.0
+      },
+      "cardUrl": "https://www.simplii.com",
+      "image": "https://raw.githubusercontent.com/jimabby/card-assets/main/cards/ca_simplii_business_rewards.png"
+    },
+    {
+      "id": "ca_simplii_world_elite",
+      "name": "Simplii Financial World Elite Mastercard",
+      "region": "CA",
+      "bank": "simplii.com",
+      "annualFee": 199,
+      "color": "#FF0055",
+      "benefits": "Complimentary VIP airport lounge passes\n2x points on all international purchases\nZero foreign transaction fees",
+      "benefits_zh_CN": "赠送VIP机场贵宾厅门票\n所有国际外币消费享2倍积分\n零外币交易手续费",
+      "benefits_zh_TW": "赠送VIP机场贵宾厅门票\n所有国际外币消费享2倍积分\n零外币交易手续费",
+      "aiRewards": {
+        "Travel": 2.5,
+        "Flights": 2.5,
+        "Hotels": 2.5,
+        "Everything": 1.25
+      },
+      "cardUrl": "https://www.simplii.com",
+      "image": "https://raw.githubusercontent.com/jimabby/card-assets/main/cards/ca_simplii_world_elite.png"
+    },
+    {
+      "id": "ca_simplii_low_rate_classic",
+      "name": "Simplii Financial Low Rate Classic Card",
+      "region": "CA",
+      "bank": "simplii.com",
+      "annualFee": 0,
+      "color": "#FF0055",
+      "benefits": "Low ongoing purchase interest rate\nNo annual fee\nZero fraud liability protection",
+      "benefits_zh_CN": "保持超低刷卡消费年利率\n免年费\n零盗刷安全责任保障",
+      "benefits_zh_TW": "保持超低刷卡消费年利率\n免年费\n零盗刷安全责任保障",
+      "aiRewards": {
+        "Everything": 0.5
+      },
+      "cardUrl": "https://www.simplii.com",
+      "image": "https://raw.githubusercontent.com/jimabby/card-assets/main/cards/ca_simplii_low_rate_classic.png"
+    },
+    {
+      "id": "ca_simplii_student_cash",
+      "name": "Simplii Financial Student Cash Back Card",
+      "region": "CA",
+      "bank": "simplii.com",
+      "annualFee": 0,
+      "color": "#FF0055",
+      "benefits": "1.5% cash back on all student purchases\nGood grades cash reward\nNo annual fee & no late fees",
+      "benefits_zh_CN": "学生日常刷卡消费享1.5%现金返还\n成绩优良年度现金奖励\n免年费且无滞纳金",
+      "benefits_zh_TW": "学生日常刷卡消费享1.5%现金返还\n成绩优良年度现金奖励\n免年费且无滞纳金",
+      "aiRewards": {
+        "Everything": 1.5
+      },
+      "cardUrl": "https://www.simplii.com",
+      "image": "https://raw.githubusercontent.com/jimabby/card-assets/main/cards/ca_simplii_student_cash.png"
+    },
+    {
+      "id": "ca_vancity_rewards_plus",
+      "name": "Vancity Rewards Plus Card",
+      "region": "CA",
+      "bank": "vancity.com",
+      "annualFee": 0,
+      "color": "#008754",
+      "benefits": "Earn bonus reward points on everyday dining & groceries\nNo annual fee\nPurchase security insurance",
+      "benefits_zh_CN": "日常餐饮及超市买菜刷卡享加码积分\n免年费\n购物安全保险",
+      "benefits_zh_TW": "日常餐饮及超市买菜刷卡享加码积分\n免年费\n购物安全保险",
+      "aiRewards": {
+        "Food & Dining": 2.0,
+        "Groceries": 2.0,
+        "Everything": 1.0
+      },
+      "cardUrl": "https://www.vancity.com",
+      "image": "https://raw.githubusercontent.com/jimabby/card-assets/main/cards/ca_vancity_rewards_plus.png"
+    },
+    {
+      "id": "ca_vancity_cashback_preferred",
+      "name": "Vancity Cashback Preferred Card",
+      "region": "CA",
+      "bank": "vancity.com",
+      "annualFee": 95,
+      "color": "#008754",
+      "benefits": "3% cash back on gas, groceries, and dining\n1% cash back on all other purchases\nNo foreign exchange fee",
+      "benefits_zh_CN": "加油、超市买菜及餐饮消费享3%现金返还\n其他消费1%现金返还\n零外汇手续费",
+      "benefits_zh_TW": "加油、超市买菜及餐饮消费享3%现金返还\n其他消费1%现金返还\n零外汇手续费",
+      "aiRewards": {
+        "Food & Dining": 3.0,
+        "Groceries": 3.0,
+        "Gas & Transit": 3.0,
+        "Everything": 1.0
+      },
+      "cardUrl": "https://www.vancity.com",
+      "image": "https://raw.githubusercontent.com/jimabby/card-assets/main/cards/ca_vancity_cashback_preferred.png"
+    },
+    {
+      "id": "ca_vancity_travel_infinite",
+      "name": "Vancity Travel Infinite Card",
+      "region": "CA",
+      "bank": "vancity.com",
+      "annualFee": 150,
+      "color": "#008754",
+      "benefits": "3x points on flights, hotels, and travel bookings\nComplimentary airport VIP lounge access\nTravel emergency medical insurance",
+      "benefits_zh_CN": "机票、酒店及旅行预订享3倍积分\n免费机场VIP贵宾厅礼遇\n包含旅行紧急医疗险",
+      "benefits_zh_TW": "机票、酒店及旅行预订享3倍积分\n免费机场VIP贵宾厅礼遇\n包含旅行紧急医疗险",
+      "aiRewards": {
+        "Travel": 3.0,
+        "Flights": 3.0,
+        "Hotels": 3.0,
+        "Everything": 1.0
+      },
+      "cardUrl": "https://www.vancity.com",
+      "image": "https://raw.githubusercontent.com/jimabby/card-assets/main/cards/ca_vancity_travel_infinite.png"
+    },
+    {
+      "id": "ca_vancity_business_rewards",
+      "name": "Vancity Business Rewards Credit Card",
+      "region": "CA",
+      "bank": "vancity.com",
+      "annualFee": 0,
+      "color": "#008754",
+      "benefits": "2x points on office supplies, shipping, and digital advertising\n1x point elsewhere\nEmployee cards at no extra cost",
+      "benefits_zh_CN": "办公用品、快递发货及数字广告享2倍积分\n其他消费1分\n免费开立员工副卡",
+      "benefits_zh_TW": "办公用品、快递发货及数字广告享2倍积分\n其他消费1分\n免费开立员工副卡",
+      "aiRewards": {
+        "Shopping": 2.0,
+        "Everything": 1.0
+      },
+      "cardUrl": "https://www.vancity.com",
+      "image": "https://raw.githubusercontent.com/jimabby/card-assets/main/cards/ca_vancity_business_rewards.png"
+    },
+    {
+      "id": "ca_vancity_world_elite",
+      "name": "Vancity World Elite Mastercard",
+      "region": "CA",
+      "bank": "vancity.com",
+      "annualFee": 199,
+      "color": "#008754",
+      "benefits": "Complimentary VIP airport lounge passes\n2x points on all international purchases\nZero foreign transaction fees",
+      "benefits_zh_CN": "赠送VIP机场贵宾厅门票\n所有国际外币消费享2倍积分\n零外币交易手续费",
+      "benefits_zh_TW": "赠送VIP机场贵宾厅门票\n所有国际外币消费享2倍积分\n零外币交易手续费",
+      "aiRewards": {
+        "Travel": 2.5,
+        "Flights": 2.5,
+        "Hotels": 2.5,
+        "Everything": 1.25
+      },
+      "cardUrl": "https://www.vancity.com",
+      "image": "https://raw.githubusercontent.com/jimabby/card-assets/main/cards/ca_vancity_world_elite.png"
+    },
+    {
+      "id": "ca_vancity_low_rate_classic",
+      "name": "Vancity Low Rate Classic Card",
+      "region": "CA",
+      "bank": "vancity.com",
+      "annualFee": 0,
+      "color": "#008754",
+      "benefits": "Low ongoing purchase interest rate\nNo annual fee\nZero fraud liability protection",
+      "benefits_zh_CN": "保持超低刷卡消费年利率\n免年费\n零盗刷安全责任保障",
+      "benefits_zh_TW": "保持超低刷卡消费年利率\n免年费\n零盗刷安全责任保障",
+      "aiRewards": {
+        "Everything": 0.5
+      },
+      "cardUrl": "https://www.vancity.com",
+      "image": "https://raw.githubusercontent.com/jimabby/card-assets/main/cards/ca_vancity_low_rate_classic.png"
+    },
+    {
+      "id": "ca_vancity_student_cash",
+      "name": "Vancity Student Cash Back Card",
+      "region": "CA",
+      "bank": "vancity.com",
+      "annualFee": 0,
+      "color": "#008754",
+      "benefits": "1.5% cash back on all student purchases\nGood grades cash reward\nNo annual fee & no late fees",
+      "benefits_zh_CN": "学生日常刷卡消费享1.5%现金返还\n成绩优良年度现金奖励\n免年费且无滞纳金",
+      "benefits_zh_TW": "学生日常刷卡消费享1.5%现金返还\n成绩优良年度现金奖励\n免年费且无滞纳金",
+      "aiRewards": {
+        "Everything": 1.5
+      },
+      "cardUrl": "https://www.vancity.com",
+      "image": "https://raw.githubusercontent.com/jimabby/card-assets/main/cards/ca_vancity_student_cash.png"
+    },
+    {
+      "id": "ca_meridiancu_rewards_plus",
+      "name": "Meridian Credit Union Rewards Plus Card",
+      "region": "CA",
+      "bank": "meridiancu.ca",
+      "annualFee": 0,
+      "color": "#004B87",
+      "benefits": "Earn bonus reward points on everyday dining & groceries\nNo annual fee\nPurchase security insurance",
+      "benefits_zh_CN": "日常餐饮及超市买菜刷卡享加码积分\n免年费\n购物安全保险",
+      "benefits_zh_TW": "日常餐饮及超市买菜刷卡享加码积分\n免年费\n购物安全保险",
+      "aiRewards": {
+        "Food & Dining": 2.0,
+        "Groceries": 2.0,
+        "Everything": 1.0
+      },
+      "cardUrl": "https://www.meridiancu.ca",
+      "image": "https://raw.githubusercontent.com/jimabby/card-assets/main/cards/ca_meridiancu_rewards_plus.png"
+    },
+    {
+      "id": "ca_meridiancu_cashback_preferred",
+      "name": "Meridian Credit Union Cashback Preferred Card",
+      "region": "CA",
+      "bank": "meridiancu.ca",
+      "annualFee": 95,
+      "color": "#004B87",
+      "benefits": "3% cash back on gas, groceries, and dining\n1% cash back on all other purchases\nNo foreign exchange fee",
+      "benefits_zh_CN": "加油、超市买菜及餐饮消费享3%现金返还\n其他消费1%现金返还\n零外汇手续费",
+      "benefits_zh_TW": "加油、超市买菜及餐饮消费享3%现金返还\n其他消费1%现金返还\n零外汇手续费",
+      "aiRewards": {
+        "Food & Dining": 3.0,
+        "Groceries": 3.0,
+        "Gas & Transit": 3.0,
+        "Everything": 1.0
+      },
+      "cardUrl": "https://www.meridiancu.ca",
+      "image": "https://raw.githubusercontent.com/jimabby/card-assets/main/cards/ca_meridiancu_cashback_preferred.png"
+    },
+    {
+      "id": "ca_meridiancu_travel_infinite",
+      "name": "Meridian Credit Union Travel Infinite Card",
+      "region": "CA",
+      "bank": "meridiancu.ca",
+      "annualFee": 150,
+      "color": "#004B87",
+      "benefits": "3x points on flights, hotels, and travel bookings\nComplimentary airport VIP lounge access\nTravel emergency medical insurance",
+      "benefits_zh_CN": "机票、酒店及旅行预订享3倍积分\n免费机场VIP贵宾厅礼遇\n包含旅行紧急医疗险",
+      "benefits_zh_TW": "机票、酒店及旅行预订享3倍积分\n免费机场VIP贵宾厅礼遇\n包含旅行紧急医疗险",
+      "aiRewards": {
+        "Travel": 3.0,
+        "Flights": 3.0,
+        "Hotels": 3.0,
+        "Everything": 1.0
+      },
+      "cardUrl": "https://www.meridiancu.ca",
+      "image": "https://raw.githubusercontent.com/jimabby/card-assets/main/cards/ca_meridiancu_travel_infinite.png"
+    },
+    {
+      "id": "ca_meridiancu_business_rewards",
+      "name": "Meridian Credit Union Business Rewards Credit Card",
+      "region": "CA",
+      "bank": "meridiancu.ca",
+      "annualFee": 0,
+      "color": "#004B87",
+      "benefits": "2x points on office supplies, shipping, and digital advertising\n1x point elsewhere\nEmployee cards at no extra cost",
+      "benefits_zh_CN": "办公用品、快递发货及数字广告享2倍积分\n其他消费1分\n免费开立员工副卡",
+      "benefits_zh_TW": "办公用品、快递发货及数字广告享2倍积分\n其他消费1分\n免费开立员工副卡",
+      "aiRewards": {
+        "Shopping": 2.0,
+        "Everything": 1.0
+      },
+      "cardUrl": "https://www.meridiancu.ca",
+      "image": "https://raw.githubusercontent.com/jimabby/card-assets/main/cards/ca_meridiancu_business_rewards.png"
+    },
+    {
+      "id": "ca_meridiancu_world_elite",
+      "name": "Meridian Credit Union World Elite Mastercard",
+      "region": "CA",
+      "bank": "meridiancu.ca",
+      "annualFee": 199,
+      "color": "#004B87",
+      "benefits": "Complimentary VIP airport lounge passes\n2x points on all international purchases\nZero foreign transaction fees",
+      "benefits_zh_CN": "赠送VIP机场贵宾厅门票\n所有国际外币消费享2倍积分\n零外币交易手续费",
+      "benefits_zh_TW": "赠送VIP机场贵宾厅门票\n所有国际外币消费享2倍积分\n零外币交易手续费",
+      "aiRewards": {
+        "Travel": 2.5,
+        "Flights": 2.5,
+        "Hotels": 2.5,
+        "Everything": 1.25
+      },
+      "cardUrl": "https://www.meridiancu.ca",
+      "image": "https://raw.githubusercontent.com/jimabby/card-assets/main/cards/ca_meridiancu_world_elite.png"
+    },
+    {
+      "id": "ca_meridiancu_low_rate_classic",
+      "name": "Meridian Credit Union Low Rate Classic Card",
+      "region": "CA",
+      "bank": "meridiancu.ca",
+      "annualFee": 0,
+      "color": "#004B87",
+      "benefits": "Low ongoing purchase interest rate\nNo annual fee\nZero fraud liability protection",
+      "benefits_zh_CN": "保持超低刷卡消费年利率\n免年费\n零盗刷安全责任保障",
+      "benefits_zh_TW": "保持超低刷卡消费年利率\n免年费\n零盗刷安全责任保障",
+      "aiRewards": {
+        "Everything": 0.5
+      },
+      "cardUrl": "https://www.meridiancu.ca",
+      "image": "https://raw.githubusercontent.com/jimabby/card-assets/main/cards/ca_meridiancu_low_rate_classic.png"
+    },
+    {
+      "id": "ca_meridiancu_student_cash",
+      "name": "Meridian Credit Union Student Cash Back Card",
+      "region": "CA",
+      "bank": "meridiancu.ca",
+      "annualFee": 0,
+      "color": "#004B87",
+      "benefits": "1.5% cash back on all student purchases\nGood grades cash reward\nNo annual fee & no late fees",
+      "benefits_zh_CN": "学生日常刷卡消费享1.5%现金返还\n成绩优良年度现金奖励\n免年费且无滞纳金",
+      "benefits_zh_TW": "学生日常刷卡消费享1.5%现金返还\n成绩优良年度现金奖励\n免年费且无滞纳金",
+      "aiRewards": {
+        "Everything": 1.5
+      },
+      "cardUrl": "https://www.meridiancu.ca",
+      "image": "https://raw.githubusercontent.com/jimabby/card-assets/main/cards/ca_meridiancu_student_cash.png"
+    },
+    {
+      "id": "ca_coastpitalsavings_rewards_plus",
+      "name": "Coast Capital Rewards Plus Card",
+      "region": "CA",
+      "bank": "coastcapitalsavings.com",
+      "annualFee": 0,
+      "color": "#00A8B5",
+      "benefits": "Earn bonus reward points on everyday dining & groceries\nNo annual fee\nPurchase security insurance",
+      "benefits_zh_CN": "日常餐饮及超市买菜刷卡享加码积分\n免年费\n购物安全保险",
+      "benefits_zh_TW": "日常餐饮及超市买菜刷卡享加码积分\n免年费\n购物安全保险",
+      "aiRewards": {
+        "Food & Dining": 2.0,
+        "Groceries": 2.0,
+        "Everything": 1.0
+      },
+      "cardUrl": "https://www.coastcapitalsavings.com",
+      "image": "https://raw.githubusercontent.com/jimabby/card-assets/main/cards/ca_coastpitalsavings_rewards_plus.png"
+    },
+    {
+      "id": "ca_coastpitalsavings_cashback_preferred",
+      "name": "Coast Capital Cashback Preferred Card",
+      "region": "CA",
+      "bank": "coastcapitalsavings.com",
+      "annualFee": 95,
+      "color": "#00A8B5",
+      "benefits": "3% cash back on gas, groceries, and dining\n1% cash back on all other purchases\nNo foreign exchange fee",
+      "benefits_zh_CN": "加油、超市买菜及餐饮消费享3%现金返还\n其他消费1%现金返还\n零外汇手续费",
+      "benefits_zh_TW": "加油、超市买菜及餐饮消费享3%现金返还\n其他消费1%现金返还\n零外汇手续费",
+      "aiRewards": {
+        "Food & Dining": 3.0,
+        "Groceries": 3.0,
+        "Gas & Transit": 3.0,
+        "Everything": 1.0
+      },
+      "cardUrl": "https://www.coastcapitalsavings.com",
+      "image": "https://raw.githubusercontent.com/jimabby/card-assets/main/cards/ca_coastpitalsavings_cashback_preferred.png"
+    },
+    {
+      "id": "ca_coastpitalsavings_travel_infinite",
+      "name": "Coast Capital Travel Infinite Card",
+      "region": "CA",
+      "bank": "coastcapitalsavings.com",
+      "annualFee": 150,
+      "color": "#00A8B5",
+      "benefits": "3x points on flights, hotels, and travel bookings\nComplimentary airport VIP lounge access\nTravel emergency medical insurance",
+      "benefits_zh_CN": "机票、酒店及旅行预订享3倍积分\n免费机场VIP贵宾厅礼遇\n包含旅行紧急医疗险",
+      "benefits_zh_TW": "机票、酒店及旅行预订享3倍积分\n免费机场VIP贵宾厅礼遇\n包含旅行紧急医疗险",
+      "aiRewards": {
+        "Travel": 3.0,
+        "Flights": 3.0,
+        "Hotels": 3.0,
+        "Everything": 1.0
+      },
+      "cardUrl": "https://www.coastcapitalsavings.com",
+      "image": "https://raw.githubusercontent.com/jimabby/card-assets/main/cards/ca_coastpitalsavings_travel_infinite.png"
+    },
+    {
+      "id": "ca_coastpitalsavings_business_rewards",
+      "name": "Coast Capital Business Rewards Credit Card",
+      "region": "CA",
+      "bank": "coastcapitalsavings.com",
+      "annualFee": 0,
+      "color": "#00A8B5",
+      "benefits": "2x points on office supplies, shipping, and digital advertising\n1x point elsewhere\nEmployee cards at no extra cost",
+      "benefits_zh_CN": "办公用品、快递发货及数字广告享2倍积分\n其他消费1分\n免费开立员工副卡",
+      "benefits_zh_TW": "办公用品、快递发货及数字广告享2倍积分\n其他消费1分\n免费开立员工副卡",
+      "aiRewards": {
+        "Shopping": 2.0,
+        "Everything": 1.0
+      },
+      "cardUrl": "https://www.coastcapitalsavings.com",
+      "image": "https://raw.githubusercontent.com/jimabby/card-assets/main/cards/ca_coastpitalsavings_business_rewards.png"
+    },
+    {
+      "id": "ca_coastpitalsavings_world_elite",
+      "name": "Coast Capital World Elite Mastercard",
+      "region": "CA",
+      "bank": "coastcapitalsavings.com",
+      "annualFee": 199,
+      "color": "#00A8B5",
+      "benefits": "Complimentary VIP airport lounge passes\n2x points on all international purchases\nZero foreign transaction fees",
+      "benefits_zh_CN": "赠送VIP机场贵宾厅门票\n所有国际外币消费享2倍积分\n零外币交易手续费",
+      "benefits_zh_TW": "赠送VIP机场贵宾厅门票\n所有国际外币消费享2倍积分\n零外币交易手续费",
+      "aiRewards": {
+        "Travel": 2.5,
+        "Flights": 2.5,
+        "Hotels": 2.5,
+        "Everything": 1.25
+      },
+      "cardUrl": "https://www.coastcapitalsavings.com",
+      "image": "https://raw.githubusercontent.com/jimabby/card-assets/main/cards/ca_coastpitalsavings_world_elite.png"
+    },
+    {
+      "id": "ca_coastpitalsavings_low_rate_classic",
+      "name": "Coast Capital Low Rate Classic Card",
+      "region": "CA",
+      "bank": "coastcapitalsavings.com",
+      "annualFee": 0,
+      "color": "#00A8B5",
+      "benefits": "Low ongoing purchase interest rate\nNo annual fee\nZero fraud liability protection",
+      "benefits_zh_CN": "保持超低刷卡消费年利率\n免年费\n零盗刷安全责任保障",
+      "benefits_zh_TW": "保持超低刷卡消费年利率\n免年费\n零盗刷安全责任保障",
+      "aiRewards": {
+        "Everything": 0.5
+      },
+      "cardUrl": "https://www.coastcapitalsavings.com",
+      "image": "https://raw.githubusercontent.com/jimabby/card-assets/main/cards/ca_coastpitalsavings_low_rate_classic.png"
+    },
+    {
+      "id": "ca_coastpitalsavings_student_cash",
+      "name": "Coast Capital Student Cash Back Card",
+      "region": "CA",
+      "bank": "coastcapitalsavings.com",
+      "annualFee": 0,
+      "color": "#00A8B5",
+      "benefits": "1.5% cash back on all student purchases\nGood grades cash reward\nNo annual fee & no late fees",
+      "benefits_zh_CN": "学生日常刷卡消费享1.5%现金返还\n成绩优良年度现金奖励\n免年费且无滞纳金",
+      "benefits_zh_TW": "学生日常刷卡消费享1.5%现金返还\n成绩优良年度现金奖励\n免年费且无滞纳金",
+      "aiRewards": {
+        "Everything": 1.5
+      },
+      "cardUrl": "https://www.coastcapitalsavings.com",
+      "image": "https://raw.githubusercontent.com/jimabby/card-assets/main/cards/ca_coastpitalsavings_student_cash.png"
     }
   ]
 }
