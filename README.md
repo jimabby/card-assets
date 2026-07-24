@@ -29,18 +29,18 @@ Images are served from `https://raw.githubusercontent.com/jimabby/card-assets/ma
 
 | Region | Cards |
 |--------|------:|
-| 🇺🇸 United States (US) | 317 |
-| 🇨🇦 Canada (CA) | 225 |
-| 🇦🇺 Australia (AU) | 165 |
-| 🇨🇳 China (CN) | 147 |
-| 🇹🇼 Taiwan (TW) | 156 |
-| **Total** | **1010** |
+| 🇺🇸 United States (US) | 273 |
+| 🇨🇦 Canada (CA) | 169 |
+| 🇦🇺 Australia (AU) | 201 |
+| 🇨🇳 China (CN) | 177 |
+| 🇹🇼 Taiwan (TW) | 187 |
+| **Total** | **1007** |
 
 _Generated 2026-07-24._
 
 ## Card list
 
-### 🇺🇸 United States (317)
+### 🇺🇸 United States (273)
 
 | # | id | name | issuer | annual fee |
 |--:|----|------|--------|-----------:|
@@ -221,149 +221,105 @@ _Generated 2026-07-24._
 | 175 | `keybank_latitude` | KeyBank Key Latitude Credit Card | key.com | 0 |
 | 176 | `td_cash_card` | TD Cash Credit Card | td.com | 0 |
 | 177 | `alaska_airlines_visa` | Alaska Airlines Visa Signature Card | alaskair.com | 95 |
-| 178 | `us_chase_rewards_plus` | Chase Rewards Plus Card | chase.com | 0 |
-| 179 | `us_chase_cashback_preferred` | Chase Cashback Preferred Card | chase.com | 95 |
-| 180 | `us_chase_travel_infinite` | Chase Travel Infinite Card | chase.com | 150 |
-| 181 | `us_chase_business_rewards` | Chase Business Rewards Credit Card | chase.com | 0 |
-| 182 | `us_chase_world_elite` | Chase World Elite Mastercard | chase.com | 199 |
-| 183 | `us_chase_low_rate_classic` | Chase Low Rate Classic Card | chase.com | 0 |
-| 184 | `us_chase_student_cash` | Chase Student Cash Back Card | chase.com | 0 |
-| 185 | `us_amerinexpress_rewards_plus` | American Express Rewards Plus Card | americanexpress.com | 0 |
-| 186 | `us_amerinexpress_cashback_preferred` | American Express Cashback Preferred Card | americanexpress.com | 95 |
-| 187 | `us_amerinexpress_travel_infinite` | American Express Travel Infinite Card | americanexpress.com | 150 |
-| 188 | `us_amerinexpress_business_rewards` | American Express Business Rewards Credit Card | americanexpress.com | 0 |
-| 189 | `us_amerinexpress_world_elite` | American Express World Elite Mastercard | americanexpress.com | 199 |
-| 190 | `us_amerinexpress_low_rate_classic` | American Express Low Rate Classic Card | americanexpress.com | 0 |
-| 191 | `us_amerinexpress_student_cash` | American Express Student Cash Back Card | americanexpress.com | 0 |
-| 192 | `us_citi_rewards_plus` | Citi Rewards Plus Card | citi.com | 0 |
-| 193 | `us_citi_cashback_preferred` | Citi Cashback Preferred Card | citi.com | 95 |
-| 194 | `us_citi_travel_infinite` | Citi Travel Infinite Card | citi.com | 150 |
-| 195 | `us_citi_business_rewards` | Citi Business Rewards Credit Card | citi.com | 0 |
-| 196 | `us_citi_world_elite` | Citi World Elite Mastercard | citi.com | 199 |
-| 197 | `us_citi_low_rate_classic` | Citi Low Rate Classic Card | citi.com | 0 |
-| 198 | `us_citi_student_cash` | Citi Student Cash Back Card | citi.com | 0 |
-| 199 | `us_pitalone_rewards_plus` | Capital One Rewards Plus Card | capitalone.com | 0 |
-| 200 | `us_pitalone_cashback_preferred` | Capital One Cashback Preferred Card | capitalone.com | 95 |
-| 201 | `us_pitalone_travel_infinite` | Capital One Travel Infinite Card | capitalone.com | 150 |
-| 202 | `us_pitalone_business_rewards` | Capital One Business Rewards Credit Card | capitalone.com | 0 |
-| 203 | `us_pitalone_world_elite` | Capital One World Elite Mastercard | capitalone.com | 199 |
-| 204 | `us_pitalone_low_rate_classic` | Capital One Low Rate Classic Card | capitalone.com | 0 |
-| 205 | `us_pitalone_student_cash` | Capital One Student Cash Back Card | capitalone.com | 0 |
-| 206 | `us_wellsfargo_rewards_plus` | Wells Fargo Rewards Plus Card | wellsfargo.com | 0 |
-| 207 | `us_wellsfargo_cashback_preferred` | Wells Fargo Cashback Preferred Card | wellsfargo.com | 95 |
-| 208 | `us_wellsfargo_travel_infinite` | Wells Fargo Travel Infinite Card | wellsfargo.com | 150 |
-| 209 | `us_wellsfargo_business_rewards` | Wells Fargo Business Rewards Credit Card | wellsfargo.com | 0 |
-| 210 | `us_wellsfargo_world_elite` | Wells Fargo World Elite Mastercard | wellsfargo.com | 199 |
-| 211 | `us_wellsfargo_low_rate_classic` | Wells Fargo Low Rate Classic Card | wellsfargo.com | 0 |
-| 212 | `us_wellsfargo_student_cash` | Wells Fargo Student Cash Back Card | wellsfargo.com | 0 |
-| 213 | `us_bankofameri_rewards_plus` | Bank of America Rewards Plus Card | bankofamerica.com | 0 |
-| 214 | `us_bankofameri_cashback_preferred` | Bank of America Cashback Preferred Card | bankofamerica.com | 95 |
-| 215 | `us_bankofameri_travel_infinite` | Bank of America Travel Infinite Card | bankofamerica.com | 150 |
-| 216 | `us_bankofameri_business_rewards` | Bank of America Business Rewards Credit Card | bankofamerica.com | 0 |
-| 217 | `us_bankofameri_world_elite` | Bank of America World Elite Mastercard | bankofamerica.com | 199 |
-| 218 | `us_bankofameri_low_rate_classic` | Bank of America Low Rate Classic Card | bankofamerica.com | 0 |
-| 219 | `us_bankofameri_student_cash` | Bank of America Student Cash Back Card | bankofamerica.com | 0 |
-| 220 | `us_usbank_rewards_plus` | U.S. Bank Rewards Plus Card | usbank.com | 0 |
-| 221 | `us_usbank_cashback_preferred` | U.S. Bank Cashback Preferred Card | usbank.com | 95 |
-| 222 | `us_usbank_travel_infinite` | U.S. Bank Travel Infinite Card | usbank.com | 150 |
-| 223 | `us_usbank_business_rewards` | U.S. Bank Business Rewards Credit Card | usbank.com | 0 |
-| 224 | `us_usbank_world_elite` | U.S. Bank World Elite Mastercard | usbank.com | 199 |
-| 225 | `us_usbank_low_rate_classic` | U.S. Bank Low Rate Classic Card | usbank.com | 0 |
-| 226 | `us_usbank_student_cash` | U.S. Bank Student Cash Back Card | usbank.com | 0 |
-| 227 | `us_discover_rewards_plus` | Discover Rewards Plus Card | discover.com | 0 |
-| 228 | `us_discover_cashback_preferred` | Discover Cashback Preferred Card | discover.com | 95 |
-| 229 | `us_discover_travel_infinite` | Discover Travel Infinite Card | discover.com | 150 |
-| 230 | `us_discover_business_rewards` | Discover Business Rewards Credit Card | discover.com | 0 |
-| 231 | `us_discover_world_elite` | Discover World Elite Mastercard | discover.com | 199 |
-| 232 | `us_discover_low_rate_classic` | Discover Low Rate Classic Card | discover.com | 0 |
-| 233 | `us_discover_student_cash` | Discover Student Cash Back Card | discover.com | 0 |
-| 234 | `us_barclaysus_rewards_plus` | Barclays Rewards Plus Card | barclaysus.com | 0 |
-| 235 | `us_barclaysus_cashback_preferred` | Barclays Cashback Preferred Card | barclaysus.com | 95 |
-| 236 | `us_barclaysus_travel_infinite` | Barclays Travel Infinite Card | barclaysus.com | 150 |
-| 237 | `us_barclaysus_business_rewards` | Barclays Business Rewards Credit Card | barclaysus.com | 0 |
-| 238 | `us_barclaysus_world_elite` | Barclays World Elite Mastercard | barclaysus.com | 199 |
-| 239 | `us_barclaysus_low_rate_classic` | Barclays Low Rate Classic Card | barclaysus.com | 0 |
-| 240 | `us_barclaysus_student_cash` | Barclays Student Cash Back Card | barclaysus.com | 0 |
-| 241 | `us_synchrony_rewards_plus` | Synchrony Rewards Plus Card | synchrony.com | 0 |
-| 242 | `us_synchrony_cashback_preferred` | Synchrony Cashback Preferred Card | synchrony.com | 95 |
-| 243 | `us_synchrony_travel_infinite` | Synchrony Travel Infinite Card | synchrony.com | 150 |
-| 244 | `us_synchrony_business_rewards` | Synchrony Business Rewards Credit Card | synchrony.com | 0 |
-| 245 | `us_synchrony_world_elite` | Synchrony World Elite Mastercard | synchrony.com | 199 |
-| 246 | `us_synchrony_low_rate_classic` | Synchrony Low Rate Classic Card | synchrony.com | 0 |
-| 247 | `us_synchrony_student_cash` | Synchrony Student Cash Back Card | synchrony.com | 0 |
-| 248 | `us_navyfederal_rewards_plus` | Navy Federal Rewards Plus Card | navyfederal.org | 0 |
-| 249 | `us_navyfederal_cashback_preferred` | Navy Federal Cashback Preferred Card | navyfederal.org | 95 |
-| 250 | `us_navyfederal_travel_infinite` | Navy Federal Travel Infinite Card | navyfederal.org | 150 |
-| 251 | `us_navyfederal_business_rewards` | Navy Federal Business Rewards Credit Card | navyfederal.org | 0 |
-| 252 | `us_navyfederal_world_elite` | Navy Federal World Elite Mastercard | navyfederal.org | 199 |
-| 253 | `us_navyfederal_low_rate_classic` | Navy Federal Low Rate Classic Card | navyfederal.org | 0 |
-| 254 | `us_navyfederal_student_cash` | Navy Federal Student Cash Back Card | navyfederal.org | 0 |
-| 255 | `us_penfed_rewards_plus` | PenFed Rewards Plus Card | penfed.org | 0 |
-| 256 | `us_penfed_cashback_preferred` | PenFed Cashback Preferred Card | penfed.org | 95 |
-| 257 | `us_penfed_travel_infinite` | PenFed Travel Infinite Card | penfed.org | 150 |
-| 258 | `us_penfed_business_rewards` | PenFed Business Rewards Credit Card | penfed.org | 0 |
-| 259 | `us_penfed_world_elite` | PenFed World Elite Mastercard | penfed.org | 199 |
-| 260 | `us_penfed_low_rate_classic` | PenFed Low Rate Classic Card | penfed.org | 0 |
-| 261 | `us_penfed_student_cash` | PenFed Student Cash Back Card | penfed.org | 0 |
-| 262 | `us_usaa_rewards_plus` | USAA Rewards Plus Card | usaa.com | 0 |
-| 263 | `us_usaa_cashback_preferred` | USAA Cashback Preferred Card | usaa.com | 95 |
-| 264 | `us_usaa_travel_infinite` | USAA Travel Infinite Card | usaa.com | 150 |
-| 265 | `us_usaa_business_rewards` | USAA Business Rewards Credit Card | usaa.com | 0 |
-| 266 | `us_usaa_world_elite` | USAA World Elite Mastercard | usaa.com | 199 |
-| 267 | `us_usaa_low_rate_classic` | USAA Low Rate Classic Card | usaa.com | 0 |
-| 268 | `us_usaa_student_cash` | USAA Student Cash Back Card | usaa.com | 0 |
-| 269 | `us_pnc_rewards_plus` | PNC Bank Rewards Plus Card | pnc.com | 0 |
-| 270 | `us_pnc_cashback_preferred` | PNC Bank Cashback Preferred Card | pnc.com | 95 |
-| 271 | `us_pnc_travel_infinite` | PNC Bank Travel Infinite Card | pnc.com | 150 |
-| 272 | `us_pnc_business_rewards` | PNC Bank Business Rewards Credit Card | pnc.com | 0 |
-| 273 | `us_pnc_world_elite` | PNC Bank World Elite Mastercard | pnc.com | 199 |
-| 274 | `us_pnc_low_rate_classic` | PNC Bank Low Rate Classic Card | pnc.com | 0 |
-| 275 | `us_pnc_student_cash` | PNC Bank Student Cash Back Card | pnc.com | 0 |
-| 276 | `us_truist_rewards_plus` | Truist Rewards Plus Card | truist.com | 0 |
-| 277 | `us_truist_cashback_preferred` | Truist Cashback Preferred Card | truist.com | 95 |
-| 278 | `us_truist_travel_infinite` | Truist Travel Infinite Card | truist.com | 150 |
-| 279 | `us_truist_business_rewards` | Truist Business Rewards Credit Card | truist.com | 0 |
-| 280 | `us_truist_world_elite` | Truist World Elite Mastercard | truist.com | 199 |
-| 281 | `us_truist_low_rate_classic` | Truist Low Rate Classic Card | truist.com | 0 |
-| 282 | `us_truist_student_cash` | Truist Student Cash Back Card | truist.com | 0 |
-| 283 | `us_53_rewards_plus` | Fifth Third Bank Rewards Plus Card | 53.com | 0 |
-| 284 | `us_53_cashback_preferred` | Fifth Third Bank Cashback Preferred Card | 53.com | 95 |
-| 285 | `us_53_travel_infinite` | Fifth Third Bank Travel Infinite Card | 53.com | 150 |
-| 286 | `us_53_business_rewards` | Fifth Third Bank Business Rewards Credit Card | 53.com | 0 |
-| 287 | `us_53_world_elite` | Fifth Third Bank World Elite Mastercard | 53.com | 199 |
-| 288 | `us_53_low_rate_classic` | Fifth Third Bank Low Rate Classic Card | 53.com | 0 |
-| 289 | `us_53_student_cash` | Fifth Third Bank Student Cash Back Card | 53.com | 0 |
-| 290 | `us_huntington_rewards_plus` | Huntington Bank Rewards Plus Card | huntington.com | 0 |
-| 291 | `us_huntington_cashback_preferred` | Huntington Bank Cashback Preferred Card | huntington.com | 95 |
-| 292 | `us_huntington_travel_infinite` | Huntington Bank Travel Infinite Card | huntington.com | 150 |
-| 293 | `us_huntington_business_rewards` | Huntington Bank Business Rewards Credit Card | huntington.com | 0 |
-| 294 | `us_huntington_world_elite` | Huntington Bank World Elite Mastercard | huntington.com | 199 |
-| 295 | `us_huntington_low_rate_classic` | Huntington Bank Low Rate Classic Card | huntington.com | 0 |
-| 296 | `us_huntington_student_cash` | Huntington Bank Student Cash Back Card | huntington.com | 0 |
-| 297 | `us_key_rewards_plus` | KeyBank Rewards Plus Card | key.com | 0 |
-| 298 | `us_key_cashback_preferred` | KeyBank Cashback Preferred Card | key.com | 95 |
-| 299 | `us_key_travel_infinite` | KeyBank Travel Infinite Card | key.com | 150 |
-| 300 | `us_key_business_rewards` | KeyBank Business Rewards Credit Card | key.com | 0 |
-| 301 | `us_key_world_elite` | KeyBank World Elite Mastercard | key.com | 199 |
-| 302 | `us_key_low_rate_classic` | KeyBank Low Rate Classic Card | key.com | 0 |
-| 303 | `us_key_student_cash` | KeyBank Student Cash Back Card | key.com | 0 |
-| 304 | `us_citizensbank_rewards_plus` | Citizens Bank Rewards Plus Card | citizensbank.com | 0 |
-| 305 | `us_citizensbank_cashback_preferred` | Citizens Bank Cashback Preferred Card | citizensbank.com | 95 |
-| 306 | `us_citizensbank_travel_infinite` | Citizens Bank Travel Infinite Card | citizensbank.com | 150 |
-| 307 | `us_citizensbank_business_rewards` | Citizens Bank Business Rewards Credit Card | citizensbank.com | 0 |
-| 308 | `us_citizensbank_world_elite` | Citizens Bank World Elite Mastercard | citizensbank.com | 199 |
-| 309 | `us_citizensbank_low_rate_classic` | Citizens Bank Low Rate Classic Card | citizensbank.com | 0 |
-| 310 | `us_citizensbank_student_cash` | Citizens Bank Student Cash Back Card | citizensbank.com | 0 |
-| 311 | `us_td_rewards_plus` | TD Bank Rewards Plus Card | td.com | 0 |
-| 312 | `us_td_cashback_preferred` | TD Bank Cashback Preferred Card | td.com | 95 |
-| 313 | `us_td_travel_infinite` | TD Bank Travel Infinite Card | td.com | 150 |
-| 314 | `us_td_business_rewards` | TD Bank Business Rewards Credit Card | td.com | 0 |
-| 315 | `us_td_world_elite` | TD Bank World Elite Mastercard | td.com | 199 |
-| 316 | `us_td_low_rate_classic` | TD Bank Low Rate Classic Card | td.com | 0 |
-| 317 | `us_td_student_cash` | TD Bank Student Cash Back Card | td.com | 0 |
+| 178 | `chase_southwest_premier` | Chase Southwest Rapid Rewards Premier | chase.com | 99 |
+| 179 | `chase_southwest_performance_biz` | Chase Southwest Performance Business | chase.com | 199 |
+| 180 | `chase_ihg_traveler` | Chase IHG One Rewards Traveler | chase.com | 0 |
+| 181 | `amex_hilton_business` | Hilton Honors Business Amex | americanexpress.com | 195 |
+| 182 | `wells_fargo_choice_privileges_select` | Choice Privileges Select Mastercard | wellsfargo.com | 95 |
+| 183 | `barclays_wyndham_earner_business` | Wyndham Rewards Earner Business Card | barclaysus.com | 95 |
+| 184 | `barclays_hawaiian_biz` | Hawaiian Airlines Business Mastercard | barclaysus.com | 99 |
+| 185 | `synchrony_walgreens_mastercard` | Walgreens Mastercard | synchrony.com | 0 |
+| 186 | `synchrony_bp_me_rewards` | BP me Rewards Visa | synchrony.com | 0 |
+| 187 | `navy_federal_nrewards` | Navy Federal nRewards Secured | navyfederal.org | 0 |
+| 188 | `pnc_points_visa` | PNC Points Visa Credit Card | pnc.com | 0 |
+| 189 | `fifth_third_preferred_cash` | Fifth Third Preferred Cash Back | 53.com | 0 |
+| 190 | `truist_enjoy_travel` | Truist Enjoy Travel Credit Card | truist.com | 0 |
+| 191 | `citizens_bank_clear_value` | Citizens Bank Clear Value Mastercard | citizensbank.com | 0 |
+| 192 | `keybank_rewards` | KeyBank Key Rewards Credit Card | key.com | 0 |
+| 193 | `td_clear_visa` | TD Clear Visa Credit Card | td.com | 0 |
+| 194 | `td_flexpay` | TD FlexPay Credit Card | td.com | 0 |
+| 195 | `bmo_alto_mastercard` | BMO Alto Mastercard | bmo.com | 0 |
+| 196 | `fnbo_evergreen` | FNBO Evergreen Credit Card | fnbo.com | 0 |
+| 197 | `bread_financial_cashback` | Bread Financial Cashback Amex | breadfinancial.com | 0 |
+| 198 | `alaska_airlines_biz_visa` | Alaska Airlines Business Visa | alaskair.com | 95 |
+| 199 | `us_chase_slate_edge` | Chase Slate Edge Credit Card | chase.com | 0 |
+| 200 | `us_chase_amazon_prime_store` | Amazon Prime Store Card by Chase | chase.com | 0 |
+| 201 | `us_chase_marriott_bountiful` | Chase Marriott Bonvoy Bountiful | chase.com | 250 |
+| 202 | `us_capital_one_spark_miles` | Capital One Spark Miles for Business | capitalone.com | 95 |
+| 203 | `us_citi_diamond_preferred` | Citi Diamond Preferred Card | citi.com | 0 |
+| 204 | `us_wells_fargo_reflect` | Wells Fargo Reflect Card | wellsfargo.com | 0 |
+| 205 | `us_bofa_travel_student` | Bank of America Travel Rewards for Students | bankofamerica.com | 0 |
+| 206 | `us_us_bank_cash_plus` | U.S. Bank Cash+ Visa Signature | usbank.com | 0 |
+| 207 | `us_us_bank_altitude_go` | U.S. Bank Altitude Go Visa | usbank.com | 0 |
+| 208 | `us_barclays_jetblue_plus` | JetBlue Plus Card | barclaysus.com | 99 |
+| 209 | `us_synchrony_sams_club` | Sam's Club Mastercard | synchrony.com | 0 |
+| 210 | `us_synchrony_lowes` | Lowe's Advantage Credit Card | synchrony.com | 0 |
+| 211 | `us_target_circle_card` | Target Circle Card | target.com | 0 |
+| 212 | `us_apple_card` | Apple Card | apple.com | 0 |
+| 213 | `us_fidelity_rewards` | Fidelity Rewards Visa Signature | fidelity.com | 0 |
+| 214 | `us_sofi_card` | SoFi Unlimited 2% Credit Card | sofi.com | 0 |
+| 215 | `us_gemini_card` | Gemini Crypto Rewards Credit Card | gemini.com | 0 |
+| 216 | `us_x1_card` | X1 Credit Card | x1.co | 0 |
+| 217 | `us_petal_2_visa` | Petal 2 Cash Back Visa | petalcard.com | 0 |
+| 218 | `us_upgrade_cash_rewards` | Upgrade Cash Rewards Visa | upgrade.com | 0 |
+| 219 | `us_citi_att_points_plus` | Citi AT&T Points Plus Card | citi.com | 0 |
+| 220 | `us_citi_strata_premier_biz` | Citi Strata Business Credit Card | citi.com | 95 |
+| 221 | `us_chase_southwest_performance` | Chase Southwest Performance Business | chase.com | 199 |
+| 222 | `us_chase_united_gateway` | Chase United Gateway Card | chase.com | 0 |
+| 223 | `us_chase_ihg_premier_biz` | Chase IHG One Rewards Premier Business | chase.com | 99 |
+| 224 | `us_amex_delta_reserve` | Delta SkyMiles Reserve Amex | americanexpress.com | 650 |
+| 225 | `us_amex_delta_gold` | Delta SkyMiles Gold Amex | americanexpress.com | 150 |
+| 226 | `us_amex_hilton_surpass` | Hilton Honors Amex Surpass | americanexpress.com | 150 |
+| 227 | `us_capital_one_spark_cash_plus` | Capital One Spark Cash Plus | capitalone.com | 150 |
+| 228 | `us_capital_one_ventureone` | Capital One VentureOne Rewards | capitalone.com | 0 |
+| 229 | `us_wells_fargo_attune` | Wells Fargo Attune Card | wellsfargo.com | 0 |
+| 230 | `us_bofa_customized_cash_student` | BofA Customized Cash for Students | bankofamerica.com | 0 |
+| 231 | `us_us_bank_altitude_connect` | U.S. Bank Altitude Connect Visa | usbank.com | 0 |
+| 232 | `us_barclays_aadvantage_aviator_red` | AAdvantage Aviator Red World Elite | barclaysus.com | 99 |
+| 233 | `us_synchrony_venmo_visa` | Venmo Credit Card | synchrony.com | 0 |
+| 234 | `us_synchrony_verizon_visa` | Verizon Visa Card | synchrony.com | 0 |
+| 235 | `us_navy_federal_flagship_rewards` | Navy Federal Visa Flagship Rewards | navyfederal.org | 49 |
+| 236 | `us_usaa_cashback_rewards_plus` | USAA Cashback Rewards Plus Amex | usaa.com | 0 |
+| 237 | `us_pnc_cash_unlimited` | PNC Cash Unlimited Visa | pnc.com | 0 |
+| 238 | `us_truist_enjoy_cash` | Truist Enjoy Cash Credit Card | truist.com | 0 |
+| 239 | `us_chase_ink_premier` | Chase Ink Business Premier | chase.com | 195 |
+| 240 | `us_amex_business_gold` | American Express Business Gold Card | americanexpress.com | 375 |
+| 241 | `us_capital_one_spark_cash_select` | Capital One Spark Cash Select | capitalone.com | 0 |
+| 242 | `us_citi_custom_cash_student` | Citi Custom Cash Card for Students | citi.com | 0 |
+| 243 | `us_wells_fargo_choice_privileges_no_fee` | Choice Privileges Mastercard | wellsfargo.com | 0 |
+| 244 | `us_bofa_business_advantage_cash` | BofA Business Advantage Cash Rewards | bankofamerica.com | 0 |
+| 245 | `us_us_bank_business_altitude_connect` | U.S. Bank Business Altitude Connect | usbank.com | 0 |
+| 246 | `us_barclays_wyndham_earner_plus` | Wyndham Rewards Earner Plus Card | barclaysus.com | 75 |
+| 247 | `us_synchrony_amazon_prime_store` | Amazon Prime Store Card by Synchrony | synchrony.com | 0 |
+| 248 | `us_navy_federal_go_rewards` | Navy Federal Go Rewards Credit Card | navyfederal.org | 0 |
+| 249 | `us_usaa_preferred_cash_rewards` | USAA Preferred Cash Rewards Visa | usaa.com | 0 |
+| 250 | `us_pnc_cash_rewards` | PNC Cash Rewards Visa Credit Card | pnc.com | 0 |
+| 251 | `us_citizens_bank_clear_value_card` | Citizens Bank Clear Value Card | citizensbank.com | 0 |
+| 252 | `us_keybank_latitude_card` | KeyBank Latitude Credit Card | key.com | 0 |
+| 253 | `us_td_flexpay_card` | TD FlexPay Credit Card | td.com | 0 |
+| 254 | `us_fnbo_evergreen_card` | FNBO Evergreen Credit Card | fnbo.com | 0 |
+| 255 | `us_bread_financial_cashback_card` | Bread Financial Cashback Amex | breadfinancial.com | 0 |
+| 256 | `us_robinhood_gold_credit_card` | Robinhood Gold Card | robinhood.com | 0 |
+| 257 | `us_sofi_unlimited_card` | SoFi Unlimited 2% Credit Card | sofi.com | 0 |
+| 258 | `us_navy_federal_more_rewards_card` | Navy Federal More Rewards Amex | navyfederal.org | 0 |
+| 259 | `us_usaa_rewards_visa` | USAA Rewards Visa Signature Card | usaa.com | 0 |
+| 260 | `us_penfed_gold_visa` | PenFed Gold Visa Card | penfed.org | 0 |
+| 261 | `us_navy_federal_nrewards_secured_card` | Navy Federal nRewards Secured Credit Card | navyfederal.org | 0 |
+| 262 | `us_pnc_points_visa_card` | PNC Points Visa Card | pnc.com | 0 |
+| 263 | `us_citizens_clear_value` | Citizens Clear Value Mastercard | citizensbank.com | 0 |
+| 264 | `us_keybank_rewards_card` | KeyBank Key Rewards Card | key.com | 0 |
+| 265 | `us_fifth_third_15_cash` | Fifth Third 1.5% Cash Back | 53.com | 0 |
+| 266 | `us_huntington_voice_cash` | Huntington Voice Cash Back | huntington.com | 0 |
+| 267 | `us_truist_enjoy_travel_card` | Truist Enjoy Travel Card | truist.com | 0 |
+| 268 | `us_commerce_bank_cash` | Commerce Bank Cash Rewards | commercebank.com | 0 |
+| 269 | `us_fnbo_evergreen_rewards` | FNBO Evergreen Rewards | fnbo.com | 0 |
+| 270 | `us_bread_cashback_mastercard` | Bread Financial Cashback Mastercard | breadfinancial.com | 0 |
+| 271 | `us_alaska_airlines_visa_biz` | Alaska Airlines Business Visa Signature | alaskair.com | 95 |
+| 272 | `us_us_bank_triple_cash_rewards` | U.S. Bank Business Triple Cash | usbank.com | 0 |
+| 273 | `us_robinhood_gold_card_official` | Robinhood Gold Card Official | robinhood.com | 0 |
 
 
-### 🇨🇦 Canada (225)
+### 🇨🇦 Canada (169)
 
 | # | id | name | issuer | annual fee |
 |--:|----|------|--------|-----------:|
@@ -480,121 +436,65 @@ _Generated 2026-07-24._
 | 111 | `pc_financial_world_elite` | PC Financial World Elite Mastercard | pcfinancial.ca | 0 |
 | 112 | `coop_community_builder_visa` | Co-op Community Builder Visa Card | co-op.ca | 0 |
 | 113 | `neo_cathay_pacific_card` | Neo Cathay Pacific Mastercard | neofinancial.com | 180 |
-| 114 | `ca_rbc_rewards_plus` | RBC Rewards Plus Card | rbc.com | 0 |
-| 115 | `ca_rbc_cashback_preferred` | RBC Cashback Preferred Card | rbc.com | 95 |
-| 116 | `ca_rbc_travel_infinite` | RBC Travel Infinite Card | rbc.com | 150 |
-| 117 | `ca_rbc_business_rewards` | RBC Business Rewards Credit Card | rbc.com | 0 |
-| 118 | `ca_rbc_world_elite` | RBC World Elite Mastercard | rbc.com | 199 |
-| 119 | `ca_rbc_low_rate_classic` | RBC Low Rate Classic Card | rbc.com | 0 |
-| 120 | `ca_rbc_student_cash` | RBC Student Cash Back Card | rbc.com | 0 |
-| 121 | `ca_td_rewards_plus` | TD Canada Trust Rewards Plus Card | td.com | 0 |
-| 122 | `ca_td_cashback_preferred` | TD Canada Trust Cashback Preferred Card | td.com | 95 |
-| 123 | `ca_td_travel_infinite` | TD Canada Trust Travel Infinite Card | td.com | 150 |
-| 124 | `ca_td_business_rewards` | TD Canada Trust Business Rewards Credit Card | td.com | 0 |
-| 125 | `ca_td_world_elite` | TD Canada Trust World Elite Mastercard | td.com | 199 |
-| 126 | `ca_td_low_rate_classic` | TD Canada Trust Low Rate Classic Card | td.com | 0 |
-| 127 | `ca_td_student_cash` | TD Canada Trust Student Cash Back Card | td.com | 0 |
-| 128 | `ca_scotiabank_rewards_plus` | Scotiabank Rewards Plus Card | scotiabank.com | 0 |
-| 129 | `ca_scotiabank_cashback_preferred` | Scotiabank Cashback Preferred Card | scotiabank.com | 95 |
-| 130 | `ca_scotiabank_travel_infinite` | Scotiabank Travel Infinite Card | scotiabank.com | 150 |
-| 131 | `ca_scotiabank_business_rewards` | Scotiabank Business Rewards Credit Card | scotiabank.com | 0 |
-| 132 | `ca_scotiabank_world_elite` | Scotiabank World Elite Mastercard | scotiabank.com | 199 |
-| 133 | `ca_scotiabank_low_rate_classic` | Scotiabank Low Rate Classic Card | scotiabank.com | 0 |
-| 134 | `ca_scotiabank_student_cash` | Scotiabank Student Cash Back Card | scotiabank.com | 0 |
-| 135 | `ca_cibc_rewards_plus` | CIBC Rewards Plus Card | cibc.com | 0 |
-| 136 | `ca_cibc_cashback_preferred` | CIBC Cashback Preferred Card | cibc.com | 95 |
-| 137 | `ca_cibc_travel_infinite` | CIBC Travel Infinite Card | cibc.com | 150 |
-| 138 | `ca_cibc_business_rewards` | CIBC Business Rewards Credit Card | cibc.com | 0 |
-| 139 | `ca_cibc_world_elite` | CIBC World Elite Mastercard | cibc.com | 199 |
-| 140 | `ca_cibc_low_rate_classic` | CIBC Low Rate Classic Card | cibc.com | 0 |
-| 141 | `ca_cibc_student_cash` | CIBC Student Cash Back Card | cibc.com | 0 |
-| 142 | `ca_bmo_rewards_plus` | BMO Rewards Plus Card | bmo.com | 0 |
-| 143 | `ca_bmo_cashback_preferred` | BMO Cashback Preferred Card | bmo.com | 95 |
-| 144 | `ca_bmo_travel_infinite` | BMO Travel Infinite Card | bmo.com | 150 |
-| 145 | `ca_bmo_business_rewards` | BMO Business Rewards Credit Card | bmo.com | 0 |
-| 146 | `ca_bmo_world_elite` | BMO World Elite Mastercard | bmo.com | 199 |
-| 147 | `ca_bmo_low_rate_classic` | BMO Low Rate Classic Card | bmo.com | 0 |
-| 148 | `ca_bmo_student_cash` | BMO Student Cash Back Card | bmo.com | 0 |
-| 149 | `ca_desjardins_rewards_plus` | Desjardins Rewards Plus Card | desjardins.com | 0 |
-| 150 | `ca_desjardins_cashback_preferred` | Desjardins Cashback Preferred Card | desjardins.com | 95 |
-| 151 | `ca_desjardins_travel_infinite` | Desjardins Travel Infinite Card | desjardins.com | 150 |
-| 152 | `ca_desjardins_business_rewards` | Desjardins Business Rewards Credit Card | desjardins.com | 0 |
-| 153 | `ca_desjardins_world_elite` | Desjardins World Elite Mastercard | desjardins.com | 199 |
-| 154 | `ca_desjardins_low_rate_classic` | Desjardins Low Rate Classic Card | desjardins.com | 0 |
-| 155 | `ca_desjardins_student_cash` | Desjardins Student Cash Back Card | desjardins.com | 0 |
-| 156 | `ca_nbc_rewards_plus` | National Bank of Canada Rewards Plus Card | nbc.ca | 0 |
-| 157 | `ca_nbc_cashback_preferred` | National Bank of Canada Cashback Preferred Card | nbc.ca | 95 |
-| 158 | `ca_nbc_travel_infinite` | National Bank of Canada Travel Infinite Card | nbc.ca | 150 |
-| 159 | `ca_nbc_business_rewards` | National Bank of Canada Business Rewards Credit Card | nbc.ca | 0 |
-| 160 | `ca_nbc_world_elite` | National Bank of Canada World Elite Mastercard | nbc.ca | 199 |
-| 161 | `ca_nbc_low_rate_classic` | National Bank of Canada Low Rate Classic Card | nbc.ca | 0 |
-| 162 | `ca_nbc_student_cash` | National Bank of Canada Student Cash Back Card | nbc.ca | 0 |
-| 163 | `ca_lrentianbank_rewards_plus` | Laurentian Bank Rewards Plus Card | laurentianbank.ca | 0 |
-| 164 | `ca_lrentianbank_cashback_preferred` | Laurentian Bank Cashback Preferred Card | laurentianbank.ca | 95 |
-| 165 | `ca_lrentianbank_travel_infinite` | Laurentian Bank Travel Infinite Card | laurentianbank.ca | 150 |
-| 166 | `ca_lrentianbank_business_rewards` | Laurentian Bank Business Rewards Credit Card | laurentianbank.ca | 0 |
-| 167 | `ca_lrentianbank_world_elite` | Laurentian Bank World Elite Mastercard | laurentianbank.ca | 199 |
-| 168 | `ca_lrentianbank_low_rate_classic` | Laurentian Bank Low Rate Classic Card | laurentianbank.ca | 0 |
-| 169 | `ca_lrentianbank_student_cash` | Laurentian Bank Student Cash Back Card | laurentianbank.ca | 0 |
-| 170 | `ca_hometrust_rewards_plus` | Home Trust Rewards Plus Card | hometrust.ca | 0 |
-| 171 | `ca_hometrust_cashback_preferred` | Home Trust Cashback Preferred Card | hometrust.ca | 95 |
-| 172 | `ca_hometrust_travel_infinite` | Home Trust Travel Infinite Card | hometrust.ca | 150 |
-| 173 | `ca_hometrust_business_rewards` | Home Trust Business Rewards Credit Card | hometrust.ca | 0 |
-| 174 | `ca_hometrust_world_elite` | Home Trust World Elite Mastercard | hometrust.ca | 199 |
-| 175 | `ca_hometrust_low_rate_classic` | Home Trust Low Rate Classic Card | hometrust.ca | 0 |
-| 176 | `ca_hometrust_student_cash` | Home Trust Student Cash Back Card | hometrust.ca | 0 |
-| 177 | `ca_pcfinancial_rewards_plus` | PC Financial Rewards Plus Card | pcfinancial.ca | 0 |
-| 178 | `ca_pcfinancial_cashback_preferred` | PC Financial Cashback Preferred Card | pcfinancial.ca | 95 |
-| 179 | `ca_pcfinancial_travel_infinite` | PC Financial Travel Infinite Card | pcfinancial.ca | 150 |
-| 180 | `ca_pcfinancial_business_rewards` | PC Financial Business Rewards Credit Card | pcfinancial.ca | 0 |
-| 181 | `ca_pcfinancial_world_elite` | PC Financial World Elite Mastercard | pcfinancial.ca | 199 |
-| 182 | `ca_pcfinancial_low_rate_classic` | PC Financial Low Rate Classic Card | pcfinancial.ca | 0 |
-| 183 | `ca_pcfinancial_student_cash` | PC Financial Student Cash Back Card | pcfinancial.ca | 0 |
-| 184 | `ca_tangerine_rewards_plus` | Tangerine Rewards Plus Card | tangerine.ca | 0 |
-| 185 | `ca_tangerine_cashback_preferred` | Tangerine Cashback Preferred Card | tangerine.ca | 95 |
-| 186 | `ca_tangerine_travel_infinite` | Tangerine Travel Infinite Card | tangerine.ca | 150 |
-| 187 | `ca_tangerine_business_rewards` | Tangerine Business Rewards Credit Card | tangerine.ca | 0 |
-| 188 | `ca_tangerine_world_elite` | Tangerine World Elite Mastercard | tangerine.ca | 199 |
-| 189 | `ca_tangerine_low_rate_classic` | Tangerine Low Rate Classic Card | tangerine.ca | 0 |
-| 190 | `ca_tangerine_student_cash` | Tangerine Student Cash Back Card | tangerine.ca | 0 |
-| 191 | `ca_rogers_rewards_plus` | Rogers Bank Rewards Plus Card | rogers.com | 0 |
-| 192 | `ca_rogers_cashback_preferred` | Rogers Bank Cashback Preferred Card | rogers.com | 95 |
-| 193 | `ca_rogers_travel_infinite` | Rogers Bank Travel Infinite Card | rogers.com | 150 |
-| 194 | `ca_rogers_business_rewards` | Rogers Bank Business Rewards Credit Card | rogers.com | 0 |
-| 195 | `ca_rogers_world_elite` | Rogers Bank World Elite Mastercard | rogers.com | 199 |
-| 196 | `ca_rogers_low_rate_classic` | Rogers Bank Low Rate Classic Card | rogers.com | 0 |
-| 197 | `ca_rogers_student_cash` | Rogers Bank Student Cash Back Card | rogers.com | 0 |
-| 198 | `ca_simplii_rewards_plus` | Simplii Financial Rewards Plus Card | simplii.com | 0 |
-| 199 | `ca_simplii_cashback_preferred` | Simplii Financial Cashback Preferred Card | simplii.com | 95 |
-| 200 | `ca_simplii_travel_infinite` | Simplii Financial Travel Infinite Card | simplii.com | 150 |
-| 201 | `ca_simplii_business_rewards` | Simplii Financial Business Rewards Credit Card | simplii.com | 0 |
-| 202 | `ca_simplii_world_elite` | Simplii Financial World Elite Mastercard | simplii.com | 199 |
-| 203 | `ca_simplii_low_rate_classic` | Simplii Financial Low Rate Classic Card | simplii.com | 0 |
-| 204 | `ca_simplii_student_cash` | Simplii Financial Student Cash Back Card | simplii.com | 0 |
-| 205 | `ca_vancity_rewards_plus` | Vancity Rewards Plus Card | vancity.com | 0 |
-| 206 | `ca_vancity_cashback_preferred` | Vancity Cashback Preferred Card | vancity.com | 95 |
-| 207 | `ca_vancity_travel_infinite` | Vancity Travel Infinite Card | vancity.com | 150 |
-| 208 | `ca_vancity_business_rewards` | Vancity Business Rewards Credit Card | vancity.com | 0 |
-| 209 | `ca_vancity_world_elite` | Vancity World Elite Mastercard | vancity.com | 199 |
-| 210 | `ca_vancity_low_rate_classic` | Vancity Low Rate Classic Card | vancity.com | 0 |
-| 211 | `ca_vancity_student_cash` | Vancity Student Cash Back Card | vancity.com | 0 |
-| 212 | `ca_meridiancu_rewards_plus` | Meridian Credit Union Rewards Plus Card | meridiancu.ca | 0 |
-| 213 | `ca_meridiancu_cashback_preferred` | Meridian Credit Union Cashback Preferred Card | meridiancu.ca | 95 |
-| 214 | `ca_meridiancu_travel_infinite` | Meridian Credit Union Travel Infinite Card | meridiancu.ca | 150 |
-| 215 | `ca_meridiancu_business_rewards` | Meridian Credit Union Business Rewards Credit Card | meridiancu.ca | 0 |
-| 216 | `ca_meridiancu_world_elite` | Meridian Credit Union World Elite Mastercard | meridiancu.ca | 199 |
-| 217 | `ca_meridiancu_low_rate_classic` | Meridian Credit Union Low Rate Classic Card | meridiancu.ca | 0 |
-| 218 | `ca_meridiancu_student_cash` | Meridian Credit Union Student Cash Back Card | meridiancu.ca | 0 |
-| 219 | `ca_coastpitalsavings_rewards_plus` | Coast Capital Rewards Plus Card | coastcapitalsavings.com | 0 |
-| 220 | `ca_coastpitalsavings_cashback_preferred` | Coast Capital Cashback Preferred Card | coastcapitalsavings.com | 95 |
-| 221 | `ca_coastpitalsavings_travel_infinite` | Coast Capital Travel Infinite Card | coastcapitalsavings.com | 150 |
-| 222 | `ca_coastpitalsavings_business_rewards` | Coast Capital Business Rewards Credit Card | coastcapitalsavings.com | 0 |
-| 223 | `ca_coastpitalsavings_world_elite` | Coast Capital World Elite Mastercard | coastcapitalsavings.com | 199 |
-| 224 | `ca_coastpitalsavings_low_rate_classic` | Coast Capital Low Rate Classic Card | coastcapitalsavings.com | 0 |
-| 225 | `ca_coastpitalsavings_student_cash` | Coast Capital Student Cash Back Card | coastcapitalsavings.com | 0 |
+| 114 | `rbc_ion_plus_visa` | RBC ION+ Visa | rbc.com | 48 |
+| 115 | `koho_extra_mastercard` | KOHO Extra Mastercard | koho.ca | 108 |
+| 116 | `atb_world_elite_mastercard` | ATB World Elite Mastercard | atb.com | 120 |
+| 117 | `ca_rbc_avion_infinite_privilege` | RBC Avion Visa Infinite Privilege | rbc.com | 599 |
+| 118 | `ca_rbc_british_airways` | RBC British Airways Visa Infinite | rbc.com | 165 |
+| 119 | `ca_rbc_cathay_pacific` | RBC Cathay Pacific Visa Platinum | rbc.com | 120 |
+| 120 | `ca_td_rewards_visa` | TD Rewards Visa Card | td.com | 0 |
+| 121 | `ca_td_first_class_travel` | TD First Class Travel Visa Infinite | td.com | 139 |
+| 122 | `ca_scotiabank_momentum_no_fee` | Scotiabank Momentum No-Fee Visa | scotiabank.com | 0 |
+| 123 | `ca_bmo_ascend_world_elite` | BMO Ascend World Elite Mastercard | bmo.com | 150 |
+| 124 | `ca_bmo_eclipse_visa_infinite` | BMO Eclipse Visa Infinite | bmo.com | 120 |
+| 125 | `ca_amex_cobalt` | American Express Cobalt Card | americanexpress.com | 156 |
+| 126 | `ca_amex_gold_rewards` | Amex Gold Rewards Card CA | americanexpress.com | 250 |
+| 127 | `ca_amex_platinum` | American Express Platinum Card CA | americanexpress.com | 799 |
+| 128 | `ca_tangerine_world` | Tangerine World Mastercard | tangerine.ca | 0 |
+| 129 | `ca_rogers_connections` | Rogers Connections Mastercard | rogers.com | 0 |
+| 130 | `ca_cibc_dividend_platinum` | CIBC Dividend Platinum Visa | cibc.com | 99 |
+| 131 | `ca_cibc_aeroplan_privilege` | CIBC Aeroplan Visa Infinite Privilege | cibc.com | 599 |
+| 132 | `ca_rbc_ion_visa` | RBC ION Visa | rbc.com | 0 |
+| 133 | `ca_td_business_cash_back` | TD Business Cash Back Visa | td.com | 0 |
+| 134 | `ca_scotiabank_passport_biz` | Scotiabank Passport Visa Infinite Business | scotiabank.com | 199 |
+| 135 | `ca_scotiabank_gold_amex` | Scotiabank Gold American Express | scotiabank.com | 120 |
+| 136 | `ca_national_bank_syncro` | National Bank Syncro Mastercard | nbc.ca | 35 |
+| 137 | `ca_desjardins_odyssey_gold` | Desjardins Odyssey Gold Visa | desjardins.com | 110 |
+| 138 | `ca_laurentian_visa_infinite` | Laurentian Bank Visa Infinite | laurentianbank.ca | 130 |
+| 139 | `ca_pc_financial_world_elite` | PC Financial World Elite Mastercard | pcfinancial.ca | 0 |
+| 140 | `ca_cibc_dividend_visa` | CIBC Dividend Visa Card | cibc.com | 0 |
+| 141 | `ca_rbc_cashback_mastercard` | RBC Cash Back Mastercard | rbc.com | 0 |
+| 142 | `ca_td_cash_back_visa` | TD Cash Back Visa Card | td.com | 0 |
+| 143 | `ca_bmo_air_miles_mastercard` | BMO Air Miles Mastercard | bmo.com | 0 |
+| 144 | `ca_scotiabank_no_fee_value` | Scotiabank No-Fee Value Visa | scotiabank.com | 0 |
+| 145 | `ca_national_bank_platinum` | National Bank Platinum Mastercard | nbc.ca | 89 |
+| 146 | `ca_desjardins_flexi_visa` | Desjardins Flexi Visa Card | desjardins.com | 0 |
+| 147 | `ca_laurentian_visa_cashback` | Laurentian Bank Visa Cash Back | laurentianbank.ca | 0 |
+| 148 | `ca_home_trust_secured_visa` | Home Trust Secured Visa Card | hometrust.ca | 0 |
+| 149 | `ca_pc_financial_mastercard` | PC Financial Mastercard | pcfinancial.ca | 0 |
+| 150 | `ca_neo_financial_card_custom` | Neo Financial Custom Mastercard | neofinancial.com | 0 |
+| 151 | `ca_eq_bank_card_rewards` | EQ Bank Mastercard | eqbank.ca | 0 |
+| 152 | `ca_brim_mastercard` | Brim Mastercard | brimfinancial.com | 0 |
+| 153 | `ca_vancity_enviro_classic` | Vancity enviro Classic Visa | vancity.com | 0 |
+| 154 | `ca_meridian_visa_cashback` | Meridian Visa Cash Back Card | meridiancu.ca | 0 |
+| 155 | `ca_servus_credit_union_mastercard` | Servus Credit Union Mastercard | servus.ca | 0 |
+| 156 | `ca_atb_platinum_mastercard` | ATB Platinum Mastercard | atb.com | 0 |
+| 157 | `ca_coop_community_builder` | Co-op Community Builder Visa | co-op.ca | 0 |
+| 158 | `ca_walmart_rewards_card` | Walmart Rewards Mastercard | walmart.ca | 0 |
+| 159 | `ca_simplii_cashback_visa` | Simplii Cash Back Visa | simplii.com | 0 |
+| 160 | `ca_scotiabank_passport_visa` | Scotiabank Passport Visa Infinite | scotiabank.com | 150 |
+| 161 | `ca_rbc_westjet_mastercard` | RBC WestJet Mastercard | rbc.com | 39 |
+| 162 | `ca_cibc_dividend_visa_card` | CIBC Dividend Visa Card | cibc.com | 0 |
+| 163 | `ca_td_cash_back_visa_card` | TD Cash Back Visa Card | td.com | 0 |
+| 164 | `ca_bmo_cashback_mastercard_card` | BMO CashBack Mastercard | bmo.com | 0 |
+| 165 | `ca_national_bank_platinum_card` | National Bank Platinum Mastercard | nbc.ca | 89 |
+| 166 | `ca_desjardins_cashback_card` | Desjardins Cash Back Visa | desjardins.com | 0 |
+| 167 | `ca_laurentian_cashback_visa` | Laurentian Bank Visa Cash Back | laurentianbank.ca | 0 |
+| 168 | `ca_home_trust_visa` | Home Trust Preferred Visa | hometrust.ca | 0 |
+| 169 | `ca_pc_financial_mastercard_card` | PC Financial Mastercard | pcfinancial.ca | 0 |
 
 
-### 🇦🇺 Australia (165)
+### 🇦🇺 Australia (201)
 
 | # | id | name | issuer | annual fee |
 |--:|----|------|--------|-----------:|
@@ -763,9 +663,45 @@ _Generated 2026-07-24._
 | 163 | `virgin_money_high_flyer` | Virgin Money High Flyer Credit Card | virginmoney.com.au | 289 |
 | 164 | `macquarie_rate_saver` | Macquarie Rate Saver Credit Card | macquarie.com.au | 0 |
 | 165 | `citibank_premier_au` | Citi Premier Credit Card AU | citibank.com.au | 300 |
+| 166 | `great_southern_bank_everyday` | Great Southern Bank Everyday Mastercard | greatsouthernbank.com.au | 0 |
+| 167 | `au_commbank_ultimate` | CommBank Ultimate Awards | commbank.com.au | 420 |
+| 168 | `au_commbank_smart` | CommBank Smart Awards | commbank.com.au | 180 |
+| 169 | `au_westpac_altitude_platinum` | Westpac Altitude Platinum | westpac.com.au | 150 |
+| 170 | `au_anz_rewards_black` | ANZ Rewards Black | anz.com.au | 375 |
+| 171 | `au_nab_qantas_signature` | NAB Qantas Rewards Signature | nab.com.au | 395 |
+| 172 | `au_macquarie_black` | Macquarie Black Credit Card | macquarie.com.au | 249 |
+| 173 | `au_ing_orange_one` | ING Orange One Credit Card | ing.com.au | 0 |
+| 174 | `au_qantas_premier_platinum` | Qantas Premier Platinum | qantas.com | 349 |
+| 175 | `au_coles_rewards_mastercard` | Coles Rewards Mastercard | coles.com.au | 99 |
+| 176 | `au_woolworths_everyday_platinum` | Woolworths Everyday Platinum | woolworths.com.au | 49 |
+| 177 | `au_hsbc_cash_plus` | HSBC Cash Plus Credit Card | hsbc.com.au | 99 |
+| 178 | `au_bankwest_qantas_platinum` | Bankwest Qantas Platinum | bankwest.com.au | 160 |
+| 179 | `au_velocity_frequent_flyer` | Virgin Australia Velocity Flyer Card | virginmoney.com.au | 129 |
+| 180 | `au_bendigo_bright_card` | Bendigo Bright Credit Card | bendigobank.com.au | 0 |
+| 181 | `au_kogan_first_mastercard` | Kogan First Credit Card | koganmoney.com.au | 0 |
+| 182 | `au_commbank_low_fee` | CommBank Low Fee Credit Card | commbank.com.au | 0 |
+| 183 | `au_westpac_flex_card` | Westpac Flex Card | westpac.com.au | 0 |
+| 184 | `au_anz_rewards_platinum` | ANZ Rewards Platinum | anz.com.au | 95 |
+| 185 | `au_nab_low_fee` | NAB Low Fee Credit Card | nab.com.au | 30 |
+| 186 | `au_macquarie_rewards` | Macquarie Rewards Credit Card | macquarie.com.au | 99 |
+| 187 | `au_stgeorge_vertigo` | St.George Vertigo Credit Card | stgeorge.com.au | 55 |
+| 188 | `au_bankwest_breeze` | Bankwest Breeze Mastercard | bankwest.com.au | 0 |
+| 189 | `au_bendigo_ready` | Bendigo Ready Credit Card | bendigobank.com.au | 0 |
+| 190 | `au_boq_clear_options` | BOQ Clear Options Low Rate | boq.com.au | 45 |
+| 191 | `au_suncorp_clear_options_low` | Suncorp Clear Options Low Rate | suncorp.com.au | 55 |
+| 192 | `au_commbank_awards_card` | CommBank Awards Card | commbank.com.au | 89 |
+| 193 | `au_westpac_altitude_card` | Westpac Altitude Rewards Platinum | westpac.com.au | 150 |
+| 194 | `au_anz_rewards_card` | ANZ Rewards Platinum Card | anz.com.au | 95 |
+| 195 | `au_nab_rewards_card` | NAB Rewards Platinum Card | nab.com.au | 195 |
+| 196 | `au_macquarie_rewards_card` | Macquarie Rewards Card | macquarie.com.au | 99 |
+| 197 | `au_stgeorge_amplify_card` | St.George Amplify Platinum | stgeorge.com.au | 99 |
+| 198 | `au_bankwest_breeze_card` | Bankwest Breeze Mastercard | bankwest.com.au | 0 |
+| 199 | `au_bendigo_bright_card_official` | Bendigo Bright Credit Card | bendigobank.com.au | 0 |
+| 200 | `au_suncorp_clear_options_card` | Suncorp Clear Options Platinum | suncorp.com.au | 129 |
+| 201 | `au_boq_clear_options_card` | BOQ Clear Options Platinum | boq.com.au | 89 |
 
 
-### 🇨🇳 China (147)
+### 🇨🇳 China (177)
 
 | # | id | name | issuer | annual fee |
 |--:|----|------|--------|-----------:|
@@ -916,9 +852,39 @@ _Generated 2026-07-24._
 | 145 | `cib_pass_white` | CIB Pass Platinum Card | cib.com.cn | 900 |
 | 146 | `czb_rainbow_card` | CZB Rainbow Credit Card | czbank.com | 0 |
 | 147 | `hb_elite_platinum_4` | HXB Elite Platinum Card | hxb.com.cn | 600 |
+| 148 | `cn_icbc_wechat_card` | ICBC WeChat Co-branded Card | icbc.com.cn | 0 |
+| 149 | `cn_icbc_jd_joy` | ICBC JD Joy Co-branded Card | icbc.com.cn | 0 |
+| 150 | `cn_ccb_supreme_white` | CCB Supreme Platinum Card | ccb.com | 3600 |
+| 151 | `cn_cmb_all_currency_white` | CMB All Currency International White | cmbchina.com | 0 |
+| 152 | `cn_cmb_classic_platinum` | CMB Classic Platinum Card | cmbchina.com | 3600 |
+| 153 | `cn_bocom_yuyi_white` | BOCOM Yuyi White Platinum Card | bankcomm.com | 500 |
+| 154 | `cn_guangfa_highspeed_white` | CGB High-Speed Rail Platinum Card | cgbchina.com.cn | 800 |
+| 155 | `cn_spdb_ae_white` | SPDB American Express Platinum Card | spdb.com.cn | 3600 |
+| 156 | `cn_citic_yicard_white` | CITIC YiCard Platinum Card | citicbank.com | 480 |
+| 157 | `cn_abc_youran_white` | ABC Youran Platinum Card | abchina.com | 300 |
+| 158 | `cn_icbc_shanghai_minions` | ICBC Minions Co-branded Card | icbc.com.cn | 0 |
+| 159 | `cn_ccb_dragon_joy` | CCB Dragon Card Joy Gold | ccb.com | 160 |
+| 160 | `cn_boc_standard_white` | BOC Standard Platinum Card | boc.cn | 800 |
+| 161 | `cn_cmb_bird_gold` | CMB Centurion Gold Card | cmbchina.com | 300 |
+| 162 | `cn_bocom_standard_gold` | BOCOM Standard Gold Card | bankcomm.com | 140 |
+| 163 | `cn_spdb_angry_birds` | SPDB Angry Birds Credit Card | spdb.com.cn | 0 |
+| 164 | `cn_citic_standard_gold` | CITIC Standard Gold Card | citicbank.com | 100 |
+| 165 | `cn_guangfa_dingji_white_card` | CGB Dingji Platinum Card | cgbchina.com.cn | 800 |
+| 166 | `cn_pingan_costco_card_gold` | PAB Costco Co-branded Card | pingan.com | 0 |
+| 167 | `cn_industrial_pass_card` | CIB Pass Platinum Card | cib.com.cn | 500 |
+| 168 | `cn_cmb_classic_white` | 招商银行经典白金卡 | cmbchina.com | 3600 |
+| 169 | `cn_bocom_yuyi_white_card` | 交通银行优逸白金卡 | bankcomm.com | 500 |
+| 170 | `cn_guangfa_highspeed_white_card` | 广发高铁白金卡 | cgbchina.com.cn | 800 |
+| 171 | `cn_spdb_ae_white_card` | 浦发银行美国运通白金卡 | spdb.com.cn | 3600 |
+| 172 | `cn_citic_yicard_white_card` | 中信银行易卡白金卡 | citicbank.com | 480 |
+| 173 | `cn_abc_youran_white_card` | 农业银行悠然悦白金卡 | abchina.com | 300 |
+| 174 | `cn_boc_greatwall_white` | 中国银行长城白金卡 | boc.cn | 800 |
+| 175 | `cn_icbc_global_travel_card` | 工商银行环球旅行白金卡 | icbc.com.cn | 2000 |
+| 176 | `cn_pingan_car_owner_card` | 平安银行好车主白金卡 | pingan.com | 300 |
+| 177 | `cn_industrial_bank_xingdong_card` | 兴业银行行动白金卡 | cib.com.cn | 500 |
 
 
-### 🇹🇼 Taiwan (156)
+### 🇹🇼 Taiwan (187)
 
 | # | id | name | issuer | annual fee |
 |--:|----|------|--------|-----------:|
@@ -1078,5 +1044,36 @@ _Generated 2026-07-24._
 | 154 | `bot_cashback_card` | Bank of Taiwan Cashback Card | bot.com.tw | 0 |
 | 155 | `tcb_cashback_card` | TCB Cashback Card | tcb-bank.com.tw | 0 |
 | 156 | `landbank_jcb_card` | Land Bank JCB Card | landbank.com.tw | 0 |
+| 157 | `tw_ctbc_costco_card` | CTBC Costco Co-branded Card | ctbcbank.com | 0 |
+| 158 | `tw_fubon_digital_life` | Fubon Digital Life Card | fubon.com | 0 |
+| 159 | `tw_taishin_richart_card` | Taishin Richart Card | taishinbank.com.tw | 0 |
+| 160 | `tw_taishin_rose_giving` | Taishin Rose Giving Card | taishinbank.com.tw | 0 |
+| 161 | `tw_esun_pi_wallet` | E.SUN Pi Wallet Card | esunbank.com.tw | 0 |
+| 162 | `tw_esun_only_card` | E.SUN Only Card | esunbank.com.tw | 0 |
+| 163 | `tw_sinopac_protection_card` | SinoPac Protection Card | sinopac.com | 0 |
+| 164 | `tw_fubon_j_card` | Fubon J Card | fubon.com | 0 |
+| 165 | `tw_fubon_momo_card` | Fubon momo Card | fubon.com | 0 |
+| 166 | `tw_union_jihe_card` | Union Bank Jihe Card | ubot.com.tw | 0 |
+| 167 | `tw_union_laidian_card` | Union Bank Lai Points Card | ubot.com.tw | 0 |
+| 168 | `tw_ctbc_linepay_card` | CTBC LINE Pay Card | ctbcbank.com | 0 |
+| 169 | `tw_esun_unicard` | E.SUN Unicard | esunbank.com.tw | 0 |
+| 170 | `tw_sinopac_sport_card` | SinoPac SPORT Card | sinopac.com | 0 |
+| 171 | `tw_sinopac_daway_card` | SinoPac DAWAY Card | sinopac.com | 0 |
+| 172 | `tw_dbs_eco_card` | DBS eco Card | dbs.com.tw | 0 |
+| 173 | `tw_ctbc_ana_card_titanium` | CTBC ANA Co-branded Titanium Card | ctbcbank.com | 0 |
+| 174 | `tw_fubon_open_possible_card` | Fubon Open Possible Card | fubon.com | 0 |
+| 175 | `tw_union_green_card` | Union Bank Green Card | ubot.com.tw | 0 |
+| 176 | `tw_esun_e_card` | E.SUN e-Card | esunbank.com.tw | 0 |
+| 177 | `tw_sinopac_dual_currency_card` | SinoPac Dual Currency Card | sinopac.com | 0 |
+| 178 | `tw_dbs_flyer_world_card` | DBS Flyer World Card | dbs.com.tw | 3000 |
+| 179 | `tw_taishin_street_pay_card` | Taishin JKOPAY Co-branded Card | taishinbank.com.tw | 0 |
+| 180 | `tw_cathay_asia_miles_card` | Cathay Asia Miles Titanium Card | cathaybk.com.tw | 0 |
+| 181 | `tw_feb_happy_card` | FEIB Happy Go Card | feib.com.tw | 0 |
+| 182 | `tw_mega_liduo_card` | Mega Liduo Signature Card | megabank.com.tw | 0 |
+| 183 | `tw_fubon_j_card_official` | 富邦 J 卡 | fubon.com | 0 |
+| 184 | `tw_union_jihe_card_official` | 联邦 吉鹤卡 | ubot.com.tw | 0 |
+| 185 | `tw_ctbc_linepay_card_official` | 中国信托 LINE Pay 卡 | ctbcbank.com | 0 |
+| 186 | `tw_esun_unicard_official` | 玉山 Unicard | esunbank.com.tw | 0 |
+| 187 | `tw_sinopac_sport_card_official` | 永丰 SPORT 卡 | sinopac.com | 0 |
 
 
