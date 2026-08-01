@@ -252,9 +252,10 @@
     <div class="section">
       <h2>1. The Short Version</h2>
       <ul>
-        <li>Calla stores your health entries in your own private account so they sync across your devices. Every record is restricted to your account by security rules.</li>
-        <li>Calla's free plan shows <strong>non-personalized ads</strong> (via Google AdMob). There is no cross-app tracking and no data sales, and your <strong>health data is never used for advertising</strong> or shared with advertisers.</li>
+        <li>Calla stores your health entries in your own private account so they sync across your devices. Security rules restrict every record to your account — with one exception you control: a <strong>care-circle share</strong> you deliberately create, which lets one person you invite read a scoped summary. See <a class="contact-link" href="#care-circle">Care circle</a>.</li>
+        <li>Calla's free plan shows <strong>ads</strong> (via Google AdMob). In the EEA, the UK and Switzerland you are asked for consent first and can change your choice at any time in <strong>Settings → Privacy → Ad privacy settings</strong>. Your <strong>health data is never used for advertising</strong>, never shared with advertisers, and never sold.</li>
         <li>The AI companion sends chat messages to Google's Gemini to generate replies; nothing is used to advertise to you.</li>
+        <li>If you turn on health sync, Calla <strong>reads</strong> eight kinds of data from Apple Health / Health Connect, and — only if you separately allow it — <strong>writes back</strong> the water you log and the mindful minutes from its breathing exercise. See <a class="contact-link" href="#health">Apple Health &amp; Health Connect</a>.</li>
         <li>You can permanently delete your account and every record at any time, directly in the app (<strong>Settings → Delete account &amp; data</strong>).</li>
       </ul>
     </div>
@@ -271,17 +272,38 @@
         <li><strong>Account details</strong> — your name and email address, used to sign you in and address you in the app. You can sign in with email and password, Sign in with Apple, or Google Sign-In.</li>
         <li><strong>Health entries you log</strong> — mood check-ins, sleep, water, steps, symptoms, vital readings (such as blood pressure, heart rate, weight, temperature), medications and dose history, appointments, and journal entries.</li>
         <li><strong>Emergency info you choose to add</strong> — blood type, allergies, conditions, and an emergency contact, kept on your profile for your own reference and data exports.</li>
+        <li><strong>Photos you attach to a symptom</strong> — for example a rash, a swelling, or a wound. These are stored as files in your own private folder in Google Cloud Storage and are readable only by your account. They are <strong>never</strong> included in a care-circle share.</li>
         <li><strong>Care circle</strong> — the names and contact details of family members or carers you add.</li>
         <li><strong>AI chat messages</strong> — the conversations you have with the Calla companion.</li>
-        <li><strong>Preferences</strong> — reminder times, units, goals, and theme.</li>
+        <li><strong>Preferences</strong> — reminder times, units, goals, theme, and your privacy choices.</li>
+        <li><strong>Crash diagnostics</strong> — see <a class="contact-link" href="#crash">Crash reporting</a> below.</li>
       </ul>
-      <p>Calla collects no location data, no contacts from your address book, and no usage analytics. Because its ads are non-personalized, it does not use your advertising identifier for tracking — see <a class="contact-link" href="#advertising">Advertising</a> below.</p>
+      <p>Calla collects no location data, no contacts from your address book, and no usage analytics. Where ads are personalized only with your consent, and non-personalized otherwise — see <a class="contact-link" href="#advertising">Advertising</a> below for exactly what Google receives.</p>
+      <p><strong>Guest accounts.</strong> "Continue as guest" creates a real but anonymous account: it has an internal id but no email, password, or name, so there is nothing to sign back in with. Calla warns you before you sign out of a guest account, and <strong>Settings → Protect my account</strong> lets you attach an email address, Apple ID, or Google account at any time — after which the same data is recoverable normally.</p>
     </div>
 
     <div class="section">
       <h2>4. Where Your Data Is Stored</h2>
-      <p>Your entries are stored in <a class="contact-link" href="https://firebase.google.com" rel="noopener">Google Firebase</a> (Firestore and Firebase Authentication), which lets your data sync live across your devices. Firestore security rules restrict every record to your own signed-in account — nobody else, including other Calla users, can read it.</p>
+      <p>Your entries are stored in <a class="contact-link" href="https://firebase.google.com" rel="noopener">Google Firebase</a> (Firestore, Firebase Authentication, and Cloud Storage for photo attachments), which lets your data sync live across your devices. Firestore and Storage security rules restrict every record and every file to your own signed-in account. The only data another account can ever read is a care-circle share you create yourself — see <a class="contact-link" href="#care-circle">Care circle</a>.</p>
+      <p>Some data is also kept <strong>on your device</strong>: a cached copy of your entries so the app works offline, plus a small queue of check-ins and photo uploads that haven't reached the server yet. Android system backups are disabled for Calla, so this local data is not copied into Google Drive backups. It is removed when you delete your account or uninstall the app.</p>
       <p><strong>Demo mode:</strong> if you try Calla in demo mode, everything stays on your device only and is discarded when you leave the demo — no account is created and nothing is uploaded.</p>
+    </div>
+
+    <div class="section" id="care-circle">
+      <h2>4a. Care Circle (Sharing With Someone Else)</h2>
+      <p>The care circle is the one feature that lets a <strong>different person</strong> read some of your data, and it only ever happens because you started it.</p>
+      <ul>
+        <li>When you turn on sharing for someone, Calla writes a <strong>snapshot</strong> — not your whole account — to a separate record identified by a random invite code you pass to that person.</li>
+        <li>The snapshot contains only what the access level you picked allows (for example a summary, or medications and vitals). It <strong>never</strong> contains your photos, your journal, or your AI chats.</li>
+        <li>The record locks to the first account that opens it, so a code that goes astray cannot be used by a second person. You can see who claimed it and when.</li>
+        <li>You can set an <strong>expiry date</strong> when you share, revoke any share instantly, or rotate every active code at once from <strong>Circle → Sharing</strong>. Revoking or expiring stops the other person seeing anything further.</li>
+        <li>Deleting your account deletes every share you created, so nothing readable is left behind.</li>
+      </ul>
+    </div>
+
+    <div class="section" id="crash">
+      <h2>4b. Crash Reporting</h2>
+      <p>If a build of Calla is configured with crash reporting, an unexpected crash sends a diagnostic report to <a class="contact-link" href="https://sentry.io" rel="noopener">Sentry</a> so the bug can be fixed. A report contains the error, the code path that produced it, your app version and device model, and an internal account id — <strong>not</strong> your health entries, journal, photos, or chats. Crash reporting is off when no reporting endpoint is configured for the build.</p>
     </div>
 
     <div class="section">
@@ -295,20 +317,28 @@
       <h2>6. Advertising</h2>
       <p>Calla's free plan shows a small banner ad on a few everyday screens (such as Home, Trends, and the journal). Ads are provided by Google AdMob.</p>
       <ul>
-        <li>Ads are <strong>non-personalized</strong> — they are chosen from general, contextual signals, not from a profile built from your behaviour. Calla does not request your device's advertising identifier for tracking and does not show the App Tracking Transparency prompt.</li>
-        <li>Your <strong>health entries, journal, AI chats, and any data imported from Apple Health or Health Connect are never shared with AdMob or used to target ads</strong>. Ads never appear on the AI chat, vitals detail, or emergency-info screens.</li>
-        <li>To serve and measure ads and to limit ad fraud, AdMob receives basic technical information such as your device type, coarse region, and a non-tracking ad request. See <a class="contact-link" href="https://policies.google.com/technologies/ads" rel="noopener">Google's advertising notice</a> for details.</li>
-        <li>A future in-app upgrade may offer an ad-free experience.</li>
+        <li><strong>Consent comes first.</strong> If you are in the European Economic Area, the United Kingdom, or Switzerland, Calla shows a Google-certified consent message (Google's User Messaging Platform) <strong>before</strong> the advertising SDK starts, and no ad request is made until you have answered it. You can reopen that message and change or withdraw your choice at any time in <strong>Settings → Privacy → Ad privacy settings</strong>.</li>
+        <li>If you do not consent to personalized ads — and everywhere a consent message is not required — ads are <strong>non-personalized</strong>: chosen from general, contextual signals rather than a profile built from your behaviour.</li>
+        <li><strong>Even non-personalized ads use device identifiers</strong> for purposes such as frequency capping, aggregate reporting, and fraud prevention. On iOS, Calla does not request App Tracking Transparency permission, so the advertising identifier is not available for cross-app tracking. Google's Mobile Ads SDK declares device-identifier collection in its own privacy manifest.</li>
+        <li>Your <strong>health entries, journal, photos, AI chats, and any data imported from Apple Health or Health Connect are never shared with AdMob or used to target ads</strong>. Ads never appear on the AI chat, vitals detail, or emergency-info screens.</li>
+        <li>To serve and measure ads and to limit ad fraud, AdMob receives basic technical information such as your device type and model, coarse region, and the ad request itself. See <a class="contact-link" href="https://policies.google.com/technologies/ads" rel="noopener">Google's advertising notice</a> and <a class="contact-link" href="https://business.safety.google/adsprocessorterms/" rel="noopener">Google's ads processor terms</a> for details.</li>
+        <li>An in-app upgrade removes ads entirely.</li>
       </ul>
     </div>
 
-    <div class="section">
+    <div class="section" id="health">
       <h2>7. Apple Health &amp; Health Connect (Optional)</h2>
-      <p>If you turn on health sync, Calla asks the system for <strong>read-only</strong> access to steps, sleep, heart rate, and weight from Apple Health (iOS) or Health Connect (Android). Imported readings are stored alongside the vitals you log manually, in your own account.</p>
+      <p>Health sync is off until you turn it on. When you do, Calla asks the system for <strong>read</strong> access to eight kinds of data from Apple Health (iOS) or Health Connect (Android):</p>
       <ul>
-        <li>Calla never writes to Apple Health or Health Connect.</li>
+        <li>steps, sleep, heart rate, weight,</li>
+        <li>blood pressure, body temperature, blood glucose, and water intake.</li>
+      </ul>
+      <p>Imported readings are stored alongside the vitals you log manually, in your own account.</p>
+      <p><strong>Writing back.</strong> Calla can also put two things it created itself back into the platform store, so your other apps stay in step: the <strong>water you log in Calla</strong>, and the <strong>mindful minutes</strong> from Calla's breathing exercise (mindful sessions are iOS-only — Health Connect has no equivalent record). Write access is requested <strong>separately</strong> from read access and only when you enable it, so you can import without ever letting Calla write. Calla never writes any other kind of record, and never authors a reading it did not measure.</p>
+      <ul>
         <li>Health data is <strong>never</strong> used for advertising or marketing, never sold, and never shared with third parties for their own purposes.</li>
-        <li>You can turn sync off at any time in Settings, or revoke access in your device's health settings.</li>
+        <li>Health data is never included in a crash report.</li>
+        <li>You can turn sync or write-back off at any time in Settings, or revoke access in your device's health settings.</li>
       </ul>
     </div>
 
@@ -326,9 +356,31 @@
       <h2>10. Data Retention and Deletion</h2>
       <ul>
         <li>Your data is kept in your account until you delete it. Individual entries can be edited or deleted in the app.</li>
-        <li><strong>Settings → Delete account &amp; data</strong> permanently erases your account and every check-in, reading, medication, appointment, journal entry, and chat. Deletion takes effect immediately and cannot be undone. See the <a class="contact-link" href="account-deletion.html">Delete Account</a> page for details.</li>
+        <li><strong>Settings → Delete account &amp; data</strong> permanently erases, in this order: every care-circle share you created; every photo attachment in Cloud Storage; every check-in, reading, symptom, medication, appointment, journal entry and chat message; the offline queues and cached data on your device; and finally the account itself.</li>
+        <li>The same erasure runs <strong>server-side</strong> as well, triggered by the account's removal. It covers the cases a phone cannot — a deletion made from a support request or an administrative tool, or a device that lost connection halfway through — and it sweeps the same set: your data tree, your Storage folder, shares you own, references held by people you shared with, and internal rate-limit counters. It retries until it completes.</li>
+        <li>Deletion takes effect immediately and cannot be undone. See the <a class="contact-link" href="account-deletion.html">Delete Account</a> page for details.</li>
         <li>Uninstalling the app removes locally cached data from your device.</li>
+        <li>Backups: Firebase keeps short-lived operational backups of its databases as part of running the service; deleted records age out of those within 30 days.</li>
       </ul>
+    </div>
+
+    <div class="section">
+      <h2>10a. Your Privacy Controls</h2>
+      <p><strong>Settings → Privacy</strong> collects the choices that matter in one place:</p>
+      <ul>
+        <li><strong>Ad privacy settings</strong> — reopen the consent message, or change/withdraw your choice (where applicable).</li>
+        <li><strong>AI companion</strong> — turn the AI off entirely, or stop your recent entries being included as context with each message.</li>
+        <li><strong>Crash reporting</strong> — turn diagnostic reports off.</li>
+        <li><strong>Privacy mode</strong> — hide entry details from notifications, blur the app in the task switcher, and block screenshots and screen recording.</li>
+        <li><strong>App lock</strong> — require Face ID, fingerprint or your device passcode to open Calla.</li>
+        <li><strong>Care-circle sharing</strong> — see every active share, when it was claimed and by whom, set expiry dates, and rotate all codes at once.</li>
+      </ul>
+    </div>
+
+    <div class="section">
+      <h2>10b. Your Rights</h2>
+      <p>Depending on where you live (for example under the GDPR or the UK GDPR), you have rights to access, correct, export, restrict, and erase your personal data, and to object to certain processing. Calla is built so you can exercise most of these yourself and immediately: <strong>Settings → Export</strong> produces a full copy of your data, every entry is editable in the app, and <strong>Settings → Delete account &amp; data</strong> erases everything. For anything else — or to raise a complaint — write to <a class="contact-link" href="mailto:wksunshine@gmail.com">wksunshine@gmail.com</a>. You also have the right to complain to your local data-protection authority.</p>
+      <p>Calla's legal basis for handling your health entries is your <strong>consent</strong>, given by choosing to record them; for optional features (health sync, AI chat, care-circle sharing, personalized ads, crash reporting) it is the separate consent you give when turning each one on, which you can withdraw at any time by turning it back off.</p>
     </div>
 
     <div class="section">
@@ -346,7 +398,7 @@
       <p>Questions about this policy: <a class="contact-link" href="mailto:wksunshine@gmail.com">wksunshine@gmail.com</a></p>
     </div>
 
-    <p class="updated">Effective date: 17 July 2026</p>
+    <p class="updated">Effective date: 1 August 2026 (previous version: 17 July 2026)</p>
   </div>
 </div>
 
@@ -362,9 +414,10 @@
     <div class="section">
       <h2>1. 簡要說明</h2>
       <ul>
-        <li>Calla 將您的健康記錄儲存在您私人的帳號中，以便在您的裝置之間同步。安全規則確保每筆記錄僅限您本人的帳號存取。</li>
-        <li>Calla 免費方案會顯示<strong>非個人化廣告</strong>（透過 Google AdMob）。沒有跨應用程式追蹤、絕不出售資料，您的<strong>健康資料絕不用於廣告</strong>，也不會提供給廣告商。</li>
+        <li>Calla 將您的健康記錄儲存在您私人的帳號中，以便在您的裝置之間同步。安全規則確保每筆記錄僅限您本人的帳號存取 — 唯一的例外由您自己掌控：您主動建立的<strong>關懷圈分享</strong>，讓您邀請的一位對象可讀取範圍受限的摘要。詳見<a class="contact-link" href="#care-circle-zh">關懷圈</a>。</li>
+        <li>Calla 免費方案會顯示<strong>廣告</strong>（透過 Google AdMob）。若您位於歐洲經濟區、英國或瑞士，我們會先徵求您的同意，您也可隨時在<strong>設定 → 隱私 → 廣告隱私設定</strong>中變更或撤回選擇。您的<strong>健康資料絕不用於廣告</strong>、不會提供給廣告商，也絕不出售。</li>
         <li>AI 夥伴會將聊天訊息傳送至 Google 的 Gemini 以產生回覆；您的資料不會被用於向您投放廣告。</li>
+        <li>若您開啟健康同步，Calla 會從 Apple 健康／Health Connect <strong>讀取</strong>八類資料；僅在您另行允許時，才會將您記錄的飲水量與呼吸練習的正念分鐘數<strong>寫回</strong>。詳見 <a class="contact-link" href="#health-zh">Apple 健康與 Health Connect</a>。</li>
         <li>您可隨時直接在應用程式內（<strong>設定 → 刪除帳號與資料</strong>）永久刪除您的帳號及所有記錄。</li>
       </ul>
     </div>
@@ -381,17 +434,38 @@
         <li><strong>帳號資料</strong> — 您的姓名和電子郵件地址，用於登入及在應用程式中稱呼您。您可使用電子郵件密碼、Apple 登入或 Google 登入。</li>
         <li><strong>您記錄的健康資料</strong> — 心情打卡、睡眠、飲水、步數、症狀、生命體徵（如血壓、心率、體重、體溫）、藥物及服藥記錄、預約及日記。</li>
         <li><strong>您選擇填寫的緊急資訊</strong> — 血型、過敏、疾病及緊急聯絡人，保存在您的個人檔案中，供您參考及匯出資料時使用。</li>
+        <li><strong>您為症狀附加的照片</strong> — 例如皮疹、腫脹或傷口。這些照片以檔案形式儲存在 Google Cloud Storage 中您專屬的私人資料夾，僅限您的帳號讀取，且<strong>絕不</strong>納入關懷圈分享。</li>
         <li><strong>關懷圈</strong> — 您新增的家人或照顧者的姓名及聯絡方式。</li>
         <li><strong>AI 聊天訊息</strong> — 您與 Calla 夥伴的對話。</li>
-        <li><strong>偏好設定</strong> — 提醒時間、單位、目標及主題。</li>
+        <li><strong>偏好設定</strong> — 提醒時間、單位、目標、主題及您的隱私選擇。</li>
+        <li><strong>當機診斷資料</strong> — 詳見下方「<a class="contact-link" href="#crash-zh">當機回報</a>」一節。</li>
       </ul>
-      <p>Calla 不收集位置資料、不讀取您的通訊錄，也沒有使用分析。由於廣告為非個人化，Calla 不會為追蹤目的使用您的廣告識別碼 — 詳見下方「<a class="contact-link" href="#advertising-zh">廣告</a>」一節。</p>
+      <p>Calla 不收集位置資料、不讀取您的通訊錄，也沒有使用分析。個人化廣告僅在取得您同意後才會投放，否則一律為非個人化廣告 — Google 究竟會收到哪些資料，詳見下方「<a class="contact-link" href="#advertising-zh">廣告</a>」一節。</p>
+      <p><strong>訪客帳號。</strong>「以訪客身分繼續」會建立一個真實但匿名的帳號：它有內部識別碼，但沒有電子郵件、密碼或姓名，因此沒有任何可用來重新登入的憑證。Calla 會在您登出訪客帳號前提出警告，您也可隨時透過<strong>設定 → 保護我的帳號</strong>綁定電子郵件、Apple ID 或 Google 帳號 — 綁定後即可正常復原相同的資料。</p>
     </div>
 
     <div class="section">
       <h2>4. 資料儲存位置</h2>
-      <p>您的記錄儲存在 <a class="contact-link" href="https://firebase.google.com" rel="noopener">Google Firebase</a>（Firestore 及 Firebase 驗證），讓資料能在您的裝置間即時同步。Firestore 安全規則確保每筆記錄僅限您本人的帳號存取 — 其他任何人（包括其他 Calla 使用者）都無法讀取。</p>
+      <p>您的記錄儲存在 <a class="contact-link" href="https://firebase.google.com" rel="noopener">Google Firebase</a>（Firestore、Firebase 驗證，以及儲存照片附件的 Cloud Storage），讓資料能在您的裝置間即時同步。Firestore 與 Storage 安全規則確保每筆記錄與每個檔案僅限您本人的帳號存取。其他帳號唯一能讀取的資料，是您自行建立的關懷圈分享 — 詳見<a class="contact-link" href="#care-circle-zh">關懷圈</a>。</p>
+      <p>部分資料也會保存在<strong>您的裝置上</strong>：包括供離線使用的記錄快取，以及尚未送達伺服器的少量打卡與照片上傳佇列。Calla 已停用 Android 系統備份，因此這些本機資料不會被複製到 Google 雲端硬碟備份中。當您刪除帳號或解除安裝應用程式時，這些資料即會移除。</p>
       <p><strong>示範模式：</strong>若您以示範模式試用 Calla，所有資料僅存在於您的裝置上，離開示範模式時即會清除 — 不會建立帳號，也不會上傳任何資料。</p>
+    </div>
+
+    <div class="section" id="care-circle-zh">
+      <h2>4a. 關懷圈（與他人分享）</h2>
+      <p>關懷圈是唯一讓<strong>其他人</strong>能讀取您部分資料的功能，且一律由您主動開啟。</p>
+      <ul>
+        <li>當您為某人開啟分享時，Calla 會寫入一份<strong>快照</strong>（並非您的整個帳號）到一筆獨立記錄中，該記錄以一組隨機邀請碼識別，由您交給對方。</li>
+        <li>快照僅包含您所選存取層級允許的內容（例如摘要，或藥物與生命體徵），<strong>絕不</strong>包含您的照片、日記或 AI 聊天。</li>
+        <li>該記錄會鎖定給第一個開啟它的帳號，因此即使邀請碼外流，也無法被第二個人使用。您可以看到是誰在何時認領的。</li>
+        <li>您可在分享時設定<strong>到期日</strong>、隨時立即撤銷任一分享，或在<strong>關懷圈 → 分享</strong>中一次輪替所有有效邀請碼。撤銷或到期後，對方即無法再看到任何後續內容。</li>
+        <li>刪除帳號時會一併刪除您建立的所有分享，不會留下任何可讀取的內容。</li>
+      </ul>
+    </div>
+
+    <div class="section" id="crash-zh">
+      <h2>4b. 當機回報</h2>
+      <p>若某個 Calla 版本已設定當機回報，發生非預期當機時會將診斷報告傳送至 <a class="contact-link" href="https://sentry.io" rel="noopener">Sentry</a> 以便修正問題。報告內容包含錯誤本身、產生錯誤的程式路徑、您的應用程式版本與裝置型號，以及一組內部帳號識別碼 — <strong>不包含</strong>您的健康記錄、日記、照片或聊天內容。若該版本未設定回報端點，當機回報即為關閉狀態。</p>
     </div>
 
     <div class="section">
@@ -405,20 +479,28 @@
       <h2>6. 廣告</h2>
       <p>Calla 的免費方案會在部分日常畫面（如首頁、趨勢及日記）顯示小型橫幅廣告，廣告由 Google AdMob 提供。</p>
       <ul>
-        <li>廣告為<strong>非個人化</strong> — 依一般情境訊號選取，而非依您的行為建立的個人檔案。Calla 不會為追蹤目的請求您裝置的廣告識別碼，也不會顯示「App 追蹤透明度」提示。</li>
-        <li>您的<strong>健康記錄、日記、AI 聊天，以及從 Apple 健康或 Health Connect 匯入的任何資料，絕不會與 AdMob 分享，也不會用於投放廣告</strong>。AI 聊天、生命體徵詳情及緊急資訊畫面上絕不會出現廣告。</li>
-        <li>為投放及衡量廣告並防止廣告詐騙，AdMob 會接收基本技術資訊，例如您的裝置類型、粗略地區及一次不含追蹤的廣告請求。詳情請參閱 <a class="contact-link" href="https://policies.google.com/technologies/ads" rel="noopener">Google 的廣告說明</a>。</li>
-        <li>未來的應用程式內升級可能提供無廣告體驗。</li>
+        <li><strong>同意優先。</strong>若您位於歐洲經濟區、英國或瑞士，Calla 會在廣告 SDK 啟動<strong>之前</strong>顯示 Google 認證的同意訊息（Google 使用者訊息平台 UMP），在您回覆之前不會發出任何廣告請求。您可隨時在<strong>設定 → 隱私 → 廣告隱私設定</strong>中重新開啟該訊息，變更或撤回您的選擇。</li>
+        <li>若您不同意個人化廣告 — 以及在所有無須顯示同意訊息的地區 — 廣告一律為<strong>非個人化</strong>：依一般情境訊號選取，而非依您的行為建立的個人檔案。</li>
+        <li><strong>即使是非個人化廣告，仍會使用裝置識別碼</strong>，用於頻率控制、彙總報表及防詐等目的。在 iOS 上，Calla 不會請求「App 追蹤透明度」權限，因此廣告識別碼無法用於跨應用程式追蹤。Google 行動廣告 SDK 已在其隱私資訊清單中聲明會收集裝置識別碼。</li>
+        <li>您的<strong>健康記錄、日記、照片、AI 聊天，以及從 Apple 健康或 Health Connect 匯入的任何資料，絕不會與 AdMob 分享，也不會用於投放廣告</strong>。AI 聊天、生命體徵詳情及緊急資訊畫面上絕不會出現廣告。</li>
+        <li>為投放及衡量廣告並防止廣告詐騙，AdMob 會接收基本技術資訊，例如您的裝置類型與型號、粗略地區及廣告請求本身。詳情請參閱 <a class="contact-link" href="https://policies.google.com/technologies/ads" rel="noopener">Google 的廣告說明</a>及 <a class="contact-link" href="https://business.safety.google/adsprocessorterms/" rel="noopener">Google 廣告資料處理條款</a>。</li>
+        <li>應用程式內升級可完全移除廣告。</li>
       </ul>
     </div>
 
-    <div class="section">
+    <div class="section" id="health-zh">
       <h2>7. Apple 健康與 Health Connect（可選）</h2>
-      <p>若您開啟健康同步，Calla 會向系統請求<strong>唯讀</strong>存取 Apple 健康（iOS）或 Health Connect（Android）中的步數、睡眠、心率及體重。匯入的讀數會與您手動記錄的生命體徵一同儲存在您自己的帳號中。</p>
+      <p>健康同步預設為關閉，需由您主動開啟。開啟後，Calla 會向系統請求<strong>讀取</strong> Apple 健康（iOS）或 Health Connect（Android）中的八類資料：</p>
       <ul>
-        <li>Calla 絕不寫入 Apple 健康或 Health Connect。</li>
+        <li>步數、睡眠、心率、體重，</li>
+        <li>血壓、體溫、血糖及飲水量。</li>
+      </ul>
+      <p>匯入的讀數會與您手動記錄的生命體徵一同儲存在您自己的帳號中。</p>
+      <p><strong>寫回資料。</strong>Calla 也可將兩項由它自己產生的資料寫回平台，讓您的其他應用程式保持同步：<strong>您在 Calla 記錄的飲水量</strong>，以及 Calla 呼吸練習的<strong>正念分鐘數</strong>（正念記錄僅限 iOS — Health Connect 沒有對應的記錄類型）。寫入權限與讀取權限<strong>分開</strong>請求，且僅在您啟用時才會請求，因此您可以只匯入資料而完全不讓 Calla 寫入。Calla 絕不寫入其他任何類型的記錄，也絕不產生非它自己測量的讀數。</p>
+      <ul>
         <li>健康資料<strong>絕不</strong>用於廣告或行銷、絕不出售，也絕不為第三方自身目的與其分享。</li>
-        <li>您可隨時在「設定」中關閉同步，或在裝置的健康設定中撤銷存取權。</li>
+        <li>健康資料絕不會包含在當機報告中。</li>
+        <li>您可隨時在「設定」中關閉同步或寫回功能，或在裝置的健康設定中撤銷存取權。</li>
       </ul>
     </div>
 
@@ -436,9 +518,31 @@
       <h2>10. 資料保留與刪除</h2>
       <ul>
         <li>您的資料會保留在您的帳號中，直到您刪除為止。您可在應用程式內編輯或刪除個別記錄。</li>
-        <li>「<strong>設定 → 刪除帳號與資料</strong>」會永久清除您的帳號及每一筆打卡、讀數、藥物、預約、日記和聊天記錄。刪除立即生效且無法復原。詳情請參閱<a class="contact-link" href="account-deletion.html">刪除帳號</a>頁面。</li>
+        <li>「<strong>設定 → 刪除帳號與資料</strong>」會依序永久清除：您建立的所有關懷圈分享；Cloud Storage 中的所有照片附件；每一筆打卡、讀數、症狀、藥物、預約、日記和聊天記錄；裝置上的離線佇列與快取資料；最後是帳號本身。</li>
+        <li>相同的清除作業也會在<strong>伺服器端</strong>執行，由帳號的移除觸發。它涵蓋手機無法處理的情況 — 例如透過客服請求或管理工具進行的刪除，或裝置在中途斷線 — 並清除相同範圍：您的資料樹、您的 Storage 資料夾、您擁有的分享、分享對象持有的參照，以及內部的流量限制計數器。此作業會持續重試直到完成。</li>
+        <li>刪除立即生效且無法復原。詳情請參閱<a class="contact-link" href="account-deletion.html">刪除帳號</a>頁面。</li>
         <li>解除安裝應用程式會移除裝置上的本機快取資料。</li>
+        <li>備份：Firebase 在提供服務的過程中會保留短期的資料庫營運備份；已刪除的記錄會在 30 天內從這些備份中淘汰。</li>
       </ul>
+    </div>
+
+    <div class="section">
+      <h2>10a. 您的隱私控制項</h2>
+      <p><strong>設定 → 隱私</strong>將所有重要選擇集中在同一處：</p>
+      <ul>
+        <li><strong>廣告隱私設定</strong> — 重新開啟同意訊息，或變更／撤回您的選擇（適用地區）。</li>
+        <li><strong>AI 夥伴</strong> — 完全關閉 AI，或停止在每則訊息中附帶您近期記錄作為脈絡。</li>
+        <li><strong>當機回報</strong> — 關閉診斷報告。</li>
+        <li><strong>隱私模式</strong> — 在通知中隱藏記錄細節、在多工切換畫面中模糊化應用程式，並封鎖螢幕擷取與螢幕錄影。</li>
+        <li><strong>應用程式鎖定</strong> — 開啟 Calla 時需通過 Face ID、指紋或裝置密碼驗證。</li>
+        <li><strong>關懷圈分享</strong> — 檢視所有有效分享、認領時間與認領者、設定到期日，並可一次輪替所有邀請碼。</li>
+      </ul>
+    </div>
+
+    <div class="section">
+      <h2>10b. 您的權利</h2>
+      <p>依您所在地區的法規（例如 GDPR 或英國 GDPR），您享有存取、更正、匯出、限制及刪除您個人資料的權利，並可反對特定的資料處理行為。Calla 的設計讓您能自行且即時行使其中大部分權利：<strong>設定 → 匯出</strong>可產生您資料的完整副本，每一筆記錄都可在應用程式內編輯，而<strong>設定 → 刪除帳號與資料</strong>則會清除所有內容。其他事項 — 或提出申訴 — 請來信 <a class="contact-link" href="mailto:wksunshine@gmail.com">wksunshine@gmail.com</a>。您亦有權向當地的資料保護主管機關提出申訴。</p>
+      <p>Calla 處理您健康記錄的法律依據是您的<strong>同意</strong>，即您選擇記錄它們的行為；至於選用功能（健康同步、AI 聊天、關懷圈分享、個人化廣告、當機回報），依據則是您在開啟各該功能時另行給予的同意，您可隨時透過關閉該功能撤回。</p>
     </div>
 
     <div class="section">
@@ -456,7 +560,7 @@
       <p>關於本政策的問題，請聯絡：<a class="contact-link" href="mailto:wksunshine@gmail.com">wksunshine@gmail.com</a></p>
     </div>
 
-    <p class="updated">生效日期：2026 年 7 月 17 日</p>
+    <p class="updated">生效日期：2026 年 8 月 1 日（前一版本：2026 年 7 月 17 日）</p>
   </div>
 </div>
 

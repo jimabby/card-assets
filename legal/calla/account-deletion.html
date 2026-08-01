@@ -263,10 +263,15 @@
     <div class="section">
       <h2>2. What Gets Deleted</h2>
       <ul>
-        <li>Your account (email/password, Apple, or Google sign-in).</li>
-        <li>Every record in your account — mood check-ins, symptoms, vital readings (including any imported from Apple Health or Health Connect), medications and dose history, appointments, journal entries, care-circle contacts, AI chat history, emergency info, and preferences.</li>
+        <li>Your account (email/password, Apple, or Google sign-in) — including a guest account, which is deleted the same way.</li>
+        <li>Every record in your account — mood check-ins, symptoms, vital readings (including any imported from Apple Health or Health Connect), medications and dose history, cycle logs, appointments, journal entries, care-circle contacts, AI chat history, emergency info, and preferences.</li>
+        <li>Every <strong>photo</strong> you attached to a symptom, deleted from Cloud Storage.</li>
+        <li>Every <strong>care-circle share</strong> you created, so nobody you shared with can read anything further — and the reference held on their side, so the share stops appearing for them.</li>
+        <li>The <strong>local copies on your device</strong>: cached entries and the offline queues of check-ins and photo uploads that hadn't yet reached the server.</li>
+        <li>Internal rate-limit counters tied to your account.</li>
       </ul>
-      <p style="margin-top: 10px;"><strong>Not affected:</strong> the data in Apple Health or Health Connect itself — Calla only ever reads from those services, so your original health records stay untouched on your device.</p>
+      <p style="margin-top: 10px;">The app performs this itself, and a <strong>server-side job runs the same sweep independently</strong>, triggered by the account's removal. That covers deletions made outside the app and devices that lose connection partway through, and it retries until it finishes — so a partial deletion cannot leave readable health data behind.</p>
+      <p style="margin-top: 10px;"><strong>Not affected:</strong> the data in Apple Health or Health Connect itself. If you let Calla write back the water you logged and its mindful minutes, those entries remain in your health app; you can delete them there — in Apple Health, via <em>Browse → the data type → Show All Data</em>, filtering by Calla as the source.</p>
     </div>
 
     <div class="section">
@@ -306,10 +311,15 @@
     <div class="section">
       <h2>2. 哪些資料會被刪除</h2>
       <ul>
-        <li>您的帳號（電子郵件密碼、Apple 或 Google 登入）。</li>
-        <li>帳號中的每一筆記錄 — 心情打卡、症狀、生命體徵（包括從 Apple 健康或 Health Connect 匯入的讀數）、藥物及服藥記錄、預約、日記、關懷圈聯絡人、AI 聊天記錄、緊急資訊及偏好設定。</li>
+        <li>您的帳號（電子郵件密碼、Apple 或 Google 登入）— 訪客帳號亦以相同方式刪除。</li>
+        <li>帳號中的每一筆記錄 — 心情打卡、症狀、生命體徵（包括從 Apple 健康或 Health Connect 匯入的讀數）、藥物及服藥記錄、週期記錄、預約、日記、關懷圈聯絡人、AI 聊天記錄、緊急資訊及偏好設定。</li>
+        <li>您為症狀附加的每一張<strong>照片</strong>，會從 Cloud Storage 中刪除。</li>
+        <li>您建立的每一筆<strong>關懷圈分享</strong>，使分享對象無法再讀取任何後續內容 — 以及對方持有的參照，讓該分享不再出現在他們的畫面中。</li>
+        <li><strong>裝置上的本機副本</strong>：快取的記錄，以及尚未送達伺服器的打卡與照片上傳離線佇列。</li>
+        <li>與您帳號相關的內部流量限制計數器。</li>
       </ul>
-      <p style="margin-top: 10px;"><strong>不受影響：</strong>Apple 健康或 Health Connect 本身的資料 — Calla 只會讀取這些服務，您原始的健康記錄會完整保留在您的裝置上。</p>
+      <p style="margin-top: 10px;">應用程式會自行執行上述作業，同時<strong>伺服器端的作業也會獨立執行相同的清除</strong>，由帳號的移除觸發。這涵蓋了在應用程式外進行的刪除，以及裝置在中途斷線的情況，並會持續重試直到完成 — 因此不完整的刪除不會留下任何可讀取的健康資料。</p>
+      <p style="margin-top: 10px;"><strong>不受影響：</strong>Apple 健康或 Health Connect 本身的資料。若您曾允許 Calla 寫回您記錄的飲水量及正念分鐘數，這些記錄會保留在您的健康應用程式中；您可在該處刪除 — 在 Apple 健康中，可透過<em>瀏覽 → 該資料類型 → 顯示所有資料</em>，並以 Calla 作為來源進行篩選。</p>
     </div>
 
     <div class="section">
