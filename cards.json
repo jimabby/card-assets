@@ -59,6 +59,7 @@
       "benefits_zh_CN": "通过Chase旅行预订5倍积分\n餐饮3倍积分\n药店3倍积分\n其他消费1.5倍积分\n免年费\n前15个月0%优惠年利率\n购物保障与延长保修\n行程取消/中断保险",
       "benefits_zh_TW": "透過Chase Travel預訂5倍積分\n餐飲3倍積分\n藥妝店3倍積分\n其他消費1.5倍積分\n免年費\n前15個月0%優惠年利率\n購物保障與延長保固\n行程取消/中斷保險",
       "aiRewards": {
+        "Travel": 8.0,
         "Flights": 8,
         "Hotels": 8,
         "Food & Dining": 4.8,
@@ -79,6 +80,7 @@
       "benefits_zh_CN": "每季度轮换消费类别5倍积分（最高$1,500）\n通过Chase旅行预订5倍积分\n餐饮3倍积分\n药店3倍积分\n其他消费1倍积分\n免年费\n手机保障\n购物保障与延长保修\n行程取消/中断保险",
       "benefits_zh_TW": "每季輪換消費類別5倍積分（最高$1,500）\n透過Chase Travel預訂5倍積分\n餐飲3倍積分\n藥妝店3倍積分\n其他消費1倍積分\n免年費\n手機保障\n購物保障與延長保固\n行程取消/中斷保險",
       "aiRewards": {
+        "Travel": 8.0,
         "Flights": 8,
         "Hotels": 8,
         "Food & Dining": 4.8,
@@ -99,6 +101,7 @@
       "benefits_zh_CN": "旅行3倍积分\n快递运输3倍积分\n广告3倍积分\n网络/有线/电话3倍积分\n其他消费1倍积分\n手机保障最高$1,000\n行程取消保险\n无境外交易手续费",
       "benefits_zh_TW": "旅遊3倍積分\n貨運運輸3倍積分\n廣告3倍積分\n網路/有線電視/電話3倍積分\n其他消費1倍積分\n手機保障最高$1,000\n行程取消保險\n無國外交易手續費",
       "aiRewards": {
+        "Travel": 4.8,
         "Flights": 4.8,
         "Hotels": 4.8,
         "Car Rental": 4.8,
@@ -426,6 +429,7 @@
       "benefits_zh_TW": "餐廳3倍積分\n旅遊3倍積分\n加油站3倍積分\n交通3倍積分\n串流媒體3倍積分\n手機方案3倍積分\n其他消費1倍積分\n免年費\n無國外交易手續費",
       "aiRewards": {
         "Food & Dining": 3,
+        "Travel": 3.0,
         "Flights": 3,
         "Hotels": 3,
         "Gas & Transit": 3,
@@ -445,6 +449,7 @@
       "benefits_zh_CN": "旅行和餐饮2倍积分\n其他消费1.5倍积分\n每年$100航空附加费返现\n$100 Global Entry/TSA PreCheck费用返还\n优选奖励会员可享最高75%加成",
       "benefits_zh_TW": "旅遊與餐飲2倍積分\n其他消費1.5倍積分\n每年$100航空雜費抵扣\n$100 Global Entry/TSA PreCheck費用補貼\n優選獎勵會員可享最高75%加成",
       "aiRewards": {
+        "Travel": 2.0,
         "Flights": 2,
         "Hotels": 2,
         "Food & Dining": 2,
@@ -480,6 +485,7 @@
       "benefits_zh_TW": "餐飲3倍積分\n旅遊2倍積分\n房租1倍積分（無手續費）\n其他消費1倍積分\n免年費\n無國外交易手續費\n每月1日租金日雙倍積分",
       "aiRewards": {
         "Food & Dining": 4.8,
+        "Travel": 3.2,
         "Flights": 3.2,
         "Hotels": 3.2,
         "Everything": 1.6
@@ -497,6 +503,7 @@
       "benefits_zh_CN": "通过Altitude奖励预付酒店和租车5倍积分\n旅行和移动支付3倍积分\n其他消费1倍积分\n每年$325旅行/餐饮消费返现\n优先通行贵宾厅访问权限\nGlobal Entry/TSA PreCheck费用返还\n无境外交易手续费",
       "benefits_zh_TW": "透過Altitude Rewards預付飯店與租車5倍積分\n旅遊與行動支付3倍積分\n其他消費1倍積分\n每年$325旅遊/餐飲消費抵扣\nPriority Pass貴賓室使用權\nGlobal Entry/TSA PreCheck費用補貼\n無國外交易手續費",
       "aiRewards": {
+        "Travel": 4.5,
         "Hotels": 7.5,
         "Car Rental": 7.5,
         "Flights": 4.5,
@@ -516,6 +523,7 @@
       "benefits_zh_CN": "旅行3倍积分\n其他消费2倍积分\n优先通行贵宾厅访问权限\nGlobal Entry/TSA PreCheck费用返还\n无境外交易手续费",
       "benefits_zh_TW": "旅遊3倍積分\n其他消費2倍積分\nPriority Pass貴賓室使用權\nGlobal Entry/TSA PreCheck費用補貼\n無國外交易手續費",
       "aiRewards": {
+        "Travel": 3.0,
         "Flights": 3,
         "Hotels": 3,
         "Everything": 2
@@ -659,6 +667,7 @@
       "benefits_zh_CN": "旅行和交通3倍积分\n全球餐饮3倍积分\n其他消费1倍积分\n每年$189 CLEAR Plus费用返还\n每年$100 LoungeBuddy返现\n无境外交易手续费",
       "benefits_zh_TW": "旅遊與交通3倍積分\n全球餐飲3倍積分\n其他消費1倍積分\n每年$189 CLEAR Plus費用補貼\n每年$100 LoungeBuddy抵扣\n無國外交易手續費",
       "aiRewards": {
+        "Travel": 4.5,
         "Flights": 4.5,
         "Hotels": 4.5,
         "Gas & Transit": 4.5,
@@ -747,6 +756,7 @@
       "benefits_zh_CN": "IHG酒店26倍积分\n餐饮、加油、旅行5倍积分\n其他消费3倍积分\n每年周年纪念免费住宿（最高40,000积分）\n白金精英会员资格\n奖励住宿第4晚免费",
       "benefits_zh_TW": "IHG飯店26倍積分\n餐飲、加油、旅遊5倍積分\n其他消費3倍積分\n每年週年免費住宿（最高40,000積分）\n白金菁英會員資格\n獎勵住宿第4晚免費",
       "aiRewards": {
+        "Travel": 2.5,
         "Hotels": 13,
         "Food & Dining": 2.5,
         "Gas & Transit": 2.5,
@@ -820,6 +830,7 @@
       "benefits_zh_CN": "旅行和加油站4倍积分\n餐饮、流媒体和杂货店2倍积分\n其他消费1倍积分\n$30流媒体消费返现\n无境外交易手续费",
       "benefits_zh_TW": "旅遊與加油站4倍積分\n餐飲、串流媒體與雜貨店2倍積分\n其他消費1倍積分\n$30串流媒體消費抵扣\n無國外交易手續費",
       "aiRewards": {
+        "Travel": 4.0,
         "Flights": 4,
         "Hotels": 4,
         "Gas & Transit": 4,
@@ -1067,6 +1078,7 @@
       "benefits_zh_CN": "United购买3倍里程\n旅行、餐饮和流媒体2倍里程\n其他消费1倍里程\n每年$125 United消费返现\n兑换奖励机票后返还5,000里程\n第一和第二件托运行李免费",
       "benefits_zh_TW": "United消費3倍里程\n旅遊、餐飲與串流媒體2倍里程\n其他消費1倍里程\n每年$125 United消費抵扣\n兌換獎勵機票後返還5,000里程\n首件與第二件托運行李免費",
       "aiRewards": {
+        "Travel": 2.6,
         "Flights": 3.9,
         "Food & Dining": 2.6,
         "Entertainment": 2.6,
@@ -1085,6 +1097,7 @@
       "benefits_zh_CN": "United购买4倍里程\n旅行和餐饮2倍里程\n其他消费1倍里程\nUnited Club会员资格\n第一和第二件托运行李免费\nGlobal Entry/TSA PreCheck费用返还",
       "benefits_zh_TW": "United消費4倍里程\n旅遊與餐飲2倍里程\n其他消費1倍里程\nUnited Club會員資格\n首件與第二件托運行李免費\nGlobal Entry/TSA PreCheck費用補貼",
       "aiRewards": {
+        "Travel": 2.6,
         "Flights": 5.2,
         "Food & Dining": 2.6,
         "Hotels": 2.6,
@@ -1379,6 +1392,7 @@
       "aiRewards": {
         "Gas & Transit": 4,
         "Food & Dining": 3,
+        "Travel": 3.0,
         "Flights": 3,
         "Hotels": 3,
         "Shopping": 2,
@@ -1399,6 +1413,7 @@
       "aiRewards": {
         "Gas & Transit": 4,
         "Food & Dining": 3,
+        "Travel": 3.0,
         "Flights": 3,
         "Hotels": 3,
         "Shopping": 2,
@@ -1464,6 +1479,7 @@
       "benefits_zh_CN": "酒店5倍积分\n航空公司4倍积分\n其他旅行和餐厅3倍积分\n其他消费1倍积分\n每年$50航空消费返现",
       "benefits_zh_TW": "飯店5倍積分\n航空公司4倍積分\n其他旅遊與餐廳3倍積分\n其他消費1倍積分\n每年$50航空消費抵扣",
       "aiRewards": {
+        "Travel": 3.0,
         "Hotels": 5,
         "Flights": 4,
         "Food & Dining": 3,
@@ -2771,6 +2787,7 @@
       "benefits_zh_CN": "旅行每消费1加元获5个BMO奖励积分\n餐饮和娱乐每消费1加元获3积分\n其他消费每消费1加元获1积分\n机场贵宾厅通行证\n综合旅行保险",
       "benefits_zh_TW": "旅遊每消費1加元獲5個BMO獎勵積分\n餐飲與娛樂每消費1加元獲3積分\n其他消費每消費1加元獲1積分\n機場貴賓室通行證\n綜合旅遊保險",
       "aiRewards": {
+        "Travel": 3.5,
         "Flights": 3.5,
         "Hotels": 3.5,
         "Food & Dining": 2.1,
@@ -2793,6 +2810,7 @@
         "Food & Dining": 7.5,
         "Groceries": 7.5,
         "Entertainment": 4.5,
+        "Travel": 3.0,
         "Flights": 3,
         "Hotels": 3,
         "Gas & Transit": 3,
@@ -2862,6 +2880,7 @@
       "benefits_zh_TW": "餐飲與外送3倍積分\n旅遊2倍積分\n其他消費1倍積分\n每年$200旅遊消費抵扣\n每年$200餐飲消費抵扣\n每年$100 NEXUS卡費用補貼\n全球貴賓室聯盟（1,400+貴賓室）\n飯店菁英會員資格（萬豪與希爾頓）",
       "aiRewards": {
         "Food & Dining": 4.5,
+        "Travel": 3.0,
         "Flights": 3,
         "Hotels": 3,
         "Everything": 1.5
@@ -2913,6 +2932,7 @@
       "benefits_zh_CN": "旅行、加油、杂货和药店2倍积分\n其他消费1倍积分\n每年$100旅行消费返现\n优先通行贵宾厅访问权限",
       "benefits_zh_TW": "旅遊、加油、雜貨與藥妝店2倍積分\n其他消費1倍積分\n每年$100旅遊消費抵扣\nPriority Pass貴賓室使用權",
       "aiRewards": {
+        "Travel": 3.0,
         "Flights": 3,
         "Hotels": 3,
         "Gas & Transit": 3,
@@ -2999,6 +3019,7 @@
         "Food & Dining": 3.5,
         "Groceries": 3.5,
         "Gas & Transit": 3.5,
+        "Travel": 3.5,
         "Flights": 3.5,
         "Everything": 0.7
       }
@@ -3015,6 +3036,7 @@
       "benefits_zh_CN": "通过CIBC预订旅行2倍积分\n加油、杂货和药店1.5倍积分\n其他消费1倍积分\nNEXUS费用返还",
       "benefits_zh_TW": "透過CIBC預訂旅遊2倍積分\n加油、雜貨與藥妝店1.5倍積分\n其他消費1倍積分\nNEXUS費用補貼",
       "aiRewards": {
+        "Travel": 2.0,
         "Flights": 2,
         "Hotels": 2,
         "Gas & Transit": 1.5,
@@ -3156,6 +3178,7 @@
       "aiRewards": {
         "Groceries": 2.5,
         "Food & Dining": 2.5,
+        "Travel": 1.0,
         "Flights": 1,
         "Hotels": 1,
         "Everything": 0.5
@@ -3329,6 +3352,7 @@
       "benefits_zh_CN": "Expedia for TD 9倍TD奖励积分\n旅行、加油和旅行相关消费6倍积分\n总体2倍积分\n旅行保险套餐",
       "benefits_zh_TW": "Expedia for TD 9倍TD獎勵積分\n旅遊、加油與旅遊相關消費6倍積分\n整體2倍積分\n旅遊保險套餐",
       "aiRewards": {
+        "Travel": 3.0,
         "Flights": 4.5,
         "Hotels": 4.5,
         "Gas & Transit": 3,
@@ -3347,6 +3371,7 @@
       "benefits_zh_CN": "Air Canada消费每消费1加元获2个Aeroplan积分\n旅行和餐饮1.5倍积分\n总体1倍积分\n第一件托运行李免费",
       "benefits_zh_TW": "Air Canada消費每消費1加元獲2個Aeroplan積分\n旅遊與餐飲1.5倍積分\n整體1倍積分\n首件托運行李免費",
       "aiRewards": {
+        "Travel": 2.7,
         "Flights": 3.6,
         "Food & Dining": 2.7,
         "Everything": 1.8
@@ -10835,7 +10860,7 @@
       "aiRewards": {
         "Food & Dining": 2.25,
         "Groceries": 2.25,
-        "Travel": 3.0,
+        "Travel": 2.25,
         "Flights": 3.0,
         "Hotels": 2.25,
         "Gas & Transit": 2.25,
