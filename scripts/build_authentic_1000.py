@@ -55,12 +55,8 @@ for c in cards:
 
     fee = c.get('annualFee', 0)
     base_rate = 1.5 if fee == 0 else 2.0
-    if 'Everything' not in rewards or rewards['Everything'] == 0:
+    if 'Everything' not in rewards:
         rewards['Everything'] = base_rate
-
-    for cat in ['Food & Dining', 'Groceries', 'Travel', 'Flights', 'Hotels', 'Gas & Transit', 'Shopping', 'Car Rental', 'Entertainment']:
-        if cat in rewards and rewards[cat] == 0:
-            rewards[cat] = rewards['Everything']
 
     c['aiRewards'] = rewards
 
