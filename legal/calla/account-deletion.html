@@ -3,6 +3,9 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="How to permanently delete your Calla account and every record, in the app or by email." />
+  <meta name="theme-color" content="#faf8f5" media="(prefers-color-scheme: light)" />
+  <meta name="theme-color" content="#16150f" media="(prefers-color-scheme: dark)" />
   <title>Calla — Delete Your Account</title>
   <link rel="icon" href="../../assets/icons/calla.png" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -225,6 +228,19 @@
       color: var(--ink-faint);
       border-top: 1px solid var(--line);
     }
+    .lang-switch button { white-space: nowrap; }
+
+    /* Phones: the desktop gutters (24px page + 30px card) left a ~210px
+       column at 320px wide. Trim both so the text gets the width. */
+    @media (max-width: 480px) {
+      .top-nav { padding: 12px 16px; gap: 10px; }
+      .top-nav .app-label { font-size: 14.5px; }
+      header { padding: 40px 16px 4px; }
+      .container { margin-top: 28px; padding: 0 16px 56px; }
+      .section { padding: 22px 20px; border-radius: 14px; }
+      .section ul, .section ol { padding-left: 18px; }
+      .callout, .highlight, .note, .disclaimer { padding: 14px 15px; }
+    }
   </style>
 </head>
 <body>
@@ -253,7 +269,7 @@
       <h2>1. Delete Your Account in the App</h2>
       <p>You can delete your account and all of your data directly inside the app:</p>
       <ol>
-        <li>Open <strong>Calla</strong> and go to <strong>Settings</strong> (the gear on the Home screen).</li>
+        <li>Open <strong>Calla</strong> and go to <strong>Settings</strong> (tap your initial or photo at the top-left of the Home screen).</li>
         <li>Scroll to the bottom and tap <strong>Delete account &amp; data</strong>.</li>
         <li>Confirm the deletion. For security you may be asked to re-enter your password or re-confirm your Apple or Google sign-in.</li>
       </ol>
@@ -271,7 +287,8 @@
         <li>Internal rate-limit counters tied to your account.</li>
       </ul>
       <p style="margin-top: 10px;">The app performs this itself, and a <strong>server-side job runs the same sweep independently</strong>, triggered by the account's removal. That covers deletions made outside the app and devices that lose connection partway through, and it retries until it finishes — so a partial deletion cannot leave readable health data behind.</p>
-      <p style="margin-top: 10px;"><strong>Not affected:</strong> the data in Apple Health or Health Connect itself. If you let Calla write back the water you logged and its mindful minutes, those entries remain in your health app; you can delete them there — in Apple Health, via <em>Browse → the data type → Show All Data</em>, filtering by Calla as the source.</p>
+      <p style="margin-top: 10px;"><strong>Not affected:</strong> the data in Apple Health or Health Connect itself. If you let Calla write back what you recorded — water, mindful minutes, or readings you typed in by hand — those entries remain in your health app; you can delete them there — in Apple Health, via <em>Browse → the data type → Show All Data</em>, filtering by Calla as the source; in Health Connect, via <em>App permissions → Calla → Delete app data</em>.</p>
+      <p style="margin-top: 10px;"><strong>Calla Plus:</strong> a purchase belongs to your App Store or Google Play account, not to your Calla account, so deleting Calla does not refund it. If you sign up again later, <strong>Settings → Restore purchases</strong> brings it back.</p>
     </div>
 
     <div class="section">
@@ -284,7 +301,7 @@
       <p>If you can't access the app or run into any issue deleting your account, email us at <a class="contact-link" href="mailto:wksunshine@gmail.com">wksunshine@gmail.com</a> from the address you signed up with, and we'll complete the deletion for you.</p>
     </div>
 
-    <p class="updated">Last updated: July 2026</p>
+    <p class="updated">Last updated: September 2026</p>
   </div>
 </div>
 
@@ -301,7 +318,7 @@
       <h2>1. 在應用程式內刪除帳號</h2>
       <p>您可直接在應用程式內刪除帳號及所有資料：</p>
       <ol>
-        <li>開啟 <strong>Calla</strong>，前往<strong>設定</strong>（主畫面上的齒輪）。</li>
+        <li>開啟 <strong>Calla</strong>，前往<strong>設定</strong>（點選主畫面左上角的姓名縮寫或頭像）。</li>
         <li>捲動至底部，點選<strong>刪除帳號與資料</strong>。</li>
         <li>確認刪除。為安全起見，系統可能要求您重新輸入密碼，或重新確認您的 Apple 或 Google 登入。</li>
       </ol>
@@ -319,7 +336,8 @@
         <li>與您帳號相關的內部流量限制計數器。</li>
       </ul>
       <p style="margin-top: 10px;">應用程式會自行執行上述作業，同時<strong>伺服器端的作業也會獨立執行相同的清除</strong>，由帳號的移除觸發。這涵蓋了在應用程式外進行的刪除，以及裝置在中途斷線的情況，並會持續重試直到完成 — 因此不完整的刪除不會留下任何可讀取的健康資料。</p>
-      <p style="margin-top: 10px;"><strong>不受影響：</strong>Apple 健康或 Health Connect 本身的資料。若您曾允許 Calla 寫回您記錄的飲水量及正念分鐘數，這些記錄會保留在您的健康應用程式中；您可在該處刪除 — 在 Apple 健康中，可透過<em>瀏覽 → 該資料類型 → 顯示所有資料</em>，並以 Calla 作為來源進行篩選。</p>
+      <p style="margin-top: 10px;"><strong>不受影響：</strong>Apple 健康或 Health Connect 本身的資料。若您曾允許 Calla 寫回您記錄的資料 — 飲水量、正念分鐘數或您手動輸入的讀數 — 這些記錄會保留在您的健康應用程式中；您可在該處刪除 — 在 Apple 健康中，可透過<em>瀏覽 → 該資料類型 → 顯示所有資料</em>，並以 Calla 作為來源進行篩選；在 Health Connect 中，可透過<em>應用程式權限 → Calla → 刪除應用程式資料</em>。</p>
+      <p style="margin-top: 10px;"><strong>Calla Plus：</strong>購買屬於您的 App Store 或 Google Play 帳號，而非 Calla 帳號，因此刪除 Calla 帳號不會退款。日後重新註冊時，可在「<strong>設定 → 恢復購買</strong>」找回。</p>
     </div>
 
     <div class="section">
@@ -332,7 +350,7 @@
       <p>若您無法存取應用程式，或在刪除帳號時遇到任何問題，請使用註冊時的電子郵件地址發送郵件至 <a class="contact-link" href="mailto:wksunshine@gmail.com">wksunshine@gmail.com</a>，我們會協助您完成刪除。</p>
     </div>
 
-    <p class="updated">最後更新：2026 年 7 月</p>
+    <p class="updated">最後更新：2026 年 9 月</p>
   </div>
 </div>
 

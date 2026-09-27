@@ -3,6 +3,9 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Help and answers for Calla, a gentle health companion: accounts, health sync, reminders, the care circle, exports, Calla Plus, and how to reach us." />
+  <meta name="theme-color" content="#faf8f5" media="(prefers-color-scheme: light)" />
+  <meta name="theme-color" content="#16150f" media="(prefers-color-scheme: dark)" />
   <title>Calla Support</title>
   <link rel="icon" href="../../assets/icons/calla.png" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -181,6 +184,8 @@
     .contact-link { color: var(--accent); font-weight: 500; text-decoration-color: color-mix(in srgb, var(--accent) 40%, transparent); }
     .contact-link:hover { text-decoration-color: var(--accent); }
 
+    .section .contact-email { margin-top: 14px; font-size: 14px; color: var(--ink-faint); }
+
     .contact-btn {
       display: inline-block;
       background: var(--accent);
@@ -225,6 +230,19 @@
       color: var(--ink-faint);
       border-top: 1px solid var(--line);
     }
+    .lang-switch button { white-space: nowrap; }
+
+    /* Phones: the desktop gutters (24px page + 30px card) left a ~210px
+       column at 320px wide. Trim both so the text gets the width. */
+    @media (max-width: 480px) {
+      .top-nav { padding: 12px 16px; gap: 10px; }
+      .top-nav .app-label { font-size: 14.5px; }
+      header { padding: 40px 16px 4px; }
+      .container { margin-top: 28px; padding: 0 16px 56px; }
+      .section { padding: 22px 20px; border-radius: 14px; }
+      .section ul, .section ol { padding-left: 18px; }
+      .callout, .highlight, .note, .disclaimer { padding: 14px 15px; }
+    }
   </style>
 </head>
 <body>
@@ -253,7 +271,7 @@
       <h2>Contact Us</h2>
       <p>Have a question, found a bug, or want to share feedback? Reach out and we'll get back to you.</p>
       <a class="contact-btn" href="mailto:wksunshine@gmail.com">Email Support</a>
-      <p style="margin-top:14px; font-size:14px; color:#888;">wksunshine@gmail.com</p>
+      <p class="contact-email">wksunshine@gmail.com</p>
     </div>
 
     <div class="section">
@@ -281,27 +299,44 @@
 
       <div class="faq-item">
         <h3>Can Calla read my Apple Health or Health Connect data?</h3>
-        <p>Only if you turn on health sync in Settings, and only read-only: steps, sleep, heart rate, and weight. Imported readings fill in your vitals automatically. You can turn it off any time in Settings, or revoke access in your device's health settings.</p>
+        <p>Only if you turn on health sync in Settings. Calla then reads steps, sleep, heart rate, weight, blood pressure, body temperature, blood glucose and water, and fills in your vitals automatically. Writing back is a separate switch: if you allow it, the water, mindful minutes and hand-typed readings you record in Calla are saved to your health app too. You can turn either off any time in Settings, or revoke access in your device's health settings.</p>
       </div>
 
       <div class="faq-item">
         <h3>How do reminders work?</h3>
-        <p>Turn on daily reminders in Settings and pick your times — Calla nudges you for medications and check-ins, and alerts you before appointments. Reminders are scheduled locally on your device. If they don't appear, check that notifications are allowed for Calla in your device settings.</p>
+        <p>Turn on daily reminders in Settings and pick your times — Calla nudges you for medications and check-ins, and alerts you before appointments. A dose reminder has <strong>Taken</strong> and <strong>Remind me in 15m</strong> buttons you can use from the Lock Screen, and quiet hours keep the rest silent overnight. Reminders are scheduled locally on your device. If they don't appear, check that notifications are allowed for Calla in your device settings.</p>
       </div>
 
       <div class="faq-item">
         <h3>What is the care circle?</h3>
-        <p>A place to keep the family members and carers who support you — their names, roles, and contact details — so the people who matter are one tap away.</p>
+        <p>A place to keep the family members and carers who support you, and — if you choose — to share with them. Pick what each person can see, send them an invite code, and they follow your updates in their own copy of Calla under <strong>Someone shared with me</strong>. A code works for one account only; you can set an expiry, see when it was claimed, and stop sharing at any moment. Photos, your journal, cycle data and AI chats are never shared.</p>
       </div>
 
       <div class="faq-item">
         <h3>Can I get my data out?</h3>
-        <p>Yes — <strong>Settings → Export</strong> builds a plain-text summary of your check-ins, vitals, symptoms, meds, and appointments that you can share or print, handy for a doctor's visit.</p>
+        <p>Yes — <strong>Settings → Your data</strong> exports everything as a PDF (handy for a doctor's visit), a CSV spreadsheet, plain text, or a full Calla backup, for the last 30 days up to all time. A backup can be restored later, and you can import readings from a CSV file.</p>
       </div>
 
       <div class="faq-item">
         <h3>Where is my data stored?</h3>
         <p>In your own private account on Google Firebase, restricted to you by security rules. The free plan shows non-personalized ads, but there is no cross-app tracking, and your health data is never sold or used for advertising or marketing. See the <a class="contact-link" href="privacy-policy.html">Privacy Policy</a>.</p>
+      </div>
+
+      <div class="faq-item">
+        <h3>Can I keep Calla private on a shared phone?</h3>
+        <p>Yes. In <strong>Settings → Privacy</strong>, <strong>App lock</strong> asks for Face ID, fingerprint or your passcode to open Calla, and <strong>Privacy mode</strong> keeps medication and appointment names out of notifications, blurs Calla in the app switcher, and blocks screenshots where your device allows.</p>
+      </div>
+      <div class="faq-item">
+        <h3>Does Calla work offline?</h3>
+        <p>Yes. Your entries are cached on your device, and check-ins, photos and changes you make offline wait in a queue and sync when you're back online. <strong>Settings → Status</strong> shows whether anything is still waiting.</p>
+      </div>
+      <div class="faq-item">
+        <h3>What is Calla Plus?</h3>
+        <p>A one-time purchase — not a subscription — that removes ads. Buy it in <strong>Settings → Calla Plus</strong>. On a new phone, or after reinstalling, tap <strong>Restore purchases</strong> there. Refunds are handled by the App Store or Google Play.</p>
+      </div>
+      <div class="faq-item">
+        <h3>Which languages does Calla speak?</h3>
+        <p>English, Spanish and Chinese. By default Calla follows your device's language; you can pick one in <strong>Settings → Language</strong>.</p>
       </div>
 
       <div class="faq-item">
@@ -332,7 +367,7 @@
       <h2>聯絡我們</h2>
       <p>有任何問題、發現 Bug 或想提供意見？歡迎寫信給我們，我們會盡快回覆。</p>
       <a class="contact-btn" href="mailto:wksunshine@gmail.com">發送郵件</a>
-      <p style="margin-top:14px; font-size:14px; color:#888;">wksunshine@gmail.com</p>
+      <p class="contact-email">wksunshine@gmail.com</p>
     </div>
 
     <div class="section">
@@ -360,27 +395,44 @@
 
       <div class="faq-item">
         <h3>Calla 會讀取我的 Apple 健康或 Health Connect 資料嗎？</h3>
-        <p>只有在您於「設定」開啟健康同步後才會，而且僅為唯讀：步數、睡眠、心率及體重。匯入的讀數會自動補齊您的生命體徵。您可隨時在「設定」關閉，或在裝置的健康設定中撤銷存取權。</p>
+        <p>只有在您於「設定」開啟健康同步後才會。Calla 會讀取步數、睡眠、心率、體重、血壓、體溫、血糖及飲水量，並自動補齊您的生命體徵。寫回是另一個獨立開關：若您允許，您在 Calla 記錄的飲水量、正念分鐘數及手動輸入的讀數也會存入您的健康應用程式。兩者皆可隨時在「設定」關閉，或在裝置的健康設定中撤銷存取權。</p>
       </div>
 
       <div class="faq-item">
         <h3>提醒如何運作？</h3>
-        <p>在「設定」開啟每日提醒並選擇時間 — Calla 會提醒您服藥和打卡，並在預約前通知您。提醒都在您的裝置本機排程。若未收到提醒，請確認裝置設定中已允許 Calla 的通知。</p>
+        <p>在「設定」開啟每日提醒並選擇時間 — Calla 會提醒您服藥和打卡，並在預約前通知您。服藥提醒附有「<strong>已服用</strong>」及「<strong>15 分鐘後提醒</strong>」按鈕，可直接在鎖定畫面操作；勿擾時段則讓其他提醒在夜間保持安靜。提醒都在您的裝置本機排程。若未收到提醒，請確認裝置設定中已允許 Calla 的通知。</p>
       </div>
 
       <div class="faq-item">
         <h3>什麼是關懷圈？</h3>
-        <p>一個保存支持您的家人和照顧者的地方 — 他們的姓名、角色和聯絡方式 — 讓重要的人一鍵可及。</p>
+        <p>一個保存支持您的家人和照顧者的地方，並可在您選擇時與他們分享。為每個人選擇可查看的內容，傳送邀請碼給對方，對方即可在自己的 Calla 中透過「<strong>有人與我分享</strong>」追蹤您的近況。每組邀請碼只限一個帳號使用；您可設定到期日、查看何時被領取，並隨時停止分享。照片、日記、生理週期資料及 AI 聊天絕不會被分享。</p>
       </div>
 
       <div class="faq-item">
         <h3>我可以匯出資料嗎？</h3>
-        <p>可以 — 「<strong>設定 → 匯出</strong>」會產生一份純文字摘要，包含您的打卡、生命體徵、症狀、藥物及預約，方便分享或列印，看診時特別實用。</p>
+        <p>可以 — 「<strong>設定 → 您的資料</strong>」可將所有資料匯出為 PDF（看診時特別實用）、CSV 試算表、純文字或完整的 Calla 備份，範圍從最近 30 天到全部。備份日後可還原，您也可以從 CSV 檔匯入讀數。</p>
       </div>
 
       <div class="faq-item">
         <h3>我的資料儲存在哪裡？</h3>
         <p>儲存在您於 Google Firebase 上的私人帳號中，安全規則確保僅您本人可存取。免費方案會顯示非個人化廣告，但沒有跨應用程式追蹤，您的健康資料絕不出售或用於廣告或行銷。詳情請參閱<a class="contact-link" href="privacy-policy.html">隱私政策</a>。</p>
+      </div>
+
+      <div class="faq-item">
+        <h3>在共用手機上，我能讓 Calla 保持私密嗎？</h3>
+        <p>可以。在「<strong>設定 → 隱私</strong>」中，<strong>應用程式鎖</strong>會在開啟 Calla 時要求 Face ID、指紋或裝置密碼；<strong>隱私模式</strong>則會讓通知不顯示藥物與預約名稱、在多工畫面中模糊 Calla，並在裝置允許時阻擋截圖。</p>
+      </div>
+      <div class="faq-item">
+        <h3>Calla 可以離線使用嗎？</h3>
+        <p>可以。您的記錄會快取在裝置上；離線時的打卡、照片和變更會排入佇列，恢復連線後自動同步。「<strong>設定 → 狀態</strong>」會顯示是否仍有待上傳的項目。</p>
+      </div>
+      <div class="faq-item">
+        <h3>什麼是 Calla Plus？</h3>
+        <p>一次性購買（非訂閱），可移除廣告。在「<strong>設定 → Calla Plus</strong>」購買。換新手機或重新安裝後，在同一處點選「<strong>恢復購買</strong>」即可。退款由 App Store 或 Google Play 處理。</p>
+      </div>
+      <div class="faq-item">
+        <h3>Calla 支援哪些語言？</h3>
+        <p>英文、西班牙文及中文。Calla 預設跟隨裝置語言；您也可在「<strong>設定 → 語言</strong>」中選擇。</p>
       </div>
 
       <div class="faq-item">
